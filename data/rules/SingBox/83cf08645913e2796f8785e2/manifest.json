@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:56.697457+00:00",
+  "client": "SingBox",
+  "rule": "Lenovo",
+  "rule_updated_at": "2026-07-26T06:26:52.525280+00:00",
+  "type_counts": {
+    "domain_suffix": 60
+  },
+  "total_line_count": 60,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Lenovo_source_f6a63ffebeff6cdc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "36f369518ca67f99336c48213694eb228bb9e071d7392972b1b5303b377b7116",
+        "bytes_sha256": "2eec7b036629b7911d17703b94570c36be7e3c4c380966c63914c06f07e1a886",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Lenovo_source-srs_b6b44c49b195b6ef.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d6819a6d87a57b9b9946736030cf39de595a90de528fcf1d11d4c874312dc23",
+        "bytes_sha256": "1f2590ea137ce3c80b795386bab3bad0fa7b19e51ee9b07c892ecb86223b2d29",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Lenovo.list"
+  ]
+}

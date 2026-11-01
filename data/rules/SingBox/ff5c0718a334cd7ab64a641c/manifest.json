@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:21.562895+00:00",
+  "client": "SingBox",
+  "rule": "AppleTV",
+  "rule_updated_at": "2026-07-26T06:33:33.588864+00:00",
+  "type_counts": {
+    "domain_suffix": 1,
+    "domain": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleTV_source_c174104da7ff56c1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e0ed8ae4c071f9ede9e00e961684cdb1bcb079503c70842407c4a42ff3e3f3e3",
+        "bytes_sha256": "ba76618ece16311660c7a333f4e4cecb039c82f4327c207e2e2e503369144554",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleTV_source-srs_02e3a6e263c0b5f5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d239c9ba19c19cde6e1758cd89c742c54b84e4b8acda0a9d7f0a733d35344f1a",
+        "bytes_sha256": "71a3092f7d2ce06c14ca8868a810de1c5be0dc3d04d1a2bfc5245b41c6e86c69",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list"
+  ]
+}

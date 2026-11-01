@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:02:58.866198+00:00",
+  "client": "Egern",
+  "rule": "Mogujie",
+  "rule_updated_at": "2026-07-26T06:27:15.578838+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Mogujie_rules_ac18fa3023946c14.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d60e48af77f07afd5435854298b5674bb1f8f1af7a5043f368427fce43ee379",
+        "bytes_sha256": "6c2f8421458b4aa8753ef76eb944b26e8626658209c8f30859419138b41d2ebe",
+        "semantic_sha256": "c788ac32dd348333e9f20aa4e17f94dd299494085370c5de9327d279262732dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Mogujie.list"
+  ]
+}

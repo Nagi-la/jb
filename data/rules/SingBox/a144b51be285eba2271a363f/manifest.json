@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:41.568783+00:00",
+  "client": "SingBox",
+  "rule": "Pinterest",
+  "rule_updated_at": "2026-07-26T06:53:00.649185+00:00",
+  "type_counts": {
+    "domain_suffix": 52
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Pinterest_source_5a222e5f18de4a58.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "92e0df605bb65efee367c6291faf153b881b747d404135441e974d0be235cf86",
+        "bytes_sha256": "1042d3ebd7b249d213319ab235f871985bff5573e06f728c0b6ae1bfe18d94d7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Pinterest_source-srs_56523e3e70598b9b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dfc1eb061a0fd3623b06cca20cefa4acf230369f53f5d4466d4466d4788b4f1c",
+        "bytes_sha256": "6cc3cb87b423c9ec6f07d760e50fe6b384dbd6eedc83804899eca33229a0fc9f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pinterest.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pinterest.list"
+  ]
+}

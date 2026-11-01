@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:06.829536+00:00",
+  "client": "Shadowrocket",
+  "rule": "LanZou",
+  "rule_updated_at": "2026-07-26T08:33:20.126945+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 28
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LanZou_rules_2df1a5237d0d2c04.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5575662c67996c369da0e3851df396a7883e7f52c6d3a7fb572b50204e85b8e2",
+        "bytes_sha256": "cfd383898171584db2992b939917526abda1dc286ba1b3db54c550416b006cc0",
+        "semantic_sha256": "b4281297266c4f8cbe6f81fe0caf73765f9fbecb063c73f453e73d3213fd4e79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LanZou_domain-set_9c0bdd9a8711618b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9618f7a840691fdbdcf313807bf0df0f9fa3531d3a90e3f7ca1e09ce885f33ae",
+        "bytes_sha256": "df9997ccbe7eb254e43ff20207388ede782fdfd117b78420da9c019ea13dae72",
+        "semantic_sha256": "13f206d56be2cfce6bf554f58415e569592c8382eae0b239a7f72b7e270f3604",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

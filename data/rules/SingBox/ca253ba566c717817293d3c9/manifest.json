@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:57.958355+00:00",
+  "client": "SingBox",
+  "rule": "ifanr",
+  "rule_updated_at": "2026-07-26T06:30:06.020676+00:00",
+  "type_counts": {
+    "domain_suffix": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ifanr_source_c283a3787c456b77.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5593b41ca49b6b711818d1a96861eb7a88a27d8978fc2e667efacba5ca3e6c57",
+        "bytes_sha256": "30c832bd94b4080eeace68ae1a826a9813ab287dded7cbb438c0eaed88cbf0e2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ifanr_source-srs_7f271f0fd49346e9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72ceed637a4c49e7bf2453b64a25c8cbc2196839b77036707193e49f4c59771b",
+        "bytes_sha256": "c61a3c35a9449deb20abc6a023dc729d2c1beda0e0767c596b97ec9ac9671900",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ifanr.list"
+  ]
+}

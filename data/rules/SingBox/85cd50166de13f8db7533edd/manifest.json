@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:05:28.384281+00:00",
+  "client": "SingBox",
+  "rule": "Qobuz",
+  "rule_updated_at": "2026-07-26T06:22:27.507895+00:00",
+  "type_counts": {
+    "domain_suffix": 31,
+    "ip_cidr": 2
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Qobuz_source_794b90517fabaebd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "abb624c6c4104b46f47e105e4e8177f70855b51f85194d851489f1f507035238",
+        "bytes_sha256": "b204e5ecb8cd650554cfbbcac4592bf290cdabdcd4c6acb4c9271c78e0f65b4f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Qobuz_source-srs_535dc4f8d94bfd06.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "32c0374dd9d3ad7ade4fc0091fd29687c7e733c91603c0863d96b6b532004e1f",
+        "bytes_sha256": "86d2830682e0c076e8f5e4f1dfac6551a65464e988bbb59f9ef751413aa6c4df",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Qobuz.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Qobuz.list"
+  ]
+}

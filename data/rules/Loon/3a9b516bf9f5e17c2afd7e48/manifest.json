@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:53.182369+00:00",
+  "client": "Loon",
+  "rule": "DouBan",
+  "rule_updated_at": "2026-07-26T06:24:42.148237+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DouBan_rules_d666a16fcf11425c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d21639d8b332ac581cad401c9c36ccf15e22c1d78dbd1ea5fc60abc4ac258d0d",
+        "bytes_sha256": "8219de1d42ca7b7495da39efdf3b31e941facbd8acff8bd12236b030ab68cec9",
+        "semantic_sha256": "be35282a26f03421badfe7faeda44febb927e930f5675111851a39f576eb9dd6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DouBan_domain-set_55520d961066ff16.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b704f508e11385768991fc9eb3cc236d0a343ce5e0e2d566d499c591f26c21e1",
+        "bytes_sha256": "06a5de93bf526c0a19646f2e6d595f5ab51604567314a0141ed7c183b5a97edb",
+        "semantic_sha256": "e9f17c73e6a2a9f9096d125649f5d6ab44ebc8853806edb809e60a847e64796d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouBan.list"
+  ]
+}

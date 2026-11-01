@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:12.862051+00:00",
+  "client": "Stash",
+  "rule": "UnionPay",
+  "rule_updated_at": "2026-07-26T06:28:41.053834+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UnionPay_classical_6a9b432b051a408d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4abb1a3f32e96110c66a28e4047417ca899e7b636af03341407059acad4b1290",
+        "bytes_sha256": "b67014afc242bd32852ae3ba26fb0e0bc665c5086dc77f21aa80c1e633ddcc73",
+        "semantic_sha256": "516fc6271f9629bf6f4be91a84f3856e41387e85fd73aedb1e315580ec29e3ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UnionPay_domain_c73459993892a18e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7bca7465421c5a30c4b62e90022f6d0699ab8292db360920b9aaa7a986bb7fc6",
+        "bytes_sha256": "f8177a273ace3e3708b817f85ea964eeb3cb20841da372328dc7561777e84a37",
+        "semantic_sha256": "6be748f6b5d2d6cbc79a9dfd46807c068dcdb4e51af73742a95c8f01aa732d93",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UnionPay.list"
+  ]
+}

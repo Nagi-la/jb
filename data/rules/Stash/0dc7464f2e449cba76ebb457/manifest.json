@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:59.245056+00:00",
+  "client": "Stash",
+  "rule": "AppleMusic",
+  "rule_updated_at": "2026-07-26T06:33:13.202165+00:00",
+  "type_counts": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleMusic_classical_d29fca5460d9ff94.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "539765e18b91c34cc0789c4b767e0903cac20febab02a4ce436ebcec3f29458d",
+        "bytes_sha256": "b1a5e96dc29e431c1c669eeeb8bbbc420f669aa004e4edf48dec627f2c6e2da3",
+        "semantic_sha256": "39a9865c5f97b0890466943214a781ed54683d094ceade38e97bc4cea736a25d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleMusic_domain_353e8a23c3ed4091.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f58d10996af00d8088885bf90dad20b4ab3c67a96aed9ccf6dcac0c9934a3c6e",
+        "bytes_sha256": "0dbe849644159aa9bd4968751020469cf028d9c4e4ab5bf296108b9b0395c75c",
+        "semantic_sha256": "ba8728f4000523bc92f65a8db872f0cc43c9a293ffdbd6036e342323acbc6c91",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

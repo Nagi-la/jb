@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:02.905100+00:00",
+  "client": "Loon",
+  "rule": "CHT",
+  "rule_updated_at": "2026-07-26T06:48:39.111613+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CHT_rules_9e67ea88c2a4ab78.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "af6632dd8429a269f8e6200f674f9fddd88f998d41329935b72c965c3013a2bc",
+        "bytes_sha256": "4068f3b4f1bbdd5c8656979259401fb8e73611061acb7ff6ddb5d5ebf42fd832",
+        "semantic_sha256": "51220013cfd1f523ce07eb16eeeda060eddc8b896327a7024e31fef105446685",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CHT_domain-set_227cfbe526d0472b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21f4a762025f696ecaa6fc0efa844508abc1ca14d08d363aa106867600b8378c",
+        "bytes_sha256": "a1ca429cef8ca2157dc7a2638234ea9734a627edd9120a8d3405f90e78bb0313",
+        "semantic_sha256": "e6bc048cf0ab8595b723ab065177a533096e2b4e2cbae64596c75a2bcecc8298",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/CHT.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/CHT.list"
+  ]
+}

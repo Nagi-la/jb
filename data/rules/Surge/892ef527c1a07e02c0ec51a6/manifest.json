@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:55.499805+00:00",
+  "client": "Surge",
+  "rule": "ZTE",
+  "rule_updated_at": "2026-07-26T08:34:57.442559+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZTE_rules_c1a14aadeaa08135.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1f83d609e6d9925a5fe18401d84be08266325a3bcf201b127239179b243ff39",
+        "bytes_sha256": "29a7d96e5225f7949fb7b98f556dc50cb44e2d759f3dd5d6aa81e4758e87b9df",
+        "semantic_sha256": "a3f256007a504452fed523fd48f1c5a99665f43a5389e8e38946b0389dd0270b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZTE_domain-set_83e0e5eb6b5284be.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "49d377db0d85ea2f6b54279434246f726dd14f60cbb5040b9f7733b0d0a6576c",
+        "bytes_sha256": "3fcd6d7dc5b616d9111feda3dc31e7daefa5d9283ec13d4dd87e0e7452053c7b",
+        "semantic_sha256": "d57af6bedf46b9f0c405d71090b86af319cbb98922bc2dfa821959898227dc39",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:04.409417+00:00",
+  "client": "SingBox",
+  "rule": "Kubernetes",
+  "rule_updated_at": "2026-07-26T08:22:42.161298+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Kubernetes_source_ed083d751dda3ea4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6f3f23ce737097be514a32b00f76314027b2cf0e975bf6ff255e68a4c9a39cfa",
+        "bytes_sha256": "19ebbd8e950ba4857ea943c14a6590c4e5655cde2cd07ede288f8a179883108b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Kubernetes_source-srs_57df7ffdd8c308c6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dd565b02e2c85a557d22d839ab0f2245b661e6174f425b02f1ebd7c2c982f1da",
+        "bytes_sha256": "9f4d8921e7802db6399584c7510629028a6bc4c6761f8dbc04d111d774402fb2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

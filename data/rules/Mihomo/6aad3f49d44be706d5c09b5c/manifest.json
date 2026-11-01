@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-16T14:36:15.864168+00:00",
+  "client": "Mihomo",
+  "rule": "ChinaMobile",
+  "rule_updated_at": "2026-10-09T15:59:13.671476+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 51,
+    "IP-CIDR": 1
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMobile_classical_8121009801ad0a88.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "090232a955dd04e33fd5e773433344264385d34cefd14f8611e473dee2ae3170",
+        "bytes_sha256": "889d3147b1c93bfea7946cef6e87f135cd62505ed8d31fa86467ac75309bc249",
+        "semantic_sha256": "06e416b90927a4dd35cee483d4942ab8744e8dc904cc57b3a5c238cad4203816",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMobile_domain_f63681c9f1e95e40.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08ee9a349d07535ce01c740532f65a1eacd25cf9780b865f1d6cca68198b486c",
+        "bytes_sha256": "69f97740ac48dbf5b07a3cab8c2a76bc86630339984bf3076895e3a7d11e6c77",
+        "semantic_sha256": "d85aa8d61e5e324c2e6d9ef4daf4e78642f623764240169ed2f80607978a1330",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaMobile_domain-mrs_42e55a065782d4f7.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f80a1db0e31bd7321fc1de734c5835d04a850e41da52979a56c3a6dc94fd28f6",
+        "bytes_sha256": "4f139d53176f94536b257d28531904b02009b275d7d6dfe50e1a6325e39e735d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMobile_ipcidr_7351af1aaed4e74f.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5dc646aabb9c9f8c61721f994c7ae974e68fa7554abea838501e051a9583cd9b",
+        "bytes_sha256": "b37b5ee7ba2659f4ab9e42bfbb8c45b3844f75adc58243b30eaa875e33cf3fee",
+        "semantic_sha256": "d8ab167d37c3f26fad5a7858474c94fcbeafd3c36787f5e3c67ddad7926217be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaMobile_ipcidr-mrs_ebaa1321e0a78af7.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3802ea354218f2969c6b62bbf2b0058ff9a6471017bac015cc17340177a402d8",
+        "bytes_sha256": "2393f1ac32e66cf7bb04101e571129d383bc943a3ab98baf06b653ee79967f78",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaMobile.list"
+  ]
+}

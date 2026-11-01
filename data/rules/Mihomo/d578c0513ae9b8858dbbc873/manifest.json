@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:57:18.439095+00:00",
+  "client": "Mihomo",
+  "rule": "Razer",
+  "rule_updated_at": "2026-07-26T06:53:38.004580+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Razer_classical_f142e218206b39a5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "852d198daebe837252ef63951076b665a3b382623a402a42e391ce88e2ca8e78",
+        "bytes_sha256": "e37d96c41e6aa604e3d65149b0bdf3527c008e97750dbfd862add403fde06bdd",
+        "semantic_sha256": "9f718ad78a55780aec2be37f7857bf305214a77a9da880e6043975878365ddf8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Razer_domain_42a12830ca60c8a1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dadc081dd842e4d3554b35dc829fe2acdad38bb5211e926a019d2a04e16137be",
+        "bytes_sha256": "99df52b384ce2ca0a4510490f83072060ae414a0b27e6fbafcce62f71a313b6b",
+        "semantic_sha256": "e3077169aafcc9f595e952e3e9986948209afebaa3ca6a1978e594ab380e4596",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Razer_domain-mrs_3a1bd2fd55377322.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2ff16ce540a2256a5a836f344c71dc28f582538728d451c2a7c64155bf3f1714",
+        "bytes_sha256": "42189c217c4951fb96bfac4c2bda6a8a6189a4beefd1f5d894cdd3e363a229c4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Razer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Razer.list"
+  ]
+}

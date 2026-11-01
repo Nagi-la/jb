@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-29T02:49:38.631534+00:00",
+  "client": "SingBox",
+  "rule": "Microsoft",
+  "rule_updated_at": "2026-10-29T02:37:29.795471+00:00",
+  "type_counts": {
+    "domain_keyword": 4,
+    "domain": 114,
+    "domain_suffix": 788,
+    "process_name": 2
+  },
+  "total_line_count": 908,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Microsoft_source_a36355c935e4fb1d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d80c56fb20a5bf3f6f094de07883872e6c132937760ffb6e4abffe54f437ff61",
+        "bytes_sha256": "c28f0bbfc87ea065e19e1935b882978be2a767f45b834f81504e51cfeaa69e99",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Microsoft_source-srs_8f11490687e99fbe.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f7cc5045556f05b79caa0ebd20c11ad518b1f340004889bbe8235412b92e3859",
+        "bytes_sha256": "abf8cd48bffacc3e5bf0883b13b90633d0f5b7d70970542b8f8a44157c699698",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Microsoft.list"
+  ]
+}

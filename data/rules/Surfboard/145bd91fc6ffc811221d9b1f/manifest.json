@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:13.174072+00:00",
+  "client": "Surfboard",
+  "rule": "UnionPay",
+  "rule_updated_at": "2026-07-26T06:28:42.113293+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UnionPay_rules_55d20da04798b3d5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6837f7badb9116baa6bbde821adf9e52d0e0a353caccc83b4c4cbdc6de9bef0e",
+        "bytes_sha256": "849f9f9d79040ac803ba493bf7de25b99fe5d21f70f1403aee3306b9791bc0e7",
+        "semantic_sha256": "9d612b520ee0c79991d98d1b3466efc48279ee7a50863532e6a3602eff62321f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UnionPay_domain-set_cf0a943a78552793.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8774f6c8f9e5e6d422c245fc79ec078a8370dbb9a20d8ba26ff882b6408efa6",
+        "bytes_sha256": "5ee9774fc95718001ff589e255e74f21f8c35578000430eab7b9d528e1b436f8",
+        "semantic_sha256": "aa7735a7a62077c04e8fd799d3b3052636bbbded5abfc6243546248d6bdeb725",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UnionPay.list"
+  ]
+}

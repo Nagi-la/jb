@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:07:31.576421+00:00",
+  "client": "Stash",
+  "rule": "AsianMedia",
+  "rule_updated_at": "2026-07-26T06:21:11.099970+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 4,
+    "IP-CIDR": 6
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AsianMedia_classical_042510ed016d25cf.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75ca956fc09f2a31372773a77616788e955f57336db1cefac2ad727e33db6a0e",
+        "bytes_sha256": "d1140419731ab6ed9fdb50e220b88e2d8bee7f2f13cfee49fa3f0ccfa9fe1aff",
+        "semantic_sha256": "724ec424ba0f24b064103bcde0b75832ab0dd6cb6b1f1aefbbc2a2e493d4ab73",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AsianMedia_domain_f2661db8c7fd681a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40ac3d39d36244a825a03958c2b2dbee98c0c2e5750967bf69e816d6e6d07833",
+        "bytes_sha256": "f719ad32f77a2fa7fcdf8f55812248bbc50082546c53e74c997c42e31043c8cb",
+        "semantic_sha256": "f6eb3d586b1100cad1337bb167e0c3a1cc62350bea734f279c735d1bf0bc6820",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AsianMedia_ipcidr_5006ee8cb65fa34f.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c983028e91d3fab2a9ff1094c9cd9bca099f5a6082daac94bafe49eec9b267d",
+        "bytes_sha256": "bddbcfbefe21a6fbecc497a757755df26f36d817b16ce63717964368fc284ecb",
+        "semantic_sha256": "071456e125b703c7329c045b66327900a007b9a9e1109cbdc2972f331e9476af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

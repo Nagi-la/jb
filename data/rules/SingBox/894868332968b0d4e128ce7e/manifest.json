@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:19.912077+00:00",
+  "client": "SingBox",
+  "rule": "Kaggle",
+  "rule_updated_at": "2026-07-26T08:21:18.292481+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Kaggle_source_69f2175007e81052.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "92cf5fe76f1a131f2fa89df6b6ef5a5434fadb127b72b626b07d1b1d790a653a",
+        "bytes_sha256": "834a82e6e716b87c5fd57718c6244ad073b4e4a3ef29a6888c58d34de0df68c1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Kaggle_source-srs_dede8a22daa1ecb0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d2ab0233aac2fcc830ad041868309583946fd86fafed8422accf128f718d7e04",
+        "bytes_sha256": "6e3b00f7dafd2378ea09b812c2414ec6c4b57d00fc53fb12505bad8b65157e1d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

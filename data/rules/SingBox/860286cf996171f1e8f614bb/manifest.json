@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:11:28.532267+00:00",
+  "client": "SingBox",
+  "rule": "DiscoveryPlus",
+  "rule_updated_at": "2026-07-26T06:58:16.319508+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DiscoveryPlus_source_80466aeb69c7a1f1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ced835a6d4f3e7114b3fb22c7f17e722eb7f4c99f76a2da72d9d5e81e2e792eb",
+        "bytes_sha256": "d37f1dd4c4372182f409131e5d406db5672127350108832807db35780dc1acb1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DiscoveryPlus_source-srs_a64182a3fb57dfd6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "657f1e92db0b0eae45c59a7fbc73d054038496818eb61e31cfacc69bc6d16d8f",
+        "bytes_sha256": "0d8cf995e8b2d66e2ab42f4941c5a1e136f24142ec76c56a2d07315fa4bea220",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DiscoveryPlus.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiscoveryPlus.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DiscoveryPlus.list"
+  ]
+}

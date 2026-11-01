@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:57:33.521529+00:00",
+  "client": "Mihomo",
+  "rule": "friDay",
+  "rule_updated_at": "2026-07-26T06:23:01.494350+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/friDay_classical_85c684de79436f34.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0362f6cfda9fc33b7c7fef45c3308c1a9538e3d715ac9289a08d58e4f2b1970c",
+        "bytes_sha256": "eda3d17e5419d91d8585b2a838f6b78e6ccf9da5bf8636ac399ed833fcdb9f54",
+        "semantic_sha256": "bc6acaf2f1b69f159a109eb43192255df9447068e4d3d8bf043243bc4f4f3983",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/friDay_domain_314bd961936459a3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "788ba77504c718c5745f0957eecf8891fd8d275c2b4957f0e63720514ee442c7",
+        "bytes_sha256": "221223e5a1fa491cbc4547cecd28e6c6c193689ec53d860da4aa77351809d610",
+        "semantic_sha256": "d5df38cab53a1650c9560ae218ee34ef098782da39b3b9e1bdf816bc00cbff98",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/friDay_domain-mrs_c1c04f3b8e7dd196.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f2b31a5175219c824bf955f5eec282dc4fa2c96e70643df6762f2a254f7fc9a0",
+        "bytes_sha256": "0161d376658415c4c68f98368c3a75dad25c4a686facf0d769b4c919f40f59ab",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/friDay.list"
+  ]
+}

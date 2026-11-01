@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:22.626938+00:00",
+  "client": "Mihomo",
+  "rule": "AppleHardware",
+  "rule_updated_at": "2026-07-26T07:02:13.313838+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 226
+  },
+  "total_line_count": 226,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleHardware_classical_8d2a66f9db2b5312.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "af2325d324d451683641a9f780b7504727045fe8e20f5632d5662b0d4a5986c8",
+        "bytes_sha256": "6c5528356d65fdad766acfafad15b11bf55494c70bf3edcdecfc8a80dec6a9a6",
+        "semantic_sha256": "b5622034667798e9b71c8c07bb0e7a9c0133efbb8bad13fdd0ce63fcbaaa3699",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleHardware_domain_a4cd9c88c5c0f6d0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0669a59f13a4854d5d657f69b8ba052dfcd85f84f83e614d2fb8bad2caa8790f",
+        "bytes_sha256": "57f94ac9c422a3078943007649753bdc5138bc8caaef74a79f3279b9998c9f81",
+        "semantic_sha256": "59a86f82d9f39e373444e98cdaa2d59e5280f19d703bb32b8070675b07f66d76",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppleHardware_domain-mrs_ff18cd1f105058ab.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38e933a4e7b43563cabef979f834470cddcab6dc8a2b293622909f6f8fe8cfc1",
+        "bytes_sha256": "a36551c2472fc5ad3acbda843204c226e2d74f8ca79d4200cf8ef8c0b8bfc7df",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleHardware.list"
+  ]
+}

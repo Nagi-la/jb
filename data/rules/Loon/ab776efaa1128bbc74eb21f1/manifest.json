@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T01:59:58.724400+00:00",
+  "client": "Loon",
+  "rule": "LineTV",
+  "rule_updated_at": "2026-07-26T06:22:18.409058+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 6,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LineTV_rules_87629e3e61861db2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c523a15dcc019c6d6aab3e05d59e105bca05dc71ccbe54809192dcc9c6eae2ca",
+        "bytes_sha256": "6a0fa4617a01c31a40d09e5ef0f96a6da3b0c8fda8ee939277de2aa27474d48f",
+        "semantic_sha256": "9e5cc9a7050a0faad915ac7c03eea7dc2e31f07f498fc4f3b66cfc419ec1258b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LineTV_domain-set_5ab86591e1a04f70.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7e96c2e0771bb1c4a26d63080d6d5f606b8c44fd6b871aa942ca642e758b1ee",
+        "bytes_sha256": "df6115da6dde9e570b80fd77f24be7f8da65d40ff02f59c77ea4b70a0cea56ef",
+        "semantic_sha256": "fff394a2987bc20b4f67e3327986d2c6c033e5177ef4490889bd5fcf3fe2cfb5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LineTV_rule-set_f0be858763ff4ce1.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48e547a987e042c20f8d0a116e9e84b85ac8f6d96ee48d12c86d7c57f3ce7a5a",
+        "bytes_sha256": "ac5ac12344990cf62d6fd800a7fba4b49a3f391acc55bb47c7bebb9cef8fa039",
+        "semantic_sha256": "dfa0966d41dabdc169d527fc03ba362372e9805eabac2078615876ec30d14e3c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LineTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list"
+  ]
+}

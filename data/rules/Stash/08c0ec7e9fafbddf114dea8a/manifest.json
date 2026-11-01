@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:12.869286+00:00",
+  "client": "Stash",
+  "rule": "LuDaShi",
+  "rule_updated_at": "2026-07-26T06:26:55.738244+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LuDaShi_classical_0d8e1d1374e934ab.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f647778a56fae65f4cd902e5dc5848cf3921363988286a046dbe383b04e7cf1",
+        "bytes_sha256": "fed8b745757b9daf8e25d6a169ee84ff9e7f04e97ad735f6d08f4c6156d2bf5b",
+        "semantic_sha256": "fa56de2570219a002c1bbe51ccc17cdb903cece64a331a336caf78f42ef6c39b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LuDaShi_domain_700ec24018475830.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f40df5a1972819da993492f5d5e2ac57ec3adc400a6a973f94fc6b089c386764",
+        "bytes_sha256": "960584e8840f2ed64a3db705b9872cae68d8c9c0875b532063e42178a62d13e5",
+        "semantic_sha256": "61d282bbb0e34f8208fd6b362269c49c02beb59ec5e818c22b0e0a516a4c2661",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LuDaShi.list"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:10:39.063769+00:00",
+  "client": "QuantumultX",
+  "rule": "TVB",
+  "rule_updated_at": "2026-08-07T02:23:10.319370+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 18,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TVB_rules_39cbc3d9c70fff8a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f223bd53dce60ec57fb2318a1a924c8dc1261b3690dab78e0c8a0fc047de0ae3",
+        "bytes_sha256": "d2ab13a881eed870c20491fcf11d0e1fbec78d8164d7ed58db204b47054f6c52",
+        "semantic_sha256": "54978177960318398a63a9c72723a96a46c83c0b683ab9c5d268570ba3e9feac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVB.list"
+  ]
+}

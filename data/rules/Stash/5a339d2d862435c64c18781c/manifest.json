@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:54.586134+00:00",
+  "client": "Stash",
+  "rule": "Gucci",
+  "rule_updated_at": "2026-07-26T06:29:24.504608+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gucci_classical_ca01c961868e7fb5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb97970484101980d56dff233a5bee78631644dbe75ee4e65f7db8aff8db1d48",
+        "bytes_sha256": "3e31b1f221caeaa057e97e9f4521fbeeb74a0130142159f5176c9751294b73b7",
+        "semantic_sha256": "c2aeff1f3e36472d244cedd5fa208f6b0472c85fd637c0eb3331deb27d17b991",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gucci_domain_c467927145778a83.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8fbb835177fde5da9a06d9a30005054b0b7c88065477652021e51ef5b907a208",
+        "bytes_sha256": "b6cf6947b91d05583f574d19c9cd4bc9ae9e57c5f9d35bbb2f492427a7bf3d66",
+        "semantic_sha256": "9730c0f3893fb96d4945c32aecb583117a01938daa591012385e8007d900e9c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gucci.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gucci.list"
+  ]
+}

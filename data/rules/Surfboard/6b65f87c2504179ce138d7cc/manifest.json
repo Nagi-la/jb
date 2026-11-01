@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:51.186095+00:00",
+  "client": "Surfboard",
+  "rule": "HunanTV",
+  "rule_updated_at": "2026-07-26T06:25:30.410003+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HunanTV_rules_8a864b96247fb0bc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec1141a79c2efe4deac36f6abbe4b552462f1cf94817776decdef6db6abddd55",
+        "bytes_sha256": "e09a39019172d0976abb3dd00412b6ae65fbdbc70c2b7ee59e7a6b9ded831d8e",
+        "semantic_sha256": "a43a1ae60d6c3f107adbf8da114b5f91f2b078a91ef25f4957f142de02cfbd90",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HunanTV_domain-set_bd6934b774653804.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a054de4afda3c5f3fa34df177b036809a932696e5e2d1bc5fd45f3c756cb1cb",
+        "bytes_sha256": "a37fe768126a344c07c1daf6071913222f89d4388b9fc3dc9695ae5f841c8823",
+        "semantic_sha256": "ff7248ece5db667ff1eed0e2640c86486638f0b70184f9c6d85d04cfcb0bec39",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HunanTV.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:15:06.710114+00:00",
+  "client": "QuantumultX",
+  "rule": "Verisign",
+  "rule_updated_at": "2026-07-26T06:55:12.028511+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Verisign_rules_e97eabdbf7e9b319.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c87ed83de34e2b39a96bfc0d564d705a7ed137574b08b7355a8b7e5b88766a1e",
+        "bytes_sha256": "36d3f7365174bf4bc325970a1a347481e83c91890d9cfcf081580a655a31a7b5",
+        "semantic_sha256": "ee7d865a8a6cf75aaeeaab2c831e4f8882339bc7751db89c0d0d86db1d982181",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verisign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verisign.list"
+  ]
+}

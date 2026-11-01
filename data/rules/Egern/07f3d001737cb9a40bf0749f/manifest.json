@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:19:14.055703+00:00",
+  "client": "Egern",
+  "rule": "PrivateTracker",
+  "rule_updated_at": "2026-07-26T06:56:45.380565+00:00",
+  "type_counts": {
+    "domain_keyword_set": 3,
+    "domain_suffix_set": 119
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PrivateTracker_rules_50cd726c34b02f3b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fdf1bb68bbe3ea733efbddd2afe9bf8357e1915f38a64dfd020b15328471c16c",
+        "bytes_sha256": "4e6cb95eab26637df020cda5388d8e6ecc09c7fd58b5419779eb63ec4169a960",
+        "semantic_sha256": "10b886bea16f40aafe25e4bd669f74d738db07d2e36bc210e46fad7037ba85a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
+  ]
+}

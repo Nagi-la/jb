@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-08-27T02:15:25.278988+00:00",
+  "client": "Mihomo",
+  "rule": "HBOHK",
+  "rule_updated_at": "2026-07-26T06:30:12.854318+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 27,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBOHK_classical_3091752ab4bd4273.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b8711ca6dd1dece7a2d55c40d1f42f8a4e3a8f519d60db4f11ef847c146b9498",
+        "bytes_sha256": "88a751703cef0167dbd833bd5610f69acaef5d99bf519cf5b9a50c2b10e049ad",
+        "semantic_sha256": "c5f6df1f7fc9ffd52c905d15637e6436c25bb816983052d0cac5f0e88c99d9b3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBOHK_domain_12964c95d7c25921.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0f04d29e7fed2a317449f354ed8cd7989f6bd76205cf0f049e4e578ec60c0f9e",
+        "bytes_sha256": "aa490fc4a09e4be28c442339951b55a0599980f44750236076b203fb287a15e4",
+        "semantic_sha256": "2f2fd461b917769e8640386e5c647e3c7d9016dccae676b98110afa22617ee41",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HBOHK_domain-mrs_6eb0749c26a8eded.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e44ea8a656f1c76b8b6d7107db0c88f255d7925bd97be4cafbb603d66d6879d0",
+        "bytes_sha256": "9feee57a2e4e7984f50ddcd9840d90e74e0468f8e7c9e6c00c0eacf64b077df3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBOHK_classical-rest_db1bd81bbc7ff315.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7e8aad39634750f078e12d87efac430f59ce2b8e6e927e50ce162caf04c9150",
+        "bytes_sha256": "24df5c75bb23868f7b642047d4bbdd90a390d8b2f6290ae09b21cb4ba68e8fb8",
+        "semantic_sha256": "40b6dd958e3221034db83081842c7e113c830cc96aa4306e35b1b732eae0eeab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

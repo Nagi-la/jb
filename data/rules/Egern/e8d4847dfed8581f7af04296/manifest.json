@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-29T03:17:37.105174+00:00",
+  "client": "Egern",
+  "rule": "ByteDance",
+  "rule_updated_at": "2026-10-20T05:42:36.555224+00:00",
+  "type_counts": {
+    "domain_set": 29,
+    "domain_suffix_set": 1034,
+    "ip_cidr_set": 1
+  },
+  "total_line_count": 1064,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ByteDance_rules_71f08788d98a5f0d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fdd88570a4a98535a61ed0cf60ae397317b653953f60abeb805e9e1eb5975824",
+        "bytes_sha256": "106c6f4fb4de2086b58c628ce087ad0e5d7a45b3e640027e2c60bbabc2b989bd",
+        "semantic_sha256": "7743d94cc7a2e77b236befe9e1647cf344b548dbea87ef50ccd74febd4e0fb42",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:02:29.467671+00:00",
+  "client": "Egern",
+  "rule": "TeraBox",
+  "rule_updated_at": "2026-07-26T07:16:49.982070+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeraBox_rules_53e00006752b11d2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f97e2fcba32b13fad45d10541435042d8cdf0cde4e797a9410f58fe9c6818d48",
+        "bytes_sha256": "501b02872783b1b0f3c92910b5cf12b5aecba76c2dd24c1b70e72172dd1d5614",
+        "semantic_sha256": "54bf53f7687cac44bff50451e6c7f7a8bd00a2d10d770b2e9a29426f7b295327",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeraBox.list"
+  ]
+}

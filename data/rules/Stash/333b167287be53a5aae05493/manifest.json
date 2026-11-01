@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-09T16:04:20.748001+00:00",
+  "client": "Stash",
+  "rule": "Baidu",
+  "rule_updated_at": "2026-07-26T06:39:15.430473+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 323
+  },
+  "total_line_count": 323,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Baidu_classical_166d27d2cd07e7c1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d0a5f05f078d440c78d481672685b938eec69cd60299a9f26b27bf66e697f165",
+        "bytes_sha256": "f364c7fc2aa697d802858a6e53048ad3693395ce8e5a1ee59b013db621e03b82",
+        "semantic_sha256": "ac31f9653d49fb1024a79b826cd0f52a67c36307c1cebebd92f832fc31adaff0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Baidu_domain_5e1d993d9d1481f7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b9ea5b4de9cdf755fac5e9f217584d083f21810eab02c3d01321f94af87b1629",
+        "bytes_sha256": "e64c969364941d6f68add69073f34ce510a98eff4f291c48ea470e6ca1f8d686",
+        "semantic_sha256": "a9e473b15ca64c605bc8440afa788ca75293901976384b8a57f707d143729027",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiDu.list"
+  ]
+}

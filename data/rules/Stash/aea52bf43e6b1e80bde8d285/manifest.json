@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:02.523396+00:00",
+  "client": "Stash",
+  "rule": "VikACG",
+  "rule_updated_at": "2026-07-26T07:22:49.276617+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VikACG_classical_1eded9eb3becb25e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d463a6fd613e46f9e45e92961dc7a4c042fa66c4f40a5a04d74f8eab87cdf51",
+        "bytes_sha256": "f11d892fe1874150924eb1094481909a81e483e20c320b9c7b88c6bbe9c6d329",
+        "semantic_sha256": "397070dbdeae1fba3094be857c3fd8ac15e2d34250f9370dae4deb0f01e479e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VikACG_domain_4ce00e19f91e0021.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f61e455889e90d921b65d254acc773a2a12d7ae05af8a0a1879def4893ecaea6",
+        "bytes_sha256": "915a9a600a13e72334b9c337c41a8409179d34337a3e38241a18679b04f57501",
+        "semantic_sha256": "cfc9e254dfe9c806baa10e7ba76fd73d0561ed2e7dee92457a9dbc6f56515b72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/VikACG.list"
+  ]
+}

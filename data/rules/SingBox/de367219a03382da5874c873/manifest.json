@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:55.744813+00:00",
+  "client": "SingBox",
+  "rule": "CKJR",
+  "rule_updated_at": "2026-07-26T06:23:23.302293+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CKJR_source_21e882c308385312.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b7106a5834603bad7290ba9186a250e825638c98262824d33cea36ec754184cf",
+        "bytes_sha256": "99211c8ebcad7b3f3ef93438045b209308404c36f986673f189df69e123e2621",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CKJR_source-srs_ab9609835e81a53a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f8bb294dd60251f83bb8e28ed9330ea4d9d9e6ec9caa5584fd57dc0f794893da",
+        "bytes_sha256": "a60bc053e5ec089dda0285dc56841bd3950599f60ec43049696574071b72c13e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CKJR.list"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:02:49.938101+00:00",
+  "client": "Egern",
+  "rule": "Huffpost",
+  "rule_updated_at": "2026-07-26T06:21:53.037662+00:00",
+  "type_counts": {
+    "domain_suffix_set": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Huffpost_rules_0e9b512de4752657.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d55ab707c7c4d9177ea9caa6e8812fdb75faa64897d1de07137426e46cf2d004",
+        "bytes_sha256": "773f13ca845dcef843c185e1b28746c912ee47762ccaee66c57c7abeb0749eb0",
+        "semantic_sha256": "394dfd6ce7d8e5d2285424a9568cdabf9a40a0103c58bc1eff77e0b66498555f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Huffpost.list"
+  ]
+}

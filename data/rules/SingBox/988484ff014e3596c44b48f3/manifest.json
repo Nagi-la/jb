@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:59:28.237818+00:00",
+  "client": "SingBox",
+  "rule": "EA",
+  "rule_updated_at": "2026-07-26T06:31:54.850814+00:00",
+  "type_counts": {
+    "domain": 8,
+    "domain_suffix": 165
+  },
+  "total_line_count": 173,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/EA_source_9528dc12d71acd18.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f9dbed5c97526033122549f16eefa1da5565b3082886e4dd32a6f71790b18ba9",
+        "bytes_sha256": "0df30476371ecd5d831c9290365f9831bdfa8d9d531186a12bc7091f2ccd3b52",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/EA_source-srs_cb71b722923af407.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "db2fdbfb0d0609ad87e5955c6d4417a489d7a2abbe4ae7e71c4c3066afb7bdc5",
+        "bytes_sha256": "d11cb1e5b3ee4550c1cb885742308216e7646802a266a80a0c5f90eeb0671cfa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/EA.list"
+  ]
+}

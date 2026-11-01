@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:51.398549+00:00",
+  "client": "Shadowrocket",
+  "rule": "SMZDM",
+  "rule_updated_at": "2026-07-26T06:27:54.652694+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SMZDM_rules_069fc41628d4acba.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ea77b19ada7cf9f8462147c3b8999a6d6f7196449432cc8a0bbe73ab2113e4d",
+        "bytes_sha256": "32a475bef80d4d23cb7884f46207eed4f153e2d18c75bab4cb05d4b152f920c3",
+        "semantic_sha256": "02b8a281038c9de96d39b60183ee1f1d756f9a5c9165ab127063b0a91a596ade",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SMZDM_domain-set_c1403b6e75fbeb70.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3a27a42b78ee28e80fc2360c9ea6bdcfaecd114fcba2ffd2e2ea7aa4817c6ca",
+        "bytes_sha256": "f6e89633d16ea305a843a0fa347e0e268699312675d3f0aa816f100b7801c2b5",
+        "semantic_sha256": "fb166d7d20ece8938e7a392409dd6235b339f357b683d02a2a06ea638a58bba0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMZDM.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:19:07.802456+00:00",
+  "client": "SingBox",
+  "rule": "Deepin",
+  "rule_updated_at": "2026-07-26T06:24:35.820840+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Deepin_source_e51967c6110dd9af.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b6c67138791372a264aa4e8ede6cb48de9391fb4d40f9f9664fca7c56263398b",
+        "bytes_sha256": "46f1f0c339dbef5af47d3b3eef4512981caeb60b0bb4e5a063ba13b84c77544e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Deepin_source-srs_88fcfd344ad74383.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "10d4eeb240e1343b044dbd5fed2a10bd77559c505deab44407805eb77ad81679",
+        "bytes_sha256": "6f93321d1f9bb1f6175cd3dac81b33c9aa355a9b1ba04244c2ab708f1444d334",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Deepin.list"
+  ]
+}

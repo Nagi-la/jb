@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T03:06:26.002846+00:00",
+  "client": "Surge",
+  "rule": "Agora",
+  "rule_updated_at": "2026-10-29T02:37:34.923141+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Agora_rules_f556ee3a14068b9e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "83e354e2c68f41077d39e6f385031b7d53b4bf0b8e4cfe9566dfc012557c27d1",
+        "bytes_sha256": "9a197cd21cf42392da7bfa92cc10925455970b5df9050780333f7d41cf03294d",
+        "semantic_sha256": "826b491618d879609c7f86baebd991dcfe23061e14f168b13e1625a7e7a780bb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Agora_domain-set_17883554217da33e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "447ece2a8875d27b5917e309276f22994f8d58e11f7035127193725494401084",
+        "bytes_sha256": "f3e1caba0909e5b2203b650995e27498f857787f3e3656df8a62e751d6ad77bc",
+        "semantic_sha256": "ce920aa9ca11deab7a423fc7654e1fb6fe55b25df1c34ed7dfc66e80a22d3cee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Agora.list"
+  ]
+}

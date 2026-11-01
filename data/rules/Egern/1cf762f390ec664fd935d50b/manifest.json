@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:05:59.048674+00:00",
+  "client": "Egern",
+  "rule": "TencentTME",
+  "rule_updated_at": "2026-07-26T08:21:39.918421+00:00",
+  "type_counts": {
+    "domain_suffix_set": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentTME_rules_283558d8ab85fa46.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "051098cd2038231358e78b499ae43b1bffb657752af9226199c35cde4822b244",
+        "bytes_sha256": "6ce21327918333e8e479abc05d15f63697d1adf2b08d87412aa3a5ad3acef2ab",
+        "semantic_sha256": "2346ac18c25f119309b912e0c42829e8b9db44f4eaa1f617076e55c6766969cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

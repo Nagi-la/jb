@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:03:01.135465+00:00",
+  "client": "Mihomo",
+  "rule": "SuiShiChuanMei",
+  "rule_updated_at": "2026-07-26T06:28:12.315225+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SuiShiChuanMei_classical_623813f34e3421fd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "909864aeaf81b3cde39858e37731b9c2d1a019fa00ec6adbe1a77fd3a77bae4e",
+        "bytes_sha256": "e0efc314494aaf83edefd76b0fa02fc14001dd87b2f89ad0a017c2709957142c",
+        "semantic_sha256": "619f20e45daeb9c8a53068edd07b0a1e617a28a018b73869a92808a08bb35a61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SuiShiChuanMei_domain_dcccf618079c76f6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef6b7ecc77707d8cf3c57f99e61aa835a62c07ea74077669e3cf49818eafedac",
+        "bytes_sha256": "5ac1a23c9e032f9b964670b8a2c54844d0811af6f60a50f29d7a02973dbae5b1",
+        "semantic_sha256": "658b2f08715d8144ad279c23fb275f77c9f3146db688ab38c811110928e42f9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/SuiShiChuanMei_domain-mrs_3b9a111efd01a6a3.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8ca738294c473d0c738c5935abd074567a3ea67f172c1dd9f5dd3718b464ac5d",
+        "bytes_sha256": "b564e41f48b1c7cb74bd9b76b20e6b45880d35fd588d82bc6a6a0c07fb84fa7f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SuiShiChuanMei.list"
+  ]
+}

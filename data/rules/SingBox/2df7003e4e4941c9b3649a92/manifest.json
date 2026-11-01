@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:30.438329+00:00",
+  "client": "SingBox",
+  "rule": "UPYun",
+  "rule_updated_at": "2026-07-26T06:28:34.000124+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/UPYun_source_2658a16fa03b0dcd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c6e14864f387bd84c6bfaeef066ee63bcd1bdf3499ba3704fadd4e0be55fb832",
+        "bytes_sha256": "6c544389d506d7196a89a01e3c244088a54d23fdd7f542f7702df06c5bdde6c5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/UPYun_source-srs_33e48eae541b5942.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1a6ad057fdbc2ae9d7ddc3cebf393c54291f63d42c2b552316a9644361cb90c5",
+        "bytes_sha256": "40e6ad7bad58d375d44d11a0465c6e56bcbd1f9f3d22125970414f3cf9e906a4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UPYun.list"
+  ]
+}

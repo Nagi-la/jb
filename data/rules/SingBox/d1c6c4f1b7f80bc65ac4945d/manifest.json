@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:24.281974+00:00",
+  "client": "SingBox",
+  "rule": "FlipBoard",
+  "rule_updated_at": "2026-07-26T06:29:15.275644+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/FlipBoard_source_aab4fca801df578e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "714d9c906bd31b675c24c5621945574904497a596d0186ec156e33af9dacfd91",
+        "bytes_sha256": "1f2bd98efcb6331a305d9df2e170e4e429c3e9aed0fd570e54d9cec2cab6edbc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/FlipBoard_source-srs_7948e85df22dbf3c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6e7849293d8fd4196116ec3e813eabde4cd7a47b1f98e97c26a1a60951e43813",
+        "bytes_sha256": "f0137b14bf0b77329abbc4f98f9c101aa32ebc7618953cf8b3a4eeba91647d50",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/FlipBoard.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/FlipBoard.list"
+  ]
+}

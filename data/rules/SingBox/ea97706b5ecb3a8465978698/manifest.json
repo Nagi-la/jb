@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:52.757497+00:00",
+  "client": "SingBox",
+  "rule": "HiNet",
+  "rule_updated_at": "2026-07-26T07:04:45.330176+00:00",
+  "type_counts": {
+    "ip_cidr": 587,
+    "domain_suffix": 10
+  },
+  "total_line_count": 597,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HiNet_source_e451796d6bfcabb9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8eb64a155daddc32c619ca2ea2e00702e04457e7ed32a374aaa5d52e2c489e93",
+        "bytes_sha256": "a5776f0b628112658dce2d5176172018d576af39f772d7596447d9a66d1c7b6a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HiNet_source-srs_c82d319aea5b803a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d42c7f053a555ebfd77f530345b028947d94aa2c0eb0eaef20535db5fe82e78d",
+        "bytes_sha256": "a3cd91565dc23756a007901f15edc8660b1fc08d26d03fe07d1076d40b4c2c18",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/HiNet.list"
+  ]
+}

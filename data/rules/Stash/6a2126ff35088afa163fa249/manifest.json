@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:23.453099+00:00",
+  "client": "Stash",
+  "rule": "Gitee",
+  "rule_updated_at": "2026-07-26T08:21:17.387523+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gitee_classical_efdf4817c6a973f4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7b97ac92fe1c86b03a1244d09b78654023f63876fbe8d816d9f8dc307541e63c",
+        "bytes_sha256": "d852efedbe5df7846195f02688185346f7e46a5d406aeb70c5f30740ddf5b70f",
+        "semantic_sha256": "e3ff944751edaa3a78ae91883a418c4cc12c06045014b95f2a2c92f91b9dc803",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gitee_domain_75840d1ce4994d58.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d1b644f1fc5a7a6178a9617e31ceabf9ca94bbe218a30aca34d7063ade333440",
+        "bytes_sha256": "2132d984775fa32dab045b98919b088206ec7614032de2aed07a1ae73b3fed21",
+        "semantic_sha256": "d794ea21b7100d7de696747207cee8c8610784d545a54ee8df1bb1d2cabd9490",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

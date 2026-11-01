@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:04:34.789067+00:00",
+  "client": "SingBox",
+  "rule": "AppleDirect",
+  "rule_updated_at": "2026-08-10T09:41:20.533570+00:00",
+  "type_counts": {
+    "domain": 5,
+    "domain_suffix": 22,
+    "ip_cidr": 10
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleDirect_source_bfb759d12961dc9e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "92e4bbef79f446bb47381796ed9e29cd0696ce8f0a3d5daeb9da1dcfc214d43f",
+        "bytes_sha256": "d64e9e61318bcb16f98a732fd313195014023d32fcfb8395b78bb08cf8f970e8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleDirect_source-srs_e6212c180f446669.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "13a9c09602b45129bc98edf6eca76cd8ee159395143db4b691dfe73f243e7b1d",
+        "bytes_sha256": "c83b236c6e2e89103fecac05cae6767fc5440a74281e4350bdf0bfb123edbf66",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
+  ]
+}

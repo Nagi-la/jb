@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:03:24.093121+00:00",
+  "client": "Mihomo",
+  "rule": "Binance",
+  "rule_updated_at": "2026-07-26T07:14:57.154150+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 46
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Binance_classical_c9de9678cd2de92a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dff70c8fe2d57d0b3013365eec80cb6179bfcfce48c5e06937c410dfa71b5afa",
+        "bytes_sha256": "7fc05b84657a2c72b257446c4b6825bbfbb970f521ac309b80384378b660710f",
+        "semantic_sha256": "bf1387c4f5831652fedaff9951159561f5915d721880a1f639f128fdf7ff3ba2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Binance_domain_f91b56095ae298f2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd5be24e2608464570c27d9febd9868e61c54bfbf4ef00ddede8c7ded3d0aeab",
+        "bytes_sha256": "0347476b33f7251fad1953e7dc4e722e29849bbfa4bc35e1c9eb63c9f9348d77",
+        "semantic_sha256": "3ab368e0ef9f60abe126e073f953c4853e7f0601176895288e96aaab0a616e61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Binance_domain-mrs_1e0a8e4fdec61e16.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2bcf18428bf49a297af5c98a4152fad725e9eca908733abdd646e6118e03d237",
+        "bytes_sha256": "246305d14f77018839046dd1f7eba469d36d332b16cf1bdda6f4b3e902b4f9ba",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Binance.list"
+  ]
+}

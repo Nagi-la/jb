@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-08-27T02:18:47.559702+00:00",
+  "client": "SingBox",
+  "rule": "AdvertisingMiTV",
+  "rule_updated_at": "2026-07-26T07:39:20.482690+00:00",
+  "type_counts": {
+    "domain": 1775
+  },
+  "total_line_count": 1775,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AdvertisingMiTV_source_96a9672848173e76.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f6435200e8be388b0868fb088090c377e0801aac91d2e92c48f120879244f0ef",
+        "bytes_sha256": "7d1d6182a319e6f2cab1bd03db378ab50f6538db58155b9d1025366dd5af8a50",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AdvertisingMiTV_source-srs_9462c3eb89bacbad.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c310c8eaf06789633d54a48283e989958389f8b8692ad7edac1f856cb1ecfd86",
+        "bytes_sha256": "7f05d39e69f213eb34ea3052f0a35df22c337b78308f1c63d5fddc697c6cecf7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "应要求添加手动整理的小米电视去广告，数据来自：\nhttps://www.zhihu.com/question/30746616\n手动维护，无自动更新。",
+  "providers": []
+}

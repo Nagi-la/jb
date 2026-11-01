@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:00:50.081828+00:00",
+  "client": "Mihomo",
+  "rule": "U17",
+  "rule_updated_at": "2026-07-26T06:28:29.320446+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/U17_classical_3802d5799b259e5b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3cd1a33abfc728810bfd3f765651ecc7734f0ca8304bac7be73ea2ee2eaff937",
+        "bytes_sha256": "9be477d3a252127900d78edc94799f4a438a3f0aae2658b98cf8eb5f7a338940",
+        "semantic_sha256": "4d57255ab5842728fa6395ac5174dac183d2b656eccfdb60d6d85e22c220a44f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/U17_domain_98492222f81ebc61.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc0dceecf6a4e15f42739eb75d4f3279ffecee79a5fe4e7c4ec6c3a7c2ff8ab7",
+        "bytes_sha256": "a862a295d8a81ab95b6aa13f7ef378790c35e114815e59dd5a5fd975770caea2",
+        "semantic_sha256": "ee81b1a22c12eedc901e046ebf3dcdbd85059d4202a2253045478e7aa20ddf40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/U17_domain-mrs_7847cb829aa20fd7.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c5a9f545faa099fa95e75b3b2e0fbd0b1ae6e727e492c454e7200491b9dd7b3b",
+        "bytes_sha256": "a61717f546ba07bf3dce09dee9895f940f325a2b12fdd5a705c057b9bab06b41",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/U17.list"
+  ]
+}

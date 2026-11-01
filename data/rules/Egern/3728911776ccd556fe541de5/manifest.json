@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T02:43:17.697001+00:00",
+  "client": "Egern",
+  "rule": "PrimeVideo",
+  "rule_updated_at": "2026-10-29T02:37:23.660774+00:00",
+  "type_counts": {
+    "domain_set": 10,
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PrimeVideo_rules_c9cf498ee738a60c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac013fbb0cdd7919814d5524ef53607cfa88d94b72df8208bd19feae73a66c41",
+        "bytes_sha256": "ea878a14258bd99c7bb24ca86757bc9cbe99bde66ca412140301420e4f511768",
+        "semantic_sha256": "0511d1696c8386e58734c5979cfb9715143282e6474b65c20bf6a9a5ecce62b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

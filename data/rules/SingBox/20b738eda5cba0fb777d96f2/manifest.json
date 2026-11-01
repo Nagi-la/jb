@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:56.918506+00:00",
+  "client": "SingBox",
+  "rule": "Westerndigital",
+  "rule_updated_at": "2026-07-26T06:55:48.958447+00:00",
+  "type_counts": {
+    "domain_suffix": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Westerndigital_source_0829fa037f10dae8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dd9e9f8983ed75f4f4fabd6e9565f167fd46297ebf4a07c2b23e3006b01de787",
+        "bytes_sha256": "3bb9b917bca0b9d0d9686d25dd33ea5cb5a8a8776cac31fcd1326b44fd646623",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Westerndigital_source-srs_f81d01092d6ffa99.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0ffc31129eb5b6734d47e34f84d31a0dbe221f25d4faed8a552bf8309fc83f35",
+        "bytes_sha256": "a9cf1e2cd7b6d16804a2709f1c19f4305df64c6d0f5170f7378efc347dbdba57",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Westerndigital.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Westerndigital.list"
+  ]
+}

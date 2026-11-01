@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:56:51.075172+00:00",
+  "client": "QuantumultX",
+  "rule": "HP",
+  "rule_updated_at": "2026-07-26T06:29:25.106675+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 158
+  },
+  "total_line_count": 159,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HP_rules_be6c63a2b9a4128d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d0c827a1eca3711fa7ba090d4922f8f3bf5e898fa3ba78b1aa378ae1d6e36ea2",
+        "bytes_sha256": "4bc737fdbed0ffc9f984b7e880e87cf80e5fcf0ef887691465a11743bff76ac0",
+        "semantic_sha256": "e6c550282b28578a24403c093cd988ddfa25736ce544d476c45d349d2840df29",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HP.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HP.list"
+  ]
+}

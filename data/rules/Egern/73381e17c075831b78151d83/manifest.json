@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-08-27T02:09:00.988597+00:00",
+  "client": "Egern",
+  "rule": "PayPal",
+  "rule_updated_at": "2026-07-26T06:36:55.963525+00:00",
+  "type_counts": {
+    "domain_keyword_set": 1,
+    "domain_set": 1,
+    "domain_suffix_set": 245,
+    "user_agent_set": 1
+  },
+  "total_line_count": 248,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PayPal_rules_6750724545dc8d5e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77d374389f02ecced3c922e73fafe044affebbb362355b651b5e4e20238753d9",
+        "bytes_sha256": "1f5971137cca65f918125bb4d2f96f60d0eaabc00f5fa94d8efeb5be55fb3de8",
+        "semantic_sha256": "70eac53257804371463f6bc4ebe414373b9750a5e0e4a09abc3205f3e924b8bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PayPal.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Paypal.list"
+  ]
+}

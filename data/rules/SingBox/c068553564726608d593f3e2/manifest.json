@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:55.987284+00:00",
+  "client": "SingBox",
+  "rule": "BestTV",
+  "rule_updated_at": "2026-07-26T08:31:18.508144+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BestTV_source_a9d960bc120edbbc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b56819f5ff85f655d5b6f9c3a76a784929f1cb117d0df3bfd6a7742ed95d84d3",
+        "bytes_sha256": "d80c1f8237a1336c4bcd499c906b41e093ed00b3dd0d5afaffbd15ab60a7e157",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BestTV_source-srs_f963b5b7c5776f88.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "678d8b55f01423da550387fa85c3f80e87e26592cc97b5aea73a544bb3191009",
+        "bytes_sha256": "f0b057555088bb106bec812d2affcedb528652c8d359782b1e24679fd61f52e2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

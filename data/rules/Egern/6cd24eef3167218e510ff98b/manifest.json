@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:14:32.142084+00:00",
+  "client": "Egern",
+  "rule": "WIX",
+  "rule_updated_at": "2026-07-26T06:55:46.110441+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WIX_rules_e10f80dc94d5a319.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e83d11effa2892e3499b1a3d5408c0ba747825dba2eff7bb327b14293b189f7",
+        "bytes_sha256": "ef2563e03fffcdf15794d3625938515eacfcf544cb39735891fc30b06e39e2fa",
+        "semantic_sha256": "f87b8a78692b38943ac2ad0ca561a78ea028bbf7b2e76ee207b06bd51652b662",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/WIX.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/WIX.list"
+  ]
+}

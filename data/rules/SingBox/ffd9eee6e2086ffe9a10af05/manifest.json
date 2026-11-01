@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:26.918859+00:00",
+  "client": "SingBox",
+  "rule": "XueErSi",
+  "rule_updated_at": "2026-07-26T06:29:07.896105+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/XueErSi_source_3350887c8467a3ca.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "beae4ef6d4ba46f195165bf5e59dfd099af481e3482e1938a8516730fb9ee15f",
+        "bytes_sha256": "7911aa1b98494e6e18255782ea193aebc38b93823c0c9b8c63d48bfe2293df8b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/XueErSi_source-srs_5b37cc5bcc60ee9b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f083330c87fa029d016c75074746b3a23e80cd8f01f6609ac6bc779065375a8",
+        "bytes_sha256": "5dac56d1c75ef580ff3841c64a7546715c98a700b8307c067081c37d9184ed35",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XueErSi.list"
+  ]
+}

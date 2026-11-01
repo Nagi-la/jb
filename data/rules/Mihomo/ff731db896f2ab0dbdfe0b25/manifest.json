@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:06:43.681868+00:00",
+  "client": "Mihomo",
+  "rule": "Hupu",
+  "rule_updated_at": "2026-07-26T06:25:30.994310+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hupu_classical_001388949954c3db.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bfe46aaa62d1c3f72612cf1174919ad9dcde5a640f3155d5de81cd977785a1b7",
+        "bytes_sha256": "b0598cc89a1f3db7448276c728c5409fbe96e4b062a15177508646cfa7f9b377",
+        "semantic_sha256": "f208c014e5fd0f6b2f6a6d2afbd628fe86ac302dcc23f57e7eb3d781884ac1e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hupu_domain_53246ac6e1b588d5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4c13e4ff9f5c98b341be9b67c5636fd4f3b6964ce0a3f16ce3bd10cc0457885",
+        "bytes_sha256": "dddaffcbca41fec9ee0660312e27cf586d1f6d39f28c59b4528ee93e3473edba",
+        "semantic_sha256": "487f41a7d6d81945029065e764e7654ef0c13ad7116c31421c436b6a56e17153",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Hupu_domain-mrs_65712bb58883ef73.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "69df965cc49bfe4d921841da19ef25a0a3399941708a2265b1e45026ffcd0574",
+        "bytes_sha256": "611cc49944366bb5ed6e81851b344a21c21af66ee70344fe5e5be9eabd0ed61e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Hupu.list"
+  ]
+}

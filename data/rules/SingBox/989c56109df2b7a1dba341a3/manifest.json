@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:10.972103+00:00",
+  "client": "SingBox",
+  "rule": "VISA",
+  "rule_updated_at": "2026-07-26T06:54:56.250444+00:00",
+  "type_counts": {
+    "domain_suffix": 160
+  },
+  "total_line_count": 160,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/VISA_source_282ddbd61a532562.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4e2776907ac9f5a76ccd7cfb9344367f941ed6d6091b4ab53f6d629cbea7c6ce",
+        "bytes_sha256": "cc6d66d307228875b22b4a45783bd2ece33ab6b907a7ffe603c51c5959af325a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/VISA_source-srs_29fc24c2cf0702dd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "90e35fda4efbc2954cac3aa7a14b7692bfd0c4c4a50d257b8a92269fa440e413",
+        "bytes_sha256": "727539fc68cf713e46cdbca9f1e845b4d29fa5f0769f9309379265de5e674114",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/VISA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/VISA.list"
+  ]
+}

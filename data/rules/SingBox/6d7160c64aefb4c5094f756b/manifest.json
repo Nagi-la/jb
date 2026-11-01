@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:49.394528+00:00",
+  "client": "SingBox",
+  "rule": "SoftBank",
+  "rule_updated_at": "2026-07-26T08:34:31.570126+00:00",
+  "type_counts": {
+    "domain_suffix": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SoftBank_source_430788ac41dfbd0e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "784fe42124ef933b7af24e7f1a63a46ef96244fe91e5c36ab2eba73523b45b0a",
+        "bytes_sha256": "8c1e9315d34965d8a303df3dc23efee1472750653f71a9e947890202bc2552d2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SoftBank_source-srs_5c6f216ecab76381.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4c302b1e180f64332f4fe191d933cdf910096810c88c7439f7d1af289688e6e9",
+        "bytes_sha256": "076cf1b141823b2ac30ee746451d7e46b4a762122bc8ab0c8945ed003ee91cf8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

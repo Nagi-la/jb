@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:19:21.453664+00:00",
+  "client": "Mihomo",
+  "rule": "Anjuke",
+  "rule_updated_at": "2026-07-26T06:47:43.608701+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anjuke_classical_86fe7bb4d62b8bbe.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0aef45f19f05d70f51ed29e6f4e57cd946f04b52775f066d04509b7722c6286b",
+        "bytes_sha256": "ad4cba0d23faf16c257c662bedeb0250a7668e77a9cd80c7056a1d5b22998e34",
+        "semantic_sha256": "1c5cc3c0f763f291c9477c4d13ed12299510dd0fd4c5fa6fe84e718978013e78",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anjuke_domain_d60ad5d0150309c1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2faba92a108baa44acdbf11d84da1276087b93f0e757ce555174ba92282788d",
+        "bytes_sha256": "01c303d4e296ae479db822c3811888f113466e9f0fb55d8d54101c6c81297c04",
+        "semantic_sha256": "dd3d6800bffb7e8db1b78dd13130d25d8c5e023aed79c0c1ad522f795644c854",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Anjuke_domain-mrs_ebe5c4052395c8ea.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e5196710f82edf1d62338d2ce479742ec8bfab694611891f8b52db227a753112",
+        "bytes_sha256": "56692ec462d039d4ed97daeff8caee07b05841fecfd0b79f95e74d1a42548add",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Anjuke.list"
+  ]
+}

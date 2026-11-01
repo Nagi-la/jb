@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:58.523519+00:00",
+  "client": "Loon",
+  "rule": "Xunlei",
+  "rule_updated_at": "2026-07-26T06:40:19.956174+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 35
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xunlei_rules_ce05f567ea7046a1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9601e7828b47b5a0441993af339abeab6079482d59a427179b49e33dcf7ac23d",
+        "bytes_sha256": "b1520db5611ea939e932d769667944dc2db1f7367789917fd2bbb572012d6603",
+        "semantic_sha256": "d91049d15dd551541c50fd397fe4a4cd6e0bb98107686034509204ea8da3e2c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xunlei_domain-set_9163db75fd376fc1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d38fd2fb947c17ea8b91e078d167d1b277e0e674d7c045249bca94fcf8785225",
+        "bytes_sha256": "cb71fdf9ff7e8137b28e52e798e55d2c9131acb87637c3144007679c0094232e",
+        "semantic_sha256": "321d9a0c34332d7bcbc0cd55782a02adbce106987bfc913939959a777da3552e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/XunLei.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:31.957876+00:00",
+  "client": "Surfboard",
+  "rule": "VK",
+  "rule_updated_at": "2026-07-26T06:55:11.927491+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 43
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VK_rules_3e15a71c90827783.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ac61ff8cc51261b98b2314bc12e3ce97bb292c375a158309151c7e62ba53553",
+        "bytes_sha256": "91dce55261e3dbf24bea171d99df467428324cb077164e85d1aba98fb8b55b9a",
+        "semantic_sha256": "c3f90016c7663212a2be87bb554578f4677afdb0de891756298268510b7704fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VK_domain-set_484bebc37679a7da.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51bbcd3bf9b22f2e3f73258c71be00400b9904fe2f3756c718dd3e207bd2cd58",
+        "bytes_sha256": "298fc6ba71d2fa203f416f93295c8d81c6c4cdf147ba05c2bcb54c5a2a4a63e3",
+        "semantic_sha256": "63e79a391f1e7e95ce2698e7084602a9c1f484c0c17d6d841fdd31a3cfd3e10c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/VK.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/VK.list"
+  ]
+}

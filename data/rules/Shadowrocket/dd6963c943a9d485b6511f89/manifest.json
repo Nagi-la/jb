@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:12.371573+00:00",
+  "client": "Shadowrocket",
+  "rule": "Debian",
+  "rule_updated_at": "2026-07-26T08:31:45.991115+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Debian_rules_45606b2541b4c6e4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "049aea875eb7722b895e7e1e93097fdc9e2e35cdd40892f11d17169fbcdc53cf",
+        "bytes_sha256": "db6b1393bb93e5553c66043a86e815da379cc212110ee5f1e996e64ec9ab2a2f",
+        "semantic_sha256": "9202b1ceb9ace45ba956a4b10ee28ae7d774f32125b0b0ba23400c1fbd17ea23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Debian_domain-set_32e40a0b74569404.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b019e17833b6e149d20d7e45662142148599858b49d61010eb0433b51c817e8",
+        "bytes_sha256": "2ff807d326fbe75fe5c0b25ea383c6370d74e53af5ea5997b9b27e69c30de817",
+        "semantic_sha256": "d30c8cf82a3978719a9da4a207a4ef39617c7b7371251ce2d6739b74954bfd85",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

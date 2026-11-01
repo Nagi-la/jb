@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:11:46.163876+00:00",
+  "client": "QuantumultX",
+  "rule": "ICBC",
+  "rule_updated_at": "2026-07-26T06:25:26.654430+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 58
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ICBC_rules_ff2774a0b867f9a1.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ee7fccaf11c318f6c639c6d6786a257cc65cbf3362eca724db042cabe23b37b",
+        "bytes_sha256": "005df0eac9f1a5a17b75e6a5c53175cf8e3a08254141105430e8825efcf4fd75",
+        "semantic_sha256": "7c04a9394668b64b8c09057bd393d91a99855e6200f0afaf19056c1de422c7dd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ICBC.list"
+  ]
+}

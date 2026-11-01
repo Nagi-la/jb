@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:22.638404+00:00",
+  "client": "Egern",
+  "rule": "Tumblr",
+  "rule_updated_at": "2026-07-26T06:54:44.286221+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tumblr_rules_8c02707ff780438b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2bb7a8b5b8f4deae23e21833d6bbcaceafc9d26f8217ba9b64b8644e2300a9e5",
+        "bytes_sha256": "9f3e0c8901c3b8a69f9474b9f85e631fca22e17df66a50ef67c41550633dca0f",
+        "semantic_sha256": "2944b3d78033d9d98c84da77e64805a7edf5027c28be978da08fd63b9c3a6cf2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tumblr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tumblr.list"
+  ]
+}

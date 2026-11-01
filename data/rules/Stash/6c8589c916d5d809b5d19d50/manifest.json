@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:29.932009+00:00",
+  "client": "Stash",
+  "rule": "MaoCloud",
+  "rule_updated_at": "2026-07-26T06:27:08.517103+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MaoCloud_classical_83b7d88d5cc2ab63.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "60f4ec391ea0d1cae2b0747433a82c3087eccf7fb893ca5ffb605812c62c2cf3",
+        "bytes_sha256": "e07c7a4ec6b33fad87c2157e7973619b54b790ee6e1ea88e44880874dfecd083",
+        "semantic_sha256": "b3b7eae61b6e5d3a7a9f46007df385e13fec9ac198cf486f44622da88328ddd9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MaoCloud_domain_f6e801191eaddcb3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "887e40b775e2566d90e8fe75636d256bbf7256492e61c7ebe86c209c38dd3175",
+        "bytes_sha256": "fe6603a3e01a555e7c8ff5bbfab796e8e1cb68a65624cd078a18313bab63f4e7",
+        "semantic_sha256": "bc11026ea1948398427d0c3ee792f357b9ccd2ed5dbf1c1bb51b73b61123d4e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Maocloud.list"
+  ]
+}

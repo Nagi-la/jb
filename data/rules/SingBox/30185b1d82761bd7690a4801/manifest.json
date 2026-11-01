@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:29.954703+00:00",
+  "client": "SingBox",
+  "rule": "GuiGuDongLi",
+  "rule_updated_at": "2026-07-26T06:25:14.478032+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GuiGuDongLi_source_e536ad4a733b4991.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3c82a67787609f1ef9c12efb2ac3c27da8bc0fcbb78994e7c3707cd38042dd1d",
+        "bytes_sha256": "aa0bf8608c694bf3da5419e0d75d3976993faf4f17fe3a639c4721f86e98e8da",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GuiGuDongLi_source-srs_49100ac6b86424d5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "18cd51e928a82541ea44d73cf88a759584b50ff0654c9f69ba3d9120c90f74a9",
+        "bytes_sha256": "4f9fc1959d837cbf6f1adc4d8ffd8b8dc8837a62bf37b4327e44ea31f37536be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GuiGuDongLi.list"
+  ]
+}

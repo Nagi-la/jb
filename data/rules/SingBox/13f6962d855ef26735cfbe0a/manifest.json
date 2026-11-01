@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:52.661175+00:00",
+  "client": "SingBox",
+  "rule": "Bitwarden",
+  "rule_updated_at": "2026-07-26T08:29:42.858861+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Bitwarden_source_f512338ef204bc5f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c01850bec8d2bd109397d70c8a5d9fd1d12351ffad6c294380496f5c2afbffd",
+        "bytes_sha256": "7b4309f0022ed6ea5d3654eed280f45cd7b41fcaf75262b2f18f97f5e339465d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Bitwarden_source-srs_fc6492a60706a91d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "52914e7cdc0df5f09852ff2d775026b1d605cea140aa66f4f872e4cfa7a4a6a2",
+        "bytes_sha256": "a817ee9841e0065ac74a90694c34b9000ecaa351806111f9dbed603bbbf212ae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

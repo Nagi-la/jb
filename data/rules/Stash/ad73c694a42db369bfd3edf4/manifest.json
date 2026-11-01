@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-09T15:58:48.700717+00:00",
+  "client": "Stash",
+  "rule": "ZuoYeBang",
+  "rule_updated_at": "2026-10-09T15:58:44.862480+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZuoYeBang_classical_f61a632d61a6c90e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84c78ddce5a60df892bc33ec61a7e06b55ad2d202afbd8c1dec6c1a9931b9d87",
+        "bytes_sha256": "3dbc76604bc9fff9b1209c16af6bb3c2b3daae2a1c78c7e41dac1e2abe50d4bd",
+        "semantic_sha256": "c9145ac421dc62acd6beb23e9fb82c5114a37b02e4c56af2b352d8f34d2a305e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZuoYeBang_domain_3a7859e6c722ab7b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f309a8e9fd01118ad7b116526ee2833e5e0b5af1b162bca228b8b1df53f3e600",
+        "bytes_sha256": "b0cb7fe0dedad475a48462a33f4ff0d21bfb1ea425a430f9aab77fbc73cd8347",
+        "semantic_sha256": "7dea0d7be801ae2ca749357f4f664eb884ab249181afe22fc4c1ba9b26d7876d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

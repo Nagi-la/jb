@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:11:39.111860+00:00",
+  "client": "Egern",
+  "rule": "HKBN",
+  "rule_updated_at": "2026-07-26T06:29:24.687439+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HKBN_rules_f5ca060d99ea20b4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3580b798b27e06b750106e5b112c2eba3c2efbf0f2303eb24cdb7511c5b3339d",
+        "bytes_sha256": "b72fb86f9168cc9e74080392ca68a1446f4364e38c07406e9a0b4f3ffebf4e7d",
+        "semantic_sha256": "d040dec6cd0268adc112e66ee99da62f220f21fb63f786d3f1a3113c72dbc486",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HKBN.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HKBN.list"
+  ]
+}

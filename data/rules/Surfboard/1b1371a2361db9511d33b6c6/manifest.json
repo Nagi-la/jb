@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:33.529436+00:00",
+  "client": "Surfboard",
+  "rule": "BlueArchive",
+  "rule_updated_at": "2026-07-26T08:31:38.439522+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BlueArchive_rules_06b04235aa430e5a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f813feb20f0d41c14765f596d25f89b10f19f843bd80a6e4cb20b539e2672b15",
+        "bytes_sha256": "9b13aa1d75d1ab4333f0662e6a2b665a2542581ec1b55a89dff6c5e8645b8f8f",
+        "semantic_sha256": "727f9b4d1852076d51bbcf16a02ac74063254b601a93a920a44c2b2ab238bdad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BlueArchive_domain-set_8c7c53a2f1b91d2c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "525dfeff076fac057e84e19fd40dc51330750d4f48ade7f5da69366ad61a5108",
+        "bytes_sha256": "9b85cbc03608b3fcf793d2f03dcf3495371d853f44b4554c03022e0e340761aa",
+        "semantic_sha256": "a32768b814c3919d765fe4e51caca545c25e55f645de39383ca3b87a96171164",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

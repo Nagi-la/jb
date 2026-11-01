@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-10-29T03:31:55.072478+00:00",
+  "client": "Mihomo",
+  "rule": "Google",
+  "rule_updated_at": "2026-10-29T03:07:14.246092+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 934,
+    "DOMAIN-KEYWORD": 6,
+    "IP-CIDR": 2,
+    "PROCESS-NAME": 5,
+    "DOMAIN": 241
+  },
+  "total_line_count": 1188,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_classical_fe2edb12daf1b32f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5bbd78f0dec79cd25c7445249f689845477a318e5d6c953f3583b5aff018b24",
+        "bytes_sha256": "884fe44bef45c9f68ecd6dcc2da1af2e7ac741dcbbe287649b0930e01034d618",
+        "semantic_sha256": "b743a5a1e8fd8c3b874504754bbcfb4def1c25a365c40b2656e6c0ebef6e1638",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_domain_5b7a7b12707cf566.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c9485d027fcb21c8ea23cf63f9216c5cc08dc7cec0bbc4def1f172ca03f7e48",
+        "bytes_sha256": "b59ddf0c291c3c177b726a8abf152320817d0a9e8ba3c87ad911a8d6496ccc69",
+        "semantic_sha256": "0ac83a118d655491879591cff064645e85626001607758ceb6c1d536deb4fdf9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Google_domain-mrs_bf3ab049cabc9d56.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8598fe504a5028317580795eb5431bb10db5418258b07d53dac57223d991e59d",
+        "bytes_sha256": "729edfea123cda7d2a1960a9b714c6328d9601f6de92a5faaea470b902d82c9f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_ipcidr_12dc86f315b7fb02.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0ee098722c6a38730b742cc63d7dba9e285ab2b8f4c5b5abfb569b3d8f77d3d",
+        "bytes_sha256": "f0e9772eccd1517f55309bb4ebebc118d2249414b5999b8c63445cae54dae0e7",
+        "semantic_sha256": "514186eb6f0737bc36c0832d6fcb01ccd0093cd2989d43be3485353eda879ce9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Google_ipcidr-mrs_b5c7b9b406d1cd71.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f340c11d9aa9f17aaa1c11d49dbd168c78acb3eab82cbe99226148d11da31eae",
+        "bytes_sha256": "84c06aa57a3b55f10f7aec81083f756ca364541c37131db6a281c1fb049e21d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_classical-rest_bac5fc473d665b26.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "22ac5e1cba92bc044124537b3b9daea8e05ae4094c448ffb5e3b252b928e3f7e",
+        "bytes_sha256": "673a042c40d79daa0ecc45954d39cfef0be1891cdd62ac4031c8cd053ac6b38d",
+        "semantic_sha256": "784571c9770e01e67c3f3c4dfed43ae9c3be9fc0abfc84da161bc5bb0d06eafc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "不含有Youtube分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Google.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list"
+  ]
+}

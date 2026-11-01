@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:09.581286+00:00",
+  "client": "SingBox",
+  "rule": "DNS",
+  "rule_updated_at": "2026-07-26T07:01:08.188660+00:00",
+  "type_counts": {
+    "domain": 93,
+    "ip_cidr": 28
+  },
+  "total_line_count": 121,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DNS_source_910b02beef8606e9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ceec1cdcddfea0eb0c39c0ab7ff7b622b5090f29c6edb33b084b681218d93af8",
+        "bytes_sha256": "ed3c10ee0cc7111ac6dd3f0c7d900f23d2da433cb905cee534d58f10c37d6485",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DNS_source-srs_77a97743f971fc98.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d1dbbaeab1af4609695157616ee9094e0b52ad362e21cce6c2af38a7c73c1771",
+        "bytes_sha256": "17dea126706ed94e6ce3f1ed68b2dbfa82fcb12a0024ca2c2a5146ae79365e16",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
+  ]
+}

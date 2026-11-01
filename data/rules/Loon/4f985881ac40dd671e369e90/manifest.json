@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:03:10.044676+00:00",
+  "client": "Loon",
+  "rule": "Emojipedia",
+  "rule_updated_at": "2026-07-26T06:29:13.346872+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Emojipedia_rules_73e9b1a79d9bd395.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13207936b1cee3edf165470671960a73e153d942fd8004ece4a5c767b79d58a5",
+        "bytes_sha256": "63436645528ffd690e52d2c24d5435ebc29ebf6d6f85c96d089d2663c66945cd",
+        "semantic_sha256": "0d5292efcc03fd1383d9ea65c5eae957721020a546bcabe50877c6fd49b0b555",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Emojipedia_domain-set_39862f79fd6cc405.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2af81ed332ac3695884e4f1dd40fb4bda331bbbf37b027aedb6c6ec0b3faf4b4",
+        "bytes_sha256": "15c11b303a197d5f49c5d8c754576b4d098f6465a9d4073a134548ee78692117",
+        "semantic_sha256": "fcc0d685b2b3d40066c2dac55168df96ea9520d93ef364adabca15c2f40d60e9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Emojipedia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Emojipedia.list"
+  ]
+}

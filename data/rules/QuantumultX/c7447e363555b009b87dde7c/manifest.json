@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-20T05:50:22.559979+00:00",
+  "client": "QuantumultX",
+  "rule": "PlayStation",
+  "rule_updated_at": "2026-10-20T05:38:27.741980+00:00",
+  "type_counts": {
+    "HOST": 3,
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PlayStation_rules_595345574a39516b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccdc06f50132c59355d126cf81ba9243c57280530b2e571bbc7b710329ec96fd",
+        "bytes_sha256": "27d4ef1a80b76aa76b2524f8ea414b4e68089ec049e0949887dca55771ebf7ca",
+        "semantic_sha256": "f3f50f29923243fdfbb06d01bdafa2de50e6c53c8d41554e47ed4eac265524bb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/PlayStation.list"
+  ]
+}

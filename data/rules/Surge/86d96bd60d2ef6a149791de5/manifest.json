@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:05.429029+00:00",
+  "client": "Surge",
+  "rule": "Limelight",
+  "rule_updated_at": "2026-07-26T06:56:32.588366+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Limelight_rules_ce41da8222d1f86c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "efd67d3b0b7bffe4c11c08f1bb0072dcc6523eac4401670e7e825fdf704705d8",
+        "bytes_sha256": "9b68eb6b75374303d77ddefdfbcc34bd399fa93e6aac5a77389fd02e33849058",
+        "semantic_sha256": "43900ea7893693beae9a5ef8c7ed951e919c42db5d3f059913e92b09f89fa3ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Limelight_domain-set_bed55041b0bada97.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c696c79909d08ce30be6292bf38c69bfe4e4ca9013f3e8fdccef39d1bd785f82",
+        "bytes_sha256": "51c269edaf2ce187bad41113d89f018188d07fd4867c667a9aaf7fdf0150f50c",
+        "semantic_sha256": "2023c8f50bed9a287d8451b17c5f522379f832bfee04b17790a5f41e9c974012",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Limelight.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Limelight.list"
+  ]
+}

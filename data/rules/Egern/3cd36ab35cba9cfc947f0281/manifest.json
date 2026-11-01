@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:16:09.889312+00:00",
+  "client": "Egern",
+  "rule": "AOL",
+  "rule_updated_at": "2026-07-26T06:30:27.150945+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AOL_rules_c9287c392b099f88.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23f12ecba21d4eb92130d147f7a3a8ed48759a272fbc09f26baf71cebad20ab9",
+        "bytes_sha256": "80981bae618d5e9ef4800000a276a325c4b8b02d63f2fd9d9f5f912893765962",
+        "semantic_sha256": "2934282d5604a79c29e821afb047e857e2ed27f381010462d4c2c2093264a6b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/AOL.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/AOL.list"
+  ]
+}

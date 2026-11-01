@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-08-27T02:03:52.355585+00:00",
+  "client": "Egern",
+  "rule": "Adobe",
+  "rule_updated_at": "2026-07-26T06:21:33.425568+00:00",
+  "type_counts": {
+    "domain_keyword_set": 1,
+    "domain_set": 136,
+    "domain_suffix_set": 140
+  },
+  "total_line_count": 277,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Adobe_rules_a48b951cbf2eb980.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "599dfb29226bc6ff1e8f6137a95ded9a3050fa92a4db37da232284aef44db5e3",
+        "bytes_sha256": "ef4ce83fc744c099b0912296a2b936404c5acbf452353cdbeb59722dd4bf3b1e",
+        "semantic_sha256": "6fb8afca547a65d06ef9cd7ec5421bf2c8709bb9353f9241cb6eaa03fd7ba026",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Adobe.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Adobe.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adobe.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adobe.list"
+  ]
+}

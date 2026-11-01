@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T01:58:28.192687+00:00",
+  "client": "Stash",
+  "rule": "Line",
+  "rule_updated_at": "2026-07-26T06:33:54.254580+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21,
+    "IP-CIDR": 20
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Line_classical_74c30b8c4a9b2e0e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d390f6b3b0e55b8ac9f883dcffa6cbfe3ee52f82ffa1f76c33543dcf40553eda",
+        "bytes_sha256": "f70d666812b63061f063e73a78ab2b9da21a5fcc024b060cdfe1542b769912dd",
+        "semantic_sha256": "dbe0756f5d85d9e38637f4ffce0eb8de1069040d56fd5e71d3b201476495cede",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Line_domain_15635c410f28d7a4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72be293591f56f2e6f749cd234095f48ae3d3bdc7fcced52f586f3ca3b38b818",
+        "bytes_sha256": "0188038db6e8890c705e59a354679e95daf1594a71e4572b049912dee28a81a5",
+        "semantic_sha256": "34127f1806ce7b6ab55879487f2f82a1f8a9397e25fff9a749e4c78ba5962f14",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Line_ipcidr_2b510ce0b192563b.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09af0ae8e0dd267e2aba9c37055a2e23abf2bdb10a87a9b2ad76cfd2fc7cb79d",
+        "bytes_sha256": "7065f808d4ac25e78ebb275d65ca68762a896a796cfbca42790e9aea7df42c89",
+        "semantic_sha256": "9f609c576be48af921a2bef2920255273f73678e6913417d1310f24e334752eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Line.list"
+  ]
+}

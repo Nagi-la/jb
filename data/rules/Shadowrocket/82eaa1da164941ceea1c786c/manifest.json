@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:35.672104+00:00",
+  "client": "Shadowrocket",
+  "rule": "TapTap",
+  "rule_updated_at": "2026-07-26T07:16:22.958243+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TapTap_rules_a256d5234f295cc2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5cf114a3f6fbc6d5bba43597cc20241b2de63bee61b11660bb6967cdcf14d3b",
+        "bytes_sha256": "5a79791e8b3818b388b8b507823585e4e34e2270d0d9b09267d7f85b8b8b1aa3",
+        "semantic_sha256": "788cbd59845797d31eeaaa539ca17b602c7935f599423c184cb37939399ff667",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TapTap_domain-set_c2e9d3e78da96634.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c44710035bd8f96a11d9b31c770d928e0256c605678c5b46689bd3e5521e3b9",
+        "bytes_sha256": "817b78a1f1917209daea405a11e11bfe825df296d31e1ea3f1b9352cc722b4de",
+        "semantic_sha256": "89c0f6c580c32cdb1187b7d0a3bcb17478f86fc1f24f503780783908ae670885",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list"
+  ]
+}

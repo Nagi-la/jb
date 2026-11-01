@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-29T03:30:55.198754+00:00",
+  "client": "Surge",
+  "rule": "Anthropic",
+  "rule_updated_at": "2026-10-29T03:05:31.085793+00:00",
+  "type_counts": {
+    "DOMAIN": 8,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 33,
+    "IP-ASN": 1,
+    "IP-CIDR": 1,
+    "IP-CIDR6": 1,
+    "PROCESS-NAME": 5
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anthropic_rules_f9e0decc2657fdcd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a50cfc0a1d6ec607c8c0417c969be1d082045f6b915aa5525d299716f01ffcd",
+        "bytes_sha256": "9134294a8250fa24f2ca8258ac52b68bce6be08726e0550e8c4afcb9ce498f41",
+        "semantic_sha256": "9ce929431e38c2c86eec5f299f9b2b065f9ed757dbfd526288995d67c055c942",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anthropic_domain-set_dbad1f4be309757e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e412562117c60449e64f68e37b764ba775e3362182e2d96ec5bcb49cebb636bf",
+        "bytes_sha256": "68cabf054ad3302785e4b8d4cb28a12e45eeb285ce092b4749e1a6a00fecf1d6",
+        "semantic_sha256": "2eecc00291de15e0077a71290e31ed5698ee783a3cf7d93aa047581c42e3091b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anthropic_rule-set_81815445afd28861.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c6f0f38cdcac9e8ffdb72291d5eb0bbf2ad7f437ff48368c03c5389c50c6f982",
+        "bytes_sha256": "07017511fc288e6b50d23b5b0612198946bf58e4cfd7e35f7953205069b43182",
+        "semantic_sha256": "d8a6e184b836ab3c2b27f95e1756d407e977a58b3ec07f439ad988f373565fa2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/anthropic.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/Anthropic.yaml"
+  ]
+}

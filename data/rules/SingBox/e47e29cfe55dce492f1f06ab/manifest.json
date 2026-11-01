@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:13.393289+00:00",
+  "client": "SingBox",
+  "rule": "Eleme",
+  "rule_updated_at": "2026-08-01T04:38:09.430142+00:00",
+  "type_counts": {
+    "domain_suffix": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Eleme_source_cade2b561dcefdad.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7cce5acfa5775aaf23e6be350ae081192bf94f6be8f7774f2e256b957451032d",
+        "bytes_sha256": "cc054f15161970d391710021f0f3dfb692a8a7970748e586607c7cdbfadcd85d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Eleme_source-srs_db0835b7ecde2de8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8f15e3554eef1a678236c25bf9598b539ab5b163eb2e6b7b1c0521eea704eaba",
+        "bytes_sha256": "963554e3583478c2b305a95e637c253c554f0de0615cbb454d971f03d3e0d889",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Eleme.list"
+  ]
+}

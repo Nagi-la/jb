@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:14:29.838446+00:00",
+  "client": "Egern",
+  "rule": "All4",
+  "rule_updated_at": "2026-07-26T06:21:23.570396+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2,
+    "user_agent_set": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/All4_rules_57761d5cd9f46505.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d3fe0225d4ca36eea39e6b9dc000294104fbac8a5f04f8b50b7c15d446e21d9f",
+        "bytes_sha256": "bebf24004fcf3d8555dd802722ac8357e72d650196cdce1236b1f2dc98958dd8",
+        "semantic_sha256": "4fcf4d7b8bc514d942c8461240515c3a4c1f6f1dadb514b88d7424fe6f297994",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/All4.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/All4.list"
+  ]
+}

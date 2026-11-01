@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:38.906481+00:00",
+  "client": "SingBox",
+  "rule": "DiSiFanShi",
+  "rule_updated_at": "2026-07-26T06:24:31.817700+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DiSiFanShi_source_8893405568c3ecc2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2287e84725059e1bbe463df52ed051707217bd4dc8bfa501bb0ed0035e7e2cca",
+        "bytes_sha256": "b22f260e30fbafd93a9063bf21a435c4bfade5295036710adccc7bffbd553e3c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DiSiFanShi_source-srs_52526c760bb564f5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f5e8c2a7006a47811392d318ef3b6d878275fb9b2b11004ae648c591c01aeb26",
+        "bytes_sha256": "4c41f6a2b2091932e53b8c3a93ea2791db1a77d1197ab0c8e1d6f7b78b62edb2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiSiFanShi.list"
+  ]
+}

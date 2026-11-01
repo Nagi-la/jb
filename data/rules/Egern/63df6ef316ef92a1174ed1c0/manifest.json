@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:05:00.695148+00:00",
+  "client": "Egern",
+  "rule": "Brave",
+  "rule_updated_at": "2026-07-26T08:21:14.850591+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Brave_rules_cf7e5be594f9965c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed04fea12e860485732ab6887f5a4918057abeffb4f1d0de4be4826c2e4306cd",
+        "bytes_sha256": "832a644edd63244be830ba4b59b4b16a3322d0b46167845104fd31bdb4e78619",
+        "semantic_sha256": "17460339ce34065cfbe4f2def2dffe38e483e4ca7aab2179ee7256d0a69c5cc2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

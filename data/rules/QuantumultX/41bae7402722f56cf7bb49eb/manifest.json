@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:01:21.346546+00:00",
+  "client": "QuantumultX",
+  "rule": "NYPost",
+  "rule_updated_at": "2026-07-26T06:22:19.556172+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NYPost_rules_61e0393c29ce5944.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a63df1dff34ca0c9cfee9f1666aadb21a190f84070944196e092f203137599d",
+        "bytes_sha256": "5cbd43fd3f10d3c20a94e9618550393e4f813245c76bb076fc66e4370b33fe83",
+        "semantic_sha256": "89df736686a47d448b6c8ca7d105c385d841bfbfb633a09b2e7c3a41aa015c09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYPost.list"
+  ]
+}

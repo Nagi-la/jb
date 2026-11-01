@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:58:08.672796+00:00",
+  "client": "Mihomo",
+  "rule": "Rarbg",
+  "rule_updated_at": "2026-07-26T06:53:50.774627+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rarbg_classical_2e9f7f498c1bb8a6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ff97eb7b4532a278ff7a76ccbaecb64800bd0086dc582e4fce2bf47106026ad",
+        "bytes_sha256": "ecb0b3c15942f0ccb1138f49926cde2074ae00b9fbd0e1c18b8cdc54afde217a",
+        "semantic_sha256": "22ce982ba7a475e3a158bd16638f3cd342a8cdfa7a7226e8f58e1a6a89bddc33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rarbg_domain_4fd01fa369282ca5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ea05c50f19f4f0969358a0b10cf9eae3adcc73680354853cb857a2ee7d9e7f08",
+        "bytes_sha256": "90eb59e321347bc288bd137686d29757d6cac80da0ef9575949813f6b939bbba",
+        "semantic_sha256": "604c0e1018fcd7b168a7421ea1aadb9456c9689dd0ecfddc38dda5660f427d39",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Rarbg_domain-mrs_71ea62d7d61ebb35.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "62798e115a90a12170230ac323a3669729559c97c8235ad6379e79e0cfb87920",
+        "bytes_sha256": "8e531c8c7816107fd9810be6e199d7b553950b6a7d1f1bcdd50a65b190643fe1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rarbg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rarbg.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:59:57.322533+00:00",
+  "client": "Mihomo",
+  "rule": "Zendesk",
+  "rule_updated_at": "2026-07-26T06:56:29.245284+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zendesk_classical_32c6f61505f6c03e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "961bc6483438f69132cb3a345286712b0adb2c56e122a0cb88336cfcd3c97cea",
+        "bytes_sha256": "b54a9e36317e5a2805649d0da58617cafc0804921ac9807374409133e057393c",
+        "semantic_sha256": "f0b383288a8739a1a6b6ece4492c4e13935fa17ee916473357e7d095246902f9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zendesk_domain_ebe49d21a3abe0a4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c530055109d7fd05b4739321db9949ccd675830a81f0665fd2b1f15f6915c73",
+        "bytes_sha256": "c371f9aaf2de81c517768004b04f2c2806458ddbe2a0994d20db331d5e32d04f",
+        "semantic_sha256": "ae47b73f0e423d428f23e9bff17fa2591f9b90586e2cd9f2301350cf4a469adf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Zendesk_domain-mrs_6b1f99d143fdea28.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c0c8801473d332a022f13eb6048b16b69f4ee66078a07410c0279d11f8f9612a",
+        "bytes_sha256": "5d82a6328ed4769c5adea3dae898595293a02065208b61c5c7638e184a2561b9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zendesk.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zendesk.list"
+  ]
+}

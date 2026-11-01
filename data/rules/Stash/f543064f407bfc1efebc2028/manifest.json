@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:17:39.410486+00:00",
+  "client": "Stash",
+  "rule": "Anker",
+  "rule_updated_at": "2026-07-26T08:30:35.680483+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anker_classical_c819fb3869df7083.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccd023f54bda8db0eaa354c52c03a72532d192ce0fbb5a9a9796c32b4a68efab",
+        "bytes_sha256": "dd7b90cb41933c9516313256ada8b69072729a7fffc92898cd7a6bf33ae28743",
+        "semantic_sha256": "f12beccb003f1931955075637737aed1c4f9b2d371b060a61e25982df1b21f70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anker_domain_0daf5260a328a185.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "694ca23bf6ae2081af531f91b4d10df582b23a59c2251345c5f3d80ff4ee1ee8",
+        "bytes_sha256": "fd8c4c91d93db356b55bf9c57f72d3d54c15103e0f360f4c51867aeca200e5f0",
+        "semantic_sha256": "66e03f58442c95402b19bd0c08356fc6951e86a972e725e88b2120ac190a55a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

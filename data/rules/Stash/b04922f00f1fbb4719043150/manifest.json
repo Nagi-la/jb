@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:37.736619+00:00",
+  "client": "Stash",
+  "rule": "CopyManga",
+  "rule_updated_at": "2026-07-26T08:31:45.528320+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CopyManga_classical_9e132bbca1c8693c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a61e2fb9b6230c05b327c7104f9fd19fa0f5a9ea8276fd1efab4bbed199a976",
+        "bytes_sha256": "17ca3aa6c73c3f63556f071a610ef3518c012d99307252051616b77545107fa5",
+        "semantic_sha256": "59aa21e3db4a5a6b5fa1f97a5ccb0bccc6c8864e43e79a096db70c56cf42f6a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CopyManga_domain_aa3da6f62c65ab2d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "020774c102e76130b7c326fcc995938c3bc4214cfc61081a78d9abd9ec29a9dd",
+        "bytes_sha256": "4a4f3d2bc8617ba2f38d2249dc9bb843cf0d9165809b9a0fb3ca2e91236155a3",
+        "semantic_sha256": "7728e9ac28a6b175dcd8f6ede0297dfb68eb60de3451c4ade0550a4b20f6adb8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

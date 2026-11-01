@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:25.925013+00:00",
+  "client": "Stash",
+  "rule": "Heroku",
+  "rule_updated_at": "2026-07-26T06:29:33.078376+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Heroku_classical_5634ed1a6df1b1d7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f07725822421b8505de3d3c9c78062327ad3884b28bc4bc2f77d19d8295db646",
+        "bytes_sha256": "81c4bf0e1d9a434d56aa0e687d9b8fa846582ba83718096930a461af92b42b88",
+        "semantic_sha256": "7ddae103e5ca04f73f1d8c05878cba7b5fa9040d2f4c72cef48ed1c91d23c173",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Heroku_domain_298e20d886592ba3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dca6c2f4ac51702f91acf30bb3110d12397c573d250773ab8c5510ecce1c8b1b",
+        "bytes_sha256": "ccefedd6b52aee5e3ed38d45470bc5ab4cf5abe15dce954e8e0c540c1f9bdf21",
+        "semantic_sha256": "60d7a8a6a75c877b6c5bc9372898ab43bee9416d2962c5cceb46424314c437ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

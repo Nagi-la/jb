@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:56.693848+00:00",
+  "client": "Stash",
+  "rule": "QiAnXin",
+  "rule_updated_at": "2026-07-26T08:34:11.608046+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QiAnXin_classical_aaf8e2687535b563.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1919acb1d6810c0ac7530bc3d90d5e426ac95dcc1c3c4efae286d0f2230f04f8",
+        "bytes_sha256": "1f40b1286751648d19ed9cfe07fb3f6276d9211e7ac6b7be3024bb127d1e13fc",
+        "semantic_sha256": "5791d728cfe6552fc8fc4269671c435701468af6047280f8da780e45318537ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QiAnXin_domain_88c2992f24d592be.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5e2cffd50fb69397ca04d3c7fcea264e14b87e6c6a9f1bbab2b48869a29489dd",
+        "bytes_sha256": "db7f444ad150c6bef0f7e01fae09f40baacba1bda75a63ef0ae9e06972c339de",
+        "semantic_sha256": "be25224ee62bd53f990bb7f13ae3752b9c27dce68329cf31fd41eba1d3d22a15",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

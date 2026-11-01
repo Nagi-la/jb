@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:02:02.468962+00:00",
+  "client": "Surge",
+  "rule": "HuaweiCloud",
+  "rule_updated_at": "2026-07-26T07:04:01.558026+00:00",
+  "type_counts": {
+    "IP-CIDR6": 3,
+    "DOMAIN-SUFFIX": 291,
+    "IP-CIDR": 99
+  },
+  "total_line_count": 393,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuaweiCloud_rules_4f5429f8719d2ffe.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "70348bfacd7d03ae2ddb31bec6b5b85f6d7c9d0900212d885d9c8148c66b6313",
+        "bytes_sha256": "6fe085affdd4f7550a1977b133ae77604ec113ea1fa5742fe2a72391af60e988",
+        "semantic_sha256": "f13ea9e0cf9bd5117b97f077123e13e011daf86c1daa5cf6d022c6f0aafbb442",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuaweiCloud_domain-set_2114e60b86df9fb8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98d2edbe66b949a65c1b4c4b82666f236c3089478b1ae6798d1b547d1f6ee035",
+        "bytes_sha256": "ad9d6b462aa205961749a8b6678a9e36ed9bd5cd774335d705f04aa67da9e7fd",
+        "semantic_sha256": "7cc55582f65b5cad16ed79ee16e3302949d461037083c6f434ac28a802346a2a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuaweiCloud_rule-set_3f051ac39b1225ce.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fffe387d745ee6dbfa316707e5a58fd94723150069dbac589a3603ada59f5180",
+        "bytes_sha256": "acdb7c07d91fc4aeca5e63f9f72a57a09e3425cbad75eae57787f5a9f8b972c0",
+        "semantic_sha256": "e04ce23b965823d7e1e9b6d2d370b26bdac31c040d57de14fc858d68e93a6302",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/HuaweiCCC.list"
+  ]
+}

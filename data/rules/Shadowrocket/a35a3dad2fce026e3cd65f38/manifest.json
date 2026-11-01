@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:19:15.045862+00:00",
+  "client": "Shadowrocket",
+  "rule": "PrivateTracker",
+  "rule_updated_at": "2026-07-26T06:56:38.685985+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 119,
+    "DOMAIN-KEYWORD": 3
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PrivateTracker_rules_0437527dbf374c3e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0cdfe74b45a5e6ab39af459ab7e21eaca6bd4414baa6d1320e52b26faf28fd40",
+        "bytes_sha256": "8cb0934985b51858b0d7a64483999a3e2e7dac057eb1802a77e374017cedd3f0",
+        "semantic_sha256": "d122616c710fff44741ea642464d92e7fd28e19ad649081b23f2e57b9c2b44d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PrivateTracker_domain-set_639936cdeceecaa8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c2782d5820c430a53007df36140fe86463168275a3f1ef1efad75212f77f1d0",
+        "bytes_sha256": "372440c0e0bb86729abb08b16eaa94488c8c9ab652ac1b84b1a3a0d32849f743",
+        "semantic_sha256": "d75996b31c7592c44d054755769e17a36dce4ba321ed21633057163792781909",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PrivateTracker_rule-set_9dcce3836a70e6ed.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "290ad3b031d963023e2cf6d83c6aacea21c0facfd50a37f6f5ce40595aac9006",
+        "bytes_sha256": "a242b9d89bc4a492ed03265514ea77655b5b50bdc8651c075ea043dcd0c2b54b",
+        "semantic_sha256": "9c188f1e75891093f31869a2026eb670c6aaea3b11c4ce979f99de54a32bb07b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
+  ]
+}

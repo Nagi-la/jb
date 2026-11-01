@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-10-16T14:34:02.095669+00:00",
+  "client": "Mihomo",
+  "rule": "XiaoMi",
+  "rule_updated_at": "2026-10-09T15:59:11.675221+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 181,
+    "IP-CIDR": 15,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 198,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_classical_b52a4f21f89b5ef5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a0388fb30ec9d7ada78280452e389d41e5ede6b4a8fc285a71fa295545da62c",
+        "bytes_sha256": "31c7b22efaf8374d6d387543daba82eeb622183a49fcaa3ca47ddaa0d3d115af",
+        "semantic_sha256": "fcec75826deb5392ef8ec7f7599c95a5cf218aec5f8dcdb16b7ca93f8aa44c4d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_domain_a310bcfae3cf3772.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "753f105a9ddb371125d6ac73a377226c9b356adc630c7630ad4bb225b1ff6aac",
+        "bytes_sha256": "cce76bed843ed7013a38fae65f533e90eba7cdb805bbdfa8093225dd413c82ca",
+        "semantic_sha256": "a957b9403f84e11a256af05ab75cb27ef99d11b27dd3dcf5191178c70c38f737",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/XiaoMi_domain-mrs_80c9220c6b0237cc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "42dd05f560e2a8d6e2f7443d68b3837381ff0fc6a59806fc269f89a1f6f1308c",
+        "bytes_sha256": "7ab0151af082007b460b47df3bed545d8838071fa16c4207baae29d1075aa458",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_ipcidr_1f1fa77f2b4279f4.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42d682d061e2dbaeff7ee7b9cc34730cf44cad372ccd2108c5691b83893a4c60",
+        "bytes_sha256": "73241c2d203e9e3e471ca8ba97448ea17d25ec46ed52749ec5ba19d5145ddc88",
+        "semantic_sha256": "99e7a8eaa814f3ab312c136eee51a69f126add37a949531e2e465f8783dd9c45",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/XiaoMi_ipcidr-mrs_e0e25d518bab458f.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38bc49ebc876e7fcbe5efa3b980d6632480bd911c604664ec9d10bc10c8f4825",
+        "bytes_sha256": "4ccabfaacdf87173895189e12f205810cc7361a2dcd99efd12e06a9f25606ad9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_classical-rest_d57e3c81490d5ac3.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc785c4c5d7c7e6dc90f226045495e2a62c0b6100b330619620a317428b0d7b5",
+        "bytes_sha256": "5cc6467c6d7c4a859c944a14ec6930b534e00f57fc0314e42068e51194439979",
+        "semantic_sha256": "631ed792525e3ddf1aab73fba7a851e952c1ed4fae90496618ecc795d6d192ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MI.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list"
+  ]
+}

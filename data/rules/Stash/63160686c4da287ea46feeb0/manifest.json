@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:56.449831+00:00",
+  "client": "Stash",
+  "rule": "Jetbrains",
+  "rule_updated_at": "2026-08-03T15:39:45.366714+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jetbrains_classical_23fb1523bfe2f521.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "487ce7ba5adb71c3aa2e201ea06f72d11815ef5cc5c5398334b67f0630205f59",
+        "bytes_sha256": "97c25a9fde9d0008cceb0cac7def836c9062b2286399e7bb1ec300dd8bf4c580",
+        "semantic_sha256": "7b710a747b20be8943daf5c4c38ae3dad01e32c337350e84e9b4682265bd982c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jetbrains_domain_9fb2c3cb5dbd72b8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "883f1ee12a20a85254dafeb15c688ba19268e7dd05b199e852011f26f279c75f",
+        "bytes_sha256": "8d0f4ad296f0191f869cf3856b49c0cbbdc6923a3d061cd7bb4357a2795942fd",
+        "semantic_sha256": "bd873d1b1aa7d3cbfda28a7f48491e7486880b39261834c0769e6ba1057e9a8c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jetbrains.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jetbrains.list"
+  ]
+}

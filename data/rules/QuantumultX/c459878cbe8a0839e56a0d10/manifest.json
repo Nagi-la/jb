@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-09T16:20:04.731464+00:00",
+  "client": "QuantumultX",
+  "rule": "Whatsapp",
+  "rule_updated_at": "2026-07-26T06:20:51.600711+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 13,
+    "IP-CIDR": 15
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Whatsapp_rules_540ba7d38c630590.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a7b942c570aa06fd01d327f9dfc244075a5f7d53373e4a673263be562a686da6",
+        "bytes_sha256": "19b9956dee447172fd4b975fd8e4b747d8481cfcbb89950c60e0a48cdc387a1e",
+        "semantic_sha256": "b7bed37c3e749bca828a13d9f5886b007aee1ac190a21ea4b69eaf1eca01bcb7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Whatsapp.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/WhatsApp.list"
+  ]
+}

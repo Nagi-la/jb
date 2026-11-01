@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:14:26.430077+00:00",
+  "client": "Stash",
+  "rule": "Cisco",
+  "rule_updated_at": "2026-07-26T06:48:33.640988+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 121
+  },
+  "total_line_count": 123,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cisco_classical_00a4e61874d24383.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0e2ea62206b151ee37af475212637704538ac69a8129c9bbe8cf5d206fe04942",
+        "bytes_sha256": "4a63cce4be762c570801a95e5453c845b3cdc674b7146bdc86796fe273f15e34",
+        "semantic_sha256": "a9aab6409ec6a3d3d12e3db35fe1a038ef439ae1192e12153ba96453e5df0974",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cisco_domain_4fe67741f6e761e8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9dbffb50b9d2fb7e7a9072af81925e6aa0685c8bec39ba40b9886da81487bcd2",
+        "bytes_sha256": "42ea7e2a093edda9ce07dc01da1a5cf83bb401eb5f5c34e3c1fd5ba5ed2efe0c",
+        "semantic_sha256": "405e08195f34b0b6e2b1a662373a812ed75983b56dc307901740316ec94d4a23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cisco.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cisco.list"
+  ]
+}

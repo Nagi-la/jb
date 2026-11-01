@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:48.059624+00:00",
+  "client": "SingBox",
+  "rule": "Disqus",
+  "rule_updated_at": "2026-07-26T06:50:17.045668+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Disqus_source_22b88e134a34d930.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4e16f09534c327353d691bafcd46dfb751955a47ac17b72e0213cf53f4fc39ba",
+        "bytes_sha256": "52944873855b1ebeb737260bdc896807638b527c22685c20a5a60acee255a33c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Disqus_source-srs_0735ff6e2e329b45.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cd8f76c807571a042de661744471a1f9603075668e45951c9dbfdb745eae936a",
+        "bytes_sha256": "42248a69720158ff19768cc618d192fa89a765eee89f50d3c8bb9ecb1aeb4adf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Disqus.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Disqus.list"
+  ]
+}

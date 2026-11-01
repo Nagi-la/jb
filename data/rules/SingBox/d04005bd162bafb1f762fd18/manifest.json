@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:02.004833+00:00",
+  "client": "SingBox",
+  "rule": "BianFeng",
+  "rule_updated_at": "2026-07-26T06:47:53.730411+00:00",
+  "type_counts": {
+    "domain_suffix": 100
+  },
+  "total_line_count": 100,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BianFeng_source_6bf2ab062d285e81.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c81fdd431003426c0fd36d142c852acf297bd873f697285941ae4d21f9dbcee1",
+        "bytes_sha256": "a557adfa4dc518977ebc93aaacaa54c1549eeeaedf8f2428ecd2ac688b87d6f0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BianFeng_source-srs_87e518a2a9093a64.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "31f659a5e8caf4e8e2b45e94b41884ac7a6cac13efc95fa24d9e4f7ee043057a",
+        "bytes_sha256": "38fd5d3fa334010e552048d5f798712812514c3829eb0f03ea6a4eae7cde4b66",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BianFeng.list"
+  ]
+}

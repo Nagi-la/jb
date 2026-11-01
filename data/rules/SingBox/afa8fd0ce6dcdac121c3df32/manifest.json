@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:05.659210+00:00",
+  "client": "SingBox",
+  "rule": "OnePlus",
+  "rule_updated_at": "2026-07-26T06:27:25.985165+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OnePlus_source_ad5990e72fc33464.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "19e15b4316b16582139b9644c8e996257e21aaed1422b6787a7da637a4809ac4",
+        "bytes_sha256": "e4c24c9ed4b599d66992708ff066a599d366560637428f50c05c07cbf5552324",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OnePlus_source-srs_2fc2be8194b74180.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "31e8ab9fde7912dabe0a21febc3eea970e1e5a103a4284c17feb2e4e284daa42",
+        "bytes_sha256": "2f1953efb42fd7bba50d6c6efe0dbf2c2bb505bce0f4bf5fa3f155762200fcf3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OnePlus.list"
+  ]
+}

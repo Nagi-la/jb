@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-10-29T14:58:44.712703+00:00",
+  "client": "Mihomo",
+  "rule": "Global",
+  "rule_updated_at": "2026-10-29T01:54:31.127122+00:00",
+  "type_counts": {
+    "IP-CIDR6": 4,
+    "DOMAIN-SUFFIX": 22360,
+    "DOMAIN-KEYWORD": 53,
+    "IP-CIDR": 80,
+    "DOMAIN-WILDCARD": 61,
+    "PROCESS-NAME": 8,
+    "DOMAIN": 1914
+  },
+  "total_line_count": 24480,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Global_classical_84d7c926159da35f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72a6a0c3f4f52156636920a6aa8144b72b7c11acc47f18cadca17dca7d210b41",
+        "bytes_sha256": "9cb59c7e303238b706db5336954111b995444015b1998db99a99b774217aebf4",
+        "semantic_sha256": "5e2735c390bb78a92754d2081b2e05a9b5235803d3c987718ef0169a00eb33c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Global_domain_b09a4fb5fb19809c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "731bc494803a5ca9edabead6b1a0bf4aedeefcfea9266da5fdebcb1ecd1b48a8",
+        "bytes_sha256": "279538af4efb8be0d67848c3323be5604531f098285670c7b0453e6260b6dfee",
+        "semantic_sha256": "9742dd529f55eb230db0e811d668fcdd969fb793f5d488c946918b7a9a03f480",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Global_domain-mrs_11fcf4421fdad82d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "140f0fb3daf1b013c0b90bf5becf04183ab8ca7b15b08772fd5577b52c6ed989",
+        "bytes_sha256": "a0dd707f1c393e165d33656a05d217868ca0a9b4e4fb68a1d1b7cdc0cb706dca",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Global_ipcidr_92593d7d28d4f5f0.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c76dc97eb40f28d1c86f53916f03c9ef049f68580496637458230790f29d28c8",
+        "bytes_sha256": "fc3b798d394681f8fd2df4ab3234ff474c72826c851e53d0ce409bdee05b8028",
+        "semantic_sha256": "0503d6bda9eee2ae465f773e28269b8ee3ffeebfa272f70b86f0c3cd87ffd96d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Global_ipcidr-mrs_a31e98928ea0c21a.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "303856e0238afc8e526a4cbb7e6d74e307c1bd00fa78c8c8fe37069a2ac42e1b",
+        "bytes_sha256": "e9e30922462e76364cfc94c5abac2b31a9a77aba53c60e2b627832786b1186af",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Global_classical-rest_ff140587ab5f5248.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee8623d65b45cab94e9f5a176b1ff11f02e8e58b1ef1a5f19a54140d1be4d344",
+        "bytes_sha256": "0f4f7534dc26177be8ba600b33af82df32350a51ee3c42f0576f29030028aeac",
+        "semantic_sha256": "e5f52ca53708c4e67e2ff179ddf66e2e7a1427c08449cd67ba4193dbcb9ab505",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list",
+    "https://ruleset.skk.moe/List/domainset/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf",
+    "https://ruleset.skk.moe/List/non_ip/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/global.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+  ]
+}

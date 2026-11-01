@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:45.521216+00:00",
+  "client": "Loon",
+  "rule": "Brilliant",
+  "rule_updated_at": "2026-07-26T08:31:37.907911+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Brilliant_rules_c53a40a7e77a89bf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b80c67bac68a9006132a23318966959516e885f1c17eb795170a354b420ccfe0",
+        "bytes_sha256": "35bc66420e3a9160f8d94fa9f9bcceaf47808bccbb251d6895432c053ea26190",
+        "semantic_sha256": "17eabf2425943c3260801c6bf2ce4a5635468e702e0f7e0a648d146235ed1be4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Brilliant_domain-set_d404b1323e38b18d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1704a8e7d6342c55650d19a4a835248599dca28a00f78011923fa63a49b84d8",
+        "bytes_sha256": "13ef74215a360e966f5b9a70c30277cb2a0f143a9f571fa5ffb442bab63f0ed0",
+        "semantic_sha256": "71ba285d432379d5df60c2c90f8cca46bf2aedb77b9086f075130e59361e8651",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

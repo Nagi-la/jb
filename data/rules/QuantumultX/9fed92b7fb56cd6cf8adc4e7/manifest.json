@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:35.094061+00:00",
+  "client": "QuantumultX",
+  "rule": "BaiduCloud",
+  "rule_updated_at": "2026-07-26T07:02:51.360737+00:00",
+  "type_counts": {
+    "IP6-CIDR": 10,
+    "IP-CIDR": 131
+  },
+  "total_line_count": 141,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BaiduCloud_rules_17b49cd8aac5f113.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2ad1199ed2afdecb1c7f98e68d874804b63dec76c579f94decd17067893d9b83",
+        "bytes_sha256": "d96196949e2badf23dd82a3c9569ee17ae79a9fa89aaadf5e7f4aaa6e3848117",
+        "semantic_sha256": "41326affc13186ba5c0fa841fc74c73511019bc446b7ae602329bed1ae5e42a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "非百度网盘",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/BaiduCCC.list"
+  ]
+}

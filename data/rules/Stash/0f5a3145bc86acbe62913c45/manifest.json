@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:14.639226+00:00",
+  "client": "Stash",
+  "rule": "PChomeTW",
+  "rule_updated_at": "2026-07-26T06:57:45.983173+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PChomeTW_classical_5f08ee08b1835235.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "474532d49b3d66ea7ff9844c6728926c2e5d83507686498cf2d6a5154119ed0e",
+        "bytes_sha256": "cf2435010753926cbdf6822fce4453fbaa6fcbbebf7dea12d3472c832a46c33d",
+        "semantic_sha256": "446cb73f0b373a15774026c2ed15577acbe838f598c0297b755fa0e43f24df41",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PChomeTW_domain_ca38ee97ba88f029.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b180567f1a29411a7774bba3bc691eb35cb5feb090afc3cd648e57c851ebf7fc",
+        "bytes_sha256": "5d7d89699060bc87b76de4ffd29742bd5958b0a7c09ac16c2c193f37f25ff4cd",
+        "semantic_sha256": "f30bca6e78f2ce9f5450abae8c0b815fae4e4d961333472002449dc030365abb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "注意，非国内的https://www.pchome.net。",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PChome.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:06.807224+00:00",
+  "client": "SingBox",
+  "rule": "ArchLinux",
+  "rule_updated_at": "2026-07-26T08:30:38.954436+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ArchLinux_source_5bef69546ada6534.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5569e8f416dc949b49ae6df8dd7daf0462bcef2a4cb20a70abc72bec94e6b689",
+        "bytes_sha256": "9b1a142240d48a3ca04915301b06e1764bb7c2d9bb26f7372f56850347b5a63f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ArchLinux_source-srs_6391171da800f01a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "81dcd779f75b023fcc364f01e68dc176620a57e089c4be43e69eab1ea9d774a1",
+        "bytes_sha256": "1eab001c86f12c73463b91c5ee1a1934b6a87da5447d8dd5f5312b18eb1697a1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

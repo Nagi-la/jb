@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:25.136235+00:00",
+  "client": "Stash",
+  "rule": "Fastly",
+  "rule_updated_at": "2026-07-26T08:21:16.408323+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Fastly_classical_5452b3d7fb865a95.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13c1d85857392fb6813a81eeca12e4ac3b8b31731e773b9074fb22c073b9a80f",
+        "bytes_sha256": "2b4d7a019d843a42fb8f26f25d004d09211d25533a889c9f025cc8749e85455c",
+        "semantic_sha256": "f5e006fa1ca59f933a041595b8c327a9f7e2f7bc01e2c4096222261d7ad8d2ce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Fastly_domain_8d0334fefd70dc3b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2e90fde3e8a2883ccbb1740a82617ed8f3811be1966c0224b8d3d32e113d0188",
+        "bytes_sha256": "472437c5a35ac08ace70eb6164d2439b752d24716c9a36b20cda07a0b1293e0d",
+        "semantic_sha256": "ce4f759dd149ba3e25a8cbbe130e132ca65fe92c15e25f893640da71a35c188a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

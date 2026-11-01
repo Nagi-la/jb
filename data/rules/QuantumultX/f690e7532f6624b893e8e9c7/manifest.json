@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:56:41.354616+00:00",
+  "client": "QuantumultX",
+  "rule": "PSBC",
+  "rule_updated_at": "2026-07-26T06:27:36.458067+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PSBC_rules_57df45271bdf521c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a7bdca5792ea45f8e52789eff344d7617a76d3e81b1391ad7cf5b370bad9817e",
+        "bytes_sha256": "547e248c8f6e0f7f2de56bd27f2c4cdd0becb979f7a7843cc003f9ace2326204",
+        "semantic_sha256": "f7ed0f455ffc64fa5608f45acf65c64914ce48d809f478f5df8678c4232d00b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PSBC.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:32.904980+00:00",
+  "client": "Stash",
+  "rule": "Udemy",
+  "rule_updated_at": "2026-07-26T08:22:42.897445+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Udemy_classical_3a6fa561bf41c5be.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb613888933880c741b1b3a1cfecbf2d018502630fcd729728404d63ad6fd961",
+        "bytes_sha256": "5a57444a93c2e981014ae2fd5791d0de058d6e4346e4027c24e3c36bc9db4666",
+        "semantic_sha256": "797c3df60c0e9c8f38d6ca7ceae1fa84924359fe64d3cad53661a79e465045ba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Udemy_domain_a6c721235300764e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e932eb10ef72e3daec9ab768271586fd3b00d1378612fb51699d3e4115b8805d",
+        "bytes_sha256": "8a63d72b1b618fb7539c84c7b43787a5df04e3263d5ad2e58493d9a704655c3f",
+        "semantic_sha256": "3c277ba4dde6db7de57562f128c60e19971e75fc418b90186c359d336534a4a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

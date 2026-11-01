@@ -1,0 +1,17 @@
+name: MagicRule Egern Rule Filter
+description: MagicRule 规则类型自定义
+author: MagicRule
+homepage: https://magicrule.pages.dev/
+icon: https://magicrule.pages.dev/apple-touch-icon.png
+
+scriptings:
+  - http_request:
+      name: MagicRule Rule Filter
+      match: ^https://magic\.rule/[^/?]+(?:\?|$)
+      script_url: https://magicrule.pages.dev/modules/egern-rule-filter/egern-rule-filter.js
+      timeout: 300
+      body_required: false
+
+mitm:
+  hostnames:
+    - magic.rule

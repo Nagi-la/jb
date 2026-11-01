@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:01:00.661847+00:00",
+  "client": "Egern",
+  "rule": "9to5",
+  "rule_updated_at": "2026-07-26T06:30:20.894857+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/9to5_rules_9a3ffb967d896b7c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "461baaee02e6b612af8028f84e6d9e2c08fa44a3d29c1b6e0534214aec01d649",
+        "bytes_sha256": "6987b58cd2e952372410802f613f8e2752ca0f14e28e527573cb292bb919a369",
+        "semantic_sha256": "b43643988f741470b23f2597c78393c86add2164bab26ed798c83114c472ce11",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/9to5.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/9to5.list"
+  ]
+}

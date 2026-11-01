@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:31.492751+00:00",
+  "client": "Surge",
+  "rule": "DJI",
+  "rule_updated_at": "2026-07-26T08:32:21.772138+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DJI_rules_2c4d3ceb12d4d01e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2c94b248ff457cc8a6631467eaa995615397ff4acd27d4770f3bc1796eb4553",
+        "bytes_sha256": "74d1c9264826603962edf531406a9bf9f6479a955a38c8ee1612cefaa07e5bb4",
+        "semantic_sha256": "040f0ecb702752181e67e6c34e37786629faede5092375f6760e204911327168",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DJI_domain-set_0dff59dca8dc0437.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "428702c51409086f963c843dfc3d4c60a44b16ee260a94a85f51f60355d5336f",
+        "bytes_sha256": "a5e31a3da9ec2beeac91e23cdcc92ad196e27d16fe3238abb47e8cbfac262d3c",
+        "semantic_sha256": "2f33480b44d494d44c58f9a95afc9c31d3bde668f77a3aa1d53be3897991e68d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:21.493846+00:00",
+  "client": "Surge",
+  "rule": "Slack",
+  "rule_updated_at": "2026-07-26T06:54:09.038583+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Slack_rules_5aedda3b13647beb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7c6e6f7fad14f364cb4e98272ae777094df1a32f4797b702acfdd21f0f49fcbe",
+        "bytes_sha256": "0c2d66a22f09062207f2ee6749e425c98ed2bb80051a4c8137138849c87b0fba",
+        "semantic_sha256": "3a2fa0d7306c0fb9f51774b64b73f33c0c16ce00155e45bcf72ad61f32f03095",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Slack_domain-set_94ae496e3174c7d6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "16d893c613ac2b594d60da05b13e965f1af07b3eef7a31a9e80557b654414d25",
+        "bytes_sha256": "7dc8d8f4305d8c600277c0b304e7f7d95d2ff66800a2f980aff9d649a26cef67",
+        "semantic_sha256": "665fb731bedb2e40cff9f46d4424edab84737a49ee7b3803e3e74b18d5bd1ba4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Slack.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Slack.list"
+  ]
+}

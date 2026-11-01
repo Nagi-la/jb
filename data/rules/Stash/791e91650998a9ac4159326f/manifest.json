@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T02:52:34.561640+00:00",
+  "client": "Stash",
+  "rule": "Roblox",
+  "rule_updated_at": "2026-10-29T02:37:31.909652+00:00",
+  "type_counts": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 51,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Roblox_classical_0268b4812fb0d119.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08656a80b441b3abb7f39593ce9b3bd1d9fc5d0d3d79b1682a1bf36eb7215c28",
+        "bytes_sha256": "b3599d8c1ac4bccd33efc40adacc7453ed36ea6635028661fba90b3ee456d7df",
+        "semantic_sha256": "b54a1b051605a34c489486a996d1479648f5d118682404ce5b063293a73460a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Roblox_domain_8ed3cc767937340e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e43e18596583b9bd8e61f5c2f92ab27bedf63d3eff17332a9bacaad2fd5ffa50",
+        "bytes_sha256": "bc23a6842a68da6db9f7f1c06cb144f19563be54c3b23f07160ab1cc6f3728a4",
+        "semantic_sha256": "b1f9303fb58fb483cb60d7b0c3ddfe9562e1fa8526241d8e65203189adcbb6ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

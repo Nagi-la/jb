@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-29T03:15:41.721606+00:00",
+  "client": "SingBox",
+  "rule": "Copilot",
+  "rule_updated_at": "2026-10-29T02:37:38.886007+00:00",
+  "type_counts": {
+    "domain": 70,
+    "domain_keyword": 5,
+    "domain_suffix": 304,
+    "ip_cidr": 6,
+    "process_name": 23
+  },
+  "total_line_count": 408,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Copilot_source_a18a877990149363.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "700d6d8e0dd1fc111002b59b27b7e12d3c2dec7d365b72129054aa64ed3e8f82",
+        "bytes_sha256": "70949bc78788779656de6bff3c94de77a882c376d257c994d398b1b4a65e0be7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Copilot_source-srs_8ed6ffab53e57757.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1723052bd42a34f58037a6d01790cc0be982669038411a49337d0165f03e29cd",
+        "bytes_sha256": "171550dc04b6359233b60a340416d3a7d1d01afc21f57774db70c7b4a1480098",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list"
+  ]
+}

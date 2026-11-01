@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:06.087770+00:00",
+  "client": "SingBox",
+  "rule": "Shopify",
+  "rule_updated_at": "2026-07-26T06:54:03.637703+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Shopify_source_8c3beeecd2a25c9a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9fef2cf455c66947dc829acb4ed98ad2ea40697890addeb16f769688a6ca60a2",
+        "bytes_sha256": "d604a78e7e758a731dbedfd1cb2609768f25154c63a03d897b034009a823392c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Shopify_source-srs_6ecf92429262bb83.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3b20a0a29cb5ba33caee3759712ac64e7559394ec0df68a28534caaea296b201",
+        "bytes_sha256": "b5ba83413ee5732ff44516936ab97e046bb708ecb8b29f0af67e074c596459d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopify.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopify.list"
+  ]
+}

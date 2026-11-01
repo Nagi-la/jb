@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:19:18.231555+00:00",
+  "client": "SingBox",
+  "rule": "Discord",
+  "rule_updated_at": "2026-07-26T06:37:31.193485+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 29
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Discord_source_78df9119c83862da.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6ccdb01aaca28c4db70d42f27c4cbf7ab17a50951cded9b293272150d0413816",
+        "bytes_sha256": "031ba1cfae09942d3346a632d8a0011ca555b82dfdc020fd99fd05524c6d202a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Discord_source-srs_99e55997bec381c7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2f05c29ccd18766a6a61053f40b52c69a3ae413988e9260e0299b48e2b7b969a",
+        "bytes_sha256": "5f09ff1dc6cedc2fa141f71ce97d8c444dcef39b46bb1ea7e2a2e1389982a481",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Discord.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list"
+  ]
+}

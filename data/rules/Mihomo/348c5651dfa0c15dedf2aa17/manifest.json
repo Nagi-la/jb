@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-10-29T03:10:38.296791+00:00",
+  "client": "Mihomo",
+  "rule": "Steam",
+  "rule_updated_at": "2026-10-29T02:37:36.125587+00:00",
+  "type_counts": {
+    "DOMAIN": 18,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 64,
+    "IP-CIDR": 12
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Steam_classical_30f94ece8f1dec40.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "829fb4e56d0531c9bc36c3e42b694d59e1960321f91699bc3837e20d5206165c",
+        "bytes_sha256": "a2f5544db5eaefbb1085e20d622a2ae6aeace348e076d4299dcd549ce5e89a64",
+        "semantic_sha256": "8d08a9a9ae5919cb8db62f754049cee965af39a8a40682a2d11881d2efe89a26",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Steam_domain_aeee95935b7720c4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "230176ceb9408a0e01cf0285b69f385cff21a436576dd6970789e1644987b2f9",
+        "bytes_sha256": "bc76f27bd7c557c6a38267d2c11449b750db70935c93f8eabdb0707bb791b72b",
+        "semantic_sha256": "aad70d12718bbc8b3197e61a9cba6ca0c4daa2221916bbbf1f821e3e67f03ea2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Steam_domain-mrs_7d06f04d1f90841e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fb5f1d8412aa78cdd3fb3f02fd62f35f2313754166d54ce181476a77186bf680",
+        "bytes_sha256": "735ce2b110807e8b944ed02f5a7836eb67eda46d0de029bb3ff14d8443fbdb8f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Steam_ipcidr_fdce07e9009370ab.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df316a51ed9b867e545aae55c90c80d0e6cabf34d7eabe49740bb8befe9f59af",
+        "bytes_sha256": "d7bec3970c731e2b0f8b2df921c52cd3c76c044da325bb498d2aec1143c57a05",
+        "semantic_sha256": "4b24a8633dc87173062685e95905caa39f978965e0803bae41848e6d90722c6c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Steam_ipcidr-mrs_b55681eb6aef35db.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1b2a0d45acd2f9854db1b61688ac195fd76dd485a70e417adfe41691e34846ad",
+        "bytes_sha256": "62cb1cf9b4304bc890a3e9b4ead674ab905f6ee53ec128f51854665eca64d696",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Steam_classical-rest_f5bd7d6472c1225b.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98f5271b5811f96138c6f53a2157942556c7105b4bb7bc7bddba6abb0fac9d8b",
+        "bytes_sha256": "39f8d56bb266fa06f805b1cf4430e87f7031b4c05c5648a556f59f9490fcafa6",
+        "semantic_sha256": "f1f054d9bcabe947ec17428e6509adaf01f5a76ff9695828209af9593a10c1e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml"
+  ]
+}

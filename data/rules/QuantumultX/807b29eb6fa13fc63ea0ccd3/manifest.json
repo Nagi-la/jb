@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:11:10.457226+00:00",
+  "client": "QuantumultX",
+  "rule": "Alibaba",
+  "rule_updated_at": "2026-08-10T09:19:12.998470+00:00",
+  "type_counts": {
+    "IP6-CIDR": 9,
+    "IP-CIDR": 139,
+    "HOST-SUFFIX": 1471,
+    "HOST": 5
+  },
+  "total_line_count": 1624,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Alibaba_rules_3f5cfbafcebd3c82.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd95d901063cfb3c852002dd65ca737d9f3a92ebd557460560cb1dc36666a1e2",
+        "bytes_sha256": "6bb0f421311208fd3f525358dfa97f6b950d3396eeaea2be506e3168886811e9",
+        "semantic_sha256": "5c402069624f857cd34012affaa6b6921c64e629300788a5d6848e15089dd446",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
+  ]
+}

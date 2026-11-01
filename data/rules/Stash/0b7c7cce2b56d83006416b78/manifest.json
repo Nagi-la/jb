@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:55:59.040955+00:00",
+  "client": "Stash",
+  "rule": "TianWeiChengXin",
+  "rule_updated_at": "2026-07-26T06:28:30.982889+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TianWeiChengXin_classical_4e85807c56b32754.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b28024da773b838fff231bfed70795a6edba5a460980ebb88da5812a6cf98a08",
+        "bytes_sha256": "9614b04e8d24f173615b1c8aba54146df19d43a6dae3e3fd75e384c8d2697074",
+        "semantic_sha256": "9e2ab5d55e1c8b23f0fee866bf9b2fd7175da8259291ab803699bf67a99d6577",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TianWeiChengXin_domain_95ee4c3c9fa7badd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c70ae0c5882d3c3a9db6b557422031005f8a863c22d5f9c2df88bac33018ec28",
+        "bytes_sha256": "6c1be866565e3351721a1f0c7c05be57a9c9d2271998b31c112488f06d7a9bbf",
+        "semantic_sha256": "5cb79d218f0eb66965145200a7618647984ee519e698441bfad5a82539420b89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TianWeiChengXin.list"
+  ]
+}

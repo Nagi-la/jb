@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:11:46.855735+00:00",
+  "client": "SingBox",
+  "rule": "ICBC",
+  "rule_updated_at": "2026-07-26T06:25:32.677768+00:00",
+  "type_counts": {
+    "domain_suffix": 58
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ICBC_source_8333d37b4668907e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a5b45cf888064823d1ff2b3ce76a078582ba4cc019c5a00fc33aad39bfa14a5d",
+        "bytes_sha256": "2bb0f34c6a459f2d006aa7c3a2aa83efaf5c28e8b2b9609dbd9b38b09b2ea15c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ICBC_source-srs_a2149451041b7de9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e7bb600a1f2eb664fcf196a1de90f15416a3fe28825c09d28caff990a0d02263",
+        "bytes_sha256": "a5a453bce3e320c712b75052edfbb32b3f5b8db665da9751a01659c10bf88e0e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ICBC.list"
+  ]
+}

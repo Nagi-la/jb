@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-10-29T03:10:38.308297+00:00",
+  "client": "Surfboard",
+  "rule": "Steam",
+  "rule_updated_at": "2026-10-29T02:37:36.271566+00:00",
+  "type_counts": {
+    "DOMAIN": 18,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 64,
+    "IP-CIDR": 12
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Steam_rules_b6c1b99150c9ec4a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "82cb8c570173bd3f593eaeaadad2a4c1f31280e56e7084cfa86c6622f45c7eec",
+        "bytes_sha256": "688eb8e6fa983b3423faa54045798d7c10d26b37f5e135a080a46d50b8f1c653",
+        "semantic_sha256": "18726e3cad95bbaa917bc5268f12605dd98e248273f4fe1f8e5821bbcf8e46f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Steam_domain-set_d20844badf045ad1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0adf02fa7f86e6d05bdbb6ba92909942a497aeb34ef3eea9903001fed6155a19",
+        "bytes_sha256": "cd0e9aca1e094276deacba45fc298541cc52bdd8becf5383c240b60ce5b4bc3f",
+        "semantic_sha256": "5d907aa80361a20afb1871f66414cb35dc284348ebc0bb9031079ad535e445fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Steam_rule-set_e677ad89a3357a1d.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6534b00e9d9fe2ba3fe847482a6c2de5404a59c209fe0b5065b8c067a7d5bed8",
+        "bytes_sha256": "68435251ad36e6b546c6cae6b9511292033f09b7f1589917988d8576f1cf6437",
+        "semantic_sha256": "7bbc1379f76b3bede418d2ea1913c5eb9055942da8af8828a44fa415c3105ef1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:29.218735+00:00",
+  "client": "Stash",
+  "rule": "Figma",
+  "rule_updated_at": "2026-07-26T08:21:17.087639+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Figma_classical_47276f241a62f8b0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a8be495c3b391dd6ea6fb15f7b82faff4182ff381625471540b1ca1c83a970e4",
+        "bytes_sha256": "1c64205a94920cf5c06504f2a0a9f4053f484233350598d0251056d2cda76801",
+        "semantic_sha256": "f698cf1eac52f4196211b73d6393922c7c501469fd414cda09d267293c13b9e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Figma_domain_0b01ce37ad358630.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "16b00e073e972a4c69bcab64cf08ae3dff9d9c267ec7810bb6f52f1a015563e1",
+        "bytes_sha256": "8c807ba3ff8ae7bbd196a0d81c8da8557051386b48f85c9cab0e156c34ad8c16",
+        "semantic_sha256": "d3d2135da865861c19023b6503a556c4cbc8f796bb20dcf5a845853ab98b0c15",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

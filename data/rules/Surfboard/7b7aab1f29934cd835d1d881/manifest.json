@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:04.562371+00:00",
+  "client": "Surfboard",
+  "rule": "XiamiMusic",
+  "rule_updated_at": "2026-07-26T06:28:53.444810+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiamiMusic_rules_775c48fe6a2d5df1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb4556b67cab3386b2e4931dfe43a461ae7cda6a668b7a1e7629c0b024a45b07",
+        "bytes_sha256": "3e7b8802a4011dd1ccb85802fca2dc5e89f00082fadcd86280e2fd9ee3aa954b",
+        "semantic_sha256": "6cad2cb3f88a70e60782432652d7fc09eefa2cdf8855c9be51b330d55de42390",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiamiMusic_domain-set_6f6c0c87872f27c6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ac2cebd9e09a544f173efebfee5b8eb6810205fedd8233f6eac4479e38aa4c6",
+        "bytes_sha256": "e9d9497a237fb4c4c4d8e6cd0e4cb53fb1d73c6d2f7d4016f52868c4f638781d",
+        "semantic_sha256": "5c6ba582e4c5bae993c17394667cb6b00696064b3895d3c52ff32c77bcfc223d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiamiMusic.list"
+  ]
+}

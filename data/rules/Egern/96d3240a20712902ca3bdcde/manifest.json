@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:58:38.954678+00:00",
+  "client": "Egern",
+  "rule": "PandoraTV",
+  "rule_updated_at": "2026-07-26T06:22:22.399948+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PandoraTV_rules_1793c27ce2909866.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21d56739c2026ad072de070c12322842a90f6aa4e68c12f97c0e581db8024b0b",
+        "bytes_sha256": "858f136631eca067363c465902e6555ed16909f08336529f3b8091464cab04ee",
+        "semantic_sha256": "c332dd072eb656984294b5c764cb4dfa7f671a972a3b8a90a903a23b502dad7f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PandoraTV.list"
+  ]
+}

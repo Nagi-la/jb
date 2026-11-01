@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:01:59.299079+00:00",
+  "client": "Mihomo",
+  "rule": "KKTV",
+  "rule_updated_at": "2026-07-26T06:57:33.292220+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KKTV_classical_9f17b26cef93daca.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e4308986dcca2ef9a1f10e86ffe57a8ee5a7e0e10d3cc54f708420ff3d5c67a",
+        "bytes_sha256": "70dc0a1a2f7ce85c52fd37c79ffe05fe5ba773b12231263235a5cea098c5847c",
+        "semantic_sha256": "20e7acb503dd0192621d29e93934f8699fb37eccff357945050826555e5e5916",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KKTV_domain_b60170bd3db61a7a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0de142d8db9f321880304125e760af6f75e7d1561147063d41ac11f6f98d1555",
+        "bytes_sha256": "3662664baebc651b6767c8874b0872e5d88be55e49ffd718ab45a3c795526cde",
+        "semantic_sha256": "01499c818b99d5d5e83b74dff3615a63d6c0da77f27ee568a6ca5d771e28f64f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KKTV_domain-mrs_5e8638bf127ed287.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7413e8e727e11a7fc8a8f812bdeb7de665b15f282b88cb9c9153587f93811017",
+        "bytes_sha256": "e0d8fd29c149efbcdf44726a8e2c5f449612b482f46bc3a18b39285d7d2ae7a8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKTV.list"
+  ]
+}

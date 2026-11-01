@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:01:04.946122+00:00",
+  "client": "Mihomo",
+  "rule": "Vivo",
+  "rule_updated_at": "2026-08-13T23:45:36.194155+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vivo_classical_0a833c967ec5eb3b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d129d770fcd2e403504c1c29bf1a34be7fc19a9b3e74f04b35bbb9e67439f180",
+        "bytes_sha256": "5f7c239acb580f71b3c36778f17337c2e10c497bbcf02ee888e70ed76ab05ede",
+        "semantic_sha256": "e8c1e6d3f6239daafcf0e04a793896e36bc81a2a6eb56c9f2151b183c6290dfd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vivo_domain_0c3167ad6e83bd49.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "deca3cb164e6e07bf80e8b0665b067f53f7fb76858485b9f4deb318877e5438b",
+        "bytes_sha256": "5c6699a45f81b32609e411cdeefe8c87a1c8d77638893cac78842bb62990804f",
+        "semantic_sha256": "676647bf695341efcf7de159489a3c2a9fa8030fab5bee31d6dca2cabf5915f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Vivo_domain-mrs_d36ef74ef0208b24.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "617c9f35bda58b09c7c351d8defb1f07586c384416ddbde19244d3d2d5c697b1",
+        "bytes_sha256": "fcdba39717d1131dddd78efd98d73a30471673c9f5f70137a2538c92687dca6c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Vivo.list"
+  ]
+}

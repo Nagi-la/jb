@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:27.486917+00:00",
+  "client": "Stash",
+  "rule": "AppleMedia",
+  "rule_updated_at": "2026-07-26T07:02:48.166959+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 52
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleMedia_classical_91951093a153e994.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2ba6d6b459911f39b80d3ff98ff0d086fefd4fd38f1dd717ab7dd8645ecc1bee",
+        "bytes_sha256": "3934dfce10005911ef2690485db783855bc39581b63cc1f30f2446706e56d6b1",
+        "semantic_sha256": "6ccbe3fe8a038549de6f3970face8ebc8c4a3d45064e552cc979cd1add191537",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleMedia_domain_fb995dea75b36642.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d587b15f29ca90725cabc58a9e6c910d29fc37f1bba108e512142567c963ee06",
+        "bytes_sha256": "ad13d90375dbaa1c844b1d4b02716c107380e283c178a1072c4f732fe0925f32",
+        "semantic_sha256": "54533234e8d8bf577292a703c0932a01458f3cda136b2a0b5dac862d342fb2a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleMedia.list"
+  ]
+}

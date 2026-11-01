@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:47.386144+00:00",
+  "client": "SingBox",
+  "rule": "CSDN",
+  "rule_updated_at": "2026-08-17T01:59:53.055063+00:00",
+  "type_counts": {
+    "domain_suffix": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CSDN_source_2652c900642a8ada.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "58abf8774966356b74681a907d0025e2ba938bc93c315c6e57d0a137febacf38",
+        "bytes_sha256": "2f1ba545d75a1a3d554af07f0ca06623023535dbd8fd478057ec696c8e0a0a01",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CSDN_source-srs_4c376a76b0e77817.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "389f08e67bb46da6485bd523a8369ff02ed815a662fea76ad151f10b2316a735",
+        "bytes_sha256": "0db1fe756be7fbe399594a07b2d8f648c19df767221c7cc97509ede9091c44d1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CSDN.list"
+  ]
+}

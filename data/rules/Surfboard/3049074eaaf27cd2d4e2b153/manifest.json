@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:15:36.670849+00:00",
+  "client": "Surfboard",
+  "rule": "Hijacking",
+  "rule_updated_at": "2026-07-26T06:31:31.821544+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 177,
+    "IP-CIDR": 43
+  },
+  "total_line_count": 221,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Hijacking_rules_3d713d6d83bbf21b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8528c3063f8a3a083f4aec43853b5869b671b4bb1560dd3a151bc573a033f1dc",
+        "bytes_sha256": "54f4afaec66071b9ae7c79ec3be7188b0b50d7c6ea71d1130fd7add441386637",
+        "semantic_sha256": "0c8244fd2b3560f1374807c61dd52a6b255c10db82f1892427f14dd0c7e22ab7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Hijacking_domain-set_1c494836560e3ebb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff3d18ef76fd950e3bcea9bac8aeedd166657eabee6fe1b5ad83e3beed2ebc4b",
+        "bytes_sha256": "f8eacadbcdc8f867cae91cf29b46547aa96fa5ecda74b1fc627c4649969feb31",
+        "semantic_sha256": "3cff46727170303b5d86c87d3ad9b9cc28cef487f44a1d257e78df532ae64911",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Hijacking_rule-set_3a010420aded02dc.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31f8f5211e733de679e37a353016b53bb17169c49ac399d7f69523fca755696f",
+        "bytes_sha256": "c3bc873e5b2ad26cf52f3f153534b960fecd696d67deba88288c950d3733297e",
+        "semantic_sha256": "8dfdf15d2a1f5eba19ef4605217af4cf4af3b8fa545a0914218a0b810c369a35",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list"
+  ]
+}

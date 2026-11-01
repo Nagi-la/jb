@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:04:00.677702+00:00",
+  "client": "SingBox",
+  "rule": "QiNiuYun",
+  "rule_updated_at": "2026-07-26T06:27:44.098113+00:00",
+  "type_counts": {
+    "domain_suffix": 54
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/QiNiuYun_source_6eedebb499b9c7fe.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9567ca31134d7142044a16e9e4fa6538bf3b0ddaae20b4907a9d59ea75d1056a",
+        "bytes_sha256": "82cbee63040ad3236a5145ba9419722e33d11878ce916bff090507746c0bb112",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/QiNiuYun_source-srs_9fc9ddbdd7950392.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bb648892e2ab53e5bc4ec141b9dd95a7f18878137c29a47a14e335e22eeb4bc3",
+        "bytes_sha256": "d7cb144dc0a9c10519b69f58128c4ca555b364bdbaea418da60b673f8c337631",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/QiNiuYun.list"
+  ]
+}

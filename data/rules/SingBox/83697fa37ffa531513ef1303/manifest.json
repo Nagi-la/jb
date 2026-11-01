@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:06.449289+00:00",
+  "client": "SingBox",
+  "rule": "ChengTongWangPan",
+  "rule_updated_at": "2026-07-26T06:58:14.662863+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChengTongWangPan_source_0681613a90d3e236.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aaa1b96bddffc01aab41bcb007bb2b4992a8c90b4720895905a2adf5503a5965",
+        "bytes_sha256": "14904631556cf26d9d54c4b68dd1b94ceec97a4806c292e8324d951887b4285d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChengTongWangPan_source-srs_281447130d777f9c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "19137401795352586f986cd75dbe73654bc054923922265db7a2f73b55badfeb",
+        "bytes_sha256": "951c1b23580a4c59397ac3f974c4ea55c5be34d12538d7f77b10f6d4510e0f6e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChengTongWangPan.list"
+  ]
+}

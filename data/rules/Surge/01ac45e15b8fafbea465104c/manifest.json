@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:58.395843+00:00",
+  "client": "Surge",
+  "rule": "YouTubeMusic",
+  "rule_updated_at": "2026-07-26T06:32:45.514748+00:00",
+  "type_counts": {
+    "DOMAIN": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YouTubeMusic_rules_f141f2513ef136b8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc8b89e0367e4f3635f5a8ec3e673558e97861ecb94a8d7553105fa7f87ba6c3",
+        "bytes_sha256": "2a2c41d06411a25d753d53dd831bf99ca9695ec65f233d442fb6e8271a3569ad",
+        "semantic_sha256": "0ad31874875c048f5e56cef0d2c605527aa5ccbed69ad276b694e81901cc6e43",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YouTubeMusic_domain-set_bbc0139132bbd55e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "20e3b06304762ee9f9efdfb184f1772b3cb24f7478cdb953ef88a7eebccee2de",
+        "bytes_sha256": "569f8f78d8d6bdaa808a193e5b7214cf42d138780ec06b0452466bdc8f6d6995",
+        "semantic_sha256": "7118fcb42b23080c658e1b7854e4c22871d7740e5a6b92fe02d5fa0763094dbf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTubeMusic.list"
+  ]
+}

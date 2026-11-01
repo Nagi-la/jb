@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:15:21.859673+00:00",
+  "client": "QuantumultX",
+  "rule": "UCloud",
+  "rule_updated_at": "2026-07-26T06:28:29.501996+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 59
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UCloud_rules_a08e90ef3617d95c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d954ea3080470da0efa99050d49d163e38813a85de89675707490b1706896e13",
+        "bytes_sha256": "655c996fd7f3a24a2f0b3eaab2463d81e097268c94969dc0918105dbc2312a75",
+        "semantic_sha256": "5981820795808344526a21ba4aec4afbd567ac1755ba7bebdcb8b7a1468edea9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UCloud.list"
+  ]
+}

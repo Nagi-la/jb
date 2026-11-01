@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-29T03:02:08.427136+00:00",
+  "client": "Loon",
+  "rule": "Developer",
+  "rule_updated_at": "2026-10-29T02:37:34.071185+00:00",
+  "type_counts": {
+    "DOMAIN": 91,
+    "DOMAIN-SUFFIX": 630
+  },
+  "total_line_count": 721,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Developer_rules_1adf00c0c6256ea5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "582270e0e75d9ddf5026c31bd3cd8edceea766c601eb07c90131d0d219b68d94",
+        "bytes_sha256": "e72f2d5f7f444a66c7ee1c620061376c4d251a8170d891c241114cf4890eb5b3",
+        "semantic_sha256": "f54223e672d191b9c9ebf01fc37d02f81874ec8a226d10c916b6c46d2bb2d661",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Developer_domain-set_be5fc669c38dbb5a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9e8ab56241500072f1b75d042f4d31332e00c608c949c76702cf2c27adc9e8a",
+        "bytes_sha256": "31d35cb3a17b0cb44ed12de19c1fa848fd69264f079a4877ba3c2ede5099a101",
+        "semantic_sha256": "31ddabdc70d8a917da06e5e6008eee03065c6bc337a99b11f63a651682cce276",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Developer.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Developer.list"
+  ]
+}

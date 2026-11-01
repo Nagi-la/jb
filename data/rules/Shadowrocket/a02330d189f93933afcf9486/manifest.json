@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:15:08.912197+00:00",
+  "client": "Shadowrocket",
+  "rule": "My5",
+  "rule_updated_at": "2026-07-26T06:22:18.790843+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/My5_rules_52d64f32afe3e37c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "691d042421f45cbd155db8dd14d1d6ffc86f52798f8ce65e81c745fd6e4f8960",
+        "bytes_sha256": "b04c8d387b65d322c33f7a79c87eb68a1a46a6d55855b5efec741528f3254dc7",
+        "semantic_sha256": "3e03c585ec15fc6c41a2fe11622f090668e4145c42c9b191e1cd9cf2ed8fda77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/My5_domain-set_0b06bcbfea9b3f44.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed336e7ec19ed637decb3ccb6f06048948f2ca7d01688344c3fc4515de6ca7b3",
+        "bytes_sha256": "caa7f8a843d97d1f46e3d159e3b816f2752d685734079e3620e6e02b677a4877",
+        "semantic_sha256": "a9b217c161afc6944d551efc5ab8c1de5e792f1b47090be9ce6f30823d1a4864",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/My5_rule-set_966cbb10ee033965.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a15a7a0a647a1a63928566a87e0524610feede087e4db6c1fe721b646127b803",
+        "bytes_sha256": "fa589cfdf277af70a475c2e9686f6f5d952d04b5e107eb3698a19cfb33b1aae9",
+        "semantic_sha256": "bf9f90160eda3fc13c46ac61139e7d27fd7daa050f34805ccf199728ce112c8c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/My5.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/My5.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:34.202873+00:00",
+  "client": "Surfboard",
+  "rule": "AppleCDN",
+  "rule_updated_at": "2026-07-26T07:36:51.526180+00:00",
+  "type_counts": {
+    "DOMAIN": 20,
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleCDN_rules_fb0ea2de1176a826.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "49af6e200068f77a4bd3eb1c7741744f5ab961dd7c87a555891a6ae01112a47d",
+        "bytes_sha256": "30f6d51870d2ad389b4bbedb64721377ab88713edcf1462cb6a84de986e980db",
+        "semantic_sha256": "a6295e27583c76a5f7796ff5c997aeac6bec99ecc41d8ed35cd4cef0da8fdc61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleCDN_domain-set_959f4a7fcc4c52cd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42642997463db94d444bcfbfe7dd946cd99d9efb31bf0351ef2d18bb0004cb49",
+        "bytes_sha256": "8c58f308b9c3b8fcff208bba72f03c6df85c44a531ff228e8f59dbe131d431c5",
+        "semantic_sha256": "651a89bb59c2192b90d246d87b810843b786f136b1b8ca9ac5254353707865a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/cdn-domain.list"
+  ]
+}

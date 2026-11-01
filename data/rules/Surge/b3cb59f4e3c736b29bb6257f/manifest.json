@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:58:22.244550+00:00",
+  "client": "Surge",
+  "rule": "Douyu",
+  "rule_updated_at": "2026-07-26T06:45:40.608119+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Douyu_rules_167edbfae853ec99.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b09ee4061dbf443379788ad0dd0fe319899dac5017bec8b341d11ad5b451d0b",
+        "bytes_sha256": "0c3a56c03b0af85333b5e07a172c8fcf448ff18bf33173406b89b28d91d80ba8",
+        "semantic_sha256": "df9cfa9fc039abb504b8ba944492b5a0cd74e91a71596632892f19dee9b96b6d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Douyu_domain-set_0f7490fac8343a35.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f74730f5200b44d7520c55d6c9f60dc35e4660fdea4e9f4703d3ddc623deb83",
+        "bytes_sha256": "0bcf88eaf31395b7578215a8aa4ea07e883745432208b69fc1c2d0c2fb3e00c3",
+        "semantic_sha256": "779fb4765ed7a5641fd935bf4ebc8f1a68ef03258d2618532d3489af92cb2189",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list"
+  ]
+}

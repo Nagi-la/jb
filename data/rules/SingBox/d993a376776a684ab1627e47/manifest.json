@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:02.542193+00:00",
+  "client": "SingBox",
+  "rule": "Fox",
+  "rule_updated_at": "2026-07-26T06:22:06.663365+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 260
+  },
+  "total_line_count": 261,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Fox_source_d233e5b89c657533.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40ae8a86745a3755c55005dcab78e9b0030b9285f5b6153e922bf3a5459fa589",
+        "bytes_sha256": "de1e3f65323181e50e5d40ca788425a8650764216ef506500d975a3a29ddb41a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Fox_source-srs_aa517501817de41a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3ba5caeb7063104acde6540f3a49da33f1ba687131a93d63cf4d72ddc118d28",
+        "bytes_sha256": "bce1ae63ae8553a9a6cddc1885834118b5d769ef0dbcb6d9148ba2817976f0ef",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Fox.list"
+  ]
+}

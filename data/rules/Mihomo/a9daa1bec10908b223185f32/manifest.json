@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:12:21.296529+00:00",
+  "client": "Mihomo",
+  "rule": "AppleTV",
+  "rule_updated_at": "2026-07-26T06:33:33.974800+00:00",
+  "type_counts": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleTV_classical_86f028de323ba85a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1215e1d6e8f46a235e93e6d5c8ae32d1d8d04f978cacf8bb892dcf4bedc9b20",
+        "bytes_sha256": "77ee0c53a338d2a3494a64b560516053dd69aa05e2e2318425d59789494321f4",
+        "semantic_sha256": "ca412c3d9e0fa86a9cf5caa86f3afc7151fe312adf6651d882ccf9c4d6551eab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleTV_domain_1da52350155143c0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b9d3cbe533091ab7bbfc4d36726489cf6aaa7c0daf441f316264950ebc26b83",
+        "bytes_sha256": "f81f389de2e7a0c826455d56fc8fa29b1854f21ec925cf5be10266d084fc8fc8",
+        "semantic_sha256": "55ce764e5d06bd78278a400bf16390d4f4b3e29ed9524173b5586da2f79b0ab4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppleTV_domain-mrs_b8f082d909077412.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7b7ae590e34baf46812c290b3ed96427301b35afa7ff32e25da2b081b8526005",
+        "bytes_sha256": "fe45951557493db900aa2fd6d1100aac73656596e93c5b7f99aadd9e04a77546",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list"
+  ]
+}

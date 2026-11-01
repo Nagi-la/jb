@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:29.654653+00:00",
+  "client": "SingBox",
+  "rule": "JianShu",
+  "rule_updated_at": "2026-07-26T06:25:42.168189+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/JianShu_source_055836198baf1990.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0b4f71b6a4ebc464a9f3bf37f3645f7fc1a588565023c544148d2ecb935a85f3",
+        "bytes_sha256": "65ffcc83667cc25d2bb87f6a5f04f32e3b3f4f292e670aee04e2d39891d101c4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/JianShu_source-srs_f9c860031c13719f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "323712daa841afc8900044b12920037049864ad16fa54598e415e37cf9890c6f",
+        "bytes_sha256": "2c8e067c088758b2e23624012dfb12a50f894104a3bdd548f5157cd0759df053",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JianShu.list"
+  ]
+}

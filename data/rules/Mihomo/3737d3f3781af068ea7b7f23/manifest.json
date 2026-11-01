@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:59:27.816763+00:00",
+  "client": "Mihomo",
+  "rule": "EA",
+  "rule_updated_at": "2026-07-26T06:32:00.459595+00:00",
+  "type_counts": {
+    "DOMAIN": 8,
+    "DOMAIN-SUFFIX": 165
+  },
+  "total_line_count": 173,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EA_classical_fe5d313dedfeb2c8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7efc96dfe4be8c9973c529d2e62e6f711209c3918dae3338d000bde2fb374b09",
+        "bytes_sha256": "f59e5a27b944e59ad4e29741a0c79aa5019b98dea4371677411a44332fef1d6e",
+        "semantic_sha256": "e8426b53200f608290b27a963415f36f45071fa445d0b4beef7232266ee725d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EA_domain_ca00787373f97c1f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d4634535fbfee5eede07d5dcff672bbc0317d5e971c93b9d5d091142ae930e0",
+        "bytes_sha256": "b4a01f428a3b4541eb9aeab778efdc6661b4abb588d1078eea2be667d8bed4dd",
+        "semantic_sha256": "5e77664b84aa3b4597aff2918737727dd401c0de3e028a1220429a084eb810ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/EA_domain-mrs_f276b763266cc214.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "60bff18600c91616b7dcda02690860147838c2438193d65348c74d225f6df5bf",
+        "bytes_sha256": "36b194335313d46b4f316cb7d6b7f68cdbe782de9d28c56feff76014db48b24a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/EA.list"
+  ]
+}

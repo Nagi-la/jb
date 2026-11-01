@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:57:48.433736+00:00",
+  "client": "QuantumultX",
+  "rule": "BOCOM",
+  "rule_updated_at": "2026-07-26T06:47:44.176969+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BOCOM_rules_a62943631c25deeb.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05e4922e037ff9d54e9c856ea91ba4c50b19ef1b83422ebe38de865cece80316",
+        "bytes_sha256": "c4b1d603860571e73d5964d898aa22bf0a6eb43500e816f92e53e439889fe4f7",
+        "semantic_sha256": "3ea39316fda0c90c178c5e2a21582918724e6ead1f5b9e5c506d6258cb1e521a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOCOM.list"
+  ]
+}

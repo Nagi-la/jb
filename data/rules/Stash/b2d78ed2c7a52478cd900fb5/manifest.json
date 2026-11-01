@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:54.144134+00:00",
+  "client": "Stash",
+  "rule": "DouBan",
+  "rule_updated_at": "2026-07-26T06:24:42.334054+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DouBan_classical_70d9731c32ed4abe.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "38580d253ff17dd86527eb5fcd0318d33b8f1a5ba84e5e5bf3ce44d3e796c030",
+        "bytes_sha256": "f7ed452ec8ea67462374afab5a07ba356662258dcf53cd715d390d81884633a4",
+        "semantic_sha256": "243e766e52b4d5ca3006aa11c1eeed6cdf6e8e11317613d60f1d9fd21bc4afdf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DouBan_domain_79009f3bdd10f8c1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cbf879ae22d2c0215d061fcb9761281cb55ecec9657263a4868baa50ec6d2ff5",
+        "bytes_sha256": "c416327fba37c30a57f6ad0098f96e055b2657075c25dca007d4e88189259a3b",
+        "semantic_sha256": "0aed0d90b34d27f86c9ea1fb31e7db1b1c08278eacf7ef2e4f6e81856393f230",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouBan.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:53.345419+00:00",
+  "client": "Loon",
+  "rule": "Ziroom",
+  "rule_updated_at": "2026-07-26T08:34:56.723530+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Ziroom_rules_62ba0a21ec99b787.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aad389d0614a8cc7b20a8e00669505a0bc471f570717aaaf2b65e57161b67037",
+        "bytes_sha256": "09440f52845a72416d44c40a9aa95ffc255618c1eb8d67b7f653b227930d89bb",
+        "semantic_sha256": "2d404f647183090a55c6cedda86c96373b81ee8d72bca89d595c2fe5ca0b0318",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Ziroom_domain-set_c1d5e2787faa8133.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "06e533a25360a8ff47faaa62479576450281ef1da3b0eaa2241a0e2129d57ac1",
+        "bytes_sha256": "5d7a4da16645a72f022cc3b8830486fd853e165307ce205c1faf864a487e8412",
+        "semantic_sha256": "835c103d22cd42fe1201ede872e182a47c18e4370517feaedc0daffae4274a4d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

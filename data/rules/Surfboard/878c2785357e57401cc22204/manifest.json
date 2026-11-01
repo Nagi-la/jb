@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:30.031093+00:00",
+  "client": "Surfboard",
+  "rule": "CNKI",
+  "rule_updated_at": "2026-07-26T06:23:44.627390+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CNKI_rules_8ca0317759b9a04b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3f1d2f071595aed0b9d08c039eaa49a724d39ab00d2d901cc7429b5caecf9afe",
+        "bytes_sha256": "21f156046191ad76ae1417ab8c4c9be4347905fcc9607a0632abc6b926da6c58",
+        "semantic_sha256": "7b2d727ce0a041b6bf6f4ce42192bc5f2784ad211936a06aafe76223e1c1a71f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CNKI_domain-set_49324c5f67273f90.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c26d2f333cd02f5beddcfc9638d982d2efaa2de7d33a286f742e23eb0522761a",
+        "bytes_sha256": "ba86ebd5267ec2261cc184f5b9488571d545241406963a863a35b837dfaead3c",
+        "semantic_sha256": "5a1d8dc08e97ae67fd99495706a2e141ad357b18e5598a50eac25b44b8e90b21",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

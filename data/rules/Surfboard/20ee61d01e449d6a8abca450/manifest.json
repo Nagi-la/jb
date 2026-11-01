@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:51.372015+00:00",
+  "client": "Surfboard",
+  "rule": "Vancl",
+  "rule_updated_at": "2026-07-26T06:28:39.734895+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vancl_rules_a5a62d09e3deb4e8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d255273078d6c56504568b99c4758dbb0c812b6ea68594341a6f9842afec5a17",
+        "bytes_sha256": "69454763e16053c455245854bdbfa3a8bc550e0c5b3b622fb1c33d1180365955",
+        "semantic_sha256": "bcb591c207e50f70349d77043b2214b9349faea81b5e08f53a0d7d49922b1a0e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vancl_domain-set_95fbaf12a2d6cc0b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c587bc8627e2e95891491a874587dd46cc02d7043105655b7edfbb62f04c79e",
+        "bytes_sha256": "2b178ea25642c414da20fc67a1c3c19a652a38409a9e25f1ccf0b0a1f0013be0",
+        "semantic_sha256": "2be1f57e0cabc83dd49882170dfb84c2450b4e27f30b4f1988572c399f16da34",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Vancl.list"
+  ]
+}

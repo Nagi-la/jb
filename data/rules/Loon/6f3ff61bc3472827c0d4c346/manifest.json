@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:05:22.871444+00:00",
+  "client": "Loon",
+  "rule": "Faronics",
+  "rule_updated_at": "2026-07-26T06:58:18.708190+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Faronics_rules_ed042798a9c12513.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2f46c6081f1eb5006520b4eafb287e772803ef5757c87cca18ca2dc9322340e4",
+        "bytes_sha256": "7536ce008d902825337b637ad4ffe641887b5f6edd9bc154e8dfa5bfa9e33995",
+        "semantic_sha256": "432f378dd54a7d08ba4983c67851579ec64209c61c67a65a12c31ca07a8ec259",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Faronics_domain-set_c75d7e3935f61b83.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc868e8ae670430cd5edb7b5d732edb06705b9910c4bed31df06dc7a760cbb3e",
+        "bytes_sha256": "d97004ef02a74330531ac88e0adae1e992a7f398a598b21a91762f730d47341d",
+        "semantic_sha256": "089b8baa808d8a855de7cf641024de756b8add0ae366eb0c76c01a689cf89e8b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Faronics.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Faronics.list"
+  ]
+}

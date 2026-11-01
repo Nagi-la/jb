@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-10-30T01:44:41.682414+00:00",
+  "client": "Surfboard",
+  "rule": "AdvertisingLite",
+  "rule_updated_at": "2026-10-30T01:40:35.779961+00:00",
+  "type_counts": {
+    "IP-CIDR6": 4,
+    "DOMAIN-SUFFIX": 158888,
+    "DOMAIN-KEYWORD": 164,
+    "IP-CIDR": 230,
+    "DOMAIN": 26892
+  },
+  "total_line_count": 186178,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdvertisingLite_rules_86a30aac0c04af6a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "703d258ecd0cf7ba3ae53bbf5972ac66a4d4c6cd522f3c8790b4cdef744ceb51",
+        "bytes_sha256": "2f33a276d36069ee27e4c80f1c8f7113399e48ace436c6009d1b35a67d5b8386",
+        "semantic_sha256": "f3f5b967df67776ce651bcd3ecf28c72e8a08fff53a2789cbdc794506cbfe54d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdvertisingLite_domain-set_d4a1ddbe9c01b657.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f611a667b0e60991cb63730ed8e707736b4b6436957b07462c62d2ccdc7a7fb",
+        "bytes_sha256": "fa6db95b9800809dc8ccf8bee2475faa5420efa7b1ea6861c6f5975d31eeb27b",
+        "semantic_sha256": "706ff83b03ee01c106b8f30c376052e5a5e6b5c2ce3e5379d0d34ddd45bbd41e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdvertisingLite_rule-set_8c94c93f7daf6321.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "831c8a8760055aff1cd6afa111f76f3c7bfa15025531a431a6b18459671f4ce8",
+        "bytes_sha256": "e3a5d9449786f017e390b42e74f3acb5acd649afcc96d26a1273d51427d2102f",
+        "semantic_sha256": "807ce2de6f8ef220418442c08b37bc6c424f1b3b7986e686d9ae4584fb0edde1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+    "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list",
+    "https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

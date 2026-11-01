@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:46.102114+00:00",
+  "client": "QuantumultX",
+  "rule": "ClubhouseIP",
+  "rule_updated_at": "2026-07-26T06:30:08.798348+00:00",
+  "type_counts": {
+    "IP-CIDR": 100,
+    "HOST": 4
+  },
+  "total_line_count": 104,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ClubhouseIP_rules_2c2c8be58dac4558.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b075798c0885720e5a27d00414e27cc08f7cf83fbf8f0ad95bfb35a9a5d8fed",
+        "bytes_sha256": "60f6425c160e438ee9c312a976d45445c0dab204e035696b5a2cbfd929f1f6ce",
+        "semantic_sha256": "5f791683cdfd99dd9bfdb4761edbd9140df1da933ecbd4af1a0791e5a0593fb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "需要与Clubhouse规则搭配使用，ClubhouseIP走直连，Clubhouse走代理。",
+  "providers": [
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list"
+  ]
+}

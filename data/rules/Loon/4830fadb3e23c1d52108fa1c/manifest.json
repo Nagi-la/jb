@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:49.058839+00:00",
+  "client": "Loon",
+  "rule": "ZDNS",
+  "rule_updated_at": "2026-07-26T06:29:49.105185+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZDNS_rules_91838d7cbb1f966c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3294b3a232e3c54f66420cac02ada5fd4010a3a12a1397be8c672b74e56aa42",
+        "bytes_sha256": "d546800e9903e40fbc030941771bbd7fc79e58211d08b586b5d7eed5bba71e17",
+        "semantic_sha256": "1b41db68fc5a26e0c8eafbdb4b0f588ed77814238de3d8640a8429ba14b1a9b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZDNS_domain-set_01438d318e273cb8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3336565e8db0c24a92c5b2b096fab95826336cb7a3411c9fd2abdfaed8104033",
+        "bytes_sha256": "55e6067860f9c5ce51ac5d1ddb3dfb0037e736527a21ac1759166f9587789501",
+        "semantic_sha256": "2a377b787a24755a5dda82975cb099d36ce8739aa276d233b1d86c93d65acf66",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZDNS.list"
+  ]
+}

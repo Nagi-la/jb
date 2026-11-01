@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:10.365791+00:00",
+  "client": "Stash",
+  "rule": "OpenWrt",
+  "rule_updated_at": "2026-07-26T08:34:09.472461+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenWrt_classical_5e3a3a8eaad36842.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a30a4fd9d88dba2784c8aefa45e0155e7dcfe299fd1b52490b7fa9e5e51c28ce",
+        "bytes_sha256": "95130175e9aa69e9a43c47c2b86bd60ff3e58489a6538feb81144ab35a737bca",
+        "semantic_sha256": "2f1e3b48de78a82a089643ac751d65e6779e28dea1d1403161a1a123a21bfda2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenWrt_domain_bd37cc2dac38ecfb.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b19cdd8f38d938daf25d9bc1d0a5580b67e12e7605330b985b2a44c2e0986d0",
+        "bytes_sha256": "017b088eed0b5d615d723b9ae28c18c97cdd1d7bae94b62bd0204bd39c60d06b",
+        "semantic_sha256": "6d32be0bef65bb44c9622da6b916b324290636d49c27670d3e28cae7bc65c084",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

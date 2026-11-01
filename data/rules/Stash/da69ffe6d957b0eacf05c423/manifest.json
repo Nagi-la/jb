@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:42.582033+00:00",
+  "client": "Stash",
+  "rule": "Duolingo",
+  "rule_updated_at": "2026-07-26T08:32:29.633032+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Duolingo_classical_c7c556d507787679.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "004456f11dddb51ebc467490fd48f41316d4b939ae618ce206bb8880ff02d887",
+        "bytes_sha256": "6731c840ca7813ebbd3597561063d6f65e1efbd1b60259dae8f421fb70d363bc",
+        "semantic_sha256": "43c6f21a197c5c23478640430fa2776d124f87ad4f64a02e26132cd34c543f11",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Duolingo_domain_73faefb5ee9a5215.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "24937f51dcc26386a46f474fc99296bbe408e8ada988beeb875593dbb3fbbb37",
+        "bytes_sha256": "2ec0b858ae0b8cebc620832aa84ba976037b4ad148d28a28a8af757818f58c57",
+        "semantic_sha256": "6bc4d246c29cd37f1ecf2dfd841a507a27f292142bcb9753cb11cb317dbde246",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

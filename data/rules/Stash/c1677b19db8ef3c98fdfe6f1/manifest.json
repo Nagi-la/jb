@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:07:01.087542+00:00",
+  "client": "Stash",
+  "rule": "PCCW",
+  "rule_updated_at": "2026-07-26T06:53:08.557643+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-REGEX": 1,
+    "DOMAIN-SUFFIX": 27
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PCCW_classical_ae677daa90ec3d0d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58fcf59574d43904691a9921c04e96ba4a5fe6e4af11d3d3adbfbff799d0b3c1",
+        "bytes_sha256": "5d7931f7781d2da53467b1d47aaaa50a002c55956d77360bc5aa83d6a5ea2984",
+        "semantic_sha256": "0df338fd90623a2202dbf1597c63c0a0eb8014ee754441cc3871bbc615abb42f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PCCW_domain_7c2dccce976e09d9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa4114bba06a3c73d1cdaff9083b09b9318948df0b37ecc4ddf133ac9c4bc711",
+        "bytes_sha256": "fc08fb933ca2021993fa5b77347a5bca6451eed364fbbf8482018bfd32834bab",
+        "semantic_sha256": "b9b311832d07daafc7ef8a035bae02d4e817a40e53f36f6383e8722aa0e6d505",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PCCW_classical-rest_d137d3574d06a211.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3c4873c359a0f2bbff54dc1b3d6064a836e345a9e885c57bd6991015cda9d4b",
+        "bytes_sha256": "a35ae58ce2efb5f265c9626598f9d9ff8c9a4c9514a7d5c1bd40ae99362f5a16",
+        "semantic_sha256": "182b54a81a6282e00d6a75f9dc457c9cc50f378e41d026b2d262cc28ddfac95d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PCCW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PCCW.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:47.346457+00:00",
+  "client": "Shadowrocket",
+  "rule": "Windsurf",
+  "rule_updated_at": "2026-07-26T08:34:53.443118+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Windsurf_rules_19f48559433b4ce9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "beb8365b17765eaab08bfd33f5277a5ab927d64129ea91247e1c4b4e00df7f70",
+        "bytes_sha256": "b4dcb788a7e3ea4f2cb35c6a9ab0b6719ae17bdb36ad519994dbff26c02a0e13",
+        "semantic_sha256": "be77c2b33c0229727c867c9cc208c5364b832e1a4a4a4ab0878f075eecdca4c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Windsurf_domain-set_93979b04fcd5f886.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "996c337ebf5e626654153a525720fb349b7594ef2c71d774e733c786261e7972",
+        "bytes_sha256": "ce0208e07c404eebab7e0f518bf5ebe25df9a920885c8f8fb99b7e5337c463f3",
+        "semantic_sha256": "eb1256c76131d852031b9d08169aa8115c0fd0abde6716a0b5bbf6133c21485b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

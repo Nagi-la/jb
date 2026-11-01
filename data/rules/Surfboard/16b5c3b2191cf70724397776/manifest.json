@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:18:59.255200+00:00",
+  "client": "Surfboard",
+  "rule": "Spark",
+  "rule_updated_at": "2026-07-26T06:38:06.631173+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Spark_rules_19d9781d772ee69a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58da7f3876c713fee6562b4b67906105441d438c42fff89664d05df9d52ad95b",
+        "bytes_sha256": "bf23c75475ce2aad181bcb3f874266b11343a5f3338e1116bf734da782edaf92",
+        "semantic_sha256": "987015c5c36e4390e596ff2bba0d41f6980e8f8f9390a8faa5930b4938b206aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Spark_domain-set_55d7099dc34ce876.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1ad546b66b08567489bfc7a34ca56e48d993b790b74c0eed2911b4b187f42361",
+        "bytes_sha256": "2f8fe2563290f7df14e1570a016075ea5ab3c1ce1725f06426f8f5c9afa26123",
+        "semantic_sha256": "b63f17bf48f83fcba3faff1bab4b3c1f97442402432de28f3146a829e3df43fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spark.list"
+  ]
+}

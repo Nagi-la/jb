@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:07:05.373083+00:00",
+  "client": "Egern",
+  "rule": "Manorama",
+  "rule_updated_at": "2026-07-26T06:51:42.786111+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Manorama_rules_4d004d03194a2ced.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84e7e020e209fe2819fe4f9e1e60cdd5394029495af2c2a49ff09165c419955c",
+        "bytes_sha256": "bf4ca0152968aa377ecb9ec8c3e69b174a56a8e1884bc863137c408042478558",
+        "semantic_sha256": "695e3ae12af578377360ffa4c0d42b2aa7b1ae90d3a26490887b53da5e893b94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Manorama.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Manorama.list"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-29T01:52:49.968835+00:00",
+  "client": "Egern",
+  "rule": "OpenAI",
+  "rule_updated_at": "2026-10-29T01:51:38.499851+00:00",
+  "type_counts": {
+    "asn_set": 1,
+    "domain_keyword_set": 4,
+    "domain_set": 12,
+    "domain_suffix_set": 32,
+    "ip_cidr6_set": 1,
+    "ip_cidr_set": 3
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenAI_rules_2305db8e27c306fe.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "68d95a512641864c0eb67d51b5c484f07c5cefc82d80d5c8a562450583f2a307",
+        "bytes_sha256": "c786083d04599d782ef52abfb60d3d94e411af399819189cc6b7aa2a8d477858",
+        "semantic_sha256": "e0cec534866a52fb930a065a5aa1a8b41e0dfa5aae54139c1ba8cfb623ac389d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/openai.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/OpenAI.yaml"
+  ]
+}

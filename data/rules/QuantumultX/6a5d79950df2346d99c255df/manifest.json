@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:13:35.432000+00:00",
+  "client": "QuantumultX",
+  "rule": "ATT",
+  "rule_updated_at": "2026-08-07T02:23:07.566590+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 135
+  },
+  "total_line_count": 135,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ATT_rules_a8b711a26133da48.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "086c9d9b8221101de75d8bfe9dd9092c9c6740d660066ed1adf9c25de71780e8",
+        "bytes_sha256": "63b76388bccf20c224072313da0641758009b2440021e8e38f284a1bc1473dee",
+        "semantic_sha256": "6369eaf21dda1c77de4db0abd6b294aee433892fcfd1c8b45d8ce83aa4646070",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

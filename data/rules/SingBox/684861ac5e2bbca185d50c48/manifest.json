@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:02.380308+00:00",
+  "client": "SingBox",
+  "rule": "Bootcss",
+  "rule_updated_at": "2026-07-26T06:48:15.925316+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Bootcss_source_f3a235d62cc6acc6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4134bb442e04775c411b4c5793a7b76b277ea216826ab1cb82e18993cfd76d9c",
+        "bytes_sha256": "83592b4e7ba4bf78e6c5881090f564e5c752962ec09f2916775b7a5f4a2e62f6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Bootcss_source-srs_2902fb6e838820a9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "64e685999ecc15732faa13dcddcad3660d70b83f71169b81199d6730b8d17bc6",
+        "bytes_sha256": "42e983fa08a055a34b9cd44d484518f7094deed295a4c7d2db64d2d402fb51f3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Bootcss.list"
+  ]
+}

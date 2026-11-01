@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:09.061194+00:00",
+  "client": "SingBox",
+  "rule": "KingsoftCloud",
+  "rule_updated_at": "2026-07-26T07:03:30.807790+00:00",
+  "type_counts": {
+    "ip_cidr": 53
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KingsoftCloud_source_59f6294df056b111.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e788608620b0a1c6be63f5550181b448257aa9f23c71458a1551ae7bf026ecaf",
+        "bytes_sha256": "401ed05fe1d7d917e6ee61a0d666f95d2bffb1ef0d6dd063565f4f9518f1d1aa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KingsoftCloud_source-srs_7e32c95505c2d037.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "84d3f6c7e650b0856f09b8d3a0067604cbb052153163fb6165484fbfaff43c5a",
+        "bytes_sha256": "9e8417971617780252b72e5e38634fd177fe544e597a43e4bb391d69588a3b1b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/KingsoftCCC.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:08.934262+00:00",
+  "client": "SingBox",
+  "rule": "TCL",
+  "rule_updated_at": "2026-07-26T06:28:11.464437+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TCL_source_03eb32dc87b5c908.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c893dff73464f653ac23c40815b12454f54298019462de2181fc57431327139d",
+        "bytes_sha256": "01bbd6f8f77e76114aa18bc782597477957485df38641a0221432905ae1ce99a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TCL_source-srs_7215d96afb520fa4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "06161bac3136536f15c5e709eb9df15d2ca07d84d29f9a1749b1b708ff1faad5",
+        "bytes_sha256": "b4f68303eb450507d570514741215f5f426be8fce5cdbf98ac01941cc197c475",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TCL.list"
+  ]
+}

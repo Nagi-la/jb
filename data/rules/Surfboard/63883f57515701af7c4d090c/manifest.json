@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:32.257711+00:00",
+  "client": "Surfboard",
+  "rule": "OuPeng",
+  "rule_updated_at": "2026-07-26T06:27:35.348197+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OuPeng_rules_37ec129ad7510875.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8cbd55484fa7e44307be496e4042d8ddabc03986873e1dcbc7bcf4dde0864dcb",
+        "bytes_sha256": "a22642724ad22ca944b1c704a2c1ba9b16c2c10202869578f5613017d6dff0e7",
+        "semantic_sha256": "32471bf375fef07aac63c33499bc79af98cb47473dc2a8f4d8e8d9b1735c72a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OuPeng_domain-set_32c16ee24d585a0f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45f8785540eb06acb0bea54c67b2157144c4a32a910b6f1906f55563f8935a1c",
+        "bytes_sha256": "0cda225e85c89f13d9113079bfcc4ac3014a0cd1253daa2df26b55fb5b5783ad",
+        "semantic_sha256": "288d41012f1a4f438315f877d5e89c2c9501901a5d2691f3401c701b1ea33de0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OuPeng.list"
+  ]
+}

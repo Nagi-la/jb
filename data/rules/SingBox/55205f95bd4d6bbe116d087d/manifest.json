@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:30.086838+00:00",
+  "client": "SingBox",
+  "rule": "YouMengChuangXiang",
+  "rule_updated_at": "2026-07-26T06:29:42.173839+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/YouMengChuangXiang_source_5bd1fbca19d5bd45.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "812a0d572c4ac4d1e6958311984648e5edb53f19fd7a3be84784191479005ba9",
+        "bytes_sha256": "de06ac3c01dce4ee9a23cd83c34d526fe7b15c0d0b017683aeea02b7e84e2d67",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/YouMengChuangXiang_source-srs_df39f18acffe86fe.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "855f237671f33dfee9e13c77720466ce019316e58fb5230b33b068a50e521e46",
+        "bytes_sha256": "3398ce1a19884efcf1193557cc07fd73a5488db090fc5778ee7096eb9ce9e050",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouMengChuangXiang.list"
+  ]
+}

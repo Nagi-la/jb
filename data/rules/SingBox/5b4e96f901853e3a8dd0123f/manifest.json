@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:22.139942+00:00",
+  "client": "SingBox",
+  "rule": "Dailymotion",
+  "rule_updated_at": "2026-07-26T06:21:42.512479+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dailymotion_source_c16f283701d5c095.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5dd6c0f65aa4a90ee4f27dfe1d042a5d1c690a7c98cf18a67a3bb410d83890a1",
+        "bytes_sha256": "b1470ff81b3d3e98b717536ed888417b91f65955518b3944cd09eeff15ee3f7e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dailymotion_source-srs_e9bdd7e3e7302778.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dc95e2e678cf14f96f9799c4739fa29897a303e9d51c78f1e60a7c773a9223e9",
+        "bytes_sha256": "e3bdb325834805521a8a62573761a882a6bcfb322c1f7f32bcda5c60f7fbeaea",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Dailymotion.list"
+  ]
+}

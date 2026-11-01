@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-10-30T01:40:38.249608+00:00",
+  "client": "Shadowrocket",
+  "rule": "Speedtest",
+  "rule_updated_at": "2026-10-30T01:40:30.089427+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 130,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN": 3345,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3477,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Speedtest_rules_6431e293aaca07be.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8becee2c3049ed6234638023d35a0b9c720008b5e0955da8690403283cf5b009",
+        "bytes_sha256": "c65532b859857e55124bfb97538eb6f68ae60e4b17d744927a85ed99c1b0cf1b",
+        "semantic_sha256": "44704dfbfd2b2f6d7c80e9a68b03ba5003d6c12e15a794bf88054ed3ce2141c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Speedtest_domain-set_2be9c5f840f351e7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32ae616c303612daf571abdf9e758abe43b383ab9a57a7de642ee6c14738db8f",
+        "bytes_sha256": "58c872d504b5bbeb69e359dde04df607f28e7fc6c18000327b5e4bde17b4785e",
+        "semantic_sha256": "3a6f15c5a51dff860d0fc92eeb355bb710a6e018d12f785290165b7e19673030",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Speedtest_rule-set_b36892854ac713db.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b31a69ce55158d3c709cc520dd46bce788d0cf531b18e492fe70b917bf7db05a",
+        "bytes_sha256": "3adb761fa52776df1faef65bd968184ce08a49b59eabbc88aade0962bfbcb48a",
+        "semantic_sha256": "945d00aba05d881af6300d1fbcf24e98b253efb769b1472b7febf9932b077736",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Speedtest.yaml",
+    "https://ruleset.skk.moe/List/domainset/speedtest.conf"
+  ]
+}

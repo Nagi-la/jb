@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:36.391954+00:00",
+  "client": "SingBox",
+  "rule": "Shanling",
+  "rule_updated_at": "2026-07-26T06:27:54.230146+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Shanling_source_96bdd92454096425.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a3371b5e084d588a9dccf9dffe9efa2ae852fc07c171ff4462df828c6d61ddcd",
+        "bytes_sha256": "b2dcd7436315d0309456edcc7bca040eaefb7fcc4167d5a7effc33672a86b233",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Shanling_source-srs_18ace927627b41a0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "abd5efdf6e07f0d362a0ea174136acb3c4394bfa916654fba8493f8cf175a6b4",
+        "bytes_sha256": "5771ec354b7a600cea9b9e83eebca3d853d000d0f555474d4f69678b7986213e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Shanling.list"
+  ]
+}

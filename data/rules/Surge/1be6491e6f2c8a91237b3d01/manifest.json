@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:21.502569+00:00",
+  "client": "Surge",
+  "rule": "TMDB",
+  "rule_updated_at": "2026-07-26T08:34:40.421366+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TMDB_rules_84964a60fc48004d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a2f83d3294adae8d46fbb17b5fd8d3723ea458ccc2d4d921b124a6ba4e67c0b",
+        "bytes_sha256": "11d2b6b8b433408d2aa9086c9cdc595f497d5823c403efa6567a88cdce978afb",
+        "semantic_sha256": "273e304de0249c91af9c33548ff8cf37214be150ce9889af73bb30ae204a5c99",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TMDB_domain-set_2de1cc7c6528ed1e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc41e50336a3435876b8357513bf2c8d2c672644fde1d6894de8d0aff256c5a3",
+        "bytes_sha256": "79acda8fb5e3c3fa0a8cf0aa2f0415e795429bc602be5ef1054a21ff6b026345",
+        "semantic_sha256": "2ee4e72b640d1180559ddf10545783bfbf4eb81eddc77aaa597f14a71868d5fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:47.186724+00:00",
+  "client": "Loon",
+  "rule": "Disqus",
+  "rule_updated_at": "2026-07-26T06:50:16.962288+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Disqus_rules_7743d204619faca9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3ae6589c6bcadf7b5fa0fb9365a105b3bb09350adb5c13b88fd732c7fa76248",
+        "bytes_sha256": "22ed3243fc0a304ec31099b5762ec55e742a2296894b7feb9fa8a46985e56cff",
+        "semantic_sha256": "e867a75a49e0ab0a14a6f8765b1c83fcff8a5707ea54a4482846f544bcd0e2fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Disqus_domain-set_59347f66b941c4c3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef3f95b75867485619ec456711267467b30530d092d2f590330293cc4dd2070b",
+        "bytes_sha256": "880982082af516d3a0a893e6a1d4471c8ccf1c8db3772233beba7aaeddd3d5e1",
+        "semantic_sha256": "fd54c7c68101e1254cf7677cb56fdc982c991b8f998fa1a298fbcabafe70ce5b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Disqus.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Disqus.list"
+  ]
+}

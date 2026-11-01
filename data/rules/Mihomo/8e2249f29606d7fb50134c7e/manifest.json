@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:01:43.987732+00:00",
+  "client": "Mihomo",
+  "rule": "SouFang",
+  "rule_updated_at": "2026-07-26T06:28:03.720147+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SouFang_classical_252437ca0dba3cdf.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "43bd2f21e14f2a981119aee100d17ad0444eddcf443a85185b2470a922ad6506",
+        "bytes_sha256": "c3917da1d4e7c33938bcd4f7cccb7d069653e6330a36be1aa54a47a2f55e68e1",
+        "semantic_sha256": "af1fbe78ae0c43e267345bfb472d8724d078c2f5727a2ad3ea7e8160d85fef2e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SouFang_domain_1b15330719cb3af3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "22682e203470ff73b8736603ce076d69e63ea1af464dcdf24c9a95e86350df6d",
+        "bytes_sha256": "31bb9e43ecbe2fdfb2d450cdc2e67e0536e4e9e911e07fdd16bea8692152139b",
+        "semantic_sha256": "26123b75b4d43db079adbd10dc18554b050b5afd4829bd541e87ddc7ffd4b574",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/SouFang_domain-mrs_fdaf0105e1275c8c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b843f9af9ae7271be07689ec4c6321256cad04e31e077f7d6122de8ac95b0680",
+        "bytes_sha256": "2c7e1cac09fe033ea6ffec904431767de6fb3d162b1387acaf877c266693c49e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SouFang.list"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-20T05:59:34.803386+00:00",
+  "client": "QuantumultX",
+  "rule": "Yandex",
+  "rule_updated_at": "2026-10-20T05:42:04.878206+00:00",
+  "type_counts": {
+    "HOST": 18,
+    "HOST-SUFFIX": 140,
+    "IP6-CIDR": 16,
+    "IP-CIDR": 41
+  },
+  "total_line_count": 215,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Yandex_rules_569ac701b6e6dad6.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95d84e5f8594dac199959d66eef5a1b80d25be7c5a76b49c454d49599718d5d6",
+        "bytes_sha256": "6e063c69c06c30e6660528013fcbeea305df69acaabfded4f87c0729dbe677b3",
+        "semantic_sha256": "29cd50ae5068558d333a86a92bf8e2dc58be51bd78edd247e483bad6b94d64f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Yandex.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Yandex.list"
+  ]
+}

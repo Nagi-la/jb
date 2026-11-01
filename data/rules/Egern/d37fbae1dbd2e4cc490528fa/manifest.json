@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T02:17:06.191906+00:00",
+  "client": "Egern",
+  "rule": "Download",
+  "rule_updated_at": "2026-07-26T06:23:14.301447+00:00",
+  "type_counts": {
+    "url_regex_set": 8,
+    "domain_suffix_set": 1,
+    "domain_keyword_set": 5
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Download_rules_427ce455478c136f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61a16122b473e7575b17060720d1a308246a4f8e832df02c62e8da3e7e377e44",
+        "bytes_sha256": "b842cbc61e593f5d237c4cc80364673ce779311dd447c0fda62a39d636e1774b",
+        "semantic_sha256": "64eaade40b75099ad3c7c13a3b46517d9f999fb460e5807fb9b8bbc8d40a5bf7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "module",
+      "url": "data/_shared/artifacts/Download_mitm_3996517bc8b5868f.module",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8d97e865c5a7fbdc85f25fcd315a720142e0d0e7f16c376e747b080a926e0f0d",
+        "bytes_sha256": "f86c843a9d749a80605206723773e35fbd0bb6953bdc1acec1af277b121574a9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Download.list",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list"
+  ]
+}

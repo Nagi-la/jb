@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:38.557426+00:00",
+  "client": "Stash",
+  "rule": "AiQiCha",
+  "rule_updated_at": "2026-07-26T08:30:02.966418+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AiQiCha_classical_95b64757ca85bb62.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "24ac6f018476325d22743e55b7f252fff23b40e43c8f2de3db457df82cf2bb3b",
+        "bytes_sha256": "185746bfba58f66417ff84cafe2b5fbc150c2e89db125e0c15ff8d4cb1435f82",
+        "semantic_sha256": "06ff94bcefd99e6612bb527cfb5afd71b31551c6d6fb6ac48afb2f480648b9b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AiQiCha_domain_1150bf858c1e581f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "be3dd01ad572aa6c4b005f237ea9f655569140811c0ab441c0b7347bcfdbe02a",
+        "bytes_sha256": "f0d42af99b77a5e409494f25d9082bb5c503f4413f92d7dda3c69bae7b2dcd21",
+        "semantic_sha256": "8e02d5ebf1faef35f31a41b02050eab49d29c665123fdc907fb43e946af83445",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

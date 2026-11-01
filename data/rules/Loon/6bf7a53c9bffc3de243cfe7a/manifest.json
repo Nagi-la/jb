@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-09T16:20:04.737442+00:00",
+  "client": "Loon",
+  "rule": "Whatsapp",
+  "rule_updated_at": "2026-07-26T06:20:53.110386+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 13,
+    "IP-CIDR": 15
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Whatsapp_rules_a176cc536b62182d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ec2bb89011ebb3dba1819093a974e512f2b1d653652213e63fea0724057a330",
+        "bytes_sha256": "c2350f83154d93680af9831d0fd1285d0505e403e2853ef48694ff88e60fa397",
+        "semantic_sha256": "7b06fe6fe1fcc241bdeb64d3c8557ee09933843f4c310351c61662d3235b58a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Whatsapp_domain-set_a7baadc84b9ab22a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bc0bd74738cc49a24c3ecf1e8b02847052d9d4f61bd787b85f9d99008cfaa89",
+        "bytes_sha256": "6fd1fac428450d369d1b1f3d9bb8b32160065314c7d7359a8f9d4ef3ab98c864",
+        "semantic_sha256": "7bf116ebeb005edfce54f80068a7d6f11fddb70e195f258e300bf86a614fc230",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Whatsapp_rule-set_21ef641ac040d1c4.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "313cd3b70235fbd0cd0b4a427675a748ee468f82ee0c0ec22d12c396284c22f6",
+        "bytes_sha256": "49d21865150a8cde6ab84eb030f3ff3fe4fbbded5455acbb2e4ca787a7dfe22f",
+        "semantic_sha256": "41dba08ff76350587c1613d84cb486ee5d43f158253777f483be26f9c31864bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Whatsapp.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/WhatsApp.list"
+  ]
+}

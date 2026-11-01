@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:22.145245+00:00",
+  "client": "Stash",
+  "rule": "Tesla",
+  "rule_updated_at": "2026-07-26T06:58:06.828283+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tesla_classical_46b165ffd7db271c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c2426b443757d662ebd9b23e1d6ddd03d3568bda682b335606520c4bf4caafe",
+        "bytes_sha256": "87ecd2614cb20a08e07f2ac6a7851b39f3e311abcf2f8a6a40b718135c4fc749",
+        "semantic_sha256": "16d245eca1680e5433e0076f9f19f2472e8a8178d82f55c9eb7c94295b446d5c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tesla_domain_c8b410721c5d0837.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4bf21acf518d73d9f8019d41e2f8ab2324e8e2d52a5c14c080ed384caeeab9ab",
+        "bytes_sha256": "dcffa4b74c988ebf1f83aed14aded9a48d76112d3c7589693ca14080cf7545f9",
+        "semantic_sha256": "1e5ff011692021fdb894d00dfa7a2e3a790b8e12e4699cb37dfce05cee198099",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tesla.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tesla.list"
+  ]
+}

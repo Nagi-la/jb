@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:01:47.454666+00:00",
+  "client": "Mihomo",
+  "rule": "ASUS",
+  "rule_updated_at": "2026-07-26T08:30:39.500048+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ASUS_classical_05a8c1bbc74db16b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4a23ab63dfd497eb4c4ee246789e76980d3df985dc5f3cdac6b216786c6330c",
+        "bytes_sha256": "11d12fd649e78d43195a0c5c4ff43be1a404794fb91734104c542c8d7881a17e",
+        "semantic_sha256": "d682ee6b0f7c5ad600f74b268c370727a55e7ea888451e1ab598987d4ad92671",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ASUS_domain_5290edcfa7fccf7f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07994c9a9a79dccdad5750a84eac309e547994c07bffef682575cedef9d604fd",
+        "bytes_sha256": "ab070cc95402e32057f5a3c31ceb645a1fab14d7c6b3eed4e927c40d54280fcf",
+        "semantic_sha256": "ad38950bc8a85be3614f7c4c172fff0651964558e46c5cf3b4ee34db8d3c717f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ASUS_domain-mrs_b83c4c33297210cd.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f18ac8440f3c45dc9fdb5d25114d7898648144a8598116da93c812b0ba1c391b",
+        "bytes_sha256": "979c6fb7dcc84da5b30e1d32eef3fded3268691947406614fe91185ca7ad93ef",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

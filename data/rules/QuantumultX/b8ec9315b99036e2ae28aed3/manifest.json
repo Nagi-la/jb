@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:58:22.968273+00:00",
+  "client": "QuantumultX",
+  "rule": "KuangShi",
+  "rule_updated_at": "2026-07-26T06:26:14.838697+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 23,
+    "IP-CIDR": 3
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuangShi_rules_647533711277dc54.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b19d4ba300d20c88dbf247ab0b0a87a6f017177ca791bc0721682947d16c3f4",
+        "bytes_sha256": "85df2d98c80139b80680228e4989c3f96028e29c34aafa732e6f5fc8b3af8e40",
+        "semantic_sha256": "837c4465acb7a5866215ae78cd7450b6814b8c2a166027aa3037a262a2407d67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuangShi.list"
+  ]
+}

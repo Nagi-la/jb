@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:26.511348+00:00",
+  "client": "Shadowrocket",
+  "rule": "CNNIC",
+  "rule_updated_at": "2026-07-26T06:23:42.238033+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 50
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CNNIC_rules_8cc72aebf33338ec.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6513ed009d63a5f5a1c1e7d097cd731901698d208e505221b72149e402fcc3f8",
+        "bytes_sha256": "a63244cba13a50edb474cfa0257ca1565a1648b55cf22b9b2b7b6dc14f9614d0",
+        "semantic_sha256": "a6b36145e09302911d6b2761661023f73d294ad19cf8b9dbfc534b47ebd31bea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CNNIC_domain-set_9e02f623a463514b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a5a5d3c89180d108605e3eabfe4872f86d694a56a3e396fcad0de38d6f273d01",
+        "bytes_sha256": "c8a2de1dcc12962e4d4b536b33ff554cc0246ac21324a1235a7b25f230e0ba61",
+        "semantic_sha256": "4a96b06e7dadf2315457750c0a8029f3786c863a1629916c56268c2e6d779563",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNNIC.list"
+  ]
+}

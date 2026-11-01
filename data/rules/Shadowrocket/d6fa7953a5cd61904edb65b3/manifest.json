@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:12.371243+00:00",
+  "client": "Shadowrocket",
+  "rule": "LuDaShi",
+  "rule_updated_at": "2026-07-26T06:26:49.595629+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LuDaShi_rules_365ff54783e927cf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7054048661d92db8c7a8b9b5942274f4b332b3c0c9db3a86f41577c7e138bf15",
+        "bytes_sha256": "c589b85e089d1d0c32a8dbade925bf0b436e027a8c1c53d3d12bea4339c4de45",
+        "semantic_sha256": "e09651b985ec5dab0524d51f809296c4d2ba6290058e513899441aafeab2e9c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LuDaShi_domain-set_bbf29d780d8dde32.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "64cd28da5b430cf9a4dff019de2af05b6861604bf24b5dfc9819b6eb03156a3c",
+        "bytes_sha256": "68f12c1e3f50a1458d3df0ab8feb7b40cbfbfce94c3bbc7d4fce55ee28408888",
+        "semantic_sha256": "665e28ec070f0a3e630f0e7625503f4286e9644e220fd86a52e5279de7618c9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LuDaShi.list"
+  ]
+}

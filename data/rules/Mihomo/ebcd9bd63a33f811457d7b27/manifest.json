@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-08-27T02:12:11.851365+00:00",
+  "client": "Mihomo",
+  "rule": "JOOX",
+  "rule_updated_at": "2026-07-26T06:22:11.363336+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1,
+    "DOMAIN-KEYWORD": 1,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JOOX_classical_16bd7ee04ec7d015.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79aa0d9e42e7496852fcbe00ca20943af47763a5443eb26e7f790ddb79c8d817",
+        "bytes_sha256": "334cc2c8df184100ecbe573589bb757ca3be6d533056fe9a4211edb684a976c6",
+        "semantic_sha256": "be91414c8032c2ba3eaccc9590771e754efc92a61714881f685f537989c74f19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JOOX_domain_7630d5c61514c18c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e85dea342562410129c7fd25a00f007a1fcbe346ba3694093ad566253c61ccf9",
+        "bytes_sha256": "32afb3d6d90261786a9058030bf2c4de02d32a37dd8ce9458024b538bb4f8aef",
+        "semantic_sha256": "866fd4ee3910628dd6772730152781a1ab40f80a170e24301489d306deed7498",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/JOOX_domain-mrs_828fadb7ba990be0.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b45a3f029ad57f4e2a2bb0d7969936061c9d43b3248f770b595f45d76173127a",
+        "bytes_sha256": "8b324271085270e6b95cd735197576541d69dbda022c8788c6577d8b57aea7ca",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JOOX_classical-rest_d8b59e24ac051aa1.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d27434877ec2bd16095865ad5a1a4f72e6458e74cd8538c433be6bd283ca009e",
+        "bytes_sha256": "c44cba9c96efd431b07a80102f96ac2cf191dfbf4dcb4146591751740f2775ed",
+        "semantic_sha256": "c5a0a97afabd438766dce63d710e6ca1099231ab990dfb946e7f11a387ef2063",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JOOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/JOOX.list"
+  ]
+}

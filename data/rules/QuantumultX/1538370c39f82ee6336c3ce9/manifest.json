@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T01:57:39.174112+00:00",
+  "client": "QuantumultX",
+  "rule": "Cloudflare",
+  "rule_updated_at": "2026-08-07T02:23:04.424938+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 77,
+    "IP6-CIDR": 7,
+    "IP-CIDR": 15
+  },
+  "total_line_count": 99,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Cloudflare_rules_037606232d01b7f1.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6387e0b7b958303723175ab9a0c062324ed412b25e2da0fd968658858329a003",
+        "bytes_sha256": "b73230beb18d6d41c23e9bd81c14c9515f74ae5539359487c2c3c66f48be4f20",
+        "semantic_sha256": "5ab5581e005b586011c1a1e84958da6005eebb7618931806c9bd7e0c2cda7b14",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cloudflare.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cloudflare.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Cloudflare.list"
+  ]
+}

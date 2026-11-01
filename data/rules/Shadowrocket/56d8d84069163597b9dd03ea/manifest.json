@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:05.983763+00:00",
+  "client": "Shadowrocket",
+  "rule": "URLShortener",
+  "rule_updated_at": "2026-07-26T08:29:08.952841+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/URLShortener_rules_c1dfb0182ad91288.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50fde8ac8cbce233d6bc4e1cdedd68eeea655269f629e755bdbe14a6728596ab",
+        "bytes_sha256": "432ebe338c8d3595365de268baa6627fd756464ce68c53d30a27d3449d85667f",
+        "semantic_sha256": "90a45f2a49bb92d20594a7e7614b1a77198e49b22acfd78a64436be054aad9b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/URLShortener_domain-set_ce94ddc5f7588591.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f60893c95f1d0e1aeb260e1c508009c6d89be553719b0445e8d3c83892fd40da",
+        "bytes_sha256": "3184c222d7df68b5e3c09b2dae943f4febe1d32b443fae9c70ce0dc2169398f6",
+        "semantic_sha256": "5102ecc98b6330e4ffa579432da2f863e7f31187c10684befdd7bf24c67b4018",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:14.993111+00:00",
+  "client": "SingBox",
+  "rule": "Haier",
+  "rule_updated_at": "2026-07-26T08:32:57.385192+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Haier_source_6e91d094e3232dec.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f2dc30a8bb245fecd4370ac5fb2073443b0a46e5ddde623aaf932da6458b2add",
+        "bytes_sha256": "0a2639cad4d766da19da40860a02c2d1909ae51476731b4bd03ca5e8d72ee531",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Haier_source-srs_e4ff3e2451d0e0d0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "75dde1aa0d27dce4df4affabcbb232b9f2c46ca6995fa13a96e06e5e5d11fb84",
+        "bytes_sha256": "6560850bd6cd8595db2f1f98a5f550c333ad79cbdf459a13bb32b53bc79de822",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

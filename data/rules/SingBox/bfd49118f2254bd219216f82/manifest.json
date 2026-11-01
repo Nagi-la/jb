@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:58:34.376356+00:00",
+  "client": "SingBox",
+  "rule": "Dynu",
+  "rule_updated_at": "2026-07-26T06:29:15.711670+00:00",
+  "type_counts": {
+    "domain_suffix": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dynu_source_3bc7def9331a4c9b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f9372ee63fa55d693f11e7ecb678d2eacc2de6dded9b694a2fd24b02ecce62b",
+        "bytes_sha256": "53dc6fa13fb749aeffc9d1f4098346fbe835176ec1681f019e86694dd3561579",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dynu_source-srs_66695ad2a5baea19.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "45af0a82b989419ba5911d0d5d8e9f88334a50cf6a071babfffccdf817598958",
+        "bytes_sha256": "934364936143f453e5fceff0d52667715d5b3407dda410ee3484af8884871204",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dynu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dynu.list"
+  ]
+}

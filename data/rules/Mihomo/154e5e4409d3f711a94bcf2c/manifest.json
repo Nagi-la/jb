@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:15:21.899939+00:00",
+  "client": "Mihomo",
+  "rule": "UCloud",
+  "rule_updated_at": "2026-07-26T06:28:38.005374+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 59
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UCloud_classical_c798f1039db2c2c6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5e2c57c89bff0ee54871fa2c2bd49405ce3e5c5d77fd210d38a0ca5257ee273",
+        "bytes_sha256": "ae2666c14c8eb15c1e66c8f2787176fe3aaf886f367180e1e64626fc1264525a",
+        "semantic_sha256": "5c37f03076739eafd7fd5d19219141ff38a59687020d4171f238b52cd6025111",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UCloud_domain_dc53e4b5ab703758.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7f12a4f0d6e82f7aef844ba9ffc80191c7f8bf98cf479af3e3b9a3b7703aad8",
+        "bytes_sha256": "e3f7297995a84aa73fd2e5fdb19ffda6e5309c439bf619ca15017b8ffa5e973c",
+        "semantic_sha256": "d257c2f644695970629866c5519da5a46e434849811e7fd07d8f49b8f90b33ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/UCloud_domain-mrs_16760b339f976487.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "544653174d03bf3669c530997e6839ebddf3eaee21eab040509e6dfd423e89c6",
+        "bytes_sha256": "3f2c8b8ee0aa2b874196dafa5d722a660e896125a2aaccead2bfe3818d1d0aac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UCloud.list"
+  ]
+}

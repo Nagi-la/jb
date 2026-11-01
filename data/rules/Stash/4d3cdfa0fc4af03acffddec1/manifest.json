@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:30.588518+00:00",
+  "client": "Stash",
+  "rule": "UPYun",
+  "rule_updated_at": "2026-07-26T06:28:37.257522+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UPYun_classical_8a9f84eeacf68ed0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "15f75cb7be7dd5a077621ce8d6f90b8a2803041d88fdc930b83a48485071514d",
+        "bytes_sha256": "295005000b61db0b123b4ff683857e34fbb8b797a9c428f4ea8f23a65920ed41",
+        "semantic_sha256": "0ee2692a1a4d496098608bf8cbeb4a5c6029bf59dcfa6328c2ad503794aaddcf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UPYun_domain_3545e47c246049d0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e56b5b00ccb11992093848de4bc608cd00ece799e92361a30da276005697adb9",
+        "bytes_sha256": "2808347499c5efde8bcd71c80da6c3441733bbddef275f2129ec88d12167232a",
+        "semantic_sha256": "e7e429496ea59bc9a44dbeaa2ae69b4aaa6da0c16572abb1d0a1c0f9a04f7e8f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UPYun.list"
+  ]
+}

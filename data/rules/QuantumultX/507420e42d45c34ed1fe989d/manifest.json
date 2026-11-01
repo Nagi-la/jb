@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:05:59.644150+00:00",
+  "client": "QuantumultX",
+  "rule": "TencentTME",
+  "rule_updated_at": "2026-07-26T08:21:32.557274+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentTME_rules_5a59bae3d013d50c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "506da34df3d666aa5795a479385145668c477a89b076209a87e9b13008f26abd",
+        "bytes_sha256": "6fdb547e499ab364fbaa2b866a9826bfddeca76b1e43eb6906fe1c2da9d1b0ca",
+        "semantic_sha256": "bb2fef64f282a56000aec77b9e72f2bdf394ee3cb65d90b6986fe09555650842",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

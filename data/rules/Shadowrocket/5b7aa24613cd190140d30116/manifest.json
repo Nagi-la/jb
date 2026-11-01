@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:14.283037+00:00",
+  "client": "Shadowrocket",
+  "rule": "PChomeTW",
+  "rule_updated_at": "2026-07-26T06:57:45.691988+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PChomeTW_rules_20d04c5fd1172876.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c71b26cc951e03c05f604cf1494f93b0b9e39bc0beea3079dabe1eb8f6f13a49",
+        "bytes_sha256": "4cc592c1ccf223de3a0e9bbb2143814a0595a6fec2fc91451f05736ebc6d5c6d",
+        "semantic_sha256": "3b5698a8a98e5c58fb6e6aeb8ac81b53e80c75db7147c95dcf2b9c7375a6496f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PChomeTW_domain-set_d98d21420525a786.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d8e6c6bbaa040a8b2bc8be2da0769b5001b20f1b5e8bd2fcb7b9cbed8b33fa45",
+        "bytes_sha256": "71a4e4d8c7677e79df2124b4d085651ae6105e9cb61f58a51d1f5dfd08afe808",
+        "semantic_sha256": "d54c2ce8ea8caf05bd2e7cd6f71ae52a7c59203eded28be30a82ffe1f917e571",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "注意，非国内的https://www.pchome.net。",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PChome.list"
+  ]
+}

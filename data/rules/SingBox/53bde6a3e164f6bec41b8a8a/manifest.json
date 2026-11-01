@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:21.789289+00:00",
+  "client": "SingBox",
+  "rule": "Umeng",
+  "rule_updated_at": "2026-07-26T08:34:48.561092+00:00",
+  "type_counts": {
+    "domain_suffix": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Umeng_source_a4078aaa806a8437.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "11058552ebf8c18ca9bf7c85ed9b6eae8d35642f6ba89813c6060cce357a87fd",
+        "bytes_sha256": "8f24169c245709bfa6ef9a5b695e2975b5a5fecc4e44799338b54545cc0c86ac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Umeng_source-srs_2431b54b64c58664.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eaa698e5c825d622da7ba5ac518d9136b96d739a4d25bb5128c8e9e89a40da1f",
+        "bytes_sha256": "0d65785e83463df4a6d62464b0406352a6529170003874c765d47aee6cc7232a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

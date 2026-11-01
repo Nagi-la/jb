@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:54.031667+00:00",
+  "client": "SingBox",
+  "rule": "DouBan",
+  "rule_updated_at": "2026-07-26T06:24:42.243905+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DouBan_source_1d2512a9b95e7b74.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fee312e4871d733125e1618ec4f1a7db6b0d44cf44ddfd6a18a4e70a6abe5893",
+        "bytes_sha256": "9935909650c7b67603e7bff39632016c89fcad0dc7b91a76f225822807ef48f8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DouBan_source-srs_9eac279b1d762246.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "47bae9ced0ef4d25345f9ba0ea843e68382c104b91264a93fbf56201f516756c",
+        "bytes_sha256": "d3da9d3ab539046d4cbf3dc05fa5362771032918705e578e4b91cda60ceaccba",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouBan.list"
+  ]
+}

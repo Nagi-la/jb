@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:56:51.200400+00:00",
+  "client": "Mihomo",
+  "rule": "HP",
+  "rule_updated_at": "2026-07-26T06:29:40.539775+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 158
+  },
+  "total_line_count": 159,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HP_classical_30decec332060827.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c40a6a43bf2d9d3e333cac2c6e74edff7d5de2e4ebffa58553cbaf5ad9900567",
+        "bytes_sha256": "bd1b2ad3a2bcecfd63cbf5e311a354b34bcf55233d3782fdbb0acf0bb8a058e7",
+        "semantic_sha256": "00e7995698f92ec2399a02ab6408152faff6b5a107070bb0777abf576579b677",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HP_domain_66704c945aee6cbc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db56f2c3dafa74ecb8c1fee5b6897d159209b6d3cd5a64adb135f060debe5141",
+        "bytes_sha256": "81287aedeac354472a1a689c38395cdfc4aba0acffda35be0ba9eef7cb541c89",
+        "semantic_sha256": "3b668bac660688c42c711525de4f7df6ce6ac484c07c838a3414d506c345578a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HP_domain-mrs_7751138c9e37ae02.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ce5ea93391de689e48a48bdd03a89a95181987af853c3a903dfc6c1c27bc5151",
+        "bytes_sha256": "67ed68676efb5c69c36762259ed6b7d5f8a8a4b2b3813411a1d2d0322cdac722",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HP.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HP.list"
+  ]
+}

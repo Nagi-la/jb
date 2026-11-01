@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:29.358398+00:00",
+  "client": "SingBox",
+  "rule": "360Cloud",
+  "rule_updated_at": "2026-07-26T07:02:30.459078+00:00",
+  "type_counts": {
+    "ip_cidr": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/360Cloud_source_fc8ca82d1023aab3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "de4ea38534edd1f4cca5703a6d60ba58f7781eb043540f9c67964780c85fdfd1",
+        "bytes_sha256": "531ca35c1c3ed6c8ef1abd825b279c45f36c92fda5b309263187954dff2ee3f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/360Cloud_source-srs_87402dd712ec42e5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0569387782dca80185dabc21dcadf3be04ca2111c3165c27899c63d01b8c819",
+        "bytes_sha256": "7fe947f7c78a5b2300483034d148cf7929a74c6e1cdd1ecd85cfd828ea83250d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/360CCC.list"
+  ]
+}

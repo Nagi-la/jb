@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:13:21.584098+00:00",
+  "client": "QuantumultX",
+  "rule": "Dailymotion",
+  "rule_updated_at": "2026-07-26T06:21:42.307078+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dailymotion_rules_87161d9bb54715bc.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27cb76945df7d4fc0154cc5d90a951f75d9fb9ec5fd23a0bc0b6bdd29c342930",
+        "bytes_sha256": "b84c7e9145d497652cbf5dd9e6265150c76e9a58fd4c16b7b1b7c419980bc59f",
+        "semantic_sha256": "b1686dcca53055beddaf8ce0c8688e69387b7d8667549ed85040f5894f3e232e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Dailymotion.list"
+  ]
+}

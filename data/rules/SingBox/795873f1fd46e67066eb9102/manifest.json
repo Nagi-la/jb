@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:15.951927+00:00",
+  "client": "SingBox",
+  "rule": "ZeeTV",
+  "rule_updated_at": "2026-07-26T06:23:05.873256+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZeeTV_source_1861b480f6c73c5f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fb779972ab2b9f0caab83e54da8697076f15fea2f4a1aabdff020ad84791e2ff",
+        "bytes_sha256": "f8ff1ada84ca3d53104c8c41dd433071636e681a072bb1e1763de37e844aca9f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZeeTV_source-srs_0780948f3c9cd6e7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "322247609ffbaabc2c85d5f5a7da3813bd2f7472f8a6c3683fc53ba18d364f40",
+        "bytes_sha256": "01dd538d9deb7b7a85dba66ffc0eb5c8329aed8b893b6d4c3129bf0c080b8ea9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ZeeTV.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:56.001227+00:00",
+  "client": "Stash",
+  "rule": "BestTV",
+  "rule_updated_at": "2026-07-26T08:31:19.028098+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BestTV_classical_82f7a523e8871634.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5c82dc39585fbb93ac21b9730425954af044f67283377a822ec0308e90009a8",
+        "bytes_sha256": "5a77673e478a2c1ef7ae4214f33b4a1cfc1f282abba413f286e065b97063e059",
+        "semantic_sha256": "7278d19e40cbb8889ad4fb31b65262dceeb8c11fd71a45bbbf60329b4e401afb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BestTV_domain_f08b8b898068bb11.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "649724b14ad5d0eac9a6b5a53015b9dc439bfb995e691dcefaeb651c4b974295",
+        "bytes_sha256": "6fb0a7db8316d3bbf37f2629be50113a0883774fb9824693b95f111bc25c64f6",
+        "semantic_sha256": "db396d77aabba4998e46b327d1367d402bb2de73d78aa921b93bc045be0fe3dd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

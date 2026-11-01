@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T01:57:13.385103+00:00",
+  "client": "SingBox",
+  "rule": "DAZN",
+  "rule_updated_at": "2026-07-26T06:21:43.436139+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_keyword": 1,
+    "domain_suffix": 23
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DAZN_source_203c91bea5524553.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a01193805c6da45215e6d2d42814fe5c56a2e19454d11345b0466d079477b331",
+        "bytes_sha256": "3f1e581ca3a0c5cc8fedea5423be7c286a3fdfcdc14fa453d5bb68c846c6ad62",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DAZN_source-srs_80e680c4e9a997c3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8afa2a253025dfd0501693b639e6b2a5be7feeb43583e4eae2d9ea51ae06b1e7",
+        "bytes_sha256": "6d82cd86d02ddd812795179543fd6488325fbfaaa545a210af978092e85ab024",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DAZN.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DAZN.list"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:04:40.070649+00:00",
+  "client": "Mihomo",
+  "rule": "Bestbuy",
+  "rule_updated_at": "2026-07-26T06:30:56.987324+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 82
+  },
+  "total_line_count": 82,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bestbuy_classical_2f99b9a0906375af.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9088669c9fddcfc2a50da99992cd3d9fa7621631f450e5686946d367ea27ee3a",
+        "bytes_sha256": "836890269fdbe5065914ad77cb863bf2ff5b20d9e5b42b5276307a47000ab517",
+        "semantic_sha256": "2cf16b839e14e4b66a5cfbca10c7a06552e4c87be65b4bda882e4cd178517baf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bestbuy_domain_54a43f2c508bb23b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab1c1a90b227809a39a38dfb60d0da2743456f99cb816a8892e7a82f452dddee",
+        "bytes_sha256": "a5dbb40adea57ff4127f6da1f67b7446657e4c892dffed6c6ac872781c75692e",
+        "semantic_sha256": "9e47536425ffbb68f22436ef7cc6f0a0521fd3f69f08fd6a6f4a08d8ccf1b6af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Bestbuy_domain-mrs_2e925972f60f83f2.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0f22050dff1f45872bc038ce3b91d444b6db89b8231bf8e26b4aaf48dddcb1fc",
+        "bytes_sha256": "579e4060f415748c205d2a79f66ba3e209b0e3a07f4cd2f8b8b79026237f0fe0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bestbuy.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bestbuy.list"
+  ]
+}

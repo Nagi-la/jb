@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:02:30.163782+00:00",
+  "client": "Mihomo",
+  "rule": "TeraBox",
+  "rule_updated_at": "2026-07-26T07:16:50.203359+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeraBox_classical_93187e4975cf1ade.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c0ec2e0aca4e7ad48a32f35f60575e866baa5b828230a772a7b82902821496c7",
+        "bytes_sha256": "43294bb7e35223b22beb9115e094f67fc6c443b8c4160fc761e881ff9c8fb889",
+        "semantic_sha256": "0aff146e2355d828f796c74dc15ccdb196d2ebfc8d78c804b010d922cb16894d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeraBox_domain_00dd5ddee7b2d9d1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "410d53b00ef21b8297973ed4fdcc426ee8d4790b7d86f924dd362c9a3ff1fb8f",
+        "bytes_sha256": "068fa0391394c5255b6d0261f72e0b51ea4a2de478d22dab9eab0cf0658be2f9",
+        "semantic_sha256": "aaa32e8a2dca5eb1f53c073b97eb230bf9850609f80096833bf85828803e09d5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TeraBox_domain-mrs_046ab9b4482ee347.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c3b654ca9d4f238379ec450c33019e1e82277306440adb41f81727fafdcb3c87",
+        "bytes_sha256": "ab15968a56f8938499ac538726545357233aa51a3424a4b68763c49e91f76bcf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeraBox.list"
+  ]
+}

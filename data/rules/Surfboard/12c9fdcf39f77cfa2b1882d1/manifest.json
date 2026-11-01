@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:23.089817+00:00",
+  "client": "Surfboard",
+  "rule": "RTHK",
+  "rule_updated_at": "2026-07-26T06:22:32.836042+00:00",
+  "type_counts": {
+    "DOMAIN": 11,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/RTHK_rules_f10885f0eb381599.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df3de070ded6480e3a8a80b794204f6eeb4ed732d03bdec0309bb5e70c729858",
+        "bytes_sha256": "7de5bf02242a0f5b5860e02814b35e17e6ada72b6eac72c998f050aad1e6aeae",
+        "semantic_sha256": "20052a9196cb372d74676f02304e15804c8b4b9366a7db12efd72077b3b8d95a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/RTHK_domain-set_a63d5eca7e399196.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eee97edb92caf0f6db13eb74f7c6a523a3233bd5663145338623820bea5ced1b",
+        "bytes_sha256": "f6468deffdc67ea658ab133786a663d8cca2d703b68c4281bbce1114bd3ca204",
+        "semantic_sha256": "000508499820632504dc20663c0a343fa2b70877dad7bfc1f43f7b4b95fa060b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/RTHK.list"
+  ]
+}

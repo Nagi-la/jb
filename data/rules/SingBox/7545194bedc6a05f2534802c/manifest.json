@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:21.594708+00:00",
+  "client": "SingBox",
+  "rule": "MongoDB",
+  "rule_updated_at": "2026-07-26T08:34:06.526553+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MongoDB_source_15b1d2f9a6e37519.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b8a39c0a384da1844d09aaf20dfc56a4b32eebbbf169d28890c79b4120d76a04",
+        "bytes_sha256": "3119b55ca3f9b1e9e269aa83cd23da9a7e733cdad7f9e9985999d244c5fd9f03",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MongoDB_source-srs_093f869a3c86503e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "da181b825d6819e6ed5a4148a888e8ecf2bcfab6b4ad646a4ff7243c0e927b5c",
+        "bytes_sha256": "ca002881366689895874e8c180b667d4387f4b3ccae19c0b25f48a8e206b1265",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

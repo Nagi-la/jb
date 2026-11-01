@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:07.583518+00:00",
+  "client": "SingBox",
+  "rule": "MiWu",
+  "rule_updated_at": "2026-07-26T06:27:08.781383+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MiWu_source_a3814b7b9fd0cd53.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ab6ac5f9f6f0b52aaba6c079fc49452db3620a9fafaccc6e591034d1941f588e",
+        "bytes_sha256": "8014d0e4919071949e1d5849b7e572209f6baa932a3d2f3d6fee0c4fd241b782",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MiWu_source-srs_7dd1d62f91f0df0d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "75d469b0bf66943e5e3e4d1d816dc1fa7bc11e9766afff0d71708262ec0cc878",
+        "bytes_sha256": "ce25c720c8683a9b62413514d0da8a76d8b1ef9ac3058b3f87b227399786dbb1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MiWu.list"
+  ]
+}

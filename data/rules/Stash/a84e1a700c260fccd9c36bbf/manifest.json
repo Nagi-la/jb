@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:58.237260+00:00",
+  "client": "Stash",
+  "rule": "ifanr",
+  "rule_updated_at": "2026-07-26T06:30:09.830096+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 35
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ifanr_classical_7cdd299041eff8e6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ecf1c5747591c3bf8f1caee2bcf2325c599a724c0420a69f4356a968c50528fa",
+        "bytes_sha256": "fee4534f89077cbc2cd56635e36aedc74caaf7582f0d243a48735f75ce25f734",
+        "semantic_sha256": "8b4edfea7f4333d443b6b0eec3d5184d2addbb98f3f0298bf15f2dca7f2cb257",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ifanr_domain_ef8bcd97703eb8d7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a4d727d5490a63590567a67a27514767d8212907fba3b8c99e85331c01d8d67",
+        "bytes_sha256": "a3660155a7b3250231b58a2652f072c9eca926274211ab4c6786891fe41a11b6",
+        "semantic_sha256": "9ff97ebc22ba57521eee6674583baad16f26fb5d00b773ab2d2a6c81fec79b9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ifanr.list"
+  ]
+}

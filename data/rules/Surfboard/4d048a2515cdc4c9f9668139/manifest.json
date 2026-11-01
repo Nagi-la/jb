@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:59.278588+00:00",
+  "client": "Surfboard",
+  "rule": "Dubox",
+  "rule_updated_at": "2026-07-26T06:36:02.568777+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dubox_rules_4e27bd9c499b200a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1655158ca831f058f17e833ab73e0f1dc702da2b63b922e6fa84dbca64195007",
+        "bytes_sha256": "1083a79e063d9568c3025c37fda5c9a2a837d293c24178f37c0c74f576cdcfe3",
+        "semantic_sha256": "503fb8dc969a41c4061cc8010ecd89cbcd118c8ed24e58e586f88497e72374c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dubox_domain-set_4ebc90ce557ba00a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d01fd92495b223a3a47bf095bcd755a6e8e9c2b58468f240ef7d68a8deaefcc",
+        "bytes_sha256": "a4d2f8e4af8c5510e1ee393f7107e635d95db828b957f9423c63970eb24bf207",
+        "semantic_sha256": "9e2de35f39e6c286c847c5cdf4d42a266bac7e6d8bd603348c78d8bfd7453ae4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dubox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dubox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dubox.list"
+  ]
+}

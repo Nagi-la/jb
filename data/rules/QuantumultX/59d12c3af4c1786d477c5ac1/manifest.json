@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-10-29T02:53:34.003538+00:00",
+  "client": "QuantumultX",
+  "rule": "Netflix",
+  "rule_updated_at": "2026-10-29T02:37:32.255333+00:00",
+  "type_counts": {
+    "IP6-CIDR": 199,
+    "HOST-WILDCARD": 1,
+    "IP-CIDR": 1386,
+    "HOST-SUFFIX": 28,
+    "HOST-KEYWORD": 4,
+    "HOST": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 1620,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Netflix_rules_6baa6e1abb8b7973.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a3fd8e3823fa14f1430438507af7d5d5edf9a92c4af36038880636b1cc86fbba",
+        "bytes_sha256": "f5e8a3e0d0534083b38b8a40d3039659a027c03ed2567715bea4e0faaae54ac7",
+        "semantic_sha256": "479e1d5ac65fcc092713e652e4f10483e0f09896546a0cb253b223c1991886a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list",
+    "https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt"
+  ]
+}

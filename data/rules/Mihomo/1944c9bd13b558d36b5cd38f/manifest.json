@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:50.239977+00:00",
+  "client": "Mihomo",
+  "rule": "HunanTV",
+  "rule_updated_at": "2026-07-26T06:25:29.338032+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HunanTV_classical_b212a282a59d3afa.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61f2f0f439c8c3da1203d45bc395097e1ff88cebfcf56aac4f5cb234dde286cc",
+        "bytes_sha256": "394fb0bbb9b6cbbd8351702f4ead1b2238bec0f92c1e36f3fb25bd196e58b126",
+        "semantic_sha256": "0f69b43fa9eb7b0a5b80dd88aa346f934fdfbdae60d80eb4929b20ec7614d1fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HunanTV_domain_4e8898c670d97bf3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eba290966654c26a470f94eafb25095d1cab4ad593ee15bf6cf114032560f357",
+        "bytes_sha256": "012d8e4827793714ab826196c71487eaf1aa749d990705729cc0fbca20dab775",
+        "semantic_sha256": "b26e0e1acf4800fdf0a8695a6629227958326de554b958add5782f9d10e628fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HunanTV_domain-mrs_c35b3975b0ad10d6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "67f75716f208e1520b8e7965960c6b9be9583e48536258ad7cd86d763f65a5e6",
+        "bytes_sha256": "92674c5ef5df1965bcbeb8f81da56d6151b6afe8351d941717bbc8c839018ce1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HunanTV.list"
+  ]
+}

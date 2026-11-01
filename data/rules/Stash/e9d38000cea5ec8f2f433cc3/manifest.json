@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:05.077875+00:00",
+  "client": "Stash",
+  "rule": "Kubernetes",
+  "rule_updated_at": "2026-07-26T08:22:42.243626+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kubernetes_classical_044518c83ab10a33.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b44163945c6d34d2d2fe5b0cde120de895467b4b5f99c33d1df9e58a68b3292d",
+        "bytes_sha256": "555c1fc4759957ab860416af5c6b1a23be4c8dba263bc038a4dbdc0064db67a5",
+        "semantic_sha256": "7eb81ef488d518558f32019c9cbfeb72511c6f3445119b96aa5486e3fa1cde20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kubernetes_domain_7740f3797f03c782.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b3c6af4dd5ec20dad252e9ea73a1424621c89f7e3cc8c8790d7fd4f2de1f362",
+        "bytes_sha256": "e608b10e6e9687509d982fbf208be9af2ce14963f5c8c15d268b354298966062",
+        "semantic_sha256": "8ba073dad06843bf939a05825a3ae63eb2e86f9e30f1c7dc5a70d7fd69f61167",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

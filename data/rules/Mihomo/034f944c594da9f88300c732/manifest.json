@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:12.155516+00:00",
+  "client": "Mihomo",
+  "rule": "LuDaShi",
+  "rule_updated_at": "2026-07-26T06:26:54.685927+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LuDaShi_classical_0d8e1d1374e934ab.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f647778a56fae65f4cd902e5dc5848cf3921363988286a046dbe383b04e7cf1",
+        "bytes_sha256": "d0b524f80fccc41fb0195c5ec02e368a8038bba69ba1d0785f1ef3628313047e",
+        "semantic_sha256": "fa56de2570219a002c1bbe51ccc17cdb903cece64a331a336caf78f42ef6c39b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LuDaShi_domain_700ec24018475830.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f40df5a1972819da993492f5d5e2ac57ec3adc400a6a973f94fc6b089c386764",
+        "bytes_sha256": "eacff48aaa92f9f876ce59b3229cb55d52cf2ffdf499ae62bd0406f95aa9f083",
+        "semantic_sha256": "61d282bbb0e34f8208fd6b362269c49c02beb59ec5e818c22b0e0a516a4c2661",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/LuDaShi_domain-mrs_33e2afacc068443b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "18bb75ad2cf3e094171b5e4fe7431f5338d03a5679922c300d3ebb5e921e57df",
+        "bytes_sha256": "a914fe03d276ff51fa7de3f8315bf675ff5b0a16346c4fb6d5e3376361370425",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LuDaShi.list"
+  ]
+}

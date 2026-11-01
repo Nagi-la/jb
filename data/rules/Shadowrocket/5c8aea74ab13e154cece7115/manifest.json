@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:46.719500+00:00",
+  "client": "Shadowrocket",
+  "rule": "ChunYou",
+  "rule_updated_at": "2026-07-26T06:24:12.965357+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChunYou_rules_0f7beb4ab22b6d69.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "472fe72c13221d50f4d7e2c2e42b4d02b2991f7dc3bf9493131b696cbd52c428",
+        "bytes_sha256": "603eb6a4721c76ec3d3f85f9401a3c4f3ecbfea52a29dc9b8f8ca9890a2d41ab",
+        "semantic_sha256": "1cb204e3c7a58169ec033c12084d0bad0666bf87f53aae8824f48803e6b843a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChunYou_domain-set_c6e5e2bcd9f662ae.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32a8fb31d9caa1a939dee0330b257aa1e5d62b0ddfb79b76cf9637360c4ece74",
+        "bytes_sha256": "ca285b4b8e7ecf30570d8cda7d7524bdeea1e341bcfe21d66d45074ee1973ddf",
+        "semantic_sha256": "84164fd3ca8eeedf7f3cc34e3d11cf55e69946f8b85c7e318d9da7f42efad76e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChunYou.list"
+  ]
+}

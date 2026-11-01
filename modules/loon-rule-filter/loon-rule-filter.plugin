@@ -1,0 +1,12 @@
+#!name=Loon Rule Filter
+#!desc=MagicRule 规则类型自定义
+#!icon=https://magicrule.pages.dev/apple-touch-icon.png
+#!author=MagicRule
+#!category=MagicRule
+#!homepage=https://magicrule.pages.dev/
+
+[Script]
+http-request ^https:\/\/magic\.rule\/[^\/?]+(?:\?|$) script-path=https://magicrule.pages.dev/modules/loon-rule-filter/loon-rule-filter.js,timeout=300,tag=MagicRule Rule Filter,enable=true
+
+[MITM]
+hostname = %APPEND% magic.rule

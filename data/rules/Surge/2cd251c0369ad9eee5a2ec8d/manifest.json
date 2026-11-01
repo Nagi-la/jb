@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:20.121193+00:00",
+  "client": "Surge",
+  "rule": "GooglePlay",
+  "rule_updated_at": "2026-07-26T08:22:11.222587+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GooglePlay_rules_a436d555a8f8d3fc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4799293d4304e359783a71c6e9e44ed83275c3d445e1b8c4f5a8e43a39655f3f",
+        "bytes_sha256": "fb58e88dfcba17331fcf282d19b32e9d5034618997c2d3164f650ca0ab5f487a",
+        "semantic_sha256": "eb20e3385196f36160455e72c97101337861164e74aa7f05d7d855ea13370540",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GooglePlay_domain-set_2504584d0393d71c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7779c6f1fb2744a9c9465d7d3a14d342c5c3756b9caa0b4d350dbf053329b46",
+        "bytes_sha256": "980db880a8f5ce38abc658954d4069a5c536f10cc077561b46e2c9c359e51f39",
+        "semantic_sha256": "51a7e24d3708f5a4f869e454b9165337834669b4dc686270806294e826747a00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:02:04.584021+00:00",
+  "client": "Egern",
+  "rule": "AppleProxy",
+  "rule_updated_at": "2026-08-07T02:23:33.631433+00:00",
+  "type_counts": {
+    "domain_set": 34,
+    "domain_suffix_set": 25,
+    "ip_cidr_set": 1,
+    "user_agent_set": 5
+  },
+  "total_line_count": 65,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleProxy_rules_bd27e22bc51e3948.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "663c3b972022233654ec9b154bb057351d17953ac3fbd231649ebee0555c8720",
+        "bytes_sha256": "54ceeb101cc935f37ec91a16d7bb330bdb149c92ad86ee435457fc11e7e0fee6",
+        "semantic_sha256": "7d33ae78dcaf79cc40a211a8afc034c0bd3814f9e4d3d7ff4e7d25754d8d7743",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

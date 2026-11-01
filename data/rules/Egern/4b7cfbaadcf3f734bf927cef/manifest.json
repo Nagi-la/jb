@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:17:02.483055+00:00",
+  "client": "Egern",
+  "rule": "CHT",
+  "rule_updated_at": "2026-07-26T06:48:44.164577+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CHT_rules_9a582bcb18e1c0f5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aafa4cc400e3cab9b44942fa4b947ef5287dcc80f0e47cbd47c0fc676e1a58a9",
+        "bytes_sha256": "aaa018a7ab30bf3ea86ca60224436dc4f0c768ed690e8be3bcd2e8d31d611682",
+        "semantic_sha256": "d7aed5df08ef1e106a8ca0f5f25a6029a941f8a2ce026d4d5408214f0a7badf1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/CHT.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/CHT.list"
+  ]
+}

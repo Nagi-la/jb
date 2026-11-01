@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:24:29.678791+00:00",
+  "client": "Stash",
+  "rule": "MicrosoftDev",
+  "rule_updated_at": "2026-10-29T03:05:25.042128+00:00",
+  "type_counts": {
+    "DOMAIN": 18,
+    "DOMAIN-SUFFIX": 58
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftDev_classical_f850c53d6d0d065f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c15fccbb9dcc5160349f05407e386cc3214524711c5546c02e596c115c756580",
+        "bytes_sha256": "0380f4b2bce01f75cf8cd1d96ced625b5834e3670c18051f33b51f27057dfb35",
+        "semantic_sha256": "e1507135f5d292df528682e77a80d70eff68482a551461b849cf4af27175bab6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftDev_domain_78b99df42f47ab98.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87e106daa17dad4f4ed48c9749235ed4c66a0b2edc199f3065c36f8e8a89d244",
+        "bytes_sha256": "372f4e6737118831b7439cc830377a5ae7cce979b137fae1460a1c5f4c620b54",
+        "semantic_sha256": "af15e44382286cb8ca927b2564e5afb13eaff33f5f7bb454216862e3b2a47700",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

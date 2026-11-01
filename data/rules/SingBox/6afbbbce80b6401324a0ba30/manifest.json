@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:07.418460+00:00",
+  "client": "SingBox",
+  "rule": "ApplePodcasts",
+  "rule_updated_at": "2026-07-26T08:22:24.249662+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ApplePodcasts_source_f4f072dfdaa1ad1a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ffabf923a60d3bc399c3f252d25cf7d1e88523d319d9fb5c4467ac7e79405e3f",
+        "bytes_sha256": "3f13b8abce264f1ff0cea0bf56f3120cb075e7027b2a2ae81017d16285a85b68",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ApplePodcasts_source-srs_e3e06b8d6a2a6882.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "725fb27be56beda55602665eb8e3a1eef630c58f9a8dbf9fd2ef72c84e26050b",
+        "bytes_sha256": "f906bd56b107a16b18d77c6a7b91799d6c8f526acfd0112d6badba5482a390f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

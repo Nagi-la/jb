@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:36.646042+00:00",
+  "client": "QuantumultX",
+  "rule": "DigitalOcean",
+  "rule_updated_at": "2026-07-26T07:16:51.224020+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DigitalOcean_rules_d3f072c4f525e101.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e756de295a4cdd5955b39979052a36716d8a0262a48537b61d16672fa74a9ad5",
+        "bytes_sha256": "3e18ed98a94b728008842801ebaa1ff0628d9619003b46424c8054d8b285732a",
+        "semantic_sha256": "8c34fd073a269d83beb2cdf5e6966ff328b6b36e34b252920c111c548e6cafc7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigitalOcean.yaml"
+  ]
+}

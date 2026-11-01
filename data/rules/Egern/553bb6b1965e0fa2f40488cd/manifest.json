@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:08:17.095277+00:00",
+  "client": "Egern",
+  "rule": "GlobalSign",
+  "rule_updated_at": "2026-07-26T06:29:29.454794+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 19
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalSign_rules_c289d81aecb3d879.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b300f86684119ec84f89f2478e56dfb27641e54b35573c3f818a408acb485f30",
+        "bytes_sha256": "224d8bce538183ceacf398e8f67002e7eef6462d8925225a55d3d3953714cf3a",
+        "semantic_sha256": "48faf0ee5f98b2e91d0f459e5f6a153bec7533f00225d2409b84629cdfe1244d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Globalsign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Globalsign.list"
+  ]
+}

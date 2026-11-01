@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:18.399843+00:00",
+  "client": "Surge",
+  "rule": "Viki",
+  "rule_updated_at": "2026-07-26T06:22:34.561983+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Viki_rules_f7d8f14ec799a95a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8749927bea9b0cc6856f37b7ee2a7b2678da00e7021721413f34e8eb01ebd27c",
+        "bytes_sha256": "530b5daee489b90bbe121de4d493fb3463589546f4f8e1706477b2cd1ce6cb57",
+        "semantic_sha256": "7a0d3b50f5c2c7b03549e9a586e25ccdf00022b1061c8facdfafdf0f25aa683d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Viki_domain-set_d37a339e2f6b3631.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "22d31ffcf39ab9bf6d742d9feca0bc38e2f028f170e0bcb10828470ade3bbca0",
+        "bytes_sha256": "f828a4b39b18df6e0bfb439de525209f0495959a7fb93e74d317ae0b618fe792",
+        "semantic_sha256": "df425d799b4a9361bea3707716f12091868d54ad30be1e7f3ce642f670be29d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Viki.list"
+  ]
+}

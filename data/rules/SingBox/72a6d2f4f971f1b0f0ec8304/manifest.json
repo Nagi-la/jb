@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:03.665599+00:00",
+  "client": "SingBox",
+  "rule": "CHT",
+  "rule_updated_at": "2026-07-26T06:48:43.062544+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 13
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CHT_source_b11c017407c746f4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5ec32a27ec78873523b0c3b9bb70bf75d83bb33f6628d98076958cdd273aa1f4",
+        "bytes_sha256": "8fe3f3b57ea50cf97ee1f6251e13fd36dc900606371d5aa9648c078bb82a5367",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CHT_source-srs_66921d24f7c9c2d7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0a39d6adcc2c77ecd6d8a67e09bbdac88a4add4266cdea498b3df6dfdd3a7a5d",
+        "bytes_sha256": "672cf1de35d14431fb3753da07ffa68e08616d61dd7db0f88fb27aa77feeb117",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/CHT.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/CHT.list"
+  ]
+}

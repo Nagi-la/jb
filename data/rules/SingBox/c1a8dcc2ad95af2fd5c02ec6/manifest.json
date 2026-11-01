@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:08.637360+00:00",
+  "client": "SingBox",
+  "rule": "Aliyun",
+  "rule_updated_at": "2026-08-10T09:19:13.616890+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_suffix": 96
+  },
+  "total_line_count": 100,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Aliyun_source_4827294e57dc4f3a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c9fbfb655f7e0c484badc8939f835fae74b452372c73addfaaab178352f8c60e",
+        "bytes_sha256": "1f148bade74e47590a6ec261d12913ef17694fe2cb3c7f28e938ed2967bde025",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Aliyun_source-srs_6e28230494ebce55.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4a8bfb8ec9dfa2dfc19571eedf8a479435a0d65b25247a1fd4a53e45c722f33a",
+        "bytes_sha256": "671acfa6161d7d03d8f9cbb13b60bf61e1924ae643c9dd9b4d7c7325ce1b1bb9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

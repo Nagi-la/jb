@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:06:05.914704+00:00",
+  "client": "Mihomo",
+  "rule": "ChengTongWangPan",
+  "rule_updated_at": "2026-07-26T06:58:14.727221+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChengTongWangPan_classical_c9b4f3a35dff657f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "100caeec8e084237a1ffe20122e0c0656d7e7ae3e0c20341cc2e665a8d57382d",
+        "bytes_sha256": "1363a29898386eb258678c57af162930309fabd7f581cc2c80ef458ef4841055",
+        "semantic_sha256": "9f24578628967c0620e0f1cc882ea889c9ffc733e24c31092fdb8332be75ec6c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChengTongWangPan_domain_cc6382f9420434ad.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18e7c958653e0659650ef5433686530843b99278d2e3faade024af6b9315152f",
+        "bytes_sha256": "118157ae8aa9c7a5ab1413e5792e4dcf1a96f50fb3cb513160d5309cda8e4ad9",
+        "semantic_sha256": "1d570917901fc4036256dac3728884303d6fd9aad4e6e7aafd375081487eaaea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChengTongWangPan_domain-mrs_b3ae13060d3fb04d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4fdccd0ef315e0cc1563125d3fe0749075dd8a56cc4cdff0e3786fa4f9805c07",
+        "bytes_sha256": "22a085425ecf12abbee8d254eb26f7a23291a94b2b65255f2feeef995f51288a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChengTongWangPan.list"
+  ]
+}

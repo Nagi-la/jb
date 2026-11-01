@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-27T02:03:54.244156+00:00",
+  "client": "Surfboard",
+  "rule": "Adobe",
+  "rule_updated_at": "2026-07-26T06:21:45.023520+00:00",
+  "type_counts": {
+    "DOMAIN": 136,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 140
+  },
+  "total_line_count": 277,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Adobe_rules_ed1765ba6915a3c9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de9c4320aa5ede7335f2694b624f59f68f58888824d8eb43e367316500a69d28",
+        "bytes_sha256": "499cbe6f57ecae583f7cf7804087de5e5167c2c6fbf54212010109b0c74aa08e",
+        "semantic_sha256": "434623d942b888e4c0365a1e856e95cbc1bb0ab974f01a667c6a0d12de616f74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Adobe_domain-set_ca1f0c032ada85de.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2240e712118cb6e5acd75f1802f6e50ad1f2a18e3a3ca034f3230d056fc1e2f",
+        "bytes_sha256": "32ace66686fb9238baf5f5082ea7f7e26fa4577c1224dbb07217ebd2750ad058",
+        "semantic_sha256": "5f284c16714513b9596e2be7f1a50933ce7d0d06b920f9f27894f2cfde1a484f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Adobe_rule-set_9a153c2f295f6fe6.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d42997b9cbc92e08e3b5f3789d520f7d98df66a96a4d56240383ad54d9150eab",
+        "bytes_sha256": "9d4bfe096b65350d94df8a1f2e9d433643bc02c3c714aa0bf537fa897d94b122",
+        "semantic_sha256": "0c4903aed354701d4ed83467c37e3f21ed51226c4c591e7cc1b0283114f1e2bd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Adobe.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Adobe.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adobe.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adobe.list"
+  ]
+}

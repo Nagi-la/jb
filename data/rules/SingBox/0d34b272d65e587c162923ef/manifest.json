@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:06.840830+00:00",
+  "client": "SingBox",
+  "rule": "Fiio",
+  "rule_updated_at": "2026-07-26T06:24:57.219593+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Fiio_source_9a67e3327097e7c1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "732e97db2c74162713dc905e78c28cd9aa741519c0c84e06951413bcacc1f2a6",
+        "bytes_sha256": "23a479627bd11229b23ba391ac58d9555eff3d713ce1c3db8166f3f7f344bdce",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Fiio_source-srs_2b6c034f1217fcc7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4f936ab6357579fe58fb880ec1dc3bd14a9e94e7dd0cfcac91cb079f8065ff62",
+        "bytes_sha256": "43b619a3a07205d7ba101e06ba46c7a5e99132995a97cb29ef2d5b428bf8ca73",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Fiio.list"
+  ]
+}

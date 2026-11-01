@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T02:13:30.936034+00:00",
+  "client": "Loon",
+  "rule": "BiliBili",
+  "rule_updated_at": "2026-07-26T06:38:09.821820+00:00",
+  "type_counts": {
+    "DOMAIN": 51,
+    "DOMAIN-SUFFIX": 67,
+    "IP-CIDR": 7
+  },
+  "total_line_count": 125,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BiliBili_rules_4fd6716f94e78a50.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "133eccd4e3c3138e72d0c004a7cfe22e88b89fe82d61431141a05ed3f601a89c",
+        "bytes_sha256": "e29e2abaff5f77775a7e10ca1a8a5c6b4166afb4417525ecfcae3013834b0b20",
+        "semantic_sha256": "7393c99925a4735bca90f2d3f521b3ab09623843365f48162d303ac6e615eb0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BiliBili_domain-set_88406f3019e803c3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a2a76a2e500ca80acf1afe5782a78d97102a94ce89a7e82ae501cb8c0c732559",
+        "bytes_sha256": "0c15016cd4c162ae0c20566d5a51e2f01f322ac7c8cde1a690ebd674e2dea455",
+        "semantic_sha256": "a05abb76d43b85a5ac072470ec2d6578116faf8410bdec4351505d53a0571c42",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BiliBili_rule-set_be626fde80516d83.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89df2e84ae03267b8724ca02ffb4b3a8133ee8cf7d11f624a6bdc65a12fe1202",
+        "bytes_sha256": "8d4b424f013867259ecd43f6885bbebd75be3bb4fb69fc87bd1b64225f6f0bf5",
+        "semantic_sha256": "f409355b0740982be375b40c558db7fab1296bfced136a16e6d18cf449d83a88",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:12.695575+00:00",
+  "client": "SingBox",
+  "rule": "CIBN",
+  "rule_updated_at": "2026-07-26T06:23:27.930229+00:00",
+  "type_counts": {
+    "domain_suffix": 71
+  },
+  "total_line_count": 71,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CIBN_source_28a03d1e4915e530.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8eaeba226c8b1f91a6208662fa93bfa3bd4c91c903960a68d75d54379dc13d61",
+        "bytes_sha256": "16a04fcfa79e91de5119b51bec10919f48ce3da89e27f2be91cb217ee9eacd5b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CIBN_source-srs_18fc69885fd51ef8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "78c3a126ee9d5c3e0e5300b373b9c5b1a40366b24ef24cf93620193b51839fc3",
+        "bytes_sha256": "6f46027a084dd80ca96f11e6c92c0127997c7de36733deb5b78a5390e40d9227",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CIBN.list"
+  ]
+}

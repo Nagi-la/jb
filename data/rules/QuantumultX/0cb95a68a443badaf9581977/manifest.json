@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:17:13.883973+00:00",
+  "client": "QuantumultX",
+  "rule": "PChomeTW",
+  "rule_updated_at": "2026-07-26T06:57:45.588021+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PChomeTW_rules_b859bdbe35743a19.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c56792f38d9277867d7ce864c398d345af30967e8d64d6f6ef09dbcea468ee68",
+        "bytes_sha256": "8d81cdc2a26b9a2892de366bac739288442de9a7cb2358f38f1eef59ee1d288d",
+        "semantic_sha256": "66d3b4f3dba7d8d1a063cde88c8984321c5e9245532cd05e394a806085885bf5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "注意，非国内的https://www.pchome.net。",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PChome.list"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-08-27T02:17:06.748690+00:00",
+  "client": "Mihomo",
+  "rule": "Download",
+  "rule_updated_at": "2026-07-26T06:23:08.606252+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 5,
+    "DOMAIN-SUFFIX": 1,
+    "PROCESS-NAME": 24
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Download_classical_05331ff776bda84e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c73b7ab875759d5b53a51f45cfe9d10cdbfca5ddb23a9d70f9649553155a1782",
+        "bytes_sha256": "de3a7790e8a5c5966a1d1d6eeb62bd3bed971cd9a6e76521ffb6b3bffc9f0c51",
+        "semantic_sha256": "e0ca78c23266f634f3aa2c32b560aaaf8eace4fa9c6af3a54d632ffce693f3b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Download_domain_3f1c5880fd16fa67.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3fa7d3c632742206c280ad3ec292db293233579a6aa13d773f7e268aba9238f9",
+        "bytes_sha256": "d18a725412a94a36143731cee1b103f75fee053380a77a70b3ce07e196b16e4a",
+        "semantic_sha256": "b09348b6b04bcc19fa6c0c0282c0ca36b97d724fb633d350c36a010982545e6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Download_domain-mrs_aa6d75a5bb63faab.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a6d25ef8697dc8adbe03570c7e83ca5c81aae7f9ea87ffb9184efedd01241e42",
+        "bytes_sha256": "0b8648588a93a84497b933ea74f276af52b98683436d90089ecb152b55b4e21c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Download_classical-rest_d039d55f6bf0f833.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11827d1e49ad03e36c25e23d2c4a97e7cd2dc7052bf3697b9e1d2001ca258ef7",
+        "bytes_sha256": "8507bba354a349d97a292151ae177e7d0f59b7cf2cd511e85f11da8b3162d6d1",
+        "semantic_sha256": "7b5ca8052dd96fac09fe789b077130ef0186c7c311eae77aad4a86077d390de6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Download.list",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:36.351004+00:00",
+  "client": "SingBox",
+  "rule": "Hijacking",
+  "rule_updated_at": "2026-07-26T06:31:17.459849+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 177,
+    "ip_cidr": 43
+  },
+  "total_line_count": 221,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Hijacking_source_300f1190fe784ad2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "74aad8d319e4efb17ced4f09c6cd74cd93534507ea1e05459995afbe2bdf9c5e",
+        "bytes_sha256": "6e1ec98a8ac0c0f26ef0847833b67da2dfc3085b6160199a156f741a1d58645d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Hijacking_source-srs_acd25e7d80c172d0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f49f867a02fde25a070cc3268c1e7c28558456132827625390da4d879f353f46",
+        "bytes_sha256": "64a298f434494a3b15eb9ae32f2a1de9e6fa37635d27aca1fd0940c5debb464c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list"
+  ]
+}

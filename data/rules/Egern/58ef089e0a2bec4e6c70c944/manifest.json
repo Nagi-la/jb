@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:14:23.613126+00:00",
+  "client": "Egern",
+  "rule": "ThomsonReuters",
+  "rule_updated_at": "2026-07-26T06:54:38.825011+00:00",
+  "type_counts": {
+    "domain_suffix_set": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ThomsonReuters_rules_980e9f829d06d91f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b63a6f28c114abcc199887b04b68ad992c03d5cf8dc48334fc3dd9d46387112",
+        "bytes_sha256": "13dce0f5c16f1db1812c07d6bd061bc2bbb95a039c998c04556a39b40b709678",
+        "semantic_sha256": "03ea54cac22b070dd8e3833b7bb1a0ed91d513152f39288aa60b8e9e6b8719e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/ThomsonReuters.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/ThomsonReuters.list"
+  ]
+}

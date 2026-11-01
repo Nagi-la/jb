@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-10-29T02:44:15.195615+00:00",
+  "client": "SingBox",
+  "rule": "Apple",
+  "rule_updated_at": "2026-10-29T02:37:26.047167+00:00",
+  "type_counts": {
+    "domain_keyword": 5,
+    "ip_cidr": 13,
+    "domain": 280,
+    "domain_suffix": 1769,
+    "process_name": 9
+  },
+  "total_line_count": 2076,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Apple_source_20f6f427c1c2b185.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "615789a9eb5e1da29ea8c10f13fcaeed2238e147f0af9ec49b7c5d45fd843062",
+        "bytes_sha256": "88d3326d38210306e37548d0a13797fbe0f03b072447bcad9d326cffb59ccd08",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Apple_source-srs_5d919d6bce8fe843.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "75211c4e5979a3629d866bd572d902a48a3fa4c360f46f1fff6f28bee7caab23",
+        "bytes_sha256": "6f193757b6f163a8261c46ae383fd012ac2308a200380042b86a0de8576f4634",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Apple.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

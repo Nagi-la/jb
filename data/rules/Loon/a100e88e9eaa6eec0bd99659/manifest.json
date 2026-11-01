@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:27.857777+00:00",
+  "client": "Loon",
+  "rule": "SublimeText",
+  "rule_updated_at": "2026-07-26T06:54:20.321945+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SublimeText_rules_1c53b2fb6c9c45c6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e09130de3480cf09e81f8020342130f9cfb4060e4b61129a2e2eb20bedff50f3",
+        "bytes_sha256": "fa0f1f99b370007d4ae17bfb7437ae2fe29f22645b89d357a9e18388b53dc8bf",
+        "semantic_sha256": "af4485c94dcb0c5bd9b495bd68541260ee7c6a46e73e342976ffb67ca71e8edb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SublimeText_domain-set_3757f109946ff39a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db3ee264e06ec0621f6cd8dc3036d4889f89dcaf4ec57dce30b40b1da64b3fea",
+        "bytes_sha256": "67650cd4bdf6580a38bc664cd9063cda90b99af35ec9ac91b5695fb753044d91",
+        "semantic_sha256": "4862fbb2c9c6789a3ee3941ea31407893a7e400999ce5857f37f8c3d614c8c67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SublimeText.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SublimeText.list"
+  ]
+}

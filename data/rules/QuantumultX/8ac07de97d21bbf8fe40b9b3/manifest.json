@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:58:15.743200+00:00",
+  "client": "QuantumultX",
+  "rule": "SteamCN",
+  "rule_updated_at": "2026-07-26T06:31:35.547427+00:00",
+  "type_counts": {
+    "HOST": 12,
+    "HOST-SUFFIX": 4
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SteamCN_rules_acc52b099b21b289.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6f4bcedd11b0a40238515438d572364569cfc4140a1072d546bf2a10dabe51d",
+        "bytes_sha256": "e4e3f4b5cd6ee5b1a27bf8b821c39437a062b68ae74c5b3ff1f405cd02b58fc6",
+        "semantic_sha256": "548e057842e2fbb01ca9fd9cc8119d7744b7cf1affe03b9c37f89df168c011b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+  ]
+}

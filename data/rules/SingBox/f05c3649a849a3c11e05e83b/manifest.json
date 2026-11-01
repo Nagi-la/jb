@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:27.605426+00:00",
+  "client": "SingBox",
+  "rule": "Snap",
+  "rule_updated_at": "2026-08-13T23:46:02.626097+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 8
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Snap_source_179f811b58af7464.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "44a904aee3f57a8bbd0ff970baca5df4e270219a9a9ad855556c4c96e6db6ed3",
+        "bytes_sha256": "d1d011a35e917e03c6ec03237e44c39cbef73d62b9b6d44d3d5eb4447ba340c6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Snap_source-srs_c3c6d8b593840672.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7f7fb6a6eeef231ae6fda98e7087ba9f11ac2084ced54b6ebfc95e7686702c3b",
+        "bytes_sha256": "4cef1c86b34c4461f501d60a9516c973b290531c350a0e6a93883f618516752f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Snap.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Snap.list"
+  ]
+}

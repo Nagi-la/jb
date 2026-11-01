@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-16T14:31:43.920590+00:00",
+  "client": "Surge",
+  "rule": "ChinaUnicom",
+  "rule_updated_at": "2026-10-09T15:59:08.584117+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 47,
+    "IP-CIDR": 1
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaUnicom_rules_ced7d74b7ab21b9c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "43e89ca3b8711bfb1e94902142ed67a8871849dd084d26aec94e894d70115b22",
+        "bytes_sha256": "fc242862e38677528fde3e9efa252c0ee68426c178c8f33d84beaea77e0fda46",
+        "semantic_sha256": "9e8c8543d3222fd38fe614f3ab6cad44a85061a7dbdeca41a8b64e9ceb6a563e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaUnicom_domain-set_4cdd06b86930d4d8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "78ad1333bc6991fe5a4f39b56eeab643ac9eb61023ab0cfd6776c83cbcae0dc2",
+        "bytes_sha256": "4b9b3c31561c5ef22b80c47f3f8723a5fee4aa4ad79f6f03d15b222804035adb",
+        "semantic_sha256": "c4d6674d128d1e917283151d8c92fcd11f0cc994b8ff7991b61d45d7643d7f9d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaUnicom_rule-set_57865e3a3724a39e.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01258152fa443e50c98ef889d411a81b9ff4fab30170b5ffb4afe1c160e7b915",
+        "bytes_sha256": "e0b3afe59c6bdb1b19f7df81126e8706ab20e8fbc6371d73fb78d22ab824dcf7",
+        "semantic_sha256": "385de92611e99d31ab0afde03b4a3f9d0a0b6ec96f31f25caf04664e6797d1eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaUnicom.list"
+  ]
+}

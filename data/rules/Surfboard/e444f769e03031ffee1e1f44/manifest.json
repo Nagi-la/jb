@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:26.294333+00:00",
+  "client": "Surfboard",
+  "rule": "HBOUSA",
+  "rule_updated_at": "2026-07-26T06:30:23.516611+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 42
+  },
+  "total_line_count": 43,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOUSA_rules_502e6d0c16d8b4a4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2286cfe59a1262175cbe578065ec2399bfdf3ceeaf60727aba009fe60b84546",
+        "bytes_sha256": "ebc266a824f0cb8205c318e8b2ed712cfa50194a7c5bb8d05493fd7216214d49",
+        "semantic_sha256": "6c4a067514f91adec49af165d9b8e85241d34cd6b7f1e321df4817c00074d809",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOUSA_domain-set_96e474afe04a67f1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6551172b2689be0fb20e07a482130fecb78a6f0454677df7a18322e6bc0730f7",
+        "bytes_sha256": "0f6fd6e796779517c6f1962af1d2da94ba764e7c88c58e77235714039e0f5fe6",
+        "semantic_sha256": "4335ea12a3a9d3d5a9451a690e583a4a340550ff78145b094ef3e1e39babae1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list",
+    "https://raw.githubusercontent.com/luuanng/surge/main/HBOUSA.list"
+  ]
+}

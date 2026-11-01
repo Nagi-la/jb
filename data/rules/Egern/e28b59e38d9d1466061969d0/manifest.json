@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:02:00.543582+00:00",
+  "client": "Egern",
+  "rule": "HuaweiCloud",
+  "rule_updated_at": "2026-07-26T07:04:14.166144+00:00",
+  "type_counts": {
+    "ip_cidr6_set": 3,
+    "domain_suffix_set": 291,
+    "ip_cidr_set": 99
+  },
+  "total_line_count": 393,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuaweiCloud_rules_13e9b2c0f93e3529.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72815face721b5741707d4c8263a1cf050008329f3edf4b2e2c0a1bc4610c668",
+        "bytes_sha256": "2754ae59b60634b7816801fdcc1271492f7e4f677730f50c3a8094fbf105cba4",
+        "semantic_sha256": "f29c9e26ec8e828e9e13516356820ba21a1ea291f04b09f9916b2682c0917c98",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/HuaweiCCC.list"
+  ]
+}

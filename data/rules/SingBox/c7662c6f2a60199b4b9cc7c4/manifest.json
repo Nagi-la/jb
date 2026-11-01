@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:50.637258+00:00",
+  "client": "SingBox",
+  "rule": "Lianjia",
+  "rule_updated_at": "2026-08-13T23:45:36.761385+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Lianjia_source_655a9bd8caa9a761.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bfffcd1e0203b6e2cfd93bee784e4548bcf9b33bd3fb8aeef9cf57c545bd7b24",
+        "bytes_sha256": "de5c81bdb9a5031df35f25c040d0c0ed56f5b6d387e6755a6456b14044ce2ee7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Lianjia_source-srs_1d2e1a2682a9f870.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f4f64ef6fba73622ac5ccc4642d2d037e97b9cf1ec34faf0e96e23adc9ab2b3e",
+        "bytes_sha256": "629d1812de773aff0b3829df0d714c7dd7dacf6099430d23d09f694a7d119feb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

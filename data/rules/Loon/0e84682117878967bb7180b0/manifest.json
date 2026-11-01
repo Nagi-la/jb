@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:16.548229+00:00",
+  "client": "Loon",
+  "rule": "QingTingFM",
+  "rule_updated_at": "2026-07-26T08:34:13.252506+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QingTingFM_rules_94f0bec0396395f1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "642fd3d73d29598435c9fed6846c93ef9c97e4900e5e8464ec3955a7aa85eff9",
+        "bytes_sha256": "db43ac66984235cbe7473af2429eedb1f331aaeecc382e045e1828ff79d71855",
+        "semantic_sha256": "5b122db1c5cf5d648918f832600ec382f4f5910416ae0601c8e17764e848a20e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QingTingFM_domain-set_8d94118871a0199a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6401a167f6916ae153ee88118c528884254f5587b18645fea207a9cb1699a401",
+        "bytes_sha256": "ab964fc585671c26d2a20e7e36fb22552ed36ab06bb84109c016dd08eb182e9e",
+        "semantic_sha256": "588674c489223f1e9f894194d1ccc4806199270a795b1fc6267af92cfffb31dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

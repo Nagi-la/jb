@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-16T14:45:04.850637+00:00",
+  "client": "Loon",
+  "rule": "TencentDev",
+  "rule_updated_at": "2026-10-09T15:59:13.899860+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentDev_rules_82a1a800a3130a1b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee7eb3ecdf47e80a296b7e9d20ba669618c23e611074f5015d80d04437dcd40c",
+        "bytes_sha256": "68183baa3d6cf37e941e779f742220e02eca2ca6337f1c933b37988b7d52afaf",
+        "semantic_sha256": "d700234fe2d4d97311bd1b6717b2431de47bea9704350c1d1765397159e246bb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentDev_domain-set_30b35b93df69f3ea.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71dced64ee8c4e909d711359c3e718776bc772cd8e335ca98dff124c235d7c1c",
+        "bytes_sha256": "4097e7e87a9974d1e8e8290357f7cb829f4ee3dc1d31917e88aa88da672f4f92",
+        "semantic_sha256": "48b970d0318f19f146c03dce5d88b18bfc39c66a4406d991cd45ddaac36e2196",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

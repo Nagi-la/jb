@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:04:14.091949+00:00",
+  "client": "Surfboard",
+  "rule": "RemoteDesktop",
+  "rule_updated_at": "2026-07-26T07:22:54.794500+00:00",
+  "type_counts": {
+    "PROCESS-NAME": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/RemoteDesktop_rules_8e2376a76efb27b4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "852576a75aaa6242505687c0149d06fcaf1bf0c7090b16a2af22c99afd7a24e7",
+        "bytes_sha256": "25d1b5881948f80e495dc44c3ae3a7652759d361e4d5c78cabb7d5883a9045bc",
+        "semantic_sha256": "cabf1f96e94e4150861e45d09e74b9056aa43b8e2d3b7ebfeb5df36ed8cb607f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/RemoteDesktop.list"
+  ]
+}

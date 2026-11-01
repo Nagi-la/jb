@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:54.611026+00:00",
+  "client": "Loon",
+  "rule": "BestTV",
+  "rule_updated_at": "2026-07-26T08:31:18.078764+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BestTV_rules_32759268eb02d950.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb90b85933c7bfd11ea2336d4409400da4acb4b231d8eddc3411fe5e809a231a",
+        "bytes_sha256": "960c5a0da66bf95fda90a6b39875288780b67118e5e425fa7e3df0092acefb23",
+        "semantic_sha256": "b79248639b9f2119882668749b41942266ec088a1b302e940030c02ba213166b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BestTV_domain-set_6baa00b820141241.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de030060bbe426dacc01ce113e54c5f408f05aa9ca439383a4376d9e91b0123d",
+        "bytes_sha256": "0b5240f47b99027a838452522f076076152b6c1ed3ca16cf74666b9aca6d62ab",
+        "semantic_sha256": "390135ae94b8b0dd2e1125397788cf9ce7c2ba1f5126eed1d075d6a631dca89e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

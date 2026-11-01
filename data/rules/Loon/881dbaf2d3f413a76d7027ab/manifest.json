@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:08.159153+00:00",
+  "client": "Loon",
+  "rule": "NGAA",
+  "rule_updated_at": "2026-07-26T06:27:22.059132+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 29
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NGAA_rules_e42a8d43117a914a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "930045dd5a7f3bccdf65e14347815ab4629d7b7a730ebcc01ef9e355d070d3b6",
+        "bytes_sha256": "aff875f4fc25d56c39a6bce3643199f42299e289bc925610e85dbf99bbe6fba5",
+        "semantic_sha256": "ce191c172c6de49f21a33cce2ff9cbeabf0a9589f9f9fd0ee057901aaf33c228",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NGAA_domain-set_96adbf55fdac348b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e0d574903b6596a2084ae0e786f267b64eb8bea2c9ae41b1c31e63947172ca1",
+        "bytes_sha256": "e4aecd2d46b7d5668381ab71b574161e86b18619be825b5f0e336e621a7e19e4",
+        "semantic_sha256": "fffa1fac9ae905fe60636da5ce40da21aef0e05e5571fb20c2112fdc46a5409c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NGAA.list"
+  ]
+}

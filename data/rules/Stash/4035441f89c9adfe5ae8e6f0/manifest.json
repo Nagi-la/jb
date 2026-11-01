@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:20.619904+00:00",
+  "client": "Stash",
+  "rule": "KingSmith",
+  "rule_updated_at": "2026-07-26T06:25:43.430989+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KingSmith_classical_36fe24eb1e697c63.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46135e4a68037718e71da7f225c30b1bd211701b1a1f4c2b887c20acc135443a",
+        "bytes_sha256": "f54c43dbf9faf32914da1228113bb686c0a46ad4a3c3e263f0c54698abecf66c",
+        "semantic_sha256": "0e7a54cfb81bc61f3aa57e194eafc5e3e9eee80f5a4ce37f9dec6fe2225b3d33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KingSmith_domain_74a81745cb481b89.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9e49a90e952f47d72c3d93ad74bab8503bf581d7724d6681fa83550555eb484e",
+        "bytes_sha256": "d680f626b2ea28172f9919d8f909bc13fcdef4cc9a4caf0197a9d123c67a045a",
+        "semantic_sha256": "492f10d726bf5b1e0e3ceedf5b10b9ee953aa683e36a6553f8feb4a59aac5b57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KingSmith.list"
+  ]
+}

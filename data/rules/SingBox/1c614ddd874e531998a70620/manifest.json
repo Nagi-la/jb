@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:17.995641+00:00",
+  "client": "SingBox",
+  "rule": "DNSPod",
+  "rule_updated_at": "2026-07-26T08:32:36.252403+00:00",
+  "type_counts": {
+    "domain_suffix": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DNSPod_source_a547fce90baa958d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "05399142ddbf354f706b5a15eb546621164ad230418d43b76b3a7cd56de3a7c4",
+        "bytes_sha256": "a0949e22f776ccc77bfa70986519daaefdc7852585019a6ea235da9475416497",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DNSPod_source-srs_1ff0017308ab0f53.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6602fac6632d493c54b90e98e331338e63a24c171d6cb9b6cfe79dd12396be66",
+        "bytes_sha256": "28a0d133d0ad8e01f019fad5254b5f5f4c5957827777eb00ae50555a35abd664",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

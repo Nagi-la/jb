@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-09T16:02:17.681369+00:00",
+  "client": "SingBox",
+  "rule": "MEGA",
+  "rule_updated_at": "2026-10-09T15:58:46.067506+00:00",
+  "type_counts": {
+    "domain_suffix": 7,
+    "ip_cidr": 15,
+    "process_name": 1
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MEGA_source_718151e7d91af516.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b045596cfab9a122e8e7fca9edb576f8990804c4c6eb165988912a8496d336a6",
+        "bytes_sha256": "4ea9dcb135b6abbb48edae9340ed9d21baea1496cd6c5a1ced552323d7b3f0e8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MEGA_source-srs_2a8d705e00bc7c21.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "56b306bee707e5e49c761fb9864f106aecb4f8ac536e71ffcc8daedff8dba4ed",
+        "bytes_sha256": "5b569b0167f8771b43c69da8d9ec8c3b0302a4091d4ae2f830488339a86f3b90",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/MEGA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/MEGA.list"
+  ]
+}

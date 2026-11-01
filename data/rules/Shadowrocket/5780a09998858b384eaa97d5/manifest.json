@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:16.035456+00:00",
+  "client": "Shadowrocket",
+  "rule": "51Job",
+  "rule_updated_at": "2026-07-26T06:46:27.158253+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/51Job_rules_7b6e8dc6c294c7b4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd6850e483d5af7772583600e67e75c12e79dd661483733a8dab44c2500d7dd1",
+        "bytes_sha256": "90520c24ac1a9fa458d843c6004869125071ae487a7e5ebb5d8b7d92f2478307",
+        "semantic_sha256": "5a5f5a94eb15663133151aba284b17308e9f8253edee830592e5c11300eb6f24",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/51Job_domain-set_b334e059af3df2a0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "128043cb32218fc17e484b8753ef78b4922d52148676bc4d1378affdb15d3b50",
+        "bytes_sha256": "e77231664a5d22fd33788f99d25e6a60bc03d659845e3d13f45c16bbdf18a04e",
+        "semantic_sha256": "e54ae160fddbb5566fcb66c0231f6c7d902657256976ca1c2e98a0d04acc0b9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/51Job.list"
+  ]
+}

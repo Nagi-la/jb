@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:07:27.160850+00:00",
+  "client": "Mihomo",
+  "rule": "DianCeWangKe",
+  "rule_updated_at": "2026-07-26T06:24:33.323230+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DianCeWangKe_classical_abe4e838fd787767.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b0954687f018995a709d1156b03572599696f0248acb75d846b20a1aa15d6ed8",
+        "bytes_sha256": "473e952128c7a4acf06d86272e5c43bc5660f03f858384e1dcb93428cfe5c3db",
+        "semantic_sha256": "752857e4a80bf2b26975718b4de6b75fe9a275d65aeeaf9e421bda0a129ca575",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DianCeWangKe_domain_f81ab450761fb44e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a84df8398dd26bd502dfd848eb1abaf34faa612886fae3797c8c1fa6983271e",
+        "bytes_sha256": "41648b9a351fe944ed5ae58434dbf4603e7614d500f6ab47b7c560dc28dae73a",
+        "semantic_sha256": "3fbe3542b3a451ff497ea77b90a2b0253fad5c0131d12e7d83c251a877676ce1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DianCeWangKe_domain-mrs_ace069add77f17c2.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ba5c9baee9f50e3543e89b8830cf4fbe1dd92388bb55ec14447fc7aad1dbd9d0",
+        "bytes_sha256": "0097482dc25d5d867ad2599afd6b7128a6a2dd1e628cc4b78236dcff72457a32",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DianCeWangKe.list"
+  ]
+}

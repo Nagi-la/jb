@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:19.122553+00:00",
+  "client": "SingBox",
+  "rule": "WeiPhone",
+  "rule_updated_at": "2026-07-26T08:34:52.589995+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WeiPhone_source_6e9f36b3cc60289e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f682919fadfc880aa2eeeea3de55a480de070db63114f332617deb3e2fe913da",
+        "bytes_sha256": "bd8de157021fa64d3416003daaf23806d0a9e8b13b06f2d70a31618dd573e047",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WeiPhone_source-srs_a7e8cf729c4ac372.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ce8e678503b7552dfbd5ce456f5f8d9ebc230ee033691ee58b90be4e5c95b800",
+        "bytes_sha256": "223f5a8a0597d857dedf16a5c26f1e8a86c681c429327621c174d6b92a856e14",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

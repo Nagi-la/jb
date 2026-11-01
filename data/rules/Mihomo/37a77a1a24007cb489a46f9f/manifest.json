@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:14:05.833583+00:00",
+  "client": "Mihomo",
+  "rule": "eBay",
+  "rule_updated_at": "2026-07-26T06:57:04.166684+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 369,
+    "DOMAIN": 1
+  },
+  "total_line_count": 370,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/eBay_classical_081507c8a5465662.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7052cdf73450653aad93ee6a609caa05ef3b8edfadb3330460228fe5a3827aa8",
+        "bytes_sha256": "1adb97ddb45f93ccc1c043f39ca5e3de0843431cb47071828f9be9f80f8d549a",
+        "semantic_sha256": "0d8597fdc8cb56f27ccde0f714ad7ac1c20cbe546240eb06a637ef10f2b635cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/eBay_domain_def193500f572edf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e0cabcbadab8f13da515fe1b293a34904b06829e322bc787d184ab0c122bcac",
+        "bytes_sha256": "76d5a068be19e10bb99ec25b489de58677cfe7cb7b51a51f233fd798d47bb72a",
+        "semantic_sha256": "de33dff16c9bfa80de2126609900b087e8a5c11e5024cd8556eac4b393a8ce8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/eBay_domain-mrs_dbc5fe47cd28beb7.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d72b73d4f18bb2fb2faed9771c69c8d4ffb2db3be199a12fe2e3c6e4438f1fa",
+        "bytes_sha256": "664def87261c2ee69162800cea3f8b01abbc474d829cd60b86a92b4b84f9be32",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/eBay.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/eBay.list"
+  ]
+}

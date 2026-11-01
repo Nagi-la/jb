@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:46.124894+00:00",
+  "client": "SingBox",
+  "rule": "Brilliant",
+  "rule_updated_at": "2026-07-26T08:31:37.995711+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Brilliant_source_9d421dcf85749a96.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "019bfcfcaad6a7ee29a293e5b2e34a6a04963b908a2a4e4e5b77fbfdf2b50d1e",
+        "bytes_sha256": "69cd2d15e778dacf9aec9b63a05d6a7980d4c875926f064435c77b79a9db3ec5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Brilliant_source-srs_de94ea3d69f6e374.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ba2de716b7b780575c757866022c6a16ca178fc33c7f2997494ade5f7cf61086",
+        "bytes_sha256": "7ff2e5505533a78026393754f057dd987555e34ac6cc1213c345f8db3ebfb7b9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

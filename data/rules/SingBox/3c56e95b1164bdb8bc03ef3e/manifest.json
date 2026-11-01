@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:55.775417+00:00",
+  "client": "SingBox",
+  "rule": "SpaceX",
+  "rule_updated_at": "2026-07-26T08:34:30.274900+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SpaceX_source_f9d4e854b5e53c3e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b8611e5ba59617192bc7f42104aa0a2bce94a19c14d89b4cad015c91fbd4cf87",
+        "bytes_sha256": "ad91d2b991390dba9bbb59512490318ecd9bb5687ff715a93f71566b5c438a5a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SpaceX_source-srs_620fcc54d963f467.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "67c3e6cbcedb6e20ff548100f8493df61a55f9576c6f6c09b362c70841ad35c1",
+        "bytes_sha256": "bfa58b9ceedbb26e8b2af0dd0abf99af60cf846392845ac4735d5351d3aa7f78",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

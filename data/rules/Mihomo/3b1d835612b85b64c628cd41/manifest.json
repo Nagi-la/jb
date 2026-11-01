@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:05:19.655373+00:00",
+  "client": "Mihomo",
+  "rule": "LvMiLianChuang",
+  "rule_updated_at": "2026-07-26T06:27:08.057622+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LvMiLianChuang_classical_f3d3ec77fa5cd9f0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32ccdee138ad0ce9638a4d811b2b28998b9e9939d8daab77581f62f512857ecf",
+        "bytes_sha256": "7a41c2ce6a4a6e05a286a2e11cb89606a5bdd72434d6fdea583567a1863ed91c",
+        "semantic_sha256": "fd378e423008deaf0383dedd38ae20ec9a42c944e0c603b0dad1f40b1207b6f7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LvMiLianChuang_domain_0ae246c13fa77ce8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e321054df2e8ebba5974178f26cadaf4608c41024e41e4174d585ba8d15dbc7",
+        "bytes_sha256": "824bb16d5b1e10723c7d6b41a56a99008640505a2b1f4c2e41ba32fc008f7c91",
+        "semantic_sha256": "f3ec0bd62c3a1d4e0dd8a1be2866e319eb2577ec936a3b11013ce6482b512590",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/LvMiLianChuang_domain-mrs_f43189b00f465743.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b8e31a1a106a17f5f8ea3a533be39b262983784bc5bc8d4676c692c312b74cde",
+        "bytes_sha256": "9df905ccfc03778016472341687d87019259be0cee1a6ea85c304debc2e3e4b2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LvMiLianChuang.list"
+  ]
+}

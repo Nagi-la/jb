@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:03.566339+00:00",
+  "client": "SingBox",
+  "rule": "TaiKang",
+  "rule_updated_at": "2026-07-26T06:28:21.182464+00:00",
+  "type_counts": {
+    "domain_suffix": 59
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TaiKang_source_9679e826a9f1d327.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "05c296b977fe7b29a25810ef5cd8b82ce0245fbc780bf068d8cd700199e3eb1b",
+        "bytes_sha256": "592876210721677459143200eadb0610045199966199f870338be2159d45f5fd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TaiKang_source-srs_84d0dc475b45fe76.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0d1e4af9e6278a8817c5e8ffe17595d7dfcf34be5157dd65e6d16765ae5f4da8",
+        "bytes_sha256": "5e42b6de33922aaa47fce0f9d4e3989e2f5f339c5e4db408bb2b4c5a0ab1ac57",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiKang.list"
+  ]
+}

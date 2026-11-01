@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-29T03:15:41.727707+00:00",
+  "client": "Egern",
+  "rule": "Copilot",
+  "rule_updated_at": "2026-10-29T02:37:38.947225+00:00",
+  "type_counts": {
+    "asn_set": 3,
+    "domain_keyword_set": 5,
+    "domain_set": 70,
+    "domain_suffix_set": 304,
+    "ip_cidr6_set": 2,
+    "ip_cidr_set": 4
+  },
+  "total_line_count": 388,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_rules_a0348346afa9388f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7febdf96c0ed3eaa0714e40204c7124b01d65a087fa97679889b68ba2f9bbf9",
+        "bytes_sha256": "58a290ba5e86a6b01563df3e8d845efa4cf623bf9b0e5d98c369ae0def3c6ce6",
+        "semantic_sha256": "5f672725f19010dc264e4b290647b808f7dbe35a6a2b242c9715f406ab0c8bef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list"
+  ]
+}

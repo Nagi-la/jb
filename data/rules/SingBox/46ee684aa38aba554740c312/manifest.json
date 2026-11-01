@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:07.635394+00:00",
+  "client": "SingBox",
+  "rule": "HoYoverse",
+  "rule_updated_at": "2026-07-26T06:59:51.383740+00:00",
+  "type_counts": {
+    "domain_suffix": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HoYoverse_source_e3e6f664a0fc7b53.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0ba755fb5341b9791ab15bb8bc74b42498cebfc3e07664b32821071ffd737277",
+        "bytes_sha256": "367c4262f621d87a3e79902d0af3ac819a2c851065eac9ba98343a76dfeb6c34",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HoYoverse_source-srs_850c7cb97eddf1ab.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e615b815d3b9290b09430e5a35cce212a3ff0fda8e91b2c2c9fc10600a4ecdf3",
+        "bytes_sha256": "c0102b352f1b3ed4a98f433d2a022c78535b3f37673991e5f563ee6b900fd3fa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/HoYoverse.list"
+  ]
+}

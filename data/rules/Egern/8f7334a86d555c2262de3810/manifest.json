@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:11:45.711175+00:00",
+  "client": "Egern",
+  "rule": "ICBC",
+  "rule_updated_at": "2026-07-26T06:25:34.167245+00:00",
+  "type_counts": {
+    "domain_suffix_set": 58
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ICBC_rules_dcba4d12c2889490.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76b023c3c60831d2fd2aa0947eb05062010d7ea3a0168fdff01a33eed222ebd1",
+        "bytes_sha256": "6eff80a099d212e6b1707963507c4952d5a4b0ca4c36f57e721f0fbd913b7742",
+        "semantic_sha256": "015e8625e56179ad13f1ce1c021ae515e3c21e72cc0fc5e1331878f620b1deaf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ICBC.list"
+  ]
+}

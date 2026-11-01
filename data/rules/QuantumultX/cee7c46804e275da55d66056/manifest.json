@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:13:52.392639+00:00",
+  "client": "QuantumultX",
+  "rule": "HiNet",
+  "rule_updated_at": "2026-07-26T07:04:01.738284+00:00",
+  "type_counts": {
+    "IP6-CIDR": 264,
+    "IP-CIDR": 323,
+    "HOST-SUFFIX": 10
+  },
+  "total_line_count": 597,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HiNet_rules_04c6e59491943cfb.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b0a4af9a605a980daa8315c8935b057a9678a07649286256988b2e026cf81bba",
+        "bytes_sha256": "ffe18248b2832f1335e04989eece6328aabcb33f0ca3350f3f1f8d3450cddac9",
+        "semantic_sha256": "02aecb286b152705bf40774c8e4d28ba11e443e77a0e7b2ddf78f970ff170742",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/HiNet.list"
+  ]
+}

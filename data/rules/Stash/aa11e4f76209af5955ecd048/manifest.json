@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:20.961766+00:00",
+  "client": "Stash",
+  "rule": "KKBOX",
+  "rule_updated_at": "2026-07-26T06:22:19.085012+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KKBOX_classical_2b9ab40fec93ce43.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09e053d0b2d4b13ec6b79d73ee84115e5ab8912cb08f72ef35a94bd82ab2e440",
+        "bytes_sha256": "6700324737c254f02f2a4c64b4275d54ed37b6cc97ca941a9473a2272414a1be",
+        "semantic_sha256": "1bc7a2dbca816e2a0c740aabef6cccb623a2cb17750d8348886f8bc90ffe670e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KKBOX_domain_b7dd1dff2720a9b6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a57d731be1f60c8f7bf18d09dacd55f699f5949a79be6ed5816b01f18dd64025",
+        "bytes_sha256": "3681a97db55fed62bf184712bd74849bb2da5d48d0975d28df8fac7c90467bdc",
+        "semantic_sha256": "825122802b1a2393d5a02e886dd7433b7593db2d56d3d930c2e15364d9a659ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKBOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/KKBOX.list"
+  ]
+}

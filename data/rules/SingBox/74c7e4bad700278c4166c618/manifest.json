@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:01.947126+00:00",
+  "client": "SingBox",
+  "rule": "Anime",
+  "rule_updated_at": "2026-07-26T08:30:19.627015+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Anime_source_a996f8009ac6a3bd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "afccdb6a9fa41156d21164c20dd99de33ceb1bd5ecda3fdb6d84fb89c5a0bd84",
+        "bytes_sha256": "fe56eea6674e0a46aa34128dab9a932c468c127a0c66bc60e29899181b57e34c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Anime_source-srs_95802461272c656a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e807f1eff82b535ad8bc2cd9a2f09256e1c3b4eca95ff794db3a3ab526d10688",
+        "bytes_sha256": "5e6546a087f6482ea4b026c30ab2c4ad54e72117684823aa5478ea1db2a2956c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

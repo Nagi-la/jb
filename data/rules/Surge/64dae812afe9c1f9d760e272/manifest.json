@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:16.940063+00:00",
+  "client": "Surge",
+  "rule": "Python",
+  "rule_updated_at": "2026-07-26T06:57:08.632029+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Python_rules_49edfb63290b7475.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fce676f17770d3f59beca538388016f70d4fa20e4670f49ee25475b2d576deee",
+        "bytes_sha256": "584ac28301b2d7816d27ad8c69c744af441a7d8cb8cc6ba5fc676646ed745cb4",
+        "semantic_sha256": "df32d66ed4971757b466aadc31cf53245987b28092cbd3c02f7ad4ac2b4e147e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Python_domain-set_fbbba03b90698232.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9514a787e596a7d2bdb9daf10bf83288a4959da4c03ce67e5966ab2851644c90",
+        "bytes_sha256": "f0a51f795473710416da27af330e6c565c3ac970a2539a56648d06457ed8e478",
+        "semantic_sha256": "1a93fbe76e892814370330a53aff258f048194c7291d7d4b2798031be70f248e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Python.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Python.list"
+  ]
+}

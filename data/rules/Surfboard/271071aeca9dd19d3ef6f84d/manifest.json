@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-09-07T01:37:05.270233+00:00",
+  "client": "Surfboard",
+  "rule": "LastFM",
+  "rule_updated_at": "2026-09-07T01:36:10.305559+00:00",
+  "type_counts": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 29
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LastFM_rules_917439130bdd15aa.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f481e1a0cb81a67f60640f453e1cc076efc62a1ee756464b9056ab7c551bf9ff",
+        "bytes_sha256": "9ca38e1fde676618d9ac3107fb6d15ceadfd6e11946d2338446291a1119dd3ae",
+        "semantic_sha256": "043a9762ba611eea5ae8fd7c9c5a02f69f9947ff41073da148b6ccf2cca820ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LastFM_domain-set_f7af7c57b7ac72ea.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55ef66278358abe60def750b9a57c4a9c065941995d2705f428827385f1569b5",
+        "bytes_sha256": "e95d085809f1fb43d7935a31ae6ef58a6e148cf34d06c88dde004e034dd355ae",
+        "semantic_sha256": "2c4ee458e37a25fdb93498623a1f3510378e8646fbd4ed24ebd4c4b9cf53dd15",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LastFM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LastFM.list"
+  ]
+}

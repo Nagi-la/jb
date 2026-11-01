@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:04:08.934310+00:00",
+  "client": "SingBox",
+  "rule": "Jquery",
+  "rule_updated_at": "2026-07-26T06:50:34.401066+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Jquery_source_4218aeef4af1d9f9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d8637017cb59f06cbe6989fe86242e334a1645fd46d55cfc8e5b533df197527b",
+        "bytes_sha256": "0d9c515c02ed417a29340c7881ab2db41038f7bfc9dd4788d6ff05709d58e6fd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Jquery_source-srs_5ca8c9f0a72c1c3b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ecd41dada9d5adfdf7012d90aefd7f7ca15d901056a840f8ca2e53a6a08c363a",
+        "bytes_sha256": "acf83191b7137ee6b4af289e0a14aa14a633a2397248840aa5458d3bfe652d7e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jquery.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jquery.list"
+  ]
+}

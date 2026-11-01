@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:54.660281+00:00",
+  "client": "Surfboard",
+  "rule": "DtDNS",
+  "rule_updated_at": "2026-07-26T06:50:26.421158+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DtDNS_rules_6942d996f3010f4f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56aba8f4efd8a6a7a7f53e89e0be900bfab6c4fb72d0c8a74b9cab130b4fdf09",
+        "bytes_sha256": "9652ba1764a8115a6f572107ed84a0818597c5172da5957cf582c4cd35b54096",
+        "semantic_sha256": "9eeb5bbfd6bc1c08cb3ad83c3aca43f332dcd416729d4e069feb930fb9735f20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DtDNS_domain-set_c01c9b970b5a21fc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b416002410b296e5197dd9ea15b7a35f65d536848c0b406feb680ff343fff591",
+        "bytes_sha256": "0ff7d78555027808feb1aac0e7c86276d153e74ca3bb5aacf6ee777ec8940f94",
+        "semantic_sha256": "b6bd1b5437f81536f85d4ba016ed6dd66d504d1cc68f8651b64882e6d1e1fec8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DtDNS.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DtDNS.list"
+  ]
+}

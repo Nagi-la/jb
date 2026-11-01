@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:40.735208+00:00",
+  "client": "SingBox",
+  "rule": "Bestbuy",
+  "rule_updated_at": "2026-07-26T06:30:53.600756+00:00",
+  "type_counts": {
+    "domain_suffix": 82
+  },
+  "total_line_count": 82,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Bestbuy_source_d824c80f16f75690.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe85bd7d42c8cc72bae8eb47b79d79fe0d2c211d859c29d7fb30ce1c2dc8e247",
+        "bytes_sha256": "b46237bc826ef1c67aa3c36fd13c8b2909c2815b1d66c1ecce0b31b8ee0048ef",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Bestbuy_source-srs_bbd3a0036b9585fe.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a248840336d718ed46df6e1ee4d41fb16690ac1118aa1f976b032e31c82f3d0b",
+        "bytes_sha256": "b0dc08a669e9f0cc8411a3b7c43918e83104ee1726857ebadd2e0c418b5f1e17",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bestbuy.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bestbuy.list"
+  ]
+}

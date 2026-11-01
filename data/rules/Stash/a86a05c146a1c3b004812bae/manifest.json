@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-08-27T02:13:13.010129+00:00",
+  "client": "Stash",
+  "rule": "ChinaMedia",
+  "rule_updated_at": "2026-07-31T04:26:24.256382+00:00",
+  "type_counts": {
+    "DOMAIN": 65,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 209,
+    "IP-CIDR": 39,
+    "IP-CIDR6": 29,
+    "PROCESS-NAME": 2,
+    "USER-AGENT": 13
+  },
+  "total_line_count": 358,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_classical_56445540ce48a070.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2f845625f1d889ed993ad93964be7355bdb8fb092a9b0b14040364930b190c0",
+        "bytes_sha256": "a13299a53c1e1ebed63b904d09f89bfde7a88abea0794e7e1dd1daf49c7137fd",
+        "semantic_sha256": "5d4d663ffcf4a5c159c5a68f075fcdc12a4139aa39728e95c057f576cfa093b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_domain_4466fed5134b83d3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7b3bef80cf7f18b73a271fed5e8f6f6daa33315baf9fec620e5c42e98298763e",
+        "bytes_sha256": "e70f0d38649e18f87d5d5e6f80e2bb78dec4023ef1ae3f861091b7e2481f35a1",
+        "semantic_sha256": "7a05110021baebc6fbaf4a87a133c15e06bf5933c47d84254447ee591e9e8651",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_ipcidr_fb38400f16cbaf7e.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d6b671bc88794b71c41732c09eadd8ee869da1c6def4973d9f3a650d8a98b9c7",
+        "bytes_sha256": "9f5a246bbd09143b217e3e72e01a97ed9d78a87ba3c20711bf9cb48337e880d1",
+        "semantic_sha256": "c2f41c23dab49c4d7c2dae78f1df2786ab4a494cbe822e75a8b23dedc6f202e3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_classical-rest_8bb7c24d20b54f41.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c46a5970d7f2052242db5058f390ca4c421fb3bd2ab2f8885e17caf39782d7d5",
+        "bytes_sha256": "60242c7a5223da7b237bc056237478c46e4b4c7b3b2fee6187fc7e0286487aaa",
+        "semantic_sha256": "405dafacb9dc1a62dee3ac4e4f283b21ed650fb617a8a28c104576c762a6c6eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list"
+  ]
+}

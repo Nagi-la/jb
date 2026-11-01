@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:45.750572+00:00",
+  "client": "Egern",
+  "rule": "ClubhouseIP",
+  "rule_updated_at": "2026-07-26T06:30:19.103066+00:00",
+  "type_counts": {
+    "domain_set": 4,
+    "ip_cidr_set": 100
+  },
+  "total_line_count": 104,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ClubhouseIP_rules_c382e531a518625a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e2c4dabfe470af770dc1b0736ce417c6efb253f0cbcf8359fa3c0869abd3e4b",
+        "bytes_sha256": "71c2945fdb5c6a794f26dbec2727af103033633a437e444721fddbb928147157",
+        "semantic_sha256": "f1e71b07f0945989fd9e5145da10318a84137d4b851fcdbd163ee15d9e5ad60c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "需要与Clubhouse规则搭配使用，ClubhouseIP走直连，Clubhouse走代理。",
+  "providers": [
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list"
+  ]
+}

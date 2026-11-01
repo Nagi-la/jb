@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-10-29T03:30:55.233546+00:00",
+  "client": "Stash",
+  "rule": "Anthropic",
+  "rule_updated_at": "2026-10-29T03:05:36.290093+00:00",
+  "type_counts": {
+    "DOMAIN": 8,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 33,
+    "IP-ASN": 1,
+    "IP-CIDR": 1,
+    "IP-CIDR6": 1,
+    "PROCESS-NAME": 5
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_classical_e8dc18b70475045a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55feed7a8821210a1acb40f198bfb02323fbacc550dd907adcf42db2dbbdd7c4",
+        "bytes_sha256": "a471594127c255aba75a5a7acfce14622f5bb0d442b53b05583df1ebfd1d8281",
+        "semantic_sha256": "9c4829975981a3d59d241e0110b4e37061e66610c32a9a1fc6b119a6d6ac7b72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_domain_642267db5c531a93.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56069bd465c8cfaf776d85bde01e2aeb97a7daaa78ac34086fb89d216328a40e",
+        "bytes_sha256": "ee6328faae57f58dc338b41cdad97950f4233baca876387916d08714bf439d45",
+        "semantic_sha256": "2253b363791e89619e24198283c70c9d98fb32244089023fb26e22c61933922d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_ipcidr_ef2e7553e1ac1b3d.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "974003b452414f96b909e25675834421b224d0e937c3c599cf8a2f579a1da00c",
+        "bytes_sha256": "06a9b69f3231eca08353081d4ca0124da11245e7f615e2bc4f1cec57dcf67f18",
+        "semantic_sha256": "bf1dce864ed745175522811897c3f51ef778461c39add80dbf7df9660cb6124e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_classical-rest_110041703b11ecf4.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e4d9865335fccc21c417f736cbb6e2fd9dee14d84ae13a4b686c8fcc21468ba",
+        "bytes_sha256": "803138b4a8f943f9ba306dc6166f1b5996ff6481c8131818ff696b650b3f2346",
+        "semantic_sha256": "7c23810131fc09695f9c96399a2fdac1cb573c51acf345ec380e92dda298a68b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/anthropic.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/Anthropic.yaml"
+  ]
+}

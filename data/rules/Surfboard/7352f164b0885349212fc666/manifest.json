@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:05.371787+00:00",
+  "client": "Surfboard",
+  "rule": "PBS",
+  "rule_updated_at": "2026-07-26T06:22:20.435505+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PBS_rules_eab3c888bbf67f9c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "99b1158b5ad0adaf421621de39332e032baa0d825c812cd54f4bf06df3b4db99",
+        "bytes_sha256": "90f8123524b8e9b2353aa3d701df31cf429fda633fed8d58c3f35b8bd54951ab",
+        "semantic_sha256": "516384596c9813fedf5fbd3eb3881289ac00921c9768fa3eb2bed5eb7cb73c49",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PBS_domain-set_e578c6abab3dec98.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba6aa4906ba549c6b2670d0056afd6bd888a9a1cc26383ebce0bb0e16dc0d9c2",
+        "bytes_sha256": "74f859455c92b0869bec38ef8cbefc6bdf63c560fe39b4a1f4a2b47bd0546c6a",
+        "semantic_sha256": "92773c4d769fe26fcf2475dce31d7fe6ee3784582e59c78ff1426b8d80e19bad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PBS.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PBS.list"
+  ]
+}

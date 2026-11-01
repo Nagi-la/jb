@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:18.023774+00:00",
+  "client": "Stash",
+  "rule": "DNSPod",
+  "rule_updated_at": "2026-07-26T08:32:39.657959+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DNSPod_classical_3bb76a952884c5b5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e21049f7f10fb9aad51fe1821cd373c29697c699d26933753d0105fdccc8f00f",
+        "bytes_sha256": "245eccf15206822f6dfd5e557b5b2996fea4ed0adcfab65529ef18158a7da5b6",
+        "semantic_sha256": "a45c036c334f04045c2e21da374b86f74c59962511391bd4efb887d55c487ee4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DNSPod_domain_1bb22f307e235de4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9294c983ad5f164476a27ff6c24a8974ec1850fad3e44dfcccc08936be98953e",
+        "bytes_sha256": "5540be4cac12242c06c7d1f772d87e86985a8c2f001135c002f0b6f81904721f",
+        "semantic_sha256": "16b60be57f8f6e25775ae389dec787abb5e8bb4fd101f2477b1e068a0f1c4851",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

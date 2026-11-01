@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:24.729738+00:00",
+  "client": "Loon",
+  "rule": "Swift",
+  "rule_updated_at": "2026-07-26T08:34:30.622111+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Swift_rules_a20786790a5acd3a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "afa89d67fa93d4cccccf41daa2b10a2863b5b8ff4dc6bca4a69972bf4339becf",
+        "bytes_sha256": "0217011b47cfc6d58fcb4e08df9ce506cc9b9217182d5f5fdfec7dcff0bf9ce4",
+        "semantic_sha256": "e51529e42cd22b2a82159992e165d91aedad894d34529022fcf3252b01c4ddf3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Swift_domain-set_d10ec3f3941c2cc3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd5ad7d9eacea8e13f37651de237c6860ee9587a15ea87fe743110b47e6d7a5a",
+        "bytes_sha256": "6f65dedd713ad3f1daf78df9b197bfa549add26f6bac4adb2af917b22a168f4e",
+        "semantic_sha256": "14d0fc325f3c8875ce07951a914c2d2be8c4563337b38bed2ca41755d39c9445",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

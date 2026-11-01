@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:50.680697+00:00",
+  "client": "Stash",
+  "rule": "Lianjia",
+  "rule_updated_at": "2026-08-13T23:45:36.839377+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Lianjia_classical_2cda0bd1ba325496.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "28a75a29e74fddcf90e2bbf5a80ef0059bab3999603a982a1f90da2057e3ec1a",
+        "bytes_sha256": "86290fac1bcc0976e0d687e66db4467b455fb680d219e16edc8ba1ad3eb639ae",
+        "semantic_sha256": "23084aff9d80523d311f9627a5b5b9d69cc250d2526702763e72e933263aec89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Lianjia_domain_a6791fc530ff768e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f04dc2f04762850081a0cca3e04f5479ecc77f57860cc666ce63682653b6f146",
+        "bytes_sha256": "db2660c33d1e957b85045838236c236e3f107c8094a8430a2ecb35e16cc2b721",
+        "semantic_sha256": "5bdc21dfb38a96c9c4e83f905eaed2744c9a251924b292b12050c7dd89c5e7bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

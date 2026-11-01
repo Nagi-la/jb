@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:18:39.396889+00:00",
+  "client": "Mihomo",
+  "rule": "ZhongGuoShiHua",
+  "rule_updated_at": "2026-07-26T06:29:57.790423+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZhongGuoShiHua_classical_f272896879a47d10.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf5617781af7eabc27e203a2350cbe3bdc1758b95d761a280b18803de3dd5429",
+        "bytes_sha256": "03437bc32760fbe6e7abfed6a96ea9c1b98b9203b6f25769e5403b7fffa5342a",
+        "semantic_sha256": "65b853e820f10934a1a23eadddeba6d9790ad11f2f2d07581132dbd7bf9712f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZhongGuoShiHua_domain_11c2687d184f9dab.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3087e854d2ec8193feda66195ab513c2ad8a1076e85eedda686332f9b215d9f6",
+        "bytes_sha256": "345df86f48fae1002b1f8a3ae395c6e26381147ee3fc9875a566323f280d9983",
+        "semantic_sha256": "e41e53547fa555f15da80ae2d24c8becf824f8477c057ef4df15ecd8463ae248",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ZhongGuoShiHua_domain-mrs_ce6662662a595f26.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7093c4f5d542d6b1d0bf9b17735e2f024b13b03ffba8b92c728ffec7beabae81",
+        "bytes_sha256": "5a386e0048e11cc9767cd4f731c99f0d98095ce0da81173523e32979e7e61261",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhongGuoShiHua.list"
+  ]
+}

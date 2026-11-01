@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:29.578639+00:00",
+  "client": "SingBox",
+  "rule": "FuboTV",
+  "rule_updated_at": "2026-07-26T06:58:17.199654+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/FuboTV_source_207cb79ec3a640eb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7275ee554a7f8453ca37da166d25e6b1c7bd8913b1373a4a2078050c2710dd7e",
+        "bytes_sha256": "53ee3c4cd1951674f745750ee109f5a35e6b59d6b0dc294d678f22bb6463b913",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/FuboTV_source-srs_58adf0c88629afff.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e4acd8283fe129c3625aba1336da68c9c4236cb4c34c1d2e18e71b20bf74c074",
+        "bytes_sha256": "c5061b1b5f9926a737a036a4da60a339746e82195f9a1b3da63a6a3afed73517",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/FuboTV.list"
+  ]
+}

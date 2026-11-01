@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:07:28.314268+00:00",
+  "client": "Egern",
+  "rule": "360Cloud",
+  "rule_updated_at": "2026-07-26T07:02:31.936638+00:00",
+  "type_counts": {
+    "ip_cidr6_set": 2,
+    "ip_cidr_set": 28
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/360Cloud_rules_b0a9f8da4d785718.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5df583b564af62754ab8f53aaac5fcde5b97a2d4b9ec939cea9ce59f85b29a07",
+        "bytes_sha256": "327d106319f3c4bc7b04f3afa53343ff3d72180e955b0232632010f7abffa5eb",
+        "semantic_sha256": "95d3f0de3f25d01e951c6ad27022f2a00cf7d2ee9be39fe12f4c17e14c537c6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/360CCC.list"
+  ]
+}

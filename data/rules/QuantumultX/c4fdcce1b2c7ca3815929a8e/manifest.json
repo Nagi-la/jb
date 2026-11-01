@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:07:43.346751+00:00",
+  "client": "QuantumultX",
+  "rule": "SoundCloud",
+  "rule_updated_at": "2026-07-26T06:22:31.770038+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 4,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SoundCloud_rules_6bfc9bb92b92d775.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5199c0cb6753b8f051335d8ad2c45fc05ac0593f5dc9402fccc06d1e65fe77a7",
+        "bytes_sha256": "4920d3a6018deb2335b6a0722738ed2d92c59c1cc1f870f097e9f22036ac27b7",
+        "semantic_sha256": "c3257c898664e9e0de3f683a71f368ee03721b70c10ec7bb2ba242b27b3458d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SoundCloud.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SoundCloud.list"
+  ]
+}

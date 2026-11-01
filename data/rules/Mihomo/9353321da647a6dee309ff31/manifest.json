@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:12:37.030852+00:00",
+  "client": "Mihomo",
+  "rule": "IKEA",
+  "rule_updated_at": "2026-07-26T07:22:42.815871+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 95
+  },
+  "total_line_count": 95,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IKEA_classical_73277882888792bc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7c95aa546666b7d7ea26785ffce5e5f9b6b50cde89b07ca561aebc8546f64955",
+        "bytes_sha256": "3bd65d65e5cfc7d4d8804309ac6c9727b65e0d01de7559ecca3b084c62e8864e",
+        "semantic_sha256": "ae7b112ecbd8b1868092a245bba8cca6eb0537939ded13beab768e8cb16bdff2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IKEA_domain_8d8f52005b6e382e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3656d3536e777f9faf8d2e88422ecba237a4f261f8c5fba14cb717670207ecf5",
+        "bytes_sha256": "e5e4665904dfb365a1871d5ad4af198a4b9658f213bd4b3e33b545e86d6284ed",
+        "semantic_sha256": "77ec5fb20e70d2046e5cb501a365eb8a34a3c8e89c12bc16af6b02d2a6139430",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/IKEA_domain-mrs_b7a30fd117e550f1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0176e77eb31204e845be122f2ff62fed1e76b5fa525a6fcfaff4ea8e97d416ff",
+        "bytes_sha256": "e7bb7b236500c5892f4772b040f4718f130479e31609a6e41c8ff534cb1d9112",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IKEA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IKEA.list"
+  ]
+}

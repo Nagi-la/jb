@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:57.436036+00:00",
+  "client": "SingBox",
+  "rule": "TVDB",
+  "rule_updated_at": "2026-07-26T08:34:42.734908+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TVDB_source_3119c95ec799ecd0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "37fa00138eb02fb256138401c92a8c4460b8b5b55b6a77edd453db3b0c67d69b",
+        "bytes_sha256": "b2b0767d71ac2542997602ef4e9fe1e0307b3f791b126772eaf44352fcea003f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TVDB_source-srs_850fbe3946f9584f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aaee83346a56be65f3681115a02644dee2131653b4acd2b8a5f7e3f4e4f4af5f",
+        "bytes_sha256": "cd9b1daa7507fbb4ce2b2c92e65d7e56d9d23ae8abe76e22e45f19e4aa93db8d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

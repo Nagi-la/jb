@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:54.071692+00:00",
+  "client": "Loon",
+  "rule": "Tailscale",
+  "rule_updated_at": "2026-07-26T08:34:39.153107+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tailscale_rules_79f6eb8010c1a230.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30e64c9c7ad95a43bcbf0fd2786d61ed5a7a6835dc5e1d56874c8fe88afdf1c6",
+        "bytes_sha256": "7ed9be050720416ed784366044c790d8b2d737fd989fbf5beff31d45a5b9af98",
+        "semantic_sha256": "3cea70779956edb020c4ed1225faaaa0d059ecba33b66f03d94127e0bc833770",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tailscale_domain-set_375ac342e5e3a2a6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7e0d5a55490e930178b846bef47ae213581c3ca8e520f236d773438a06d7556",
+        "bytes_sha256": "db7729984d9bc535175ffbf9c80f8940a22cd604172e51ab5a7d0ac8662fd229",
+        "semantic_sha256": "12fd4102a5774850ad27aa9ab6e9e4dcc2c5520463f2459bd18e250e68861190",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

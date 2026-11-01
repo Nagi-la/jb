@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:06:10.590639+00:00",
+  "client": "Egern",
+  "rule": "Sectigo",
+  "rule_updated_at": "2026-07-26T06:54:00.731199+00:00",
+  "type_counts": {
+    "domain_suffix_set": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sectigo_rules_95058719fd646917.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc57ef72abb072c7eedf76482c9c73c90b368e0a0d3b30dd401340d8ee74afeb",
+        "bytes_sha256": "34ed8775ffd9d33ac00dfe364cb661b19742350917e941bb3cb35b9c09e8217d",
+        "semantic_sha256": "000355364a09caf588c0b09c28c34f449ae7640eeda1b224776e1a4f2faf3bd1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sectigo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sectigo.list"
+  ]
+}

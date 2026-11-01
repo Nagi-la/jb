@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:05.150385+00:00",
+  "client": "SingBox",
+  "rule": "PBS",
+  "rule_updated_at": "2026-07-26T06:22:20.369462+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PBS_source_76f09997feeaaf32.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "616b91a3a5026fd773e6ece4ee8da4ece39ee7e799fedd6c1cc712120251ae69",
+        "bytes_sha256": "a74e70de36cd36596c640e02874476351ff836b9b398baf66ea3af20cf16007e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PBS_source-srs_7589f5b4e965454d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "17389bb616f4eb826e1b628790dd5c9458cdc91d2d834edbb16a1ba23bc6bbe6",
+        "bytes_sha256": "b8acb3083fae149cccdab4b5a94857e2a2563a30ff8a1a9a24c5d63e61b54e63",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PBS.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PBS.list"
+  ]
+}

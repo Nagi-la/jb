@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-10-29T03:17:37.129092+00:00",
+  "client": "Surfboard",
+  "rule": "ByteDance",
+  "rule_updated_at": "2026-10-20T05:42:41.341872+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1033,
+    "IP-CIDR": 1,
+    "DOMAIN": 29
+  },
+  "total_line_count": 1063,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ByteDance_rules_1766add380d32037.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b678738ac0186f3f2e1b097976308372fcba5ec4484bfbdd24648622200e68b2",
+        "bytes_sha256": "c1beea887f4c9432cc23e37a9969a0b09580c1c2dce97509b80234395d56ed20",
+        "semantic_sha256": "e85ab7b49b1012abdab1d5e5e1a1a3e4687f7e4941a209ad714172e9481c87d6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ByteDance_domain-set_5df9813f0b54937e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7899d094486eee5114f9e5972100c0fb4318f7acd4b075c32fe120bcc2633224",
+        "bytes_sha256": "63d41939e4804771a2433d98491d85b332c93318b45913a23fd31e89729352e0",
+        "semantic_sha256": "303376fb1d74bdbbd4f960b18d09c16ef5ef9d46b602e93474457efd53a9a9bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ByteDance_rule-set_c44138547fa89889.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d739d5c17040abd9ad59cd980ba687e5626722b04e6d7f9054bcf7f1bbbfa668",
+        "bytes_sha256": "63f07cc4e304d916fd804bb2c4143fd2bf6c5f6d516bbce75829a05804158e07",
+        "semantic_sha256": "f549937e28c76f4c689458ffd8457e3897cf795359e7c7558905ce7c826fb963",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:38.155735+00:00",
+  "client": "SingBox",
+  "rule": "Notion",
+  "rule_updated_at": "2026-07-26T06:52:39.472964+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Notion_source_618b6f6169a8ede6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ad6901a9fb8194d33c5131685859d08b6f73e0356726c42c86fdff6c23021504",
+        "bytes_sha256": "f10059576c8411be3c684ad858d1c2cecadb1f71087a87e595543a5689a0eb02",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Notion_source-srs_093390a33fad5c8f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "864fb9e61b6867c6c9d98443e79908ad9f6d0a43313fc0ca7a01a0a2bcba8640",
+        "bytes_sha256": "5888ab752aa9b2b52ef0e77bbd6888013f2c80903feb411a69ff3a09dd837b6a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Notion.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Notion.list"
+  ]
+}

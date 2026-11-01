@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:35.553090+00:00",
+  "client": "Egern",
+  "rule": "CMB",
+  "rule_updated_at": "2026-07-26T06:23:33.828372+00:00",
+  "type_counts": {
+    "domain_suffix_set": 39
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CMB_rules_94fadf95175b4d24.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d266ce172ae1963e48da2f6fad51f37aa1d908177c8d1f858e3b75f47ff763e",
+        "bytes_sha256": "0bef96dd344ecc2407df534f755b7ca48d9360d4cd77defe7a9af14dce6ae3e5",
+        "semantic_sha256": "5022a0ea3735949c6883c67eeae80903f01ef841dc745e300eee6be13866ac61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CMB.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

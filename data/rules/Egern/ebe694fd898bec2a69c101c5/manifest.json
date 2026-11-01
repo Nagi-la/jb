@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:48.946373+00:00",
+  "client": "Egern",
+  "rule": "Intercom",
+  "rule_updated_at": "2026-07-26T06:56:31.849537+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Intercom_rules_bb36f2ed37fa0f2a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d37dceadab2633d5f86097be32ac630d2604499816a2bb1b852f9c64004e26c",
+        "bytes_sha256": "45a0d5662f80ad65979494734ad1aa7d988297064bc5c5fed598d4ff2c9c9ba7",
+        "semantic_sha256": "034477176ad5b341eca6db714f61b195ead1a6a400ee6d40accabfa0ab4b4a53",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intercom.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intercom.list"
+  ]
+}

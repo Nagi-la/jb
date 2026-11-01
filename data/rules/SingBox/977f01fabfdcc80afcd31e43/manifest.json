@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-09-18T01:31:43.235531+00:00",
+  "client": "SingBox",
+  "rule": "Kingsoft",
+  "rule_updated_at": "2026-09-18T01:27:01.432977+00:00",
+  "type_counts": {
+    "domain_suffix": 264
+  },
+  "total_line_count": 264,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Kingsoft_source_6a7a312a85997263.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "521d324cdc0b51461e452ee2ebf1aee404687af0d47b7d0fe557552155fac280",
+        "bytes_sha256": "0dc6bf72728190bef618ffd79bef738ecdf970b2d8a191b085ee7040daf0ec76",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Kingsoft_source-srs_57605183427f32d5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bbfde5c18e280acdb52627fc8178aacd89665de9d5ae189d72850e6ab5c4d3d8",
+        "bytes_sha256": "d062ec1d214c68b607271756ea80776e87da648465f14ada2648fd9e25fe057f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kingsoft.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Kingsoft.list"
+  ]
+}

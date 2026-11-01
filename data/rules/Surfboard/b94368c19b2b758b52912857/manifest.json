@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:58:20.170440+00:00",
+  "client": "Surfboard",
+  "rule": "HuggingFace",
+  "rule_updated_at": "2026-07-26T08:21:17.724083+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuggingFace_rules_36c5ad00294ea8e8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4053aa2ddb6387dfe29d9081940dae48cc4ad38319da65c9564f63713760bd07",
+        "bytes_sha256": "e575b6721df6cf8408a7a36247d499c8bcf63a0040ddd4e4ac22ab8710b4a009",
+        "semantic_sha256": "5509ef4ed30b35aa7dec8da98786e1bbe810e9a1f2f64aa7734da2866703f316",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuggingFace_domain-set_88aab50cd9204efd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b1c58780fa380ccad6b9561f5cc3f2d7befadc2f63fff5d35c4d24ce47dd76dc",
+        "bytes_sha256": "958dc4141296b0b694f2f38ae9341cff4c94bb69bd6f0966eb792a5fb4c0f33e",
+        "semantic_sha256": "db9ee2dfbdaafc364f5f978331c0655b6ee76aa484096e38ad1c46163f2a8d72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

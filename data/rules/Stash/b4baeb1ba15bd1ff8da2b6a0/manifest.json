@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:19:23.879687+00:00",
+  "client": "Stash",
+  "rule": "ITV",
+  "rule_updated_at": "2026-07-26T06:22:06.319494+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ITV_classical_5edf87363fc6748b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a227ec21591cce002511a44e0ee30de4df5be6e8011f7babd0ebdd57d85ad65",
+        "bytes_sha256": "13eeb4076c32721b02c912403e6ecb957101b78dcece8a841931dfa35f08a270",
+        "semantic_sha256": "5ca373d0bd0d7dc546a24bef93a529f9e62debca6aed352d50e919b1e7aa048c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ITV_domain_49820c411e0f22a6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d94eeba652a399cdd1bdc2a1863c67a15e007becae41bdc6ab4c64fca3178c0",
+        "bytes_sha256": "7f92e3d32db852eed84c2809e9e9c3b7f8eab84c3cdf8da2e24d4dcb253c8eb0",
+        "semantic_sha256": "a190980e2772019d73336c8aa133be8a7379476b0bf4a96ad7304bbbf0fc5a22",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ITV_classical-rest_b67d7c9cebaccad2.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75e3556a3c9c22b23447298e53801813f6e9e11df1b27173af35a20fdeb5d9a7",
+        "bytes_sha256": "e361aa7a5d4d6f2d0f5580b92ceefa48807c5feb23a86be5b136803f7647676e",
+        "semantic_sha256": "a6a0499c0074cf330b1d2f7be558aaf8d3e30c1cfb94101f80274fba30fa749d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ITV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ITV.list"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-09T16:03:20.928638+00:00",
+  "client": "QuantumultX",
+  "rule": "Tencent",
+  "rule_updated_at": "2026-10-09T15:58:46.191412+00:00",
+  "type_counts": {
+    "IP-CIDR": 24,
+    "HOST-SUFFIX": 2745,
+    "HOST": 1,
+    "USER-AGENT": 5
+  },
+  "total_line_count": 2775,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tencent_rules_a85c384378e7fe8b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b0a82bf16494fcdd03d9664326c24494dedc4e1fac7cb9f14ee517aa4ac69bc",
+        "bytes_sha256": "47c4af434f5a2fcd843ccbf2bafc9a6ebf28236f1a6dbcdfb4a5c3b16fe8200f",
+        "semantic_sha256": "293667ad480eaeae27f9c7bafde20c7ac3b62732407f7b5e7b0bb5b45b4649c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list"
+  ]
+}

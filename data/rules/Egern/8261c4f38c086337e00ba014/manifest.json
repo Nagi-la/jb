@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:57:04.750882+00:00",
+  "client": "Egern",
+  "rule": "VoIP",
+  "rule_updated_at": "2026-07-26T08:27:44.894259+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VoIP_rules_81b80998d03afd61.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3971916c289ddc838a505f2ba6fb2a2bc1ee141633352ffb94e7378e93401555",
+        "bytes_sha256": "c009e5492a18c15ffe25782ab2d1ab4bd42c179a3637c448d5bf7ad0de7d8f47",
+        "semantic_sha256": "a72f82d4ab451d82b5dbe72890f3d12638efdbaa700f0bd7e69a9a0799a1ac86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

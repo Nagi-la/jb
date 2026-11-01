@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:16.452415+00:00",
+  "client": "SingBox",
+  "rule": "Huawei",
+  "rule_updated_at": "2026-07-26T06:43:19.983946+00:00",
+  "type_counts": {
+    "domain_suffix": 402
+  },
+  "total_line_count": 402,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Huawei_source_62a288c35e92c7e4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "90114112653cd79f0bca17b3df509bda2ad57a0a62a3433cb3017f0171d616b2",
+        "bytes_sha256": "0aa1fa83f4192b8d5e4bb544b7f877c4266b08b2e041c29fafe1499eb3347928",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Huawei_source-srs_b2fc93524a3feb03.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "54485fb674e9d73ed32035538c441e0fe8850f09f1a0d60975be5ee7ff750a55",
+        "bytes_sha256": "4c37366ab61eaa174c521ce59acd2c5ad8c104e75e37e11734f956857c6e150e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuaWei.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaWei.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:10.757169+00:00",
+  "client": "SingBox",
+  "rule": "HamiVideo",
+  "rule_updated_at": "2026-07-26T07:00:23.674921+00:00",
+  "type_counts": {
+    "domain": 19,
+    "domain_suffix": 6
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HamiVideo_source_29765bd19b50f538.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bb3d64fadd5726686b9fc1a1f3bd3a19e5b23e745f1b342187589754f09e7901",
+        "bytes_sha256": "35c2080a66a302a98e1ddcbe63a6f713acf1c9650e98729524a544d1f9534287",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HamiVideo_source-srs_3401e7de733390e6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "feddce42efaa878ee09146ad2e08184d2b8c75ee18e2a377a15890d985dfc288",
+        "bytes_sha256": "4a4140574753cafc29479b31c47ffeae40b11e2b6faa35f48cb37311840f9708",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HamiVideo.list"
+  ]
+}

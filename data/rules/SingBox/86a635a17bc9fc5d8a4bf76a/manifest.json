@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:48:34.324509+00:00",
+  "client": "SingBox",
+  "rule": "Azure",
+  "rule_updated_at": "2026-10-29T02:37:29.119096+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_suffix": 150
+  },
+  "total_line_count": 154,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Azure_source_fcf5c0ac507ffa3b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c70d5ea87efc0160c2251dd1dc8fad70042a790edce6f8a8cbd32a8b44ee555",
+        "bytes_sha256": "e0ca2cd49e7e67e848bc747c923e49249c7e27a362fd1f48e2c7cf72178083c2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Azure_source-srs_c3f9feeaac8dd6d9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "24528dffb92359d9c5644c4d73da64156433a7e78da4c99d89082411e9fcb383",
+        "bytes_sha256": "d90d333b13c0cf6034fe589943d95174805c7cff46588347981c01e003cb5077",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

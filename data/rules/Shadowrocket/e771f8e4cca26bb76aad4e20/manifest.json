@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-10-09T16:02:17.669445+00:00",
+  "client": "Shadowrocket",
+  "rule": "MEGA",
+  "rule_updated_at": "2026-10-09T15:58:45.997173+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7,
+    "IP-CIDR": 7,
+    "IP-CIDR6": 8,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MEGA_rules_efc7bf4d25c00c06.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "49dc255cb642cde068f37384d79b2fa795f9145847c140a7c0527958b1200dd7",
+        "bytes_sha256": "6c5cb6585de10bb51fc080dafaf9c8828cb1892a76401624c8a91563be6096f3",
+        "semantic_sha256": "5d859b0e67346227583732983bada474561cccee911519dcbd530c7db6bb14e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MEGA_domain-set_c75c1a02104e9073.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c579394a51373c4985e6922ee0a3bc97cc60de2add4aadcbfa2447e5559cd07",
+        "bytes_sha256": "b808cb24455ae553d91437130c775298de2f1928cb86be6cca024663060caeac",
+        "semantic_sha256": "50a3e29294642ee93b426e08541b75e3b1c63c1b7a044ae426c310fc06c1f840",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MEGA_rule-set_fe8b61271c7bd024.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "559f3bff9ed3c685ed810c01569da53989b93f46f701f7133b945eb41c85818f",
+        "bytes_sha256": "f43d439ae32998324d01e2b285947cf40dbff83d45cff0302f69055649b022db",
+        "semantic_sha256": "3f3e1b0825a3a439d4bb70650378539eaeaf1d48321de25ab13cdd09569b32b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/MEGA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/MEGA.list"
+  ]
+}

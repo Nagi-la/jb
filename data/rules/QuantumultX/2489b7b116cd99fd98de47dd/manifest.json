@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:02:52.541577+00:00",
+  "client": "QuantumultX",
+  "rule": "AirChina",
+  "rule_updated_at": "2026-08-10T09:41:20.964240+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AirChina_rules_49b74b6a8ef7e402.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4443026534f4d7d49b51736b7e6792ac3bc9fdaabfd17b95d08ba8b96d8467da",
+        "bytes_sha256": "fab70465476a582745259dd0a271bd1459f137976668ec7df6c5a274bc96b801",
+        "semantic_sha256": "39197e4e998b8cca4d59de11bfe3faab22421065632feef0f8c9be7ac72062c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

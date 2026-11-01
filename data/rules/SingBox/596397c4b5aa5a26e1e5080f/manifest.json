@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:14.849374+00:00",
+  "client": "SingBox",
+  "rule": "Espn",
+  "rule_updated_at": "2026-07-26T06:29:17.940904+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 8
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Espn_source_df35792a84cda32a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c5731878504ebfde5577cff514d2c24e51b3afa614d7e897431e72522ee76e84",
+        "bytes_sha256": "eb3d030a41e5b23afcfdb82803360d4337d9a520e9f72b209be7455ffb4b89b3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Espn_source-srs_40297a84f7edd004.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a8dceb71e286f109afa58a35fd2738e92897a2bf63d783d99dc85b0686908baf",
+        "bytes_sha256": "0cc539f5e1b17f48d925c4d7cda0df2598abe76b8ef6a2ad49f470dbeba43ee6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:15:42.922772+00:00",
+  "client": "Egern",
+  "rule": "Rockstar",
+  "rule_updated_at": "2026-08-13T23:54:43.814035+00:00",
+  "type_counts": {
+    "domain_set": 11,
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rockstar_rules_3750d02dfc9e9882.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5959fab698587f11ee1d0fbddde94546192bbaf011f5139f1df4354f2d33d2dc",
+        "bytes_sha256": "ea27174e65dc37b7e070dbb3e4db0bab0548fe1b69a52b9395bddbaef3288455",
+        "semantic_sha256": "a1a5efa0639b13fdedcd99a9fcf9416f8ddb06603b07326b68130a905cd21b72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Rockstar.list"
+  ]
+}

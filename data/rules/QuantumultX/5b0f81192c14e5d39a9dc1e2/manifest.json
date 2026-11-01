@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:04:12.107388+00:00",
+  "client": "QuantumultX",
+  "rule": "HuluUSA",
+  "rule_updated_at": "2026-07-26T06:30:32.077768+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 57
+  },
+  "total_line_count": 57,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuluUSA_rules_22a3dc7c41492e1e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a9c40de788a613c3d9d684b1344ebdc1519a7f909efaf52d7bf5bd2608478dd",
+        "bytes_sha256": "830178dc73a700aa7e37fbbdbbba2bf7b0c3581c202e46b88d4413d75699c47c",
+        "semantic_sha256": "d7fc1e3549b5622e2884cfe7c36e92e8ca344f78b332720ef8ba63151dcf17c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

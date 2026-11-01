@@ -1,0 +1,11 @@
+#!name=Quantumult X Rule Filter
+#!desc=MagicRule 规则类型自定义
+#!icon=https://magicrule.pages.dev/apple-touch-icon.png
+#!author=MagicRule
+#!homepage=https://magicrule.pages.dev/
+
+[rewrite_local]
+^https:\/\/magic\.rule\/[^\/?]+(?:\?|$) url script-echo-response https://magicrule.pages.dev/modules/quantumultx-rule-filter/quantumultx-rule-filter.js
+
+[mitm]
+hostname = %APPEND% magic.rule

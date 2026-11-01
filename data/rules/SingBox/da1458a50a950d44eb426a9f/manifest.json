@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:57:17.297885+00:00",
+  "client": "SingBox",
+  "rule": "Beats",
+  "rule_updated_at": "2026-07-26T07:02:52.323094+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 716
+  },
+  "total_line_count": 717,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Beats_source_9c8486228aac4df3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "435ed1205bba7246940d0d834f09541b9533dee6851a23f72afbe0bf778f6ea3",
+        "bytes_sha256": "3897cb5794c5a9970bc7c16442a483f171ab420eba7c101d592170e388fb9e48",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Beats_source-srs_8b3c9426e1bb5ecc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "baedbc85b768a906eb85bfe10d0751a25d60f492c06842eb4687eaa780bb21a2",
+        "bytes_sha256": "2146ed1f78f18b8381431d5788bbc92e15e35a0b41b18d9cd9550b83025cdc4b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/Beats.list"
+  ]
+}

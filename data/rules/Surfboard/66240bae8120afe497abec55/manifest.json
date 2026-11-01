@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:33.486901+00:00",
+  "client": "Surfboard",
+  "rule": "TaiWanGood",
+  "rule_updated_at": "2026-07-26T06:22:32.857805+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TaiWanGood_rules_5a0732d9398d5b02.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff45e189e96a5a1c53f083f9c319e7a7cd5a12161217f2966179ac58c2be3f29",
+        "bytes_sha256": "e9875536321bee9e4c03f1f33ead7914f8c1968dfa19f396e08d4b8ff22cbd80",
+        "semantic_sha256": "b5b6ff007029a9215534f8b1b135054f30ee842b5a2e723cf1052866487393c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TaiWanGood_domain-set_fc928ab88ea8d8ce.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d86b4b2916035a2b2ac122f7ef0417b999f692ab8eae4a7613b5f970b8be7042",
+        "bytes_sha256": "dc8f1fb6f91fe5244e93eb1900848774a461920efaafa4fff3808d91a8bb62fe",
+        "semantic_sha256": "b58d9dba06d82b964cd48416d9cd5cb58dc299be996bb8359903565cff49b5c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TaiWanGood.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TaiWanGood.list"
+  ]
+}

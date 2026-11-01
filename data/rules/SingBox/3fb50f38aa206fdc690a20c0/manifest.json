@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:50.578302+00:00",
+  "client": "SingBox",
+  "rule": "Motorola",
+  "rule_updated_at": "2026-07-26T08:34:00.738336+00:00",
+  "type_counts": {
+    "domain_suffix": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Motorola_source_77e9a83e5cb8cb78.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "57689a5ca5d94cce5b4a420c7a45538cae54c42a92cb5681eb0ae86bbd472932",
+        "bytes_sha256": "5b360b2a3565b56872697df80cee1dbaae04330caebd3674c4896e76689d2aab",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Motorola_source-srs_f84997fd39ee94d5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "81dfe97aaeb21a082e981b69e62decb47c9a74725f4b576b70964fe52785a257",
+        "bytes_sha256": "ea58d3bbfab104df244e512f9f1b62255fdbd96420154610bd92f9da241d12c0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:04:54.927031+00:00",
+  "client": "Mihomo",
+  "rule": "BMW",
+  "rule_updated_at": "2026-07-26T06:31:46.257241+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 730
+  },
+  "total_line_count": 730,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BMW_classical_05ac1a2da0aa6a6d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b292fc338ca94ff770d3055e7143b358370bceb37de2aa2ed2b71cde6aef5e2",
+        "bytes_sha256": "981bd635fc2af681ed12966a933928ee5b7e7d5d3a7a9ce3afe574738e4e1bd1",
+        "semantic_sha256": "381539a8028e0480a05e87fbd83e68287a54795eba16426de16daea940903de3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BMW_domain_209ca624f1a32bdc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65ce8d1cc5d63207f5bb77be89b00a17e14034b647d1d18f7fa534e16fefb335",
+        "bytes_sha256": "5f4819585ede0cba62ebce1e2e79d59a29e3ea5a0086ed72d213b3ec79b5726d",
+        "semantic_sha256": "1bfef74320a8871d787de406e77f9fd9709e0772eac3ee1100648eb0931ce7a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BMW_domain-mrs_dd609230839cbb0c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c23f26e0ba4e9cd0b4c502914caa2a462c480b23ea71f54603fbd1d8ed92045",
+        "bytes_sha256": "ea5e37c534074487dbf505b43ce2f017e2a741d2c36a46f12e9bf60425f26306",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BMW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BMW.list"
+  ]
+}

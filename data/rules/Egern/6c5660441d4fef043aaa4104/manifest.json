@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:15:44.546877+00:00",
+  "client": "Egern",
+  "rule": "36kr",
+  "rule_updated_at": "2026-08-13T23:42:09.446872+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/36kr_rules_5f67069aef105d02.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4948d5fc9f768deb278669231273d0862cac32b26392634c692cf08bfeb15d07",
+        "bytes_sha256": "cb02eb486856648306509df0d67ba8143e4979af2f427c15e0b1d96c82239db1",
+        "semantic_sha256": "fd06212acab6ab9caca3d3d3a9f20025ac8fce159cc358edc952bc409597dfec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/36kr.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:44.094030+00:00",
+  "client": "SingBox",
+  "rule": "Hupu",
+  "rule_updated_at": "2026-07-26T06:25:28.828460+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Hupu_source_58a8bef4911613cc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6fcc6d04a90a0aee910c8143619c6c8594d7ae817a9a0a6311025647e3490bf8",
+        "bytes_sha256": "0f1994288f2da18e929c27599385ff4acbb1d6ec15a71dc09532b1ba4229ff10",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Hupu_source-srs_f5f94c1cfe67cbba.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "85bc11c8bc3ab581c7d88b74c30661195dbb124c2048c04cd1e7d4c204ffb85d",
+        "bytes_sha256": "9e4e1c5c55163bdb71f9e49cbc122027298b3c84988f0f64854ca4c741323fc9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Hupu.list"
+  ]
+}

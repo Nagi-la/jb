@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-27T02:03:42.883746+00:00",
+  "client": "Surfboard",
+  "rule": "Twitter",
+  "rule_updated_at": "2026-07-26T06:36:21.251477+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 27,
+    "IP-CIDR": 8
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Twitter_rules_0924ca0971e18745.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b33fa54424ac57a445699f5199f9be1bae1468dafde6c21ce38e66512887da84",
+        "bytes_sha256": "205f3828ffe123193c2a1ce2000c0626ae3179d7d53ad12486ada9de0a988f8b",
+        "semantic_sha256": "2a9542af4c2a203482e3b97e3a1b0e87feb6de9faf1d8fd4bf61998a87be8fca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Twitter_domain-set_697c9a164b75d7cf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2b8b93e2de5b72dfdee81653f5dadaef3423bacc8859081129d621519b9e5f7",
+        "bytes_sha256": "a5e29121bdfb2aabf25b40bdd00b22e4ca13f0dcb0e86ddb35779f8b08916c5a",
+        "semantic_sha256": "bbe5a7833f46b3ec2e4dcdda8dcfd4cfef76bc381f12cb5f1189674bdb095daf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Twitter_rule-set_93934a1e6522aa92.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed709abbfd7782d03728d106ce81de9e73d714b10fad8f3bbf3fabc803a4adf6",
+        "bytes_sha256": "0910111960e3ea141811c91908024191ace1ce31ffaa9540df72c7f7e444e810",
+        "semantic_sha256": "a9db4d49b9ee40d9189f8eb2346c413cf6f28b22b7077087e42b907063423977",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitter.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitter.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Twitter.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:55:51.107421+00:00",
+  "client": "Surfboard",
+  "rule": "Protonmail",
+  "rule_updated_at": "2026-07-26T06:53:16.924122+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Protonmail_rules_60da8e74a4263503.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f497cac7c0646f41f8859d4178d63a995eb0ff8e5d61e1d6d02560a46b82e74f",
+        "bytes_sha256": "36a3da6723aaecc9f60215b517d0425e3fe7792b6dd1e8e19b3d1dc5f1483605",
+        "semantic_sha256": "cdb8f49f8fe199c2dcce0a0b94e14d0b99eddf03f76036ccfc9e61ab56f3d4b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Protonmail_domain-set_76c58f17f9d09bf0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "292b4bcaba20e6a0a44d616ca007c3c007e73e3dccf5901e1b6edbb99dfaf06a",
+        "bytes_sha256": "6e1ee959338d86e05904706d55aa90ab418e23a0fc88adc454cec4effdcca1ec",
+        "semantic_sha256": "90040f7b6436df8e8ae095e0c38d899322be1501b3852b0a9cc8990891f6473e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Protonmail.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Protonmail.list"
+  ]
+}

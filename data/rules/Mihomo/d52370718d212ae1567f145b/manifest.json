@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-09-18T01:31:43.256967+00:00",
+  "client": "Mihomo",
+  "rule": "Kingsoft",
+  "rule_updated_at": "2026-09-18T01:27:01.495143+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 264
+  },
+  "total_line_count": 264,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kingsoft_classical_cc0ab2fdb82e0f62.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9066fddad83d4a1a14a82c68481a9f1f6bbd694c10ed28dcd3e8de19f8dc85e6",
+        "bytes_sha256": "95ef34e735a08789cf32285857059ea3f09bedf24c230ca433616c061ae12b7c",
+        "semantic_sha256": "4936ef00b8c9ca594f9f3e8cf4c677d2e82d06ac769eb110a56f011cc031953f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kingsoft_domain_e3157d8fcbe26eb1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f0f270c1e0a89eb3d01e9b03fd657c9f00c2d87c0d6f3c5e472f067a090faccf",
+        "bytes_sha256": "86069de830ef4697182bb4239a8bf0121a52a910715cbbad8154bc981c65d314",
+        "semantic_sha256": "24d4a99e02688d5ab99888e0373b2179ae0c4327cd23895fd189398514b23906",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Kingsoft_domain-mrs_91dd7a8b1ef46a4b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bad70b9759b5726fdd5d732bd38291cb1c2f691c83a79794fe136bd1935948f6",
+        "bytes_sha256": "59f49e4013cc58fe85c9f681ae47442a08cf4a25851b90f3270d26ff000d2c55",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kingsoft.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Kingsoft.list"
+  ]
+}

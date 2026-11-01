@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:10:22.898155+00:00",
+  "client": "QuantumultX",
+  "rule": "NTPService",
+  "rule_updated_at": "2026-07-26T07:01:19.107383+00:00",
+  "type_counts": {
+    "HOST": 75,
+    "HOST-SUFFIX": 126
+  },
+  "total_line_count": 201,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NTPService_rules_699f394f513bde0a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05aeca84c9275aca708260fb6f05edcae25374cc92d5cc97dfbbc4023eed953c",
+        "bytes_sha256": "1b767ecafec3865db16b25cfbad1c7e564db8f3353c9872acf0481126129527c",
+        "semantic_sha256": "483e94d12687778bb02c55a4bf8b014418c8c0bdce973f3868fa23a9b1f2b429",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
+  ]
+}

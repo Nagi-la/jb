@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:06:03.824900+00:00",
+  "client": "Mihomo",
+  "rule": "Geely",
+  "rule_updated_at": "2026-07-26T07:17:14.485533+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 50
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Geely_classical_af97bfbd6bd168f4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "97d7982db7689a8565f060a4352e2837ee8ff1553f1f9ac5db9530614aa78638",
+        "bytes_sha256": "e66dc70a4997fe962ce74d85f3c6441b2bc200146fa15844dbfedefb9685a1e1",
+        "semantic_sha256": "66b49ef8fb02aafecf1d0a44edc3df9ab19b11a9f85390c6b6b1197097c09c43",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Geely_domain_00f3936b5470e91e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4485511c7535967107aab70ea2b195570057196e2e7e07dd2388e6d43d59742d",
+        "bytes_sha256": "dad46f1f1d1e8eb4ec778381295e5ba34359d6ff6055eddd6506f312297cdd99",
+        "semantic_sha256": "0c2e7060d04792ff1ae0bd450e60daec81dc4a47d34bce95f94c0c588b3c9aa4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Geely_domain-mrs_b53a6b55359a8d55.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "897b693e7da11d6bda58f3374388ca12a1dcd215add48e8405de2a7336d3e5cc",
+        "bytes_sha256": "58e78cb7f43105329a5ae4c87eb05df1a3648923540c16644e2f026092e8eca5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Geely.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:37.565522+00:00",
+  "client": "Stash",
+  "rule": "IKEA",
+  "rule_updated_at": "2026-07-26T07:22:44.892509+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 95
+  },
+  "total_line_count": 95,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IKEA_classical_73277882888792bc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7c95aa546666b7d7ea26785ffce5e5f9b6b50cde89b07ca561aebc8546f64955",
+        "bytes_sha256": "3728fa66e59c9e809401f55002b7679e6a710b6e29cd86c61a6f2b401eabcf2b",
+        "semantic_sha256": "ae7b112ecbd8b1868092a245bba8cca6eb0537939ded13beab768e8cb16bdff2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IKEA_domain_8d8f52005b6e382e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3656d3536e777f9faf8d2e88422ecba237a4f261f8c5fba14cb717670207ecf5",
+        "bytes_sha256": "a46ca1d3730f9501d66e51b20be69d3149d8c0a0e9b77e0b04bc8712a8f256ba",
+        "semantic_sha256": "77ec5fb20e70d2046e5cb501a365eb8a34a3c8e89c12bc16af6b02d2a6139430",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IKEA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IKEA.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:19.038765+00:00",
+  "client": "SingBox",
+  "rule": "CEB",
+  "rule_updated_at": "2026-07-26T06:23:13.156503+00:00",
+  "type_counts": {
+    "domain_suffix": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CEB_source_031c757c106d4bb8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "79459aa105a7679ba86326aee1646875040ccdef09cd05f409df34d62f03d2d6",
+        "bytes_sha256": "6df39daf57e09ca134b4c6558f5595eea60a1962c42fa625d0190333a7671bd4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CEB_source-srs_768261f526e14530.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fff31460a864c9f7e8600c662a8702b60fe224badccab2797ab85d2e18115917",
+        "bytes_sha256": "c7119d3ad38e66ebe3d450d4a04710416552ab0b2ab04c3c702e50d06861d05d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CEB.list"
+  ]
+}

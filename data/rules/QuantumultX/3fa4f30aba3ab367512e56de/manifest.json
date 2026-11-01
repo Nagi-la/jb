@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:09:12.588505+00:00",
+  "client": "QuantumultX",
+  "rule": "iTalkBB",
+  "rule_updated_at": "2026-07-26T06:23:01.134993+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iTalkBB_rules_fae600b2e2711083.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e4abb00cf5caa01096deffde4479ed54922ddf17e26fa2cd117e7f7fa2929aa",
+        "bytes_sha256": "0cf0652dfedc9dc4dbfa8973a9064e08875a0e02549467ad169f9e465e3fd6c7",
+        "semantic_sha256": "36a67a36cc1c272af694c08e9454dc9e27cb61e5a3d7d0d818a51e9ee3d17824",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iTalkBB.list"
+  ]
+}

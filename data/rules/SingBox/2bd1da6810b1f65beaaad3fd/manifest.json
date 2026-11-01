@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:42.564681+00:00",
+  "client": "SingBox",
+  "rule": "RuanMei",
+  "rule_updated_at": "2026-07-26T06:27:50.568944+00:00",
+  "type_counts": {
+    "domain_suffix": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/RuanMei_source_f13460e8005ee4a9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a2a550f8edf6b1a2c6136dd2ec433971a893356a28124801dbb33f12c7e28a42",
+        "bytes_sha256": "f4b8e8c33edb9ee7afef2c5d816a2282de0a0b3785e48c5f627ebdfd9fc491c9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/RuanMei_source-srs_e782883c297d8314.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "11da89af32a08cba86f2552dd7cd72e0fd3065c93c8f8f0f5f07ea7edefbfa11",
+        "bytes_sha256": "8479b1682505f9b8db49d463c13dd066058fcbb7cd2b126318265f1342ed731c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/RuanMei.list"
+  ]
+}

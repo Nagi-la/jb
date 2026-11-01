@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:07.167504+00:00",
+  "client": "Stash",
+  "rule": "LanZou",
+  "rule_updated_at": "2026-07-26T08:33:27.066736+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 28
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LanZou_classical_7f0e990acaff8809.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8942c8e0b4edd12f4b124a7555a6078bc1e4dcc4399f3cd58d42617a566cc865",
+        "bytes_sha256": "13a08b30c34c68fc5a144a555c90292355b0f497cf387cfeeb252ea5ba6ce4b0",
+        "semantic_sha256": "f807568bf604d09ba30ec5f53901dbc363a71af985545645040a21301df49fe0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LanZou_domain_06cf37e6fe291904.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "80617b4634d2c0a6910fbb6b7be1c2ca2be4847ffc909a49cb7f317088f81f42",
+        "bytes_sha256": "bdf178c5af5952b9b3e2c53bdf5a40deb6ab3ea4b91795668e57211473876192",
+        "semantic_sha256": "ffc9723c4eb4d443a258bd51782aa19e954ad4ba0bae25ed28d97862d0abd5b3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

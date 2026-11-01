@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-30T01:44:41.657007+00:00",
+  "client": "Egern",
+  "rule": "AdvertisingLite",
+  "rule_updated_at": "2026-10-30T01:40:33.844531+00:00",
+  "type_counts": {
+    "domain_wildcard_set": 15,
+    "url_regex_set": 5,
+    "domain_set": 26892,
+    "ip_cidr6_set": 4,
+    "domain_suffix_set": 158888,
+    "domain_keyword_set": 164,
+    "ip_cidr_set": 230
+  },
+  "total_line_count": 186198,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdvertisingLite_rules_5f80ad77bcd0c1b5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a86138c2ef442f9ffcb713e5639b1e22d70582cb284daf4497c45de6add94a2",
+        "bytes_sha256": "9b25bc1187b4ca6044e22aad9232ff4c6aa1c43ea8c1f75982a0c562f9573871",
+        "semantic_sha256": "c5858c912de29b1d02442aeb3594d7f197ae28ce9cb20ef7c0e81f5bbb8091fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "module",
+      "url": "data/_shared/artifacts/AdvertisingLite_mitm_cbd720f3f287f4ca.module",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bb23ece8f807995cb8ef23e364d87ac68fb28181b9cd69c4bb1ae4ecaeb30483",
+        "bytes_sha256": "faf76f014a05cbd2b8f7975fb42f4e3d0d58755041db2ae7aebfe9c78712822b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+    "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list",
+    "https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

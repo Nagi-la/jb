@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:14:22.191552+00:00",
+  "client": "Mihomo",
+  "rule": "Buypass",
+  "rule_updated_at": "2026-07-26T06:48:16.421381+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Buypass_classical_6b4b59198334c5c4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a59024cd50ec4d7b17d126304d9cee3eba4905b33d677329b1c525d41689125",
+        "bytes_sha256": "b444159a6563c05c276de59e425a8f361ede1e1632c9574a759972c554482ea0",
+        "semantic_sha256": "5534dab754596b8d4d99cc79edbdd7a64554ed64f83cef8cbc3b80048ba35a83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Buypass_domain_057a378c32a9a240.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2399b44f531483d0ec668a5dd471f51a3779d230ee52aeb6e07b6b58a6d8172f",
+        "bytes_sha256": "4112613e9a6e9c7a3fbe0d15b92bd59bb30ca83dedd1040daa8d8610b2f57e12",
+        "semantic_sha256": "71d3441d7fded2fa9f82f19dabaaf46482f866f86d8a5539fbfc61b69331111f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Buypass_domain-mrs_092557c33524fa60.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e6781b321e4fd3895066fc04b1097d1fbf8f0d1b286e6b614c53e19724111997",
+        "bytes_sha256": "7ee098c16f36d5ec8db89a21b531b4febd0cc67d3fb2d7b467340103949967b5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Buypass.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Buypass.list"
+  ]
+}

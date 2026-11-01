@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:00:17.539234+00:00",
+  "client": "Mihomo",
+  "rule": "Purikonejp",
+  "rule_updated_at": "2026-07-26T06:32:09.970839+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Purikonejp_classical_c95856be212773ed.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6aef450334465e966a53f7927c4bc7a66483bc34307f0fe43ae8ecb64ee74f0d",
+        "bytes_sha256": "96bf61c94be4cf16dd2c0c2bd67fcac47bca783cedb42b2193a8d83e289b9a2a",
+        "semantic_sha256": "cdf789b477553889e2ae49df816415c1cef5f04ea65fcebc3a275a006b5a26b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Purikonejp_domain_f2509aefd25aecfd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "420c98f9c081c916285f2a78695b9866213dac206e6b404c98d45324e05f53a0",
+        "bytes_sha256": "ac3104537b01f0e11526f0ba72d4b3afda12cddcbf69402975bbc96db1b7030e",
+        "semantic_sha256": "99983bfd31c732963b59296b1fdb05809b88effe530f237d7b821825e26c3ba1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Purikonejp_domain-mrs_6b588787002b7cdc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "67ff83eeb07193ef6f0432ac5a5dcfcc55a856176994bb88a3103740483b212a",
+        "bytes_sha256": "4e8bd0e4310f58aed769474870896762ad566aaaef708382ba0978e0450a6066",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Purikonejp.list"
+  ]
+}

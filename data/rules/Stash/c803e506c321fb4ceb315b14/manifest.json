@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:57:17.339143+00:00",
+  "client": "Stash",
+  "rule": "Beats",
+  "rule_updated_at": "2026-07-26T07:03:34.043614+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 716,
+    "DOMAIN": 1
+  },
+  "total_line_count": 717,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Beats_classical_6cdd09a6cb8f79b2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "312dd576d5bbcdc79d0d91233f8d3f442a40607e3103df9eb5406f1a614083ce",
+        "bytes_sha256": "f756e18b882d0c381791afe98e7b44c91f5ca3010439d8e5be7fd4b44dddc7cd",
+        "semantic_sha256": "6b3117fef47b2f169ce8aa2002884bef02c63ff569b9eaf71f59efe55b845831",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Beats_domain_bd61d5c32981283c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "711bf4e4c9f4a5d7fa0cbaa727afb2fc409c78b6932f78cbf666f0089640ed0a",
+        "bytes_sha256": "9267b58fc0c918a5229ba468df6fc55935b4d0118e8839e0d3fa9cd30f838187",
+        "semantic_sha256": "84f0bfac16da3fe049b57e1df401b2939a390495ede2401ce22605443bcf9653",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/Beats.list"
+  ]
+}

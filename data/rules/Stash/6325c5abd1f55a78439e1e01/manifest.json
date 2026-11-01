@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-10-29T03:02:08.467923+00:00",
+  "client": "Stash",
+  "rule": "Developer",
+  "rule_updated_at": "2026-10-29T02:37:34.307204+00:00",
+  "type_counts": {
+    "DOMAIN": 91,
+    "DOMAIN-REGEX": 1,
+    "DOMAIN-SUFFIX": 630
+  },
+  "total_line_count": 722,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Developer_classical_89e013d53da9bcd3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b3d8fdc893b5a112171c527bc61496a091e16a061e17b6a0bc0b4bf55ec0173",
+        "bytes_sha256": "2676b9a73ec667b06fd4a7a51ca103d0d1c9733dc3f9767774f4afd3c3e7f964",
+        "semantic_sha256": "f688524ae743c8e37ebd1f8a261dbf4d7ef280f9221466ef8f04c4302fd5d155",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Developer_domain_2124913ae2586d69.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd458bc6d81ce036f3584fa46b414298a9b04742b1d8be5b3f8a1e3882b6de50",
+        "bytes_sha256": "559bdc3fb8d14e41408132b0fd382c5db3614cd904e9c8bae9e8f33e32fbbb44",
+        "semantic_sha256": "c3b964459b3a557052cbcb4c14a5d400716a3d27011f131155f9f26d83b3a78b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Developer_classical-rest_193a1f6b2b6b06a3.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e440165be22723306fd6d9ea4b91c7099e90c40ce9275d392487bb655c2035bc",
+        "bytes_sha256": "c32e051b307cab52d8e95ff9964c148c7fe138550d815d3bd30a0aba4fbe3952",
+        "semantic_sha256": "2d19c8f20d188a5d5f2a923d101c88b891a138a848bf732031567ebbb1932587",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Developer.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Developer.list"
+  ]
+}

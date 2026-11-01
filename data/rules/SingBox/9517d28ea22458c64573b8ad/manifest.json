@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:53.680921+00:00",
+  "client": "SingBox",
+  "rule": "ABC",
+  "rule_updated_at": "2026-08-07T02:23:27.210964+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ABC_source_f5a433a4ac5845ff.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e0878fd57645f9d17bf702647d4390e951d79e05e203d7abe4a71dab57d7c2cd",
+        "bytes_sha256": "367e2e962b40e56d8cfe4251a8c912c6dbc940c709ce5cfa6027d59ecc5f283c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ABC_source-srs_ff5a923f4cf66da7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8023e40e70abb55c6c735c6b95ba8d65e95ddee3bff9a27d7fe79b98b0310deb",
+        "bytes_sha256": "50c61ed0ab0590df9bbbecc1262cb02d51294ef5e64a148572af8afcc38069f5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ABC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ABC.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:34.077767+00:00",
+  "client": "Loon",
+  "rule": "JetBrainsAI",
+  "rule_updated_at": "2026-07-26T08:33:30.211407+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JetBrainsAI_rules_52c2f34a47380a74.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "10c0d477a802db9fb0a991dbf01ae7f9b7f77f92ba9841e341942a61c3a3c04b",
+        "bytes_sha256": "ecaf9f248b6b8f2eee5d7fa95afcabc8664cf3eb04c62bd7e2c5c4210fac9202",
+        "semantic_sha256": "b5a6696a4c0aaab17af2dfebcd2b70485162c7f5600611be20483ce1e86b258a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JetBrainsAI_domain-set_a1638171af8238bd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef2c2b2b4c370e46ec5f1a767d171f4254ff802989e34497d414700636261b30",
+        "bytes_sha256": "8701717f009c85ed5139c617c196e1218436973ecd9b9f5315cd433c834da114",
+        "semantic_sha256": "07cb00dbe004a9fca548e1571228a2ebef5860d01dcc6d5919061166f579fea9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

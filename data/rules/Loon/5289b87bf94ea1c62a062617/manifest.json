@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T01:56:36.140141+00:00",
+  "client": "Loon",
+  "rule": "Privacy",
+  "rule_updated_at": "2026-08-07T02:23:29.773670+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 39863,
+    "DOMAIN-KEYWORD": 2,
+    "IP-CIDR": 9,
+    "DOMAIN": 11
+  },
+  "total_line_count": 39885,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Privacy_rules_d4203291780c2be4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "02be8439012a86a4feb9bb9223ccf58ae7b1c85ba809171f7c161b3ad0b2a23f",
+        "bytes_sha256": "30e4125f995e35033451e7a7ec3705fd2fb1d74436aa1fb4d910b9169a98ab1b",
+        "semantic_sha256": "d985e3a5c337042c25d7ebbd88eb3a8320c0b6556957d842a818959fcbb3ea06",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Privacy_domain-set_5202003127749bef.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "afe05eb71f49c1af252de9435bb12f9522e25beb91ba9c0cc153ce74a44a4c8e",
+        "bytes_sha256": "ed61ae9c36f1ae8dc64a852bb99b09907b585ccf88a6440d94190f4fa8229c6e",
+        "semantic_sha256": "2be24e8f045973799b00039df18650b754eb9eb4b1679df87ff0c22088c7d9ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Privacy_rule-set_ae3fad2dacd8f3d5.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65ca0fd845a92f29cac0ac9bd827e850b4b456dc312e9e6305d7c36a86ee2b96",
+        "bytes_sha256": "b7ca5b1af13fcb2319d19a5b109bcc9ac6532066b4e36982a377c79e67c9e68e",
+        "semantic_sha256": "bb1be0cbc6ab7cdf5c17e3bf5fed592dc0b0f035243638ff1199b4932a8224c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf"
+  ]
+}

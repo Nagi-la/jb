@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:57.164485+00:00",
+  "client": "QuantumultX",
+  "rule": "Zendesk",
+  "rule_updated_at": "2026-07-26T06:56:28.930532+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zendesk_rules_2aaf602c894e9115.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "26cc4a2a13751a6942bbfa83a2d1764f697ccbfe0ffcd228b89f63c155e182d0",
+        "bytes_sha256": "d3abdbfd70b1e21954b5770fd29f9809a798899b3340b98e1770a589ec1bc77b",
+        "semantic_sha256": "248f714b16a63981794d83cfc1741a4d7f86e7921dd511c33127f83b4d9e89b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zendesk.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zendesk.list"
+  ]
+}

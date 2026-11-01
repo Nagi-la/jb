@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:02:34.944159+00:00",
+  "client": "Egern",
+  "rule": "Duckduckgo",
+  "rule_updated_at": "2026-07-26T06:50:28.304367+00:00",
+  "type_counts": {
+    "domain_suffix_set": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Duckduckgo_rules_c1a4c5b476461cea.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0e322707bab0b010d8f6fb83c82e69e932c347463b7cdb9748c7836bc5960444",
+        "bytes_sha256": "e8d02e075e569a18eb9bd824395562a707980e8cdbde29f216d2eeed5e31ff0d",
+        "semantic_sha256": "8f35360577b2c35e81a280c3299d0bcc00134e98007a02c5d24c70f415fb4e7c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Duckduckgo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Duckduckgo.list"
+  ]
+}

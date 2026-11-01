@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:18.177825+00:00",
+  "client": "Surge",
+  "rule": "Taomee",
+  "rule_updated_at": "2026-07-26T08:34:39.616205+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Taomee_rules_46a86aa71aecd7df.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e593da6819d94e143eec0c71ed6c72f1d4edfa08a864347ba0e128b84889e469",
+        "bytes_sha256": "787a85a56cfdadb12ac6297ef6aca6e0fbac487ed9a057320b4324ae658db6fe",
+        "semantic_sha256": "d72791cb99d365ef4d35d125384140b35717637bc2117cc8b8acf9f694a6cd0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Taomee_domain-set_1dc91ca76b558e71.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "60f392a9b22e331f8b56b2f22c7c6fbed8cf8187120d6f576160bf55f52ca60e",
+        "bytes_sha256": "673aee40925f63a729c807d21b9870268c820f5da804812d4dd56fa4c7b39cad",
+        "semantic_sha256": "38d9261018c46836022426108cab284bb202b1b156221ab25cac21f55770f9bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

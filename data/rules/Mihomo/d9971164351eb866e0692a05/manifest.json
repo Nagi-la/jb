@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:59:38.492394+00:00",
+  "client": "Mihomo",
+  "rule": "DiSiFanShi",
+  "rule_updated_at": "2026-07-26T06:24:31.881932+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiSiFanShi_classical_54ab26a7688c5147.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7568300268fbfc587e98b31dd99d4a215c9dae40877327f7ebe9291029be9580",
+        "bytes_sha256": "87b002ec040b581cd472f2bbbd93f2ac3663ff2dbb2e51bf4e092a9d85739f4b",
+        "semantic_sha256": "664559b2705e03efe1cf0be25a3932b20f72f8e2e315921a2167c5ec511da85b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiSiFanShi_domain_8abdfbe02c7b607d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ae40574e1987f69e08d682e9b1ef17e07f9aacb7f7fe7dee0f661d52525cca07",
+        "bytes_sha256": "0c04084bc197399e6293d8f61eef98209a2eb6666daebbaf697bc7c53b6c1d64",
+        "semantic_sha256": "77bdf94a7887996e2461efbf6c8abf46a5e826896cba34a30d2b32c52ebd773c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DiSiFanShi_domain-mrs_9bdb8b679a53cbdb.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5d04664bd61a58e88c6d648380b6ab1b7246b26809de830a49641bb3907ee832",
+        "bytes_sha256": "a3fde9480b36f011265f5a8eeb409d41161c5e7bca26b66acdfb41119e330232",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiSiFanShi.list"
+  ]
+}

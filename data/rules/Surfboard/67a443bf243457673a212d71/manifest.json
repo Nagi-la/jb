@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:58:14.942108+00:00",
+  "client": "Surfboard",
+  "rule": "Samsung",
+  "rule_updated_at": "2026-07-26T06:54:14.838554+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 28
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Samsung_rules_aee6da9ed88289bf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39ee208a315a597ca880a4f4465603aafb6b774ee917acc6b74424fd2450e60a",
+        "bytes_sha256": "7eb709ce0c9db00cce42b26840793f1e01ba3f4b13b352c5d1a6e4c8c2f81400",
+        "semantic_sha256": "f196670fd12e8077ea3625b39857a6abf158e4b91e0aeb5de63144af5c64d3de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Samsung_domain-set_872719c581c408ed.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "90ee1bca7413d45ccb672a4d74eb7f5e7bde16d074ee5d59aaa1eec7ed3e9546",
+        "bytes_sha256": "de5631394ea0fbaeac5cb09d34f4786dc3e5c653bd1b369f3c636bd2904baec4",
+        "semantic_sha256": "ab0544f326943b69a7fc1e18cc6fec30bc1f7ca619ddca6ca9c9b95986e12727",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Samsung.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Samsung.list"
+  ]
+}

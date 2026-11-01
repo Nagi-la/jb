@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:58:21.791422+00:00",
+  "client": "Stash",
+  "rule": "Douyu",
+  "rule_updated_at": "2026-07-26T06:45:45.117150+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Douyu_classical_fe11ef40778979f2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "159b9567f1e3db7d1992b48ae623f3441f2ae4bb33fb33f246e09cd19498aba5",
+        "bytes_sha256": "de18cd357b815e8a0d5a2e43271dfdb47bd6e2290fa6165e47e8dd0f5e086ab3",
+        "semantic_sha256": "d4b6c298c568809d1bdde45ce73753b8ed4b8ee5178578a8da2ffa2903074bdf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Douyu_domain_82b3912ecde9f314.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d1671f4ec422c4301a0832d8940bc3a5bb9d989ba69d12d99c887583e2f96ba",
+        "bytes_sha256": "02efe5d4e9066cf847130f21bab9b0c960c425baf3877eb538665171763f3772",
+        "semantic_sha256": "358ab0cab07e8089454752a66791fb099ae6636402fa5776b1aa3afc7df58dd2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list"
+  ]
+}

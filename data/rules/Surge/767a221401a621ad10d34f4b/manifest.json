@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:25.872659+00:00",
+  "client": "Surge",
+  "rule": "Fastly",
+  "rule_updated_at": "2026-07-26T08:21:15.654239+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Fastly_rules_f3ba66d725b85a39.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b1a17b16881f18ab8b598e1c7be02704b0730dda53433d020825e1ff39f7a05",
+        "bytes_sha256": "7d82e1f2ff776368634d4425085880b114b788b4aef14af6326c9b4a0e12fa4d",
+        "semantic_sha256": "f14b8aa03871fa5a29e3badc8680e2dd21fc6fe987883ddac1a3f1cddf8ededc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Fastly_domain-set_593ff60bd9a3890a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1daad8f3650d13a41105b5c7e036ebd58f33b5ffc616f05e60de99f2faf44318",
+        "bytes_sha256": "84a91bbfba59c112d614f439316927c129d9ba779278f59eeb0e92312e0ce697",
+        "semantic_sha256": "4cc40554cd011b204b237ee67cb7ab8cd91324a7feec23599c7b854a2ee81d2f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

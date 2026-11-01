@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:12:15.036851+00:00",
+  "client": "Egern",
+  "rule": "Huawei",
+  "rule_updated_at": "2026-07-26T06:43:25.931170+00:00",
+  "type_counts": {
+    "domain_suffix_set": 402
+  },
+  "total_line_count": 402,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Huawei_rules_1f96ee24e517d4e8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9237d1fc1bb82a8453dc6111946c42798a10cd88c2d4fd48f1214b5588db312",
+        "bytes_sha256": "d5035ec1eac02a795cb6651117dd295fec4ecafcb73613ad842fb0ea0b30df9a",
+        "semantic_sha256": "8f1056a01c8f90ad6cbfdb232c31be0527844284058df7fe7173e98adc8c55c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuaWei.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaWei.list"
+  ]
+}

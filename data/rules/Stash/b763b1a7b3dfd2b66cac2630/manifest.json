@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:56.355951+00:00",
+  "client": "Stash",
+  "rule": "YYeTs",
+  "rule_updated_at": "2026-07-26T06:29:43.490699+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YYeTs_classical_061b96904b4089a2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21f823d25c0fcd42543e3d5e9ffbd71f3736f1f3e33f4a630b704801d337c778",
+        "bytes_sha256": "bdb380f22c5ab51fbe29e00850052bef36ed2884edcface9aafceccda66a5d99",
+        "semantic_sha256": "0856781c8aaddcd271655c1b0df593081352582db35122405bf10296a2c0369d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YYeTs_domain_11bdc56778e55cd7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f1f4f74245885d32343d8fa90525065a6fdba38c894a3529cf99e35d87efb9c",
+        "bytes_sha256": "d7dcb54da22ddb5f1fd7e2f43e11d2ee018a85edabd3e778baa9eaed3c9f1ac3",
+        "semantic_sha256": "7f775dca7e9fa2cfd4621a9efc1bcdf3c7c1baf053c2bd2f6f1e75546c3ba951",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YYeTs.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YYeTs.list"
+  ]
+}

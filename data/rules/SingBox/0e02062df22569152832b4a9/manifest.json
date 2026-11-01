@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:15.208708+00:00",
+  "client": "SingBox",
+  "rule": "AmazonCloud",
+  "rule_updated_at": "2026-07-26T07:13:18.778752+00:00",
+  "type_counts": {
+    "ip_cidr": 5157
+  },
+  "total_line_count": 5157,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AmazonCloud_source_0925e0e1e8a292b5.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a5aa983ac0a34cbc1732ea38d70b18359a1d6e62ba3dcf812d983b0f3cb7aa67",
+        "bytes_sha256": "580da5ade5a5cdfff140251d4e3795b0befaca8c5762e12168926a3c2f29e5b1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AmazonCloud_source-srs_c1c861bdf9c35cc7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "19fd8607d9c4b2a1e63bdf4442b2143f332126c9bc7667b670fd842759099675",
+        "bytes_sha256": "1848ce5591951b71299734f919d9c3bd4cf94d922b0c9577faec22dbbd0ab8b8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Amazon.list"
+  ]
+}

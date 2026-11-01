@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:44.479583+00:00",
+  "client": "SingBox",
+  "rule": "FeiZhu",
+  "rule_updated_at": "2026-07-26T06:24:59.198477+00:00",
+  "type_counts": {
+    "domain_suffix": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/FeiZhu_source_8ff199453ff7f238.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "22f022e5979ee3410aef07b7c471b97aeaa7a620cc02ee46ce272d8cb21d8a7f",
+        "bytes_sha256": "e1c4754b82e969f1100f0f7bc179709123daf070580eb7de898a0badec4df109",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/FeiZhu_source-srs_6cc6d6cfc6b6f771.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "df21c00e7df1fc9a0fc9de9091b6a570be476e28e03df01c1ef53bfec14a700c",
+        "bytes_sha256": "4418ac6732aa81d896111b5f040825c73ba9d9e2aa3f7dc90fb47b55b608819d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FeiZhu.list"
+  ]
+}

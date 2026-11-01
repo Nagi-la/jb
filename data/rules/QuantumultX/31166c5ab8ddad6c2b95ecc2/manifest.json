@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:57:24.022803+00:00",
+  "client": "QuantumultX",
+  "rule": "DingTalk",
+  "rule_updated_at": "2026-07-26T06:24:33.623727+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DingTalk_rules_4c5199f69a027b18.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "031f669bc5ad191f7218eb07280c892f0e8af59a8af81439f2bb8479f230f4d6",
+        "bytes_sha256": "1d9ef199270dbb440e6a9e50d173c09ce53efe4fa859f5fd90676a99400f1a16",
+        "semantic_sha256": "68e5fdb938bca4bd16ea197973a33566cf3d9cc5a1162eeca901303733337808",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingTalk.list"
+  ]
+}

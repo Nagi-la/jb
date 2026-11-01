@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:56.576171+00:00",
+  "client": "Surge",
+  "rule": "BMW",
+  "rule_updated_at": "2026-07-26T06:31:10.215838+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 730
+  },
+  "total_line_count": 730,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BMW_rules_23d3787f6af01872.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6fca6b674b1a5e20759f723b06bc2c4ddf5a59c872968da0a18dbd368202a65b",
+        "bytes_sha256": "958c1fcb85d700a7bb32106c76104de2797926e523a71f4622d28ea99b880365",
+        "semantic_sha256": "487b041558eda53a4b2f7eaa2c3543f31f091a3a242f473c45b50f30b6953c74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BMW_domain-set_4a66b8314520e4b0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ecbb46c11927ebd66696674e1ba90f23eed162912638a01c6de1cd06980c7edb",
+        "bytes_sha256": "600e9d7e2e2d3ac6cac00b2d13cb009ab0e173e93488e27080172e243f3e603d",
+        "semantic_sha256": "2f9a8e0e98fe1bd792f174af09e51437441756817619ab924be14b151c3c21a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BMW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BMW.list"
+  ]
+}

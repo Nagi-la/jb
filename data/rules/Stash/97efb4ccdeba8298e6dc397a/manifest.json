@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:40.638631+00:00",
+  "client": "Stash",
+  "rule": "DaMai",
+  "rule_updated_at": "2026-07-26T06:24:11.872814+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DaMai_classical_e1c1e8d9b99fb422.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "374d6d6a8d96c9bfda193382e521da0d83f43eb99b1bad5daac5d75e6e0d78f0",
+        "bytes_sha256": "2a084cf3b0773654340a2ed77149b90bd2cfac1a8369e2fa508176fc607bed56",
+        "semantic_sha256": "d5f103c82059ca8fa98c978d31bb9e950e149a64e63a0b094def8a9847656f5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DaMai_domain_e8d28087188fee5b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2f9fb8ba489db04cb2e76851b676ccae9366d121c1cbdf897b4425c8030283d6",
+        "bytes_sha256": "e10862dd5a4c2cd991b3cfcc3355177cfe76b975b094dadff643219a60e808c8",
+        "semantic_sha256": "1db790710b6f7bf5bec52375d5073ebd65ea01a93f7629a9a45babc9c1c02b76",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DaMai.list"
+  ]
+}

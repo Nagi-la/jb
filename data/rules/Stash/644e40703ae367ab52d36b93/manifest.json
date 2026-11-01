@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:54.825840+00:00",
+  "client": "Stash",
+  "rule": "Tailscale",
+  "rule_updated_at": "2026-07-26T08:34:39.356316+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tailscale_classical_e0cd1b466d460e06.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76d9db04b7c81be0902be45a40ba2da6bd306b1f35a3649fdbd7b0e4e60ff8e5",
+        "bytes_sha256": "fb0e5e88302357af2e3036f7058699052db9f06954e188a00dbbb902a62a1369",
+        "semantic_sha256": "9c7c686ef2003b0b90fd0ae65bd62091b42ad6ad61c646377084b7c9b311a464",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tailscale_domain_ec625052464dd12f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a6b86d188eb6411d96e9af41d3612909e96e33f6f05e5e89d752746200698ce",
+        "bytes_sha256": "b8b992a831f50675e32f213c14d59bf85e7b5123acd21fbfbe987a184f913768",
+        "semantic_sha256": "adadf23e7015263c317ae5684645b6f6f260a1efc22a847e95569c5df6398292",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

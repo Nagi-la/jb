@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:32.127767+00:00",
+  "client": "SingBox",
+  "rule": "Dandanplay",
+  "rule_updated_at": "2026-07-26T06:24:17.171879+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dandanplay_source_242069fd7ee3a041.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d6b7aebc7e320154092afb850c9ca1be0d9ba802845c5c8be1c3db9cf82fdeb8",
+        "bytes_sha256": "9368174bb830f5cd96a363c1d3701580c2cfd05089eb9a759748b19f5300728b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dandanplay_source-srs_616dec5ed5783811.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "60a8fbc0f438a7265eaf5644340cd43751b02766ed0ee264c3798dcf7ac22b8b",
+        "bytes_sha256": "4cd1732b59238c51b96356c05036e2a01f12afda834fa8bbae32b33f6e4fa3f4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dandanplay.list"
+  ]
+}

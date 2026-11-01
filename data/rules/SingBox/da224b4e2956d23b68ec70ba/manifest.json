@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:29.731037+00:00",
+  "client": "SingBox",
+  "rule": "CNKI",
+  "rule_updated_at": "2026-07-26T06:23:39.999360+00:00",
+  "type_counts": {
+    "domain_suffix": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CNKI_source_ae9c5b574e583df0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "985d82b1fabecc68d4e2f22019552c829dc5c54155440afa4cf9dd68e5f1d988",
+        "bytes_sha256": "fbd3cfeb76fe0259835cd08321c24e62f1691ba8de5406c4a245c1148a95433e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CNKI_source-srs_6c70887140481ab3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bcfcc99fc430f9fade0f64cdf2dca46c26e1eee7cb423c780a0fbdd666799a6d",
+        "bytes_sha256": "e796ab122204189ea96e497cead4ba3a9f4af0c9bf70b298442be30f9876b9ce",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

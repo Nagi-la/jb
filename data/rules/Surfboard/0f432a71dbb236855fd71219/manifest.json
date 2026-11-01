@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:07:31.640143+00:00",
+  "client": "Surfboard",
+  "rule": "AsianMedia",
+  "rule_updated_at": "2026-07-26T06:21:12.272386+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 4,
+    "IP-CIDR": 6
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AsianMedia_rules_5aa46f3e85299d0e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9781c2933555bf4f18267e45962184f258d47a0bff0107c26b1765a6e11dffdf",
+        "bytes_sha256": "a97b68683bfb5e9764340cf1694150d9bcb2f744afbb8a14d8a47084ef531f68",
+        "semantic_sha256": "fb09ab715ee93eeb4c02495d0bda43f80d89e4a7bf5e5051d80ce2bd4ff35f56",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AsianMedia_domain-set_4f3a31a080a396f6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98612ea8211b6c470d623c158e176dd32c867c143d85aebfcb329b51c8084564",
+        "bytes_sha256": "05e608bd0a536f70a13d6381c0971e07db9b61934a3ff5c9c2cf3624eb9ada6d",
+        "semantic_sha256": "2bf48b4b61bcbe5d8568b23c2a4ef01204d11d832364e23768f235b874d1f8ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AsianMedia_rule-set_cbc3b79da105e5c4.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58a9b739d5e954226ca98641bbcf93d99e118b8a4fc19f41579d2b63ac03beea",
+        "bytes_sha256": "c4064cdea98ea626a38b00191cf870b96f340b0f5cd869aef35dafcb064eb4d9",
+        "semantic_sha256": "a56d44b042565075992b0aabf0afdb485f0249d0faacea4f7234d657bef4eda5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

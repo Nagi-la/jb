@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:05:07.421371+00:00",
+  "client": "SingBox",
+  "rule": "Bloomberg",
+  "rule_updated_at": "2026-07-26T06:30:56.019953+00:00",
+  "type_counts": {
+    "domain_suffix": 61
+  },
+  "total_line_count": 61,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Bloomberg_source_d43370512512d0e4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "52c1ac52b14502d933645e3e736ee1d258650bf8607ee6d9e1ba087069ffd884",
+        "bytes_sha256": "eb254f86e877c33d7cdee69412fb59f2d204a57293fe1b4f3f812ad8528c0dd5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Bloomberg_source-srs_a8fa8d962305bbe8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "677f480615f7a2c9a20806f6298eab2fa6e701cb6b0e3911d19493e6cd903eb4",
+        "bytes_sha256": "98c734c4e19b07e960f9abaca03f99c9190673d82bc9574eba198e551b8ea95b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bloomberg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bloomberg.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:04.651760+00:00",
+  "client": "Stash",
+  "rule": "GoogleEarth",
+  "rule_updated_at": "2026-07-26T07:13:48.384435+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleEarth_classical_6b852c735b9db3cf.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0143ec80ac8ec44ed81bba7bef3701cac2412be860fbf8382b44788df223f28d",
+        "bytes_sha256": "1a15865262323c4bd8401253067637244b644218b38a4d93b5d20714d3845d08",
+        "semantic_sha256": "c34940f79a8af3a531fe4b9628ad4a2c267e5ce2e66c7b0b18f7ae764f97516b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleEarth_domain_180478313cd0234c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d0b9be20351de2ad021f3bf9d23454d63afbb8af32c699b4fad6db6ce5f616f",
+        "bytes_sha256": "58c48b27d2424c3e534041d03d8d9387f887217c756495286c043ef3e5d9884d",
+        "semantic_sha256": "34e5abdcd7bae2a4de7661147886b51ee7b9c7fbf2048d9d89aded0aaf092956",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list"
+  ]
+}

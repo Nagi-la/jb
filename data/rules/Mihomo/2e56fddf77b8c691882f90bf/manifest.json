@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:05:03.249263+00:00",
+  "client": "Mihomo",
+  "rule": "HWTV",
+  "rule_updated_at": "2026-07-26T06:21:57.849274+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HWTV_classical_011f7305b95facc8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a6c4b81549b60e8d164997aac12dd35277e8774fbffb8094d0b9f9862f58c5d",
+        "bytes_sha256": "a2d1222a456a7b1651788b873acd57c66ada4f7d835f38b365301e23150d233e",
+        "semantic_sha256": "d702f7737e633dc0240af48457a3acbd820a0459ed803d373711e8b18aa39e30",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HWTV_domain_0a12a08065c7e498.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18a21bec235314f6abb49902ce785af396e9f3aea5f096fc1dcdf66d89c7cbbf",
+        "bytes_sha256": "1b9de5f612969bfe4956ff89e1ca177307e1b9020b64041f6b229e91af1c7af1",
+        "semantic_sha256": "46708e959188a812242f2f2bf141ac3123d7e853dc6a22fc9107f5d17c1955bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HWTV_domain-mrs_303bd97011dd2bcc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "de6bb571edc57d46da2b89cbf7eef62a0b78b68dfd062b86adcdb36a7cfc9fe4",
+        "bytes_sha256": "d43228f5205fb75fae8b500adc2fe9da7aa368a36f2367f73e4f669784e8cd2d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HWTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HWTV.list"
+  ]
+}

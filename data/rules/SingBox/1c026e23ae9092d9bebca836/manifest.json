@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:47.992008+00:00",
+  "client": "SingBox",
+  "rule": "ApiFox",
+  "rule_updated_at": "2026-07-26T08:30:38.124276+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ApiFox_source_28db1acf7e45e9db.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bc7fd630286d1b58ed3edf311e55f8c8232dea39261a407a80fad21f9c788b0d",
+        "bytes_sha256": "1dcbd52c23bd7f868d57ca4bc4023aa78629fa2b6f7734b1620f497d29234abb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ApiFox_source-srs_230c43e67205136c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ba920f6f302e71d355d528f1ff5306e946e9e4a6110bd1487d4f402a2172241f",
+        "bytes_sha256": "78f0ccb6f4be7bfcdcda7e168074b07283b1ff5e27e6fb3a32effa3f545c7eb4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

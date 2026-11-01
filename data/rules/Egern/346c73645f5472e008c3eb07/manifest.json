@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:02:16.870327+00:00",
+  "client": "Egern",
+  "rule": "DNSPod",
+  "rule_updated_at": "2026-07-26T08:32:37.345115+00:00",
+  "type_counts": {
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DNSPod_rules_d0706cd7da61e554.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "86e53e5a3094be23091aa76d893e079881cd9926e456d4e1f7e79a7a90bac37c",
+        "bytes_sha256": "b736341407412374bdd686e829e157dd3438750822f4b8aeda12422c8eaaad43",
+        "semantic_sha256": "a82ff99b8803647d52a2209af6df03d7c0528b68adedfb887581899a1e55d1f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

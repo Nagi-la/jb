@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:10:39.428587+00:00",
+  "client": "SingBox",
+  "rule": "TVB",
+  "rule_updated_at": "2026-08-07T02:23:10.439378+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 18
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TVB_source_8feefea2f81b3f6c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "97849ceb53003fb666af2b32270683a2642449fcb4240ac9f81a5aaaff0e3924",
+        "bytes_sha256": "4384f6cd5ee79cb059b20c6aa0b42206037e9584e75fd6bf3b0df4e86b25337d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TVB_source-srs_8c1ed811e35d1961.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8fa3932ed162e99e7ed5f50f70baac70164b292b452a8d659b9b1824dffc1038",
+        "bytes_sha256": "e128cf182fac1ff51e7c317c84b827d94334de33ad7ce2484a686210ec256c50",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVB.list"
+  ]
+}

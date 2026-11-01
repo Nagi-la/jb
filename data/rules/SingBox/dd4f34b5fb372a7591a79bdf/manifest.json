@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:13:03.489991+00:00",
+  "client": "SingBox",
+  "rule": "GitLab",
+  "rule_updated_at": "2026-07-26T06:29:22.336733+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GitLab_source_676e1ab432bd5fb2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "55a5cb1b93ad5d7b3515ddd11e91acf5113d32aed97bb0ada7a22a16a9a4ad5e",
+        "bytes_sha256": "1d6a84ab6a3013e09e31e4abfb5556e4d3a0d3a8ee93ca459ab5c28c7b23ae6f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GitLab_source-srs_1092037f44305d2e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "31cdb830c0cf0e7f6d994010ca2ccecc4c57c062259ff57d45b4a77abbd9b733",
+        "bytes_sha256": "ce0e08f5b59a0c12fad56cbd30c09bdef0b9322d363a18692345c25fb19ef6e6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gitlab.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitlab.list"
+  ]
+}

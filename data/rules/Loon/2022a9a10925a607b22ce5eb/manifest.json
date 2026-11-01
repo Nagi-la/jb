@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:37.191761+00:00",
+  "client": "Loon",
+  "rule": "Vercel",
+  "rule_updated_at": "2026-07-26T06:55:30.540235+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vercel_rules_8724a7c47213bc82.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c32020eb051c5e6f1fa33816a9604d4b14a75648bcde3683f037f1a22a490eab",
+        "bytes_sha256": "afe2d2c55947ca2d636bf08fa34d2ee123b9364f5d8521850148ef7e5f599fc0",
+        "semantic_sha256": "2d5212052a45230a10f28625d476f9da6b9842f6907fee6a25f302e5436f4a77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vercel_domain-set_36fab8ef35b3b23e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b98b2280d90db1b371e527782b44ba8bab9a4de5448c0f000365aa7f455366f",
+        "bytes_sha256": "c17d98fc2a7944415a77d226a15e33bc1b752fe6567b31d64996eaa5a3f10e12",
+        "semantic_sha256": "a1f36c21955d7a7c337285afb437c0effeee46baa9445a7fefc7195f4ce0d751",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Vercel.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Vercel.list"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-08-27T02:19:33.418129+00:00",
+  "client": "Mihomo",
+  "rule": "Youku",
+  "rule_updated_at": "2026-08-01T04:38:23.149129+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 58,
+    "IP-CIDR": 1,
+    "DOMAIN": 1
+  },
+  "total_line_count": 60,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_classical_c0d246121f504f1a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3bb476c20949ca34c14b9cfb4729a3e5b3b9ca6679bc43946e11e9c902dd0915",
+        "bytes_sha256": "531596f6626e129f442c2f7e0642c85fed0dca5adee2c3c9d3c06d9306e00a40",
+        "semantic_sha256": "13767b78240a49986a2463e51edcd48d14c6cd5ed889334e2c57730a33c57ee7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_domain_2eda4bed57aa8549.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b22e0fab7ca7e3b9b5eac110e60293ba33c6dff33d2e085a2bb5b97e64e22651",
+        "bytes_sha256": "e369013bbf5f7d87a97ba6e7e4c7fb97ebf2c12e0a5b55ea03e80252822ca80a",
+        "semantic_sha256": "27d67e19f1e52db5860bc9f69b76c492701e0824b8be182e95b440592eef8015",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Youku_domain-mrs_c789a1f7c1266dea.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f44740432ddca210c73a445db0010359f186adc33789e17b63a101c21931333b",
+        "bytes_sha256": "a98b524f39fdd22c4c44ab7e238c75d57cdcd2ee35d17f7efb50b6258cf7de05",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_ipcidr_658ec46e30ae4a7b.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d17a98d1cd13057c23e6c57e38ca4cdc5d0e6c64c90c65d5954d6f0faa14c80",
+        "bytes_sha256": "fe1a412c0cd47e443a45aefba705da3a88cc40804101d671711fc24f1c638460",
+        "semantic_sha256": "b0635e1483bdf6d81f30edde2280b96a3e8a608e1865073fefdb3d6f1d853c11",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Youku_ipcidr-mrs_95f14f522e19e035.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "980ef4db5fd7df4a4a89a602a28092108b6cb5099a0b51adbf050e7d9752b9b3",
+        "bytes_sha256": "692a77ccbe9282d413a0fc2b26a7500284a1fa020c7fe40afc484e9bf4b61513",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Youku%26Tudou.list"
+  ]
+}

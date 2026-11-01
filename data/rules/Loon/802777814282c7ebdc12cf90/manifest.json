@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:01.311708+00:00",
+  "client": "Loon",
+  "rule": "BianFeng",
+  "rule_updated_at": "2026-07-26T06:47:48.424542+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 100
+  },
+  "total_line_count": 100,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BianFeng_rules_687ffda7bb64823b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f7f2eb38a1a685f11d0613e65df6ac8c324a95ce1ae58180e4bfd80e4cbdb5c",
+        "bytes_sha256": "7aad6db4abf3bfff50bfd39195dbbcf72c3ceb3db894ce3803cb588d7153d634",
+        "semantic_sha256": "08ff2e8b8863164d41cb70a2b8fbc5025290e21466b90337bd9292f0bc9f6549",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BianFeng_domain-set_0bf7b41a8c2cfc96.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a18f867cb5f2a08207e1f81c3451e6d2049946c9e4a0f4027526844150212d0",
+        "bytes_sha256": "260a7928e66fd8f2d526c3b54a3b1c1152226fd07c38071c9b1e50bab5b43bf3",
+        "semantic_sha256": "c1ef0eb80eb5f0082ca95433fe4e9abfed52509672c5286d0be6a19c3e7289cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BianFeng.list"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:12:13.104398+00:00",
+  "client": "Surge",
+  "rule": "JOOX",
+  "rule_updated_at": "2026-07-26T06:22:10.966624+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1,
+    "DOMAIN-KEYWORD": 1,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JOOX_rules_4acf20910dc8a934.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ebbbb4f652f782c3a22b9d3d4a45fbf6e5d5ba659cc316fd6a25a08354b8576e",
+        "bytes_sha256": "facfc43d1488b0f85985886944546b5d2725894529e92f02664c2d72963d61d1",
+        "semantic_sha256": "89ca561a9b808f2a3fd75dcf7dd73b2d88b7e436d46fdb0944c506d1d471d811",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JOOX_domain-set_9a08e3d293111244.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dba5f5f929adfd53071bfa80a1732c1e6da05ed29509d69dd7a63d364d7fa1ef",
+        "bytes_sha256": "14c3009844713ecb085b7ce711920c1282da8fb4ba0241962cabdc0289a96789",
+        "semantic_sha256": "b9fa6c60670787b1db80171c73f7ba67c23b7ea07ee01ff3adb5e5e9b69effa5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JOOX_rule-set_f89c883ad64ce6e2.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee4947c8e2582f2c2e5f38b76ebeb08a1999eb58959b83b417c3305b082a91c9",
+        "bytes_sha256": "02a9d96f1a5ad210a70215e98e02dd3805b4777b0e1b2cfa98438a91b8d79cfc",
+        "semantic_sha256": "c50a743bab78f961187afa72c37519151dd3977468e5ef5f310c1a1e0f1e78ce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JOOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/JOOX.list"
+  ]
+}

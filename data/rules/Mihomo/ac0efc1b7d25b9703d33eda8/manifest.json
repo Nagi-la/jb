@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:08.467177+00:00",
+  "client": "Mihomo",
+  "rule": "NGAA",
+  "rule_updated_at": "2026-07-26T06:27:28.089359+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 29
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NGAA_classical_728a7f04e6031493.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11ee57aa0c7e7353249616fdba939deb4239a57f5faef434ed98e512c4c8fe9d",
+        "bytes_sha256": "3e2901b0f791d6c5c7bac4786f7633ef5962a2a4297e328135a90cb29145cbc0",
+        "semantic_sha256": "e02b7de5e68f355d3bf268b27cea43752bdff02f2947c9d0edb79a1c7288e71a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NGAA_domain_2acb15f2b489ab64.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c01b705e045b1f26d67833155bb6c9d8f3c881e92a7f5af551de76f750e4910d",
+        "bytes_sha256": "7fb7a29734423d65540a8f901ea783cd242d7a065db94f01d07d06c1c8ebfd10",
+        "semantic_sha256": "f1366ceb9d4717ce1bf4b5fde96fd6c32a0af015be39cde1e578b8b61d35bc27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NGAA_domain-mrs_4905d7e1c4161825.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "775f585687faf518259336bd32720f8b2cdf15e4721bd5fc0b12267b655930d8",
+        "bytes_sha256": "d81e4f2ff13186e2eaea4f0f2936c8d2a2fae7950acbf0ec85125bad299da477",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NGAA.list"
+  ]
+}

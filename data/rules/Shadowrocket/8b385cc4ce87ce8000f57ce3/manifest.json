@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:05.416549+00:00",
+  "client": "Shadowrocket",
+  "rule": "VoIP",
+  "rule_updated_at": "2026-07-26T08:27:40.399197+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VoIP_rules_6872b577883e2172.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3587cb9707999258d79bc415e7e9dbe88324b4280bea5bf4e12f8c00d66c342",
+        "bytes_sha256": "0faa366ae80d728d80089174bc9cb882f884b23f89b767747749046bbd0f73c5",
+        "semantic_sha256": "df84ff09dfecf6f74d926d9962eb53d818fc80b5bfd947d5cc5f8e564870d251",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VoIP_domain-set_8b1b0671eddd820e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0bb168b052fb97c676dfe7a62783acc51adb43567e4c507140e616569a008b4a",
+        "bytes_sha256": "ba3b95b2ae1c1bc0ae7a1d4cd7e20216ff05b7a10df71c96fcedeb985ccac789",
+        "semantic_sha256": "6c2e3c00219e62db1138fafc8a467902dea4360162dbb15c9f17b42ac3a1a31f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

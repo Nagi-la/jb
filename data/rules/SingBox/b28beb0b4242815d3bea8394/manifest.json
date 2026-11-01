@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:46.224866+00:00",
+  "client": "SingBox",
+  "rule": "Perplexity",
+  "rule_updated_at": "2026-07-26T08:22:09.933758+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Perplexity_source_bf5c0d37f8b328df.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ac07e226ccd678aee6473eaa96872fd9e5db630f96fb46ad95dc35c3fee0f6cc",
+        "bytes_sha256": "97961f5d590a9376d9bf791887f70d7edc80eb01e36cbbb67cb488d900234e8c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Perplexity_source-srs_ddfa2f111aace3a3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "059622a8068eef5d4d53f2c0ca66b8cf0c5dd31e3ec86b3fa7390fe0283e68e6",
+        "bytes_sha256": "b39dc6166314f3789723c8c6cb234f2939c6e82fb3328af41fc9b2aa42eb09cb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

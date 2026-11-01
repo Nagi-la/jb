@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T03:29:06.025875+00:00",
+  "client": "Loon",
+  "rule": "GlobalGame",
+  "rule_updated_at": "2026-10-29T03:05:25.659874+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 778,
+    "DOMAIN": 97
+  },
+  "total_line_count": 875,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalGame_rules_d8c6da812d5e7f0b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51b6f7c192466327af23e9d8165b6ef06c68f289e0b33a070b242376886fabd7",
+        "bytes_sha256": "2912a279c28a253697db8a7066d7a512520f49a52958ebf373c98fb24a350c1f",
+        "semantic_sha256": "e4b8d8a5d93ba3379394d42bf38b85e0fab1b5028febcc2fbcd6eed0b7e137b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalGame_domain-set_ca6c58e49513113a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c095f37ce2beffec2b6159555a34009e6a14de3e293cb8ed86241a39813d567",
+        "bytes_sha256": "8ea7f2a19b01548a046f43eba4dd4a6800d14ab31f0953b8b73709e2d55450b4",
+        "semantic_sha256": "711750e2c7c8a6c97f56ebef3cc7388e615dd9fcb6207d9faefe88098013155d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

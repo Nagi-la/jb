@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:40.434496+00:00",
+  "client": "SingBox",
+  "rule": "DingDong",
+  "rule_updated_at": "2026-07-26T08:32:11.813328+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DingDong_source_1566a2be44af15fb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6d66e5ea2d4885f5e9f163070dfa22a3c1186a5bb62920b40414695c7a58a147",
+        "bytes_sha256": "46f991c111399dd64fd49174582aed783f8bfedf9e7dc6ed0d998ef231ada552",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DingDong_source-srs_21e297b56299bb86.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7e338a3adadee957aff0703df063dcc2ba5f4b893efb30063e55956653e63fd5",
+        "bytes_sha256": "58c9185c44171b15bdeaa50b335774d48e5450e1433ee1ce874217ce347f8e70",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:32.261928+00:00",
+  "client": "SingBox",
+  "rule": "HashiCorp",
+  "rule_updated_at": "2026-07-26T06:58:10.772464+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HashiCorp_source_d29a25a3074443f8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4fe072846802b2536d105572c8e2c2193152037261cc8ab265b1734a04e3323a",
+        "bytes_sha256": "c3827ad8911f1461d9d0800f12bd274ebbf8e1cb0585a08e8f5592994138a198",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HashiCorp_source-srs_dd455774626f7123.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3009ec4a60be60fbfa4bfb43645f0af05059febd929fa205a82b8bbb2ee497da",
+        "bytes_sha256": "ba2c30671c3a0d6ffb9a1378545e9f8199accf6383b71fad8ec0d5b7fc8bde10",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HashiCorp.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HashiCorp.list"
+  ]
+}

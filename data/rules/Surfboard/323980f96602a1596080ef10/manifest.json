@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:40.046441+00:00",
+  "client": "Surfboard",
+  "rule": "NaverTV",
+  "rule_updated_at": "2026-07-26T06:57:32.831478+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NaverTV_rules_5e37f3cae0707f66.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "335b442632b8347bdc39c6abefa2fdbdaf4a28e96732b7a1f4990d4272720dba",
+        "bytes_sha256": "0df705b073045e20637cb9b6e86a5336aeba39eb33062402492bd11af1a4ec8c",
+        "semantic_sha256": "caf9b3dc639f1258c4eff5a564fbbb539f91cae67f56627c2e727ecd7a1a8c17",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NaverTV_domain-set_103972b4e1e1ba4e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8eb3bbf5b1468c516c4080c58bd9cc14e70bb681cb96e467edbef5ffe7b0346",
+        "bytes_sha256": "a709caa8e41f0b65f42ebb0c553b4950f063dc16332a81d7eb2d40aa7267a137",
+        "semantic_sha256": "c9f6a692338655de57721e0575e40304da418ce6041c834afbf3d805cf2e702d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NaverTV.list"
+  ]
+}

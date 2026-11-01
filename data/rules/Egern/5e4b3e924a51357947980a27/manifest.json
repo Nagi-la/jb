@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:04:07.558118+00:00",
+  "client": "Egern",
+  "rule": "Jquery",
+  "rule_updated_at": "2026-07-26T06:50:34.457493+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jquery_rules_505bd939b11cc6c0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2523523076c44fac82686da8e9ba20168d744c9a0802be13a62fec8209f0097",
+        "bytes_sha256": "3c4da20ce58ca12a47eb2cf3a5e65da3ab9023e6e9c005bab3e38eebb6eac7a6",
+        "semantic_sha256": "23922d5f054491c87d0a60a1b0ebbd26c5cd9655ae47748d70da6129e30fd9a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jquery.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jquery.list"
+  ]
+}

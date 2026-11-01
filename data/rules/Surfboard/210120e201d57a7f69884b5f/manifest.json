@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:58:34.675381+00:00",
+  "client": "Surfboard",
+  "rule": "Dynu",
+  "rule_updated_at": "2026-07-26T06:29:20.439620+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dynu_rules_730b04759585606e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9f9fc8024f307cf48e80d282b44f85ec2ce42c852bdb3fe48b671d6cd4ccb7a",
+        "bytes_sha256": "0b617909e8096f827e48c3f9f1164f306bbbc8a228d8a8faf55fc063cd906095",
+        "semantic_sha256": "3731d5e43263b14f8b90c4154b251933b42bff430616f4ab1988f8225a4734c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dynu_domain-set_5c856fafb6809f66.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9fa4a738a2e7ed966bb99010a35e1035a5b7b24ee9c1d3d57921642495fa374d",
+        "bytes_sha256": "9df2b608e4f3d39fa6932d3850caea940e0962bdce543487b614ab382be4054e",
+        "semantic_sha256": "909a3adceeebb7af34d7a72c220f4f60baa59825af42097704aee865e4f6e772",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dynu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dynu.list"
+  ]
+}

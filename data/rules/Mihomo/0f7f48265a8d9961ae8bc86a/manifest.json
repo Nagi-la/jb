@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:03:51.116839+00:00",
+  "client": "Mihomo",
+  "rule": "NBC",
+  "rule_updated_at": "2026-07-26T06:58:26.981540+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NBC_classical_7641ed585c432d95.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0de8ad7d6bef9f3ecd950c65507d5e989ffe0297f80b4187fe008ddccf975fe8",
+        "bytes_sha256": "3932cc386d453f122c76ed854f272e7c26406e95fc6b8766ee152849fb9ffcdd",
+        "semantic_sha256": "8bcb19de89fdb4a12ab3392e07e9521a60ba4b3b60dc9824a60ab27ffa04822c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NBC_domain_716b2109c56462e5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2511edb45452235cd8479f0851fe04a27fc680753e0b93501db7761db9cef83c",
+        "bytes_sha256": "815482c9136d376661a576cceb784b99fccba8ecf80d82ad519c92f81d9751e3",
+        "semantic_sha256": "0cea7fe644ad01e61b3f1ac202b8354905cfcd6c97fb5f95c1836f59afaf9450",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NBC_domain-mrs_dab027d12738dbba.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e8a39ea519a5fd8fbbbbf9dd45834562dc4ef691c1397294481968f9b6943596",
+        "bytes_sha256": "7e9d238cf610765f77a9e9c4e019a4bec1e02d32c3844635a3c0710110966dba",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NBC.list"
+  ]
+}

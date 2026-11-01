@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-29T03:23:34.727026+00:00",
+  "client": "QuantumultX",
+  "rule": "GlobalAI",
+  "rule_updated_at": "2026-10-29T03:05:24.666175+00:00",
+  "type_counts": {
+    "IP6-CIDR": 2,
+    "IP-CIDR": 4,
+    "URL-REGEX": 1,
+    "IP-ASN": 4,
+    "HOST-SUFFIX": 358,
+    "HOST-KEYWORD": 11,
+    "HOST": 69
+  },
+  "total_line_count": 449,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalAI_rules_188406728e7abf06.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21e76453768739a7553678e4aaaf2d95b4e171f2f557592dcc54aada12d1598c",
+        "bytes_sha256": "40c7cb3bd7680b59580c0c16328a0239ce11612f00d7e6b757ac748502c6a12e",
+        "semantic_sha256": "31c080d44b6171460dcd301def3b5a24b56d4866735692c7863c9fac34ac96a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "snippet",
+      "url": "data/_shared/artifacts/GlobalAI_mitm_4ecb8191d0c5d52d.snippet",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eb90d877bbf6ded1d147eedad19469a2540c0db196ba259d60aa02c055774724",
+        "bytes_sha256": "508a6cf0b328e6299aac9ab22d82d721ba1817d1b72bde247f45c77a76dee2b5",
+        "semantic_sha256": "9b6168fd8286377dbfa40c46094263b4baba405f122853e23ffb1266819e052e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
+    "https://ruleset.skk.moe/List/non_ip/ai.conf"
+  ]
+}

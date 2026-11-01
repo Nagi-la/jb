@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:25.634830+00:00",
+  "client": "SingBox",
+  "rule": "HBOHK",
+  "rule_updated_at": "2026-07-26T06:30:11.469744+00:00",
+  "type_counts": {
+    "domain_suffix": 27,
+    "process_name": 1
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HBOHK_source_539d9ff9beeaf068.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ed5ee5dbe30a1ee9dac32e643acb355b1cd054698677e3ae25b7eb5752f88380",
+        "bytes_sha256": "109b5892961d7a99a455f8105702ad498856b8799a340975c637cde11c5426ec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HBOHK_source-srs_9cc57b362285e076.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6863c6d8448988b6576137a9371750e0ed39cfb666422fa8cdb371b7af8cd1f7",
+        "bytes_sha256": "1615406505941b1c5b5e664c1d024885fcd4195df493b74eddef44d7bcd3863a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

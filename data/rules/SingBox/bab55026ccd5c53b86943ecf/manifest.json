@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:43.215385+00:00",
+  "client": "SingBox",
+  "rule": "BaiShanYunKeJi",
+  "rule_updated_at": "2026-07-26T06:57:26.167537+00:00",
+  "type_counts": {
+    "domain_suffix": 59
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BaiShanYunKeJi_source_c096706b021c7938.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9da6d9f428bfa069348d27aaf473b2c3072a5ad851e8612eccdf60eccd7e72bb",
+        "bytes_sha256": "b373cffd022e1dd9c348194b414124362e2fb1911307133a6068b512f1b226a2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BaiShanYunKeJi_source-srs_8babc2e6351d2ed2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38a54a180e97a9db8235cfd75dee1835debaeb99baeea691a1793043d8e961b6",
+        "bytes_sha256": "312ef39dd263fec65d4542f857314f3e716c9ce4835bd87a6d931fafa3fc2331",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiShanYunKeJi.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:59.984223+00:00",
+  "client": "SingBox",
+  "rule": "Mogujie",
+  "rule_updated_at": "2026-07-26T06:27:14.501726+00:00",
+  "type_counts": {
+    "domain_suffix": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Mogujie_source_6c0eecff19900f86.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a580d54cb09de1f4ece5216d1812c1a26631923312f6062b924f9165a2f19678",
+        "bytes_sha256": "642a3b49f024a442447ec3c48f18a77ee833d3c7ad0f5daa54d7080a1bbc85fd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Mogujie_source-srs_424cfa2dfbe4d088.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9ea5bffe6e9aa9769d3fd29fbba42dd42ad26f2daccb896569b617c5e3beadfb",
+        "bytes_sha256": "5a480f06c4e30e10aac24eb012e49aa081b012436c60aacb23f23ac4bb1144ef",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Mogujie.list"
+  ]
+}

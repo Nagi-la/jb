@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:42.113001+00:00",
+  "client": "Stash",
+  "rule": "56",
+  "rule_updated_at": "2026-07-26T06:46:22.499373+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/56_classical_bc3ebbf18b87461a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c79b5deb725f37cec991c96a68b9995e242cfa0cac37f18e699ed3753f52fe62",
+        "bytes_sha256": "75d298783018500531be0d94009642f3968827a1f976670b3561493976bae0b8",
+        "semantic_sha256": "a5ace9a0b535fa8827febfdb8e3a0dfe6d0f3af679dec57e313c3ed5820c05ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/56_domain_be06e4fc74b1ced1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47a0cf8fbc2435d1937cb23130aec218bbc3401c748c3252f127bb60cd390ba7",
+        "bytes_sha256": "8c7b102ca3a9e6273cd0c3d374e392d403472c0cdf4f1170b8e9319b03676fe8",
+        "semantic_sha256": "5a600797c8940b4f0e73060c94e9b798f78456f5e4a38f315c720e61066e8fde",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/56.list"
+  ]
+}

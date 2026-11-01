@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:58:10.898964+00:00",
+  "client": "SingBox",
+  "rule": "Sina",
+  "rule_updated_at": "2026-07-26T06:38:40.633862+00:00",
+  "type_counts": {
+    "domain_keyword": 1,
+    "domain_suffix": 141
+  },
+  "total_line_count": 142,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Sina_source_9ad5d612c1e92497.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0122155f11a87c43cba1871bccd2711bd6d605e211a254442788e30beec450de",
+        "bytes_sha256": "4ca45e86c3c3599e84381721387e2e1e20f248041df382b515f1200c41caa39a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Sina_source-srs_d79672ce492e825a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f95b25ca089ace14bb5eab4ee0ae87c78582bcce3ba9b9ba37b567a18b58b5ba",
+        "bytes_sha256": "7bf6de47b14b98498680788942fc6eeef290a61ca08d203238c531e3e2333fde",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sina.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sina.list"
+  ]
+}

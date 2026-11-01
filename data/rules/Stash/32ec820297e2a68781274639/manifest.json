@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:11.192864+00:00",
+  "client": "Stash",
+  "rule": "EastMoney",
+  "rule_updated_at": "2026-07-26T06:24:52.515108+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EastMoney_classical_3ca71b85f50c7042.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "318efab67ff90f495e39f078a37e6709678e3ea23825d5f1a6f97dd7ec416213",
+        "bytes_sha256": "3aa6385cbd10f7dd8758be2aa51ca95e42f0d1b948675960dc995278e5b720bd",
+        "semantic_sha256": "c3cc4bcb51fed1ef8d2c631494176737fc98d7603fa0cae226e6fec1f929acf7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EastMoney_domain_3a248598c1d937b1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ad935dcd4f7300e4a9e951aa65c15608fa4fdea2e9f89f2aecc6a59bd648849f",
+        "bytes_sha256": "91ecd5c5e5741fc4ba6cd3aba5f69aaa1d2662981854362a34d7bd29c8b1a89b",
+        "semantic_sha256": "e849f100f7260dc9a32bf8480c434c86db40dab69419521160cd9264e92932eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/EastMoney.list"
+  ]
+}

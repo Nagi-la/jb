@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:40.386647+00:00",
+  "client": "QuantumultX",
+  "rule": "Nike",
+  "rule_updated_at": "2026-07-26T06:52:28.620099+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 196
+  },
+  "total_line_count": 196,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nike_rules_cbded957d889ca5f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58074886fd8fac4c73e4ac5f32464bdeaaa34aa26358c8569a7cfa03205f873f",
+        "bytes_sha256": "fcfc7b53d6c549fadacd7fb0c9ef8ada59f3f4e13aa4f894f7658f174f774465",
+        "semantic_sha256": "ba0382c9842123330e53bd345008003819456f6760cdd239b8213c2aa411a397",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nike.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nike.list"
+  ]
+}

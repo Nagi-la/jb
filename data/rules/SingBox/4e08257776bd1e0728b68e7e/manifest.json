@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:31.773663+00:00",
+  "client": "SingBox",
+  "rule": "IBM",
+  "rule_updated_at": "2026-07-26T06:29:31.838807+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/IBM_source_6a6153b18d869195.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a4f511e0fa23ec5516eb06c585eff6006e78e6430aaf90db72a9e553f7f22bc3",
+        "bytes_sha256": "4c08e87c8e1801387fcaad83e35cdd1d69a57663a67401aff5b730e176c01d3f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/IBM_source-srs_27fdddf0567ab3e1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7afff6507ff31f9a02d018618ff36c770827e1b6b09f53cb46971074ddec3c45",
+        "bytes_sha256": "cddb2e8239eafba4c16cc8b9dc3c11f05c713af891592669d1bcf79ffc0f4789",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IBM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IBM.list"
+  ]
+}

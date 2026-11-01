@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-29T03:17:37.097009+00:00",
+  "client": "SingBox",
+  "rule": "ByteDance",
+  "rule_updated_at": "2026-10-20T05:42:35.444082+00:00",
+  "type_counts": {
+    "ip_cidr": 1,
+    "domain": 29,
+    "domain_suffix": 1034
+  },
+  "total_line_count": 1064,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ByteDance_source_d692ab7709baa4e8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2fc8dbc662b1af45938b8ba7d49af50eea0f90cc28eaf479d32ef8c53cb9a581",
+        "bytes_sha256": "baa29bd1e9a44d96bb9b857aeddffb86d1ff7fb7e42c6ccad6133f42bd5e2fcb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ByteDance_source-srs_d316e7bef9b35d3a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "935970692dea7bbb0a8df91ff360c2c7dfa5054604278a8257fd5835f825bb56",
+        "bytes_sha256": "b99969dfdefdc9d5d7938a49669916ed128f43c7dc630501b1ee45ba3ba61e7f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list"
+  ]
+}

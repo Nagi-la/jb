@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:04.555333+00:00",
+  "client": "SingBox",
+  "rule": "AkamaiCloud",
+  "rule_updated_at": "2026-07-26T07:14:15.828303+00:00",
+  "type_counts": {
+    "ip_cidr": 357
+  },
+  "total_line_count": 357,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AkamaiCloud_source_cac02ce14940f9c7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9f7c1dfa2594be59a8c94555b6b517258c9dcfc125ceae7e7cfa76c743702168",
+        "bytes_sha256": "8f6fdeda0cb4d91c07445b6c461e587eae5e781775fab40bccfbe31d90eeeec5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AkamaiCloud_source-srs_51cc173a2cfaaaea.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0a7e13a77ca356ae05ebba44cccbeb60651ac25cb80365003056eaa9dbee5e03",
+        "bytes_sha256": "0115dc0f85afb1f3e14dd819932c15bd36f4b802fa5da99e63843d4817f59536",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Akamai.list"
+  ]
+}

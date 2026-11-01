@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:26.525717+00:00",
+  "client": "Loon",
+  "rule": "Coursera",
+  "rule_updated_at": "2026-07-26T08:22:42.389735+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Coursera_rules_4e632157fb74b76b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3309133964364cad44c904395e2f8ca8b02ad8be34ca6fe4b73312088933cda2",
+        "bytes_sha256": "3c5be4f7ca12dcbce42836cd7416d0695a819bdd6d167e01f7daa97d7f7fd41f",
+        "semantic_sha256": "623773cf8141efc9cff4338e14bfd43588a6a7b298287182f464bfd4972b39fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Coursera_domain-set_a2897a560d1d2d1b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a4452fc80728a580c7f1061243019afee0ec13621c4b84c47ae0e1f681efc26",
+        "bytes_sha256": "d0e6e2565e6441dc8cccbd59b83b07164b4cbd599b2c1e72afc2267798d62487",
+        "semantic_sha256": "3799d0023a1f5c3f032e5f3f17d685c175a155421cf8a585c968833ddf3f62a9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

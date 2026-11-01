@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-30T01:47:21.129956+00:00",
+  "client": "AdGuard",
+  "rule": "Advertising",
+  "rule_updated_at": "2026-10-30T01:40:40.721871+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 242164,
+    "DOMAIN": 17423
+  },
+  "total_line_count": 259587,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "ADGUARD DNS FILTER",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Advertising_rules_a64158c86d5139d3.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "51432a03e55d3324b23054c45e284d064562536ac95a2b03785bcb8079de20d6",
+        "bytes_sha256": "7fe0f9ddaa34db688d2bb27f1ab17e0814c2aa4e619610d0d03772d172a270df",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list",
+    "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/reject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/ip/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

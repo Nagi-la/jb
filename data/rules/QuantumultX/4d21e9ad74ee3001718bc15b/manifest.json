@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:02:12.001096+00:00",
+  "client": "QuantumultX",
+  "rule": "Embl",
+  "rule_updated_at": "2026-07-26T06:58:12.400525+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Embl_rules_8dda09bef455b344.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69499a7992fa8820d2eaa8c225c0fd14cd54b87d9631047f6149c792d5f13ac2",
+        "bytes_sha256": "8c23479df3440a6d2ff40c97eaff5aed1d76b9e5dea13c4c1b4998aa983cbac4",
+        "semantic_sha256": "38b4b2ab0a0200e011502660f155a3d95d5d4dd7e24691be5e1feddbb4418314",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Embl.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Embl.list"
+  ]
+}

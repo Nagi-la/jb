@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:14:54.131920+00:00",
+  "client": "QuantumultX",
+  "rule": "Tailscale",
+  "rule_updated_at": "2026-07-26T08:34:39.111017+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tailscale_rules_2d908db7028d337f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7256940e09c722e9e8ffc5e05886cf61cb1500122703af17f1d478eba483c24b",
+        "bytes_sha256": "cbca4676582b1a98aa6c58834781976c4f80c8c5c84375065a27bffb89802b97",
+        "semantic_sha256": "25d2e8ffebd4f8502321414dd0a5895d33852f73b697349f8fce941d96722fdc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

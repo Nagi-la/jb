@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:56:41.068951+00:00",
+  "client": "Surge",
+  "rule": "Verizon",
+  "rule_updated_at": "2026-07-26T06:55:23.462123+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 183
+  },
+  "total_line_count": 183,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Verizon_rules_34fbec5a701f7f2f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "743c145e504c643a1ed7e9b47d2f3669314e74c691feefce5edaa5fd24b1e359",
+        "bytes_sha256": "d6c2a070058a0a1acffd9ce76cc3653ad2b78ffe9f360044bed542409fa10371",
+        "semantic_sha256": "e3be8af266d27e0abfb4d7d0e505719c1fd859205b624e223384fe3ec1eae7f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Verizon_domain-set_e784c8d043b9f9d4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d538a02cbfcc6ec43a910d6d1ec23b312d3d6e3e155bde3170ae6d9a1f30449",
+        "bytes_sha256": "85b3f5ec5fc29ef244416585c1cb2c2e08113513431f1a05f0727e541ee471d5",
+        "semantic_sha256": "f3d281ffc58d03d609a34a695fd699f4a4915362d2832d95b58cd36e88f0c0d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verizon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verizon.list"
+  ]
+}

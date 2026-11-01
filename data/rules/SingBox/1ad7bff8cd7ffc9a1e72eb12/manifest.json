@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:17.417135+00:00",
+  "client": "SingBox",
+  "rule": "CCB",
+  "rule_updated_at": "2026-07-26T06:23:15.905956+00:00",
+  "type_counts": {
+    "domain_suffix": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CCB_source_fc23b26ecc8a5a9d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "309d6757424ab90c414b3743f3294bcf8462e930eb4383f4fdf730fd75eef86a",
+        "bytes_sha256": "5ff01480cdd9166e9fbafdcde0c70766b828f42d01b837d04a8096bfd9ddcf5f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CCB_source-srs_485f03863c381986.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a1fa6c4f6b1ee9eb5be8af05e43260d5e40d965df992eaf43c479492a9b3b8e5",
+        "bytes_sha256": "568030e8ed30f779c2e55ff019b90f3d899d0a8c2e30cd445c8a500cf5a49dff",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCB.list"
+  ]
+}

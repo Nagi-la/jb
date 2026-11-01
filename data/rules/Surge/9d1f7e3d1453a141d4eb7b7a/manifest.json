@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:11:09.740456+00:00",
+  "client": "Surge",
+  "rule": "ViuTV",
+  "rule_updated_at": "2026-07-26T06:23:00.667305+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 8,
+    "PROCESS-NAME": 3
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ViuTV_rules_01a39cb2026fa93e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f2c4831ba3b4327358de5f3819144f8105e5784e8c2fbb9d5befe058315ddb3",
+        "bytes_sha256": "5692f1554594d18d27d94e2ea140f24d9609341664af72845c219be8308f2f6a",
+        "semantic_sha256": "d8f05eae04022c96b2f6d28bf1ab90040eab6a67340c3b318793f6ff24fb4659",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ViuTV_domain-set_69ddd7efc4eebc0f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6baf27d5381f57dc591753a41e946a0693d7f78af8a31cb47a02f94becc7bb72",
+        "bytes_sha256": "f5c752ab7453a9437f8d02020e8620f98a9da8527a11bad2f46cdf2c28b1edd1",
+        "semantic_sha256": "eb9c45a5576db024b3322c010c09538ae3593a7d02ca36e57735ff65c99b63cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ViuTV_rule-set_e320862cd1deeac5.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b0e6c0a4381fa9d56317054eab9407ff2051f208203811ca65a80a2397825aad",
+        "bytes_sha256": "4b482a55e39d0f957151ef91efcce465b36bd2ecfe940a3c78f8809070ec9ba6",
+        "semantic_sha256": "3729fef950c14ee98c5ece7e7b8618a931b2fec2684b556ad6d92e8ec143970a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ViuTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ViuTV.list"
+  ]
+}

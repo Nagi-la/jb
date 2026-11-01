@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:11:53.746597+00:00",
+  "client": "QuantumultX",
+  "rule": "DigiCert",
+  "rule_updated_at": "2026-07-26T06:49:55.839348+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 74
+  },
+  "total_line_count": 74,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DigiCert_rules_0f7645e6dbf6d5e8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30edd85a690ee2dfcf8118207e5a2193dc8cb9742f5e3970570be9d468c7af18",
+        "bytes_sha256": "46a5ccc93d8dfc7b4bea6b7372e0c59234bc5978111a567b2ef1cd49dcb27b6a",
+        "semantic_sha256": "823834502fcd7756678202caa8174c67f7a67869b4961099fd4cc62c6ed60bae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigiCert.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DigiCert.list"
+  ]
+}

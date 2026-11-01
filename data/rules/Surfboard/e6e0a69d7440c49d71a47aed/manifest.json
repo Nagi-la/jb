@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:01.949545+00:00",
+  "client": "Surfboard",
+  "rule": "TIDAL",
+  "rule_updated_at": "2026-07-26T06:22:31.649612+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TIDAL_rules_f2878846216309b3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "54b934da133c6139f069647518d79e2ac2c3669cb625033548a0ec5cc6aaea2e",
+        "bytes_sha256": "3776556c42a89896e8c89c1d5ce412ee8e0ade4c2d01187a024335214634a60c",
+        "semantic_sha256": "c7934c69230134c67cc6ed8c2cda533eb47410e3ffec14dd885238584f6c4d44",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TIDAL_domain-set_06b373950b170455.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5bee3a163d1382360df703b6ad00e90506c11cc8b04bc24e8449a258df4bb45",
+        "bytes_sha256": "3cfe000a799e015e44d85d78594b1fdca215efd45bed876b90348c69bd39d9d4",
+        "semantic_sha256": "e92a93155198318eb28e6252508ecff06468b583d7df4e80009f155b8c8cc051",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TIDAL.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TIDAL.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:19:07.997864+00:00",
+  "client": "Stash",
+  "rule": "Deepin",
+  "rule_updated_at": "2026-07-26T06:24:39.724071+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Deepin_classical_02c6cea93bcaca31.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb82172af2a9d54a2128d1499c734695995dd0251d30a4268d6e481221a1ca52",
+        "bytes_sha256": "b005ac4d8302708b2353b4a1810379b38e913e34ae393562ece4c71469f4e92c",
+        "semantic_sha256": "0838b9e8827854410a685eaf131bb7d83bbfab786915859a176dc3ddb914ac41",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Deepin_domain_3f087deba2d5bccf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c10cb8bab259a99dca05a813d9647a97299fd54c85e3d5f291a2229da218febc",
+        "bytes_sha256": "3d6bf01993071dd75064656b767e567d37ca24d18d9619f21db84fec0e9e0afd",
+        "semantic_sha256": "d20744eccbcb148a1621dad5cc5ec10e097c568d17a3df790cc3d4fd8fb46019",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Deepin.list"
+  ]
+}

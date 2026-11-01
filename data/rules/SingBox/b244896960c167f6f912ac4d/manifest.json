@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:38.323439+00:00",
+  "client": "SingBox",
+  "rule": "TigerFintech",
+  "rule_updated_at": "2026-08-18T02:21:55.264258+00:00",
+  "type_counts": {
+    "domain_suffix": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TigerFintech_source_3ac6589aecde25fc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f05477623eafa3b020996cbf82ec535366595e450a1726b219ded1f596628b20",
+        "bytes_sha256": "6d77cc567c008f54988ec59ed9dfc68594ebd1fb3662ebaf303fad5b72ad78a3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TigerFintech_source-srs_885c559900fb2492.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7d0cd83e849c597b2b48484b9af45b75436dae70915b5bb852bc117d39a943a7",
+        "bytes_sha256": "6a73d1507514a98db39735e75646ed807532ec19de40031ace995e461abd9be2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TigerFintech.list"
+  ]
+}

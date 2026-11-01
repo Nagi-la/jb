@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:04:22.854166+00:00",
+  "client": "SingBox",
+  "rule": "BrightCove",
+  "rule_updated_at": "2026-07-26T06:31:00.267398+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 14
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BrightCove_source_393edd6f4ef00a39.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "982b831cd27c4e15008a7d6942a4c41cc861a5a9ae1ca0b87cb69a00a2f2afd6",
+        "bytes_sha256": "1e9fe3513532fdb8c17955493137617cd4764af8abd84c658f8dc26b94738332",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BrightCove_source-srs_7b3afaaae9edcf21.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b5f2eba5a9d2cfb6f53125d7d97a44b968fc91cd2a0ab8b3255e9f55e28ccd37",
+        "bytes_sha256": "ce7bfec835f072ac9adba116eeb822ede273d1fb0ca6a00108ba904ccaa9b1ce",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BrightCove.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list"
+  ]
+}

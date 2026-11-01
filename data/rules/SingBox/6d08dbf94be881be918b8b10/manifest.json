@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:52.513290+00:00",
+  "client": "SingBox",
+  "rule": "Dedao",
+  "rule_updated_at": "2026-08-19T01:59:36.741063+00:00",
+  "type_counts": {
+    "domain_suffix": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dedao_source_39536a4e13af47d0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b1322d495a0503dc372c86ae9fadf602fce4cf6e3680e5f344c758d5624a5801",
+        "bytes_sha256": "4eeef04e9eec882acef1c7c2feab73eef3a4ae823f538b2d52eb2eeb315144f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dedao_source-srs_0ec18188a8d71fbc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe636753c690b28c55ff90eefbb600468a2261474b0726b0d08d024914e57969",
+        "bytes_sha256": "1c28c7a29eedf7e69c6c66859d8fa207fad040d7c71aa716dcfa17c90d98fb30",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dedao.list"
+  ]
+}

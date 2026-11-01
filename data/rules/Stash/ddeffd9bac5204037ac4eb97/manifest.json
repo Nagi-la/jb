@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:54.694987+00:00",
+  "client": "Stash",
+  "rule": "AiXcoder",
+  "rule_updated_at": "2026-07-26T08:30:07.264564+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AiXcoder_classical_286a6494a180068f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3fd6742b87b600fa0561c520320b1aa1538e838853a4e6b6b41f5ff48e8d163",
+        "bytes_sha256": "aa51e5d89fd582840f52d29bff5b86ccdd09c4bb8141f9d00e69892ee227b530",
+        "semantic_sha256": "a9dc9b70a27b18ddd7f05edeaeb9113e28dae8563ee29de84cb448e9498604bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AiXcoder_domain_5182e2153384d5a0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a6ffc5380e00303ab46926bf73a93e3604cde8cbc2d7555bc2265b507913318f",
+        "bytes_sha256": "e1df1911cbeb63c032854e6c8cea7cf5492b994ba946cc807e0aa933948fa5f2",
+        "semantic_sha256": "c8d3f89f3a7eb58d97a8cbbfb06aa8cd0a914cf45b592a080aacabc106cff6e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

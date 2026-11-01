@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:16:12.281621+00:00",
+  "client": "Mihomo",
+  "rule": "Debian",
+  "rule_updated_at": "2026-07-26T08:31:46.106523+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Debian_classical_74091ba2277b569c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "04adfdc3815dc588af328337ae039fb0b59668f3a96380b3ec3ecdee4d06f041",
+        "bytes_sha256": "b3f04fc98f2308c5e105274db2a739927d5a16e405350d635104e1031ac90b8c",
+        "semantic_sha256": "af20247b6ea7b89226dc53ec67cc53a06cf538f053c6cfc17857e84a874c1d79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Debian_domain_7d12c0eda67350c3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db21d4c5c4668b76cccab5b14ec352425c48957d7babb6ded3c7912775d81c70",
+        "bytes_sha256": "021d2ca6f509c06b380b16a08af7a5aae04a945a1cff609903582fb7c70e110d",
+        "semantic_sha256": "f9311c589809100a6dd6e90146361aafdb3f50a55876fa41d26c6f050316435b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Debian_domain-mrs_6dffc611e05c127e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f06ef0e35350cbf377a95678aa719badc3cbff4e6105a9c36c0675c8caa72d00",
+        "bytes_sha256": "59d71c8bc90ca6190d14bb66879a2320f0d4a048f324ad9e189df041eec2115d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

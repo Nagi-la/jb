@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:11:08.082357+00:00",
+  "client": "QuantumultX",
+  "rule": "ViuTV",
+  "rule_updated_at": "2026-07-26T06:22:57.367035+00:00",
+  "type_counts": {
+    "HOST": 4,
+    "HOST-SUFFIX": 8
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ViuTV_rules_915caf55cfd36b73.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9ee8e012533af7bd6a657c8cdfc947ff46ab701745536cfd5d3657c284657ff8",
+        "bytes_sha256": "27e454059c076f21b353d6cc1e2aa719c35d90e3d03d8842dbfdeaa9c7b13174",
+        "semantic_sha256": "0e945953d0c37a1127bf221f56eae555fa49ae057e097d9f17d78691e6a7bf95",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ViuTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ViuTV.list"
+  ]
+}

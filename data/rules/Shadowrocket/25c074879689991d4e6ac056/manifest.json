@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:28.350257+00:00",
+  "client": "Shadowrocket",
+  "rule": "LivePerson",
+  "rule_updated_at": "2026-07-26T06:51:13.860106+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LivePerson_rules_7c061f6d26a99415.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95242a72489828834bb54f517cd7b38840224822743f9d53563224b4a8875cbb",
+        "bytes_sha256": "207e5e3602807e6f3ad813e42d4ea9df01dd82cf7a3aeb4585023e6e533905c5",
+        "semantic_sha256": "5a61dafe3d0d24ddf8d21157aa8f714cdc6985adc2810d0742a011c3169949ce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LivePerson_domain-set_adfd45473c238b1d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a47469334c06ac2181527b55474c0848a762c6a80ba9b0a99f51b3f77fa243e6",
+        "bytes_sha256": "5950898eb32833eb2e11f65be71fd546d2724f564da43d460f388de562f1d970",
+        "semantic_sha256": "4927453bafd5365c3972debbbe0f0aa6ecfa4343e30850d9701cfc1d30b5cf4c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LivePerson.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LivePerson.list"
+  ]
+}

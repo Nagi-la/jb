@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:13:12.018159+00:00",
+  "client": "QuantumultX",
+  "rule": "ChinaMedia",
+  "rule_updated_at": "2026-07-31T04:26:15.909232+00:00",
+  "type_counts": {
+    "HOST": 65,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 209,
+    "IP6-CIDR": 29,
+    "IP-CIDR": 39,
+    "USER-AGENT": 13
+  },
+  "total_line_count": 356,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMedia_rules_33398079a943ff91.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1336760b65e82344b61fef2bb327e7e0c8e5ac3bee9295bd2e0a60112133d3fc",
+        "bytes_sha256": "2dbcd8aa485a146b14385a8bf696fc9a6c84e49d7a38f71c057e803cc48b6eaa",
+        "semantic_sha256": "a6d5cf7a9f9629815a9f9768a20d290bf42c6b2c40d08b59e8f8c16c584ff7e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list"
+  ]
+}

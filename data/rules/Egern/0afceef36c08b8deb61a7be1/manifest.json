@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:05:26.803015+00:00",
+  "client": "Egern",
+  "rule": "Qobuz",
+  "rule_updated_at": "2026-07-26T06:22:28.692760+00:00",
+  "type_counts": {
+    "domain_suffix_set": 31,
+    "ip_cidr_set": 2
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Qobuz_rules_35f6a7e0a6a1b46c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "311362132844708e9426598fc188beed7a1d8d7bc24832d1daffa779d9e80d30",
+        "bytes_sha256": "1994696716b7ebf588d3597587628d3b6558d804d65332f1780bce816f14dd8a",
+        "semantic_sha256": "ae2522a76b570fca43c7a30def9350518b707914550bceea7783eadcbe6834fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Qobuz.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Qobuz.list"
+  ]
+}

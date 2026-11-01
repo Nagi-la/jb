@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:19.962186+00:00",
+  "client": "Loon",
+  "rule": "AppleDev",
+  "rule_updated_at": "2026-08-07T02:23:04.516883+00:00",
+  "type_counts": {
+    "DOMAIN": 15,
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleDev_rules_6e66d8a2e9265b9e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "383936d6ebd8808010f26eb9da6a99357ca6494e15cfe187df9c7fc20747c6fa",
+        "bytes_sha256": "dfa08e2429d96308ef495ae29675ddd4b8d667838145f6e711265a95cec2de73",
+        "semantic_sha256": "ae3382da752b87bb1fd16b9ec7385682cfb01668ced9e81ed7f1b339330381eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleDev_domain-set_8751a66beeb0e60c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a80ab8c72434b6264fd0b5a5571e234af1049a400bc6d202daf155c4805518ce",
+        "bytes_sha256": "0843f71717073ae22022ea907cb9c2a298d28866f4398b0f3c62f7817d9421b3",
+        "semantic_sha256": "c8b0d55e4ee28694d50756d9c52ee20a950be5dbd777cd947242d96811b9b344",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleDev.list"
+  ]
+}

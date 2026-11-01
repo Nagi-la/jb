@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:44.941657+00:00",
+  "client": "SingBox",
+  "rule": "HuaShuTV",
+  "rule_updated_at": "2026-07-26T06:25:21.553488+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HuaShuTV_source_18008a661738a45f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9f0d5fe592b775b48923d9aca4d8d2f0c4649907cefa82876042ff9c7af7553c",
+        "bytes_sha256": "8f7444c4d9469957d9788af3217952539c630c85b4865a13c49850c37a1a0e3e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HuaShuTV_source-srs_2b852b82ed204ab3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "320b72c761a2e6ff3460bec90051473003006fd32311eaa9fbb048846369da58",
+        "bytes_sha256": "2d596e5bc56ad4e1bb7696734a9aeec4f76b40e30d61361f768e6c07fba01dc7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaShuTV.list"
+  ]
+}

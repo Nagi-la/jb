@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:03:11.820761+00:00",
+  "client": "Egern",
+  "rule": "BBC",
+  "rule_updated_at": "2026-07-26T06:38:12.860139+00:00",
+  "type_counts": {
+    "domain_keyword_set": 2,
+    "domain_set": 21,
+    "domain_suffix_set": 17,
+    "user_agent_set": 1
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BBC_rules_d1fa0c5f8c875b08.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "37cae1eb41d92459da2ecac9f219470aab6b47c7ada8ae4d964376dfcf399c92",
+        "bytes_sha256": "b746f1d8ef7ede2e45d99ecb2e211f5f1bf33400c2f40a01a639e23b09817b94",
+        "semantic_sha256": "5744aaef833556d342a0f59a704d4d4a6c64dc183144129c9f8e3994d804a7dd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BBC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BBC.list"
+  ]
+}

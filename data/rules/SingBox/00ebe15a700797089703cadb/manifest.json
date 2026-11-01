@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:29.204250+00:00",
+  "client": "SingBox",
+  "rule": "CGB",
+  "rule_updated_at": "2026-07-26T06:23:15.581666+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CGB_source_602135a5b2b6a5d4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a2e25408b261c6e0409e2c39a33252207f6c60e75437e61c0b5b73821bec62ed",
+        "bytes_sha256": "8394526dbc2f2216ff46eb54c24ba00f9453bef6329fb5765325746706430a36",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CGB_source-srs_219ca0e07657f1b5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c6d87bbdc847906e596c719d20563cc70cd34073180cba131605dda73e5ca049",
+        "bytes_sha256": "c659ea0592796c87a5e7afb44ae8eb06892a7519898252d5a843e5bca8ceb6d8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CGB.list"
+  ]
+}

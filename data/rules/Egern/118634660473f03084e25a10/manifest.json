@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:11:27.699156+00:00",
+  "client": "Egern",
+  "rule": "DiscoveryPlus",
+  "rule_updated_at": "2026-07-26T06:58:14.026414+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12,
+    "user_agent_set": 2
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiscoveryPlus_rules_a4f3cd38f21cc0b3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d5d83d55d5e467f86c6ab1cfc66d37a4e4b76ee2b3dc9ef3854a0f01d7c9e12",
+        "bytes_sha256": "07cbd7b946a6d5ce9a091f893b37b06ac3cd20917731e6f8fd86251faa3fccf3",
+        "semantic_sha256": "2ce73b7edcb48ca74d803f3c21d974c02a1ff4246f199093fe89a67065ca744c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DiscoveryPlus.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiscoveryPlus.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DiscoveryPlus.list"
+  ]
+}

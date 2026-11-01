@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:41.943940+00:00",
+  "client": "SingBox",
+  "rule": "PSBC",
+  "rule_updated_at": "2026-07-26T06:27:36.591908+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PSBC_source_4da3b4e4f79b6b19.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "99e34eb3cc029ab2894591ecd2824e946fcf79528b6a65496e1bebdf39232c86",
+        "bytes_sha256": "8e917eb8909ee39ba6e2814f0f9f2bbba2a21903df7fbc1487caa7ef9666a915",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PSBC_source-srs_7868e4bfcf741744.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe13c1d21c9375237d3c94fa85e14d5bf33d4ebe0904854679f1ddb8ac8f51a6",
+        "bytes_sha256": "658bab70839fb87e375c0504dc23d0d904fe7b411effa61e5de0ded4ece6e46d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PSBC.list"
+  ]
+}

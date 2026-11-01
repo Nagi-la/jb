@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:09:18.831951+00:00",
+  "client": "Shadowrocket",
+  "rule": "Docker",
+  "rule_updated_at": "2026-07-26T06:50:08.963790+00:00",
+  "type_counts": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Docker_rules_9047227961b26914.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e450dda306749b4e1edd7c42145ee9baed77c9c153d019ec5c04e3c0a718eb1",
+        "bytes_sha256": "29e2069fbfbde17cb34cd3d7acb0a12ed6dc3c835b33d14be78a0d41d99f975c",
+        "semantic_sha256": "ebcb4bb1faa0015d272e2846f74955400894ac09d7be26a10116814321f8d409",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Docker_domain-set_b96d3c1211111cd2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f15a40baa75856d3fc685a9676d1c9bf1256582c199073e0ce6527b2dd37735a",
+        "bytes_sha256": "259d09eaee5760fc52f9ead032c33ea774f9924a2230c0fa34c62b3ca805c2d5",
+        "semantic_sha256": "5c8b602a1346e42bf9a8e825efa8ed0f6aefbf48086202cc771b857d9fab14de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Docker.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Docker.list"
+  ]
+}

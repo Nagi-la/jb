@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:01:34.196840+00:00",
+  "client": "Mihomo",
+  "rule": "SuNing",
+  "rule_updated_at": "2026-07-26T06:28:09.049623+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SuNing_classical_ee2829109c9f07fa.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "276f61fac6852d0aa0f41e407510677c3a56fbed351c0e5fe2cf7d3e143f458a",
+        "bytes_sha256": "c0d45c4b75bbf09cfb3bf63f586d45746699b74ef0521a9b21e89e2fd31a7882",
+        "semantic_sha256": "0e1850810e52fd9cba0daa7f42a88196825ee3577a031fe0ce771810a59f78cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SuNing_domain_55d2ac61e3d44d95.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "968bee0b38b97539dc367a94f2f30e759ea14c86da28c891e489ee5a03905308",
+        "bytes_sha256": "8fe79a49cf59ab463038661882fd2271391c67feb1b72c8edb97f5b4f3ec0589",
+        "semantic_sha256": "a7fbd214e8737eab0f7c69716f910773f37866f5f3b2130781acd1b45c1eecff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/SuNing_domain-mrs_3f4d4751ec654c4a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b5a1f1b0a35236cd373833dd12076d18459b59fdb776292f0dcbcdfea63d5a7b",
+        "bytes_sha256": "fe04a5c6b5bea6e4818ffc5d8e891175715e29611fc14ff7fbcb579345ea2064",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SuNing.list"
+  ]
+}

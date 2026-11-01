@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:59.412871+00:00",
+  "client": "QuantumultX",
+  "rule": "KKTV",
+  "rule_updated_at": "2026-07-26T06:57:33.001841+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KKTV_rules_82c1af89e8aa2745.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f17d0db18c0997b6bf9142de75a4ab0f33dbb8a6c41d49c352ad9315258be62f",
+        "bytes_sha256": "039af3e7361c919d4b8829c7f20b790955db8e4fe08b49f86e15c58055025e94",
+        "semantic_sha256": "be798d34ac8a061c97ce4fa0880a4b9a54dd993c311c001629b28357794020a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKTV.list"
+  ]
+}

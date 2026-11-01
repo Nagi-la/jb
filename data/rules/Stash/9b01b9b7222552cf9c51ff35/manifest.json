@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:30.950208+00:00",
+  "client": "Stash",
+  "rule": "DJI",
+  "rule_updated_at": "2026-07-26T08:32:26.256234+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DJI_classical_eddabad1664db9ff.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b1cd7e659fdf8f7821f7f20f319de116cfd31cf7a650e169067fed461c381fe",
+        "bytes_sha256": "9a5381e228420a5469bb4fc85d54a3859724662b4e09961ae1b18f9a630e3945",
+        "semantic_sha256": "3fb077b429bcc711793bdbafddd7a900c40b2c83198606e444ae46bfa219d73e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DJI_domain_d4f6d4713d653288.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f18642ae282270aafee0a0a35f44aeeb571109f2b71c53a19224e11f2b96ceef",
+        "bytes_sha256": "6881dec948e9c245b014c7f279b5c201b4ea07ddecc65b7e1f905a6c5d50423c",
+        "semantic_sha256": "eb0a589af496953d42ce9ae4b50f8eb0337f4d58e0c634f1ef0fced3601fb162",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

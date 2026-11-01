@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:47.677116+00:00",
+  "client": "Shadowrocket",
+  "rule": "KuKeMusic",
+  "rule_updated_at": "2026-07-26T06:26:13.887910+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuKeMusic_rules_ee80f94e72995bed.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69945b5d1b2151131e959bf5fa310fa6411aa5ecd224fee720b8697b8a070730",
+        "bytes_sha256": "643dfac02066d01e69d4980b869e5966b27f915a3fabf2bbeeee1926f680d87b",
+        "semantic_sha256": "82e45e39d5c2f826612cad50e81f516d086cf6bfa685d95657efa94f85770863",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuKeMusic_domain-set_c8f0048a6d182525.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c56fae0e2795f5b5915c1b6b28b0dcfd41be6cfeca91a9c517e8ce76cdd08e2",
+        "bytes_sha256": "ea7687d0e53a161f589dcdbe448ea8bd490cf5f0d5c1fdae83df94e737677ec2",
+        "semantic_sha256": "61b5e8bf07e485db1683e109981e7b0c8a994db4d2609f5d8b81cbdb5535c65d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuKeMusic.list"
+  ]
+}

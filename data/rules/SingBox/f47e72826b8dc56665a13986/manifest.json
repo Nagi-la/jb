@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-16T14:36:15.846052+00:00",
+  "client": "SingBox",
+  "rule": "ChinaMobile",
+  "rule_updated_at": "2026-10-09T15:59:12.749231+00:00",
+  "type_counts": {
+    "domain_suffix": 51,
+    "ip_cidr": 1
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChinaMobile_source_b6157d904cd11533.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3b7e00c5e7bf0f9349af81ef0c0d937e2b5632e0af62fbe2a20149c9f2765dc1",
+        "bytes_sha256": "d0239b49d7f49c1761c4277c7cc326a7de55dfe1153893da2a5520662c71ee0b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChinaMobile_source-srs_65ea1a2ca4da8723.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f63c27a052c7c18294a5d77d7796188c364807fbde22d6dda1ee98ca37a493d9",
+        "bytes_sha256": "80bc1dfc5f3e333ab78b2729603800537586a0ae5933e9212af10c396901262c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaMobile.list"
+  ]
+}

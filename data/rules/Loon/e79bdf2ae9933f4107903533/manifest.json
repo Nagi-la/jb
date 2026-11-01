@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:12.279313+00:00",
+  "client": "Loon",
+  "rule": "Rust",
+  "rule_updated_at": "2026-07-26T08:21:18.772342+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rust_rules_cbc073e7dc93dce2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c45c8f412e076b838c4bb08353e6dad426712a73298e8c10358161e4d4631f7",
+        "bytes_sha256": "bf2dd08295bcf4a051f64a942615e91e805fa177ba17bff93e950482e3cdb7c9",
+        "semantic_sha256": "cd46df944324e221f8c5b586494cf2dfe3afc8428cf1464636092e50b1a05989",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rust_domain-set_f7174823644cbf13.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07b54277bc571293696de8d50bb61f6d0c2a9bfc519e592c1af10b2d1fcd1b6d",
+        "bytes_sha256": "3620ad66d04d4f1e7f5ab028b12351375f658b265cc092020c0422104846e24b",
+        "semantic_sha256": "fc876b23f42af2b2a6d98d25be33c6e9bdc764ec4c9bb493d7d3b8b671be7797",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

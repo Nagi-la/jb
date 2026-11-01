@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:09.508468+00:00",
+  "client": "Surge",
+  "rule": "Aliyun",
+  "rule_updated_at": "2026-08-10T09:19:13.570821+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 96,
+    "DOMAIN": 4
+  },
+  "total_line_count": 100,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Aliyun_rules_ae2bd8324cf7051b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "022d994b2ff1e4c628b168cb93199ff44d0f624f2dc5c464fcf2384f180de6d5",
+        "bytes_sha256": "1dc96965f45ee4e7c26e49c117618b9957deee151e9fd9f1c75926c4e3166108",
+        "semantic_sha256": "4b1a4ef46cd4061e3f34bbe24cbdabe981dcc6f5f649865228699441cd0f1f36",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Aliyun_domain-set_8fe66e82a4d61f3b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b25397e64e02d4f558620ca1a5dc17be68829160efa3d3f60da4c467d89bc7d",
+        "bytes_sha256": "f017fa8c67409b922fe6a2b20c6b26b6c186924843995802b1f0d241262d5c54",
+        "semantic_sha256": "a75fe877f7e32d917dc157302eb9dfaa819bfe4856cf2534137dd6b18464d55e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

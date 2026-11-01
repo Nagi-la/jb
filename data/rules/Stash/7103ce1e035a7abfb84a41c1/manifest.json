@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:36.190471+00:00",
+  "client": "Stash",
+  "rule": "Duckduckgo",
+  "rule_updated_at": "2026-07-26T06:50:31.136960+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Duckduckgo_classical_2befc622e1c45d1d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f927e79dccb4e68d63c185a39b4c491aabeb8706d08156049f11c25452113989",
+        "bytes_sha256": "7db76bee398249f5d3cecd15df623617728b2f6e535b5bc41b662bdf1bca4a44",
+        "semantic_sha256": "3add40b20c4ebe10500f79cc332082a59258afd18751c6b7bead06dd66b3edac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Duckduckgo_domain_6baff3a4faa57552.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8823254d7d2ba4d88fc9225a7752af00fcfae459f358380b2683228ac6f7c1d6",
+        "bytes_sha256": "21b30a80f4aecd4c34ee4f6b9246a971180fe66f7d1573019795a281f137d5d4",
+        "semantic_sha256": "1a07a55ccf98deb508e2ba43dd04de7c3801148bd8f5e305e90e2dca193cf2b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Duckduckgo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Duckduckgo.list"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-29T02:42:18.309543+00:00",
+  "client": "Shadowrocket",
+  "rule": "Scholar",
+  "rule_updated_at": "2026-10-29T02:37:23.483169+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 226,
+    "DOMAIN": 76
+  },
+  "total_line_count": 302,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Scholar_rules_1b689dc1ea2227c6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb7a7e8a9130e30a0ce7784868d637713931bd1eb8e832a54cef097c823b2893",
+        "bytes_sha256": "6278280b86ae83acfb644bd78201c5b23ce02b602ae1e16c29c643bd557bb4a8",
+        "semantic_sha256": "d6edc187e36cced9d3e9cf0cc9b4d8d6a4998fefdab19ded09d055f5315e0d23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Scholar_domain-set_472b397dbef67a97.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1be5e9416da20cb349fdd760619c43fa7b3ec41da5598c58d3aae36fe001d7b0",
+        "bytes_sha256": "c2f71f88a75efb51d7ad03e21faf47a52a4e16bc3d63624ef96d460a450e2191",
+        "semantic_sha256": "03de1f7e7f2957f6082db07df2ba090ba00234ea74ddf6c75a76fefbb470d4a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Scholar.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scholar.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scholar.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Scholar.yaml"
+  ]
+}

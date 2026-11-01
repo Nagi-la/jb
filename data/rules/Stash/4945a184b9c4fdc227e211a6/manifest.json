@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:45.382538+00:00",
+  "client": "Stash",
+  "rule": "Assassin'sCreed-Origins",
+  "rule_updated_at": "2026-07-26T07:00:05.706645+00:00",
+  "type_counts": {
+    "IP-CIDR": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Origins_classical_73b4ed067c68bdf5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30485e8eccdd10eebd93c6a391a6371f30dcb06f279fd7c507763e057c1ca2d6",
+        "bytes_sha256": "f4e60451b7d98246a831c1b5e6465abf110c182d714974ec45dbde45c72982f4",
+        "semantic_sha256": "6698b4ff4f3acc25551c73cfe3204ff92e52ff84572d83ddf3a3312d02d5c3ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Origins_ipcidr_bce1c01a943ee639.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "edad5e23d9e171ac0519673f200f79df659c6ea05c592131ef3965de591fdaf9",
+        "bytes_sha256": "7e899c2d77d911df0b2d6b16fa45a31fcc39e760ceeda1345449aeadd60c59a1",
+        "semantic_sha256": "eaa7b42a9d69aabcecffd0488be64cbd885000390b11c776c053c455c777f760",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/master/rules/Assassin's-Creed-Origins.rules"
+  ]
+}

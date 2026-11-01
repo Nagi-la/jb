@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:19.968223+00:00",
+  "client": "Stash",
+  "rule": "Kaggle",
+  "rule_updated_at": "2026-07-26T08:21:18.386122+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kaggle_classical_2264defa91a4ab4b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab9f4965592f41ba95e7f45c677e4bc419196db99fc53e8264ddc5050bc178ff",
+        "bytes_sha256": "17206637bb5c9842a09826188b67cd07096c0c4956566cad83db4fa224089468",
+        "semantic_sha256": "b9d77d1b7680330d1bba7509d763a6cbbed9ea58cf96a522a247930490f12ab1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kaggle_domain_058372295f382972.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff7cb48f570a9e7449d8ec1e5633086b36009791cf8834ad8c378af7727fa5a8",
+        "bytes_sha256": "24dad8d8d384ad7a1a0155b50f015f77920547df2cdc1095e1a867519d07325c",
+        "semantic_sha256": "943237f70b7027782ef8a9e809c556917c462d569e716894619becc5ba0cdacd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

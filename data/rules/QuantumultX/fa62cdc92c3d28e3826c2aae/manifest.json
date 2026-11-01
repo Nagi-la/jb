@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:07:23.806066+00:00",
+  "client": "QuantumultX",
+  "rule": "BeStore",
+  "rule_updated_at": "2026-07-26T07:22:55.970143+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BeStore_rules_56eb3b3d76c34ae0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84665d949935c283adb68f7096386fcdb98923b2b4e56e97c7619ddcc21ea561",
+        "bytes_sha256": "05d7262ac18cc786efcc98e3cee645a38b3d4ff76442c2de7c3dc3eac9271f29",
+        "semantic_sha256": "1fefea842812e8cbeb6cf7186f2b011b839b6dcc33a73b7281f9b8a696db1151",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BeStore.list"
+  ]
+}

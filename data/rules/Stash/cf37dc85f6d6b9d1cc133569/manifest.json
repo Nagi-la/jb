@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:07.421263+00:00",
+  "client": "Stash",
+  "rule": "VidolTV",
+  "rule_updated_at": "2026-07-26T06:22:33.912182+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VidolTV_classical_9204799da0fa498c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8f275502b9fe1bab17ccdd1b5bca1135849488a0e49d4d0313ef845990704808",
+        "bytes_sha256": "6bc2c79511285fa22067b8fab333823d1d6b25bf374149d6770a92655ca9d95b",
+        "semantic_sha256": "c06840b2facd868a7fe929dbd3dfa1e10409fefca7b7b21d4b7d380f97be9ab3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VidolTV_domain_45abc07cfac7c729.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7b0e393f1b6bcf43753634af1b9b71d0a921ecc61290783d469c07a4659d800",
+        "bytes_sha256": "3ee833907054cb7b060b1f239e0464efc0c6657249a3776113fbbd7ccf9b78da",
+        "semantic_sha256": "828e527389236fcebc2969ede33debe61cbf068da733afc2e13729913f1f8550",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/VidolTV.list"
+  ]
+}

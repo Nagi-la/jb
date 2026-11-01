@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:03:19.556958+00:00",
+  "client": "Egern",
+  "rule": "LastPass",
+  "rule_updated_at": "2026-07-26T06:38:06.942585+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3,
+    "user_agent_set": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LastPass_rules_450878560659b2f0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fbc3515f11117950e9e24b671448c65dea692212b972bb40d07fddf4d36a155",
+        "bytes_sha256": "a9eb671ecd133288307868813a99759d6aef70681e0e383648c4a90255738ab3",
+        "semantic_sha256": "d8617cca1f9a694e8f8b08dcda51bde23f0d229dd16a5fa010a4fbf5a6ff8aa2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/tools/LastPass.list"
+  ]
+}

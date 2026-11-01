@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:05.195090+00:00",
+  "client": "SingBox",
+  "rule": "DynDNS",
+  "rule_updated_at": "2026-07-26T06:29:13.670119+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DynDNS_source_43a2026cef7636dc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7877b30bc4473d9223b234b0669c882b485fba74fdcbd20a7ab1b16123cb02cb",
+        "bytes_sha256": "0aec3ed08ee03e833ad488611f79b79e8d8fd5a89f40a5bd5d3713196ce67813",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DynDNS_source-srs_05e2beb0da001199.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e5f34e6f7df90bb2018df35bdcc55c0b2d012494d8065f6d172ab51a15bcda22",
+        "bytes_sha256": "ea8ead714f8ee7d78fb6a04862169699a1ad831ef7f7610f8cb6dc88e61e2e62",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DynDNS.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DynDNS.list"
+  ]
+}

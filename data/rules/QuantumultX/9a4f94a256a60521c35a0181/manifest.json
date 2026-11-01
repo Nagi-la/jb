@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:08:48.498221+00:00",
+  "client": "QuantumultX",
+  "rule": "CITIC",
+  "rule_updated_at": "2026-07-26T06:23:15.965191+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CITIC_rules_4a736c9fd24bb343.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "284bf2c2da4e13dfbc3e3b76cf90ff46ba4f7348093f083c5efd12d2c0331c69",
+        "bytes_sha256": "5ad50497cd0b7336a67dec6b9f87267743166d7b620e770970d3db532c76707d",
+        "semantic_sha256": "5e78563f17df47bf4ea439676facd666490f352b9c7f2c79911aeefe89bfb059",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CITIC.list"
+  ]
+}

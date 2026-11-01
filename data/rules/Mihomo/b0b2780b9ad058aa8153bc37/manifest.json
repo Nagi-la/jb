@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:58:34.091031+00:00",
+  "client": "Mihomo",
+  "rule": "Dynu",
+  "rule_updated_at": "2026-07-26T06:29:18.044048+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dynu_classical_43da50d34cc7f72e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c3b8cee3aca46139dc874f1fb34acad6116bac6f0a07b40337fdd7c272819d50",
+        "bytes_sha256": "bfd7246711effc7c93e520a1e8da41a24e019a773a959dd0a1c26fd43a7ea937",
+        "semantic_sha256": "7cf37b1f7a962b8a527ee80617919a1e1362234d869fa8aa869471602a95c0f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dynu_domain_c27d4a3769ee0c16.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "63b9a15ea3c2f55805095ce5f8cb0d65b0cdd79dce6610ddead3ab62133b5e35",
+        "bytes_sha256": "96ba7b660696f5448d829be8439cbfbfb1f017c7bf1bef973071be999d4eaab8",
+        "semantic_sha256": "305897e2b3abe593297bbc9611abbf8a667556e6169afd19b21d942113a25aee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Dynu_domain-mrs_7f2f5044d8300356.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0044a1148d06996a8930953a8b80d00406861cb979be73d3f4ca7d7502716f80",
+        "bytes_sha256": "2278c1e22b0f92b149af963864704aafb6fc36836184fb4489fe3fcd243bfb5b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dynu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dynu.list"
+  ]
+}

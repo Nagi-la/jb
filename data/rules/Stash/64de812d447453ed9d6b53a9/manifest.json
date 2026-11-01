@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:01.956729+00:00",
+  "client": "Stash",
+  "rule": "Anime",
+  "rule_updated_at": "2026-07-26T08:30:24.047816+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anime_classical_d1127d3f14d2bd70.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3c957ddd24b4961d51c669da2999e3919516d6891a33d6f12082f07729114f2",
+        "bytes_sha256": "1e3cac0a9acd1c7d7a30e1d1f1c01aa16b31d5bc3bd14a968e56662df904b349",
+        "semantic_sha256": "4c95134e63dcdf3d085f4e4ba80621f5ae15cca496edc68c720fec8d4b5b8949",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anime_domain_74af460d981796a1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2e871db6e4651a9744cbfaedc062a6225bb5e1e2ddcc1193bb2666b0501b8af3",
+        "bytes_sha256": "ef8edb730f25887860c2ca5534f004feac19063007faf3375fe7483894e60ac7",
+        "semantic_sha256": "ed031ec18cb538ec3e11e001d184ce54a2410aa0343d43fa9e8e345e989e17f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

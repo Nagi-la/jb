@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:57:35.171762+00:00",
+  "client": "Mihomo",
+  "rule": "ZhiYinManKe",
+  "rule_updated_at": "2026-07-26T06:58:49.284890+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZhiYinManKe_classical_7212cbdf73241eeb.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "871101c9ad44cbcabe85e34dcd5e4748e4a2b555f66a6eb903e8751aee3a302d",
+        "bytes_sha256": "5e487a7373e0e2b3e59261367c57c4591db5e77c22d5cdcb36248683ed7a89c6",
+        "semantic_sha256": "2e5aac43720209208a969beec0ded297801f5562afe4361702a9ba1b38bbe25e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZhiYinManKe_domain_6ef615fdbfa23802.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f116f86c9076064a2a1d26c96307ea8e127a0101b61f47249f2ddaedb50a30c3",
+        "bytes_sha256": "4c2676369ac0a9e34717125c5af140f0d3ed7dfd54fc0eefb581f2c4a2d59ce3",
+        "semantic_sha256": "839aca433ceaa8c3f66c68ea22d25f536a16bd831d4162072f3e6a97e1764f69",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ZhiYinManKe_domain-mrs_6f2d8ccec26e2e3a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4dd87789335ba3230c5d323130d622f2ba7b69442bb8f5eff260569c12540df9",
+        "bytes_sha256": "2f4e812a51c81d58dab6bfb66f1de6eb6676c3fe37b58848108fa4bc01bc06f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhiYinManKe.list"
+  ]
+}

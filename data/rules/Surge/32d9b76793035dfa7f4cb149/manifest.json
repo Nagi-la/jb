@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:52.912980+00:00",
+  "client": "Surge",
+  "rule": "ByteDanceAI",
+  "rule_updated_at": "2026-07-26T08:31:39.453794+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ByteDanceAI_rules_dc51146a95bd8244.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6de67d2ba0f908bc7742793b97e79f103a16ca4cef5d02504997d6d05de47ca",
+        "bytes_sha256": "0c0085fce1428f1ef4c64c9c60352b8e71427fe0b54ddb812918eb0627eadb8c",
+        "semantic_sha256": "5ef39a0e36b2d4fb9967b8418ce19d212887103ef586fc7563a6fdcf2f7b5b2b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ByteDanceAI_domain-set_c830d77666f369c4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "063f4b7900d039566aad095a5d979cc462ff54ee50666cc291c129c63231acfd",
+        "bytes_sha256": "63235ce2aee663305f296f599fc31eb86dd3eaeb986575118b29d0d8451c9835",
+        "semantic_sha256": "99bb367309d6ec530b10159e3e9e2644a17a948999c6b784e477e21867fcf75a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

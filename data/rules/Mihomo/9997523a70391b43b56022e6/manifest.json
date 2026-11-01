@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-08-27T01:58:27.237533+00:00",
+  "client": "Mihomo",
+  "rule": "Line",
+  "rule_updated_at": "2026-07-26T06:33:52.958755+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21,
+    "IP-CIDR": 20
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Line_classical_74c30b8c4a9b2e0e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d390f6b3b0e55b8ac9f883dcffa6cbfe3ee52f82ffa1f76c33543dcf40553eda",
+        "bytes_sha256": "4a2bfc4d5bf6d05978c56dd2cb249134d0918ffd83dfca3a126e0deed3d4bfe4",
+        "semantic_sha256": "dbe0756f5d85d9e38637f4ffce0eb8de1069040d56fd5e71d3b201476495cede",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Line_domain_15635c410f28d7a4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72be293591f56f2e6f749cd234095f48ae3d3bdc7fcced52f586f3ca3b38b818",
+        "bytes_sha256": "a18d0ff2a0d369bcd470e7c93a224490d931cde912c760b06941e23e82274e26",
+        "semantic_sha256": "34127f1806ce7b6ab55879487f2f82a1f8a9397e25fff9a749e4c78ba5962f14",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Line_domain-mrs_825f50af92b53c9a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2a6c8bcb74e3afd9602b038f6243a792b4a58a7e87f86866abfb8e4bcbbb85a5",
+        "bytes_sha256": "5b68b66f4facfcee1c5974954a400064d5f2a012c9155ad2e03eba33bd8a9ce5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Line_ipcidr_2b510ce0b192563b.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09af0ae8e0dd267e2aba9c37055a2e23abf2bdb10a87a9b2ad76cfd2fc7cb79d",
+        "bytes_sha256": "59928b5a8128f1f74771e4588c02bea016bfcd95eab2363019f6ff0b868540cd",
+        "semantic_sha256": "9f609c576be48af921a2bef2920255273f73678e6913417d1310f24e334752eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Line_ipcidr-mrs_26e7fa8e75239ed0.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6652d3cb12e52beaec85d00eb4c94e694d230d1a2e0b52542abf32e41f53df36",
+        "bytes_sha256": "7299c9b3907cfcd84626c75eadd9efb35429cb48af33cd6cd0ceceb5fb7b9e47",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Line.list"
+  ]
+}

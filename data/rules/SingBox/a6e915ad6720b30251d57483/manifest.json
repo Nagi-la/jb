@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:26.292065+00:00",
+  "client": "SingBox",
+  "rule": "CaiNiao",
+  "rule_updated_at": "2026-07-26T06:23:44.620334+00:00",
+  "type_counts": {
+    "domain_suffix": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CaiNiao_source_659625d43bdb6242.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b84824fdf762794b827cf029786fcd402491c04c2f06a73ad1887a298549c456",
+        "bytes_sha256": "bf04d50f83452792335b06c6e5d83dff1f4da2b8804c2ed4b3f1123c14f04c82",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CaiNiao_source-srs_9339ddaa7c213245.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a155e356fb8cc1fc65f619195410c2485bc8a0f4c69c863cf1bcdeb874201819",
+        "bytes_sha256": "9463bf2ec2331d4ae492e1080aea56ad22763f947929f3f0aae14fea9dd63e0e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CaiNiao.list"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:56:27.323898+00:00",
+  "client": "QuantumultX",
+  "rule": "QuickConnect",
+  "rule_updated_at": "2026-07-26T07:24:25.290977+00:00",
+  "type_counts": {
+    "HOST": 3,
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QuickConnect_rules_bfc8eeda1f9c7fe5.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "602fe5b698f9fd61ac042b7b5e59a484ba7a708e3357bec39b22c510e6ae84bc",
+        "bytes_sha256": "cbeca5e9fb959b38d020bc9aa3164fce6c7089a155e6c3c5efd502626f516fc8",
+        "semantic_sha256": "d0c3239e0fc01d76cd6af07868fb98eccb060bd1778d1ce068d50aaa952b0818",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "此规则用于使国区群晖强制使用外区的QuickConnect。\r\n\r\n并且在套件中心可安装国区被下架的套件，如Synology Chat。\r\n\r\n此规则主要解决使用外区QuickConnect时，Synology Chat的推送问题。\r\n\r\n并不能帮你通过外区的QuickConnect访问NAS。\r\n\r\n为了远程访问，建议使用国区的QuickConnect以获得更好的连接体验。",
+  "providers": []
+}

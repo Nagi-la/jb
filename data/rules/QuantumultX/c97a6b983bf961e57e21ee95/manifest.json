@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:08:46.634089+00:00",
+  "client": "QuantumultX",
+  "rule": "CSDN",
+  "rule_updated_at": "2026-08-17T01:59:46.630575+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CSDN_rules_f9a65ca2de2727ba.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52dda665ca6382e56d8811ba0b8b794f2e3f5d1c8a88d9455c46198bd6d9c00a",
+        "bytes_sha256": "04645dcc4d2d2ef750327491273ae73a28c7809edee229e539c559ab1855e693",
+        "semantic_sha256": "93b9616e28745116ba979e4a8498cbbacb731ec159823b1b855008c73cc23531",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CSDN.list"
+  ]
+}

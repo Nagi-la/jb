@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:21.908177+00:00",
+  "client": "Stash",
+  "rule": "Anjuke",
+  "rule_updated_at": "2026-07-26T06:47:43.760842+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anjuke_classical_12fdc2aa344f8186.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d821b3a9da2a47a477a11988cf6cdfa946fb4acb087acb114f2e99a7a059b4f",
+        "bytes_sha256": "8a847ef06c65cd9666339ecea8addfe1e7736f4aa7b60c762b157ee45ed44a40",
+        "semantic_sha256": "268a2e2b1cf377bc4054e65a2bf329afeab095b11bae46b80a1d80033a802554",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anjuke_domain_c760e7b669007da4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "566416ee33b9898ab2f9dde935bebd8751ad680ed8f9622544b4ee8b7992ea45",
+        "bytes_sha256": "618b69889a298872bfe57eacc76bd38f7a6275a360c91b18339fb7fc1de6ef8d",
+        "semantic_sha256": "8db61b7f8e6fb1594e4251ecc51c728f58668f89a87784299c7ae8ce9ac06e31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Anjuke.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:11:41.453571+00:00",
+  "client": "Shadowrocket",
+  "rule": "CableTV",
+  "rule_updated_at": "2026-07-26T06:21:29.890847+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CableTV_rules_75de8cbec046f5e5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9ac7aa8b529606af4a810caab7798746ba97e4fa9cdf290443433528396efa33",
+        "bytes_sha256": "b07d81948646ba884fff9940bd82ac56b9d44a8d925af47c4b1dee3db933a49e",
+        "semantic_sha256": "e91da67f0b7dec83cfb9832ec8ae50729e77f60517daf2b0407dc2be55e0b4b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CableTV_domain-set_4bc539a66c0e1185.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6fa630732c8deba2b4240898a3878b9d5455a97d1a4196521cbdf238961932e",
+        "bytes_sha256": "0bae9fc1327d95bde6630190a0d4f95578342d470d235b6fcdff20ab0ca9cdf3",
+        "semantic_sha256": "207c85e3178247b62ae1f4285edc32a6c13ce249cad8e5246dff8d09b79da784",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CableTV.list"
+  ]
+}

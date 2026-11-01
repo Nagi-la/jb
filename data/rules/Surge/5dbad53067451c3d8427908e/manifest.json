@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:49.696798+00:00",
+  "client": "Surge",
+  "rule": "ASUS",
+  "rule_updated_at": "2026-07-26T08:30:39.416554+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ASUS_rules_f7a1d86395e43a52.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a121f98d7ba2ad083241d5bb7ce2613b106c82300dc88fb1060f926d65a334a2",
+        "bytes_sha256": "b86b2af828f3e8a261da093b90b36df0997c07b726df22b8332bf55a06537ebc",
+        "semantic_sha256": "ed9fcfd9fad397e2f79fe206477694d190ffafb961228c8eb5e86d39d848c7b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ASUS_domain-set_afad265f491bb29d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "22db09f41a2be14793d48656e378a66bd9c6fc957ef4da19f9bec79be061bba7",
+        "bytes_sha256": "d7099d067f1954939b3dd21a44279e8facf7b457f9d1521107569822bd6b2f14",
+        "semantic_sha256": "85dc492193387a441c75885530f008ceb8b1f46a3e5b283361dbb42ef2684ed7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

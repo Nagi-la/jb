@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:19:05.041444+00:00",
+  "client": "Egern",
+  "rule": "AppleIntelligence",
+  "rule_updated_at": "2026-08-03T15:32:18.068968+00:00",
+  "type_counts": {
+    "domain_set": 5,
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleIntelligence_rules_b901ea9a765a4281.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f2d2ff4636724c69e45b4348a6365285c883418222130dac73c5977d15223a6",
+        "bytes_sha256": "6445197cb4e9cfe5575ac17e2f43621bca8aa1536b4d158fe9a9f7bb3e7905da",
+        "semantic_sha256": "40927ffbf54f7a7f533cbeefa140d5ac4f7410e000de5f76538c4932ba744249",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

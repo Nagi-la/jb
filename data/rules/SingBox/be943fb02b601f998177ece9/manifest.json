@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:20.702411+00:00",
+  "client": "SingBox",
+  "rule": "KKBOX",
+  "rule_updated_at": "2026-07-26T06:22:15.885470+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KKBOX_source_ec739ccb8d56a360.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4930ac90df358cf6ef182c23b83123aa67cc372b873e7539e814bfd27567cba1",
+        "bytes_sha256": "01956007d732cf2fa38e23691e1f5aa219674720468bb637b0135b6695cdfc6c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KKBOX_source-srs_44bfaf246922754d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e95f6d3559034a501b1fd5dd9cb6a65c65101fc2cc3645f6a5a76fa9b03f4c5e",
+        "bytes_sha256": "eb15ba413a620159c77668da7b3a84235fb83a9655484e7993f7321622432a32",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKBOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/KKBOX.list"
+  ]
+}

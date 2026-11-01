@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:01:15.916307+00:00",
+  "client": "Mihomo",
+  "rule": "Python",
+  "rule_updated_at": "2026-07-26T06:57:08.769842+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Python_classical_9348ae1660d271aa.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c34647a68535e666682fea7e3455ec7bffdee7bb5a54e04f96677bbb0c3124f",
+        "bytes_sha256": "db5332f130611494ba7ba2ab4cae968164b3112ab74ffe1f704739597c895b96",
+        "semantic_sha256": "9c880e8d02db5339ada8db39e9ce7948cfb8203baa28ea172e439fba7421c6c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Python_domain_5ef387a6aba4af5b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3ebcf2975324d4becf56d9a4cf44f4a13bfb32e21d3030d974132411dbf45f3",
+        "bytes_sha256": "7827566adfb72c79651a19927c7a0e103f3102c5dc4c4be49ff37d35d4b658b8",
+        "semantic_sha256": "2e4c4ae5b7b50d1ddead2871dcfbe12d8306a2732f7ad4af0b1090ee4fe81042",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Python_domain-mrs_70eb2707d46f4e7b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "df39e7c6d866a1705e8ad10acc9a4de59fcd8b047b5ed3b1a653c6cb8e384a4e",
+        "bytes_sha256": "ee7ec4d2ccbee38f65222509767257f9211c647a975d62009cdaf7ab60720c4d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Python.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Python.list"
+  ]
+}

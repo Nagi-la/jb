@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:12:31.152562+00:00",
+  "client": "Mihomo",
+  "rule": "Zoho",
+  "rule_updated_at": "2026-07-26T06:56:25.468039+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zoho_classical_82c7ecfe2da995e5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b07dd586417b459410f4bd6afc1a5410fb6c03f5e409dc5cb7a39a9c4353d176",
+        "bytes_sha256": "1ad91a8fe9859110aaa1fad51b5f44410e4e211feee042a5eb01c21f0d43796f",
+        "semantic_sha256": "bd28ab4c578e0e9fcd1e1595d5fbeaef4c3f91e625de17a673454c2911a5d9d6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zoho_domain_5de3eb70ae927278.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a72a78bc284e5f949aae1af434d5f43b5b65df5dbb26674c13f344cb20d23db",
+        "bytes_sha256": "8b92de44c407fa27bc81c5c676ececd33cb72fc4eb5befa1dcefdf0a779eb619",
+        "semantic_sha256": "7fbb7d34d3de00c004d563cd8a263656a31ba0059aabb32057a7d24e4b2747f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Zoho_domain-mrs_93b4f81aca7a918e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "60f8f42694d65587ad9188f577d705f58cbcdb2d32a76cc65a4b8115b2deef60",
+        "bytes_sha256": "308ea47cc7cbacb24d57d790bb97c10b45e4e648e5eb292f3879528ea45293dc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zoho.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zoho.list"
+  ]
+}

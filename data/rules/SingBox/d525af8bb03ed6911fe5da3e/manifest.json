@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:32.989418+00:00",
+  "client": "SingBox",
+  "rule": "BlueArchive",
+  "rule_updated_at": "2026-07-26T08:31:38.313812+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BlueArchive_source_58e3d9b9b0f45c13.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "80b7b391bf9077a8837195a806cb10fa75250efeb0d1f85d707c9105fb382261",
+        "bytes_sha256": "ebe18c4f7d68242e25da2e1515cf2cdefc0832ec4f13f612c99624e5e4227cf8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BlueArchive_source-srs_fb6f903883735aef.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c193502d0f650ed13c44d23fea816e661fe200c33ef3fe8f3df07beae3b79d0a",
+        "bytes_sha256": "59bb78c6ba9bd0f1cac3378c5e8fc08ab82d3f51fec6f841ffb654214445318e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

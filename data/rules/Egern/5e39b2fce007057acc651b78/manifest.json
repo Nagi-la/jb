@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:00:07.323077+00:00",
+  "client": "Egern",
+  "rule": "TencentCloud",
+  "rule_updated_at": "2026-07-26T07:09:45.217142+00:00",
+  "type_counts": {
+    "ip_cidr6_set": 32,
+    "domain_suffix_set": 355,
+    "ip_cidr_set": 2326
+  },
+  "total_line_count": 2713,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentCloud_rules_6b31182a6c92c1c1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bfa6c8cbe66f40cd8b187f737bf009da9569788fbfeb1666c14989b5b24220b7",
+        "bytes_sha256": "f1bcd42a65b2e7c218f8216bce91fdec9d3de7ec9be336f5775a48e237fa92b3",
+        "semantic_sha256": "9164a7dfbe388d92e950ef01c9ee965357234be0cf7b4ad18d014f275aaea292",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/TencentCCC.list"
+  ]
+}

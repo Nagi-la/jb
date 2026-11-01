@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:49.196458+00:00",
+  "client": "SingBox",
+  "rule": "CITIC",
+  "rule_updated_at": "2026-07-26T06:23:21.280505+00:00",
+  "type_counts": {
+    "domain_suffix": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CITIC_source_03e564404a488ce5.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7414da04a5e3172e321e8ca04dd5a89656736ace2a15a9badce50d3ad3f26610",
+        "bytes_sha256": "00d2c05eb3e1ce52bba8e2a6d7cafc2f0d0e2f5699d99296a4066f7efc045977",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CITIC_source-srs_8c9ef93b2b88de2f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "143f196ee7f580198102ffe01c575e6d2e5586dbd4b4ca2c2d10a07dfa63d705",
+        "bytes_sha256": "cebc21adce450b76160ff4939a2da030dbaf70e64b2df75f01cfde038785b881",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CITIC.list"
+  ]
+}

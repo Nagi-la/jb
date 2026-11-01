@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:26.964742+00:00",
+  "client": "Surge",
+  "rule": "SFExpress",
+  "rule_updated_at": "2026-07-26T06:27:55.612316+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SFExpress_rules_e001aea68b0a4d4e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a54a22afc550db539c1dd7ee4d714d3fe44bb8fbc9dd89f731767d67ff57036",
+        "bytes_sha256": "520cade5e684c333c8a4fc1200222db1b36537765fd12d9f4cfd4b8f1474a946",
+        "semantic_sha256": "d2012b39de8c30fea65a66bc003b3dd4d5f90ff1c4985696ee382eb284ef45bd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SFExpress_domain-set_b7a49cf085be8fd7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee1e467dd5436ed05fb6403caea0ca194b958a41fa4191ba62b457dea05ab2d7",
+        "bytes_sha256": "cc6ef86515319d1301080981d55a17f32d5d309b9ec0ab83ee96f562518f1215",
+        "semantic_sha256": "fece1db0f26a91da7c03da8ebc1115ba0c86448f953399f6ee1c505ca596fc2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SF-Express.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:34.298106+00:00",
+  "client": "Loon",
+  "rule": "GovCN",
+  "rule_updated_at": "2026-07-26T07:01:07.421644+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GovCN_rules_df6ee69da5da627d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00bfb3157148d4aead76d0b8f9e9413079a114c098f40061ce67ae8c6fe2c95e",
+        "bytes_sha256": "70cfdb45b314aed27e90c10426c700230b5e0f0f547c8fac315fb0bc170f1ee9",
+        "semantic_sha256": "2596b8880bdfc36b9ea68522c12d03ee1b0a0535ede58e0e870348f1d54552a9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GovCN_domain-set_b9efc5ba5edbc027.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c50992b7303f4021ccd992ccdbb30cdd85b96ce6663db5c0da50acb1ff3ff072",
+        "bytes_sha256": "ac4c7c958c6624fdb1e7809304d8b6361803505cd534ef1fe54677964774b4d2",
+        "semantic_sha256": "ccfa8c9eccc253459db832115ea474fac1c19e92cf3c13851009f293f93f532b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Government-CN.list"
+  ]
+}

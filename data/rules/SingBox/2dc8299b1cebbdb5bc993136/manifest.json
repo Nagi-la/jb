@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:12.735153+00:00",
+  "client": "SingBox",
+  "rule": "Embl",
+  "rule_updated_at": "2026-07-26T06:58:13.312844+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Embl_source_622a53fdf6e30195.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f547b113b5cdf61bb3f40aba15d5112ee4e1aed017c2e40e6dce66e806897256",
+        "bytes_sha256": "17c7676abf1c69aaeae8794b48d6e52f1981f0a8d1859f0b90634983cbac8926",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Embl_source-srs_7c49c8bc5ef88fe0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3f7a90539851fb7f872067327a944be70b74258cf786c8cdaf543d066e9ab052",
+        "bytes_sha256": "026cacc3e51ef9e497e35355969b508e7fa44e73d82e4ca0180b40229c8cdc52",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Embl.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Embl.list"
+  ]
+}

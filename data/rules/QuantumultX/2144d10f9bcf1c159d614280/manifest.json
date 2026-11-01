@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:57:58.775222+00:00",
+  "client": "QuantumultX",
+  "rule": "AmazonPrimeVideo",
+  "rule_updated_at": "2026-07-26T06:21:31.390484+00:00",
+  "type_counts": {
+    "HOST": 5,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 19,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AmazonPrimeVideo_rules_732981d9832821ea.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e82ae1aff6df884e9dfaf3edf39d63c237e1c785325b3e46689b562a832159af",
+        "bytes_sha256": "df4c536c5a37f25330dbf671aa1a37748a73dca61c788b2c86991346d22faf93",
+        "semantic_sha256": "a4a21c06c3c39e1e0dba36aa25a582e5d5939f3157bf7ff179cd2bef62212e61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AmazonPrimeVideo.list"
+  ]
+}

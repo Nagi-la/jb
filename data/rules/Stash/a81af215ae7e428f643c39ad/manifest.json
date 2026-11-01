@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:27.735228+00:00",
+  "client": "Stash",
+  "rule": "Bing",
+  "rule_updated_at": "2026-07-26T07:24:38.929166+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 38,
+    "DOMAIN": 2
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bing_classical_882bef9c77b77af5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32dc275583448d306813ffcaccdbb1220ccde75c0a595a9d9f18e82805e8f597",
+        "bytes_sha256": "b67013170f2c5e7ab4a87881b47a4a54e91a097275a26fcd5ab0df812bf703bd",
+        "semantic_sha256": "bea1c65032a1b0cbec206027679de4c9a5ea01c53f5ad209eb674e31de458f07",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bing_domain_75fc552ffe07a136.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4548d2e3dddeb4deab8831a329c9393315c29f0092e2be1ce7cb5dc5980bbe8c",
+        "bytes_sha256": "5d5c0c931dee2eb48f2a996cc9792d457dd118565f08b667cc35f66f65dea990",
+        "semantic_sha256": "f91cd58d2fba297da385f77f091b8b1e0331fd8bcd0fcdc31e2baf25e2c82df2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

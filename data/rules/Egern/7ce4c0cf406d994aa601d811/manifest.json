@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:03:54.443990+00:00",
+  "client": "Egern",
+  "rule": "GaoDe",
+  "rule_updated_at": "2026-07-26T06:25:10.824357+00:00",
+  "type_counts": {
+    "domain_suffix_set": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GaoDe_rules_4fe66565605d485b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9bcb5ff07bce7e720558db4b68d4ed0582cbb452bdb844813ef4a1d2a06a1e85",
+        "bytes_sha256": "7a83bd143c2707232b30e818b3e10408ee6d7e7054f768b50ec18600e346353b",
+        "semantic_sha256": "f9cd74521c266441c8bbc23736cb0370e00b0f4f3eb00790345eb08a1528e431",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GaoDe.list"
+  ]
+}

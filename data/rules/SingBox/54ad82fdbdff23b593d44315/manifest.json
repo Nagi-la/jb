@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:56.154799+00:00",
+  "client": "SingBox",
+  "rule": "BMW",
+  "rule_updated_at": "2026-07-26T06:31:21.966059+00:00",
+  "type_counts": {
+    "domain_suffix": 730
+  },
+  "total_line_count": 730,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BMW_source_13b60c7f207641bf.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6cadaf86699255c4f2193f729223d2fdf3a142e531c20d9b19f60916a421cd42",
+        "bytes_sha256": "ef5182132f7bff1eb7f6cb8702e309ce0fb3c9ac638bce67eb4b1c7d98549564",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BMW_source-srs_2e10d9a9343916f8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f78aaf38b00638dbf1b8f83ef3096e9153a75cc1af2aad1c0768419e4f0a0524",
+        "bytes_sha256": "6d497a9d88fac683c5f693897f96096ff7d3335d7182d28a22984a8a8ad7ee15",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BMW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BMW.list"
+  ]
+}

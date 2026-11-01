@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:07:26.628221+00:00",
+  "client": "Surge",
+  "rule": "HBOUSA",
+  "rule_updated_at": "2026-07-26T06:30:16.650170+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 42,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOUSA_rules_437791acc3d7d581.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab04680c29c2092bd58453c0f311b9c42f70d549061759de62b45d1dc60c88d5",
+        "bytes_sha256": "91640d6ecda814c593840cbe6b12b962a97d6046c0275eb6800610f24093b34d",
+        "semantic_sha256": "028e16296784af6d540ce133542463c536a25fb89b591be2317e6e59f0ac28d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOUSA_domain-set_96e474afe04a67f1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6551172b2689be0fb20e07a482130fecb78a6f0454677df7a18322e6bc0730f7",
+        "bytes_sha256": "0f6fd6e796779517c6f1962af1d2da94ba764e7c88c58e77235714039e0f5fe6",
+        "semantic_sha256": "4335ea12a3a9d3d5a9451a690e583a4a340550ff78145b094ef3e1e39babae1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOUSA_rule-set_c98db37f9b719da4.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b913a191a2b797ea3560fc47a9e27e61a276905d1ea51c8843857f80717d525",
+        "bytes_sha256": "c9e7a3753a9062139e27b4cdf32354138761a3f2338f4470113f38acb073f8eb",
+        "semantic_sha256": "43f99d742a793d72bc32d7b1371718b750de3ca3387dca96ca0bf15d19553d31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list",
+    "https://raw.githubusercontent.com/luuanng/surge/main/HBOUSA.list"
+  ]
+}

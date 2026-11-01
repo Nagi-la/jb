@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:56:02.981750+00:00",
+  "client": "Egern",
+  "rule": "AkamaiCloud",
+  "rule_updated_at": "2026-07-26T07:14:22.124769+00:00",
+  "type_counts": {
+    "ip_cidr6_set": 150,
+    "ip_cidr_set": 207
+  },
+  "total_line_count": 357,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AkamaiCloud_rules_4c5807eeed2cea2a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de7e99a375895a598a9cc17899e1ea047b940c58107acca4e87f9cecdb7cea2e",
+        "bytes_sha256": "dc2d5583a32d09173c34bb9e2864acbdb90bda24d90e11bf4b524241ce0a8ea3",
+        "semantic_sha256": "fc2876d441272763fc1a604738219ea28be5464ce52760784fe74b0eed49b81e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Akamai.list"
+  ]
+}

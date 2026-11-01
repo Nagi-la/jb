@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:30.758466+00:00",
+  "client": "SingBox",
+  "rule": "TencentVideo",
+  "rule_updated_at": "2026-07-26T06:45:08.128718+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TencentVideo_source_602c49bfdae5a75c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "05f1784818a673ce13fe7cc54d718902c7efae5f10e9048e53c6abf7c08ea100",
+        "bytes_sha256": "6af00c27b737e2899c3f2a176e17d08298f7f0279499c1feecd612fe38d31ad2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TencentVideo_source-srs_d55d2838897fd9fd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3aeff43bee55cacdd97c378c70f59ce6e6988d1c6b5cf8d26d2ce381fe175afc",
+        "bytes_sha256": "597c9be8f15b2af4b84f004d008dee352cef7e93786946093dad49fe18609d14",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list"
+  ]
+}

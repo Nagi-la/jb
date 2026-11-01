@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:19.881238+00:00",
+  "client": "SingBox",
+  "rule": "LuckinCoffee",
+  "rule_updated_at": "2026-07-26T08:33:55.201509+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LuckinCoffee_source_c9a644f5362a233a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "32b341f6588c133bac4a3adec36efc139befd172c0483293922db26e1b96d97c",
+        "bytes_sha256": "f90c6dbd4ece792f2d0e93042ccbf3e991ff128312d05b21717005d4c450c9ae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LuckinCoffee_source-srs_48fb00c37b0e4ea3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9641a2827908cb371c258a87321534f62b2e187cc9f977e2198a0bc735c65e60",
+        "bytes_sha256": "4b71f186a0b9fff5a641025c4f4e571cab1f549a35fc8a639d50572076851ecc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

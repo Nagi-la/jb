@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:01:20.910513+00:00",
+  "client": "Egern",
+  "rule": "NYPost",
+  "rule_updated_at": "2026-07-26T06:22:19.969983+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NYPost_rules_7a7e4d8a1b740302.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a438af11bc04506fa71cdc4d93efab01513971d4067fa5075db0763fc9198956",
+        "bytes_sha256": "169a09d61a1fbdf5d2c5a68f79041343a0d6d0b77ef945b4d916b0d2f8b1ad23",
+        "semantic_sha256": "923c2125de36b0cfa9b16941429c9b0a1a66f6d56b87ce30d4f5d1ee1c6c0622",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYPost.list"
+  ]
+}

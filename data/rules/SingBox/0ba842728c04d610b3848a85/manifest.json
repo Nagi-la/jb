@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:38:27.150447+00:00",
+  "client": "SingBox",
+  "rule": "GoogleDeepMind",
+  "rule_updated_at": "2026-10-29T02:37:20.586732+00:00",
+  "type_counts": {
+    "domain_suffix": 33,
+    "domain": 16
+  },
+  "total_line_count": 49,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GoogleDeepMind_source_e1b0b1b8ff676dcc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6517acf8e44406a669c28fc51fd2b0e25ad54592273845b57906930ac35cbd26",
+        "bytes_sha256": "c1c65b2ada5c8ac62441ab3d59d56a8c82eebd661c7b5edaa1bf39acb0720e33",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GoogleDeepMind_source-srs_a0a66863b4ea2cc3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f020d7597c93dc1bbd8b776643e24d1b2affd77440658f383f6b78143eeeb5b6",
+        "bytes_sha256": "1cec2f93b7999f98ee391a96abfe7efbec5aa0af268f9cc0ab0835bc7e8549f8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

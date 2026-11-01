@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:49.819189+00:00",
+  "client": "SingBox",
+  "rule": "Zee",
+  "rule_updated_at": "2026-07-26T06:56:12.129934+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 22
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Zee_source_91fdb5d1cb0ca348.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "53862ca94e8dc8670b2f0098c8d0fe04b89a1d61298c6403e1046fbf965d1a5e",
+        "bytes_sha256": "b922100380764e191a6aff10eb4fa202cf19a716347242ae078ff1e847f45d8e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Zee_source-srs_c88261100ca667d2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2facf51c2f68c5c95d19e61fae08eab6af472d204ccd1745752c5bff42ffdd31",
+        "bytes_sha256": "6f6e561b88e4fd3bf41342e4741efa5ed3866b111501521a2a73412380ab8895",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zee.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:27.927890+00:00",
+  "client": "Stash",
+  "rule": "QuickConnect",
+  "rule_updated_at": "2026-07-26T07:24:25.672087+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QuickConnect_classical_be9570dae6f20cc6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69e0ac65207a40d5fd96b6b4463b0f868881537b30a4276f721116df58c1064f",
+        "bytes_sha256": "bcb947278898c68b4921ec1abf6ab0f735c46037bdead50a1b401f86bd3a1fd3",
+        "semantic_sha256": "a33a15b50308372477f35d091c1657bad92cd62ffaa6c01aed309cacd9d9602a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QuickConnect_domain_698fdc4b14cce0d5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7db7c9c4016f4a9465eab4d1aa1ea396673891f5d5c2a6d4d970530edc7b8f15",
+        "bytes_sha256": "f2e404b17950530bc5b6718dcee7dbac87a13722a8b81e3c6e893fbb4054dbcc",
+        "semantic_sha256": "7d78e8f4410109133aaf3ba3a96dc2011fbca9d8d060a68292b40f044c899bbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "此规则用于使国区群晖强制使用外区的QuickConnect。\r\n\r\n并且在套件中心可安装国区被下架的套件，如Synology Chat。\r\n\r\n此规则主要解决使用外区QuickConnect时，Synology Chat的推送问题。\r\n\r\n并不能帮你通过外区的QuickConnect访问NAS。\r\n\r\n为了远程访问，建议使用国区的QuickConnect以获得更好的连接体验。",
+  "providers": []
+}

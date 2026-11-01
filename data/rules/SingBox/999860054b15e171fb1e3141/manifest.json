@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:18:31.756698+00:00",
+  "client": "SingBox",
+  "rule": "HBO",
+  "rule_updated_at": "2026-07-26T06:21:56.658186+00:00",
+  "type_counts": {
+    "domain_suffix": 91,
+    "process_name": 1
+  },
+  "total_line_count": 92,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HBO_source_13df07c31d3f4182.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4164e68615b0beff46cb9553f1717e848494a2a20ed2c494807eb511c52ceb86",
+        "bytes_sha256": "8b81d078886ad3c24da36c62553c4e03c9a45ad967a5375811ca6fc2ddc836e1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HBO_source-srs_9e49371dfc23db72.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6e46f2d9a8803a2770172d7814c158e2b36e6719447fb8c79c4a5750326252db",
+        "bytes_sha256": "0b5a1b68f6d65847a0821181c5440889c48cb36d49725761c4a734c9b64b101f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HBO.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

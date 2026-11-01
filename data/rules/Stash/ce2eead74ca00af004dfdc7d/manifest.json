@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:00:38.611932+00:00",
+  "client": "Stash",
+  "rule": "ShenMa",
+  "rule_updated_at": "2026-07-26T06:28:02.464589+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ShenMa_classical_bf426ec173f88997.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd223350e3d37b70da2ba0f125172eec8b54653df31ce3efee35ceeb7f0b0829",
+        "bytes_sha256": "7ab668727ffd7815c903db06d45c22bcb03bfd8056b649ecfcbeeb2c54ec45c4",
+        "semantic_sha256": "3cf4ff12558db4bd0f088c6d60cc0a943e30570e9a73e663768118d11fcc4f0b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ShenMa_domain_df73ef78f76e6e0f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7dba037463b71fad024619f0c5cb6b41e7a2080fca356eef1b9aa2f1b52ff2b9",
+        "bytes_sha256": "4f5fc3e4ce5b37e7102e9bc60ed89490bc8bbdd6b5a65d8fc928be65d6db805c",
+        "semantic_sha256": "89c72c2559a43b541d37b9b5128bacc2899582d593a360bb2697194b33d2a7bd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShenMa.list"
+  ]
+}

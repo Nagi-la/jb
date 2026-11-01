@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:20.858174+00:00",
+  "client": "SingBox",
+  "rule": "AppleDev",
+  "rule_updated_at": "2026-08-07T02:23:04.655115+00:00",
+  "type_counts": {
+    "domain": 15,
+    "domain_suffix": 40
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleDev_source_f36e72f9bd2bd0a7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "847f8be79b63a1b7f41336526f50461c5858957f4a1dec8a99117c0de8255f07",
+        "bytes_sha256": "6fc890c6dc338048c2d5f1a4f4737afc8ecb047229f50822da6e6396f3123125",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleDev_source-srs_41124129a4e20d13.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cdad3fa6f88c16a336aa6698027a5b969660f059ccaa7621e6471d98067b38ff",
+        "bytes_sha256": "062f7be774d91b0f0aa3ce34f9af4c7f2f805bb25158f588ed6fd5768b194fb9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleDev.list"
+  ]
+}

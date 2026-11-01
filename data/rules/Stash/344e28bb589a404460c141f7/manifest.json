@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:37.527648+00:00",
+  "client": "Stash",
+  "rule": "Gog",
+  "rule_updated_at": "2026-07-26T06:32:16.234719+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gog_classical_8bb85f6fb2ab8bec.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b334236967c4e386a84d304bd7c02d7581d5bb3afa944c2ec51097a79b892e0",
+        "bytes_sha256": "67c3643b8f52a61d1a4f80050766d0d7e0d9609ecd9e1bbb476314be884ccb8f",
+        "semantic_sha256": "8ee7213930f3855e837ebc3e1d6182844cba1a03de5859ccc7d1f8be0c16da7f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gog_domain_6ecc9cd6e42def26.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a95916109fc4412683b2777a72b63bb1adba57b8d44cf474a50c32d60f635df",
+        "bytes_sha256": "ce4167fb1cd633e7ac555ff564dfd30d9228630a42c9bea87bc56e753f1cd897",
+        "semantic_sha256": "30ed93508c250a8835b6e23f287d5ffa8336f278152cbba9b65175f2c56fe7db",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-16T14:52:38.080447+00:00",
+  "client": "Surfboard",
+  "rule": "KugouKuwo",
+  "rule_updated_at": "2026-07-26T06:26:33.900122+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31,
+    "IP-CIDR": 91
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KugouKuwo_rules_0a33e6be6b8d8800.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bbf63730da0404c64651a3e5a8f7a01cd19ffabc6dd02d9430d1d94bb42f699a",
+        "bytes_sha256": "c8107e31780723fe87bfa5ff9534890017067f961d97b50328953c29ee4d59f8",
+        "semantic_sha256": "0394cb1cefd9185443778514b3038f1258f7aacdd427d9fe5a081ef856ddef1e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KugouKuwo_domain-set_11f2f8d66d9aee61.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a54d5a9362c8455dd770cad75886497a6060779298b09bec36ee40ca0d0bfe71",
+        "bytes_sha256": "8958849824b348aa48dd40d7777706f04f2173a05becff01b012043187ea31c2",
+        "semantic_sha256": "211e0689afa7aa8455fa8bb82eac2ca34239efd6a6556e1560d238f3ae4ac7ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KugouKuwo_rule-set_e453816bf11e1aa2.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "138b3b5877207761cee1318b247fbbb087840bcce871abce35a795f9cf3b0d20",
+        "bytes_sha256": "433445b54ab2daeb70e49cdecae0d908b1ca4986dc8f2434dbe923825b0f15f2",
+        "semantic_sha256": "5cc26738f9b5f7ee1699fbe7f6d3c9148e8b0195519fc1b26fbe8299297a75d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Kugou%26Kuwo.list"
+  ]
+}

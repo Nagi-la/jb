@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-29T02:37:22.892794+00:00",
+  "client": "QuantumultX",
+  "rule": "AdGuardSDNSFilter",
+  "rule_updated_at": "2026-10-29T02:37:18.942989+00:00",
+  "type_counts": {
+    "HOST": 181,
+    "HOST-SUFFIX": 4
+  },
+  "total_line_count": 185,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilter_rules_94c823ee8670a0e3.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6ded976ba0590c3b77353dc4801c6e61f0570a685704dc9ca0745a4ff150e9c",
+        "bytes_sha256": "b76b9176afb352a421d8e94e2658f50a62d729ac3bea1ec151a7b5210d0e6e8c",
+        "semantic_sha256": "87c2d9040fe32b6b72a9c611e1c230254d393269f0c1046210d7bde0d8159eb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 规则！！\r\n\r\n建议搭配子目录下的Direct进行放行！！\r\n\r\n实验性规则！！谨慎评估后使用！！\r\n\r\n如有异常请反馈！！",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

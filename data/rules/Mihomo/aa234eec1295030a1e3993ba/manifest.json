@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:16:43.596353+00:00",
+  "client": "Mihomo",
+  "rule": "Wikipedia",
+  "rule_updated_at": "2026-07-26T06:37:22.735478+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wikipedia_classical_33d59ab25a8891c6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65057356914743f1063a24901dd4ce0e7e6e91c7a72e913528920aef9fb2d986",
+        "bytes_sha256": "6ead3abb525da3b773f6a6ec074734f3060fa988a1d130763b040243910872cd",
+        "semantic_sha256": "3e34cd7a2ffac918db240e2d6b7afc63ce1a7b7b940cd12b3e50013f3197b163",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wikipedia_domain_8f9434c35566e1a7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7cf317599c632b11b4ba09b7b12063109b748ea8575a99fcc99af0d981993317",
+        "bytes_sha256": "37e76e0a277b9ef58e013955115362f179e0c4e8cd842737965a43e802fb2145",
+        "semantic_sha256": "51aa98400c43d9bec5509d3e978818746ea97ace694bd00595fd0c9f948d1664",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Wikipedia_domain-mrs_91b96e0cc920fcc5.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a5919a5adf433ecb84456a5d8fe57cb2e8ba318ce7538461ee51eec039389d4e",
+        "bytes_sha256": "b893f2559c8ad4128649da09e88fccf10c68af6ca5f3e04b9e2254e5640c007d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wikipedia.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:44.067571+00:00",
+  "client": "Stash",
+  "rule": "PandoraTV",
+  "rule_updated_at": "2026-07-26T06:22:22.467580+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PandoraTV_classical_2f875867bfdae2b5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2823c19103676fc1d45c151a97ac6f81b1e1d20f665ac058cc77f9cae573c347",
+        "bytes_sha256": "0fe3a964b1235e2f9fd7447ad13ea331cad1736938765d925641c361d84d8175",
+        "semantic_sha256": "e50d3d95b47ae248ccce2cc933d992ab7c81a571703368bf1defae6f9ffecca8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PandoraTV_domain_0d0f67b25b61e6f4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "605b12f623eb2823f2a1ec1d4ddc866b1ec5d88562b1033bfd63d2012937b9a5",
+        "bytes_sha256": "6f7dcbdabf33a3d87fc0bdf6a04c8986f5073e7290e8c129dee1282ebca1674b",
+        "semantic_sha256": "52760a138a0b3cef2499da0692854d23fd76db06cfb66ab23983c435ae6bfddf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PandoraTV.list"
+  ]
+}

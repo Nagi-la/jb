@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:56:02.259669+00:00",
+  "client": "Stash",
+  "rule": "Opera",
+  "rule_updated_at": "2026-07-26T06:52:50.342550+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14,
+    "IP-CIDR": 15,
+    "IP-CIDR6": 5
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Opera_classical_88c1de58857bd16f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5ecfe81f2b4e02b1c70ad09ae225b73925ec5fd42b76d648594aca9c4eaaf92",
+        "bytes_sha256": "1e0e11a8cffe088a741ec683fa15fa9f509fd055e8975148d388dcbd0e58d8f6",
+        "semantic_sha256": "3fde33eb1ec5c6353f05bc1befadfb3cabec13f5a6e4e383cdace74760cdf3cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Opera_domain_340af67ce8c47f36.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f664dd10466e5d3bb8b65305cdc06bde750d79810d0546f8af4ef19c19520db4",
+        "bytes_sha256": "2992c42c2b85de205dfbed64805e7a1a141b55d4eaa71b8334b6fcf7c105bd41",
+        "semantic_sha256": "69acace24982c40fd86ab72ab59645438918445c1b3c6dcecedaa2f0c98d1c5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Opera_ipcidr_d05e741efac9f618.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c661b12c154f237d6fabf18a19382d3334958a6051af4d01f744a408a529610b",
+        "bytes_sha256": "0cc1ba4419511dfce510a6e139160914c0f18b3722da5857f25d62728168f961",
+        "semantic_sha256": "67ef2a0a1bda5644c4171e83fdd0e2418f9dd06491b12018eab638672951cf6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Opera.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Opera.list"
+  ]
+}

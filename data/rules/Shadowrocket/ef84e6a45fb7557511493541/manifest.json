@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:06.210397+00:00",
+  "client": "Shadowrocket",
+  "rule": "ChengTongWangPan",
+  "rule_updated_at": "2026-07-26T06:58:14.593957+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChengTongWangPan_rules_2302e0bfeee72248.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d84f168bcd8ae63c57a14aeedf7787dff3fd46ac56a4848d2d2adcad9fceaad",
+        "bytes_sha256": "c19b4f5dc0ac297310d094cfd2928c1cf3cd093674466486c4fc7c4905bf90ab",
+        "semantic_sha256": "17a263b7f2a362352441d7b34a174d5a1a6a98ff1699cd8538b68ae8ea1ca35f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChengTongWangPan_domain-set_de9d0ba2a4ee6c9b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c35cf06376da6bdf0a756781018bea997988f15671e7a8d68141e761f683d0f",
+        "bytes_sha256": "7ce53d2aae208179d93db64be6442136cde2c75086b012b5edc81ba5df2d8b28",
+        "semantic_sha256": "65eb7d1afabe569458310ea6a3656cd88a2722deceb8ea455f01bb2629b40a6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChengTongWangPan.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:09.944537+00:00",
+  "client": "QuantumultX",
+  "rule": "Identrust",
+  "rule_updated_at": "2026-07-26T06:50:28.091083+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Identrust_rules_4246579b0b98522b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccaffe34ecc9c8d169a9575dfc7705a92fbd87b833f3c7ff340565934f6c3c75",
+        "bytes_sha256": "ce493b0962f5781569b0b2b704ecfd480d2e5556893765ff19b687d2e89f5acf",
+        "semantic_sha256": "bb59e8e495dd47bc63d08eb6347c02ad2151a885d56d3175a25d23ff361f1370",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Identrust.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Identrust.list"
+  ]
+}

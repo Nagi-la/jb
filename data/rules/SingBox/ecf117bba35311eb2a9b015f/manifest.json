@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-16T14:29:33.536726+00:00",
+  "client": "SingBox",
+  "rule": "Facebook",
+  "rule_updated_at": "2026-10-09T15:59:08.509878+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_keyword": 2,
+    "domain_suffix": 552,
+    "ip_cidr": 36
+  },
+  "total_line_count": 591,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Facebook_source_f6746caa39b0e5b2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "54369e180bf7d03e68ab2a83c2c2a30df3dca9543846cd71279164c2915c9b79",
+        "bytes_sha256": "affb0f8045c2e90affd1d897b101d79c35dabe417de5ec952e1edbd5624aaa30",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Facebook_source-srs_0e777afa038cd70c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f61576b3908abf656c8a0096bdc1aefbd7fdb1232a1543cbf31c718d8b511908",
+        "bytes_sha256": "f9a9b3a6299c11599ecf253a9e54c12cbcc6fa7847a35cf5e8de7b60dd5697df",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Facebook.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Facebook.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Facebook.list",
+    "https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Meta.list"
+  ]
+}

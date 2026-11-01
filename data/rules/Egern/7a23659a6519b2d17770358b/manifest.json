@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:58:11.884309+00:00",
+  "client": "Egern",
+  "rule": "CIBN",
+  "rule_updated_at": "2026-07-26T06:23:29.448076+00:00",
+  "type_counts": {
+    "domain_suffix_set": 71
+  },
+  "total_line_count": 71,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CIBN_rules_4853950a6dda384d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd0ef27ecb4225126cef31a2bb929650e40d2d7430fe86e6a784d9daa68c783a",
+        "bytes_sha256": "a0822a31a33ec505b9e68a6a126ab0df9e824d233d7c61ec726034f9793ba94a",
+        "semantic_sha256": "dadf6aee0c0c0b30dea5761619e1d3bc193d7a018ce99c39153b57c3e040766c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CIBN.list"
+  ]
+}

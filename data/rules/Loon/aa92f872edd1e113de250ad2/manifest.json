@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:31.922148+00:00",
+  "client": "Loon",
+  "rule": "STUN",
+  "rule_updated_at": "2026-07-26T08:27:56.243552+00:00",
+  "type_counts": {
+    "DOMAIN": 358,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 359,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/STUN_rules_75bd620a0977fdcf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c6cd417a520756c7891df8d6cf7ab041b8ff6614d246b984dc1da0d9ce14aa5",
+        "bytes_sha256": "26360dd0b7da245adfce0498dcca8890d6315393eae675f39b722a5e44ef78a3",
+        "semantic_sha256": "3d1e7e2ca0d8b04c7ecb1a9ca579970cd848df71eeb842f34ffc2f8792bbfb40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/STUN_domain-set_e2d73a0fc30a79c9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "85b61033582a6168cbd62adfadcc4ae31004c9b0f5beceaacac5efc73baa7a78",
+        "bytes_sha256": "f19d0228d8003e37699c1a22135da0f53bd1d9cae5b7d64c3e21dd4837a778aa",
+        "semantic_sha256": "1e09fb34a1425123aa9a090c42612938c1c778bfc2772643a131825b256e05cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

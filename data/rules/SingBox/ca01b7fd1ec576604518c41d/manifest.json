@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:10:23.301853+00:00",
+  "client": "SingBox",
+  "rule": "NTPService",
+  "rule_updated_at": "2026-07-26T07:01:32.378442+00:00",
+  "type_counts": {
+    "domain": 75,
+    "domain_suffix": 126
+  },
+  "total_line_count": 201,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NTPService_source_83c1dc8177678fe0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "081dbe22fcd079479e9ba1f3e7d2c3a4005922ed70749210421424ceb9b80f35",
+        "bytes_sha256": "3df0963b35de3333c09866ff92c17f1e59925df7463399fa1f85d4a7657cc0e7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NTPService_source-srs_b6e8860190136cc7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9eec85f866cf1abda5ff82410e34da338479e0494aa8d9e646d9a66db203389a",
+        "bytes_sha256": "f741c770dd901bc76731d548a2ecf70b699fbba9564cf6299400c69a981ba4b0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
+  ]
+}

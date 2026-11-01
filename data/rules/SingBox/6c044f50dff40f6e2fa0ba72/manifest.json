@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:50.659106+00:00",
+  "client": "SingBox",
+  "rule": "YouZan",
+  "rule_updated_at": "2026-08-01T04:38:17.143619+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/YouZan_source_fac35552d0a2b3e6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "67924d4a17d3aa97720b1cd3d4565a703cef0d93e6dc9b9370972ff41c7a666e",
+        "bytes_sha256": "3fc2f48c86d86f929da2c410ec3890ea25bfddc0551cb2dc3cf5f6071f6afcba",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/YouZan_source-srs_3cd5fbc783a2ba94.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "abcd708e489fdd1b46d760bd938289bde890d76009ad8b0ee40fb32bc6c6fb5f",
+        "bytes_sha256": "301e17ef8706654a226eb34dcea8516e00074e47e750c1671e9d335ff9cf0296",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouZan.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:36.715130+00:00",
+  "client": "SingBox",
+  "rule": "115",
+  "rule_updated_at": "2026-07-26T06:22:38.321769+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/115_source_8e8864d26eb072a3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0bd4976b317d01296dba069bde97ef2b2ed4d47fec2b7e8bc8a22166b122b678",
+        "bytes_sha256": "ca7b7c37fe3dae2400b3e758b7a57ddcae2f6c4d1ec076009f6a350eefd800c6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/115_source-srs_bf22668da301ba4c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c60aa95b0a433f0e64d824e3910a578e136156ff23f0cffac0bb481124cec882",
+        "bytes_sha256": "dfdbf2072978a43c5a294a01058a1986788baf288dd7addba21f683594d902ca",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/115.list"
+  ]
+}

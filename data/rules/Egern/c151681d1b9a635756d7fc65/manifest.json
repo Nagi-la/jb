@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:05:22.649596+00:00",
+  "client": "Egern",
+  "rule": "Faronics",
+  "rule_updated_at": "2026-07-26T06:58:23.332836+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 18
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Faronics_rules_0dbac96e538f1a3c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6eb8160d2e9aa17638b2467d509ea8b8c06db455dd05b8debfc2a193ce7ef53f",
+        "bytes_sha256": "805e4e3add254083ffc2d9705c29d3fabcd1a8fe352c71512c29b2a50e13adc9",
+        "semantic_sha256": "6b959f9cec02f17784963ae828f2762a7b51f69d61e765e7bd7b96fda2c551a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Faronics.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Faronics.list"
+  ]
+}

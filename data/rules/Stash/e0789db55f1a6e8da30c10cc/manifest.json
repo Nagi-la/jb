@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:26.077946+00:00",
+  "client": "Stash",
+  "rule": "Swift",
+  "rule_updated_at": "2026-07-26T08:34:30.816980+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Swift_classical_40354be42c7f6b34.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "41e0c9f8b255af13b0b5b8bda5213377ac116e63c345d1d3844767cb7dd2f93a",
+        "bytes_sha256": "45ff5d477fc85a4d574818433bf4f798846377aa06ead5cf5fef2361709ae0a2",
+        "semantic_sha256": "1936a6501690060fb4a147118961a9a9d62a2390920129561d1dfc031658867d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Swift_domain_f25f3b8ec26e4e6a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cdf2128f342a6003c46846f5a8b15d045e2fb7c5b7752080f3c2cad7c82a540a",
+        "bytes_sha256": "a7a3959acf2c841d90bc308d08d4e5c718b77a520771fcdfe58b853b2e4f8f61",
+        "semantic_sha256": "696d2ee0d23cc3de18adfbea3cb3856876867bd7f179505e35f36a8b0e9e66d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

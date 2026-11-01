@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:21.315918+00:00",
+  "client": "Stash",
+  "rule": "Slack",
+  "rule_updated_at": "2026-07-26T06:54:13.460568+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Slack_classical_e674242c7956c707.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "93f2fe4d49abb879ed68871da66d7d33d6ab5eed7b9517aa11606fdf0495840c",
+        "bytes_sha256": "e78ae27b97edeff14405e2eaf3d6e54fff2ec5b4aa372eb517049834dc47dea7",
+        "semantic_sha256": "e11fcc659cc17dbad6c7574222574771224d2b5fedaad6c1674016bd85f666c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Slack_domain_d22f3289d7511376.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c6930d8c4df6740d4df54d5281e4d2e251c6b2b91e421e6dafee0fe6080a521",
+        "bytes_sha256": "3969186525714f70238eca52bac913d17ee725270806915b636d46eb6d5028a6",
+        "semantic_sha256": "c6c9977ac93a0b88eefb6d084c0e55b0b9b088e992a90ea380ddfde38920b4ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Slack.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Slack.list"
+  ]
+}

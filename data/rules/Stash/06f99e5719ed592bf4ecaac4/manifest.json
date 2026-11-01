@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:11.832317+00:00",
+  "client": "Stash",
+  "rule": "QingCloud",
+  "rule_updated_at": "2026-07-26T06:27:50.028993+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QingCloud_classical_af6f2a8ebd623e22.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18ea63056f0abf7b2f959af7bb10fe01dd48967bdab734a392d3346440aae8c2",
+        "bytes_sha256": "8188fa4c86a1b70227b331ebeba07e9a93d82d6c7fe5a5d88e90663b75556d1c",
+        "semantic_sha256": "5a65dae54a56c9b0f8084d38fe0b664082e83faac87deba19316363d19b02ddc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QingCloud_domain_d2f4df917d130822.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e50ebc6e60f5e68a6157cff5e52de5a565a80c3c8e6d6eab3dccfeccfab4f5e",
+        "bytes_sha256": "1029f265b70b2db5a831ca2831d5dd80683f2b5ece452d51d5ba3ee5e9ae11aa",
+        "semantic_sha256": "b65671b2d577c0319ecf747924edff7b46280e3afbeadbbf1bbc220579a96da3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/QingCloud.list"
+  ]
+}

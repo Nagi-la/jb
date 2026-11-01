@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T02:17:06.695416+00:00",
+  "client": "QuantumultX",
+  "rule": "Download",
+  "rule_updated_at": "2026-07-26T06:23:12.127878+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 5,
+    "HOST-SUFFIX": 1,
+    "URL-REGEX": 8
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Download_rules_9c5e862dacc6f91e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "961fcdbd4402e6cd7aea38f7389865427194b009c35f4fb81fe9a6f7ec998cb4",
+        "bytes_sha256": "a43dd8048a156b0bd76d7a25d635c666c558891c02779bdf65b82f4d80d185b7",
+        "semantic_sha256": "aff2f56629bfc7104a474da0e0eedf2a44c87c38c625c289274e44d96c3a2363",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "snippet",
+      "url": "data/_shared/artifacts/Download_mitm_8c04301e8bf55f35.snippet",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cec764b9138cab8487f83ea94e94d6ab90e8f08ba1c260eebb13c34278190812",
+        "bytes_sha256": "1d1350743e1409760b7ed2bbea0304b7196ac3038d894f5c7bc473c0aad2746e",
+        "semantic_sha256": "62ba826d50010c5a1fe893102cbe0b948d088f5b496c53cb0f4829ac807eb2a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Download.list",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list"
+  ]
+}

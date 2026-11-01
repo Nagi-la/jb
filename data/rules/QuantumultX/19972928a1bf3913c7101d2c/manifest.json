@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:14:22.023352+00:00",
+  "client": "QuantumultX",
+  "rule": "Buypass",
+  "rule_updated_at": "2026-07-26T06:48:16.163625+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Buypass_rules_712fcaabd295e550.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb3bfd2ed41574feb254bb9d4504192c7af9f01af9122268eb16c2b8d7361ee1",
+        "bytes_sha256": "670faa7dce1c2731a4b7f9f5883ab4d93f1d0dcaec005bef5b7a9f337586c9c9",
+        "semantic_sha256": "fd26cc45b3e7e542873b62240c60078e6b617b8f26492d2d63a4720f85dfdae8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Buypass.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Buypass.list"
+  ]
+}

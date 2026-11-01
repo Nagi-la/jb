@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:10:21.006195+00:00",
+  "client": "Mihomo",
+  "rule": "Zhihu",
+  "rule_updated_at": "2026-07-26T07:00:11.579708+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zhihu_classical_9a18393b2929111d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89dfa8b79a51c5f16e22976dee21d48e5b9c7c97af55c7e97abc05208ae3fff0",
+        "bytes_sha256": "f8f6b8fea693aefc0de2046d88c51f78bd1321027de09bbac96103c5c4c4be4a",
+        "semantic_sha256": "5f35ca534520b8526c07f906f1aeec2e1e9c630cffa8302dae2832254fc44a6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zhihu_domain_ef5a95e6f637032c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17fe7b2880d99ff2f0d1a759f6445381a48503a2262df0763b284b26b4c3ebe8",
+        "bytes_sha256": "879b787624ed2243071ee9591e355f43047a658531ec4f833d2f79cc41aba459",
+        "semantic_sha256": "2998eb40760fede3f892e173eba85e1a383035b9db16ae9ad2e24fd9d1d201ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Zhihu_domain-mrs_92da79255d190a73.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "93bd9b2022db1ffcd9f751232454bfe1c64859a769c899bc4a0d5695bb9361ea",
+        "bytes_sha256": "9cda3730cff7a886fb343b09ba733ba621235e363c95287d6e9ed991f4e6e31f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "知乎分流规则，目前只收录部分。\r\n\r\n绝大多数CDN服务器IP地址并未收录，欢迎补充。",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

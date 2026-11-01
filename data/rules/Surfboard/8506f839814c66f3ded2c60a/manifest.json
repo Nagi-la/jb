@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-29T03:13:48.107832+00:00",
+  "client": "Surfboard",
+  "rule": "Spotify",
+  "rule_updated_at": "2026-10-29T02:37:38.445632+00:00",
+  "type_counts": {
+    "DOMAIN": 10,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN-SUFFIX": 23,
+    "IP-CIDR": 1,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Spotify_rules_55a627b7203324a1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3de3d978eaf5146855aa12af727e24550a6333ec850ee2816eede3015b8776ef",
+        "bytes_sha256": "94904483d51cdea54dc4a15106b1f5d9694ea50b41f97b83a1fb2f2142efe228",
+        "semantic_sha256": "3f5d8fe063eef9b33255ceffb14b06d16f1a7a0064663b30404a0afba066568b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Spotify_domain-set_06ffd8b97d3e18dc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40f78d16bd500edf8bfecd22114fbe15af34d6067c4f946bd6516d9460b5c789",
+        "bytes_sha256": "81312997fc82dd9439348b2dee30c0428cc03d7680da9031baab2813fcc4d93a",
+        "semantic_sha256": "e13b2dc43ade1198571d414b3a73bfea780efc270805074b5f6e0e85c922cb15",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Spotify_rule-set_535463a183c18b9d.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aba606ddfbe53393b7c94c1b8e28a6d6b4145d74b8c07448cb0a500bba10bce5",
+        "bytes_sha256": "38058d47147d99464e81607dec237a271953e08afdf159fff24d87c78ab4ebe1",
+        "semantic_sha256": "fb1984ed14fd0e3edcb8a426638857deea705ed1848f0e61710e1f7f1b9e7a80",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list"
+  ]
+}

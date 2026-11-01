@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:15.071238+00:00",
+  "client": "Surfboard",
+  "rule": "Acer",
+  "rule_updated_at": "2026-07-26T06:30:27.779649+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Acer_rules_22baef2128df0cf3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cdf2509642f6edaee93bebfcca97140387d3a63121941d218ac894e35cf6c747",
+        "bytes_sha256": "8385d23e9a1718c5b2a2cc78584d54d2028ba4d830c4d5c25a07b67f60b50641",
+        "semantic_sha256": "1e6445e49da114fd34f03819ddf05fb1f99d4284c35c01abcdb93942b1df9a4c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Acer_domain-set_d12100b3f1e4392e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "713e9059fa89aff7c4374c13b160bd858562f727ad78e71baaeff3a64d27462c",
+        "bytes_sha256": "5b56e61b97aad2af8c0d351d90eb9470adf06bfb877a7ca431d8bb0f7cb83b75",
+        "semantic_sha256": "9aa9191377ac0fff6adf13b2bd06a9596a4f05c8ce548d0c6f6a06e1176afac6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Acer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Acer.list"
+  ]
+}

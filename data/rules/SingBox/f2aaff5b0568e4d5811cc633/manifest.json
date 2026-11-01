@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-16T14:45:04.882805+00:00",
+  "client": "SingBox",
+  "rule": "TencentDev",
+  "rule_updated_at": "2026-10-09T15:59:15.035470+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TencentDev_source_dc9bcda2733a86b7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2fe73a5e19dbfe31287cf418ceffca2d7fbe6711edf06bdcabe74c178a1854d9",
+        "bytes_sha256": "e58422f29c6534c439391a7145e145d764765af1eccba0de49991cc3ca3fe558",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TencentDev_source-srs_fea5b6aa0cbfabe7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0bca953047d344325c1526e3bcbca7fe42511d159a97cf6aa81854e0f2515f62",
+        "bytes_sha256": "75380992f88aeb4ba6b3d8008fe1053e65fcfb7f33217c40d2371e11c0fc848f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

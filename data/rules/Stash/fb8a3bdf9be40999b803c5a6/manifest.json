@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:15:59.572593+00:00",
+  "client": "Stash",
+  "rule": "CWSeed",
+  "rule_updated_at": "2026-07-26T06:58:16.010426+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CWSeed_classical_a23cab26e9653eb8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c6c5df996b8e8d08ea17b460428f53e5eb18d7740fc3bfec2ed9128f20c7f9e",
+        "bytes_sha256": "2109c32c12a967040d05d6bb1cb1e326ce884867b0c027ec76f516a03657d8a3",
+        "semantic_sha256": "73b635e74ac3fa9557b930c98fcda9347c0ca97a775d813c9e27f78d166ae18a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CWSeed_domain_ddfe79a6805e3975.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51e6ee733a29c52a8ec409a158694908eec89b948cb93bb5eb5169a6908724da",
+        "bytes_sha256": "0f45830a51c772d04dbb7ea035972b7d52ba096109710b70b397c9098609915b",
+        "semantic_sha256": "b4e47075c9bc7c3487270a3e06f708f9441635a99d58c9bebd87f03cf6c48634",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CWSeed_classical-rest_2d215ddef13484f2.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c3ef8abfa32e2901f1de09aa12f584ea90eb3073de1dd2853ac4a08b4996d0b",
+        "bytes_sha256": "fd53044b0fd047685a497b314aa525bd469976f8742fe6e9f8f63545770ee87e",
+        "semantic_sha256": "d7a9e27f360a646feaabd861795bdad5b46e0f3aadbf4b22b4c76d42da76f1a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CWSeed.list"
+  ]
+}

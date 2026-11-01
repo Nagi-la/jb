@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:13:19.817988+00:00",
+  "client": "QuantumultX",
+  "rule": "Windy",
+  "rule_updated_at": "2026-07-26T08:34:53.903753+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Windy_rules_d471e568665e0622.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3209ac006e6115f01164db15ee5659ddaaf90c2eefc3327a96a000fda741b901",
+        "bytes_sha256": "54f403504cde0f395d57062335d7dfeb3800c76899d622496a11451e5cb977ab",
+        "semantic_sha256": "f6af424fb4e93553e0fd06e79988971d2728374eb65eb05537201c18e5d610ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

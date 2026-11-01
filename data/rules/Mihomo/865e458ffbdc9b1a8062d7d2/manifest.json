@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:58:12.440385+00:00",
+  "client": "Mihomo",
+  "rule": "CIBN",
+  "rule_updated_at": "2026-07-26T06:23:30.937252+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 71
+  },
+  "total_line_count": 71,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CIBN_classical_27c1878f4fe85c66.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5e324ee028d277fafacfda09a05aafe65ed6f45202312b49a28f5cf7cc696aba",
+        "bytes_sha256": "49e0ac65ecdbc0eaddb36a7355569d49cccb04fc0fe7f478ae603978d549f5b8",
+        "semantic_sha256": "2e72be2c62cd9e13e3b743616bd5764ab2fae183cf542f2d97e69772922e372c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CIBN_domain_8630a5ac64e88d72.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "93306eceefbe381ffc7db66f349373e6b776d99376eadc3b7df90c0ce61fafa7",
+        "bytes_sha256": "51aa749d87f3793284b7e25417f668045feec91c3fe5153c8e3fd40a930a7422",
+        "semantic_sha256": "070ab29fc8d1b25cf9abe2712128f46dceced3e8fbb272e7fcf5d546affd91c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CIBN_domain-mrs_0d5f9f88a6598618.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2bbefbf57b5877e8875d3521efae715bc6704615f54234adc94e662d6049f2b0",
+        "bytes_sha256": "9cf29cb3376b3e5eb5bafc80da09f1d6b03fa078c4341ad8395b4cab0931d944",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CIBN.list"
+  ]
+}

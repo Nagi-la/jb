@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-29T01:52:49.962769+00:00",
+  "client": "SingBox",
+  "rule": "OpenAI",
+  "rule_updated_at": "2026-10-29T01:51:38.457035+00:00",
+  "type_counts": {
+    "domain": 12,
+    "domain_keyword": 4,
+    "domain_suffix": 32,
+    "ip_cidr": 4,
+    "process_name": 7
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OpenAI_source_131d6e08eaf7c616.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3b035a5dc4b3464cf1644a197407d10405e0849cca571bacac399c26c331a215",
+        "bytes_sha256": "15dfcc84969d4bcfcf5dc1e6dfc50c0f5b1af3d7770f549854440831db5a29ff",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OpenAI_source-srs_e0f76be21c270020.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4f063727a1be0563986ca90c1ff24caa7c1c70693aff2160928d00559786d3b9",
+        "bytes_sha256": "c3e83579d1d122a3b745a27a8ddc486f494bb32ac56555bac1456f493a1b89c9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/openai.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/OpenAI.yaml"
+  ]
+}

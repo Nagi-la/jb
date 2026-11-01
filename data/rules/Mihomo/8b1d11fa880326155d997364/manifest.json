@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:13:21.738001+00:00",
+  "client": "Mihomo",
+  "rule": "Dailymotion",
+  "rule_updated_at": "2026-07-26T06:21:42.606783+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dailymotion_classical_e400a7e8d7eb47d2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c109cd5ff0d7be6b2532f38807e3026fd38ebb91b987605f07f63433b9d9922",
+        "bytes_sha256": "3f32e635b79634aa06ce74b36cb5fc8f5721d72fb327015bd00cd98d50260de0",
+        "semantic_sha256": "8ce4b6aeb94fb29a01dd5ea1f1ede3d4528e6c7efce54aa29c39bcd12cbcff2e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dailymotion_domain_b6ca6b43fef0d219.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "598a0ec697e3f8af9fc9233663f21452f8e8546615b602bb7d92513b0dfe58c1",
+        "bytes_sha256": "139f87829cc98ef195cbb8718c8dcd01b63c580cde8bfaa169913874fd9e6d6e",
+        "semantic_sha256": "f665bf59f6898fb3785bb4ee0d5505a5e4661a2df8a2ad5aeaa8c8b033c63ddf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Dailymotion_domain-mrs_71091b9358d2f092.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f45f250ff7a21c03648afef126e3f73d309aba41c21a5d83e7ec939e22142775",
+        "bytes_sha256": "523a07d2d12cf93f011de85934065bc9a41a7157acf04e5cdee7898d06be22bd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Dailymotion.list"
+  ]
+}

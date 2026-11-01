@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:01:23.172392+00:00",
+  "client": "Mihomo",
+  "rule": "Tumblr",
+  "rule_updated_at": "2026-07-26T06:54:44.308489+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tumblr_classical_fe735405830ff984.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7281e6cd28ff87f6b87e8ed6a527cb8eb7d8143be137156b7ca0273bb784a1a",
+        "bytes_sha256": "dd4ace657f90c7556142ffa7baa7c9c23dddb7af0d36af429a0d880adf1489c9",
+        "semantic_sha256": "ab01fb7a06a0687189aa619496715591d066dfaa7147f37f6908706fc680bf31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tumblr_domain_a127d0be7753075e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "92a1342cfef4bf7249b07dfac1660535ee947ff5259af86008d9161d227b51ac",
+        "bytes_sha256": "5fcebe6335ebd766d88868d924a88d6a821e350eda15fe82b624744f54736aa8",
+        "semantic_sha256": "35fa2fb3bf47504ea55221ef1c7e30ca46e1d0cf0d707e44a467148c97887f42",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Tumblr_domain-mrs_3c3274ca65a6b3e7.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a4d5932a523d67420ebd67fc4f62d94aa11f3e9e104298bef410360264442404",
+        "bytes_sha256": "569c6ca4a3e7bbacf47468e3996c1c69094fe7b4e477a63d016df070d0f1a088",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tumblr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tumblr.list"
+  ]
+}

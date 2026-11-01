@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:14:30.512084+00:00",
+  "client": "QuantumultX",
+  "rule": "All4",
+  "rule_updated_at": "2026-07-26T06:21:23.432215+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/All4_rules_c1ea46b969bf0076.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ade430523612e0456fbe6a316127112a56f4604f6b7813f885da45aabf849a93",
+        "bytes_sha256": "01deed25ff0312e6e34ad9bc2d5c87f8db4953e3c23f767a2d47fc038c70ec28",
+        "semantic_sha256": "a0be38079ae4d408c9708bacc77844b6ba0d0b6b8d06f052b4ff4900b8ba9cae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/All4.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/All4.list"
+  ]
+}

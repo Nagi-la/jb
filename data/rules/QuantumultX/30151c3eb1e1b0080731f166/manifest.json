@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-08-27T02:12:58.975544+00:00",
+  "client": "QuantumultX",
+  "rule": "iQIYI",
+  "rule_updated_at": "2026-07-26T06:45:59.031979+00:00",
+  "type_counts": {
+    "IP-CIDR": 23,
+    "HOST-SUFFIX": 47,
+    "HOST-KEYWORD": 1,
+    "HOST": 4,
+    "USER-AGENT": 6
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iQIYI_rules_3c9494ad00352fe5.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75f566547160c6cd8ad26626ae3bf4b58004e22df1b4ff4b1e16b9e1fee1e45f",
+        "bytes_sha256": "f78b5dc809b27ee2fd4aebaaebef2c26dde4dc4263b2b927f0cf245623065479",
+        "semantic_sha256": "be2136ebc5297b8fe25e9c79c9296bd0dd414c0283cd5c6dd9217b067c85aa32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iqiyi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list"
+  ]
+}

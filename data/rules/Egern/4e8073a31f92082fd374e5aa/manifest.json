@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:11.786889+00:00",
+  "client": "Egern",
+  "rule": "UnionPay",
+  "rule_updated_at": "2026-07-26T06:28:38.901894+00:00",
+  "type_counts": {
+    "domain_suffix_set": 53
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UnionPay_rules_6f122163b9212a87.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc79a8d3335e64fa2aff0edf0c5ee230c9aedd37a527cec1be1aef343b5738e6",
+        "bytes_sha256": "4472a3e43693dcd5284dba9e9d4726251d8ab4da00e5e1ae1b1fb20b7241b91b",
+        "semantic_sha256": "f5bc9f8aaced00acc0e9b58dae1314b18fa9c039b8a8871ba84059bdd1fe6d52",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UnionPay.list"
+  ]
+}

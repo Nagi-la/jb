@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:06:33.189050+00:00",
+  "client": "Mihomo",
+  "rule": "AppleCDN",
+  "rule_updated_at": "2026-07-26T07:36:48.870340+00:00",
+  "type_counts": {
+    "DOMAIN": 20,
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleCDN_classical_87094935172240d5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8e6369579207768a610b88046e16862900d379f81db2bc6d84409f356e5411e",
+        "bytes_sha256": "4dc9ba6d4c30685afe2691f1995a2e958cb04cc0fae40039e2b119b0276654ad",
+        "semantic_sha256": "a56a5577a9524d79506316270790adb75383c64dd4318b2f6f8a4da7ddadfa97",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleCDN_domain_d49152442c2600ef.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f8cfa72829e03323cab14b82d8a96ba55434575169168309416ae2f2418b25f",
+        "bytes_sha256": "c66a2a48d34df4975d59dedeffa3bc071b1f78d2a20e4a3075ab953f789f02d4",
+        "semantic_sha256": "9fecf0c44c776fecf401daeb0ccffab320e3271650640d0de5e23a83d46a5255",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppleCDN_domain-mrs_748ea516c41dcf5e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "deb92cfcee0a8f586995b1072237e5f6254136e9b26d7352002bd00b81398344",
+        "bytes_sha256": "0da903624c543ffa512261c5c427760a1ac9d656da10449bae4a8d6cef14b07d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/cdn-domain.list"
+  ]
+}

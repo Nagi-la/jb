@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:58:27.680574+00:00",
+  "client": "SingBox",
+  "rule": "Line",
+  "rule_updated_at": "2026-07-26T06:33:50.278552+00:00",
+  "type_counts": {
+    "domain_suffix": 21,
+    "ip_cidr": 20
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Line_source_9046e11817c26de2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fcb65796afc98a4c256a59ec512ff0653d710025c3b9f0e07477b022e4d43430",
+        "bytes_sha256": "3488460ac3a2e2a1903601e0403122cd78559d6566ec6811c48a06c70b6da65b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Line_source-srs_9f76a96c9e772f71.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "85439a04681093db27dcda4090f96b51fdef9c69ff21cb317efe14eac1ef7045",
+        "bytes_sha256": "8d08f9f9603540cfe753ec691714d20486f0c69934880787a83a53c65291b00c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Line.list"
+  ]
+}

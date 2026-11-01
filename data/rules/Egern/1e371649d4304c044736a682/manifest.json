@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:07:07.360112+00:00",
+  "client": "Egern",
+  "rule": "Gettyimages",
+  "rule_updated_at": "2026-07-26T06:29:21.506573+00:00",
+  "type_counts": {
+    "domain_suffix_set": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gettyimages_rules_4d4289bcfdabe631.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f267fb661f404900df2fef8371ed8b864d7fc035ba615c61054e1b841841831c",
+        "bytes_sha256": "ea124fda1c1bf2fefdd6d7a852327c4f22a122693587edf6c3055158e6c9fe1b",
+        "semantic_sha256": "563d3aa74858549ea00fa52645f2a1dc0e12acc7414f784ee75d71742dfc110e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gettyimages.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gettyimages.list"
+  ]
+}

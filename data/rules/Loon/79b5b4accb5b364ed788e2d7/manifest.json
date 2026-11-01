@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:21.815506+00:00",
+  "client": "Loon",
+  "rule": "DiDi",
+  "rule_updated_at": "2026-07-26T06:38:20.791379+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DiDi_rules_9840448bf9a15da8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5dc5f9f3d4525dd0b8c176e2ba897e3c7c2d04218ada573179769a44ac39f908",
+        "bytes_sha256": "5e879757969999aedb489835f7bd8d897f3e2771931a455136a2fa7de77d37e2",
+        "semantic_sha256": "d8c0e4ce9b17c3a600b1d9822e965ae04392266c1de54ab3f3edf74b928b2097",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DiDi_domain-set_b47d608bd8ae0be1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9e7e83c56e35e7d34acb7c1a1a678d43a555dcc94db8d1c0d49a459de821ee4",
+        "bytes_sha256": "33242dfa075b9ccda96efa1311b3420ab68eb312b0b74c1d508b622d7e73c5bd",
+        "semantic_sha256": "10cd2f6f83c840bb019762f1e878cb63a34cfd270c3453bf0b36a0dc5fe7ab48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiDi.list"
+  ]
+}

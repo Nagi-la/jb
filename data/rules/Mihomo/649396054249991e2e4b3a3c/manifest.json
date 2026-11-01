@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:19:19.702375+00:00",
+  "client": "Mihomo",
+  "rule": "SmarTone",
+  "rule_updated_at": "2026-07-26T06:54:26.123973+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SmarTone_classical_d1c8ef0797345e49.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bfe1bb55a6e0d0aa5ed32148ddab0c691390391a3a8152efe843ba61de3064a5",
+        "bytes_sha256": "a5835059cc97f7ca671779d38813c63fd53ec31cfca24fc6db3267c2f3b581e5",
+        "semantic_sha256": "722a00b783a67cb634727afb37cd952927773da8689b34a08c8e63522edb97a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SmarTone_domain_55eb3094badcca40.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc24a38a9fbed6dbeea28449b43e01aea1372c094d3217c67a1b68a5b64f4a8d",
+        "bytes_sha256": "fd36b8c634decac884b2e126233a99607188d8ab9ffaff38484f353f5d11d0c2",
+        "semantic_sha256": "9ee9414e2e175a511946bcfbdd23a7f263da051dffbf8f5664b998713644cdd5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/SmarTone_domain-mrs_3bd64a0a95717587.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "35711406df8c37b27e0e438e802497439c5281f390763673f39d9fe43cf050bb",
+        "bytes_sha256": "123f3d00582133ccee4b6f2821ba2e8fcdaf309f62e5afd69b8b89a9e8e00c72",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SmarTone.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SmarTone.list"
+  ]
+}

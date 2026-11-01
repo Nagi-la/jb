@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:34.143316+00:00",
+  "client": "SingBox",
+  "rule": "MeiTuan",
+  "rule_updated_at": "2026-07-26T06:27:02.268456+00:00",
+  "type_counts": {
+    "domain_suffix": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MeiTuan_source_e811316bfdb46917.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6a5cab23f16b5e8ddd0f386618d7d440de429d28488450c0e7ffc03b670ced77",
+        "bytes_sha256": "75b9a8b9cce6cf4b26d068746d8586653baa6f9a06d3bf7d183422defd2a5021",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MeiTuan_source-srs_5a9cd33446403887.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c3d4af705a36b9bd54e864366592decafda5266151b6a41ee59fd52e447a9e1d",
+        "bytes_sha256": "93f06a86360899b347e4e92ccfce28da77099b81fa91bdcbc7143d70c236b30a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MeiTuan.list"
+  ]
+}

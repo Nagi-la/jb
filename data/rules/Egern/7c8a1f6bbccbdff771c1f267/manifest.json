@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:08:15.317676+00:00",
+  "client": "Egern",
+  "rule": "51Job",
+  "rule_updated_at": "2026-07-26T06:46:31.216912+00:00",
+  "type_counts": {
+    "domain_suffix_set": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/51Job_rules_3a583683826b0979.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3028e8421229a777857c324875d2ffb2518622e8bdcdbeb691620b488030bd4f",
+        "bytes_sha256": "9d77b39453dad3a854c207549a821c2c29ae3717a9b7ddccc36bcf387e87ab57",
+        "semantic_sha256": "cb3d0ac46fcc09a7b9f8e173d2617a861590fe727decd2272d02da434ebbef72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/51Job.list"
+  ]
+}

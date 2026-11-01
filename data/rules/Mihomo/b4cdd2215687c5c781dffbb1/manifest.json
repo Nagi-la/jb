@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:04:22.186776+00:00",
+  "client": "Mihomo",
+  "rule": "BrightCove",
+  "rule_updated_at": "2026-07-26T06:31:02.718945+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BrightCove_classical_d21829fb0c344a56.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7bc814206cd53a249a20453918e8a1cbe0fa43a366b3c81586a863d45352f662",
+        "bytes_sha256": "b22e10933fdeb4225d2b6c59ac836d35b4aa8a06e246551f4a63ef5d5efc504c",
+        "semantic_sha256": "9a56d49a7217bffe072b6b30efd8eeaab4df6af2fa56fba56f0a46977bbd5c06",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BrightCove_domain_ca6a1b224c089c3c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a6b072e70f9d4891245348b8ebd72dda24aab4bd81d9e9dfdd6629452d8f8eaa",
+        "bytes_sha256": "8dd226e4923d379a8d54eded6334909a922766d37c8fe4a15c90fe9eef72c3cc",
+        "semantic_sha256": "dccc2c57e6d58c87e0f3a469b0aebcfcee450f2523cc42a73c88b3fb94242ed8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BrightCove_domain-mrs_e36fdee7428fc072.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7859625b40348db800f4d752289e03f92c5a3a4a528ce63e08a3d8065dc6f975",
+        "bytes_sha256": "69ae7308abe3d04f11e8e0fed215c4ea63893f539c52d4179c7847a35bf609f4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BrightCove.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list"
+  ]
+}

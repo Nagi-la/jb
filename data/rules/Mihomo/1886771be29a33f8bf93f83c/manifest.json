@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:09:10.630900+00:00",
+  "client": "Mihomo",
+  "rule": "HanYi",
+  "rule_updated_at": "2026-07-26T06:25:21.126887+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HanYi_classical_ecd49eeb84293162.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b46ff747e56888eff3127075cb0e5aa0fdd4d1fa860b96116d799cbecc31e41b",
+        "bytes_sha256": "01ce8631684c9776035a13ce48c0e557f0af46ce2a2ef5bd43a9d65b44e62f34",
+        "semantic_sha256": "9d0f79f7557d4d08d751380207641efc9c63440bfa632e7db7ab354d46e0f5f7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HanYi_domain_9f235d23618d6388.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a2aea290e61ff4cad336663ea43970c7d4a3676a29f119014264f0a9b3e8f4b",
+        "bytes_sha256": "5c7c87c8b857aa2d6ad2b1ba19a00f880156870b1c4ecd4c64e9415f406deaf2",
+        "semantic_sha256": "e59422dd59d2a4049d1c680f8150c67a5de45f9bf1fd1e7dadf52e3a6f444609",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HanYi_domain-mrs_f7a2baa34ce4ba58.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0019eb03155b94dd5e4ed9bc9910ed9e8908f9cc065e78e4a14cd0f95ae4579",
+        "bytes_sha256": "c4b8b070b34c3d5fa2ae60a8dd1944cd7d8c7d1de021368d7bf3a6ba3a5fb652",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HanYi.list"
+  ]
+}

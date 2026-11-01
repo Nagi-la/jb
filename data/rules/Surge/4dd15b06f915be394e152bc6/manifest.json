@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:25.127280+00:00",
+  "client": "Surge",
+  "rule": "ThomsonReuters",
+  "rule_updated_at": "2026-07-26T06:54:36.194147+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ThomsonReuters_rules_3767dcd676f3cc00.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd40e0ca8251b631cc67dc6607514dff5a2721c94960847f035c55b4c1413f44",
+        "bytes_sha256": "117ca79a3dcb9cf4cef131b63c4b1323b9b5e2cd6cc90a2f4de2f02262fce548",
+        "semantic_sha256": "1b75508e82a0e9dee04073eb0c3751a5bf832a1c9a4482959dde52f1cb857101",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ThomsonReuters_domain-set_9920734af9c13e9d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc2846e9ed79effc2a7cd6375e18f3039926b7e5474585045462fa6dc01cbb39",
+        "bytes_sha256": "d3f07224a52a72d8d8ff9797c0eb8bb27f36a326a967cccad388601c25c5d748",
+        "semantic_sha256": "7d8e7cee34a0caacb047520ff7309cd5d186a7333d125119e9481485898427c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/ThomsonReuters.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/ThomsonReuters.list"
+  ]
+}

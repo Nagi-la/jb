@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:48.944483+00:00",
+  "client": "Loon",
+  "rule": "Scaleflex",
+  "rule_updated_at": "2026-07-26T06:58:09.635170+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Scaleflex_rules_f88f5fb397077bc3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dfa7095c541c9024061997beebddc86316e9ed93648b2d444a62b7af27e6c95b",
+        "bytes_sha256": "f63888297150bbe3032b5b9ecd8a4254a7c67c9492ea72733340717f4199c91b",
+        "semantic_sha256": "5cd94091e055c9b497b8ed166e900836e34e93473c31c1f1005e3ce270c3f7d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Scaleflex_domain-set_b0e31bfa4bc04706.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d1acbb2cfc87260b9d91359361614f78a0ccfdde88655b7a717ba71593134acc",
+        "bytes_sha256": "fc022f7e5b8b191e2d8ac6453cc7ef318e90ac1a2f5ba3138efe1df06aecf187",
+        "semantic_sha256": "9f8bce5191964a380b6d1d8193cd60caf1958db9ff78aec49379d52037d38864",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scaleflex.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scaleflex.list"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-08-27T02:01:19.785266+00:00",
+  "client": "Mihomo",
+  "rule": "Epic",
+  "rule_updated_at": "2026-08-07T02:23:06.675007+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Epic_classical_899d9a5ec8b0bd8b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47301397b0c5780a9e618bf7390ef1832b459aa23c6516642d60e146c08388e8",
+        "bytes_sha256": "36cf0ef3be0e9a7341002a72b5fc536c970698039d1527ac2c4e56a654e496ba",
+        "semantic_sha256": "728676a0f4fc0dbdbb8c2e97a4573b5cb0a1058eb350f00cad24ef0e93c8b3c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Epic_domain_07624a49c5e65d33.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "400bb592bd0abecbcad443613e6c3bce164a4c5d7a48661d47e95ea0d55449e6",
+        "bytes_sha256": "672c09dd632e3654c9397606229dbc80a76e8f18b47f06c78563fa65c6e08103",
+        "semantic_sha256": "112afd72600ef5e8aeecb7a0dc915e08de27348394ac0d4468e7e818f3c470c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Epic_domain-mrs_d4b78cc91b3bbcd5.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ada0c942ac3824dc334a0b42c243614999c4fe03ac45a4dd22b9cc5afbe0635f",
+        "bytes_sha256": "6aedcaeddad1bbeeacd341e269eea867dc1937f483073dbb3864ee64c4c2c9b5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Epic_classical-rest_431ed5f6420f81a8.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f650f675b88b32cc61dd312e5051c1ef22839dcdf4278128c1eaf03a86215be9",
+        "bytes_sha256": "6b8721fdd7dbb22b583745e201f5437706eaf8bc27919d327791948aea0fd433",
+        "semantic_sha256": "15d27f161177ed8bcaf4ac5c05e14402fb84f6542760a8aac6ba8606497b8250",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Epicgames.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/Epic.list"
+  ]
+}

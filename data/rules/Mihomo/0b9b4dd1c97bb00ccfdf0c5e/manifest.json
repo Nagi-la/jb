@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:03:44.099596+00:00",
+  "client": "Mihomo",
+  "rule": "FeiZhu",
+  "rule_updated_at": "2026-07-26T06:25:01.544121+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FeiZhu_classical_73eab68741b714b0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e2cac7824835cc9a6e6a93ad7472e3eb7cf104dce01aac860f380c5fd58d4d8",
+        "bytes_sha256": "ee99444844155e828e7edf76064232fe090a35300d864145fcd23dcc2b7c7ff4",
+        "semantic_sha256": "d7fabc9513e9c0bf2939aaafb7994d61183e4dc4c9c93e04f3c3287a07d8e647",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FeiZhu_domain_00ba5419428e917c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b8925e07642b722274ec3478bd4584e24d505f7d60316babb5136f27806a3a55",
+        "bytes_sha256": "58af8cc74e9ad168916685fd4a52433c67f0863fd1d3f8079b1c7066ff4048e3",
+        "semantic_sha256": "dc0f44dc076019e1c3d67369323f6f47c736d4aa31883ecad21ad11ff9499057",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/FeiZhu_domain-mrs_1c746be2f634930c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5be5c9abfceef4dfeea4963df285877757988ffb0b097a9090c03815d2bc307a",
+        "bytes_sha256": "f151e1cae6ce56a52efccb3302e4c0b6f7d666d4e382093a7ef4125f2ede9bcf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FeiZhu.list"
+  ]
+}

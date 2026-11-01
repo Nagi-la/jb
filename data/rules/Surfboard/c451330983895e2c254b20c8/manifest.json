@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:07.624255+00:00",
+  "client": "Surfboard",
+  "rule": "Verisign",
+  "rule_updated_at": "2026-07-26T06:55:27.112471+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Verisign_rules_d37697a3dcc8050d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30789412aaec1d15c3d29ba1fe9dbad92ca32f2535a6b4bbc481f7e36e48d55c",
+        "bytes_sha256": "2fa3afba4cd4468bef315350a95763ab67af3a32684dce24e4d738cead68c9f5",
+        "semantic_sha256": "a0761b58527091f72336a935c70847b0c68e865722209d231b665df221f8e36d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Verisign_domain-set_046405204f0cb774.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b8fa222daa4c66c2672107b7e8851ccd7a06bdafe2d6c8235a07970133ad352",
+        "bytes_sha256": "c93028b981185cacd434115542411e83978d10cf5b7b63c40a7425cec3223e43",
+        "semantic_sha256": "6934810b107470d4d353133e545997b0502baac6e2df53d99b9a0c666ee24799",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verisign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verisign.list"
+  ]
+}

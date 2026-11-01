@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-08-27T01:59:33.246455+00:00",
+  "client": "Mihomo",
+  "rule": "NetEaseMusic",
+  "rule_updated_at": "2026-08-10T09:41:21.267661+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 13,
+    "IP-CIDR": 35
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEaseMusic_classical_3936a4112b52e5e8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a47237bd73ca70be60dfc36d4bfdac3a473c5bc37e1980a250abb5190651010a",
+        "bytes_sha256": "fd4ef9074b2ca86f5ba980505e1d872d1f09225a77c92e30b0e2e65911f69cdd",
+        "semantic_sha256": "450af1a4bfcf417a14e1b180b88bf279f8a063e5c235c888357c047131a6a36b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEaseMusic_domain_6df873ceb761d177.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46b7dc7f93448b3e80c0245b3fc1827ae698e845a680321d5ea04515bac7e3a5",
+        "bytes_sha256": "94bb705b0c27ef1684ba6697aeaefaa6594025670c99b4860ab94ff7890ccf46",
+        "semantic_sha256": "a1be1fc4f57a04f58f542da471fa7939411c49ebc13080f834fff895e7f6855d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NetEaseMusic_domain-mrs_a3c5cd4062ae316b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2f1c36b99169fbffca2098c15ca16a085e01abd42f1311506f05d1a13e2dd7c4",
+        "bytes_sha256": "72a9a33314ee3ee49e6f9bb708e35960a34a2339bbde9c97c5bdae7e38855f9e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEaseMusic_ipcidr_a7c2736710608cde.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5edf2c7f94b8ca2e20dc22d53bf7de64680506ec9fdfad81718e04786f45f04",
+        "bytes_sha256": "babb436d04a9e11594edb6c9a206b205364f16f2426e8ad39444380f851b5dda",
+        "semantic_sha256": "e7d34bcd47eb06cd81c3b21ec46284ea297c1b755ac7b59ea889663fe418475c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NetEaseMusic_ipcidr-mrs_a8837bd22e84f206.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6dc8d8b672fc1f55dcf068dfb0ce9a7ec72ec4aaf4a942df83067e51c58cd0ff",
+        "bytes_sha256": "e68816da66641b0571d94c401cfc2391a3ac00f7a4622e2752edac81d2a43250",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list",
+    "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list",
+    "https://ruleset.skk.moe/List/non_ip/neteasemusic.conf"
+  ]
+}

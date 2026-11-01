@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:17:29.633910+00:00",
+  "client": "SingBox",
+  "rule": "Naver",
+  "rule_updated_at": "2026-07-26T06:52:20.403649+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 52,
+    "ip_cidr": 194,
+    "process_name": 1
+  },
+  "total_line_count": 249,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Naver_source_3c38af97898a0787.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "94aecaf4d8defdb22b94c4031a7e0817d3953e4f6ab721f8e0b04f2ac3e128fc",
+        "bytes_sha256": "761b9e1f7f76534c7199761bb152c6fbe326fcc592d81785c976eaa79de3af15",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Naver_source-srs_66315a2eb40106ec.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "47ac389b58fe47530a5ca8c5655d61aa24236afdd3fc9a2444dbeb5c9fa68d9b",
+        "bytes_sha256": "0221ac042980cc56727e55ac804a94cded50fc690baad232ddd19ec9afc32358",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Naver.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Naver.list"
+  ]
+}

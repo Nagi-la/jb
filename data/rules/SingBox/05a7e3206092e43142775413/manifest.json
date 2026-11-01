@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:00.807675+00:00",
+  "client": "SingBox",
+  "rule": "PCCW",
+  "rule_updated_at": "2026-07-26T06:53:04.967093+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_suffix": 27
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PCCW_source_9cb4f34dbc963400.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9b8976fe752f4ca20a0e5d7bf9df6f6074291f03eada2f83aa69ea360319dc1b",
+        "bytes_sha256": "025e9dadaa696896090d179f6f5699b9f62d67488caa29e2bd94ab661c0425da",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PCCW_source-srs_cfac878d5d06c815.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c8201fc28836d36adb486194df21db26fae7a5f97b24cf55d9f1375ebd4c47a1",
+        "bytes_sha256": "97e6dd9992fd9292aafff3d8a2b1e0177b26a3587fcfef6c4d634503e58b8483",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PCCW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PCCW.list"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:06:29.627809+00:00",
+  "client": "Mihomo",
+  "rule": "GuiGuDongLi",
+  "rule_updated_at": "2026-07-26T06:25:16.647501+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GuiGuDongLi_classical_d589db1cef33a3cd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5946d420fba872291065026718aa3728c692b6731fee8342177eefd5eebe5089",
+        "bytes_sha256": "90974e263a9c55f359309860558b7feb88d3dd55a05566781e568f1824ac2257",
+        "semantic_sha256": "29668aaecdef848390d43c2f12aa25dbde54985d9e3c0e7d8c42c7b161c84921",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GuiGuDongLi_domain_3512d4c1a08ce95d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81eb73c51f1f3df875f7d0f63e1467df612b621289e002b2106a2604c448fc03",
+        "bytes_sha256": "62edd77ca410422749d4217e9c65b280fb73f111eeb472606d181fb22403aaa2",
+        "semantic_sha256": "dd69d3785dd93785b21a73576697404ecacc42ea62526a2b9f174ec0b8ae47ef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GuiGuDongLi_domain-mrs_94dcbd72edb9f451.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "08a0d974816b666fe0188010ef6b741c40d1b4810b81f8299cb7e66c670b8c8e",
+        "bytes_sha256": "92f17e586de5a1821cb12aa5c80da60bb77b365a9a44f10ba06d0afdb1efea40",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GuiGuDongLi.list"
+  ]
+}

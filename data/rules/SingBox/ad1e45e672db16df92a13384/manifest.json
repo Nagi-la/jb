@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:27.459867+00:00",
+  "client": "SingBox",
+  "rule": "Coursera",
+  "rule_updated_at": "2026-07-26T08:22:42.470056+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Coursera_source_889685378ce064c8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "423601604740f6c76c8cb7f4585fed5fae76e1c1c5f18cf5e728d4d9082cd4d9",
+        "bytes_sha256": "17ae4ac19a1bfaba88adb7573c3becbabee0f00aef053d537c544faf9a0bf18c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Coursera_source-srs_b8b35cd06237e6af.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3134db5b840468dc9314a3f8995942100e6b1f4ed5e757d7adeff0e75fe855f4",
+        "bytes_sha256": "3387bbcd994c258d795045b74107f18f665ef167c22412cc126d14a6ed7e7fbb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

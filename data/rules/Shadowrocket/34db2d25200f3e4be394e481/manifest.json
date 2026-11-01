@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:43.455675+00:00",
+  "client": "Shadowrocket",
+  "rule": "Salesforce",
+  "rule_updated_at": "2026-07-26T06:58:31.018450+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 49
+  },
+  "total_line_count": 49,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Salesforce_rules_e62d6b54678fc7e3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a4f9c02163e16a71bab2bef49b4466cfe49f363d4482bca570d360e2ccc8e95",
+        "bytes_sha256": "e9fe06657bbbcc03f0bfbb6401c37b98a74dd3521e62b039dccc86ffe5ab579b",
+        "semantic_sha256": "efa86cd0be07fd31a9b2d517eb0baf31999c706f3a5c63b4a5791b7d520809e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Salesforce_domain-set_04ae0d3f3649f87f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ef6298aae880ff6b21ca6b4176d69076aac820045cb5ea758a14d5e4a03df94",
+        "bytes_sha256": "83ecf59531568e5c66c0dc28c20ac2a06b42691b4f2a3a9f75adf14a540cc08d",
+        "semantic_sha256": "4fe4a40d090fbd10f409bc2db487a1c0c61206a2a3fccc720300fcb6b013962c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Salesforce.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Salesforce.list"
+  ]
+}

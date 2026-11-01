@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:22.509487+00:00",
+  "client": "Stash",
+  "rule": "Buypass",
+  "rule_updated_at": "2026-07-26T06:48:16.465666+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Buypass_classical_6b4b59198334c5c4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a59024cd50ec4d7b17d126304d9cee3eba4905b33d677329b1c525d41689125",
+        "bytes_sha256": "d99dd854475a17a8347b1ec9fde06ab703a847150842f0ebefbc9383db3385cf",
+        "semantic_sha256": "5534dab754596b8d4d99cc79edbdd7a64554ed64f83cef8cbc3b80048ba35a83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Buypass_domain_057a378c32a9a240.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2399b44f531483d0ec668a5dd471f51a3779d230ee52aeb6e07b6b58a6d8172f",
+        "bytes_sha256": "40fb047b46b717246f4e64067c40cf3ece3584622b8da0bdbef03faaa39415ee",
+        "semantic_sha256": "71d3441d7fded2fa9f82f19dabaaf46482f866f86d8a5539fbfc61b69331111f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Buypass.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Buypass.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T03:01:09.469744+00:00",
+  "client": "SingBox",
+  "rule": "ShiJiChaoXing",
+  "rule_updated_at": "2026-10-29T02:37:33.851141+00:00",
+  "type_counts": {
+    "domain_suffix": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ShiJiChaoXing_source_ae0d6a9c58ec5cda.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f2b36a56396bf1ce4370fa22f6c4f05f253c3048a0e9019a34ed6518eaa0ca56",
+        "bytes_sha256": "d16def4d93f87c95ff1ac48bab48aa6ce368dc720aeb30715bd66a156bd87b3e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ShiJiChaoXing_source-srs_c7f2bf3300c2c9ca.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "15c424269574224209e74a54b208d0c85eb1ebb012e886f39d976992a3837e25",
+        "bytes_sha256": "76796d3248e84190ff3d6d49cc5ce65f4a33e61ab85a3379fe337f126ef376ba",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShiJiChaoXing.list"
+  ]
+}

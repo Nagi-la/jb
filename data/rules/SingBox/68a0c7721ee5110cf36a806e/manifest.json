@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:56:59.434490+00:00",
+  "client": "SingBox",
+  "rule": "Xunlei",
+  "rule_updated_at": "2026-07-26T06:40:24.086466+00:00",
+  "type_counts": {
+    "domain_suffix": 35,
+    "process_name": 2
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Xunlei_source_d9607019515de270.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "03c257875fdfd5b9442e5c92c0f92603161e33b2f739530fe8eff2f337f3df1f",
+        "bytes_sha256": "09c643c6afd867ad8f4d995a016b6d262e93247104de7dbc5bc7f93938e178f9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Xunlei_source-srs_0794da39c8f081f7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38fd2caf41fd39b8d71ea7864fcecff8573e16ec169cbc26fd1de5aa7696026a",
+        "bytes_sha256": "63f5627fb5462fff2d4905bf12b66349f05f72387594bf6057ec6eae7aeb741e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/XunLei.list"
+  ]
+}

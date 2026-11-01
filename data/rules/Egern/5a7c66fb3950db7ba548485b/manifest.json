@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:15:08.193303+00:00",
+  "client": "Egern",
+  "rule": "My5",
+  "rule_updated_at": "2026-07-26T06:22:18.876177+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 2,
+    "user_agent_set": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/My5_rules_66e470d0cfbd274e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0898c64b7e82077a05c5a22f22dff5954e6b03f7ca0c8f9e28a1900a9039262a",
+        "bytes_sha256": "da84c6679df5bf96dee8c5639a5659dbef46196f4d0588cb6539cf8449dc3de5",
+        "semantic_sha256": "8619e1a5ae5166b6f22ce6fb9a430b2d0b89091a78b5604ec239d1c2cec670b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/My5.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/My5.list"
+  ]
+}

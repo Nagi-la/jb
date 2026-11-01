@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:24.341942+00:00",
+  "client": "SingBox",
+  "rule": "ZhiYunZhong",
+  "rule_updated_at": "2026-07-26T06:29:58.866334+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZhiYunZhong_source_92ff2a64af97219d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fb42c3c5d26e80404710af31301409beac0cbdd9e9f7bb807ab598336c5c1030",
+        "bytes_sha256": "10f40dfb3285a843052a8fce304422667e0a10264cccee05b9288a2bbe1706a7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZhiYunZhong_source-srs_8150184ae19cb6e1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7b65f0f5958a0f378e62cf35d9099ac31ab1062e7a96fb55f0894e8d0c72f4d2",
+        "bytes_sha256": "d368ed83eeb721dcddfaeb86db1dcaf6d703737f3f6a1a3447054c5e67fcfdf5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhiYunZhong.list"
+  ]
+}

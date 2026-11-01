@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-29T03:23:34.780295+00:00",
+  "client": "Stash",
+  "rule": "GlobalAI",
+  "rule_updated_at": "2026-10-29T03:05:24.999564+00:00",
+  "type_counts": {
+    "IP-CIDR6": 2,
+    "DOMAIN-REGEX": 1,
+    "DOMAIN-SUFFIX": 358,
+    "DOMAIN-KEYWORD": 11,
+    "IP-CIDR": 4,
+    "URL-REGEX": 1,
+    "PROCESS-NAME": 24,
+    "IP-ASN": 4,
+    "DOMAIN": 69
+  },
+  "total_line_count": 474,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalAI_classical_918a93eb64ea2553.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0bfd03a672dd158a25fb6bd1331c7c06910e531f0b2ece39eba874555fac77e7",
+        "bytes_sha256": "f9275936eff3c1d025b97a5527b4592ad8d0124bb7168a0a29e295bd78c5718a",
+        "semantic_sha256": "684005e080cd9d0d1d1584de116fb9d808c6e022bbe662556cabfda8c202aa4c",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalAI_domain_b41f90290c5253ba.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fa8ba59db8e7fd824ff66c730d0b83cdf49593a3747165c8ee0648ff024e2a4c",
+        "bytes_sha256": "fa6666bf20853270dda8eb32ed3ca67c952a6906c39005c76d2e812aafa3367b",
+        "semantic_sha256": "be912dc6dbc85512896fcc417baa36c6efea47d511b8e47500fdf9cb26fb9691",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalAI_ipcidr_cb1b2d369866b4bf.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c925296d0f0182a06bd6a022cc8441f660ff259d6b259488f65f268a3fc6176a",
+        "bytes_sha256": "9ee2efd5b7f5579940127777200fb050075beea5106d562486913c8ab541b6a4",
+        "semantic_sha256": "ea0dbe9c841fe05cfad217af1b1025a77175e39e933e116ba6cd61a1555d1847",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalAI_classical-rest_843e080295b6e7c3.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "942df6acbe0601f82735c1cee6873eef2eca8e7f775e0055ed68024c7309ad46",
+        "bytes_sha256": "395c23218877299d64aa27aec2e2601e18657a8a4e95899eaa036811b3694a29",
+        "semantic_sha256": "d406d3a7898322ca9f840290c43644b05d747ac612ca8887cb4b911ec3cb5e0d",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "stoverride",
+      "url": "data/_shared/artifacts/GlobalAI_mitm_f72661bf25910c9f.stoverride",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "376f92eb3efc26490c4aaa127f8561e9c915043f970688e091e7e90b0608694b",
+        "bytes_sha256": "3444c8d26b933c15313f148eeaa84a8a77ead49e3a406cc058cc79c4bef5c7fb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
+    "https://ruleset.skk.moe/List/non_ip/ai.conf"
+  ]
+}

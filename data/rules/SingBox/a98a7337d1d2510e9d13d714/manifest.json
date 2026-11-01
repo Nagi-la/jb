@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:33.100080+00:00",
+  "client": "SingBox",
+  "rule": "WIX",
+  "rule_updated_at": "2026-07-26T06:55:45.043540+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WIX_source_e39b0674a8dbe0d0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "218de33fb6dd2f27cb4d978e2cf3a37cdd6de12f6fc60f5a4924d2a0b5169fe3",
+        "bytes_sha256": "fa190aff352dcd0113ef6cdda62fc0b99011efadc98cfbace3577ada0a3561c9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WIX_source-srs_cb30994f667eacee.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "120673fc6409d8aac7b3197a17399f00c5cc3c89636b9cf0d0eedc30dc5d35da",
+        "bytes_sha256": "8e5073456e56b1f5a95db87eef3f78342be9f8a3f7e0163cd1eafc6e0bfa0070",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/WIX.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/WIX.list"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:57:49.989736+00:00",
+  "client": "Mihomo",
+  "rule": "AMD",
+  "rule_updated_at": "2026-07-26T08:30:14.550476+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AMD_classical_ef58e93fe6396779.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d00886f70fe48c183fdb6209032648231c87485e7c02152c4e8366a307e849fb",
+        "bytes_sha256": "d936e1e11b073d46cc559eac92a39a55fc5a3c910d6e7f16ce54920fd8e3001e",
+        "semantic_sha256": "8ec8d56c14df18a7a03e0beb899d50d7c3dcfc7ea630129cfc43eb6465157a91",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AMD_domain_d1b6056f8210e939.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "856796ee5f1c5dc8122be2e2cf32dc0adcbb37ad7d7761620a985662d24e23fd",
+        "bytes_sha256": "642afb5d3800736645ceb0ee9560388a7b2ea70de5482df69561075ac52c0e25",
+        "semantic_sha256": "9dbd54d9c5dbb7a55be6c40b2b83923a52d096a474da5f8d3b0048caa9a5a3c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AMD_domain-mrs_ebb079c000043fb4.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0f5ee16988bdbcc3cfc46ef66f5e6d0e39bd3b21c81e60418b516c8a7265fa1a",
+        "bytes_sha256": "28fbdca4306a1b68421867de42e0a66ff2ec28d8e392a0fbef22631fd0db5880",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

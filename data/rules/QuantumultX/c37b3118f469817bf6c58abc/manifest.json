@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:16:55.524614+00:00",
+  "client": "QuantumultX",
+  "rule": "Akamai",
+  "rule_updated_at": "2026-07-26T06:30:34.634704+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Akamai_rules_3bda1c8a9502edd9.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "164a175102582fa3068f2dff3c981e66349e53316c09175d744d319863f6f34e",
+        "bytes_sha256": "f752c838e1e1c330dc97690185ea4fd1d7bf555c567cb74c5468ed55901de07d",
+        "semantic_sha256": "67b0233e4378ef5ec1155c4e57d8d6e0b0af3eed38a3276f9c6c0ca826b6d45f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Akamai.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Akamai.list"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:18:58.348080+00:00",
+  "client": "Mihomo",
+  "rule": "Spark",
+  "rule_updated_at": "2026-07-26T06:38:06.542657+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spark_classical_1dca3054a5e0872d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "755ec5af0691b216d3bf7344cb112f8bc3e1263ddfaac9167c2701c5dce84577",
+        "bytes_sha256": "0d83182dd998e06c1dfdc5a23ffb8f31dbcae1fabc90a744d0196404f0d9e055",
+        "semantic_sha256": "b3a303e1ea08f5aff26239748e4ecf474b302cd05917e1e527d854ad904981c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spark_domain_0e4ddf59e18547d4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bbb02fd1c71d494e3d0178f9e58b8110d710ab0b60134a0c2d947da61b31645c",
+        "bytes_sha256": "fb404b17c62c056c07c76d1f8d91218369487d1b4182fbe449b51edfd34e1b96",
+        "semantic_sha256": "6e0b72a6a0b1bac54c16228061730144c328c39e597acd1b585c57511f481a62",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Spark_domain-mrs_4c32fe3f6145d659.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eda8ce5106c8bf8c71536b2b2c024c9c08a2750dc92874c3d6166c47ebafe583",
+        "bytes_sha256": "3a06c50d91b431410f5ad437e9d1951eecea69da60f0a2348d7673113594983c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spark.list"
+  ]
+}

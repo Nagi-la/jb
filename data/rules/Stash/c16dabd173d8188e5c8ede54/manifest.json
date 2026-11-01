@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:55:52.252967+00:00",
+  "client": "Stash",
+  "rule": "Yahoo",
+  "rule_updated_at": "2026-08-27T01:36:24.267679+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 177
+  },
+  "total_line_count": 178,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Yahoo_classical_004a0229bd630b9e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e67d45ce549a40c26a21b96326ee30eed8202351cfed543c9121e0814e968249",
+        "bytes_sha256": "4b8ad33cca6306df050192232761c73a6b553b07cd1dc2fb581abcd43f3d08b4",
+        "semantic_sha256": "498066dce192e728b8e8dc01a8a724cab34d5675db7f047d84ec3bff1eee44f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Yahoo_domain_55b3ca8d08d61714.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0509cf43bdcc76f991293e57eecab25dc21863c4b2b304424674ac590feb394f",
+        "bytes_sha256": "8c2a4dc9d34b96460e635a877b0047f857df1daa4fdf8dd8fde26b1e5421bb9b",
+        "semantic_sha256": "d561e1e5eceae5f54b7af6aa08af7b9fac959eacaab3a27779756a1b48a414a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

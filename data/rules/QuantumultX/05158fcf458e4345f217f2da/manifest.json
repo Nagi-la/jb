@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-18T18:49:29.152976+00:00",
+  "client": "QuantumultX",
+  "rule": "Stripe",
+  "rule_updated_at": "2026-09-18T18:49:23.504080+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Stripe_rules_2f75ae530e9076f8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dd0be265f66be6460b66dea9c3ac45c07ca1cd4f753cfd88fa329598c0771a66",
+        "bytes_sha256": "f7fff4466b27512ab3bd8614476862480e518161544923c3639e015943b9b338",
+        "semantic_sha256": "db3c6de17fad4baa731d98a954dd97b34d46b6d33f2322dcc484e4d186a11952",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

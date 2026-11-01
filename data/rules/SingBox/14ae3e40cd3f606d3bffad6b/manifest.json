@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:00:48.738065+00:00",
+  "client": "SingBox",
+  "rule": "Migu",
+  "rule_updated_at": "2026-07-26T06:27:09.956843+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Migu_source_1d23180e3e00ba1b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2a228ad38a8999138edae1292752f60316212d9d4870d5a9684cd5d66efe406f",
+        "bytes_sha256": "9f5e502120065e70d9fa07261c5d81dd787424cc3b152ceaae6596e7c153dcf6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Migu_source-srs_9b96da9456c0e15f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "93b58a7e8b4629f1de43ccedc691bdcf28b2dbcae0f2f6ae465e3cf16a5ab23b",
+        "bytes_sha256": "73031983171cec12638695809cd441478cb98edac3c13669dfbd317ee12724eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Migu.list"
+  ]
+}

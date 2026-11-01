@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:14.510953+00:00",
+  "client": "SingBox",
+  "rule": "PChomeTW",
+  "rule_updated_at": "2026-07-26T06:57:45.787740+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PChomeTW_source_fb7676020101d27e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6d10352fa31c4353aa94ea47e266d9530ec892caf5fc28aecf5b1065353abed2",
+        "bytes_sha256": "f3ea1018654b5cc7dbeb246eb7c48a004cefac316d45eaea9571e9e5bb9bc86b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PChomeTW_source-srs_ac6ac2e895d7c9db.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "42661127ab4a9c05d928b4307df4ddae1a09a39b775a8f538db804c11a675efe",
+        "bytes_sha256": "250d6156f30a50aea6f1e6c8d20d8d36aeab063c4fcd1cffd08c1a6ba6dcb78f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "注意，非国内的https://www.pchome.net。",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PChome.list"
+  ]
+}

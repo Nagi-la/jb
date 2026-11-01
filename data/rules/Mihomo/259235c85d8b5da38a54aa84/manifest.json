@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:02:57.820708+00:00",
+  "client": "Mihomo",
+  "rule": "360",
+  "rule_updated_at": "2026-07-26T08:29:51.034873+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 286
+  },
+  "total_line_count": 286,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/360_classical_18f369e598a28b8d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "29c074908d7d404c3c318c6ea46a0a4f7904ce18254ff139794d158affcac23f",
+        "bytes_sha256": "dfc4a897aa7befea7fdedb8caaf19783ae6966ea48ba49772b3e21eb4efbe3fc",
+        "semantic_sha256": "75b0d774b7d01095f9ebf26d2a9d735ae272cdcbcee1d82b836d3adfc22d6d1f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/360_domain_edf1c039f5dd53dc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0579972b4feff0622cb5a6ce45ab9707957794416c0c5ab486691ac727df261b",
+        "bytes_sha256": "67cc520c26a406eb7cb3f5d3860d5de969b160736ae9e774dc657b3c3d2a208f",
+        "semantic_sha256": "31d472c09de9c53f68e821bf885430c2035cb601a6ddcf6c0cac9f7bc09d6c6e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/360_domain-mrs_a4546c76c09468db.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3bab0721dfcf0064b4464d5604cf13ba4e618dabed85c02a9542ccf6c6717d6b",
+        "bytes_sha256": "c38b7131c4cb7209dc7a2bd35c787ba01854fb246750315fcf611b896d93f080",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Qihoo360.list"
+  ]
+}

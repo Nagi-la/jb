@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:59:39.515041+00:00",
+  "client": "Egern",
+  "rule": "DaMai",
+  "rule_updated_at": "2026-07-26T06:24:09.625873+00:00",
+  "type_counts": {
+    "domain_suffix_set": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DaMai_rules_eb695081e52424a9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2f5c00d6a5ce0cc02625460d9dfd25acdab743789c84271c57ff432f93dda7a",
+        "bytes_sha256": "2b4e3dc08bd9c8fa3b581d401b711cf4433235110b5cc09c57cfecb8b27b06d1",
+        "semantic_sha256": "e50a354ca1ca38c207fa45b1293972f57ee0b725e54c713fdb07f5dee86858e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DaMai.list"
+  ]
+}

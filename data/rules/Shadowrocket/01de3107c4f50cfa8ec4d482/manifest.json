@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:32.784400+00:00",
+  "client": "Shadowrocket",
+  "rule": "Clubhouse",
+  "rule_updated_at": "2026-07-26T06:30:08.344553+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Clubhouse_rules_6c68029c0775fd07.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8a4a93b83946114fdc822cf7014318e93b964c8b47fcff81290cc3dde8ad212",
+        "bytes_sha256": "3e0091515fd9feea4cfa211042557b6df4bf3a0c36c0baafc73cf4268697f38a",
+        "semantic_sha256": "9a98b9f0ce9403ba095ef24a5d725cf65adc17044e5526f088cdffea1d874589",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Clubhouse_domain-set_a55a0f801bb38013.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e247d0b5046cb6f74137c10c73dd0be2fe177f22468b529f0c8c7dcb80c708e",
+        "bytes_sha256": "db0a2960e2297232bce6df44d7436f937df0b549096ff6b96820b8a0309d95e3",
+        "semantic_sha256": "17d9ac793a7ae6e4c493834e7e4358f6bfc84fd47cd7d8727c283ebd0fd4a29d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "如果的你代理服务器不支持或没有开启 udp-relay，请不要使用本文件。",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse.list"
+  ]
+}

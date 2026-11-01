@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:18:37.690682+00:00",
+  "client": "Mihomo",
+  "rule": "Notion",
+  "rule_updated_at": "2026-07-26T06:52:39.837350+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Notion_classical_7d77c180a9827eba.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a15869e7e888beb5ca858d26686c3095f573d1b31ba55bbfe2b505911551e51",
+        "bytes_sha256": "4b085a8785732947b33a4c32d31d572ff1b6e958fc28f097e8c99c806e765341",
+        "semantic_sha256": "e6e47c629f4be0e9e99e6f736f564a66c8f4e131142067448c8f4242dfe52318",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Notion_domain_d9aa76a3a8af7d43.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "986a8657da336db07cfec2db41638e02d9c4ccaefce8c4c7b462ab039d6b5ca5",
+        "bytes_sha256": "766a98aeaf456527a149e446e7293050e1a6028395f989df8392d1c838932f3e",
+        "semantic_sha256": "33c310ced66926cb83b01d0ff1c213bbef19ecc335130a2e1d7fa7a76159ac92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Notion_domain-mrs_b40e90cd7b843166.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "384e32141c7b0bc6fea442f4bf487a70c57645c6ee6f75300f5e60ed1c0e976d",
+        "bytes_sha256": "35736d2b2ef23a753af5f781d8930acdf28062b02f91c2cd2bffd81bbe5fd35c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Notion.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Notion.list"
+  ]
+}

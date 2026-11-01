@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:30.072485+00:00",
+  "client": "Stash",
+  "rule": "IPFS",
+  "rule_updated_at": "2026-07-26T08:25:47.942065+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IPFS_classical_22f13cf29a488517.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7423810d631f8c5e3c96290710017d7892257e3c01910d6704bd5f4a5e760cd5",
+        "bytes_sha256": "eb3f6c288f81a1d846ed4b005b748a98e43964457049d0769cbbbc6b44e0743f",
+        "semantic_sha256": "d72378d9510ce1a3f1af3ac7fccc3c4dd93cbf9eeeaae63a7f6f6662b6e3c9c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IPFS_domain_8a1235d6d5311337.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb4804b913abbc4ae2396f4bb802b0a121e01faa4b467a3865bba46874a2973d",
+        "bytes_sha256": "2d6ea5a91690d8026f924c0dd1a4c5dc1c6993c8bc481405f7a6272fe397ab96",
+        "semantic_sha256": "1cbee16657c8a7c5cac09c90b23d48a8b6eec73b41c552b69cf604d08d7c0dda",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T01:57:01.818511+00:00",
+  "client": "Stash",
+  "rule": "LG",
+  "rule_updated_at": "2026-07-26T06:51:01.727354+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 12,
+    "IP-CIDR": 81,
+    "IP-CIDR6": 4
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LG_classical_d432c85b7ba2adac.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf8de82855adcdc695ce04ed19c4bb7693c53c6f6071fcb6e3f4a91bfdbd8e59",
+        "bytes_sha256": "484737398eef7a41388e387cbb2a384a8e9a5522c077a309791161d02c7bba37",
+        "semantic_sha256": "8d5222a82fc3cf347f01660a46b7c1725a7d3c1e026a295fbf08641fbdee1191",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LG_domain_ad123244a7ad0bf7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01e3999ba0f06ae7953db4d7434e786d34fa8573e56827cb8cc6e1814b12618b",
+        "bytes_sha256": "a0bc944a07dba8f47bd9e4da56ec729b53808735cd7cc3b5dc74d1bb3c7011e1",
+        "semantic_sha256": "dc273cafb2cdc20463a4ea4baef63af2dcab57f9b9434a8e49bc9cd1999f9bca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LG_ipcidr_89a9d54242c87c40.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1111fba9c923bfbb0a754e3c233eb56dec7c0448299f791be888d08fc030cd1",
+        "bytes_sha256": "6ca81cb1975159426de3d579ad15e784eec8e611413ab75152d266311d6ebcc2",
+        "semantic_sha256": "998329435207f21a5cbcfe5ed7138a57a55848d0891b60f1a29102455b31bbb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LG.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LG.list"
+  ]
+}

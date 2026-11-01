@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:42.143819+00:00",
+  "client": "Stash",
+  "rule": "RemoteControl",
+  "rule_updated_at": "2026-07-26T08:26:03.165429+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RemoteControl_classical_c3be5460722e48c1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ad44ce7b1ade8ca99568bb5e4dc1965bb022478ea8f61e91e13df7ddd1222395",
+        "bytes_sha256": "6a3d0dec9f79bb6796c2f185e7d18daef833cefb7c894eabb45bb903f952129f",
+        "semantic_sha256": "33f9f24095c2f9cce44c558ec707b9d140b0b51c59db6150e35d9661195fa354",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RemoteControl_domain_e13feaffb71c190f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "923e542b9468242f1aa408349fd75ff86b919ffbe7364cb3cd2449b8c1fac71b",
+        "bytes_sha256": "51ae71189f931241568e6332613bb9b32d881dec15c57804164f69984b4f7cda",
+        "semantic_sha256": "e75c4e353970a285f2c1e3fd9212f32b03ff342a7455dc00f420fb2e8b0c18e3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

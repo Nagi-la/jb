@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:57:17.555049+00:00",
+  "client": "Surge",
+  "rule": "Beats",
+  "rule_updated_at": "2026-07-26T07:02:38.503703+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 716,
+    "DOMAIN": 1
+  },
+  "total_line_count": 717,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Beats_rules_fb6e6bfd6c9b8ddc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8480a445e767ac66537a6e7c474798d755bfa3767b98a81f11a9d12e11d808b7",
+        "bytes_sha256": "4a90107e5dfa00f15b0501b065f74735cbda8a9901dac06d14c072927f4ccd88",
+        "semantic_sha256": "f5954ef90e8d7c8e2d3a16a3dfebc0c75b1e7330061dd04fefef4f458fe9823b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Beats_domain-set_1b8378a73a4106f4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51afa1b9800a8f19f4b20ae783ec8bcd3ee42714a706bf37f94cdc05f0eb6f3b",
+        "bytes_sha256": "ecc8001708f4c76807f3cce5e04596b6f42b2f089ecaedd1c0ec06af5b335000",
+        "semantic_sha256": "cee78c8a1a8815341bb01c38e78d00a0adab544c0a8cce92fee2baba5ca11590",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/Beats.list"
+  ]
+}

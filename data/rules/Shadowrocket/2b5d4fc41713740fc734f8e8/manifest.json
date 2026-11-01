@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:35.935832+00:00",
+  "client": "Shadowrocket",
+  "rule": "Duckduckgo",
+  "rule_updated_at": "2026-07-26T06:50:24.077277+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Duckduckgo_rules_174658f60df4d129.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "347b003cb7232755d8dcfccd230b6a7c2b40facef5d9aa01fd70a7fffd7b91b0",
+        "bytes_sha256": "234ffc4321661f66f5051ccb51a6e5b66fa9f0568405907cd9bb75656aa73300",
+        "semantic_sha256": "7d6d677066eafe1f5fea1d33c88320367c27e0b8a69e34e8d44df148355deaa8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Duckduckgo_domain-set_5c69c9843f3694b2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d436c267875319e866f79bdae508acac4427e46a21ea2e12cc5d017faa21ca53",
+        "bytes_sha256": "81e4327f41a0912cddd220f9684d444073f2b9e4eb83cf904a1614cf39727609",
+        "semantic_sha256": "869e97e27e6b0e68ee2765cf48f72e506ee5e03c75325366860fcae5bf1b95aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Duckduckgo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Duckduckgo.list"
+  ]
+}

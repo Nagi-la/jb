@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-30T01:50:58.675435+00:00",
+  "client": "Egern",
+  "rule": "China",
+  "rule_updated_at": "2026-10-30T01:42:36.193425+00:00",
+  "type_counts": {
+    "domain_wildcard_set": 2,
+    "domain_set": 25,
+    "ip_cidr6_set": 4,
+    "domain_suffix_set": 6302,
+    "geoip_set": 1,
+    "user_agent_set": 30,
+    "domain_keyword_set": 10,
+    "ip_cidr_set": 3892
+  },
+  "total_line_count": 10266,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/China_rules_af44e64325d1842a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52d0864c75c8b4c37193e1370ec627d8c09ce85ec7db8a06f84503618aa440b4",
+        "bytes_sha256": "7108f7cb0e4ad629d04eaedce1de7b9ecb5e50af07ab69f741d0c452c1095b89",
+        "semantic_sha256": "b3b0a4580cd4c2781584bc20d87d59eb068fbf9b9a398b059899195496c52425",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list",
+    "https://ruleset.skk.moe/List/ip/china_ip.conf",
+    "https://ruleset.skk.moe/List/ip/domestic.conf",
+    "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+  ]
+}

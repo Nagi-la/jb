@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:58:10.341881+00:00",
+  "client": "QuantumultX",
+  "rule": "Sina",
+  "rule_updated_at": "2026-07-26T06:38:31.216096+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 141
+  },
+  "total_line_count": 142,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sina_rules_08cf2139ef44babe.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6dcc0a0d78a1e4e5bcb2b8d029a66c902147748bdd0fa579f3e7372725f3df7",
+        "bytes_sha256": "5a87f0e64e9be3080a7cb2901139af02499d5e2227bff9813fa53403c38e870e",
+        "semantic_sha256": "017164c6e23aec869cefb09a4bdc76bd8ce44fed8b02767e9624dec9db0e6d05",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sina.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sina.list"
+  ]
+}

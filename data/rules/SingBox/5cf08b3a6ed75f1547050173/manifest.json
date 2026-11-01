@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:11.297796+00:00",
+  "client": "SingBox",
+  "rule": "Blogspot",
+  "rule_updated_at": "2026-07-26T08:31:29.308371+00:00",
+  "type_counts": {
+    "domain_suffix": 76
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Blogspot_source_74e2fe73834a5609.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2bfdc9796aa99b27ceb1989c47e77783992f6c2719efec6360d383b97d44a733",
+        "bytes_sha256": "cb8b592b77702b588d4a5a5929760886a2132cbcea3cfdf8c07a746dcb09ac8d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Blogspot_source-srs_a3ab12d43c0dd5bf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe87bfcb6063ec2044ccdec2608cc7f74eb81b464b484c61b5e6f1d0959d296b",
+        "bytes_sha256": "3f13d3c2cdc412216fe120acf2ab0af5ea17e56bdb698fd3f80947776bc8967e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

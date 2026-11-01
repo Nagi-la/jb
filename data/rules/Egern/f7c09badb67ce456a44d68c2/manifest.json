@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-29T03:04:25.301872+00:00",
+  "client": "Egern",
+  "rule": "Amazon",
+  "rule_updated_at": "2026-10-29T02:37:34.385391+00:00",
+  "type_counts": {
+    "domain_keyword_set": 1,
+    "domain_set": 21,
+    "domain_suffix_set": 249,
+    "domain_wildcard_set": 5,
+    "ip_cidr_set": 17,
+    "url_regex_set": 1,
+    "user_agent_set": 2
+  },
+  "total_line_count": 296,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Amazon_rules_db794da9e646bfeb.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6894ed4d11a1e4f32227cfa3c67dae21c3a5a053caee07341f22bfba0a134f4f",
+        "bytes_sha256": "6cebd1ef5010336bde4c3033959590e4578508336d66bea31c37821c04b0d9fe",
+        "semantic_sha256": "f92243d56f43ff7fa2f9c26bfccc453c3c9f21f14df9f6589a7f2cc5994cda28",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "module",
+      "url": "data/_shared/artifacts/Amazon_mitm_eda840f963337d82.module",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "433326f6f73056df93dd7df05ff713dc9661f4e05259d4c59ba3c63b01d40879",
+        "bytes_sha256": "b4117c3cf755a81631f691756b16c0574bc4c2ef0e87f70fc964fbf13f51196e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Amazon.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Amazon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Amazon.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Amazon.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:22.333135+00:00",
+  "client": "SingBox",
+  "rule": "UCloud",
+  "rule_updated_at": "2026-07-26T06:28:35.263978+00:00",
+  "type_counts": {
+    "domain_suffix": 59
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/UCloud_source_41cb384c9fe6c626.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "308872980df74720429adb091d9d9bd78a3b34e7c649b2e68ecdbdeba7296010",
+        "bytes_sha256": "c1142fd93d6af678c105ee3b313a4aaf5c7997ecd13a044d5a74fcef9dbe3bed",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/UCloud_source-srs_a6d2af3cdfe8a675.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e4b787b2c60cc2714adfffb9b10d0b639937b9d7c7e0c5838f66d1f61eabdce4",
+        "bytes_sha256": "401b5910ea2bc640e6f996e67652ca46ad036239daf65ef3eccb35612e9270f6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UCloud.list"
+  ]
+}

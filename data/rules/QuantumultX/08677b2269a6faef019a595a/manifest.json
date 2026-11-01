@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-29T02:49:38.611694+00:00",
+  "client": "QuantumultX",
+  "rule": "Microsoft",
+  "rule_updated_at": "2026-10-29T02:37:29.686181+00:00",
+  "type_counts": {
+    "HOST-WILDCARD": 1,
+    "HOST-SUFFIX": 788,
+    "HOST-KEYWORD": 4,
+    "HOST": 114,
+    "USER-AGENT": 3
+  },
+  "total_line_count": 910,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Microsoft_rules_de644bdb97d4d9ff.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5baa662177f504ac32024f7e4c0692169f2db504b7cbb52cd9037c3094ef4511",
+        "bytes_sha256": "f509b59e67d2ba1dac2a611913c8f450f38f8f02e30138b1587e0c95cf43f951",
+        "semantic_sha256": "988ac5d9905d7148bab02664acb86493b8e30773228b215ab8af12ad895170d6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Microsoft.list"
+  ]
+}

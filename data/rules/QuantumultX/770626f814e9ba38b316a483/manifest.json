@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:08:35.812655+00:00",
+  "client": "QuantumultX",
+  "rule": "Blizzard",
+  "rule_updated_at": "2026-08-13T23:42:10.492865+00:00",
+  "type_counts": {
+    "HOST": 9,
+    "HOST-SUFFIX": 41
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blizzard_rules_f51ba046be6f8e61.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61bbd5c0cfc25853d7cee1f8dcb9efedb3db139155e4cf788d385c1ccca18c67",
+        "bytes_sha256": "f7ed89ffe0d155cabe10ae8660c43044343415a526270f942b0ba373f94d4c31",
+        "semantic_sha256": "7a4f6be9c4563b9d9d63ebcf85f7e01bab3ea8d749747d2da5d1d4b1024ff368",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Blizzard.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Blizzard.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:00:44.723808+00:00",
+  "client": "Mihomo",
+  "rule": "PingAn",
+  "rule_updated_at": "2026-07-26T06:27:42.076174+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PingAn_classical_761893a5790af7ed.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f1bb8b1b6006e283f06035913ea8e8ee3badcb857cf4c49e424a10566281b664",
+        "bytes_sha256": "1c266b61137b07efe123d1c21f784a3f878a8f3c525c7c55daba331f7e69e2d8",
+        "semantic_sha256": "a0c8bfcf86f393d2b44c2716e82d9608b9cbaf13bdfe4d6fb9211713d30981a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PingAn_domain_ddb06a1ee6cc3555.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2ce39c046110a07c7321b998912ec4b2b1833ed55027a9e86c26d9df770d835",
+        "bytes_sha256": "6dc7aa60c54a53240e321e9945c84c4ff3570c49cd7d832683f82bc1f2305732",
+        "semantic_sha256": "c25f3a88b7faa747cf7b0dfad91d510d5892fc94564a0c366007253fb7681296",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PingAn_domain-mrs_22e0d1e31b39eb4d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c7ba6305de3bceca40aebb34de9b4f44dffb6d7f035ef7791c7a5c70c74ac71e",
+        "bytes_sha256": "177cab6a82fd6c6964feb51ef7c31628b6ad570b361f0eadc3956a2de81fb85f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PingAn.list"
+  ]
+}

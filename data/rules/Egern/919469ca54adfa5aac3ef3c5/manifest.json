@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:04:54.527262+00:00",
+  "client": "Egern",
+  "rule": "BMW",
+  "rule_updated_at": "2026-07-26T06:31:33.952660+00:00",
+  "type_counts": {
+    "domain_suffix_set": 730
+  },
+  "total_line_count": 730,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BMW_rules_8bb39ecd94422d62.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ec2e4a55c60a0099cbb754e0bd3dc796e0b76888fddc22e75100a4b17f16a48",
+        "bytes_sha256": "946028308ca9a49e2c89c08c8d37f71bd3d6cec6b87a609f44061274919b70ce",
+        "semantic_sha256": "8f2c31f86614eeccf443315ae555d3eaafd71fa70f040199065e63a20d5821f7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BMW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BMW.list"
+  ]
+}

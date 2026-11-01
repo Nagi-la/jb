@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:07.340176+00:00",
+  "client": "SingBox",
+  "rule": "Verisign",
+  "rule_updated_at": "2026-07-26T06:55:19.541071+00:00",
+  "type_counts": {
+    "domain_suffix": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Verisign_source_574c08f89f36fa54.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7d0a4fca066e791e075961deff07b673001a197d88c98d0a8b6f1cbe30448c62",
+        "bytes_sha256": "2b35d3009b2f35dca98f2379db39e6d80b4e31aadf2ef1a17324d4da0da8823d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Verisign_source-srs_d4ef84f552bf328a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6acdeae7a1a59a26a93c86242b3abdf6694ee565c96f920bf751efea558e70c5",
+        "bytes_sha256": "340c5d59bdf48efda57a8c91e9056ec4ba8bafe77cce50cc1077f1c775a80537",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verisign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verisign.list"
+  ]
+}

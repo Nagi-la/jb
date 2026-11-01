@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:38.112370+00:00",
+  "client": "Stash",
+  "rule": "VipShop",
+  "rule_updated_at": "2026-07-26T06:39:42.609356+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VipShop_classical_a6d886b5e6011034.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2e5d7be911d9d653f0c97a59465ba17c15c6bebf72f7d3ef0a50eff31e1fc04a",
+        "bytes_sha256": "a51f500f23106f53710d926b56a67a04df513a9de5666950ec9002fac39c71d1",
+        "semantic_sha256": "c6a161a608682bed580dd9ad35dac705303ee198640dcc22f207c974621c168d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VipShop_domain_d6f7d7d1a338b085.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32fdfb3b89fe32b9cc821e49ff6258a9d04d630d88337bcb47add459df0336d8",
+        "bytes_sha256": "e17ae53b48448466855168108e9ccb29a26f0e1fc8db7b3073d0a73d475fef1f",
+        "semantic_sha256": "f55dc8ef62e35d74ad4db4c1c9d44bab07e160740617b1368c8d8dcd52fcb067",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Vip.list"
+  ]
+}

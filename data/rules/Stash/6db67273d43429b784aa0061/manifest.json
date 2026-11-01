@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:07:25.422172+00:00",
+  "client": "Stash",
+  "rule": "Cryptocurrency",
+  "rule_updated_at": "2026-10-29T02:37:35.103701+00:00",
+  "type_counts": {
+    "DOMAIN": 8,
+    "DOMAIN-SUFFIX": 232
+  },
+  "total_line_count": 240,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cryptocurrency_classical_66825de9ba0fd5b9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "37c212f8ddaf2ccd0746482645ae93c74a948ca232b2208cbbe3a3c23dfd909b",
+        "bytes_sha256": "1be80a83940e045d8ff1f917699e0bcce41df34cb56c142d2ff28f0a1f98060d",
+        "semantic_sha256": "dd8a3287a30049c16772708b7dc9cde9e02b793e18be6c10a9081be4f1ec5479",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cryptocurrency_domain_5e0badca5d352f6d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8b78078fbbbf31fa4a11ecccb66553b154169e034b26cf260f3de511f9d1983",
+        "bytes_sha256": "71f87429ae204c9dca05f42518908f125b676c58aff2e3625cf2185c2a95687d",
+        "semantic_sha256": "6ee29cd968894ebfec986d0cfbfb53cbe6a0bdba644fd4a42bed1e7a8e080f63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

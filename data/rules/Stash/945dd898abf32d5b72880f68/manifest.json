@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:57.811272+00:00",
+  "client": "Stash",
+  "rule": "Sogou",
+  "rule_updated_at": "2026-07-26T08:34:27.190027+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sogou_classical_06e15daa7b5dd7d0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9936bc2265f37bfbb93884c2772fc9e1e7a0d48aec2452e717d1a7873fbe25d",
+        "bytes_sha256": "b989a6e35e0e072739e46fae8c1d4ed128c9412161a8fd9d7a26248b50c83c41",
+        "semantic_sha256": "44783415abf56cedd877b6148559dd580d69597e8e08a0fcdf2d603195363e23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sogou_domain_a6c4b8ac5309e7b9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72f56c018fd1277b88e9b5aa3ef34a59808548de3e280e61af62bc67ad472b94",
+        "bytes_sha256": "71e5891dd2c4eccb98699a776e839e677cf23c887d8d4ca85dd613092aa99328",
+        "semantic_sha256": "9048e695e43c2a99ede0a787453eac53c9a0c716fb0592ccba005c261af3ad75",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

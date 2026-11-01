@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-16T14:52:37.994389+00:00",
+  "client": "QuantumultX",
+  "rule": "KugouKuwo",
+  "rule_updated_at": "2026-07-26T06:26:17.330574+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 31,
+    "IP-CIDR": 91
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KugouKuwo_rules_2904e2ee447db1e8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7696fd86822f85171e495b9140b1a33a43ea6c24c49497393d83639ef294d7cb",
+        "bytes_sha256": "24dc40ece6fc27e3956fc73e7960fa4b55fc9f90ebb654203bc7df4b50451765",
+        "semantic_sha256": "144ccb287b72319fba90934c67eda13dee25b10820f98ad808a8beefcb66a660",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Kugou%26Kuwo.list"
+  ]
+}

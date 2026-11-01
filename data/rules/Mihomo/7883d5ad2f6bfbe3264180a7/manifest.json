@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:12:04.886142+00:00",
+  "client": "Mihomo",
+  "rule": "PBS",
+  "rule_updated_at": "2026-07-26T06:22:20.401429+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PBS_classical_36cbf329f47c73f5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d976cbf806e89d89b6bcf7b7db0151edd017eaf434f2bb826a4a2fa93a1166ad",
+        "bytes_sha256": "0ca2f29932ca9304d97bad2180c4a34529d3f2fb00a9e9c572a3bc1d4bda4ff4",
+        "semantic_sha256": "32d3df3151c9673ae2b775b59ab14f66fe8fe00ec5efe4703889b17a813658b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PBS_domain_37830966b95833f1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa6913eadcd8af0adf912e3fe25c84c80b40a99e0c5cb7d90bd6fc0e51b624a3",
+        "bytes_sha256": "efd811a490a4685d7c0330b7e9d7b358ffa46eb6df2a7665d55a4c42a7d38af3",
+        "semantic_sha256": "150d71a8b03b6175f614c4aa2f3dcb6ddaa190caf5e82896eedda8b00de4a052",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PBS_domain-mrs_92227dbc3287b6cf.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "82876661b5cfeaaa7f437a6cef48b986bb394e5df48e225c7f0e9f63a0bcdd8e",
+        "bytes_sha256": "6c33f4cd46f6542d3e40fbc6a9583c9cb93eef6c70f1e4693b80e1422d99b238",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PBS.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PBS.list"
+  ]
+}

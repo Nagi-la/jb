@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:54.716328+00:00",
+  "client": "Stash",
+  "rule": "Hpplay",
+  "rule_updated_at": "2026-07-26T06:30:00.742414+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hpplay_classical_28a379c25db41eb8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5156a1253028dc3c09f31612d00df1866f0a52a2fae16f274a5230c28a9b47b6",
+        "bytes_sha256": "368f6f07ebcef7f8c66ef0748e66c5bc3c59664f0766892bb726cbd2c4fdb105",
+        "semantic_sha256": "74f0c67e68d9078cb16c7913eb67554687d88c0fdc141b450c3c4a071a785dcc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hpplay_domain_5e01ced43e54deb5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2772b7fd73c94655f94fa4891ed453bdc41a60606ed11311d2aa312882b9b575",
+        "bytes_sha256": "a5aa42a2020cdeb95f0bc5047703b3258ef48b9efeedf7efdbab7338ac482fd9",
+        "semantic_sha256": "12e07d183af5794820e8b9145eabb29203bd3d12198f878d359264a4db47ec47",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/hpplay.list"
+  ]
+}

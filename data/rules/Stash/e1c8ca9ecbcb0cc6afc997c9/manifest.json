@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:10:39.418473+00:00",
+  "client": "Stash",
+  "rule": "TVB",
+  "rule_updated_at": "2026-08-07T02:23:10.554547+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 18,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVB_classical_4118458987ae8cfb.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c86f0b9c67207db2bf9b31e00d5c39cb64d8d0e8fb2076655baf41d541b8a053",
+        "bytes_sha256": "77219a1cf335b0d1e155c9a5f5632f6d8a2b3d0462b23d09fac098103fcf9f12",
+        "semantic_sha256": "d28bd01bdd9fefe734413dd2ed9f480b5b0805e2bf1b1c8756d5ea8c25cfe67b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVB_domain_db3e8cf2c369f5c9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7405336395cedbbbc2efded032d3e8bce523f8c5de753dbeac565717348c8f2e",
+        "bytes_sha256": "ac02819f5bbae268e1fd07b071d8e91837ffc0ee8bfd7070dd5dd9ae534b2010",
+        "semantic_sha256": "4cd92b3ba052750dfbdb4caf8564161866171148b7e11f636e83c9059aece5c5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVB_classical-rest_2ad8906ae49ed641.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6e3e16c4c9cfe29ecee5260f5be9eb301a73bf2aa3f76c5781ead81be2a1f35",
+        "bytes_sha256": "ae0243ff3d6557c746ad2806bfe9f4f0344d516f09f0dabf66bc0d4755331e8b",
+        "semantic_sha256": "3cad1187b3bfe293ccf3b17c7402f2663427542ef123d4df5cdafb03027806c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVB.list"
+  ]
+}

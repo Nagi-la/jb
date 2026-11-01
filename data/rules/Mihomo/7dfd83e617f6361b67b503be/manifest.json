@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-10-29T03:30:00.858883+00:00",
+  "client": "Mihomo",
+  "rule": "Xbox",
+  "rule_updated_at": "2026-07-26T06:32:40.849241+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Xbox_classical_d3af931bdbfbcb54.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "089b12bee8b97c96aee8e0f91b38ed8d8fd6958c58acbcedfa7c79e327b8a45d",
+        "bytes_sha256": "a278bb291646b8972d2361e9fe37040df26d79a073b14ca984f02ce1f44780f2",
+        "semantic_sha256": "ddf0b7170f8301ab504f6e9e4b0b97bfbc83c7a6ef71fdd634eefd55f426dca1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Xbox_domain_88f60c9f14da1716.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aae6c6220ddb3cf679d86b4ecd85c3b83d9c1ffb0ddb9c43d10dc53363c2d65b",
+        "bytes_sha256": "8c0a7eee517d7131ece84e01869dde5b269738eb810a3044f0e9629e87d13d6b",
+        "semantic_sha256": "0d6aa84a56cffe616aad6e13afb0422bbed22f17b55e657a768822558782d9cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Xbox_domain-mrs_a1fa23a2b627fa30.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6de768f289dd72fe346a3420552e4872fd2a45879a251104f7f05ef21139e938",
+        "bytes_sha256": "e29f55b224e57f2672baff4bac6ba63cacf738736166f89b7ca23ca8c9f93132",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xbox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Xbox.list"
+  ]
+}

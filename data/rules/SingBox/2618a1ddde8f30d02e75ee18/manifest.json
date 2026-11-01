@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:12:41.068899+00:00",
+  "client": "SingBox",
+  "rule": "Hulu",
+  "rule_updated_at": "2026-07-26T06:22:03.800898+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 57,
+    "process_name": 1
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Hulu_source_2d340f0fa610db9d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "75ac79455f867969c1632b126d9c2fbe249e13825507804784a138bae2335f6e",
+        "bytes_sha256": "37e45e4c61a91db5d5fe222a7bdb89d703eb0fdc305eeab2902ad1298e4d0f08",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Hulu_source-srs_c8d0f3d6077c9d1e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "609ede5a459dd8746ba2b4c1735edac1ea391a45487dcaf3f5c20870688867bd",
+        "bytes_sha256": "a41e3c6324c59b1c48de7ddd1790177bb29a145279db729741bdbec536dac816",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Hulu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

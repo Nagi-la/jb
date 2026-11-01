@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:58:06.874489+00:00",
+  "client": "Mihomo",
+  "rule": "ApplePodcasts",
+  "rule_updated_at": "2026-07-26T08:22:24.306982+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ApplePodcasts_classical_5a6643ffe61b1faf.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42a4c5c62336ca73909e9ae238b80c2cffb1fa30dce2938359efd5e92b2f4c67",
+        "bytes_sha256": "a6b814aafc8338516fb65b37efc55d1c1b8cacf3c95432d2367efccb1804fcc9",
+        "semantic_sha256": "4c18e8452bd9a41de27d6d6b2cd3aa0124b0611f9b29f2eef3c2e0ac619284cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ApplePodcasts_domain_620a4c469e922e7a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb7d2202df0e6d657d9b55d178e14c55aa9396e8d142e30caef3e93d8d622f95",
+        "bytes_sha256": "5984cad4bb41e04a7fd0f72a1867b0b83c5c5ffb4313a87fdcf52da782a22c04",
+        "semantic_sha256": "2e523e0847c9172375813eb3ddc0d10dff455d9708871b868488c3c8c92e90f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ApplePodcasts_domain-mrs_d8e2a7b1cd22b4a9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cf112b69aa70143753f030d31d66b51c7826c36bc9e3af6ef7b885af125c4cfa",
+        "bytes_sha256": "aacca6b0e4da015a24227f1387a0001b7cabdc28c4e6f7afbdaf95285efe91ee",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

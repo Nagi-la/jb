@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-16T15:33:20.597643+00:00",
+  "client": "Stash",
+  "rule": "Sony",
+  "rule_updated_at": "2026-10-16T15:21:16.144552+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 127
+  },
+  "total_line_count": 128,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sony_classical_9a8bdb7f721fea0d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94003970afb0cea61eb78f2ff029be7c7c6e665572a950740cc1eb27586c9100",
+        "bytes_sha256": "0b7c44f0a2c10f3e884bd8ae669c0e6a5927c77dde58623395dbb4bac1bc71bf",
+        "semantic_sha256": "a3db993a979447d63bd2f3a85182c85ba82e663e7ad58c1a7379a87cc0117a7c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sony_domain_01302e50ffd1f39a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a949c51d3a1a09ddf260821bf6100c59a4d97525de54cbed0fa38529cae6d73",
+        "bytes_sha256": "ba1285b9d8c1e2abe900e2af70a2e82ab3879388e2b4e5412ef41778cc5a8a74",
+        "semantic_sha256": "999454928303594b5f702d2371bb9c7a3b92069f4db262bb8c6c805474d06a48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sony.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sony.list"
+  ]
+}

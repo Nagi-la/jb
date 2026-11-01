@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:38.108363+00:00",
+  "client": "SingBox",
+  "rule": "VipShop",
+  "rule_updated_at": "2026-07-26T06:39:42.511011+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/VipShop_source_a85acc8e32a632ba.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d30219e37fe9429f34e9c35910813a505ccb7d59e0a7f5ca3d6062227fc0f1ab",
+        "bytes_sha256": "3631ad7180cad01f293321b774b794ad2965cfe1a359f0a09365c190a7fd7e6a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/VipShop_source-srs_84fc98fbcab90b2c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "60c2391b41e28a10c9ce5b9c9e2c47a8ed7b5d6ab05c443c0406cd8b5c3a1157",
+        "bytes_sha256": "b7f61829f22d50b8d00336f8de3a31fdba09702543c238adf99f28fa5682bc62",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Vip.list"
+  ]
+}

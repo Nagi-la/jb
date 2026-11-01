@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:35.804122+00:00",
+  "client": "SingBox",
+  "rule": "ZhiYinManKe",
+  "rule_updated_at": "2026-07-26T06:58:47.049605+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZhiYinManKe_source_03ec860f51f8d054.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40f26ba88a9edacd46c596c56180fb36adc27748c2e39b00197816744da99f22",
+        "bytes_sha256": "ef7838327680981b653cc9c6ecded2c0f0d1c73960d79b53fd0a6fa975f2969f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZhiYinManKe_source-srs_4e9d12d7bd114aed.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "000c9aa7f6ec0d12339bf667d5bd53932d54f0200fa5971d46ed12ea655c397b",
+        "bytes_sha256": "02175b1fc696ab5357a7234c456de51478669a4ca023fd02c3f029480e9f0635",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhiYinManKe.list"
+  ]
+}

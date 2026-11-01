@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:01:03.195789+00:00",
+  "client": "Mihomo",
+  "rule": "Gigabyte",
+  "rule_updated_at": "2026-07-26T06:29:21.093777+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7,
+    "DOMAIN": 3
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gigabyte_classical_a8a266e5ccffddea.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "711e96657dae245caef9d0752447c0f39ef3d783edf3846969b7fe1c73749218",
+        "bytes_sha256": "1cfa599a4c258ec64d07dd434ae4845a9f88df61404a18a62c9023b130fed48e",
+        "semantic_sha256": "1b7112dd331c6044b5dac067be824c6ed42748f8bbbe547e619f580f3e28a106",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gigabyte_domain_c0f36d552018b710.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "106690da655ff2df40464215a9f5f3909873bc6ba9f2dea7c643164233fec532",
+        "bytes_sha256": "e94e9040df66ef36b4318318f9af81034957077e7e3b176828e0e081b50764aa",
+        "semantic_sha256": "de279920ea770bd40fb50ba5681a9f4385c2f81d0414f27ca73d7199b05aaae5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Gigabyte_domain-mrs_202f2199914d49c4.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "134b8e5aadc90008517af2a2f1a18195e7f61dd87753e8adbd3c636def0cc3ae",
+        "bytes_sha256": "ff1df0393fb3f8d07af73f9d7dd64ab378692d7553a508deb0392372c3920bfc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gigabyte.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gigabyte.list"
+  ]
+}

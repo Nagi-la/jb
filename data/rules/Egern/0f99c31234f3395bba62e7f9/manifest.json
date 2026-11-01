@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:58:20.654253+00:00",
+  "client": "Egern",
+  "rule": "Douyu",
+  "rule_updated_at": "2026-07-26T06:45:42.926098+00:00",
+  "type_counts": {
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Douyu_rules_e1bc0060e9908a76.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2f3f5b60b11318119aa7235b3a78ea586bc92e10ce5a53a78e7ac4e8eb324cb",
+        "bytes_sha256": "84a384cf40c4e6880230896c517ab6a7e663b6063eec8d2c0976ba5025bd16db",
+        "semantic_sha256": "56c246f7c758c45e320ecd57e6281393785908adde8db0b1e731cb25d02e66c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list"
+  ]
+}

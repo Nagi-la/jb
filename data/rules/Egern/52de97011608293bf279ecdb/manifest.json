@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:13:38.857670+00:00",
+  "client": "Egern",
+  "rule": "NaverTV",
+  "rule_updated_at": "2026-07-26T06:57:32.693649+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2,
+    "user_agent_set": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NaverTV_rules_c76769b06dd9f173.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba53546de9249c95a077ce554665dc4eed3a43997728fb5150225b2864c07cb9",
+        "bytes_sha256": "041bfb9873997398d98484aeab2eba7a92579e318ea707fa5da0928042665b4e",
+        "semantic_sha256": "7e002f3180647c96b60f6567aa968023753864dcb568d0195dc9d692d647f6fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NaverTV.list"
+  ]
+}

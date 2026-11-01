@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:57:15.931402+00:00",
+  "client": "Egern",
+  "rule": "Beats",
+  "rule_updated_at": "2026-07-26T07:03:06.199116+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 716
+  },
+  "total_line_count": 717,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Beats_rules_0d20d868570855b5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "041bbe387a07d5243392c5feec98d335a552fe5116be60f622341f92551f6d87",
+        "bytes_sha256": "8173745f48af8749a491a26232559a15b688d298dbbade34fbc96b4441eaaa35",
+        "semantic_sha256": "9fd88bfc003e2bf18c751c48fb5e79a69f1eb3f0655ce108d08e30af07881d6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/Beats.list"
+  ]
+}

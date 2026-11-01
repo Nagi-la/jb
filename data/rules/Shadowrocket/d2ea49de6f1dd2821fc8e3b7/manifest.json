@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:39.751984+00:00",
+  "client": "Shadowrocket",
+  "rule": "Emby",
+  "rule_updated_at": "2026-07-26T07:00:42.949715+00:00",
+  "type_counts": {
+    "DOMAIN": 52,
+    "DOMAIN-SUFFIX": 30
+  },
+  "total_line_count": 82,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Emby_rules_0f60747f7dee9047.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25f04c31f7dc800df7472fd795f83c2801c9df164f272f982fc986b81a580e24",
+        "bytes_sha256": "b19628954922fd3cf912a47871e6c80bcf35116c2e48a8c8aff1aa71a56511a6",
+        "semantic_sha256": "76130442499b3d86aad7769574985c058ce6595552e8f351a3002060060ce69d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Emby_domain-set_e4f4b0c672711faa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b26fc13cf27d7d7423a16bd1eff0c3598a2deb357afc59b5516906bacc588f29",
+        "bytes_sha256": "cf4392d4c4f21504eb3b718a1144bd1398ee1cbe19040f2a6e5162e4f39f2c87",
+        "semantic_sha256": "d4a9a765b36e1ab103fd83487245adc5950be6fa6f89f01be3e903769628f115",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

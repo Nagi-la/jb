@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:50.893332+00:00",
+  "client": "Surfboard",
+  "rule": "YouZan",
+  "rule_updated_at": "2026-08-01T04:38:20.698351+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YouZan_rules_f4f8ccc4e95df6c0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f69a65961992bd916b94ca8f2a38dc7f6c465735795dd5bf0bc598063acd26ab",
+        "bytes_sha256": "a6b57ce3cc7e2cb2824ed468cb54b237806735036e9b160b13059b6dc34c6a01",
+        "semantic_sha256": "6cd6acf6923143baffa8226af0cf1b34e63940047cc1f73e851b57452d14bfb6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YouZan_domain-set_138aee9e1d44d963.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "949593b56ed5149915f0bce58cc530fe05666715866dc50236b7b0f7b1a186f5",
+        "bytes_sha256": "d3a9181e64399346d1b51894e85cfa023bb7b343e6276348912c4f6bbfd46dee",
+        "semantic_sha256": "1994653f6800bb1d06257bf656ecebcbaf99e6ca1606a2d178c89947c1b7cb8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouZan.list"
+  ]
+}

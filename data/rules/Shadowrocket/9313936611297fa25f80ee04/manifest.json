@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:08:07.037023+00:00",
+  "client": "Shadowrocket",
+  "rule": "AppleFirmware",
+  "rule_updated_at": "2026-07-26T07:01:37.259916+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 177,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 178,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleFirmware_rules_36c336812d9825d4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a12f40b9d6cf50b12be76e4729ffe6bd8d7d1098388fa5c0858b7f0b590d01fe",
+        "bytes_sha256": "d7c7bb84b3a59ada37ede01777bc696fdf59b053b9e833305f8ed7d6f06f57a3",
+        "semantic_sha256": "f21ba5c961676bbd2022e8ad454f354b08d2d37c446624c9620817764009b4dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleFirmware_domain-set_8905eee9817303d6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50e6ec0e66bc270e27d62cec5b03a0f24db0561ca0c09db6f86bd4ced529f6a0",
+        "bytes_sha256": "203376cb8cb4dd80fa8c085129587a845e22782750f1ab25187b3b8a8ca7c521",
+        "semantic_sha256": "94b70f12138af5356f1901793db6a29305b173c928625cabe97b2853ca33851e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleFirmware_rule-set_e14ba8aaf714ddf0.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a4af2434afc1fd362ae43629e113b850ed6e7d6687cae011e60366d5e00f3a9",
+        "bytes_sha256": "b0112a7b0cab135e704067fac1406f5cdfae6145bc68aeb0a9916141966f6bc6",
+        "semantic_sha256": "64a1120ec6a8f785f1affb4175b61ded3bf1085f53552806e822d838e0728e97",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleFirmware.list"
+  ]
+}

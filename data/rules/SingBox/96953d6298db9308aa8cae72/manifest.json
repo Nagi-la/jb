@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:34.849197+00:00",
+  "client": "SingBox",
+  "rule": "SuNing",
+  "rule_updated_at": "2026-07-26T06:28:06.720397+00:00",
+  "type_counts": {
+    "domain_suffix": 31
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SuNing_source_3a8142b93cff2f05.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ce825d54080f5e29110e8227805e5b242d773dd599c82ce144ec5fc42699e284",
+        "bytes_sha256": "24c7ab1c07c97643c15e53a0a2d164f5b02792ce5eba5642d5c3ce9948450819",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SuNing_source-srs_389a13d4d1782e38.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40fe8d755af4d59f8ba9b0123cb29f772f5038c5bc9e0b98ef4beb1f6818ffed",
+        "bytes_sha256": "ee9e027e143738076960ae8a135423c5baaea5ceb2311e97631d475c14e39f1c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SuNing.list"
+  ]
+}

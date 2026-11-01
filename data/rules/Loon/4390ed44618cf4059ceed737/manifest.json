@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:38.481202+00:00",
+  "client": "Loon",
+  "rule": "Shopee",
+  "rule_updated_at": "2026-07-26T06:53:52.924562+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Shopee_rules_81e57bc5ab517b97.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1a581765e2157c5190719fe50661426f44e7779ca64ae14871d62a2f3cb63c4",
+        "bytes_sha256": "ecf84e63f843e3fc526100ecb36ac493f613aa65797dfff7fde4119f59d412ed",
+        "semantic_sha256": "51eeb29210528264b1c4c3a174eaaf86a97c3fe1d41106d1cd7eb00a25d809a8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Shopee_domain-set_ff76a1824bdad3a7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d43d10a6f03bc0cc133c49b8e5208b74776715af5f849274c61ca263fbbb0b3e",
+        "bytes_sha256": "01ebf631672b39ab6fd67aa5c7921e073fef55a72a67aa6ba5316e47aaec9acb",
+        "semantic_sha256": "7ebdc481beecb778de8ae0bd538469581227e584fbbdff8e24d4372e28af741e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopee.list"
+  ]
+}

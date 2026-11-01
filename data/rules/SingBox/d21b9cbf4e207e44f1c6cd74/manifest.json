@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:01.804270+00:00",
+  "client": "SingBox",
+  "rule": "CNN",
+  "rule_updated_at": "2026-07-26T06:21:29.033711+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CNN_source_f91e6227bf740423.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9887047c2080d1edc7b4376018219c3d526c16308676238980ddbb69a73778b4",
+        "bytes_sha256": "a5885ce2fde17126db6e4f6fdbed7662ee3b55303e57e679f419d0b4b06d6d63",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CNN_source-srs_c5e353a16e661da7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a5bd79d4e3291fe8e5480f8de8e222aba679b20965651466e12fe1b564181851",
+        "bytes_sha256": "f27f12b37ba8f21465d6cb2f491199f067d1ca3e32abddcb99b0963aa2ed64e0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CNN.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:50.575879+00:00",
+  "client": "SingBox",
+  "rule": "AMD",
+  "rule_updated_at": "2026-07-26T08:30:14.450752+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AMD_source_5b2eb633ab9d1a1f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "97f49dd3baf5ebe514e141d6ef5de4931a3465584c9b9a951104e47e4997d455",
+        "bytes_sha256": "cde8701364572503af180bc14f6ac28b46067b9093fa1085c4c6455915a8ef73",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AMD_source-srs_74c6d29af5913b40.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2be7c65bccc3ed1acc8c82cd2edc35601588522d6a4a5cf0c0a76cbd1d40be56",
+        "bytes_sha256": "01064d63de03be0833cdc4ee57c85c6371e1f4f3843f5392538ac2e8e32cae54",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

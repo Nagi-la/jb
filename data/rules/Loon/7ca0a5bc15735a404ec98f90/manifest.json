@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-08-27T02:18:46.898248+00:00",
+  "client": "Loon",
+  "rule": "AdvertisingMiTV",
+  "rule_updated_at": "2026-07-26T07:36:56.389721+00:00",
+  "type_counts": {
+    "DOMAIN": 1775
+  },
+  "total_line_count": 1775,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdvertisingMiTV_rules_1695acc599adb0cf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "554e9b544d95fd68b7c943c2ace7a8986d24a56602909795b15650b7e402655d",
+        "bytes_sha256": "d2b0829702e31b01e6eca304903a81a2b22f782823f9c1fa1649dc905a5c00d8",
+        "semantic_sha256": "83f6194903fe50b5c83995c00d2994b9efe1bce3809dceb1d904dfa3acfe1299",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdvertisingMiTV_domain-set_ab6f401f3855c291.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7887c750d6a002b0317c5fa83a2366b81651d286eaf85a065eb6884baedf242c",
+        "bytes_sha256": "1749511f3d2d9041d8efaac4ce605a7583e3f2d09a66cad6f3a771a74c80ac12",
+        "semantic_sha256": "b98567096e0aeddf034131c274315fb574906a0cb62fdf8dd63d363be2293ffb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "应要求添加手动整理的小米电视去广告，数据来自：\nhttps://www.zhihu.com/question/30746616\n手动维护，无自动更新。",
+  "providers": []
+}

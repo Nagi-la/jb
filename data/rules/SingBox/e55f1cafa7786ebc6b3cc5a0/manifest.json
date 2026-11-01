@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:15.450407+00:00",
+  "client": "SingBox",
+  "rule": "Unity",
+  "rule_updated_at": "2026-07-26T06:57:13.972668+00:00",
+  "type_counts": {
+    "domain_suffix": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Unity_source_f1a479e84f12c6ef.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "47c88bab3fd3c0f9233353daaa6f5691ecc6102fcf834e21cff8104dfe4fa599",
+        "bytes_sha256": "af1dea6f75dfc9ccdd1e1a5d9a3ecc162e14e19399f186f5410cac53565f4f66",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Unity_source-srs_dd8159c76bacb42a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fdf3f29375869c83315f063fa53bd40f1ba1316c8eec2db257eafdba327c66ad",
+        "bytes_sha256": "b4ac709147d9ef51b28b2128e22c15d2628fbd0effad6cd5c30bd29e80a9fe8e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Unity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Unity.list"
+  ]
+}

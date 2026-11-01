@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:36.186376+00:00",
+  "client": "SingBox",
+  "rule": "Duckduckgo",
+  "rule_updated_at": "2026-07-26T06:50:26.898851+00:00",
+  "type_counts": {
+    "domain_suffix": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Duckduckgo_source_24974390dbea06b0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "63bec9666b363a3717171e134e86447b0e9eff129cd1a18f6333e35d87e38094",
+        "bytes_sha256": "1e351ebf55e58e68c84c645b3e0288679181328706ca4acb524f9aeda27e6065",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Duckduckgo_source-srs_826739c49099b316.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cd61654b5f2ac73120c0f3eaa89c645ac664e9668617eb604d7c19a339d7e40a",
+        "bytes_sha256": "b530d2f45961fd0c1c392aaf5cdb38ddfd1428fc7e5c65e985c032a54d7f72fb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Duckduckgo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Duckduckgo.list"
+  ]
+}

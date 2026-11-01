@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:57:27.384934+00:00",
+  "client": "Egern",
+  "rule": "Wordpress",
+  "rule_updated_at": "2026-07-26T06:55:56.672043+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wordpress_rules_27074762dc319e60.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66a3399c6bf5650befb10deb77bb8f32b9f54f7f17b1ec617d43da35a3fb06af",
+        "bytes_sha256": "2989e2b5ed01e4636940abe63dc263fe014f6059e3850acf1b8bd9d043d804b1",
+        "semantic_sha256": "f23fcd9393dd943929f2041683226fbdaeb13743a3e0150cd92dd246170ca321",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Wordpress.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Wordpress.list"
+  ]
+}

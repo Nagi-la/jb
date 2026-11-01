@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:16.127837+00:00",
+  "client": "SingBox",
+  "rule": "Pinduoduo",
+  "rule_updated_at": "2026-07-26T06:38:39.937577+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Pinduoduo_source_1b2c1955708773a1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5da9aebf384d0f31d92123a55fa12a79134762e46062f308126f439af2897e54",
+        "bytes_sha256": "93feda493db817c0017b82b5844b97c679e0b942cce59c4240ab809d077260f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Pinduoduo_source-srs_4d1a8f6a2cd64c77.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4f333ba4251f8ce075cf03f5e786a68a3db0e8225baf31be2ff0cacc9a093f49",
+        "bytes_sha256": "eead1093e1cd1330f75703fdd84eb79ddcbd71d5019254b0e5111d64acd60ed2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PDD.list"
+  ]
+}

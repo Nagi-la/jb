@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-30T01:47:21.062022+00:00",
+  "client": "Shadowrocket",
+  "rule": "Advertising",
+  "rule_updated_at": "2026-10-30T01:40:35.267424+00:00",
+  "type_counts": {
+    "DOMAIN": 17423,
+    "DOMAIN-KEYWORD": 210,
+    "DOMAIN-SUFFIX": 242164,
+    "IP-ASN": 15,
+    "IP-CIDR": 1024,
+    "IP-CIDR6": 6,
+    "URL-REGEX": 15,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 260858,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Advertising_rules_1b4972ff6ce10d00.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66da1d3b5210e23a9cd94d8657f56b13bae4713bc27bf8a18254d4498eb3072f",
+        "bytes_sha256": "fdeb45b50654e135c3402a4dcc314537c219c207fccf158638199672f64e96e7",
+        "semantic_sha256": "b80fd7692954149ed91b4f116b954ca4180442456d68596d60bef39d5ea8d419",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Advertising_domain-set_8ab9b8be30aefc2f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a003907007108e738a5fddcf68861a94f09271cd784b021bf8194c3bfbfc72ac",
+        "bytes_sha256": "5416bdc38f34fd2901f877fca8187c044606f49be76d3e22ec62d3a1ced84759",
+        "semantic_sha256": "f1384e679ff97e9206e43fe4febd15b2aa478ae4b1d62c240def48d6226941a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Advertising_rule-set_7ffedd76c04f341e.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef421b0b162f7519fa03c470ab02c8c12b1c5838387121c9bfbe911b0c3dd51c",
+        "bytes_sha256": "d2106686d561969c5f02bb5a11311231458d01de42ac04ba6e1c15329233c29b",
+        "semantic_sha256": "3112735688648f2ac800327f03e58f83869c3e98d6ea7f3a9c8da844d5f2fc55",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "sgmodule",
+      "url": "data/_shared/artifacts/Advertising_mitm_4ea3fab19f5f4474.sgmodule",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "afca0638bce84d1ee03543cff5c51bce561f809a99bb74900aa91e62fe1b7e40",
+        "bytes_sha256": "ae49e21de6225edd3d3f795fe597c25ecf89a0f78594152dcd9be4c440e00ee2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list",
+    "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/reject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/ip/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

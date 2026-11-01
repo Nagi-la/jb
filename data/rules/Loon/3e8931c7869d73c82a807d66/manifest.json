@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:09:04.624214+00:00",
+  "client": "Loon",
+  "rule": "Rakuten",
+  "rule_updated_at": "2026-07-26T06:53:32.795704+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 37
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rakuten_rules_80d413a366592e7f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5cbdf8d2fb0bb48ec0f1dafab7d639b4fab1e4ac4e9011e80cb92720e0a2535e",
+        "bytes_sha256": "653efe2c40dd08bf236d450046a1e23c64883f3dbb3b812d733863369af7a301",
+        "semantic_sha256": "7356a6238c614827dda820ab15e9418958ff5d9ba3054757932845c9625a8406",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rakuten_domain-set_305999e123edfa91.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc3c2aa27806cc5b4e7fdea89fea9f8ca7ea04d449587e38e8d2e1e99b42d8f2",
+        "bytes_sha256": "969868c6d3f65df537fe5c26614b70b4b3fabb2389fc3fdc704d43b37cd5dca1",
+        "semantic_sha256": "ec93273e58bd066b86731f546662c6f3ec34e73b92f2361e57b7a8d2a2324b38",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rakuten.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rakuten.list"
+  ]
+}

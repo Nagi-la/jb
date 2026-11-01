@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-08-27T02:11:10.975478+00:00",
+  "client": "Mihomo",
+  "rule": "Alibaba",
+  "rule_updated_at": "2026-08-10T09:19:13.236661+00:00",
+  "type_counts": {
+    "IP-CIDR6": 9,
+    "DOMAIN-SUFFIX": 1471,
+    "IP-CIDR": 139,
+    "PROCESS-NAME": 1,
+    "DOMAIN": 5
+  },
+  "total_line_count": 1625,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Alibaba_classical_ae4d06b78cdea198.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc0e653b94e5aaf026b1a17b79e1542970db88b359bc6b563f7d5dfe2cacdbd3",
+        "bytes_sha256": "d9464e0e0fa8da2b57cb420c76b6ec58dd5a1728c5a104a2a24d5acd7919be3a",
+        "semantic_sha256": "a5901faeacf13df77e5412524e97a9d4f918d0a3d7e773e334486110c726ea83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Alibaba_domain_b5e3ddc3577a30b4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c71d047a2435abd11a634cebe9ab3a985eeb91848297514aaca11e8b6af428a",
+        "bytes_sha256": "c8ed5bbb380b0052e23013d8e7abc6fe3f24002d039178b25d5b9485a71ec464",
+        "semantic_sha256": "05bcc8d454b02b427eaa085acceea5497f5579a750dfb50e3bc39385e038dc63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Alibaba_domain-mrs_3909e3410b692d1d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6ff5e7295c2a8b074f0492ba49a0aa0a1688515b92391cdf4f242c0b932edfbb",
+        "bytes_sha256": "ff2873bc5bb7f55377bc9d9d990746e4a4fc0ca22a438c56ee21c7eb83da0173",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Alibaba_ipcidr_c071892775464754.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b08425941971e5999e038f0146c6be5ea5bc52917b3dc03184cb1345d7d4340",
+        "bytes_sha256": "ef13af3e94912f3ed03eec7079dc46e8b52a125cf486a4d1590913961c3cf64e",
+        "semantic_sha256": "c2ee451289f33aa0ea0e3c2d990c0cba71d9c02e2701662421b743676c5b2341",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Alibaba_ipcidr-mrs_da05e5cdfe9f30aa.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9513ca8b2c2ec596d43c9ba22215564ab58fe33a430c04440a55d65cd1fe9ff9",
+        "bytes_sha256": "7785c363046d31a2b322138fa498aeaba2c550b2d2174f2029a2cd97212ce417",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Alibaba_classical-rest_f869a0d96fcb1a4b.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f39f92e096c83821ac51ac3d27df5db88d97599934cf76107a0d9be2d08e40b",
+        "bytes_sha256": "9956cbb89ec768a08dfb31e60f882e2fe5f7b0aa612857f5f338eaa203107428",
+        "semantic_sha256": "ece3beb718692f0b83def419c7b8414d0d8197d6f94fca91f442c46968577353",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
+  ]
+}

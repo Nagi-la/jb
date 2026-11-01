@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:09.586588+00:00",
+  "client": "Surfboard",
+  "rule": "My5",
+  "rule_updated_at": "2026-07-26T06:22:19.032092+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/My5_rules_a266cd31855032a6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9dfedd1cd56a206732b0f51655367b7e70639d0d45124ed631f526e254b6b42e",
+        "bytes_sha256": "9706731b2734016b0ade55f3819c11f7b99407189e4b6fd07778aa9a59040e5b",
+        "semantic_sha256": "05d22dec2f9301b2c75773f456df3e8fdbe14514f21cd232782d6b9a5e6b50c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/My5_domain-set_0b06bcbfea9b3f44.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed336e7ec19ed637decb3ccb6f06048948f2ca7d01688344c3fc4515de6ca7b3",
+        "bytes_sha256": "ce411f43f4e31b113a23e2397355b296cf4e30c69bdfbe293150058d8eaadbbb",
+        "semantic_sha256": "a9b217c161afc6944d551efc5ab8c1de5e792f1b47090be9ce6f30823d1a4864",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/My5.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/My5.list"
+  ]
+}

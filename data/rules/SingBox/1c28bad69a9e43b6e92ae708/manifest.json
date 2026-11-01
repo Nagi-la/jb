@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:15.077404+00:00",
+  "client": "SingBox",
+  "rule": "Seasun",
+  "rule_updated_at": "2026-07-26T08:34:15.668775+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Seasun_source_ec683e03ccceca0d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3418d56070a52fdc1e16bc2c89ad42f57922dc0e7a62ee9581293de121da3c5d",
+        "bytes_sha256": "7f035ce9a5b735058e9f6c6dabe5f74cddb900e3ca9ca42c2581e90acb0a5d48",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Seasun_source-srs_83d7f30bda48353e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6af4f0813f0f5e9cb7f96d6a27fd5cb3a4cbccc12ce5c2394ca37cdc37e65486",
+        "bytes_sha256": "9ad555a1b6bc3a8eebe8add4f94fec64295dc88d9710995849209e232907c41b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:03:12.998651+00:00",
+  "client": "SingBox",
+  "rule": "BBC",
+  "rule_updated_at": "2026-07-26T06:38:15.470202+00:00",
+  "type_counts": {
+    "domain": 21,
+    "domain_keyword": 2,
+    "domain_suffix": 17
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BBC_source_5bdfafe3aacb8b24.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "44f74abbef76874ce3de31d435b7f44fe466c73bff26a2de906a93cd04ea5723",
+        "bytes_sha256": "033cf57bcfb894ba73732a4f9db7dcdb4a3caf16dc0b1782728df7c52979e0f5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BBC_source-srs_8ec7646dd4afb2fd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9d08fc7ff3c9126e1c818d11f2191b2c11c1889ab596db01b7ae26d383cdc3c7",
+        "bytes_sha256": "320c5a2efb3056151f65376ec8a64e28e8829fcba6cb52ec504cd5f6e842084a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BBC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BBC.list"
+  ]
+}

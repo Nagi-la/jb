@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:17.242790+00:00",
+  "client": "SingBox",
+  "rule": "Quora",
+  "rule_updated_at": "2026-07-26T08:34:13.746865+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 5
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Quora_source_dd74c2d5d414f240.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5f16716cf28a845ffd0a11f212f02ddd40e4cdd9f7bcd2ed9b6f98f0c7a9f292",
+        "bytes_sha256": "12fa547742691bdb8151119c35474a3f8a2b3aa79f148cd995bd08483f0869db",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Quora_source-srs_42795c403feb6b9e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a622934eb4de4e9e8e1f238eb3ef37ddda4280ada506431a9b3a60b2cdfeeb4b",
+        "bytes_sha256": "b2bfcfcbc7d5e5104c73ff29bea96dc30dabe22019a7566e2978e880ead01ccf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

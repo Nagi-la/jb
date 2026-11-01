@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:07.159654+00:00",
+  "client": "Surge",
+  "rule": "Manorama",
+  "rule_updated_at": "2026-07-26T06:51:40.549819+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Manorama_rules_4269668c32432b6a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b03388924e39ed9d161b5ccb82b7d02262b387fa52671fe8e8cabd1d7d54d893",
+        "bytes_sha256": "35d9a2bdf4841dc325252ec998528647ea3914671b922dfbcd6a496c84bc6a26",
+        "semantic_sha256": "0a52c6c38392d624f65e8cf400f745835c12ef28a115b129507711940dacd5de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Manorama_domain-set_90951028456f8b04.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3345689b68ce1d7eb767281c90d4180a444542e7f22aea46389c7d5c0f9dd837",
+        "bytes_sha256": "6d9b46f078547421aeb14306070f172b14165a8ba1e6406b9a39da463b0573b7",
+        "semantic_sha256": "ac9570c2d0920b26bc05db296d9f6638f35cc4d37300c07922c3b355ca3509df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Manorama.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Manorama.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:38.296896+00:00",
+  "client": "Egern",
+  "rule": "Shopee",
+  "rule_updated_at": "2026-07-26T06:53:57.942360+00:00",
+  "type_counts": {
+    "domain_suffix_set": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopee_rules_1852d91d6361b586.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00da335c2d327b332ec0fa4cb7c2d411b93cb5a05f99044e3fcfa94dff7886a4",
+        "bytes_sha256": "9df10afe452b424a1a618627f2df4f000f72596410ecdcf40a1edda12110efde",
+        "semantic_sha256": "9441c17d0fb3837c15aad232117db9cccf76adb682a3b793bf1fe76597c7f7ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopee.list"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:02:41.212068+00:00",
+  "client": "Mihomo",
+  "rule": "iCloudPrivateRelay",
+  "rule_updated_at": "2026-08-07T02:23:28.370096+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3,
+    "DOMAIN": 7
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iCloudPrivateRelay_classical_cb5ef0e9044cef65.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b03eed1bfc9a5953d0c51a84e7999e18d753a086340136265190f7037cb6e0bd",
+        "bytes_sha256": "dac684d72dbf07a9e485a456dd4f7dcbf780fa0c49f8c16969fca90caafa0fe7",
+        "semantic_sha256": "7a92941817742d16c9ca0a51d7ff8dbb037995e4805413ab8e0c9271d1afc926",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iCloudPrivateRelay_domain_bb420a5bdead24fc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "54eddd482781c8088687e563f8f213f85027991f7ec65bd7dc42971d9186d0a8",
+        "bytes_sha256": "0ed604e621c3a8db40db984d86bcd99776e9914a256a1f846f808377478cd3fa",
+        "semantic_sha256": "407acf7cdb4b56939b7dfbeea25ed344ab721cb6a37d6069e37e0ebb1dec5ecc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/iCloudPrivateRelay_domain-mrs_6a282e7d054c852c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4304494cd69dca6c613ed42c44557954d0fe7bf54e0d1415d06cca9fbdc54187",
+        "bytes_sha256": "08854b0b9ae4ae31909292e49e58a72be951216c5fb1e03211a86a0cc1184da8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T03:00:59.441839+00:00",
+  "client": "Surge",
+  "rule": "AdGuard",
+  "rule_updated_at": "2026-08-27T01:43:39.631181+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdGuard_rules_2ec11c54fa95af58.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "96d821f80cd9c87fa7d09f7e2c3551fdb2eb42401a6820ab7692b046d534026d",
+        "bytes_sha256": "6d56794024eab33763aa0d5031b6142aa9e6845646d250c485f2f19669ce5c7e",
+        "semantic_sha256": "82312c1179f0dca0cc59eb25b6634f383eaa45afdd0df91f0f1a3c8ebf720cf4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdGuard_domain-set_e0acc7e3a3a2974f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c37ece8190f5299de55913265cb9b06f2ffe0f8d3a4b76ef59a0956677eee23",
+        "bytes_sha256": "b844a01770334a1f7baf7c9cec247aa117044e409473694575a064d20af4577d",
+        "semantic_sha256": "78768ecc906b2053b62bd8487e96159a5e0641241c8a7b911e24112c8f8ff0c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

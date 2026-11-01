@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:01.508729+00:00",
+  "client": "Shadowrocket",
+  "rule": "Anime",
+  "rule_updated_at": "2026-07-26T08:30:17.207629+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anime_rules_88b39407f41a613b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "60907c78cd7000e18f35521e07dec43c976764a17ecdece342b0d408ba47be0a",
+        "bytes_sha256": "35d1da2468a65c2efcf25af9aa01c79ef403471bfaf258873ed4fbea9101e2da",
+        "semantic_sha256": "b95816aa3594f8c2c9b98dfea27ff564f60fed6d03dd533b5ef210a599fa79d1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anime_domain-set_d6881807bb2c3afd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "26677e0e6bcb3ae342fc4820c374ee1a37b3f85f9399ffd0946f5386f0617871",
+        "bytes_sha256": "07d41201d6f49d7f9d77be73759c18b4b71c35fa94c4d7ccba91b15148fe45e8",
+        "semantic_sha256": "ce243857c995ee82117aabf450c3866bcdc8d7bc1dd56562e04faedc3d9d5445",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

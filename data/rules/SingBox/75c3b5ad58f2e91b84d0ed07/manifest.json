@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-29T03:05:25.157577+00:00",
+  "client": "SingBox",
+  "rule": "Twitch",
+  "rule_updated_at": "2026-10-29T02:37:34.741771+00:00",
+  "type_counts": {
+    "domain": 27,
+    "domain_keyword": 1,
+    "domain_suffix": 9,
+    "ip_cidr": 21,
+    "process_name": 1
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Twitch_source_8f8bfa7ad7ae4891.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6cfc8772552479591740f135c5648c80fa266cea07f38eeb433a90150d787ea8",
+        "bytes_sha256": "f25576a3326d93924a27c2a2d715d3e27c42f50fe125a0e5a9471ec69f3dc9fe",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Twitch_source-srs_c129ae23130efc02.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5cb388b6854d4cd611b08dac848cda75b1887a38daf8dcc378914772ae2712d3",
+        "bytes_sha256": "160f77f98cc36dba075ef215c165371c3a43d52d4d6721f389e1373d66e253dc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitch.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitch.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitch.list"
+  ]
+}

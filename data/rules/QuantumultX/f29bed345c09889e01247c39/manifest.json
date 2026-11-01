@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:08:34.052851+00:00",
+  "client": "QuantumultX",
+  "rule": "Dell",
+  "rule_updated_at": "2026-07-26T06:49:14.102695+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 313
+  },
+  "total_line_count": 314,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dell_rules_820bb012a4c0744e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55cfef8646dd041aeddd1d08a74be3f2d7ecf6b711155a145fdb72a8fffedb93",
+        "bytes_sha256": "8b407ef4b39b4a5d261ec8a1c189a5ec5dda8d9012c460bfec019283ff8b217e",
+        "semantic_sha256": "0635cde6a5daa7b630386b767554fab87129603b2726ef9b5cd7a5fea13aa8e1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dell.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dell.list"
+  ]
+}

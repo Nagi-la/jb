@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:12:11.717048+00:00",
+  "client": "QuantumultX",
+  "rule": "JOOX",
+  "rule_updated_at": "2026-07-26T06:22:10.838047+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 1,
+    "HOST-KEYWORD": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JOOX_rules_ae1d2092413a04ee.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "73b308c6810534451d6bcf5c81d9455ae240c9bebc22b852522d5a37f8eafee8",
+        "bytes_sha256": "22421d702c47201ec0c52f065076d6d85a495dc1fea5fb5d188baee23077b067",
+        "semantic_sha256": "05de4037c4d22b4a12396e3ffe88f1569b2aac26f4cfdda22d41b89b1401554a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JOOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/JOOX.list"
+  ]
+}

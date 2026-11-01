@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-09T16:03:20.962875+00:00",
+  "client": "Egern",
+  "rule": "Tencent",
+  "rule_updated_at": "2026-10-09T15:58:46.357256+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 2745,
+    "user_agent_set": 5,
+    "ip_cidr_set": 24
+  },
+  "total_line_count": 2775,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tencent_rules_1a1d84b4de567fb1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "848c512b9ff270c469b4371a3b8eb196ed92bb1a471c9b3a8033d63dd1a100fd",
+        "bytes_sha256": "d776c75bf2384929e2a7f28a9419e99a96c0382bd007f717e383ee0467619929",
+        "semantic_sha256": "d0b2627ea6f39af7316673f6a5eced96de9b07edcea923a101714d0b1fcfef9e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list"
+  ]
+}

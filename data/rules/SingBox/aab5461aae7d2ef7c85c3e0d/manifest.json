@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:48.539918+00:00",
+  "client": "SingBox",
+  "rule": "Grok",
+  "rule_updated_at": "2026-07-28T13:21:07.993442+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Grok_source_2bc19ab99b13dbd4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "64aa82a45c931a6d63316980f30297f6093b555076885111672caa41ec67ee1a",
+        "bytes_sha256": "4bb86192e2ded9e8d47c2cc1ca08c8b2a8c349958966ebb9330635d6beead4b4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Grok_source-srs_11c197d57064d73a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9bc95a580e8f379fc9836cb56a950eeac3a4f88837eb5d506d6f5b2646b1b966",
+        "bytes_sha256": "88b662b6ecf53728a581f18e296ed67c4cc5a85230d44a0c1a8ca436c1e7374d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

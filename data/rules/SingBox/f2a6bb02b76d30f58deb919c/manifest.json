@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:09.104799+00:00",
+  "client": "SingBox",
+  "rule": "My5",
+  "rule_updated_at": "2026-07-26T06:22:18.964704+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/My5_source_a21a104b5ab98656.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5cc604e33f8783271896ae5f13b97e5d4b5154ec11c62c9d8ca6d91a345d90ed",
+        "bytes_sha256": "b5f3702066fa714c9ddbdb8614211e31ac32171da4ca2950d624e01af7ea27a2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/My5_source-srs_1a582f5816c4937a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "183591e1c3f580191aa45533bdea736af1d96e436e790db18b53f39afa862441",
+        "bytes_sha256": "0df456e30e35952c5c4586b6dc2b2048067723d563327612d02cf4f5d93dec65",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/My5.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/My5.list"
+  ]
+}

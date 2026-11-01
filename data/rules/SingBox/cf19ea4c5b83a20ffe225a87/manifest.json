@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:57:59.545962+00:00",
+  "client": "SingBox",
+  "rule": "AmazonPrimeVideo",
+  "rule_updated_at": "2026-07-26T06:21:26.420369+00:00",
+  "type_counts": {
+    "domain": 5,
+    "domain_keyword": 1,
+    "domain_suffix": 19,
+    "process_name": 1
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AmazonPrimeVideo_source_29c6fbcc19ddd6cb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c1ea3bf36e8f324e93d8895e91cbbfafbb17776427b43a5192ebc327346a483b",
+        "bytes_sha256": "96a2ac0736ccd750c77f09635c2d7eeb15dc2c972f7fa36c3c34621bf901eecb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AmazonPrimeVideo_source-srs_95c3cb57ca23ac1f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2374f54b33d80e1b8127a33d896be8000485c8b10db2ec77f5807e5ebe40948d",
+        "bytes_sha256": "c29af7767ac1c3fa3d48d764f8b8351b9ddf0dd7ec684b0e1352e7ccb3c659d8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AmazonPrimeVideo.list"
+  ]
+}

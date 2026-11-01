@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:21.968033+00:00",
+  "client": "SingBox",
+  "rule": "Tesla",
+  "rule_updated_at": "2026-07-26T06:58:03.349776+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Tesla_source_cb2877464b2eed35.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "115748e25544725744e4f70ec2e25cdfb0ffe267462dea79daf07170a3a99fc8",
+        "bytes_sha256": "1276b73e8de3d0f6826815a16efbc9f9c0957799c00aadab569ad70089fcbd0c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Tesla_source-srs_0a6e94bcc3aa9a55.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2a20939f6e9b2122fb806a3023a5ba2b34603fe6c7dbbc0de617e1f52d2de8e5",
+        "bytes_sha256": "dfc1c89b7613110e8456e08efc19bb932bd7235c45c45fef39bad9f94204fbcf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tesla.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tesla.list"
+  ]
+}

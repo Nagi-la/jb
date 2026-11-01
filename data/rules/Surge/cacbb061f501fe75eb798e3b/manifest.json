@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:06.223387+00:00",
+  "client": "Surge",
+  "rule": "DDNS",
+  "rule_updated_at": "2026-07-26T08:25:03.570894+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 111
+  },
+  "total_line_count": 111,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DDNS_rules_8a7f0464b4ac9440.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c21fcf51fcf6c888345d7d3fc5c0fe5fad059a257f5b5d4c937ed478d0f96c64",
+        "bytes_sha256": "f10c56f68f9af1b515d4e31dbfdab4e7d00c5cccaaedd2db2082045bd9820e88",
+        "semantic_sha256": "a984ef85d776f6f56a8d13969a7d719f5c3b8e59ee9b331090093e73f7042d38",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DDNS_domain-set_d391d1bf88cd1b5d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab3f4c1e38fdbafca5fd42fa0f975a7264b274cfd53784c2f54498d9471362e9",
+        "bytes_sha256": "75f14af96922fc66b9cd534011a4fb58a775f22b1e86fbcd1764b065c70081cf",
+        "semantic_sha256": "28492a30a67b5cbf0aac21d7ab2a94b7b011f131e939ace6b55fc46d7af671ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:13:40.708414+00:00",
+  "client": "Egern",
+  "rule": "Pinterest",
+  "rule_updated_at": "2026-07-26T06:53:02.123480+00:00",
+  "type_counts": {
+    "domain_suffix_set": 52
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pinterest_rules_21dea121fe77a203.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e1009e5f51976d70944205468d45ad8b64d033467992f6c9c07e0045262be073",
+        "bytes_sha256": "ad5298c259d1e8fdaf83ba54d97560f04ed8565708ef3e9122a2c23e89536d2b",
+        "semantic_sha256": "719f690aaaf58aa0e4796fce58e892301c79dd7abfb2d750c664ac718508a9c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pinterest.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pinterest.list"
+  ]
+}

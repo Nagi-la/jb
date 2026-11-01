@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:14:59.692103+00:00",
+  "client": "Mihomo",
+  "rule": "FOXNOW",
+  "rule_updated_at": "2026-07-26T06:57:22.265955+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FOXNOW_classical_049262090abd163b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72abe45f9b67325874984408260b88d584a2db73530b0303a0247a82d3e53c2d",
+        "bytes_sha256": "ff9f0a8b03dc7be1d67f8ffb5a79d51e5142fdcc799e7bf45547ac32a7081c66",
+        "semantic_sha256": "7cf0ef6335d1dff0da536aff5ca6708dc196e7b4cf3eb0a9796042ba3dc1a909",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FOXNOW_domain_3abeb586837a3ae0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2e5275ce702ae72d67ef7be6339dad87aca64e33e184ae4153d2e58b11dc2289",
+        "bytes_sha256": "21e45af267c5c6e95508735794eae0658f33563b2751fb0e12c5d156d9b7222a",
+        "semantic_sha256": "406a95a80dd594f6d63043a3445a54b5f48affe8708843d84ad42b2a102e9e6d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/FOXNOW_domain-mrs_fa0c922d1cfe9027.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6133973182d7fb4eca0e2e087c221f085fe390264b54399578aed597f2033268",
+        "bytes_sha256": "dc745da82f8b0e3cc9beeb143b41a5b972f18349ff65d78083bdc6cec3763e39",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/FoxNow.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:23.996999+00:00",
+  "client": "Surge",
+  "rule": "Gitee",
+  "rule_updated_at": "2026-07-26T08:21:17.287352+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gitee_rules_c7459044c6a39a60.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9821a331819df84149285ef0a1aaaadff76cd00370f75cea7331a337dd937a0",
+        "bytes_sha256": "6319b916e64a335bd9169f07a85a17eda6e0298485f99d2a4a009e08e9b40812",
+        "semantic_sha256": "2d040e052c488cac9381baf51eb2f8e70176ba4a934b5665959b0e37ffc2e8f7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gitee_domain-set_ce325cb7a3e188e4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "baef48c31d8c5224f7f58aa61b0fe3c3d4bbdcea1fd51290ae3c8f131a90c20d",
+        "bytes_sha256": "ff049792030edcf94a45d98e2e442839c5bd6a99fa0a64d8f608d16b52586aa6",
+        "semantic_sha256": "2f7b814f08823eb80b0e08b6b44cda893a07747619c47da2258ff112e34cae79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

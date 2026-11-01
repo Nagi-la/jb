@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:50.908796+00:00",
+  "client": "SingBox",
+  "rule": "HunanTV",
+  "rule_updated_at": "2026-07-26T06:25:28.222202+00:00",
+  "type_counts": {
+    "domain_suffix": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HunanTV_source_9af3b0f3989dfaf0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c147e0d3d9d3f7be22bbf7edf16811cb982ba985521086265a5395eeecba05a4",
+        "bytes_sha256": "65b477daa5537946f07a48aae8e9d782f0d4c8c65c54ecf432ae46bb10da0884",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HunanTV_source-srs_f1751906f3f8cea5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2abf79ab7977bc44ec46889037b8d763da9229c1835ff3a82a2fb9b97bc33de3",
+        "bytes_sha256": "fd62cd858407a4e3cc691fa0a1d6f361da7e0958e5b0b8816c9d59f457977508",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HunanTV.list"
+  ]
+}

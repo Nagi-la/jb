@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:14:51.703664+00:00",
+  "client": "Surge",
+  "rule": "ChinaASN",
+  "rule_updated_at": "2026-07-26T07:23:21.558043+00:00",
+  "type_counts": {
+    "IP-ASN": 5076
+  },
+  "total_line_count": 5076,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaASN_rules_4404b37b2d7a7437.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da633f91c004717077b077318ba0523d90e0c2b44e25c634942068015654a720",
+        "bytes_sha256": "72430909b480c084f81bba2a11ae9a1542b6702a643088faf8f7e81bcc94664b",
+        "semantic_sha256": "8a8f1d61af9fdd12436e6f23963e5f81ec83d7ef988814c0e2ca9effe7780246",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+  ]
+}

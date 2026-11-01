@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:32.296119+00:00",
+  "client": "Surfboard",
+  "rule": "Dandanplay",
+  "rule_updated_at": "2026-07-26T06:24:17.319827+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dandanplay_rules_8ca8c5ad24cc4c92.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb1cf7d4ce1c5ec3d936c0ad36df9dcfffd9bacc0943ee0ccf0f7345ef628f2d",
+        "bytes_sha256": "b62c490df8628b50a2ab9a04eeae097b96a164a5f0af03d6a6986c7eaadab52d",
+        "semantic_sha256": "6bf8a7920611026df01f38ce25f44d0dc750c8cd3606e21094073a77370888cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dandanplay_domain-set_1cae7b02872cfc9c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "438cdbaee1c6ca733ad4bf1caad9d09f9e8d2909fdf9077b32185e061b1fad97",
+        "bytes_sha256": "6028aa2d3594a487d9bb932a05ef96fa99cc760d19c8f57b2f693bc2b341e13a",
+        "semantic_sha256": "52dc0e27f23ffb42e23534edf097f57cce609feef6860b5856b7f3e27846159b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dandanplay.list"
+  ]
+}

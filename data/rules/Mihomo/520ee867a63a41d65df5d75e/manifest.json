@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:10:44.403894+00:00",
+  "client": "Mihomo",
+  "rule": "Sohu",
+  "rule_updated_at": "2026-07-26T06:28:13.419752+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sohu_classical_1c0e90629257fbc2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ffde10a7fb4ab728e452251d3f621f278135b7e69fc834aa574fc78a30e2a94",
+        "bytes_sha256": "9bcdc88b9d583bc970ead4acd2d52a6bd9ce97d0aec58c14e5a4a3c0fc23a4bc",
+        "semantic_sha256": "7243513338a26229ce274399db5b504427ddbed65e5334d957c1284174437e20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sohu_domain_25be7188dd6abf9e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8476b6f1c58f1cbaad483b0738e6515b84425357dfb6c6c29d4429b22ddd96d",
+        "bytes_sha256": "66b2537bbddb20c65fe359489bd2685cbfce114767637c3428561f28a8f4e0c0",
+        "semantic_sha256": "b831d37cb11458ca72849b3c4a161f003e22e84e5a70538a9e339756419204fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Sohu_domain-mrs_a1a07e1968c1585e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "501616882c0519dff75cfae27f80fe9ae689dce332dcd11a4a30e27771c8b890",
+        "bytes_sha256": "796599d7d640dc926cf0924f6e260f4cb615e549afaed3a64c6de1550577676d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sohu.list"
+  ]
+}

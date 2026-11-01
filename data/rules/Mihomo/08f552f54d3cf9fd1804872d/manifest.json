@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:02:03.401074+00:00",
+  "client": "Mihomo",
+  "rule": "WangSuKeJi",
+  "rule_updated_at": "2026-07-26T06:29:01.061566+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 193
+  },
+  "total_line_count": 193,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WangSuKeJi_classical_d1983a2c1654978e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "36cd8c836a21e24dfbc84dcdb9b394359d1190c97aa3d3d71457f5b9a7198176",
+        "bytes_sha256": "1852015c71455818946b98667ef2ceafab81648b6587dbd8baa580e7dcaaa69d",
+        "semantic_sha256": "c4ec562377902f457dbe2ae4d7c6c2b246ae155ce49ccf694c3d672b6335f71e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WangSuKeJi_domain_fe280aa1bfa4fd3c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5dd69a799ad742ec8db5b98ccffdc37663f20a5da36cd8c4419c0fc528ec543",
+        "bytes_sha256": "848742fb35e25d3257b3e1846802448e4de97ada99f308b7f56db65990f2e23d",
+        "semantic_sha256": "0e847b08a49bc17bff2b6d140716210d50468763952498639eda1fd9f60a3dc1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WangSuKeJi_domain-mrs_5e5e27fba5650c77.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e0841de25888320f2c20a979d6929759dc768d1558cb26a240848218c487195a",
+        "bytes_sha256": "0733fe45fda4cb8589e777fcb48ef1996c8342e7dbed93dd7b605373013253ed",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WangSuKeJi.list"
+  ]
+}

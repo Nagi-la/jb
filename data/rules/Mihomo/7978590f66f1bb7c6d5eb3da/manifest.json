@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-08-27T02:03:42.178712+00:00",
+  "client": "Mihomo",
+  "rule": "Twitter",
+  "rule_updated_at": "2026-07-26T06:36:18.594344+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 27,
+    "IP-CIDR": 8
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitter_classical_d405159ccf6c8682.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df8bee42e5fdbbf20d5091d5010efd63777bfff853c05aceefeabdeada5fe0c2",
+        "bytes_sha256": "35fd4cfde29e551e352172ced8e76d32f884d5d24e8b31d2dc24afca0f1125d6",
+        "semantic_sha256": "f9d09fc9cac97c9b8525f2f95900bc849dfa343cc038aa648b5a2ce1963e36e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitter_domain_a1badbb620eea298.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3044b696add69a136906ffb00d1a94857d5386bce7414fdfa490808dacbb34dc",
+        "bytes_sha256": "ae4b0db9b68a9de3e119cfe7ef8b1e84109b79900fe68b0497c3940536148a89",
+        "semantic_sha256": "7c546bba8e73a8104c1b20b725171ed1257249e9d88dbda14cd1dc70934fd4be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Twitter_domain-mrs_b37af350e0188c48.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0db5c3a0acbd5a43661be1ceb22dfefca9bcd0c49c44c350633e36f228196280",
+        "bytes_sha256": "cd8c022394372fa83f253e2a5b209e88b0b0fdefe811824cf9141f6fc00857be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitter_ipcidr_5cfa0ebce47f47ac.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "220bbea038abd0cba2cd1601d42d8d7a3c75d75abc1318ecfb56501cc10e8431",
+        "bytes_sha256": "a21144076a90c78f7f123a45d870af402b1fb0ab65636741d779002ad30603d8",
+        "semantic_sha256": "0044143cbfa80f1ae5a982868d1fcaf1725c7a5c3f5b9e6ba3b1bab6b9c00dd2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Twitter_ipcidr-mrs_bdd5f8f2e22081e6.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "44333970b037ce0f3e2ba249326373e4eb9df78884eaf24a95d75bdc379ad7be",
+        "bytes_sha256": "7885e0de06e22527850c51f3f9abe41b2d4567ae073ec2d7b7af9e3082830425",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitter_classical-rest_4c6781e97842048d.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d4bd3e76d23b339507710872164b1ed3cff0338a8088e56941a48cca714f17af",
+        "bytes_sha256": "85ccbcac37d9aeb2340154833024f037d107c5ac586d4a2c06c6fa2f3ef9f7f8",
+        "semantic_sha256": "5e7edec2ff8a69294e0d3d3d4433a1b18625c211e0da0c81f278ec541e9ccb06",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitter.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitter.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Twitter.list"
+  ]
+}

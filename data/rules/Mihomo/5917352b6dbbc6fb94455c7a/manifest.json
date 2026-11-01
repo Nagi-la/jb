@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:56:54.917143+00:00",
+  "client": "Mihomo",
+  "rule": "LeJu",
+  "rule_updated_at": "2026-07-26T06:26:42.960310+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LeJu_classical_e34750bb74dfb126.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb1f6f731c0c6fe7773d55d48afc3cbd4d37de044f1f642b415c6f4e847686e9",
+        "bytes_sha256": "ddd7dedf919ae90e57f5d33f0885fd2ed8fc34ce8a299f6674ba61c9abc6abed",
+        "semantic_sha256": "924ee12c8833a031b0baada22b915322fc8b22b5d4a04ec92c8400ef00cb5b3c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LeJu_domain_acc37728826c08bd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff5ad222deb59584dc59a40372aebe0a6c30afb98f987e0537682983748f3b55",
+        "bytes_sha256": "05ea811df22de6d9d38f74fa0a8014b414f251e7e4a8df62585d756e0a5d062c",
+        "semantic_sha256": "fdfa48d713e2d19b28fa9a0b8fd0f36d90334504f95d637e83a376d152e8efd9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/LeJu_domain-mrs_6a1c5c7c5eed2a43.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "718e5cddc47a5c0be53ab8c5a814e0b61c839476316a1f2c2921ced6a12aadf1",
+        "bytes_sha256": "87149c828658602e2e688c7e50ed763a31d16522535cc189ec32c39dfaf735ad",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeJu.list"
+  ]
+}

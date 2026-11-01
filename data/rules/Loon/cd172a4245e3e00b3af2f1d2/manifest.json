@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:04:07.846109+00:00",
+  "client": "Loon",
+  "rule": "Jquery",
+  "rule_updated_at": "2026-07-26T06:50:34.165942+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jquery_rules_3132770570297536.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a45347da9dfb314611ee21dbc0f2c15757be9ed2a8c2263bb5a7bf22c5d6870f",
+        "bytes_sha256": "122f90446828c0da05a104888c867198c25ae1f52b07e5d2b7e349efab78dd20",
+        "semantic_sha256": "7705708157333c75a0724f27055634fa9137be46b8b45539881f9760762e2f04",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jquery_domain-set_a8bc8facfb0372cf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c978bc33be3f23eb5c7f5f49ffdd98e21cd870c763ca535034acbfbc2a1a9ba",
+        "bytes_sha256": "516c12ab29669b1dc0cbf4c5b218a8ec3adcd1e2cbefb284ff9eb85af8a95ada",
+        "semantic_sha256": "33e192cabb21b24f2d49ead5f28ccc6bd1283d56388d1a6ce97bcfd3444c4bae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jquery.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jquery.list"
+  ]
+}

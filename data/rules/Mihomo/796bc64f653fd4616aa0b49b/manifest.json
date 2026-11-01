@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:03:47.741415+00:00",
+  "client": "Mihomo",
+  "rule": "KuKeMusic",
+  "rule_updated_at": "2026-07-26T06:26:14.013841+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuKeMusic_classical_9dcf6c2d68f10e53.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c70916ac03991d77366ffb5dc4dab7939262c139ebb26704fb85686b90e6f82a",
+        "bytes_sha256": "f876b6f87e801fb45c928a83d8522d5913c4b2f647c27fec30e75f50c1e95500",
+        "semantic_sha256": "7c6322546572be0ccca36954119d9e697bb794d804c51e26bb59859132c31d3e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuKeMusic_domain_1411c5cfd40cab64.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "809b70cd331d18cff60d6fd156d89aebbe9a19d5943d72f49041e325199679c1",
+        "bytes_sha256": "d611f097158a7f5450e650b77d5bb28c4280894b482a6760c8bea2fde5cf34d5",
+        "semantic_sha256": "4ba0322d043149c1ffd0d692fa919b04953062aa29a53955f3379d41ea59bb9f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KuKeMusic_domain-mrs_b3fc0a8211cf8193.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "43833ebf9d1bf4260a10dda4d69ec0dd1b08c4e9e8331016c4b6537c4a8965e1",
+        "bytes_sha256": "286d98da76aadee7ebeb2c2a00d9a14aed471965890b67e8f83ad09f71dc4e35",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuKeMusic.list"
+  ]
+}

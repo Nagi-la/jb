@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-08-27T01:57:31.793088+00:00",
+  "client": "Mihomo",
+  "rule": "YouTube",
+  "rule_updated_at": "2026-07-26T06:32:43.912395+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 181,
+    "DOMAIN-WILDCARD": 3,
+    "IP-CIDR": 2,
+    "IP-CIDR6": 1
+  },
+  "total_line_count": 191,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouTube_classical_59b6d0fe3b15c19e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a08f752e12be0d79dafec1ca0c0b87a943e25c327f77674f942c9ebd9cc83b21",
+        "bytes_sha256": "832dd7218bc92e1ea6a8a7fb3763cd671052ccd431539ef77f433d158ae310c2",
+        "semantic_sha256": "45fe69cfe59f53c43e9291238e6084efc8f2c48e422b2473e20366f8274c0569",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouTube_domain_e14897791ce29ba9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03d077f372c9f3b6cf6b2f48ab4c7bf954b6f0471896c15a8f18115b40e5be8d",
+        "bytes_sha256": "65ea8d80488aa017fcb8cbe496ad54a64a829de0884316cd6034535ca61dd3bf",
+        "semantic_sha256": "aeaefd2419b8d6997863adeee86c241306b663c80e13c802b45bd7de8d037db0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/YouTube_domain-mrs_22fc66e136f696db.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "491307d0c4a971c403c15feb3ea5dfd0222e6d9e811a7e193d9eea1d392b0c74",
+        "bytes_sha256": "6e4e62fff396e686520379991e896a6c427f12c9e15068bf0854c2fb71c27cde",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouTube_ipcidr_cd6dee00b5d3bfcb.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9ff59d6d4f2065044271f0a63d5e287a77d21d5cc8b200a719c9c50fb270f65",
+        "bytes_sha256": "17b0f39dddaba09a38d356ce6f4ea23d364e38c3119268219559bde9f5647a7a",
+        "semantic_sha256": "1afd4d9ee5932d0e1ea23e5c575c4c1f2761b1f2cd6e00232cbf062baf23dd7d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/YouTube_ipcidr-mrs_7c135669f9de040e.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cd37891019879b4c63f700ea8ec734a4b2d983655b43b5f34f704b9b4a3ba2e8",
+        "bytes_sha256": "cae1e3dce31a1e3ed69c5533b091d4b37b064d17bfdaf71439c21e42b6bc7749",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouTube_classical-rest_c22376ea72a7e3af.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bb1461b746155eebeff4eda77a29416521ea8d6dbb885aa438a4291032b643b",
+        "bytes_sha256": "340929acc1c9917255b1656c1f1844c75c03873fe14391fa6d08add39246d1b7",
+        "semantic_sha256": "354775c024cb7153990af1bf471525f357f2049c589bdd260f97d5723f83d59f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/YouTube.list"
+  ]
+}

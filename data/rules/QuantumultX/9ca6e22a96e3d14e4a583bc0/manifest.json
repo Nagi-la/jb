@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:56:19.131768+00:00",
+  "client": "QuantumultX",
+  "rule": "LiTV",
+  "rule_updated_at": "2026-07-26T06:22:13.725565+00:00",
+  "type_counts": {
+    "HOST": 9,
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LiTV_rules_7c014acb4d9d2a23.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "401796676e91bca4478171bf60e304d1ef1306b411ccc8567d40d82c3cf26cfd",
+        "bytes_sha256": "5f943e9d1dd47e157c8d50426f8a5e645bfbc94e13ad15c2e42323ccb54e4831",
+        "semantic_sha256": "2fae78b0d3aa13e87adc5241a6f9d05d058f524a9a67ba4f54cc33000fca096a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LiTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LiTV.list"
+  ]
+}

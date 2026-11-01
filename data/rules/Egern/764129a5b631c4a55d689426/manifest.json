@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:58:35.312797+00:00",
+  "client": "Egern",
+  "rule": "NGA",
+  "rule_updated_at": "2026-07-26T07:00:42.249734+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NGA_rules_ee166ecada99a660.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b9500961130f84b6501ca41fe89f7dd4d3e097d19d5f0753b3b28c028dc15a2e",
+        "bytes_sha256": "f7d307334329043699594fc39fb428ec05c211dee11830809c3832c2f1843761",
+        "semantic_sha256": "3ad2de0a613c982b5e14533b8b98fb91c705bbba9f66f03bbf9f0bb493ffe92c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

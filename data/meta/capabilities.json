@@ -1,0 +1,878 @@
+{
+  "generated_at": "2026-10-30T01:37:55.070717+00:00",
+  "capabilities": {
+    "AdGuard": {
+      "line_type_options": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX"
+      ],
+      "render_options": {},
+      "rule_file_extensions": {
+        "list": "ADGUARD DNS FILTER"
+      },
+      "icon": false,
+      "rewrite": false
+    },
+    "Egern": {
+      "line_type_options": [
+        "domain_set",
+        "domain_suffix_set",
+        "domain_keyword_set",
+        "domain_wildcard_set",
+        "ip_cidr_set",
+        "ip_cidr6_set",
+        "asn_set",
+        "url_regex_set",
+        "user_agent_set",
+        "dest_port_set",
+        "geoip_set",
+        "protocol_set"
+      ],
+      "render_options": {
+        "skip-no-resolve": "IP/ASN/GEOIP 集合不附加 no_resolve: true"
+      },
+      "rule_file_extensions": {
+        "yaml": "RULE-SET"
+      },
+      "icon": false,
+      "rewrite": true,
+      "subscription_filter": {
+        "version": 1,
+        "request_url": "https://magic.rule/list",
+        "source_parameter": "source",
+        "compose_parameter": "compose",
+        "output_parameter": "output",
+        "selection_strategy": "single-best-match",
+        "script_path": "/modules/egern-rule-filter/egern-rule-filter.js",
+        "install_path": "/modules/egern-rule-filter/egern-rule-filter.yaml",
+        "install_url": {
+          "prefix": "https://egernapp.com/modules/new?name=MagicBox%20Rule%20Filter&url=",
+          "encoding": "component"
+        },
+        "type_bits": {
+          "domain_set": 1,
+          "domain_suffix_set": 2,
+          "domain_keyword_set": 4,
+          "domain_wildcard_set": 8,
+          "ip_cidr_set": 16,
+          "ip_cidr6_set": 32,
+          "asn_set": 64,
+          "url_regex_set": 128,
+          "user_agent_set": 256,
+          "dest_port_set": 512,
+          "geoip_set": 1024,
+          "protocol_set": 2048
+        },
+        "options": [
+          {
+            "id": "skip-no-resolve",
+            "label": "IP/ASN/GEOIP 集合不附加 no_resolve",
+            "parameter": "skip_no_resolve",
+            "value": "1",
+            "applies_to": [
+              "ip_cidr_set",
+              "ip_cidr6_set",
+              "asn_set",
+              "geoip_set"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "id": "rule-set",
+            "label": "RULE-SET",
+            "match": "fallback",
+            "types": [
+              "domain_set",
+              "domain_suffix_set",
+              "domain_keyword_set",
+              "domain_wildcard_set",
+              "ip_cidr_set",
+              "ip_cidr6_set",
+              "asn_set",
+              "url_regex_set",
+              "user_agent_set",
+              "dest_port_set",
+              "geoip_set",
+              "protocol_set"
+            ],
+            "sources": [
+              {
+                "role": "full",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          }
+        ]
+      },
+      "mitm_artifact": {
+        "ext": "module",
+        "line_types": [
+          "url_regex_set"
+        ]
+      }
+    },
+    "Loon": {
+      "line_type_options": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD",
+        "USER-AGENT",
+        "URL-REGEX",
+        "IP-CIDR",
+        "IP-CIDR6",
+        "GEOIP",
+        "IP-ASN",
+        "SRC-PORT",
+        "DEST-PORT",
+        "PROTOCOL",
+        "AND",
+        "OR",
+        "NOT"
+      ],
+      "render_options": {
+        "skip-no-resolve": "IP-CIDR(6)/IP-ASN 不附加 no-resolve"
+      },
+      "rule_file_extensions": {
+        "list": "RULE-SET"
+      },
+      "icon": true,
+      "rewrite": true,
+      "subscription_filter": {
+        "version": 1,
+        "request_url": "https://magic.rule/list",
+        "source_parameter": "source",
+        "compose_parameter": "compose",
+        "output_parameter": "output",
+        "selection_strategy": "single-best-match",
+        "script_path": "/modules/loon-rule-filter/loon-rule-filter.js",
+        "install_path": "/modules/loon-rule-filter/loon-rule-filter.plugin",
+        "install_url": {
+          "prefix": "https://www.nsloon.com/openloon/import?plugin=",
+          "encoding": "component"
+        },
+        "type_bits": {
+          "DOMAIN": 1,
+          "DOMAIN-SUFFIX": 2,
+          "DOMAIN-KEYWORD": 4,
+          "USER-AGENT": 8,
+          "URL-REGEX": 16,
+          "IP-CIDR": 32,
+          "IP-CIDR6": 64,
+          "GEOIP": 128,
+          "IP-ASN": 256,
+          "SRC-PORT": 512,
+          "DEST-PORT": 1024,
+          "PROTOCOL": 2048,
+          "AND": 4096,
+          "OR": 8192,
+          "NOT": 16384
+        },
+        "options": [
+          {
+            "id": "skip-no-resolve",
+            "label": "IP-CIDR(6)/IP-ASN 不附加 no-resolve",
+            "parameter": "skip_no_resolve",
+            "value": "1",
+            "applies_to": [
+              "IP-CIDR",
+              "IP-CIDR6",
+              "IP-ASN"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "id": "domain-set",
+            "label": "DOMAIN-SET",
+            "match": "exact",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX"
+            ],
+            "sources": [
+              {
+                "role": "domain-set",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          },
+          {
+            "id": "rule-set",
+            "label": "RULE-SET",
+            "match": "fallback",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX",
+              "DOMAIN-KEYWORD",
+              "USER-AGENT",
+              "URL-REGEX",
+              "IP-CIDR",
+              "IP-CIDR6",
+              "GEOIP",
+              "IP-ASN",
+              "SRC-PORT",
+              "DEST-PORT",
+              "PROTOCOL",
+              "AND",
+              "OR",
+              "NOT"
+            ],
+            "sources": [
+              {
+                "role": "full",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          }
+        ]
+      },
+      "mitm_artifact": {
+        "ext": "plugin",
+        "line_types": [
+          "URL-REGEX"
+        ]
+      }
+    },
+    "Mihomo": {
+      "line_type_options": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD",
+        "DOMAIN-WILDCARD",
+        "IP-CIDR",
+        "IP-CIDR6",
+        "IP-ASN",
+        "PROTOCOL",
+        "PROCESS-PATH",
+        "PROCESS-PATH-WILDCARD",
+        "PROCESS-PATH-REGEX",
+        "PROCESS-NAME",
+        "PROCESS-NAME-WILDCARD",
+        "PROCESS-NAME-REGEX",
+        "IN-PORT",
+        "DST-PORT",
+        "SRC-IP-CIDR",
+        "SRC-PORT",
+        "GEOIP",
+        "OR",
+        "AND",
+        "NOT"
+      ],
+      "render_options": {
+        "skip-no-resolve": "IP-CIDR/IP-CIDR6 不附加 no-resolve"
+      },
+      "rule_file_extensions": {
+        "txt": "TEXT PROVIDER",
+        "yaml": "YAML PROVIDER"
+      },
+      "icon": false,
+      "rewrite": false
+    },
+    "QuantumultX": {
+      "line_type_options": [
+        "HOST",
+        "HOST-SUFFIX",
+        "HOST-WILDCARD",
+        "HOST-KEYWORD",
+        "USER-AGENT",
+        "URL-REGEX",
+        "IP-CIDR",
+        "IP6-CIDR",
+        "GEOIP",
+        "IP-ASN"
+      ],
+      "render_options": {},
+      "rule_file_extensions": {
+        "list": "RULE-SET"
+      },
+      "icon": true,
+      "rewrite": true,
+      "subscription_filter": {
+        "version": 1,
+        "request_url": "https://magic.rule/list",
+        "source_parameter": "source",
+        "compose_parameter": "compose",
+        "output_parameter": "output",
+        "selection_strategy": "single-best-match",
+        "script_path": "/modules/quantumultx-rule-filter/quantumultx-rule-filter.js",
+        "install_path": "/modules/quantumultx-rule-filter/quantumultx-rule-filter.snippet",
+        "install_url": {
+          "prefix": "https://quantumult.app/x/open-app/add-resource?remote-resource=",
+          "encoding": "component",
+          "value_template": "{\"rewrite_remote\":[\"{url}, tag=MagicBox Rule Filter\"]}"
+        },
+        "type_bits": {
+          "HOST": 1,
+          "HOST-SUFFIX": 2,
+          "HOST-WILDCARD": 4,
+          "HOST-KEYWORD": 8,
+          "USER-AGENT": 16,
+          "URL-REGEX": 32,
+          "IP-CIDR": 64,
+          "IP6-CIDR": 128,
+          "GEOIP": 256,
+          "IP-ASN": 512
+        },
+        "options": [],
+        "outputs": [
+          {
+            "id": "rule-set",
+            "label": "RULE-SET",
+            "match": "fallback",
+            "types": [
+              "HOST",
+              "HOST-SUFFIX",
+              "HOST-WILDCARD",
+              "HOST-KEYWORD",
+              "USER-AGENT",
+              "URL-REGEX",
+              "IP-CIDR",
+              "IP6-CIDR",
+              "GEOIP",
+              "IP-ASN"
+            ],
+            "sources": [
+              {
+                "role": "full",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          }
+        ]
+      },
+      "mitm_artifact": {
+        "ext": "snippet",
+        "line_types": [
+          "URL-REGEX"
+        ]
+      }
+    },
+    "Shadowrocket": {
+      "line_type_options": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD",
+        "USER-AGENT",
+        "URL-REGEX",
+        "IP-CIDR",
+        "IP-CIDR6",
+        "GEOIP",
+        "IP-ASN",
+        "DEST-PORT",
+        "PROTOCOL",
+        "AND",
+        "OR",
+        "NOT",
+        "PROCESS-NAME",
+        "IN-PORT",
+        "SRC-IP"
+      ],
+      "render_options": {
+        "skip-no-resolve": "IP-CIDR(6)/IP-ASN 不附加 no-resolve"
+      },
+      "rule_file_extensions": {
+        "list": "RULE-SET"
+      },
+      "icon": true,
+      "rewrite": true,
+      "subscription_filter": {
+        "version": 1,
+        "request_url": "https://magic.rule/list",
+        "source_parameter": "source",
+        "compose_parameter": "compose",
+        "output_parameter": "output",
+        "selection_strategy": "single-best-match",
+        "script_path": "/modules/shadowrocket-rule-filter/shadowrocket-rule-filter.js",
+        "install_path": "/modules/shadowrocket-rule-filter/shadowrocket-rule-filter.sgmodule",
+        "install_url": {
+          "prefix": "shadowrocket://install?module=",
+          "encoding": "component"
+        },
+        "type_bits": {
+          "DOMAIN": 1,
+          "DOMAIN-SUFFIX": 2,
+          "DOMAIN-KEYWORD": 4,
+          "USER-AGENT": 8,
+          "URL-REGEX": 16,
+          "IP-CIDR": 32,
+          "IP-CIDR6": 64,
+          "GEOIP": 128,
+          "IP-ASN": 256,
+          "DEST-PORT": 512,
+          "PROTOCOL": 1024,
+          "PROCESS-NAME": 2048,
+          "IN-PORT": 4096,
+          "SRC-IP": 8192,
+          "AND": 32768,
+          "OR": 65536,
+          "NOT": 131072
+        },
+        "options": [
+          {
+            "id": "skip-no-resolve",
+            "label": "IP-CIDR(6)/IP-ASN 不附加 no-resolve",
+            "parameter": "skip_no_resolve",
+            "value": "1",
+            "applies_to": [
+              "IP-CIDR",
+              "IP-CIDR6",
+              "IP-ASN"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "id": "domain-set",
+            "label": "DOMAIN-SET",
+            "match": "exact",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX"
+            ],
+            "sources": [
+              {
+                "role": "domain-set",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          },
+          {
+            "id": "rule-set",
+            "label": "RULE-SET",
+            "match": "fallback",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX",
+              "DOMAIN-KEYWORD",
+              "USER-AGENT",
+              "URL-REGEX",
+              "IP-CIDR",
+              "IP-CIDR6",
+              "GEOIP",
+              "IP-ASN",
+              "DEST-PORT",
+              "PROTOCOL",
+              "PROCESS-NAME",
+              "IN-PORT",
+              "SRC-IP",
+              "AND",
+              "OR",
+              "NOT"
+            ],
+            "sources": [
+              {
+                "role": "full",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          }
+        ]
+      },
+      "mitm_artifact": {
+        "ext": "sgmodule",
+        "line_types": [
+          "URL-REGEX"
+        ]
+      }
+    },
+    "SingBox": {
+      "line_type_options": [
+        "domain",
+        "domain_suffix",
+        "domain_keyword",
+        "ip_cidr",
+        "process_name",
+        "source_port",
+        "source_port_range",
+        "port",
+        "port_range"
+      ],
+      "render_options": {},
+      "rule_file_extensions": {
+        "json": "RULE-SET"
+      },
+      "icon": false,
+      "rewrite": false
+    },
+    "Stash": {
+      "line_type_options": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD",
+        "DOMAIN-WILDCARD",
+        "DOMAIN-REGEX",
+        "IP-CIDR",
+        "IP-CIDR6",
+        "IP-ASN",
+        "NETWORK",
+        "USER-AGENT",
+        "URL-REGEX",
+        "GEOSITE",
+        "PROTOCOL",
+        "PROCESS-NAME",
+        "PROCESS-PATH",
+        "DST-PORT",
+        "GEOIP",
+        "SCRIPT",
+        "OR",
+        "AND",
+        "NOT"
+      ],
+      "render_options": {
+        "skip-no-resolve": "GEOIP/IP-ASN/IP-CIDR(6) 不附加 no-resolve"
+      },
+      "rule_file_extensions": {
+        "txt": "TEXT PROVIDER",
+        "list": "LIST PROVIDER",
+        "yaml": "YAML PROVIDER"
+      },
+      "icon": true,
+      "rewrite": true,
+      "subscription_filter": {
+        "version": 1,
+        "request_url": "https://magic.rule/list",
+        "source_parameter": "source",
+        "compose_parameter": "compose",
+        "output_parameter": "output",
+        "selection_strategy": "single-best-match",
+        "script_path": "/modules/stash-rule-filter/stash-rule-filter.js",
+        "install_path": "/modules/stash-rule-filter/stash-rule-filter.stoverride",
+        "install_url": {
+          "prefix": "https://link.stash.ws/install-override/",
+          "encoding": "strip-http-scheme"
+        },
+        "type_bits": {
+          "DOMAIN": 1,
+          "DOMAIN-SUFFIX": 2,
+          "DOMAIN-KEYWORD": 4,
+          "DOMAIN-WILDCARD": 8,
+          "DOMAIN-REGEX": 16,
+          "IP-CIDR": 32,
+          "IP-CIDR6": 64,
+          "IP-ASN": 128,
+          "NETWORK": 256,
+          "USER-AGENT": 512,
+          "URL-REGEX": 1024,
+          "GEOSITE": 2048,
+          "PROTOCOL": 4096,
+          "PROCESS-NAME": 8192,
+          "PROCESS-PATH": 16384,
+          "DST-PORT": 32768,
+          "GEOIP": 65536,
+          "SCRIPT": 131072,
+          "OR": 262144,
+          "AND": 524288,
+          "NOT": 1048576
+        },
+        "options": [
+          {
+            "id": "skip-no-resolve",
+            "label": "GEOIP/IP-ASN/IP-CIDR(6) 不附加 no-resolve",
+            "parameter": "skip_no_resolve",
+            "value": "1",
+            "applies_to": [
+              "GEOIP",
+              "IP-ASN",
+              "IP-CIDR",
+              "IP-CIDR6"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "id": "domain",
+            "label": "domain",
+            "match": "exact",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX"
+            ],
+            "sources": [
+              {
+                "role": "domain",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          },
+          {
+            "id": "ipcidr",
+            "label": "ipcidr",
+            "match": "exact",
+            "types": [
+              "IP-CIDR",
+              "IP-CIDR6"
+            ],
+            "sources": [
+              {
+                "role": "ipcidr",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          },
+          {
+            "id": "classical",
+            "label": "classical",
+            "match": "fallback",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX",
+              "DOMAIN-KEYWORD",
+              "DOMAIN-WILDCARD",
+              "DOMAIN-REGEX",
+              "IP-CIDR",
+              "IP-CIDR6",
+              "IP-ASN",
+              "NETWORK",
+              "USER-AGENT",
+              "URL-REGEX",
+              "GEOSITE",
+              "PROTOCOL",
+              "PROCESS-NAME",
+              "PROCESS-PATH",
+              "DST-PORT",
+              "GEOIP",
+              "SCRIPT",
+              "OR",
+              "AND",
+              "NOT"
+            ],
+            "sources": [
+              {
+                "role": "full",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          }
+        ]
+      },
+      "mitm_artifact": {
+        "ext": "stoverride",
+        "line_types": [
+          "URL-REGEX"
+        ]
+      }
+    },
+    "Surfboard": {
+      "line_type_options": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD",
+        "IP-CIDR",
+        "IP-CIDR6",
+        "GEOIP",
+        "IP-ASN",
+        "DEST-PORT",
+        "PROTOCOL",
+        "AND",
+        "OR",
+        "NOT",
+        "PROCESS-NAME",
+        "IN-PORT",
+        "SRC-IP"
+      ],
+      "render_options": {
+        "skip-no-resolve": "IP-CIDR(6)/IP-ASN 不附加 no-resolve"
+      },
+      "rule_file_extensions": {
+        "list": "RULE-SET"
+      },
+      "icon": false,
+      "rewrite": false
+    },
+    "Surge": {
+      "line_type_options": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD",
+        "USER-AGENT",
+        "URL-REGEX",
+        "IP-CIDR",
+        "IP-CIDR6",
+        "GEOIP",
+        "IP-ASN",
+        "DEST-PORT",
+        "PROTOCOL",
+        "AND",
+        "OR",
+        "NOT",
+        "PROCESS-NAME",
+        "IN-PORT",
+        "SRC-IP"
+      ],
+      "render_options": {
+        "skip-no-resolve": "IP-CIDR(6)/IP-ASN 不附加 no-resolve"
+      },
+      "rule_file_extensions": {
+        "list": "RULE-SET"
+      },
+      "icon": true,
+      "rewrite": false,
+      "subscription_filter": {
+        "version": 1,
+        "request_url": "https://magic.rule/list",
+        "source_parameter": "source",
+        "compose_parameter": "compose",
+        "output_parameter": "output",
+        "selection_strategy": "single-best-match",
+        "script_path": "/modules/surge-rule-filter/surge-rule-filter.js",
+        "install_path": "/modules/surge-rule-filter/surge-rule-filter.sgmodule",
+        "install_url": {
+          "prefix": "surge:///install-module?url=",
+          "encoding": "component"
+        },
+        "type_bits": {
+          "DOMAIN": 1,
+          "DOMAIN-SUFFIX": 2,
+          "DOMAIN-KEYWORD": 4,
+          "USER-AGENT": 8,
+          "URL-REGEX": 16,
+          "IP-CIDR": 32,
+          "IP-CIDR6": 64,
+          "GEOIP": 128,
+          "IP-ASN": 256,
+          "DEST-PORT": 512,
+          "PROTOCOL": 1024,
+          "PROCESS-NAME": 2048,
+          "IN-PORT": 4096,
+          "SRC-IP": 8192,
+          "AND": 32768,
+          "OR": 65536,
+          "NOT": 131072
+        },
+        "options": [
+          {
+            "id": "skip-no-resolve",
+            "label": "IP-CIDR(6)/IP-ASN 不附加 no-resolve",
+            "parameter": "skip_no_resolve",
+            "value": "1",
+            "applies_to": [
+              "IP-CIDR",
+              "IP-CIDR6",
+              "IP-ASN"
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "id": "domain-set",
+            "label": "DOMAIN-SET",
+            "match": "exact",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX"
+            ],
+            "sources": [
+              {
+                "role": "domain-set",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          },
+          {
+            "id": "rule-set",
+            "label": "RULE-SET",
+            "match": "fallback",
+            "types": [
+              "DOMAIN",
+              "DOMAIN-SUFFIX",
+              "DOMAIN-KEYWORD",
+              "USER-AGENT",
+              "URL-REGEX",
+              "IP-CIDR",
+              "IP-CIDR6",
+              "GEOIP",
+              "IP-ASN",
+              "DEST-PORT",
+              "PROTOCOL",
+              "PROCESS-NAME",
+              "IN-PORT",
+              "SRC-IP",
+              "AND",
+              "OR",
+              "NOT"
+            ],
+            "sources": [
+              {
+                "role": "full",
+                "when": "all-selected",
+                "action": "direct"
+              },
+              {
+                "role": "full",
+                "when": "any-selected",
+                "action": "filter"
+              }
+            ]
+          }
+        ]
+      },
+      "mitm_artifact": {
+        "ext": "sgmodule",
+        "line_types": [
+          "URL-REGEX"
+        ]
+      }
+    }
+  }
+}

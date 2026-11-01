@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:17.817630+00:00",
+  "client": "QuantumultX",
+  "rule": "HKedcity",
+  "rule_updated_at": "2026-07-26T06:29:26.475817+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HKedcity_rules_d6fb5e71206e1c7e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "162672b9401b0e0a7c465265f88409dccd336ed6c19845dfd53c7b433d5186e6",
+        "bytes_sha256": "188e408b9ff50de3d659c42ea40b3d4e7ff86d624df1467883a4bd12d8724899",
+        "semantic_sha256": "6ad837bc282b676958bd031fecfac79386f27c1fc2024c9b86f9ea433835acf7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HKedcity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HKedcity.list"
+  ]
+}

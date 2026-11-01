@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:07:33.216561+00:00",
+  "client": "Stash",
+  "rule": "TaiWanGood",
+  "rule_updated_at": "2026-07-26T06:22:32.753804+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiWanGood_classical_1328c9633fddcc11.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f77697a37ea9e99e5b19f8d6b5bd66882ec2f0a60903710ef53f8a59d9ff2794",
+        "bytes_sha256": "4ed795feeb2d7c27e3723b31c51a5f3dfdf085c14f3d1c3d5968702b19e703fc",
+        "semantic_sha256": "27c8e32ccdfa08895247122233afbdb0b0954e72ee2c3843a9157d93cc6e8449",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiWanGood_domain_bcbe2cf4981b0f31.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f71640e72267984d5a90c31a37cea94c130d35b0c0362f831c540b7d33a7258e",
+        "bytes_sha256": "068010e39cf3b0f1a04ab662461146c39e5f179fc7098195dcf35c09d9f4acee",
+        "semantic_sha256": "2ec6bc1a9f6458e12ee9a57e8b1782349081b81e7f3fc66fa64a9f72142064e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiWanGood_classical-rest_a0a9978a36d06cf5.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "627219f2eb8f863dd9d4975036bc333c6a23e7ecd72582d1c2320bf916f4af6b",
+        "bytes_sha256": "f0e2caebe65f5221920dc298cd374df4e55a4f43874ccace1414c149dd30ef4c",
+        "semantic_sha256": "d2907b54437f9e385b2c16c2cfa9c2ae58529af6fdcfd9261bc4f85762633d45",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TaiWanGood.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TaiWanGood.list"
+  ]
+}

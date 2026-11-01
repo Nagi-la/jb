@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:45.315911+00:00",
+  "client": "SingBox",
+  "rule": "MeiTu",
+  "rule_updated_at": "2026-07-26T06:38:33.561409+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MeiTu_source_2bf1624a57966941.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38ab7638e0310e112058b08196ff81c0a951f8ff390879f25cf1b94047e21d43",
+        "bytes_sha256": "420950f585a964007dfcc06ef8f7f942c37215b6cca4b43c677ac84a90e3f828",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MeiTu_source-srs_0a0b23d1389cac66.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "785ad2eaa0054de97de160b8ce1ffef071a056c7f80779306a79cfb4f7bd5144",
+        "bytes_sha256": "20ed04ecf8cc4e11f2f1aeba4b0692cccf1bac3ec76595d503186daf88f7a0f5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Meitu.list"
+  ]
+}

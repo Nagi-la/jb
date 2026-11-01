@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:35.793206+00:00",
+  "client": "Stash",
+  "rule": "HeMa",
+  "rule_updated_at": "2026-07-26T06:25:24.392903+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HeMa_classical_d42402e4eaaec018.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eb1c7c86d31af9f9a6e5b4fdcf9d0426ff1ae962c1ff4712f889d6e1e4b01646",
+        "bytes_sha256": "eecb6ebf87fc3727e815e5b8e26275e09188db0131279847e9ac4c83ab9c08a3",
+        "semantic_sha256": "8c3f90d96a2015fe6bb48fdd1e5a2d2aaef02d95699d825e58ed055ec22e1b6e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HeMa_domain_81800f8574672b28.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ba12fc4b2fb75e02ba0f1a7b0cad096fde59942632ac2e0c9a1a2c693ce204c",
+        "bytes_sha256": "3729b7072f0b180dfea0f47f3c69c24614ff40769abd8fce145668af98d8e7fc",
+        "semantic_sha256": "ec6d0f7adb3ea2369f8567d290bc735e5bb80879ac7794b87b7c240126f2edca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HeMa.list"
+  ]
+}

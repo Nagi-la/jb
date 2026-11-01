@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:22.218089+00:00",
+  "client": "Surfboard",
+  "rule": "Umeng",
+  "rule_updated_at": "2026-07-26T08:34:53.610842+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Umeng_rules_d9e29d0ef33e8b6c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "838c02eed9d78b962e550323ff6896bf8d0a412426b7a654c5db48818dc270d4",
+        "bytes_sha256": "99de0d86caad05a3ec7b2f81c4e93583fbf45499e4abfc47fc27b14bebed9dd1",
+        "semantic_sha256": "2edb39549aa5e61afcd16a710d41b78b7f34e3411ecb8fb2bf10a0f4c41522b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Umeng_domain-set_28c4784b7906c6f4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03b9c84b71a8e1d5e033628510cf6ec2056433665d47e5f879ca79bc608f2df7",
+        "bytes_sha256": "acc418eeb7b640bae852774c41e0bb483ba9c6834aef8d5e3a6da09b7b9e6007",
+        "semantic_sha256": "59e4e9438b0432666577295e3fdca66eb6f919d9aadfeb59830b3b757fadc0b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

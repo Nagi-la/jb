@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:00.833859+00:00",
+  "client": "Shadowrocket",
+  "rule": "Dailymail",
+  "rule_updated_at": "2026-07-26T06:49:05.732966+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dailymail_rules_1340118ca63b587b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d821c7494bd7680ff74969bd633ddbfa45dc8031491a527fa65b838480a6cd53",
+        "bytes_sha256": "fd418bdc4c459329451b1d464c6c5268c73fd3c2e6f32dc7a97027f521c8e271",
+        "semantic_sha256": "3fa81ddcb78c2ea19b71eafd9d891056be8205acb17e7e7816935548f95a662a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dailymail_domain-set_c432774dc0b5c74c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17b9fdb7dcf694f7cc263a70873fb373098f4e9ed236412d58454b8aadc0f2a7",
+        "bytes_sha256": "a2f408aeabc72ff0a433998b7f033800c76537919c6d3d18b529df08c9cbfa74",
+        "semantic_sha256": "225d1088ffcf4a7aca7de0d5e5f5f1f3a16764812133e340a001976886839da9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dailymail.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dailymail.list"
+  ]
+}

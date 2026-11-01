@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:46.249050+00:00",
+  "client": "Stash",
+  "rule": "Perplexity",
+  "rule_updated_at": "2026-07-26T08:22:10.089609+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Perplexity_classical_3fb16bc5ef8b4793.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f13e882fe955ca3363eb68a9f39a5a67fb6a97c9014f074027f6966df2571c5",
+        "bytes_sha256": "9da40d620f3f4f1b69c5c2b50f95043523539ee2f229a2c8b5989da59ab2cf6f",
+        "semantic_sha256": "48d4b5480d809e8eecd5af43f4a05bc434ad8907e8872f15e047c8e0ab550e43",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Perplexity_domain_9806d5e5734e343d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94163f0714b3b733e9ab27d62325df47d15c00d3139586b2c90c32b0380d1fde",
+        "bytes_sha256": "efe15434da8472b7d5af02bec9dbea7a469b5728c7376087dd9141b2f9c772ab",
+        "semantic_sha256": "ecb41dc62227d9b1fae1417c7317413be4b31afb1e463ea34d4775837ad83363",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

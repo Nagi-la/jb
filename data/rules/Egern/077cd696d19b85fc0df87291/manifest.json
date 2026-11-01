@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:15:30.036705+00:00",
+  "client": "Egern",
+  "rule": "TakeTwo",
+  "rule_updated_at": "2026-08-17T02:14:50.430252+00:00",
+  "type_counts": {
+    "domain_set": 3,
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TakeTwo_rules_05ca5dd8bddb657d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d21176aadca98fc38ba7409b9cbc2823586a9055bd3463dec553b7a472a7ae86",
+        "bytes_sha256": "2882b90c6ac92667578c49cd951c0ea43ad5cd635fd9f36d65a8ac000806f142",
+        "semantic_sha256": "37a87e2d8c5ebc7671c53a03ded85e333184435532cd9c70c52442663d88a561",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

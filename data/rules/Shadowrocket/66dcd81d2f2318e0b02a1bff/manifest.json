@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:14:04.346669+00:00",
+  "client": "Shadowrocket",
+  "rule": "XiamiMusic",
+  "rule_updated_at": "2026-07-26T06:28:53.203497+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiamiMusic_rules_b899a09129d42b14.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eb61a23f8823ee774774d6d5e8b7204d1776858e176885b8f8ba3a0e70525118",
+        "bytes_sha256": "515ea4bf8ba4d1f3dde61c0c156cedbcc953158ab26025de7c92cb283eb427a0",
+        "semantic_sha256": "2b826027aa10430933df36d9094a1ed30bf1b2505f0f45035372675404c6d783",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiamiMusic_domain-set_6f6c0c87872f27c6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ac2cebd9e09a544f173efebfee5b8eb6810205fedd8233f6eac4479e38aa4c6",
+        "bytes_sha256": "e9d9497a237fb4c4c4d8e6cd0e4cb53fb1d73c6d2f7d4016f52868c4f638781d",
+        "semantic_sha256": "5c6ba582e4c5bae993c17394667cb6b00696064b3895d3c52ff32c77bcfc223d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiamiMusic_rule-set_44769b29358049d3.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3fb546c138f723a1ee9eb3c66747f65ee08baee9875d2c4ea61ba68d297895c0",
+        "bytes_sha256": "28ac2bb24c964ac2c8ed1b381eba4dc5ace27d94e03d786f2c3e1a16fb5ec917",
+        "semantic_sha256": "d7a5b384d91c94e58eabc29cd3a082f90b0fed745bbeaeb519b918ff98bb06c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiamiMusic.list"
+  ]
+}

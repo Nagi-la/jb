@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:56:24.989857+00:00",
+  "client": "Egern",
+  "rule": "HuluJP",
+  "rule_updated_at": "2026-07-26T06:30:28.848870+00:00",
+  "type_counts": {
+    "domain_suffix_set": 57
+  },
+  "total_line_count": 57,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuluJP_rules_9a9f8d0a79ab1766.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "283197c87ae1ce4a615c95a97308163c4bf2fe48324d547afdb2fdbc30d9af35",
+        "bytes_sha256": "061feba090936a6124d6d820e80919f37896ec860d63ce5490b8980f662c4322",
+        "semantic_sha256": "f00d4c9dac22ea81cc417237000e96d256bc14467ce33c2bb39b12d7d51f701d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuluJapan.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

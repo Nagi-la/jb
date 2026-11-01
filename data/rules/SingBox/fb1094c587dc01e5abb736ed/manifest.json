@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:48.606352+00:00",
+  "client": "SingBox",
+  "rule": "MOOV",
+  "rule_updated_at": "2026-07-26T06:22:19.266107+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MOOV_source_cefc08f80f219a86.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "385df136542ec2fc00bb585df084cf9c37373a4930b34b38b4bce29bb3a89ef3",
+        "bytes_sha256": "ac72ea0f04fcf64a8c1f76aee2274bd9ec8bc97a507f1e8404a949f89998bd94",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MOOV_source-srs_065ea20ebada882d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "18a7711fb545bf2b668c40e4e817242e034b12d8e2b443f125b59bf02c0fba83",
+        "bytes_sha256": "3cdfefc81a64b05ff4ad311f4eddd134fd67a5e773f83e8d2fa0fa5f7c3cca64",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/MOOV.list"
+  ]
+}

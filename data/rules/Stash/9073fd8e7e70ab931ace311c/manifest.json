@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:13:53.082478+00:00",
+  "client": "Stash",
+  "rule": "HiNet",
+  "rule_updated_at": "2026-07-26T07:05:17.330457+00:00",
+  "type_counts": {
+    "IP-CIDR6": 264,
+    "DOMAIN-SUFFIX": 10,
+    "IP-CIDR": 323
+  },
+  "total_line_count": 597,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HiNet_classical_a0422ad8503e05a6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9194bf5257ef76a9f2fa70fb007575f5359bb3afba2c79c9acb3a674cc305665",
+        "bytes_sha256": "fbb3d29fcc0008480bff01543cec36d3b804765fcd3ce7a2b86ca36c0b1a3378",
+        "semantic_sha256": "d72283fe750245792f6e258fb3972497eec835967b87822a50e6f96c07763b84",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HiNet_domain_36c4081f60f6e970.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a1d9f73a2883b7df61dc81481f59af59d098de3f5b8dcb3cd59301a6888587d",
+        "bytes_sha256": "70367a56f5b285fcc224ae02e628368b2a9bd791cc83dccbca811d0bbd71dc6b",
+        "semantic_sha256": "a25b1616d0f4b550292ab4eac3ecd2242e9e175530625915f754875577a6abd7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HiNet_ipcidr_1afba7dd32b30120.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c16ebe8048ec451521423d4dea339d48ef761d1b6062c9238d9d92db9ad5077",
+        "bytes_sha256": "88456f927afc60d74b76c091280954a2dd4f2f9f501a118d77363fd0a7204fea",
+        "semantic_sha256": "4306a7ad4dcade559e2d6c7beb82416a04ce629b70d010138089bec9d74693bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/HiNet.list"
+  ]
+}

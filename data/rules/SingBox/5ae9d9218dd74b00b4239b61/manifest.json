@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-10-29T02:53:34.036267+00:00",
+  "client": "SingBox",
+  "rule": "Netflix",
+  "rule_updated_at": "2026-10-29T02:37:32.456079+00:00",
+  "type_counts": {
+    "domain_keyword": 4,
+    "ip_cidr": 1585,
+    "domain_suffix": 28,
+    "domain": 1,
+    "process_name": 1
+  },
+  "total_line_count": 1619,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Netflix_source_5a3b4640ab75f1a4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "136d5c9d961612dbb039cd1531545605c698c5213b5e3fe1f609d2be6ec5ae08",
+        "bytes_sha256": "9f39e31eba8e47bb816948c49a9d59038b34abeb8ba8b15f248623d8568174f6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Netflix_source-srs_327145e61a9ac31a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3145d0711be4e88d219bfa7722749c464b1862ab8fe70ea451cd06107abf070",
+        "bytes_sha256": "d114d0ed7a8bc2710f9adea295b7defb27d71280c0157400c1f94c2fcaa93c31",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list",
+    "https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:32.793754+00:00",
+  "client": "SingBox",
+  "rule": "Udemy",
+  "rule_updated_at": "2026-07-26T08:22:42.813447+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Udemy_source_bcecadbd48f55137.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e917652ad13684d91a665415d32f514f9583eb0e346e4670b2f378d20e26f1f5",
+        "bytes_sha256": "871ef0f0f141d003602b2cc6e060e8daefe73bc29a70a74c95748f29baafd891",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Udemy_source-srs_4204720cae8c4562.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3eae9e3d9781f34fe4ff26f8c94b894fd769666dea743f386cea6a8a3b08420f",
+        "bytes_sha256": "b346c861aa382102d2c6322927669b055bae01b088f8fb3b0c0f3d8f4ea283e5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

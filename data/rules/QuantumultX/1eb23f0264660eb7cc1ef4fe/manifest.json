@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:15:01.106523+00:00",
+  "client": "QuantumultX",
+  "rule": "CNN",
+  "rule_updated_at": "2026-07-26T06:21:28.811002+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CNN_rules_6c13c05a77984a0e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c54b1ea28164358f64f69f07478d43efaf9e95edc505b7a01442087c3f9af2e7",
+        "bytes_sha256": "a078d091a4cd3459e0997f2412406a5f0ae9a9be110134d63cab6637510d0ba6",
+        "semantic_sha256": "4c69a5ac554e1aea9edcabb0f8ad64013b880d76fa8d74da7027eb963dbda54d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CNN.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:10:37.290591+00:00",
+  "client": "Mihomo",
+  "rule": "MeiZu",
+  "rule_updated_at": "2026-07-26T06:27:06.388213+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiZu_classical_d29cf3c46a5aca52.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a36a11a5526418abde320af0a946f78a599f411a629c3e8e9cdf72a8c7139dc6",
+        "bytes_sha256": "e00726cb26e63efd9613c7bdc4ca3f1b3865a59d5bf49d854076434256163fc9",
+        "semantic_sha256": "67bb659b8e936caa0fcedfb4b70c217bfd4c55ccf72511913a3702ab41e6ba94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiZu_domain_43169b1a6ec99064.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b9fb432878a165c5be2ac5fec4d1a626b136549d6f6a26e8b3c88be54547efe0",
+        "bytes_sha256": "b2871a0b8e97651932a130598f5c2be5f3376213cec8b6b683d4df4344eeeb4d",
+        "semantic_sha256": "326f992c79be5c3ceeae73ced7e67f58f9a645dc9b99b2bb60f2db9a63d3d9d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MeiZu_domain-mrs_94745681c5f56a1d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d1508aed1227805f2331e6269028ec87156ee0f02e63bda0c94a3beede7f4972",
+        "bytes_sha256": "34fb2d4084516d3f13ed35a1a9e698558bd2b3bb59b828d282f98593c71d01a7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MeiZu.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:50.661658+00:00",
+  "client": "SingBox",
+  "rule": "U17",
+  "rule_updated_at": "2026-07-26T06:28:29.260342+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/U17_source_3fc7bfbad582806b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "37b0fe42887eaaaba7936bcf4fe41b5748eee390c968fd1c6ad186181ee182a4",
+        "bytes_sha256": "15cc0e8a40a6b10f7a867e8f1ed4af6e2e3b154e1aa33c0ca7b0115f0f96b977",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/U17_source-srs_e635c29984a6bdd1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6593cccef94664b7673b1231422070f19c2f5bca2d859598e15c09d15a7e9054",
+        "bytes_sha256": "8ae69636a6e58a5a547b2ae3c3e8bfa9857f3ead2b856d431bde1f69e02ffcb8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/U17.list"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:56:15.793832+00:00",
+  "client": "Egern",
+  "rule": "OSChina",
+  "rule_updated_at": "2026-07-26T08:34:10.145942+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OSChina_rules_073a130009a8ee48.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89b0f15330a313a4902907b4af99a97ccb9efcaadb0927ad061e733300213899",
+        "bytes_sha256": "cbd72f74aa54a1faeff3bf0e84e3ab0308ee14227f491cc03eb82011ea162a50",
+        "semantic_sha256": "1bee528baa7076c565a382067dba16afcf053d75970892b606c5db514e48df59",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

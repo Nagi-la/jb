@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:44.065247+00:00",
+  "client": "Surfboard",
+  "rule": "LondonReal",
+  "rule_updated_at": "2026-07-26T06:22:18.635370+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LondonReal_rules_695864ae10ecbbd6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "847e0c3e9c16ac6b3a77e39fd5252bf854c4f4b7e337348e88ae1f5b201e2b85",
+        "bytes_sha256": "503378803c30eca7a6b717f602641725c36da847f17d52eb3822198890110a13",
+        "semantic_sha256": "5081ffa503c580cd211c2ebaa721338bd7f3618e5beb7658bce5a7a09f96a32e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LondonReal_domain-set_f78a549ff93686e0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "06c4ef557fa5e4ca2fc7d2bb63e062cd16e8af1b3011bf1da43caf88a87c7e25",
+        "bytes_sha256": "d38e5959434fa79c435886e5ce8911c080ee008e8d9d4869cfc906894fa8a362",
+        "semantic_sha256": "3bfff7ac2555b1a8f6ebd20d5f3e5fab8e442598ba5280d7ccae8befbc0ddca2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LondonReal.list"
+  ]
+}

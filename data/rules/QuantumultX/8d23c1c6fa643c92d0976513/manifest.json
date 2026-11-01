@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:09:18.553282+00:00",
+  "client": "QuantumultX",
+  "rule": "Docker",
+  "rule_updated_at": "2026-07-26T06:50:06.787808+00:00",
+  "type_counts": {
+    "HOST": 5,
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Docker_rules_f90eb19f7cb25c86.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03ffc5902799d7bb5a23f73e01b3bdd4cb715e57530af15e3bad48098f025d91",
+        "bytes_sha256": "58ee0859bc99c0b650b5829760679d304fca147683f4c537b507070bc31e94b9",
+        "semantic_sha256": "19c821f1939d3cee2364031425057df328c5bc9ee870fef18812a9fb34cd6168",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Docker.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Docker.list"
+  ]
+}

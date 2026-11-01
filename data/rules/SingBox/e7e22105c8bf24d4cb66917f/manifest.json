@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:27.492977+00:00",
+  "client": "SingBox",
+  "rule": "Redis",
+  "rule_updated_at": "2026-07-26T08:34:14.578335+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Redis_source_93cf43998d688109.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "61c33c648976a54a0860cbfbcf7568d5e48ffb310f52ac8bd545b85aacf3eebd",
+        "bytes_sha256": "63eeffa267c16413071b19a0b59406d65a0032f32a3083f1559c258eb149622c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Redis_source-srs_1578e130b5b76d52.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f41d9fcee3651db95f68f3d9916d6981a3fabb4feebcbb3e726cbe806f3332fd",
+        "bytes_sha256": "921d8da8181ac49acbe31faf101c6e019edf5edd5f8944846ac2fcdda24e776a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

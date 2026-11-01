@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:37.666942+00:00",
+  "client": "Loon",
+  "rule": "Disney",
+  "rule_updated_at": "2026-08-07T02:23:05.172413+00:00",
+  "type_counts": {
+    "DOMAIN": 6,
+    "DOMAIN-SUFFIX": 242
+  },
+  "total_line_count": 248,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Disney_rules_2299e55ecd61818f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0222059fc22c131e4a4c41139c9192264e3734e5f0c71e7f143f68b15e068173",
+        "bytes_sha256": "80d8fc895c7cadff5090e68f15f0b3f616d66a9ea29a79d86f71e81958a32d31",
+        "semantic_sha256": "65ba5bba3e3c4a4c39219b055a7b5f95038bebf5036de2c18ef6ff63b2ca479b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Disney_domain-set_1bf312f06830e1af.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf9aceaada0ed1e1441b62c709b1e3c030f36c2141ea9acae101745e52b587ad",
+        "bytes_sha256": "cafd7ceeeaf59ac08073d921aae9598e4a40743f4b1678678a073ec7b4c964b4",
+        "semantic_sha256": "048f9c5e25fc055d5c83ae3c67079c9ec242e9a94c1d14643f3fecd2a4b4a5ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Disney.list"
+  ]
+}

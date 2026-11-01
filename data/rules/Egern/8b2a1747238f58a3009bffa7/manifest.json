@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-08-27T02:03:29.453920+00:00",
+  "client": "Egern",
+  "rule": "GlobalMedia",
+  "rule_updated_at": "2026-08-08T02:57:10.308950+00:00",
+  "type_counts": {
+    "domain_wildcard_set": 7,
+    "url_regex_set": 1,
+    "domain_set": 89,
+    "ip_cidr6_set": 200,
+    "domain_suffix_set": 1117,
+    "user_agent_set": 19,
+    "domain_keyword_set": 28,
+    "ip_cidr_set": 266
+  },
+  "total_line_count": 1727,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalMedia_rules_872637ff8943435d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ede6d83f1d27095e9f408dbbe4213989be5c547e3d86a0c510dc46985e4ba72b",
+        "bytes_sha256": "bd85bc425d9316a696e3983c2dca8934a5b0f93a5d587d1590295659e9a49f6b",
+        "semantic_sha256": "e9a0d485887169d1e45d53620a2d64c8e7e02f11da72b41e2089dea43ae6c81e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "module",
+      "url": "data/_shared/artifacts/GlobalMedia_mitm_19187e56f52bb25f.module",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aa7442d52dc0ae6e39594846d08ae33b960051dd38f3d70f79cdb1241c167203",
+        "bytes_sha256": "089cb0b84193cfce3f3fc5e137e89be00a6364e303782585e899db5033393c12",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
+    "https://ruleset.skk.moe/List/ip/stream.conf"
+  ]
+}

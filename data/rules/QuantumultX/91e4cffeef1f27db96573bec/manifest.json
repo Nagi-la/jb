@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-08-27T02:03:41.895613+00:00",
+  "client": "QuantumultX",
+  "rule": "Twitter",
+  "rule_updated_at": "2026-07-26T06:36:10.532604+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 27,
+    "IP-CIDR": 8
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Twitter_rules_35d2852b8ae02eef.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e15493ebc674fb8cbe1e89661166f385bb801bc724fdc9f8be9e2564301a154d",
+        "bytes_sha256": "3d035360b93c250215355b1d1fb926ed908f821ac2c48fff15d0ddde4dcaa351",
+        "semantic_sha256": "3691f684d5ee35a01835c9892826a008a1802cc3896b1b6ec9466eb0e5b4a456",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitter.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitter.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Twitter.list"
+  ]
+}

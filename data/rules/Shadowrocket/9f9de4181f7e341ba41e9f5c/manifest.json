@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:05:03.461076+00:00",
+  "client": "Shadowrocket",
+  "rule": "HWTV",
+  "rule_updated_at": "2026-07-26T06:21:57.671904+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HWTV_rules_76b2070ed03a83f8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f01cda6f01220414df1453d7ce32ce191462e37095afd363d50a48e14ad99200",
+        "bytes_sha256": "be95744e85d3f4c13eead41de38684e939ce15fbfffd08e1f3b3ebf018abfdb0",
+        "semantic_sha256": "82ce042cf6da2efe45ab79c62a2db3258dd61bcb9fd4ed307593aa2cf30651cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HWTV_domain-set_24d10b106151c918.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc763d594192e5b4e2b2d38f7bf2b9cf78d001207c1b4484edf7621a4f4ab325",
+        "bytes_sha256": "7482593b8322442982a2cc71328981e615799b1edb39b3dc79fb892f6c55cc43",
+        "semantic_sha256": "284c6ce8a4fc16f909f069d0e148eb05bde0815b7a9406749137778ece5fa0d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HWTV_rule-set_9d43ad156f7ce181.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a984617f644601f38b730ff66d09fb86ea79f79c2ee048a780b86be255f2aab",
+        "bytes_sha256": "feb8ad27a8de2239c6ebaecb72ef64c4f9fb780154d955ef074d1321c1981a6a",
+        "semantic_sha256": "c8b8f582d215b185535e3bc5653ad0e6daef0c111b9f69e86feecfa453d14c82",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HWTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HWTV.list"
+  ]
+}

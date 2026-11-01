@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-08-27T02:18:31.098627+00:00",
+  "client": "Mihomo",
+  "rule": "HBO",
+  "rule_updated_at": "2026-07-26T06:22:00.495260+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 91,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 92,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBO_classical_441bde82fa9edd3b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a6401d74572327b52bda0614d8b264fb48e30b53c4fedaf43af207bde92a2688",
+        "bytes_sha256": "3844196f8f7d4c7bce1f1b60e08c164b2d654ae4e05f023fe36db5b3de186287",
+        "semantic_sha256": "15ddd70948198c32449fd0def257d258d14207036e2790d8ab342468c12ef734",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBO_domain_c7899457a18040f7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a05151272a6713706aeaa9575975381c4b73c06b00419bb572e0d88537e7afc",
+        "bytes_sha256": "1645855f9e131f81706d0ce2fef231108f99b81ee8b2174afd86fdc7b0c4c867",
+        "semantic_sha256": "82407bcfeeccc4d182b98592f9cb0ff5cec42c70547539c3f032dd7e721befda",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HBO_domain-mrs_f7e8e0706520ca2f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9e5a7910b9362d34c466cdec9381d0796cbb0fe34e513362db100fcf188ca22c",
+        "bytes_sha256": "25866fd38de5a0dca0fa87f2fdeacfef4ccbb7598c5a5b01bfae36a38e7a594d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBO_classical-rest_1105c9089d698553.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7e8aad39634750f078e12d87efac430f59ce2b8e6e927e50ce162caf04c9150",
+        "bytes_sha256": "e99adb07954af136c076620207fa83e1707fedcba9d04e941269edb0a2459ce9",
+        "semantic_sha256": "40b6dd958e3221034db83081842c7e113c830cc96aa4306e35b1b732eae0eeab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HBO.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

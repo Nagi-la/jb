@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:58:32.658697+00:00",
+  "client": "SingBox",
+  "rule": "Starbucks",
+  "rule_updated_at": "2026-07-26T06:54:36.403805+00:00",
+  "type_counts": {
+    "domain_suffix": 67
+  },
+  "total_line_count": 67,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Starbucks_source_ad74af5ceefd05a9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eb1284e07ddedcf861786e7eba0cccba4434a7153282870a90d8b9d1da584a9f",
+        "bytes_sha256": "ae009f96762d2ec8a1bf07f85f4eedb43a6061db0dfc088dbcbb4ccf3133ff2a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Starbucks_source-srs_8dfd046d60d9f01d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "014ce55b64b6a9b8bcbb9f0387b1de2b820eda1448540d1794e5786a0d255f28",
+        "bytes_sha256": "44bb7f41cd235825b96ad7187898d43cdefee39afb8714ad1aacb288bd3ef8d8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Starbucks.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Starbucks.list"
+  ]
+}

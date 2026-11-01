@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:56:41.316165+00:00",
+  "client": "Mihomo",
+  "rule": "PSBC",
+  "rule_updated_at": "2026-07-26T06:27:36.867958+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PSBC_classical_fd65ca4656091a1c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a90957f5b379703cde94fabd026c77522ba15d0e3d618df4ba31abad96a3457",
+        "bytes_sha256": "6dd3a6ed81543e3593d659fd1a20350a96ec0085f4a62a9392a04be6ce4fc321",
+        "semantic_sha256": "76684506d1e6a10ecee9ca318316a939354bd1add36e73df34b4dfcc5aa36987",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PSBC_domain_0691b0273c82e7bf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7cd5049069c071f334dc45523dd366122827fde84e476048d8c1e086ac73307",
+        "bytes_sha256": "c12a79ea3c57a3fc572c7c56eab88f99aefef6bc18dbca9c86ab0ef7247293a7",
+        "semantic_sha256": "c8fd0638eaae1aed98eb34a8b2e0750622e05a554bdcdc858951278c7bb1fe13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PSBC_domain-mrs_79a6a2010292e99e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "00b36b46258b1deaae7acfde3202b955a0c42c76dc61c7a5b9935ee0d43fbe12",
+        "bytes_sha256": "672fbb3a6871d8c8fbcb5c088bd5b263200b2417fe2e600dc2943ca94e427783",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PSBC.list"
+  ]
+}

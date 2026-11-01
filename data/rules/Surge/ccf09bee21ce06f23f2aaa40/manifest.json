@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:09.389111+00:00",
+  "client": "Surge",
+  "rule": "KingsoftCloud",
+  "rule_updated_at": "2026-07-26T07:03:29.200353+00:00",
+  "type_counts": {
+    "IP-CIDR": 34,
+    "IP-CIDR6": 19
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KingsoftCloud_rules_bc6a03af472bd84b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4d70973c6e86082f0ad1913f8240f413ecd29cbb14ae26b11145c51b62e19823",
+        "bytes_sha256": "8605a56e606c31c725e13188648ca06847a0b7889b9b82a0c87632faaad3ed09",
+        "semantic_sha256": "e6e54d6050c2be08c96c155dc26840768fb720b5fa2e38f16607a7b1c73d66ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/KingsoftCCC.list"
+  ]
+}

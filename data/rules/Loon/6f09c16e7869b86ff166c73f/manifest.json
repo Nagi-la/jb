@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:32.242899+00:00",
+  "client": "Loon",
+  "rule": "BlueArchive",
+  "rule_updated_at": "2026-07-26T08:31:38.235242+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BlueArchive_rules_06b04235aa430e5a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f813feb20f0d41c14765f596d25f89b10f19f843bd80a6e4cb20b539e2672b15",
+        "bytes_sha256": "c9ecd7906830abeed65e688fe82e45807e8e89b856d2700ca7309adb784a4648",
+        "semantic_sha256": "727f9b4d1852076d51bbcf16a02ac74063254b601a93a920a44c2b2ab238bdad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BlueArchive_domain-set_8c7c53a2f1b91d2c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "525dfeff076fac057e84e19fd40dc51330750d4f48ade7f5da69366ad61a5108",
+        "bytes_sha256": "86dcd772a23fefb031bad9cd1be2b19cc3782a1983966894197f9831efe0458c",
+        "semantic_sha256": "a32768b814c3919d765fe4e51caca545c25e55f645de39383ca3b87a96171164",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

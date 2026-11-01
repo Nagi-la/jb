@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:58.524009+00:00",
+  "client": "SingBox",
+  "rule": "UBI",
+  "rule_updated_at": "2026-07-26T06:32:24.227262+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/UBI_source_34d9c754691a35c2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6a158d00302a08ec4724d9c009e377a4dba00d2d456fba9338bcd119959c556c",
+        "bytes_sha256": "672e4ccab04c249b5015fc12006af2b2dbcd6ddfcb88a137bf82bcf16b257760",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/UBI_source-srs_22104ed3ba6c695f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3c22a7f54b3b6c852d3f6e4eec205581e8b9090721caac5cda1aa80340508d76",
+        "bytes_sha256": "ffb580c62481d21a71095f6f9ff232f01637bd34bb78a3c6b50087efe800018c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/UBI.list"
+  ]
+}

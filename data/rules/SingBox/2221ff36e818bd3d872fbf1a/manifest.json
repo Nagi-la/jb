@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:58.890767+00:00",
+  "client": "SingBox",
+  "rule": "Dubox",
+  "rule_updated_at": "2026-07-26T06:36:02.453001+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dubox_source_58f20c63825fb836.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "02368ec18bb7199754cd6512f7320aa58626c0bfe30dcb30860c09ece6a4cd3c",
+        "bytes_sha256": "52a7af2026ee69654d98d0cd9b7fde9a3ef96b8626e788d1cb2028788d869232",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dubox_source-srs_d1b6db049d748d0f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8c5a77cff506fc435f6fecfa6fa6086f210f3df53b7012b26dec6d79534d0b90",
+        "bytes_sha256": "6f1d091552f45ccd2ddee3dc361b1a81bf6f88c43ceb9f5123a8284f972daf00",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dubox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dubox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dubox.list"
+  ]
+}

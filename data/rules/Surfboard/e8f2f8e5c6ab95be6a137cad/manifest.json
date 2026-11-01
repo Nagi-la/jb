@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:22.271408+00:00",
+  "client": "Surfboard",
+  "rule": "NYPost",
+  "rule_updated_at": "2026-07-26T06:22:20.071321+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NYPost_rules_de85d302e38c7f7a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0986181d63db60f0d2405d050bc52ad6ef652cafc9788144116b2c470dfef4e0",
+        "bytes_sha256": "dfeef51c5ed6c8cd375150d44abba76e53fc4c88827f1f9693e5fe8cd1fe0199",
+        "semantic_sha256": "6369c48e2bbf42f1d61bfbafd6e3d7f2500b895797c4fe7b7ab0e5c17dec201e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NYPost_domain-set_a009e1e055ff3692.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c3657e06c0a258b29b03640c8b80e5ef2a7b9abefeaacf141e3724471f51fcd1",
+        "bytes_sha256": "bf8c0fac1293de7f4ae77dd54a5476f3c2c8a1323e6342dd94514bf7bed0849a",
+        "semantic_sha256": "8c232c0a6b6bce091dae2c24a3c860b97cbca12982a16020873b73101745d3de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYPost.list"
+  ]
+}

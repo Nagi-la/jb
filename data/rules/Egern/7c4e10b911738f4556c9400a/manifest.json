@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:08:49.772393+00:00",
+  "client": "Egern",
+  "rule": "HunanTV",
+  "rule_updated_at": "2026-07-26T06:25:26.063887+00:00",
+  "type_counts": {
+    "domain_suffix_set": 14,
+    "user_agent_set": 1
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HunanTV_rules_779f0be58d947125.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51f9002b1fb4641db5f6d4a34bc729e70e0d217c689795b67368f18df61c4793",
+        "bytes_sha256": "b443d6687383d75a9f27fb4eaac8e3ca8c37294f9afaf9952565afa2cfcb48b5",
+        "semantic_sha256": "4cc95993a129598b4f22fb755b5bcbe6c2b5319be6a26af684e04e994304084f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HunanTV.list"
+  ]
+}

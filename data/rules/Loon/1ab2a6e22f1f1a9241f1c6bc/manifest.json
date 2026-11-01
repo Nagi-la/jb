@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:40.939782+00:00",
+  "client": "Loon",
+  "rule": "iCloudPrivateRelay",
+  "rule_updated_at": "2026-08-07T02:23:28.221102+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3,
+    "DOMAIN": 7
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iCloudPrivateRelay_rules_9ab74868377e6923.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e6ccd3791fc8904667eb68bf2fe9c81c2265949debe4ae868c281167119f627",
+        "bytes_sha256": "412f712f14430c7153e5cbe9e4b7a75e3c48ca6c8cba90be4cf2dd1b3abd106a",
+        "semantic_sha256": "05a544ae5f9734bbdfd04b9a9df019fc5d363a52ee5e4bc914d7c2d5ede989be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iCloudPrivateRelay_domain-set_ac2b876c63423661.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "562bb5e03a38a2428b5b6edbb4904d833051f8500e40544f5714306d1b8c533d",
+        "bytes_sha256": "b8aec3de0287061c7d0734a8a7ff39b1c89b30d8c0ed4935e76259e28d235e68",
+        "semantic_sha256": "39ad175512dac831ca8b8105c0c457ce37f96e1d0c29a2d079639d7db3f04bb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf"
+  ]
+}

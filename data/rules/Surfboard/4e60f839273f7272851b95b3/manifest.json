@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:48.495216+00:00",
+  "client": "Surfboard",
+  "rule": "AcFun",
+  "rule_updated_at": "2026-07-26T06:23:56.546458+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9,
+    "DOMAIN": 1
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AcFun_rules_06ef71ea22b562bd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89d54f12c4552dabe6bc9a92b34173767dcc411e4aa23b71ed469b20f72b4ca7",
+        "bytes_sha256": "7a80b25a17e9a608e0f9c94790c6ff56bdcf094ce1718750704e364cb4672e26",
+        "semantic_sha256": "542f87b4ed6c63a6e0824586bcc37fed01812deb608bf71d4732e751f26d0a2e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AcFun_domain-set_4bcb4d1ab7dcb896.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66153f82bedfdd2046c0ad9e153111c24aabb3a280aaed49b05ab4566d268b97",
+        "bytes_sha256": "27b1f6e641eb1d8c9b21bf50c68265cdfaaa4242df490b6b21aa18f21d9aa20b",
+        "semantic_sha256": "81338e0f91792fd98fefa6e45436409d3897f718b2b555eaf2e8c79f47af20d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AcFun.list"
+  ]
+}

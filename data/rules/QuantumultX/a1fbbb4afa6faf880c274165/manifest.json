@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:07:20.293973+00:00",
+  "client": "QuantumultX",
+  "rule": "AppleDev",
+  "rule_updated_at": "2026-08-07T02:23:04.478901+00:00",
+  "type_counts": {
+    "HOST": 15,
+    "HOST-SUFFIX": 40
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleDev_rules_b9c46adcb6bbf934.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "703ad28b3a6f381f05cd02818fb33d6c82e77ccda00fcfe443c9492c787ed267",
+        "bytes_sha256": "3cf727ecce861f25ba00c741ff9b7cf5a33e5d9a173751a096870c59ea010973",
+        "semantic_sha256": "bf7776677861219ddcef72ce927d83a3836e27944c3c71578bf92fb79d1ca6ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleDev.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:37.947830+00:00",
+  "client": "Surfboard",
+  "rule": "Gog",
+  "rule_updated_at": "2026-07-26T06:32:17.370075+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11,
+    "DOMAIN": 3
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gog_rules_fa3a5d7e5cbc0d79.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89276f6dca069e517df5dde55a28cec2480f951789bcab7ade17f994a6359d1e",
+        "bytes_sha256": "73c04bf820b4114192cda01a60b473a0f9fbd4f4c73c897a343ae2ada0e2d4ce",
+        "semantic_sha256": "b2febb38ac84c15b2b0de00e860197add3a2eb75082d55c3c2469412c5d4943e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gog_domain-set_60caedf204d1dc67.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d459d5dbe2ea80256073c1d7872ea1778fbf94c5fc5b928613126a515ebef61",
+        "bytes_sha256": "f46bc72e9b7bf710a3f3a026f88a5cef7b4d4e78156b67468ceef4884a888cee",
+        "semantic_sha256": "3b6ae03a550fdd91f8a6f29cf353753bcaacab8564d156feca54214cdd46296b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list"
+  ]
+}

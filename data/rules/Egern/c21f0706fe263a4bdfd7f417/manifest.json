@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:59:47.538329+00:00",
+  "client": "Egern",
+  "rule": "AppleUpdate",
+  "rule_updated_at": "2026-07-26T06:33:25.456631+00:00",
+  "type_counts": {
+    "domain_set": 66,
+    "domain_suffix_set": 31
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleUpdate_rules_428847ff8b6a56c6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ce006f7c47cadab2604e6ef78ecd0b772b5698daabd641bb477886b5abdd54a",
+        "bytes_sha256": "2d5a90e4e8d3f199a09f922da4abd9cd7796ed7313beb1b923f081125e8e492f",
+        "semantic_sha256": "f353b8fa5ec5c5951f627352b30ae4018a13132737f1f4ff55d3b11488ea8c33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LuzMasonj/Quantumult/master/QuantumultX/Filter/BlockiOSServices.conf",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/IOS_OTA.list"
+  ]
+}

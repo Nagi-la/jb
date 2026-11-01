@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-10-29T02:44:15.213047+00:00",
+  "client": "Mihomo",
+  "rule": "Apple",
+  "rule_updated_at": "2026-10-29T02:37:26.104946+00:00",
+  "type_counts": {
+    "IP-CIDR6": 3,
+    "DOMAIN-SUFFIX": 1769,
+    "DOMAIN-KEYWORD": 5,
+    "IP-CIDR": 10,
+    "DOMAIN-WILDCARD": 15,
+    "PROCESS-NAME": 9,
+    "DOMAIN": 280
+  },
+  "total_line_count": 2091,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Apple_classical_0fa29647e779e764.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4309820aefdeaa540b88927132e2ec8af62edf28420b45cdb48e68e94d4b0d76",
+        "bytes_sha256": "b9395b2c3d04ac7f4ddd8cf8d90a4000efaa48b82f1fcdcd67d8bd4b5e56a007",
+        "semantic_sha256": "40f9b9d794ef8c58532804a01e6cfe90be4869f7db9809e8948b8ce398109d6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Apple_domain_26730f39b26ef029.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3fef6c2937514e8912dc8bc81a79970ea05fb74c31d16dbde4150eb9b1129f57",
+        "bytes_sha256": "22d8d05aa63aa36eac2ff54481d9a44d41c4272921301dbb512e68076a265fa0",
+        "semantic_sha256": "6a0cef5e9339f3cec16e6f1dd358ce09d7c0f746859103b947e15db9225d6dbd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Apple_domain-mrs_7e2479ae82882b86.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eb63b4326b5e6e18ad83a05be15d0257ab8865421ad16372a753e18333ea15bc",
+        "bytes_sha256": "0b6a1fa986c88495078192af511fe777901d98243f617ddad5ab88b203783303",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Apple_ipcidr_f1cc99be8aaf0919.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6aed330d8b4fa475f8852504e116b7eb9147d61ab75bc4829abae186030cc9f1",
+        "bytes_sha256": "805c6f8d5b84a39f54b8c3a2f4053f27674dae0949e4f12e34fc26cffb2b3309",
+        "semantic_sha256": "21deb0d7ae10a323c1b154081344bd86e100d5ad65bf519b363747385ccf96ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Apple_ipcidr-mrs_848fc07c2d4b89e2.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3ac04752537e8ddd4f96d7dc1248378bbf30de73fee5ab6c1496131eba05848a",
+        "bytes_sha256": "333c99021f21736882b611d8d1b9ecfb00bae7eebe10a65fb3b0e93f2cc9dd09",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Apple_classical-rest_b2adb0dcf08c81dc.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d784f49bc45ca37adbd508b4cbd0b7de3deb4e6d67b03b35f2c8d971ae0ee104",
+        "bytes_sha256": "a21000b7693bb82eef300c325e8366cdcf2e8ff21a13b943f14adcf1ef5bb66e",
+        "semantic_sha256": "471f18d9384b33c477d8b5aadd8a8f55819a0501e33141ca824a2a338a4b2aea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Apple.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

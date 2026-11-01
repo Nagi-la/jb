@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-08-27T01:57:52.230281+00:00",
+  "client": "Mihomo",
+  "rule": "GoogleFCM",
+  "rule_updated_at": "2026-07-26T07:00:06.736102+00:00",
+  "type_counts": {
+    "DOMAIN": 24,
+    "IP-CIDR": 26
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleFCM_classical_781159f701cc3dbb.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b46733af1a75809ec0345aef481bd2570f55f04f1d9191f9f9250b935dc6e13d",
+        "bytes_sha256": "7203bb07b57cefbf98efe6c82e8e99b38958313290d44220a5ae831a88fb1258",
+        "semantic_sha256": "8cac95ac224780ac48d8778f5bee9e3eaa242ab3c4c956f007a402e401645693",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleFCM_domain_51bf05211e8fb0ba.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "29969275abf83b6d2fed45a6f2f1ab361cf9d6a783c4bed0e2fc365e3305ca2c",
+        "bytes_sha256": "4bbe0894906e71279c0be5b47d969dc1ed51ecf1d3dd381f3cd2cd48c3231c35",
+        "semantic_sha256": "23b7bc170c54a5cf9a7d737ce26b612bdbe284cf5309de2e338d88597454030f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GoogleFCM_domain-mrs_5f6dc8e5a6d3c933.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eecddf870ff8d03f34fda093211f74bdddb6e32c85b250671ca65c2496c6c564",
+        "bytes_sha256": "d69bcfebb0c060a7ac09b37d08e60d52ec23866800a9e05d764ea410fd8d803a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleFCM_ipcidr_9a78d2aa42920521.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca8a62088effeaeb6e9ebb7ef0f010aca909abcf646d9a49c21ba0cc2310165a",
+        "bytes_sha256": "8ccc5daffebbbd683c32b55cdd5a8f55fbd527326f5d9b3aeb4f419e8efeb27b",
+        "semantic_sha256": "bc3e57ce8a11165f58c921ff392252d21f9d0a6ffa8cc91702f768c8ff752c5b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GoogleFCM_ipcidr-mrs_132c8678e05542dd.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "62fff05a544341311b14cccbf02f1d852c87fad1bdaf16c482336f21230a0cd2",
+        "bytes_sha256": "b949967cb3fb796c8c7c456634f3c67167cc9a536425f2946a5c9425cb41c267",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Google%20FCM.yaml"
+  ]
+}

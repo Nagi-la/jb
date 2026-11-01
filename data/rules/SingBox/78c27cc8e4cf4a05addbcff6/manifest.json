@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-29T02:57:29.228395+00:00",
+  "client": "SingBox",
+  "rule": "Dropbox",
+  "rule_updated_at": "2026-10-29T02:37:33.229249+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 25
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dropbox_source_cc0b4624f05dbf79.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6503ee90d9c867caff441d5396c2336e7ee25dbc5cc4c587311e8391fed21e95",
+        "bytes_sha256": "d9ba6e80d777d073f5707ce65ae7622d6d3305fd50290430be3e2834178acadc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dropbox_source-srs_dcdca5d2a2bf764d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e224406d93a8ae5b3a01308640766cb7b027caba2385d9a4912049371bd0534e",
+        "bytes_sha256": "f8f797a2122c47297730baa0168195fb1435feff5ee739bc3d8340cc16fed809",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dropbox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dropbox.list"
+  ]
+}

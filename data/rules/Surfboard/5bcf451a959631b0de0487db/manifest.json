@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:09:40.851196+00:00",
+  "client": "Surfboard",
+  "rule": "QCC",
+  "rule_updated_at": "2026-07-26T08:34:12.296344+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QCC_rules_1296fbbedda11362.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50f0c743b892bb9d1bd077a72dcf653ee712cd3565e6efada95df2655857e463",
+        "bytes_sha256": "fc8b1988beabcc10b9e6b37fed7926bb97fdf02afd0943be9fcf019c168bf7b7",
+        "semantic_sha256": "8657e3258e9d0031d50433639c5628a995255928600afbe645e5a9ad1f3b9146",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QCC_domain-set_36167d45c39435e2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c642ddf51dc3098427ba2eefde423c3af10b2c8b141b88f793f69e56e6761cc6",
+        "bytes_sha256": "2d9a538137286f920f0904547dd3214187a4d3e68ced69528844a9f2613c86d3",
+        "semantic_sha256": "8b107b418a4545d9bd437f9637318dbd63004fc3015ea4b197f4e906f054df53",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

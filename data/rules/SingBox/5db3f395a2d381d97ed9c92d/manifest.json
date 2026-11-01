@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:36.016807+00:00",
+  "client": "SingBox",
+  "rule": "TapTap",
+  "rule_updated_at": "2026-07-26T07:16:25.147146+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TapTap_source_ad95d929e572ac50.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "abf29a45a9f620e695289c82b08b1d67cfe9ae518af65ed0e9bca3b0c36f4c72",
+        "bytes_sha256": "40c133f10a9b0923adf585b176255185043d6c8b9bfdee370c2870e3f97774e5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TapTap_source-srs_f508cd4e0aef65e9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e2fcafdc20644da106fb56619f0c037437db8e2c357131d89c9cfd1aebef13ca",
+        "bytes_sha256": "0d9fdc3a3ff10f6c6c2dff084260dace368309c3aa1b988dbb3e53bca1c365ac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list"
+  ]
+}

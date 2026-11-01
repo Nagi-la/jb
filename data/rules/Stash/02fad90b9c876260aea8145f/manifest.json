@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:10:23.346443+00:00",
+  "client": "Stash",
+  "rule": "NTPService",
+  "rule_updated_at": "2026-07-26T07:01:42.461185+00:00",
+  "type_counts": {
+    "DOMAIN": 75,
+    "DOMAIN-SUFFIX": 126
+  },
+  "total_line_count": 201,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NTPService_classical_cb102cff25f784d9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc8640b571305b7a060e13ca366290ffd88a8dbac0718ca0a54f411f9d713645",
+        "bytes_sha256": "d4d65d4dbedff98d2a0cd189e350b30a00fd94f90d8fe2f8734553ad75acb082",
+        "semantic_sha256": "08aadf472a93ec5d3cd02cded2cb287b71e066d0f91239b9f2cc33131ee30e3c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NTPService_domain_26f61eb22f90002e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "def9271ead6b447488ab883a9ba5fc86418785d09887e51a5d33a8493e8d03ad",
+        "bytes_sha256": "47b88d806b18dfb9e9aae96f2e757eea7adfe8bfefb5218b4d7fe5a6fac1cce8",
+        "semantic_sha256": "c9cc992e121e588f4c8c7e8ba7ae7d8464954d6d788e8959d0cd9be49341b75f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "client": "AdGuard",
+  "generated_at": "2026-10-30T01:47:42.571416+00:00",
+  "rules": [
+    {
+      "id": "f3516347-4a0b-4b18-bde8-1e2b50374df8",
+      "name": "Advertising",
+      "chinese_name": "去广告",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/37/f4/0437f436-c0d7-f574-677b-bb0d25ba936b/default-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+      "types": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX"
+      ],
+      "rule_updated_at": "2026-10-30T01:40:40.721871+00:00",
+      "type_counts": {
+        "DOMAIN": 17423,
+        "DOMAIN-SUFFIX": 242164
+      },
+      "total_line_count": 259587,
+      "manifest": "data/rules/AdGuard/e5d8391928d56f650deac3af/manifest.json",
+      "providers": [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+        "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list",
+        "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list",
+        "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt",
+        "https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list",
+        "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list",
+        "https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list",
+        "https://raw.githubusercontent.com/scomper/surge-list/master/reject.list",
+        "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list",
+        "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list",
+        "https://ruleset.skk.moe/List/domainset/reject.conf",
+        "https://ruleset.skk.moe/List/ip/reject.conf",
+        "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+        "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf",
+        "https://ruleset.skk.moe/List/non_ip/reject.conf"
+      ]
+    },
+    {
+      "id": "96b1c745-cbb5-463d-90e4-687fae3954e3",
+      "name": "AdvertisingLite",
+      "chinese_name": "去广告精简版",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/37/f4/0437f436-c0d7-f574-677b-bb0d25ba936b/default-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+      "types": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX"
+      ],
+      "rule_updated_at": "2026-10-30T01:40:36.702675+00:00",
+      "type_counts": {
+        "DOMAIN": 26892,
+        "DOMAIN-SUFFIX": 158888
+      },
+      "total_line_count": 185780,
+      "manifest": "data/rules/AdGuard/66d2d10aee14e52bd64868fd/manifest.json",
+      "providers": [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+        "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
+        "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list",
+        "https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule",
+        "https://ruleset.skk.moe/List/domainset/reject.conf",
+        "https://ruleset.skk.moe/List/non_ip/reject.conf"
+      ]
+    },
+    {
+      "id": "f7f1f5e4-7ce1-4f45-8128-471574923429",
+      "name": "AdvertisingMiTV",
+      "chinese_name": "小米电视广告",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/58/f7/4f58f727-c2dd-9caf-75bd-4a86cd1c44d6/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220-0.png/512x512bb.jpg",
+      "description": "应要求添加手动整理的小米电视去广告，数据来自：\nhttps://www.zhihu.com/question/30746616\n手动维护，无自动更新。",
+      "types": [
+        "DOMAIN"
+      ],
+      "rule_updated_at": "2026-07-26T07:42:28.197006+00:00",
+      "type_counts": {
+        "DOMAIN": 1775
+      },
+      "total_line_count": 1775,
+      "manifest": "data/rules/AdGuard/5ea61a520f3e994003c953ef/manifest.json",
+      "providers": []
+    },
+    {
+      "id": "05a6baa8-c119-4af1-b962-e1fc7736be60",
+      "name": "Privacy",
+      "chinese_name": "隐私保护",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/0c/fb/2d0cfb07-13d5-2dec-8caa-2148290633b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "description": "",
+      "types": [
+        "DOMAIN",
+        "DOMAIN-SUFFIX"
+      ],
+      "rule_updated_at": "2026-09-03T05:30:26.079361+00:00",
+      "type_counts": {
+        "DOMAIN": 12,
+        "DOMAIN-SUFFIX": 39863
+      },
+      "total_line_count": 39875,
+      "manifest": "data/rules/AdGuard/842dea5abcb4aa112a1f874f/manifest.json",
+      "providers": [
+        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+        "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+        "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf"
+      ]
+    }
+  ]
+}

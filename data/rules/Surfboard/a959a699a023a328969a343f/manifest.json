@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-10-29T14:58:44.730298+00:00",
+  "client": "Surfboard",
+  "rule": "Global",
+  "rule_updated_at": "2026-10-29T01:54:39.715434+00:00",
+  "type_counts": {
+    "IP-CIDR6": 4,
+    "DOMAIN-SUFFIX": 22360,
+    "DOMAIN-KEYWORD": 53,
+    "IP-CIDR": 80,
+    "PROCESS-NAME": 8,
+    "DOMAIN": 1914
+  },
+  "total_line_count": 24419,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Global_rules_b7d900476f61a1ef.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "92793cf188df1648e128487ddb9584d24cc5f06b299d8d59a578f45ef8d463a6",
+        "bytes_sha256": "7199c1afd03d0e904b518d93cf4c9f1b61758c671888d0d609191b2aa1628367",
+        "semantic_sha256": "97fe18a2dae5d86f22b26db2a5e1e3365aed59a5a4872227fdf493c8f77f5c18",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Global_domain-set_af2febf0e5256037.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0e553e152f689613183b6f46233e5defda997703e9605112d444aea47c004fe",
+        "bytes_sha256": "8c217540ec4a1658007e800e0e17ddaa3b4b216b3480f24dd26765173c947eb1",
+        "semantic_sha256": "8379b95eb1d3e68829b2402d18ea8bf9cdd24238fedfa89758edb70191e52fc5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Global_rule-set_3097359517bcf147.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "49613f5cb19741f1c4c1c9da6e589aa41e320ba3d36da520e4f51c2cc6808189",
+        "bytes_sha256": "ff2db5817511ad20948d2c3d4cdc5da7484b4154decadf1ea39b60655bce7e31",
+        "semantic_sha256": "107888948accd907ba5592df728288ab261196790b65ed6f2e63ff7e64eced35",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list",
+    "https://ruleset.skk.moe/List/domainset/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf",
+    "https://ruleset.skk.moe/List/non_ip/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/global.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+  ]
+}

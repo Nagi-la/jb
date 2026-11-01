@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:15:01.198316+00:00",
+  "client": "Mihomo",
+  "rule": "CNN",
+  "rule_updated_at": "2026-07-26T06:21:29.143186+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNN_classical_5da37b8e6ed461c7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a56d6a30c72467563a3f21b8a1e3c64e0f0d62e8a04da64bf4ba423f96c7afb0",
+        "bytes_sha256": "c830bb24365f618241034b1e2e513302686a9e4ca83e0b890999ae997991ecb2",
+        "semantic_sha256": "2c1cd13eb74d7d1924acdf8de5524e979e9ec9e199d927998db69afe45d2fcf6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNN_domain_18080eb3f2053050.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e6b36a8947d0a06318d2832b0d0109b06f1c78ddf54b66cfcfa4578320d0e906",
+        "bytes_sha256": "54f125487ceb2c54c1af1e473025f27ba79b230a4b2b7fa4b9f8974f6d32e84c",
+        "semantic_sha256": "02ddeb7eaacfe31243b24e4be5f5a8646097373ac57940475022d165b65ba3d1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CNN_domain-mrs_0c631d470210aeb3.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "69c42ca822f877415bd1bad5407a476b9d5f601cd95aad4f047e7afec39cc35f",
+        "bytes_sha256": "ddfb513a7b4355fab5498a6c2fb8783ee0347da60afc18282d9c7659df058c79",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CNN.list"
+  ]
+}

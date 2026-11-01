@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:31.449244+00:00",
+  "client": "SingBox",
+  "rule": "EncoreTVB",
+  "rule_updated_at": "2026-07-26T06:21:43.417101+00:00",
+  "type_counts": {
+    "domain_suffix": 1,
+    "domain": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/EncoreTVB_source_77de5c443d492cc7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a6d1bde1e9d4aba7587d033ecbf636aa19dbdffa53db1c8b12ef4383ca66cc99",
+        "bytes_sha256": "2129b69684ccb3beac928b88fa336bded58c637f2ae2e6ada748fb93fdfe4c30",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/EncoreTVB_source-srs_80a8e58022273ff5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b03e70db57dce6c315ecaf88df300430adcc43f7bc0e8d306ece8abd03e8389a",
+        "bytes_sha256": "b715b67cb5ebe26c71015b85380ce14b22a6ea576ebfbaed8e612faf9204a622",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/EncoreTVB.list"
+  ]
+}

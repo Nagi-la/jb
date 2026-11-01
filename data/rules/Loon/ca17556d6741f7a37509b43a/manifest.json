@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:19.044695+00:00",
+  "client": "Loon",
+  "rule": "LuckinCoffee",
+  "rule_updated_at": "2026-07-26T08:33:55.059810+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LuckinCoffee_rules_00ad9576378753ee.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a3bbbaa4cba0c6f0e5b27c2dfe18ac47cb85d81c6fce470d8c221e8508de2c76",
+        "bytes_sha256": "5c521fbd52e556a421dddb7cd76283bce86bb98a107fd74bd4d5d4c8a79de86f",
+        "semantic_sha256": "caeeaefaf40728f17bf73973f93cfb52291e6f6de1f3656e667ad9cac0d634e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LuckinCoffee_domain-set_b13831ae25288fd3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2c630ea82a86943c1ec12ee1d716816eace94888419bd3eee50d25fda6f0dcc",
+        "bytes_sha256": "c0eb618eedc9fe127cd95a795d0afd6d8f323bae5dc682ecd8f01b2ef46ddd7d",
+        "semantic_sha256": "42aad234e4c6510b163a39859eebb22f51845191f4e9f1b4142e8d3460170b79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

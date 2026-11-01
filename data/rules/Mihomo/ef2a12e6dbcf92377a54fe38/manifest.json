@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:13:43.042842+00:00",
+  "client": "Mihomo",
+  "rule": "Ubuntu",
+  "rule_updated_at": "2026-07-26T06:59:02.198995+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 54
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Ubuntu_classical_f231cf710780700e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7b15e80bf4ea0bb6500ad04f0ccf129cde61a98b0e7e3193f1a51ae0bef2fd56",
+        "bytes_sha256": "534d5d4c7ca9239f10c68712c6bd6245cd9f4ce613666d626ab8da4c7f8ae516",
+        "semantic_sha256": "b8841d11a07e6db2cec6c3363789362d087f3f6b325323a52de6d77e5950bcef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Ubuntu_domain_b7f77e7adaba4b00.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23d10da8c9d4b5dca0b1e2ac94348c27fdab68d77bfdb35c1a9571f9199f332c",
+        "bytes_sha256": "c4f6832212ac6996c0913f84719770f4c6055710e5e7e245819d896a38a65413",
+        "semantic_sha256": "4926da4d99d4abf8ad3d7be3793eb4c942a95f47a02c61013a7d148c08350f87",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Ubuntu_domain-mrs_5d7dd31b917eb6b2.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5801f33278b0fa0d0172fed2c3b5d24aba2c88544bb82cae909f2d54879d0e6e",
+        "bytes_sha256": "f38c911578644a59e6b104e5166a9c2068ba13af2c13fa451eb0ec2fd16aa336",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Ubuntu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Ubuntu.list"
+  ]
+}

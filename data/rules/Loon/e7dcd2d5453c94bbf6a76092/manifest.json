@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:43.027065+00:00",
+  "client": "Loon",
+  "rule": "Rockstar",
+  "rule_updated_at": "2026-08-13T23:54:43.602507+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7,
+    "DOMAIN": 11
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rockstar_rules_6b3d931936afe687.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "83e9ea3d733498acfce465238018d4204e0c122a3ee1a381e9a47e15b2a17089",
+        "bytes_sha256": "5fb94318a836fee5fa9f4ab25ef2b4ebd7adcba92c3a00cb8e5276271cf5ce4f",
+        "semantic_sha256": "4189be5d2f21ff4e2bfd5b7933d647a5b35282a4e3db8f9a13c9a9d3ae8ef33c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rockstar_domain-set_e726f10f866926a7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "359fe8954c1b326e8124f091827a911d6025fea00636d712ca930d496ed735bd",
+        "bytes_sha256": "75bb6ab92d0417665011b0cfa16f834511d618b7374b4b159491d74f0fae0a71",
+        "semantic_sha256": "e7332a33b38991a07ee1efb1185b1c34b9fa7926f59c44ff38148265513ca269",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Rockstar.list"
+  ]
+}

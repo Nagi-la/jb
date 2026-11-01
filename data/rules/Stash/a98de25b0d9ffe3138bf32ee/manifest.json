@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:34.181463+00:00",
+  "client": "Stash",
+  "rule": "friDay",
+  "rule_updated_at": "2026-07-26T06:23:01.527338+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/friDay_classical_85c684de79436f34.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0362f6cfda9fc33b7c7fef45c3308c1a9538e3d715ac9289a08d58e4f2b1970c",
+        "bytes_sha256": "d8fd208df1c5ef187a327953c6af80d82c7a7b9d832f5ec0de36574737ccadf0",
+        "semantic_sha256": "bc6acaf2f1b69f159a109eb43192255df9447068e4d3d8bf043243bc4f4f3983",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/friDay_domain_314bd961936459a3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "788ba77504c718c5745f0957eecf8891fd8d275c2b4957f0e63720514ee442c7",
+        "bytes_sha256": "ecade627c2bb796b2867d35f78ac2face984921cb2ad34b894abc666a02ba98c",
+        "semantic_sha256": "d5df38cab53a1650c9560ae218ee34ef098782da39b3b9e1bdf816bc00cbff98",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/friDay.list"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:14:14.860915+00:00",
+  "client": "Mihomo",
+  "rule": "Reddit",
+  "rule_updated_at": "2026-07-26T06:53:47.837769+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Reddit_classical_cbad68a48ebdfd73.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a14e87284b6f6f2f69ebc3f3a0bad6a374f76ade53f307368babbe41c2504db",
+        "bytes_sha256": "4a108777ebe31d86abf7b2d9adace54fd887d9adeee3b104a140aaca1c9e3232",
+        "semantic_sha256": "ef81095b71ca292dc5d677090c1a28d025126b09ad4e2dc2a96bf41b4ded283f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Reddit_domain_191a4e921ce3213c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f471a81a3c239f81db47d9e18572edf60252323b6d62a7165717fefed2ce2fe2",
+        "bytes_sha256": "554c195947542de499a170c48c0e5312b831d3fd83ecf42c1216c665dd192ed4",
+        "semantic_sha256": "059a601d1be1480b3a674f616b7424698996ed35eea60942ce1e5c2d574d3b85",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Reddit_domain-mrs_6f8e6e5c5f1da982.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "216b4fb209bfa406593a1810f1ac2e94193b92cea162e19135e41cd6d4827f56",
+        "bytes_sha256": "ac52f946fbb28966a3077425140cb0e7cb2d6824aafd736c420ebe1a67b92fab",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Reddit.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Reddit.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Reddit.list"
+  ]
+}

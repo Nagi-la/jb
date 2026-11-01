@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-10-29T14:58:44.704717+00:00",
+  "client": "Egern",
+  "rule": "Global",
+  "rule_updated_at": "2026-10-29T01:54:26.234897+00:00",
+  "type_counts": {
+    "domain_wildcard_set": 61,
+    "domain_set": 1914,
+    "ip_cidr6_set": 4,
+    "domain_suffix_set": 22360,
+    "user_agent_set": 9,
+    "domain_keyword_set": 53,
+    "ip_cidr_set": 80
+  },
+  "total_line_count": 24481,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Global_rules_09977d96f189be76.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b52772ae9c3f82a59d779007585cca11584f6dbc0d37f21648d1fd336db4a554",
+        "bytes_sha256": "39980dc3874f31a7105bd91ee2702331f3f187f34a87dc745f11fa62351153c3",
+        "semantic_sha256": "a41f543ead41bb39197aed77f9179fba4cd81b3ec39a0d89e6c2c41b5a02afd8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list",
+    "https://ruleset.skk.moe/List/domainset/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf",
+    "https://ruleset.skk.moe/List/non_ip/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/global.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+  ]
+}

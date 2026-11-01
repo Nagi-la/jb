@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:40.979513+00:00",
+  "client": "Loon",
+  "rule": "Miniso",
+  "rule_updated_at": "2026-07-26T08:33:55.193402+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Miniso_rules_4f6b1164d477be01.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a50efd1d086b262c72d747961bc38d2f23ec3b5c41955c1a91e40cbee8c3096",
+        "bytes_sha256": "6e01cdd1016dbaeb1d0d43ad1781338f90f039e330d52d7a8f111ef421348b6a",
+        "semantic_sha256": "7c327545f34c1e0e19ef0825d416fb3c47d58e2d896117646c6adfda5a4d0197",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Miniso_domain-set_22c03e17e6089f49.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e65cc91095221f712331fed0f8d69dd53f53750bfe2290850e0004b6c9c3ae66",
+        "bytes_sha256": "25281da5293689b43d367b229bc65b47fa7b8aac9c5d8bd0e9a4d260a1bd7c20",
+        "semantic_sha256": "9b029c5a306d5b721623a532d8f44334ad831fb4fa13530dc2824779320bfb4b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

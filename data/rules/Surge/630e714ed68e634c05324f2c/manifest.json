@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:43.940754+00:00",
+  "client": "Surge",
+  "rule": "DiLianWangLuo",
+  "rule_updated_at": "2026-07-26T06:56:58.253244+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DiLianWangLuo_rules_571bb417603b2b1a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f257c9d6bb30014e4fa58df6c8b0775dae501a8f3d762a469d042b0bf07370ce",
+        "bytes_sha256": "9dac873945f1e7ae3c1a84063f3f37fa89efd9f2b64279e6e9a6af3cc70c88b2",
+        "semantic_sha256": "27460a810edc38a94e9d9f6e82c4173cb246c6e9d056225a46823977cc703c61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DiLianWangLuo_domain-set_8fab910b39e3b580.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "364943b50f28815c7d7414e83e65fe26cca751493cef0f3f6788c083599931e1",
+        "bytes_sha256": "abdaf0db78d94075981ac5d7986f5cabc95d0a90ef85ea12a6bd61d73532ab0d",
+        "semantic_sha256": "2044efbff09c07ad0a8bfd72fc588f8eb16e08001cb89d06cb014acdace18bf4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiLianWangLuo.list"
+  ]
+}

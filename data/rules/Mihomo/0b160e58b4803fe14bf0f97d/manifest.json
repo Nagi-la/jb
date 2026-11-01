@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-10-29T03:13:48.092909+00:00",
+  "client": "Mihomo",
+  "rule": "Spotify",
+  "rule_updated_at": "2026-10-29T02:37:38.285467+00:00",
+  "type_counts": {
+    "DOMAIN": 10,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN-SUFFIX": 23,
+    "IP-CIDR": 1,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_classical_822ce41d873a2ee4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8706bbddaa330d883b8bb68e1f6a00d1a6433635e632618a83b670531a2b2361",
+        "bytes_sha256": "1c658af8132b6f4f03ae030534f0dca0c114a78d89a5658c85390e4d3a974cfa",
+        "semantic_sha256": "dd05ce5c8a6a3bd7dfef6521ed0a4403277dcd2e5aa6c809469e951d0e338f5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_domain_3f448badc2106db9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cef7a2d3e5c6cf7d1d9e388bc1da1e7ffb807f42ffbe6d90a0ef9a47f29a32d9",
+        "bytes_sha256": "c6b13b855dc22a8a5e617fd177f529747139ac245adf245198af1536cadae34d",
+        "semantic_sha256": "5f77ac03d43c341b6d75920027e6bc3dc360d8849f391c65bf2cb04d76d59ebe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Spotify_domain-mrs_41ab1792bfc28985.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "febe7526287453cc22ac78b70e15576ded2209d752aa1b61137cde30efeb8334",
+        "bytes_sha256": "baa1928a0a699c62cbdfcc2753b3d3de7038eb5a7e3732e7f0bef9914a1af920",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_ipcidr_2df3bb581bc5d278.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ef6752952ed27266657854f03d33f306609cc325a5a0d867cf96e2ba1314a0d",
+        "bytes_sha256": "61cd48e46402e6b0bdbe42995911461b422be6d7f13a2259d079e83339f60ad3",
+        "semantic_sha256": "337d5b58253971bb7a552fec3f295eeb0fef73268fb8b283970f805d3e394316",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Spotify_ipcidr-mrs_2a956be557816b79.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b4b224a4c03435de5b419e591e80f0b13340c45a7715840c2269d9e99cb51904",
+        "bytes_sha256": "e98b4823ba55ca7d5cbb7b79d95d143972e2474ecd54e3c962f3906f9291698f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_classical-rest_086d447211d7d08e.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "37ba983234f9bbe10d207cbd1ca3c8816fac6f3bd40ebb5469eaa9dd820844dd",
+        "bytes_sha256": "0b4c8f7f3770939bd49a987befb24952af72bddef7a7bb5186e4b9aaa7d15802",
+        "semantic_sha256": "28901f66ef0fa0de1fbe6fe58606cc6182dc7ac88e25c9fadacbc3ac2fa25a75",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list"
+  ]
+}

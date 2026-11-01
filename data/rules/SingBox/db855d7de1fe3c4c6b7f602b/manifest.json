@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:14.662098+00:00",
+  "client": "SingBox",
+  "rule": "Acer",
+  "rule_updated_at": "2026-07-26T06:30:27.555164+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Acer_source_9eba6a797e6d1cfa.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6f54ff160b55af01af957a51254488dd3ea3e5f79550efd3c3db79f0ecb2bf59",
+        "bytes_sha256": "cb01021045c5f5992c4beee430cf3c334d500f6ecc8851d5650680856ee648d7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Acer_source-srs_9664186d90dd8529.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "70dfbc8eacbe2075ad3e8ec9f90ada395029f89bbde2ad7b8c9700c3c9a2e99a",
+        "bytes_sha256": "2b068e3e51ab938d33faac58c2708d93dc6ed067cf51b5abb171c631bd52902e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Acer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Acer.list"
+  ]
+}

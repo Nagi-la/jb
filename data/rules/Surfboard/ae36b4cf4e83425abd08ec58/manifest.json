@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:08:42.187841+00:00",
+  "client": "Surfboard",
+  "rule": "KuaiShou",
+  "rule_updated_at": "2026-08-18T02:22:43.720941+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 691,
+    "DOMAIN": 3
+  },
+  "total_line_count": 694,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuaiShou_rules_72ce1cceaea987f4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c77f59617dccd6cdc47bf88b211d60e9a03cf42a3fb6d448cef74ed432603e4b",
+        "bytes_sha256": "ef86cb0bf67a153bceeef7baa5d16bde9fd903e49ea2f7db81ba5b906e0f2c7f",
+        "semantic_sha256": "a43b09c83e0e39a6c814e3ae47bb40f9dac0af8b97d16d7f3b8b11f32736c82b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuaiShou_domain-set_bd1deb6064064fae.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7705e95356b559d064883f08d990f85d88b5e413930a25417a0e8f5e584ea88c",
+        "bytes_sha256": "7e5facbd3d17f06e5c834d95898d7ed1f2f2c7d321368df2f80e591bd322dbe1",
+        "semantic_sha256": "8251adf7d24b2cf5e5a2c45c9a65c73fd81666e4b0def7d2fc6a2275c9c20230",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiShou.list"
+  ]
+}

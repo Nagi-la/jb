@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-09T16:04:20.737134+00:00",
+  "client": "Egern",
+  "rule": "Baidu",
+  "rule_updated_at": "2026-07-26T06:39:05.878760+00:00",
+  "type_counts": {
+    "domain_suffix_set": 337
+  },
+  "total_line_count": 337,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Baidu_rules_feabe3192482a3a3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "44a8bb59aff86cd8d7abebba90f77736e39f1204843d9f2c7f07a6176634a041",
+        "bytes_sha256": "8a5c1b992d11d62fcfecf113d8e6feec9e84e48666a8e583f4b6a7b4ff757565",
+        "semantic_sha256": "84baa59527e5be9b9ddba94c3c2f2eb37d279e326e6d191470c1130aa754764f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiDu.list"
+  ]
+}

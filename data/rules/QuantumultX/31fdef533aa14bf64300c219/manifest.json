@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:15:23.512702+00:00",
+  "client": "QuantumultX",
+  "rule": "NeteaseCloud",
+  "rule_updated_at": "2026-07-26T07:04:39.235948+00:00",
+  "type_counts": {
+    "IP-CIDR": 106
+  },
+  "total_line_count": 106,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NeteaseCloud_rules_fb06ec941581fb07.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2820679ffb91df1430d001b2493c466889149033f88947d7300b0d1b564ae79",
+        "bytes_sha256": "8c022b9078b1e1eecb6aedadbab1efde255014c8279f9d6ba0968eef0d22d9ed",
+        "semantic_sha256": "c5b1f5c0ae32b838770791ccdf66080da841e75a8dde1e47507a3ac3c370a5da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "非网易云音乐",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/NeteaseCCC.list"
+  ]
+}

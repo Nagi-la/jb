@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:08.026703+00:00",
+  "client": "Surfboard",
+  "rule": "HoYoverse",
+  "rule_updated_at": "2026-07-26T06:59:56.282948+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HoYoverse_rules_af66bb26595df8d3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "70a80ddb259d2e76dcbebe21bd4b89e3776dae018acbeb65e18f42f2228b5064",
+        "bytes_sha256": "95fe4b0d1d1f01f5f9ae61f6781968ebce9c454899d8e636e4ab74349504a63a",
+        "semantic_sha256": "e821cc213851a00c2325771479fe00759f8e822db24f31536e2ca5702d93f165",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HoYoverse_domain-set_b863004ecc06759f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ea0b6881763eb8592d5450d382f9ccdd65c8b2de1562b21d39f6487732c7120",
+        "bytes_sha256": "990b12e284a5dc6205aae6e222b0352df92b223310d35959ee29d89253f8eb8f",
+        "semantic_sha256": "11cc6b3f3c6a81b8984043438421df2040cbe0249de5a7ec0506ee04de74fa3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/HoYoverse.list"
+  ]
+}

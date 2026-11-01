@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-29T02:47:37.241063+00:00",
+  "client": "Surfboard",
+  "rule": "Midea",
+  "rule_updated_at": "2026-10-29T02:37:27.659069+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Midea_rules_16579e8b6677b4ab.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c42693374a7de79ee75a7351e7d269c6fa94ef8aa2222e6ff428dc7fee389c3",
+        "bytes_sha256": "2f60735ae00bb50ab24d1c0f6a792cec46e633bb734b1a1f993761a308376ca2",
+        "semantic_sha256": "16fede2fc459aa613fc443fc5d810b2cd7d257f5809bd7b1c2d0eec14db38cc3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Midea_domain-set_18a447de388089eb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5bd869852426f7dc7dfa4251302b92c0be6e16a2bb487f755c90c9289cd3704b",
+        "bytes_sha256": "5ba56775e11aa685152d4f89eaf05e8a7a17c25414778a19b40aa6b05d5fffc7",
+        "semantic_sha256": "fa473310b5f3d243b2caade160af19d97e24db0011d6424541459bb2cb4231eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

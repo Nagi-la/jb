@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T02:19:32.847951+00:00",
+  "client": "Loon",
+  "rule": "Youku",
+  "rule_updated_at": "2026-08-01T04:38:18.538609+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 58,
+    "IP-CIDR": 1,
+    "DOMAIN": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 62,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Youku_rules_16e084624e104e1d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de7df15f80d3d2b1942c7533d980e14bb513a01961c209844c98494ff9e66b9e",
+        "bytes_sha256": "e15dc404fee67b5b8fd51963c0fa31876022e7738e0dde7a4479e65c6f77da88",
+        "semantic_sha256": "d7706dcf223fccc24d12eb9654cb6dccd1c6f3f23aef58bbd62acbaa3bdd9458",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Youku_domain-set_a836cdcc02cd4eaa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5622fb48c98e4226748bf466a37dd5bfcc1a903a675095d3fe68e1d9eee5a3fa",
+        "bytes_sha256": "d2434abeb9f3ad7a7df7ae82d6736bacb608115066209c7fb7c9de891a128a55",
+        "semantic_sha256": "1c543680088702e2a0eb98c0646a2b5e254803023ef4b050422d721adb756815",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Youku_rule-set_52c54057b9924e4c.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a11dfda663b899432b7cd21cfce0bb94a09a64cbd596c2dd1bb7b75bae46bb36",
+        "bytes_sha256": "b10d7233615852ce34663e9417e815fcd942fea2d7982ed3e5a480fd36d1d395",
+        "semantic_sha256": "53789df12741fb5842abfa2d572c1d72c1288bf20cd5b30105c548844c4049d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Youku%26Tudou.list"
+  ]
+}

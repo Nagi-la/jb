@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:25.656751+00:00",
+  "client": "SingBox",
+  "rule": "Jwplayer",
+  "rule_updated_at": "2026-07-26T06:50:47.714218+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Jwplayer_source_582a6657cbe3295b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a9115b6eb8efcea828ad39f3d97dbe8ce15454d5e12f646e60d77b3194f215ab",
+        "bytes_sha256": "f003a0642badc49a17f85d1c47c8f717dc2c05724b41f318d2f51e8057372537",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Jwplayer_source-srs_cf2b62cb31880ccf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "426862ef70a59631025c3fc58b35c8d438693deeeb205db0a3c50b11cddf3c5a",
+        "bytes_sha256": "7ae6443f5c54e6d76eff4ab9db83e8f1c6e1bd08b8ba7b1b51d4294b7ad5b15d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jwplayer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jwplayer.list"
+  ]
+}

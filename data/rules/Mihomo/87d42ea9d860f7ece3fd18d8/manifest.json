@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:04:30.360182+00:00",
+  "client": "Mihomo",
+  "rule": "Jfrog",
+  "rule_updated_at": "2026-07-26T06:50:47.339798+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jfrog_classical_815604a57be7d002.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e949ea936895bb31793d9e6851eedab789c780f618f6d71d5e76ba0a24d3f93",
+        "bytes_sha256": "937d615a59992c283b83d8e13328470fd622382f89acd96c376364fa6ac124f7",
+        "semantic_sha256": "8c3fd43013c22df2930652631956f85a1e01d4e6ff48ccb7645e3b271285eadb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jfrog_domain_30e4ecc946d162c2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34024bc06b8a8a4440958e2b9dbf8195fd0f07335dff4aa4dd21de24beee9a17",
+        "bytes_sha256": "fb1052b60b2e091e7391f85947b3dd28be03ad12b0177617603412446a52c200",
+        "semantic_sha256": "b54071ad2266eda867ad60fbfdf2adebf6ec3003d126764ad04e8484cc03c07a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Jfrog_domain-mrs_55a38e4df1a0f4cb.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bba0fc98a15e4db4f3fe122bdec2d27ea94e49c8365cbb96597c7d315affcfde",
+        "bytes_sha256": "24d875b52bb7a23ddf8788f548f04ec9d61b4f5efb14281bdafa9f172025c6a3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jfrog.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jfrog.list"
+  ]
+}

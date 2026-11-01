@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T03:00:59.474353+00:00",
+  "client": "Stash",
+  "rule": "AdGuard",
+  "rule_updated_at": "2026-08-27T01:43:41.339170+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdGuard_classical_fd267e74cdde7032.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13440eb2bf8d369f322ba37a0f4b5e31ad76ec3f698b3f16d715ac33706b485f",
+        "bytes_sha256": "5715addd015ffd9e7bad91b7109e43ebb5b3860c67361bfe1a4aa31135ca9d1f",
+        "semantic_sha256": "ca986e3e49a428a34a1844631720110d283235cd68e2e6d091c4fbdd40b3c4dd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdGuard_domain_cca9954c21ce79ca.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a46e91b779c5db5e3691a42755ca1fc6dbabbcb4fd0e119c700e0eadee5aa0f",
+        "bytes_sha256": "b804f9158cef65cf2d40f295df6ba56e526ada990de5bc5f05100450b9c93e08",
+        "semantic_sha256": "d1a63d462b7dcfd0e41eb86a69c63e054972867facf3225319d6e38ff4ed6e1b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

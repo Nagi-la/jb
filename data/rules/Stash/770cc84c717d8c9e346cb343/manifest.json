@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:19:18.471527+00:00",
+  "client": "Stash",
+  "rule": "Discord",
+  "rule_updated_at": "2026-07-26T06:37:34.729913+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 29,
+    "DOMAIN": 2
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Discord_classical_6d212a56316192c6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3104a56ac9293524ba8ebb2bdb3cb20ec2ca365758a49d0975b8414975c4e3a",
+        "bytes_sha256": "9a8fd03bf0dc095f8829eb660d190f9e5def1e3e571553d042b677d4530d86dc",
+        "semantic_sha256": "770cbf07a437a2d5e217d4d78eefb8bdff9eb55a164dfb5f01b5d354f8170cbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Discord_domain_93617863022990a2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "548e5e134c48bf4f7d1eecb439cfff1e3e0c0f7318d6863217c9b23dbefc8040",
+        "bytes_sha256": "7f7b71af3d2abf9b4f06c12cee2bb41228ca0949439f6a43428a87a2b573b4d9",
+        "semantic_sha256": "d8e9abbb2eecb6086e021c974fac28707919aedc9431d2ec64dd297329039139",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Discord.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-08-27T01:59:32.518034+00:00",
+  "client": "Egern",
+  "rule": "NetEaseMusic",
+  "rule_updated_at": "2026-08-10T09:41:21.243716+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 13,
+    "user_agent_set": 3,
+    "ip_cidr_set": 35
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEaseMusic_rules_aa10a8e27c834825.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "184a17fcd53f51a7f10d46b6a39938804670166c56fbd0daf8d9b87c980ced9e",
+        "bytes_sha256": "068551cbfe0f3a4d0196267d2accb6edb2b216db67b56851fc04e758fbbcaac4",
+        "semantic_sha256": "2c9c347a0ac6c1479f5102771ee8d3a9c70df00c62a3b537971c31db71cef727",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list",
+    "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list",
+    "https://ruleset.skk.moe/List/non_ip/neteasemusic.conf"
+  ]
+}

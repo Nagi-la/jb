@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:04:03.779590+00:00",
+  "client": "QuantumultX",
+  "rule": "OP",
+  "rule_updated_at": "2026-07-26T06:32:09.314706+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OP_rules_fecaac87c85282e7.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ce87da2f1d403dadd68bcf11b15b8efe1d117894b8709070703612357aaf40d",
+        "bytes_sha256": "fd696beba6f3f83f88dce0469324e15b871b43b1987250f92e43112148255718",
+        "semantic_sha256": "01e15e0e2ccc9084eab7b4b93902f9ac947749176e63adbe4d83a67b37a9bce1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/OP.list"
+  ]
+}

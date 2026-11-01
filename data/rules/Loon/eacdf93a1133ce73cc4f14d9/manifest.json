@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:47.903044+00:00",
+  "client": "Loon",
+  "rule": "MOOV",
+  "rule_updated_at": "2026-07-26T06:22:19.175379+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MOOV_rules_a77caea93221cf56.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a972b3b77ab2d6ba23fb83ae063c8c3db9072fbf27f4cdf0b5ec0daeefe10c4",
+        "bytes_sha256": "4e059bd09c312edd1940e0e8de7643bec614fef293bf7d19f5b37c3f9da77707",
+        "semantic_sha256": "e9ff5398df4a9dbbb4231920cf84590ed40567f3eb4df840099ec790e846541f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MOOV_domain-set_ffc4220de1c02966.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bcf698a8823b2fa8ad4280189ff10bd32c9bcebb858f82fbeba64364c939fc93",
+        "bytes_sha256": "b0eadcfa08040bdab1ad9cd7968959caa298fde3340649211b107209e1927b53",
+        "semantic_sha256": "44e2fa6fcd0dcb1d77acf31bb8afbded8255da75878ea192fdcfc899dba0f04b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/MOOV.list"
+  ]
+}

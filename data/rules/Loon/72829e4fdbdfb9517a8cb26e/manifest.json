@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:44.068413+00:00",
+  "client": "Loon",
+  "rule": "Sohu",
+  "rule_updated_at": "2026-07-26T06:28:04.564078+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sohu_rules_5bde9303d8610eae.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e08e5f3f2cc69015bba1ccbb8b5077b8751e36c44e8cfe8b5d5b8333fcd06d3",
+        "bytes_sha256": "b5501f89468c3a22c92c3ebedf1097010346d56202a856ab90a7a8620b965029",
+        "semantic_sha256": "3f6040e68f27707aad33a010db2e6ef950e03b4e8dd3b640ab2d5cef2ad5830e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sohu_domain-set_7fd01dc1ea2289f2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4e57158ae4a001bcbd9150124148d4c38fc8cac52868591f44068f98cb26d91",
+        "bytes_sha256": "d28228dd7be604ab30e6a8787acc6b290e933faa402c7bae7fd6a7c8d95976f7",
+        "semantic_sha256": "7a337e675f8893a4e48e9abad4ba5e49dad0180bf432c5a612f299c40f6db011",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sohu.list"
+  ]
+}

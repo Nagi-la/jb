@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-29T02:57:29.259025+00:00",
+  "client": "Surfboard",
+  "rule": "Dropbox",
+  "rule_updated_at": "2026-10-29T02:37:33.359079+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dropbox_rules_e438bab6352eb7fb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed87c3486c4b6d788c99ba2fdc6760751f9cee0ba3a54f87a87f0c4d17185bcd",
+        "bytes_sha256": "3a3c1957d1278773bb9c5ad941949105d706f860b7e744aee97cc16dec42b4d0",
+        "semantic_sha256": "c3519df6e5838b819232d29dae37b4f6e47194cb59b5c78e88ab9e271becf904",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dropbox_domain-set_e61a83bcf563a91a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "14e41a3d2a850580231719608c22e1515ed8fe7290f5fda95a7b73be723c640a",
+        "bytes_sha256": "b95745ff53454016e03ec72b6ba7bbe83811c5e0999d077116034e99cda422ba",
+        "semantic_sha256": "51828ce2a0252c576ee9dba04caca2bd3028c613e638a69e74623a4d1442474f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dropbox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dropbox.list"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-10-29T02:42:18.337626+00:00",
+  "client": "Mihomo",
+  "rule": "Scholar",
+  "rule_updated_at": "2026-10-29T02:37:23.615083+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 226,
+    "DOMAIN": 76
+  },
+  "total_line_count": 302,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Scholar_classical_78ee897a1652e97a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca3af6b04fe5a7fee47ac2dd8c36676d4b8eb51ed54172e0c41c597b05b56cb1",
+        "bytes_sha256": "cfbf59ad407499facea395a0a01c898f719dbd49f09c8698914eefbcfbb2954d",
+        "semantic_sha256": "164d7e03d96e3ce3ac34d6fbf0c9ec3f4754394c8203af8201660b44989b0638",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Scholar_domain_8db2611bc620de5c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76f2f393d7d982250f4cb9b64fd6f6e024999e87b180455ac059fecf657617c8",
+        "bytes_sha256": "6378b08175a4a2a9e0c2bdccd08ed2e77e6cf0e8beda0360fff119632485c642",
+        "semantic_sha256": "47d8611b43d8974431d3b88f1b6267a4ea98a38ca7c481a30d41a2a3e0a39516",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Scholar_domain-mrs_1a0899ad4a693f2d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c3cd7cf0ae29196d12da54eb22c0558fee7ff1fed4cdbda75b8123cddc7164d3",
+        "bytes_sha256": "e7be93055bbd4aaae8a4fb1f76ca97ffb814989e6670d32bd77884ebc18eec80",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Scholar.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scholar.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scholar.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Scholar.yaml"
+  ]
+}

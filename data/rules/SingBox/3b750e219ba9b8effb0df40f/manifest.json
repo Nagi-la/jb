@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:37.627333+00:00",
+  "client": "SingBox",
+  "rule": "CopyManga",
+  "rule_updated_at": "2026-07-26T08:31:45.030353+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CopyManga_source_81e01b9afaa42446.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2e9577fac342f58e18bfe62a2c86368c6e482e886a9f51316c93d6f41a37f89e",
+        "bytes_sha256": "d20462c39a5a986aa1dca720f1530e070d2c185f5200d546034b7c73e05a16f1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CopyManga_source-srs_b8421d3bf4510c5f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b73a65492d8a0c7d84fea7ecdd7e3dd25860c92b921b32dc24827bd37d5b3d33",
+        "bytes_sha256": "f661f705507f331e3914351ad68c68b11ff136318a6134ee14f58679b99038b4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

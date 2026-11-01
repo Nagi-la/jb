@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:05:06.657924+00:00",
+  "client": "Mihomo",
+  "rule": "Bloomberg",
+  "rule_updated_at": "2026-07-26T06:30:58.993203+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 61
+  },
+  "total_line_count": 61,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bloomberg_classical_4b78d6a7fc3a164c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a8871ac79cf3658bcf2d41b26561b519a8d36ab2f00c55131f8175c75165e6ad",
+        "bytes_sha256": "f8e41bb0e43528c0667b217dffa7c61f391456047a0ff39511b0350695939a6d",
+        "semantic_sha256": "87fad0fcb8bc4fefd26fc00030faacaf1d7370f1b00d3dc48e394899a2a56110",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bloomberg_domain_4f8721ee1d669f21.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb1ce60d536c32b4f54d26dddd95ff591c6a8a33e90ec2235f0288f05e63a50b",
+        "bytes_sha256": "28d18abc67fa8e420e663d940f159f5294a8bc84e9d752467e1eca68fd57c7c6",
+        "semantic_sha256": "b450892d0983132cc16094c53500341430edd1febbaec196f7c9628803cdc59c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Bloomberg_domain-mrs_1ff84ec808169e03.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8cbc5e7b0faf9fd2d1369040431ddd804b37140cbb24cb559f7e3e05145c1209",
+        "bytes_sha256": "2542fc1c89a26ad14bb248c3fe74338fe25c15ff5fd223e59b84b133e5d574d3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bloomberg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bloomberg.list"
+  ]
+}

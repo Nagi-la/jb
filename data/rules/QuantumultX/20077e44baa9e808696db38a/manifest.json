@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:05:58.004620+00:00",
+  "client": "QuantumultX",
+  "rule": "Nvidia",
+  "rule_updated_at": "2026-07-26T06:52:13.649819+00:00",
+  "type_counts": {
+    "HOST": 3,
+    "HOST-SUFFIX": 62
+  },
+  "total_line_count": 65,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nvidia_rules_1d5b1bb8525faee7.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "074bec684ad80a7ba91d12d2d049b982c4059d4aa4ea7f1b962f52387b5befcd",
+        "bytes_sha256": "bddde0e2c84c5e47178cdadfbe2c9e95283278eac2573900551135f884c61a06",
+        "semantic_sha256": "2f0d32b06c63355d05245372793d471f71a14192468cb34fc9b4b32840168f24",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nvidia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nvidia.list"
+  ]
+}

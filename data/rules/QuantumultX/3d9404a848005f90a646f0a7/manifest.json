@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:56:47.166292+00:00",
+  "client": "QuantumultX",
+  "rule": "SourceForge",
+  "rule_updated_at": "2026-07-26T06:54:19.935841+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SourceForge_rules_2b326b01fccadb44.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c49965524ec57085510e2489c0baa2616bb0170a4ab460b1812ca75fa68ff36",
+        "bytes_sha256": "2ccbfff75e90cceee2162eaa566d7fe673cac7f8c13400d89a2fecb6b7821bb7",
+        "semantic_sha256": "62bbc2a35f4cb8e05719d5b815833d30ccd4f3b2754bf96455aa9a4605426d1b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SourceForge.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SourceForge.list"
+  ]
+}

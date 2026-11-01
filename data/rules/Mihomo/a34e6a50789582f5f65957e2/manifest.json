@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:16:51.159660+00:00",
+  "client": "Mihomo",
+  "rule": "SMZDM",
+  "rule_updated_at": "2026-07-26T06:27:58.862367+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SMZDM_classical_1e6c0f93d9cefe69.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a9bd409a8691308102bebe71e27841ff9834590c7501f8eaa683f473f3fa39a",
+        "bytes_sha256": "339631f0a245dce03b374ad4f68c0bf27d2ac123c8aeb2847229363ba18cfa76",
+        "semantic_sha256": "d43ba474a41a281a98100ee41cba4ed999f6b9faff9f787f3c788c2efa766949",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SMZDM_domain_357d11b1973020a3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4581ed45082535935a8a58fb02a8bb19d3ee464e87f5e36548717325ecb2fd97",
+        "bytes_sha256": "84c3d5bc3b3bf7bace959595a680bccb9d091f81f366f88d108e7d76cd4b56da",
+        "semantic_sha256": "994ced1a01f71c60bb3c3b5f6a4f67fbd9d3d736f42866c62a2d6ca9ff42d7f0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/SMZDM_domain-mrs_c3db1952ff8e653b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3c3a9cbafcd4f1e5940f441d78bd66fbd6fe5e6f93a74de5a77618c36bf0af9",
+        "bytes_sha256": "3b31a874d6c5683f36c24f6906d2934e1f2eceed833ef8528a87a65a439c2529",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMZDM.list"
+  ]
+}

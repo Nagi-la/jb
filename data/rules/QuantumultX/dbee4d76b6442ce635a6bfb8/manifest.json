@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:01:19.575149+00:00",
+  "client": "QuantumultX",
+  "rule": "Epic",
+  "rule_updated_at": "2026-08-07T02:23:06.486521+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 32
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Epic_rules_8a157fc6b842fd5b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72ecfb5aca2b1b87f430e4bfb623cc58f3ca3affb79a8177b065e046e920b7ba",
+        "bytes_sha256": "aca3a54a78f7d3c0e5d950a941e9a768e5f85cc9622f0bf131cfc47b82ed1a81",
+        "semantic_sha256": "78b0b6d790e63310594c5ed7c57549df51317e9573aa1508708306c4d29eb065",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Epicgames.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/Epic.list"
+  ]
+}

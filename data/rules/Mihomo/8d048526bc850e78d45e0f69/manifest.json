@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:01:06.798035+00:00",
+  "client": "Mihomo",
+  "rule": "Mailru",
+  "rule_updated_at": "2026-07-30T08:09:46.171210+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 252,
+    "DOMAIN": 48
+  },
+  "total_line_count": 300,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Mailru_classical_febe14cbc7ec955c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc6b34beab4fa53110f4c2597d6d630dd2f286a3fbd5ca9c9afc9be1a08487b8",
+        "bytes_sha256": "c9e8f4cdb1471d96f17397da61c6e1cfea8bf344f3d3a9e33fe74bc68215808a",
+        "semantic_sha256": "cffdb9c0977c410e91bf46fdefe4afd39b3ac056ccee479e69b08afbef88630b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Mailru_domain_5f787ea2f9c90fe8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "849ad31cfca9e82a78b0c076eb95d21ed5d855aa514698bcf18a87283a242757",
+        "bytes_sha256": "2098f4eb084c75382fe69ab63f0ab14b3ebe93db87af094ffaa9f971e9209491",
+        "semantic_sha256": "075a4b4db736bb91c726b3aa1819cfdf6c814f30e8afff65ea87021df27d5590",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Mailru_domain-mrs_94eacc85d9f5e517.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "475643e434c603fdd7d0811eb76293b36c9e4b93a4afe78e0aebfc6ad82394e4",
+        "bytes_sha256": "901440d56217af158497277d8afa312fbf73e02d1849c0bd3fe380563aa662fd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Mailru.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Mailru.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:50.910231+00:00",
+  "client": "Stash",
+  "rule": "Motorola",
+  "rule_updated_at": "2026-07-26T08:34:04.792992+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Motorola_classical_ac35be5ebcfb0509.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "877f2f93c15c9290a70de21f091c25bc3182b174f17fc6729efb5af48a86ce06",
+        "bytes_sha256": "77f2b63d441c4f46702d24a9fe6a2adefced2e3ff04938409dc0a5eaf51421c4",
+        "semantic_sha256": "9fd475514fa42a5ab0163ae250e9daab7ca9568e412be3f0316e05c077442594",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Motorola_domain_41c75f62d0128298.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b33a25b0be98d2ef8cbb3079dd413bb9f888f657989ba4abdb6f2e57ed395481",
+        "bytes_sha256": "48ce37aa5f1d540aa8ad5c0ead2991d2e69a235d8aaea35ca5d80dbe5431acbc",
+        "semantic_sha256": "c81ead3bbb1c78c307f51f74ebd45f06cb81c79a09538086cf13162d0fee7a79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:18.983580+00:00",
+  "client": "Surge",
+  "rule": "Sling",
+  "rule_updated_at": "2026-07-26T06:54:19.206433+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sling_rules_8fd371c855671c55.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d37c173c25a0aaf5bb53d875d61eef6b660b62e1d18ca69fb2f55663d69a271c",
+        "bytes_sha256": "502a6bec8621346c7b69b325edcf60e2d70787315d047d50d9e3c5225151a1c4",
+        "semantic_sha256": "5a1cf1361b480794f3f0c47b17a5c1bf36f55231ba6f9ad4418fd785419a1926",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sling_domain-set_8f935253f8438860.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "891652797047175a726c93aa5c338814320ebd612e4943a1db3960a68c3573da",
+        "bytes_sha256": "f17d55db9281292bc644d82a1bc205d6dbfc59ef40df300f3034a103c3586689",
+        "semantic_sha256": "063b6e239f810949960a784ac3eccc9029778d452d4c357f15bacc926becb4f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sling.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sling.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:11:07.567205+00:00",
+  "client": "Egern",
+  "rule": "ViuTV",
+  "rule_updated_at": "2026-07-26T06:23:02.817820+00:00",
+  "type_counts": {
+    "domain_set": 4,
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ViuTV_rules_b380dad60c05f4c8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6d2c1c89fab4c1413a5fd017345096cfaa477d5e5e743d2a47a04457bbf8f28",
+        "bytes_sha256": "b96111a3dccec19ee37d82240e63eff7c92c4f4787923f7eb1e0273b856a095e",
+        "semantic_sha256": "9ca12d5e183e42a24dbe3720067e62400fffe1020c098c4d620deffb09264590",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ViuTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ViuTV.list"
+  ]
+}

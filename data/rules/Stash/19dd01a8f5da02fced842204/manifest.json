@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-08-27T02:06:21.426175+00:00",
+  "client": "Stash",
+  "rule": "BuBeiDanCi",
+  "rule_updated_at": "2026-07-26T07:49:49.809341+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BuBeiDanCi_classical_41d0b31a1cb31305.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a71ec659c32a6fc94d331e558b2119664304f7d04d6978f58d52d7d2b00377a2",
+        "bytes_sha256": "ed424425bf3d78cae358bbb49289ca620e67a5c82ca562a841807368ee942d30",
+        "semantic_sha256": "5a9e886e0ec78e702cbd0e6dec44286d80d0cc78d9b5ce54a6971c1c2e79d920",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BuBeiDanCi_domain_54c98207582da317.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "daf87d7e5c021f1e85b2f4050e5d55d0421026848896997c0c7b17c7dfe2e68c",
+        "bytes_sha256": "880686accacd4e0a207fb181677c1af2b4a822a64fb3beb0663bcc3141d82dc9",
+        "semantic_sha256": "7a2079a7d13ef42df39a0992fb2ed5716bada19c9428d3bffd4d0b5d8e6db873",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

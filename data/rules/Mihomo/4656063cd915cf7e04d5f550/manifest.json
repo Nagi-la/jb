@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-08-27T02:15:13.232778+00:00",
+  "client": "Mihomo",
+  "rule": "GlobalIPTV",
+  "rule_updated_at": "2026-07-26T07:31:29.642131+00:00",
+  "type_counts": {
+    "IP-CIDR": 515,
+    "DOMAIN": 2299
+  },
+  "total_line_count": 2814,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalIPTV_classical_4976c95aab797531.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d8333f32f6069ff75722339e8f50d266cb600a0203d06e039438dc67ff03873",
+        "bytes_sha256": "2aaede646bc42e8a364e7a19c3fde957e7202576facd80ccc67a7e7007071784",
+        "semantic_sha256": "f71ad1853d39e66781326f58aa73b8497bd4558fcac22289fcbc77726c9520af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalIPTV_domain_3590a7321eec1db8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c2fe1f9762169ac4f6a8899dec3e4ecd99815b9b5149b8a5366ef4dfdb3d122",
+        "bytes_sha256": "4624f3e75dac95448706acbea920e41f49ec7b626e266b9f17a3f95a18cc237e",
+        "semantic_sha256": "3408b3a92331553187e3d18f02ff35e27db3a8551c09efc560786be5148987f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GlobalIPTV_domain-mrs_f5d08cba32ccc30a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eed61837bbb65a8ac3572f7fc0e0b270aba857bf5d4133cc40ef60b67cc3f839",
+        "bytes_sha256": "889cbfd324f43a7c751b76c66aa73025334beb164f2ac0486c68934779bafe56",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalIPTV_ipcidr_3a4fef1a045d017f.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "836898fb592abdbefbe2f2905cefe8172e7ece4df58ea101bfc4cd24898bacb6",
+        "bytes_sha256": "8c0e0def734419ac9d2ea0db090fd6d2e912203ddf8ec043b5c4c99190f2d850",
+        "semantic_sha256": "3f9748292db0954ec40c49fde40da06613d655bf79401dacd7a259844544bbae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GlobalIPTV_ipcidr-mrs_1b2a5074d35a4de4.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "95a023f6a81e7d02e895c87caf46a0c59f13f0ce1b5ad8c3a9d219f3baf99d82",
+        "bytes_sha256": "9a38e5ee90286417e99a6379c889661679c8c2b6c56043b87be821894f04d6be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

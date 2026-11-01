@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:01.229240+00:00",
+  "client": "SingBox",
+  "rule": "Dailymail",
+  "rule_updated_at": "2026-07-26T06:49:08.006051+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dailymail_source_1be3fada35a392d0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "45ef15973c1d2031dd6c288bf8ea5aea16b6e187c7dc71a337408054ba290731",
+        "bytes_sha256": "c9356f8fc259bf67f1e7413205e238d5f40fb3c1dae316c570a467e52578b157",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dailymail_source-srs_410de6946875eead.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2979bd245a3ce648ebfe64da9824a379984ea2315249b184390d76a07de6fd2c",
+        "bytes_sha256": "1d3619cd4ff20da5884ba59ab68b53908cc76c0253e717bb9e8c7ee328c3bba7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dailymail.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dailymail.list"
+  ]
+}

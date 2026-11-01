@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:56.253704+00:00",
+  "client": "SingBox",
+  "rule": "Marketing",
+  "rule_updated_at": "2026-07-26T07:16:38.678497+00:00",
+  "type_counts": {
+    "domain_suffix": 56
+  },
+  "total_line_count": 56,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Marketing_source_4072409f5afa69e6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "94ecb788757939d539541518362576c758df678fe7a3eaaf43e271c999bbb1c1",
+        "bytes_sha256": "f74280d05b2e54b4db3c3ad9406638c7d3a55b8b229d3555f35bd7288105928b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Marketing_source-srs_1b773f485b3d7bda.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dcbfadcdd0ed866341afd1ee04be018c8016e210bf7fcd85772cf4794fc6cbda",
+        "bytes_sha256": "5f3b1d3502dba7c37ac971c6c661485e90c2f1d1be0853edc09babe87b9c9471",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Marketing.list"
+  ]
+}

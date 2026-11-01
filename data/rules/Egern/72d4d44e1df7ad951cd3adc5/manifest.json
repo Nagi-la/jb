@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:56:26.942901+00:00",
+  "client": "Egern",
+  "rule": "QuickConnect",
+  "rule_updated_at": "2026-07-26T07:24:25.568922+00:00",
+  "type_counts": {
+    "domain_set": 3,
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QuickConnect_rules_7f76ac2c411b2003.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7478addd6b5ba87d562ee34598ff7ed0f42613b98292781cdf430b69c3c75ad",
+        "bytes_sha256": "9d705a4c1fd240135055c3c7be9f98417e64898dd5a158cf3041a174f29191a6",
+        "semantic_sha256": "23291c38544b0dbadb158eb825d7cc9eb073f4502bb329a523d6faaa31df8e3f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "此规则用于使国区群晖强制使用外区的QuickConnect。\r\n\r\n并且在套件中心可安装国区被下架的套件，如Synology Chat。\r\n\r\n此规则主要解决使用外区QuickConnect时，Synology Chat的推送问题。\r\n\r\n并不能帮你通过外区的QuickConnect访问NAS。\r\n\r\n为了远程访问，建议使用国区的QuickConnect以获得更好的连接体验。",
+  "providers": []
+}

@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:08:36.485583+00:00",
+  "client": "SingBox",
+  "rule": "Blizzard",
+  "rule_updated_at": "2026-08-13T23:42:10.622975+00:00",
+  "type_counts": {
+    "domain": 9,
+    "domain_suffix": 41
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Blizzard_source_c1a53ea37a82a09e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3923b07e0014a030785b37300b602bafa0863216ba3ee890ab5d480bd82d4e47",
+        "bytes_sha256": "276f14ade93d2ea7a6b67fd0527b55d9fb11b03b12c55d6a6fd7b173bab5faf2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Blizzard_source-srs_eb832519e58c6962.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d4f9526fd0e8436285ebafbe906d500dc700ec28b67e8bf1ce57eec711130062",
+        "bytes_sha256": "d0952b4a68923698951935c555eb4b62241bec14883e871a1fb4dde5cb2a63c5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Blizzard.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Blizzard.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list"
+  ]
+}

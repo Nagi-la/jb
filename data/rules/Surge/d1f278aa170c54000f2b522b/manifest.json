@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:26.671403+00:00",
+  "client": "Surge",
+  "rule": "CaiNiao",
+  "rule_updated_at": "2026-07-26T06:23:43.454265+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CaiNiao_rules_7102e43f99652590.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7721b87608a9e719d7187cc3dc66a6bb883b137c0be8880cfc4f347957f0817c",
+        "bytes_sha256": "f243db44756aacf86a22c5461c31c504d936061ef8b9428b7e3ca98918600982",
+        "semantic_sha256": "2f96865e181ab7fa53d46d40c1f196cbe7d405ddb93cfb09d4ae3f5ee9ccee03",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CaiNiao_domain-set_b70a8a5a6f9f8ff8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e221c85c33cad5b2b4acaa036e66dfa390c25194f2a0fede79b6b7cd29c4c8e2",
+        "bytes_sha256": "52255935cc46d20c4fb5b4dcd92d4b01b0a3f0acfcda8fd63eb40bc1f93c1a32",
+        "semantic_sha256": "d4de4d07ca7b40adcb1d8b3de1b551e76be1592f32147eab2c9ab0ce555023e9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CaiNiao.list"
+  ]
+}

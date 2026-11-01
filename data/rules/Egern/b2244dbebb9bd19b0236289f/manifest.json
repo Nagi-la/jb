@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:12:20.292468+00:00",
+  "client": "Egern",
+  "rule": "AppleTV",
+  "rule_updated_at": "2026-07-26T06:33:33.765769+00:00",
+  "type_counts": {
+    "domain_set": 7,
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleTV_rules_441bd08e8e99074b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94880c4d3e29544f3a3f6e75cd0c0ae9c17eedea2d0acf876a1e80aa0d7b97c6",
+        "bytes_sha256": "0dd14c13da263ea418fb8da4151f40cdcd7a4c7be75f9d306d90b02a4b3906b2",
+        "semantic_sha256": "87e919517ff346953163cb85cd49ead138e0d0b71122db0da5c37043256cdfc3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list"
+  ]
+}

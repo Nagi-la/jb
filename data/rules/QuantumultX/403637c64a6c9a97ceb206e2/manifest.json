@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:20.442417+00:00",
+  "client": "QuantumultX",
+  "rule": "Slack",
+  "rule_updated_at": "2026-07-26T06:54:05.695381+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Slack_rules_de7177b2992a9bc1.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b61e7254206657e43dc1ef94f633011bda6243cc103c95eb36356eef69abb044",
+        "bytes_sha256": "0538bc994afafdf3a78d7e85be78b525fbade815f99ea3a7ad7b3996772e66b2",
+        "semantic_sha256": "cd40a78665600a9e9ad825140e9635fa4462b6cd1520f6e9f0afc73990412894",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Slack.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Slack.list"
+  ]
+}

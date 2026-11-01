@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:06.896136+00:00",
+  "client": "SingBox",
+  "rule": "Kantv",
+  "rule_updated_at": "2026-07-26T06:22:17.114302+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Kantv_source_7eef19179a214aec.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "66d881d4e8ab868d040bfdbc04912716397cef024f937b6f4f619918f30d96b4",
+        "bytes_sha256": "f2b4c2d2ea526794aa2a770f1afc33eca032878a4eaa6492866efaead64071be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Kantv_source-srs_006e797c6f5e97b8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b796cbe8747e17877bc36674c643f6378e448ed8e9f418d5de8a024da47b3cc1",
+        "bytes_sha256": "9bc1d2225b03cd3160125f2bd548470c704821538220513f42e9af1070f92bbf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Kantv.list"
+  ]
+}

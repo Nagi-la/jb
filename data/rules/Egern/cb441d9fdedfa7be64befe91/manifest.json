@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:34.508089+00:00",
+  "client": "Egern",
+  "rule": "Blued",
+  "rule_updated_at": "2026-07-26T06:30:50.912615+00:00",
+  "type_counts": {
+    "domain_suffix_set": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blued_rules_60f6d342e4744306.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "384eec894081e879f7fe9c377baa70581041da83011d26e9492fb042b97470bb",
+        "bytes_sha256": "72fe74fba4efcca15a05d6d5c70a67ca410a332d64f93a51f8c13264b358e4d1",
+        "semantic_sha256": "12afe147feb5a57adc0995a7cb47615af27ec461e61b732006cb7d33f1da2e22",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Blued.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Blued.list"
+  ]
+}

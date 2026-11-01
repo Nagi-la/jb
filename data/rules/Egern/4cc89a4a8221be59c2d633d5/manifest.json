@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-09T16:02:17.688910+00:00",
+  "client": "Egern",
+  "rule": "MEGA",
+  "rule_updated_at": "2026-10-09T15:58:46.106705+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7,
+    "ip_cidr6_set": 8,
+    "ip_cidr_set": 7
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MEGA_rules_9366e5c81c37c277.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d63f7ac9b4e6f141aac40a4460acb297a01c9afe9c769187ae484911e4220faf",
+        "bytes_sha256": "d9dc85a43212b1bb9b5c3d3abe7b2c2a9667f911df406d7396b9288290aa6200",
+        "semantic_sha256": "86c8afca3dd5e8ee8e6cfe465b136db3c19ddd0f9e97d1ab1f23869023fd632c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/MEGA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/MEGA.list"
+  ]
+}

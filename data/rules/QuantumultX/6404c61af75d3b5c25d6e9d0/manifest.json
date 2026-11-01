@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:06:09.659312+00:00",
+  "client": "QuantumultX",
+  "rule": "Intel",
+  "rule_updated_at": "2026-07-26T06:50:28.776724+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 296
+  },
+  "total_line_count": 296,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Intel_rules_11f59ce14d2736d6.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab37840687bf55ca3e27839c360e907b0110e111fd7ad204edfc703c0a095380",
+        "bytes_sha256": "544aa4ca65df4361d2f54f44c333497c0cb25aeceb927c17f902a6be6054dc30",
+        "semantic_sha256": "de1fcad45cbf40efdfc0a41bdeb59292686f0beb77302c26801170179a52f483",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intel.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intel.list"
+  ]
+}

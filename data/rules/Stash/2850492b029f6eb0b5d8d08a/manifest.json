@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:00:48.905692+00:00",
+  "client": "Stash",
+  "rule": "Migu",
+  "rule_updated_at": "2026-07-26T06:27:09.905636+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Migu_classical_92340e2009e5218a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6eb53f9ad6a4d67af9a1a742c04ae4f386cd94cae17d11f6a38973267b90c6ca",
+        "bytes_sha256": "0d02965eb7541928820132c1e5d7ba6943110db18385fc6df4fe068a7911c5d9",
+        "semantic_sha256": "24c8e5a7bc636fbeefd7fbb35aa9cba956b7d2cf31a9b0dbc5c1b106436574c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Migu_domain_6c0b8454363c7a69.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c345e96739b3009c4a12b0841287d1dd5cf622387e676610d5d58ef102c3af9",
+        "bytes_sha256": "9b3410352b8466769a0c9b2beca53d9b92845cb1445f49da2a713860552aa505",
+        "semantic_sha256": "5e147d7983f333584284d007f360d1330d99473d1aeba3d2c85e357b28ea9216",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Migu_classical-rest_3700c4143a4a4ee5.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "be3a20d609adf242bab7c345ab5697339b262beb55c9d6e64d2248c43f33ec61",
+        "bytes_sha256": "09f353390f1131e7490e53f82c71ab3299794d6520f8fc9b2dc2d0b1fc4b497b",
+        "semantic_sha256": "03d3e9e6aa5f51894b16ea12b325c11c04b0a8ad9a8bc336ada64e1c1dc18733",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Migu.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:40.197775+00:00",
+  "client": "Shadowrocket",
+  "rule": "Canva",
+  "rule_updated_at": "2026-07-26T08:22:43.156072+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Canva_rules_85127914b5b84ece.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "70937dce3b6763c0977951aa0a96b317d1167f3d2d81b414a52164bf5fe22349",
+        "bytes_sha256": "d9eeeb1767284ba34604c943f937f3e2904437b196ec8bca871bfe55cae63e41",
+        "semantic_sha256": "85c2e3533fdda83e15f3af75b318aa5e8ad8b5ab3ff1fa109c6b6b2ec160578b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Canva_domain-set_903e070087840016.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0406699252341b1758edafd4af50cb636b1df37339c176ed8a6ba63b65903cc9",
+        "bytes_sha256": "1815acc0fdce2b69c730c281a499b7069d22b43c02a1f7eaa851e14a9978d2ee",
+        "semantic_sha256": "bd73c39a27efa03071158bd6099e77d0a5f6f13da45c8cffc788f1e361cb965a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

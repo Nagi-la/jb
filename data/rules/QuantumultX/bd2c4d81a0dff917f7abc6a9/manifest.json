@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-09T16:21:53.210079+00:00",
+  "client": "QuantumultX",
+  "rule": "Telegram",
+  "rule_updated_at": "2026-10-09T15:58:59.311126+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 24,
+    "IP6-CIDR": 7,
+    "IP-ASN": 5,
+    "IP-CIDR": 25
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Telegram_rules_d7c1725f903c116d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23c3476d99920b96c2f93cd07896d41d33049741496cb96a15623ca5ec36d7ea",
+        "bytes_sha256": "048744c2639536681a760ca86fa477580f4a9af0169930e3de8cd049b8a540d1",
+        "semantic_sha256": "2267b99ae5c2a51bc189ff3e31937c8ec944a39af8f4c8acf0d3b78065ce04b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://core.telegram.org/resources/cidr.txt",
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/Telegram.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Telegram.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Telegram.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Telegram.list",
+    "https://ruleset.skk.moe/List/ip/telegram.conf",
+    "https://ruleset.skk.moe/List/non_ip/telegram.conf"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:19.386716+00:00",
+  "client": "SingBox",
+  "rule": "GooglePlay",
+  "rule_updated_at": "2026-07-26T08:22:11.435713+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GooglePlay_source_27222a4848f983ec.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "88c641f1587ab75c8d4410b7dfde058fe4b04d836b979554f38b78c3419f55d8",
+        "bytes_sha256": "0990fa26693f3048d78e0dfa521de946f22400377b979470309625fa74dbf15d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GooglePlay_source-srs_583dcd7583459801.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40e70cad89f6f8d20b5ed956c838cee7d3823e0a3e9620b6f617abf1d11cc294",
+        "bytes_sha256": "40614ba99cb0c02a55d15d91b9f342c694cbc2c0180bcae80fd7ea0638113b7a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

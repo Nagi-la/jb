@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:59:14.865080+00:00",
+  "client": "QuantumultX",
+  "rule": "Deezer",
+  "rule_updated_at": "2026-07-26T06:21:42.858128+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Deezer_rules_ca38b6d4a880609d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56bce1890b8a42497b14e8a97a346c0c87b7b2a0c9e1284a14a986388e8d35cc",
+        "bytes_sha256": "c397f67c093ba9f61bb5d145f55bb95d994c1394d9e8eb00e85a30aabb5f11c0",
+        "semantic_sha256": "7a5401dd48d4bb602da914e553b36c94faa59cb9fc50ebe79a7020ec66d36899",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Deezer.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Deezer.list"
+  ]
+}

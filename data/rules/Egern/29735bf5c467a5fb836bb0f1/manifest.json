@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:01:06.171975+00:00",
+  "client": "Egern",
+  "rule": "Mailru",
+  "rule_updated_at": "2026-07-30T08:09:46.141161+00:00",
+  "type_counts": {
+    "domain_set": 48,
+    "domain_suffix_set": 252
+  },
+  "total_line_count": 300,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Mailru_rules_14032c90dfa492d1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c475c572da3d65d4c50ff61d772749cc62057d343b47d9945a74cbadf82998bf",
+        "bytes_sha256": "264db81e128b54de1f65c7444a2d455b47effe07be3e0ce30b70c70f06d10be1",
+        "semantic_sha256": "46015dbf9dd86847d175fda5cdd72f493062b567702636f7f7d80f9b55d8f5ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Mailru.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Mailru.list"
+  ]
+}

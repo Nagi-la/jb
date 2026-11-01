@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:35.022132+00:00",
+  "client": "Stash",
+  "rule": "Jsdelivr",
+  "rule_updated_at": "2026-07-26T06:51:13.684136+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jsdelivr_classical_abad104c4d01932d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c6364f3ce6f9d4343570794717c061f2fdc346d6258daec376bb34a0e81d028b",
+        "bytes_sha256": "4062f865adfd03281f511dfa7be5527b0ba482b17a6c623b4fee2c0d872947b4",
+        "semantic_sha256": "ab33449b947d037cf440b977442d6b1cd2c0a579217e5be523ffb0a4ff1e09b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jsdelivr_domain_21bcf328e054c77d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79e7f3971d453872b391a71071580b11c9584bb098b029fa110af0372740e4b8",
+        "bytes_sha256": "6a3898359e16caa5f2c9a248d307102d13da011ccc071921d9c9a8a1d478511f",
+        "semantic_sha256": "c2a9d8e26f7813e4431812afb217d3bac2a454128fe5750b4d379b46418011e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jsdelivr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jsdelivr.list"
+  ]
+}

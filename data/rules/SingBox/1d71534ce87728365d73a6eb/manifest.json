@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-08-27T02:12:59.717288+00:00",
+  "client": "SingBox",
+  "rule": "iQIYI",
+  "rule_updated_at": "2026-07-26T06:46:05.940834+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_keyword": 1,
+    "domain_suffix": 47,
+    "ip_cidr": 23,
+    "process_name": 1
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/iQIYI_source_8363335db3c3489a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "79c5370ec595be492a0e637246b2f47ef365b2643cefbd7f212909713de86758",
+        "bytes_sha256": "70fa6d299b33306cb88a56b78e8055a87153c9cf5158e9cc465617b47ab26d67",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/iQIYI_source-srs_3e38bec472106e1b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b366491b5230163b291fdfa13c316236537db35cbc7c98c9f27c3badda14b5cb",
+        "bytes_sha256": "93de4cbce7a4f08e617ff31fc0271b9b653c977a2cea0b9cc556f9aa56c5a4e4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iqiyi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list"
+  ]
+}

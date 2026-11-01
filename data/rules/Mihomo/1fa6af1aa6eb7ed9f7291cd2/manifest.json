@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:59:22.186692+00:00",
+  "client": "Mihomo",
+  "rule": "RTHK",
+  "rule_updated_at": "2026-07-26T06:22:30.650199+00:00",
+  "type_counts": {
+    "DOMAIN": 11,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RTHK_classical_1229174eb7dad03c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f379f977dccb3cdd705c9240ab88cd807460067c619dce37ced02bfe1ebbac9b",
+        "bytes_sha256": "e4fad3e2144f53d36a008bf8f5876dec49be3f422f3b790a71470b60da07af89",
+        "semantic_sha256": "bf12520115d6f9db16cf12d4b6e601ab6fa8c64ea2302d70f966e7dd4a6ba1cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RTHK_domain_d2e54e5c62ace32a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0db13ec9b8b98c1dbdfd8dca467268fcb2d517d3a2e4afb857953ae1fb8a0e7b",
+        "bytes_sha256": "d3f0ac9bc8e12fb4484346c54f034ddc467afaccbcf865edd26812c2fce88f53",
+        "semantic_sha256": "ff80cb53b9acd4c5002aa78346f9ff4f48ebf462693df8037bf420eb6dfeb3cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/RTHK_domain-mrs_349c01a004b04011.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b8489f43db453ac234045a5068e442569d1fc547ccaa0f38221dd90d5370bfa1",
+        "bytes_sha256": "75516a1074dfe242fa4bbf98c1c0eb7a58b4c7f3c0dc0814a635f736fd956fc8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/RTHK.list"
+  ]
+}

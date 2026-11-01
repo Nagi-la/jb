@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-08-27T02:19:33.558062+00:00",
+  "client": "Stash",
+  "rule": "Youku",
+  "rule_updated_at": "2026-08-01T04:38:24.130709+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 58,
+    "IP-CIDR": 1,
+    "DOMAIN": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 62,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_classical_9f510345626ed9fc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffc64318850c36d85ef149fe9130c17f46357b9d5e1fb9749eaa01522994986b",
+        "bytes_sha256": "9e2c515dbe33aecf2c69a19ccac65db07d93de6320f4b5ed6e0bb420a7732bbb",
+        "semantic_sha256": "1b2bd796e9110b898b576f687a507f21cff033e2cf9118b1889841e9348d3410",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_domain_2eda4bed57aa8549.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b22e0fab7ca7e3b9b5eac110e60293ba33c6dff33d2e085a2bb5b97e64e22651",
+        "bytes_sha256": "8016c8991b4671529bd37755d89ab9280bc13f53db3961e88e7cbdb4eb966b55",
+        "semantic_sha256": "27d67e19f1e52db5860bc9f69b76c492701e0824b8be182e95b440592eef8015",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_ipcidr_658ec46e30ae4a7b.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d17a98d1cd13057c23e6c57e38ca4cdc5d0e6c64c90c65d5954d6f0faa14c80",
+        "bytes_sha256": "fe1a412c0cd47e443a45aefba705da3a88cc40804101d671711fc24f1c638460",
+        "semantic_sha256": "b0635e1483bdf6d81f30edde2280b96a3e8a608e1865073fefdb3d6f1d853c11",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_classical-rest_15c0a257056b4e45.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45b4d907b4bad85a94df8a72bbddff21f4bca944620e10716740db1383ad204f",
+        "bytes_sha256": "e1d4ae39792db4a25eacabf710e9512228be288d72a37c24b1ddcfa0063d33bd",
+        "semantic_sha256": "e73bba06904abc39cc48b973d3709cb3dd4b2318b86eadbdf6ba87d62d8f6c3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Youku%26Tudou.list"
+  ]
+}

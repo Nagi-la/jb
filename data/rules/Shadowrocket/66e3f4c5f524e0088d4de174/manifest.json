@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:31.021227+00:00",
+  "client": "Shadowrocket",
+  "rule": "EncoreTVB",
+  "rule_updated_at": "2026-07-26T06:21:43.321003+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1,
+    "DOMAIN": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/EncoreTVB_rules_729c88c3e399bb94.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09af07ce87d31ddf3a602aa1d0ad7d2caf67ec3920234f11d1d5dbf0f32ebe74",
+        "bytes_sha256": "48263048fab7176b9cd188ba3a879c9c0bc53f319ba4f246834b614bd290fbf6",
+        "semantic_sha256": "a9fbd0c7fa4c188235e9d1aa035163f3e2201ebb5eea76e49bad33db66e28a26",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/EncoreTVB_domain-set_407af0c844aed860.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a53aeebc5ed063f6b532b20254d9bec23618ae6380e061a064344e553aacdc6d",
+        "bytes_sha256": "5ee8766ae17dfacd2d6fbdc28f8414a7832e391c35c75e9cc610d2f1c80d7979",
+        "semantic_sha256": "9f39ab73ee5a5b3484e1db9a2f2d3e733b84786991d57766b5e8ca8b6518c69c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/EncoreTVB.list"
+  ]
+}

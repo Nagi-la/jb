@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-29T02:49:38.657626+00:00",
+  "client": "Surfboard",
+  "rule": "Microsoft",
+  "rule_updated_at": "2026-10-29T02:37:31.527445+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 788,
+    "DOMAIN-KEYWORD": 4,
+    "PROCESS-NAME": 2,
+    "DOMAIN": 114
+  },
+  "total_line_count": 908,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Microsoft_rules_8a2fb8b7a3eae4bc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32d47c43540bcabe91a40a40242d6c04c79eef17a54b17d7c45df512842d614f",
+        "bytes_sha256": "019f85c66cf0ddea5c5b4867204a761f88fbf7bbb063c837e9d7604c59495b87",
+        "semantic_sha256": "f3ae02542a5030836680776104a3800755af58b0282a0d5c034db41a45849c2c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Microsoft_domain-set_7c82742b353132c4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c2708e94dd0ec23a3f2a995f53fadd4bfeca031e11b4f6a27203462ba8578ed",
+        "bytes_sha256": "a63b4ea453f3fee622f177d696325e4c05dfbd870554e40ce02317480a696064",
+        "semantic_sha256": "8dceb54977b337527d18d6620cc67bd7ded98284be1715157c2b1f1b6b0c5b94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Microsoft_rule-set_420c99ab9596e944.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "128fdce9f6c320b27d276187d1d01db5279d6b4d39767fa51d33f2f296233242",
+        "bytes_sha256": "7f26324babb1cace4ef2c515fd1f585de6e83cc789061870931ec01d0fec2ef9",
+        "semantic_sha256": "6ba69952c306ffd27940411f1ccbd92f182c8283bc8bcccf71c14c4f76686406",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Microsoft.list"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:06:17.072799+00:00",
+  "client": "QuantumultX",
+  "rule": "Newegg",
+  "rule_updated_at": "2026-07-26T08:34:08.506454+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Newegg_rules_071efee175e3bbc2.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba71a078e0c7152653ab0138b6aadae4fcc75c9d7a5fccf384a9d6a9ca49b0b4",
+        "bytes_sha256": "ef5d45acdb87fdf4f1e7f8ecd8071e61624e9710c04dccaf8c3f37e3b6428b9c",
+        "semantic_sha256": "ca208bbcf6af6a51204b76a9fabc26718277543ce6d61fdbb9ed79c9c5dfd02f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

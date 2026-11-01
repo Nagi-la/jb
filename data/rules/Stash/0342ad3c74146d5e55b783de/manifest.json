@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:13.345267+00:00",
+  "client": "Stash",
+  "rule": "Rust",
+  "rule_updated_at": "2026-07-26T08:21:18.994038+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rust_classical_58a9f1e72c4b1a9f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "646198e5c98158c2bd0c6da0ae8ee76fdc6e79047c44f6b89861fe18457ce185",
+        "bytes_sha256": "5d686fd69cf5b4671ea80c98b092650576c163f223a2a886b93974b02fbe086f",
+        "semantic_sha256": "5ba6561803d65d5a9c8e82354429b6a6e4b5cddf880187117bdd2495318a9417",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rust_domain_35ba2f585536a741.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "089bb67c45d34a3bbed0759ba79229142111ae04b673dd77323086599f5a3a01",
+        "bytes_sha256": "a22ae7bdc73192be06b3dd6ad48c61653625461de0989e84994aa1bed5c40136",
+        "semantic_sha256": "fa9262db6d7eeddcfc8485d0b5881d931f3f2fcfe83fd377eec787179b4ff910",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

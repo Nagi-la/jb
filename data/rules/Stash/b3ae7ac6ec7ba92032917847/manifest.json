@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:29.403854+00:00",
+  "client": "Stash",
+  "rule": "DeepSeek",
+  "rule_updated_at": "2026-07-26T08:31:46.485462+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DeepSeek_classical_1796f424e73fad0f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50b46e36fc4a831060bae47b4bb3173d0a87c077ec132a384b132e9d216abdc5",
+        "bytes_sha256": "ea368b64af4a8fc20716d885070693656620948194622c9c9524ad3b00d4fb3f",
+        "semantic_sha256": "357b79c2d68faee386463652636622ba1331c935f7fd54c94ea1e41537cc7e4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DeepSeek_domain_22077e29f249ce99.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "389e77f1d6300f4bc995876f39c6763a2b5e68914e4e24a95e512945cca96591",
+        "bytes_sha256": "5d68c207151dbceec01975f58e42bc4c27ecfa3bf62cd4e31318c03ef2612c87",
+        "semantic_sha256": "aafc6a84a487bb1e511bbe6b79c7aa59c107e859b035c17733abab4285af488c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

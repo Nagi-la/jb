@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:00:36.215188+00:00",
+  "client": "Mihomo",
+  "rule": "Atlassian",
+  "rule_updated_at": "2026-07-26T06:30:42.765484+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Atlassian_classical_26e251dc5fc52ee4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d7945b8fbadc9a96e4bb97bb04b1b8be1e73e755854f0981e24047cc3a9ceb0",
+        "bytes_sha256": "3aa399c6bbbc82153d308518e66c7528aaff6114e64c543fd928b1d5ed509d7c",
+        "semantic_sha256": "8d18b1eec8d31a22e7c458c83d787819efb5685e667a824901e422bda3301154",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Atlassian_domain_cbcfb52e74e99a4b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e993ad4e9eb2be51d545c69193e58f3e8798d069fc770ea9a4c3713efd8d0c4e",
+        "bytes_sha256": "6dfbeb4ec9f83a65255050af6cacb457da7bdf205598c3d6c153231b5db34ecc",
+        "semantic_sha256": "c9984bf9c1d4e8a5674d60810af8c884c5eefb9d42b17a349755449f1eb5d1b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Atlassian_domain-mrs_34167089e61fab8e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1efbd4133c852febecdeadc9f20369ff5b4a6f6d58db7f21d127d5cb07fb6c57",
+        "bytes_sha256": "44b86f60b0574f6140627a9c52e23d2eb40061268ad5c8dd51001ca8727666d7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Atlassian.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Atlassian.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:27.889178+00:00",
+  "client": "SingBox",
+  "rule": "QuickConnect",
+  "rule_updated_at": "2026-07-26T07:24:25.525416+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 3
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/QuickConnect_source_10f5dcdb298f65ba.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a5384325516f1e91eecd9c14fc92defda3a0dc1a907bbbfdf9afe2481251e429",
+        "bytes_sha256": "d8e5dc6a51d790cd2e8325331881eeb988387af0bb5fb058045f49df72ba8243",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/QuickConnect_source-srs_2f04e4bd77a141ea.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "32c0fad7f3b4f07ba19006639bad7edcd7c1e0ff0b655e661b5e86ca890453eb",
+        "bytes_sha256": "e51a3da2cb90c41647aa0ef13b4ad70785ee04f61830b73d15ac87ed7134a4d1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "此规则用于使国区群晖强制使用外区的QuickConnect。\r\n\r\n并且在套件中心可安装国区被下架的套件，如Synology Chat。\r\n\r\n此规则主要解决使用外区QuickConnect时，Synology Chat的推送问题。\r\n\r\n并不能帮你通过外区的QuickConnect访问NAS。\r\n\r\n为了远程访问，建议使用国区的QuickConnect以获得更好的连接体验。",
+  "providers": []
+}

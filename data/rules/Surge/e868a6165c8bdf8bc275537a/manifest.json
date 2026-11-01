@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:18:50.125443+00:00",
+  "client": "Surge",
+  "rule": "Autodesk",
+  "rule_updated_at": "2026-07-26T08:23:16.584645+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 558
+  },
+  "total_line_count": 558,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Autodesk_rules_7a5e983ffe51ead8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57eec01b90f460a6198c96e4cbf0f68d7a9d8e46a74e337a0d94fd5b61ffacde",
+        "bytes_sha256": "88f923adc8fd90f2886a01c5e43560d1ec0d00b5eb2cab9e58dbe8d6e90a0e2a",
+        "semantic_sha256": "ad72f52d3515bfed524baaab8d167da2f3e05a9abf1346dd3b123cd360b143ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Autodesk_domain-set_cd63c1365792af2b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffedc82f97a43588810144001863af60fbca942ba71948ba09a293f0203e8196",
+        "bytes_sha256": "803370052a0920dac0904b53723722959ef5dbd30a6900470a25865afe494c5e",
+        "semantic_sha256": "5e4234ee7a49eb157d290726ba14cd1bf97b6bed2f68bdaf5f6dd59541c5bbb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

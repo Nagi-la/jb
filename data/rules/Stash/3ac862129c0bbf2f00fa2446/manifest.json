@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:07.480915+00:00",
+  "client": "Stash",
+  "rule": "Picsee",
+  "rule_updated_at": "2026-07-26T06:52:54.298994+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Picsee_classical_4c4155e6dd864b58.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d39547b26d0afa4dec07df4d6341889d7f18c5bf67dd73e57cc0dbabafd411b",
+        "bytes_sha256": "90a12658d7a92ec80c287be8f56550c3105872a2c63785b0818384a4d0607727",
+        "semantic_sha256": "3019d571f1c042a01095f14fb61827989caa8d17cf5a7045c72857c4c456baee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Picsee_domain_8867051783c7b09d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ae35aef560562d4ed6a580421a80b3ca7c9813901a994596a3998ccb75094aa8",
+        "bytes_sha256": "8ee4d5b91a2039e4eee48a0cd6521f70dfb3915d20e000481d2c37bffef7ce1c",
+        "semantic_sha256": "a97bd58da5fe6f4ec159011aa2be2b55ded25343c48bb3c32ae672fe4b49ebca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Picsee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Picsee.list"
+  ]
+}

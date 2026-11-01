@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:08:53.282425+00:00",
+  "client": "Egern",
+  "rule": "PPTV",
+  "rule_updated_at": "2026-07-26T06:27:37.524527+00:00",
+  "type_counts": {
+    "domain_suffix_set": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PPTV_rules_4ad7898d91f05e06.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "baefed0971837a64e5de2b54febc7955c643b5702c8873efa37382dc6d188cf3",
+        "bytes_sha256": "f4428ba15d4792f3fd2acca09104df3d3f09ef73970a285699d44fb89dc1cceb",
+        "semantic_sha256": "c4a25af4de2a7a4124870a6c0a6fe3fc119d9bffa062176cf6869653e987f5d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PPTVPPLive.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PPTV.list"
+  ]
+}

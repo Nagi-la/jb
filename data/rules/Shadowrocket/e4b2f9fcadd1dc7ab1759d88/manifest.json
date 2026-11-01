@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:14.906877+00:00",
+  "client": "Shadowrocket",
+  "rule": "Pixnet",
+  "rule_updated_at": "2026-07-26T06:53:23.459086+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pixnet_rules_f90fb93ca2db9751.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46680ecf30022ebb38c5f5ccba83cc8855c281c706bee3cbb3f4fcded025ca03",
+        "bytes_sha256": "302753f587da919519319dabe303c013cecc206b171055c70c60b3e23afc7c03",
+        "semantic_sha256": "b25441df78788b6982540cfbf5e8a9e1af8d59f1b7d6ac30146bd3770d047e80",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pixnet_domain-set_63c5be2a70d31639.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "712ad247fd3adf0530752670e2524e9340a1f9c378047a0bc1f441bc7469ba41",
+        "bytes_sha256": "805ae65d3e0d098af5b3034a20dbc18818ddda1ea84f9279030301fee2c30c0c",
+        "semantic_sha256": "6a5b52fc7d48ea844e1d5964d8d22ca018083f3723fa86a95e229a1b376e9079",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixnet.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixnet.list"
+  ]
+}

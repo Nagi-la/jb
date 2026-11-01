@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:21.744127+00:00",
+  "client": "SingBox",
+  "rule": "Anjuke",
+  "rule_updated_at": "2026-07-26T06:47:43.319163+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Anjuke_source_abd0548cfbd40c5d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1be17bdc82a12177384d7b711e53986bd1cd4feae692ecd1e0d3636321875bfb",
+        "bytes_sha256": "4f238a43aeb6a52921905ebb245c9c2a4b05ec14dc89582c196b0ed7d2ef9aed",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Anjuke_source-srs_4cf42b477147388e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f2e4fa9cc5829ae783600ef8661aaae9c3531b938d3343601b8889c9679f41eb",
+        "bytes_sha256": "946ab7071d487bc37b1e30cc472750003dfd1e8626dee28e69b799d153c20ed8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Anjuke.list"
+  ]
+}

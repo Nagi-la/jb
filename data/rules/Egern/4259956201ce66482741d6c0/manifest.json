@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-08-27T01:57:30.941211+00:00",
+  "client": "Egern",
+  "rule": "YouTube",
+  "rule_updated_at": "2026-07-26T06:32:40.783538+00:00",
+  "type_counts": {
+    "domain_keyword_set": 1,
+    "domain_set": 3,
+    "domain_suffix_set": 181,
+    "domain_wildcard_set": 3,
+    "ip_cidr6_set": 1,
+    "ip_cidr_set": 2,
+    "user_agent_set": 2
+  },
+  "total_line_count": 193,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouTube_rules_b85628599d1ab463.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84339c957e1bf238f5c5748b59c5e16885190fe57fc8ccbfdea5a803fe40fe50",
+        "bytes_sha256": "7fa5fcaa425745242a443443ee020b41c685afa1b28c8519c090f1415d68ba84",
+        "semantic_sha256": "a947e1296af3f0b43cbd2d2606d167626f32f36e382ca7bd7e9866f11741cc4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/YouTube.list"
+  ]
+}

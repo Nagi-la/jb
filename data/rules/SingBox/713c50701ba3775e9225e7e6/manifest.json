@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:56:20.025774+00:00",
+  "client": "SingBox",
+  "rule": "LiTV",
+  "rule_updated_at": "2026-07-26T06:22:18.182260+00:00",
+  "type_counts": {
+    "domain": 9,
+    "domain_suffix": 3
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LiTV_source_18720e24962704af.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2a8c3ccb13ac6e61cae213f3ff9e9a2ecdbbbc9ca4804c433e996e2c82b37a20",
+        "bytes_sha256": "91b24d765eacc0a1fd6f63fa805abe5801009c8205eceb416cd0e6e190aea941",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LiTV_source-srs_7739480d9c9cd77f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0e0492a92a762809c5777334b4f403d0236d06739067977ec3c0d897d40b5ebe",
+        "bytes_sha256": "b53223a7cf8d8d0562ae0fc5a063fd25499d9227be72673d0b35ead24ccd5df9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LiTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LiTV.list"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:08:18.211753+00:00",
+  "client": "Stash",
+  "rule": "GlobalSign",
+  "rule_updated_at": "2026-07-26T06:29:31.874063+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalSign_classical_c5b5d763718eedc9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d28f5cf4792281e403533b4eb2a16f110f6169c1aeb823abe52ab72b724499be",
+        "bytes_sha256": "f826d68188a421f75e070e5cde4206f940a1e1ee0bdee5b587ae501a97afa38d",
+        "semantic_sha256": "49b9b47db85e004636bcb1a981d58d33c947511b0c6b5c07c95fc7c6240d423d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalSign_domain_0b392b3d293cd654.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd1b14ed86977685c15495e6874d1e2f9400167e2d36e1b591270e9043688f80",
+        "bytes_sha256": "d9d5e554c64375e9bc783a017c507bfc10b52c1f4aa0008c2753abc26b6ed463",
+        "semantic_sha256": "8ecac384e05fe124685e881deafb7e796233855d00af954a7669e9c960a90e9f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Globalsign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Globalsign.list"
+  ]
+}

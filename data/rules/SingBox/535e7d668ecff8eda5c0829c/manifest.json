@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:11:03.178692+00:00",
+  "client": "SingBox",
+  "rule": "Adidas",
+  "rule_updated_at": "2026-07-26T06:30:35.131954+00:00",
+  "type_counts": {
+    "domain_suffix": 90
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Adidas_source_73757a88038cbf2a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4728a9132174fd89357bcaacf7c42148f10db48bee5fc4df9c62a401a249c27e",
+        "bytes_sha256": "f14f90aa0f2a9e1692c9e4735b828d3a1053f808af687d777ccbce00323bef90",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Adidas_source-srs_203038d979f3eef2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f5f6558c829aa375ad179014dbef3b214597ecac6ccb9a6b23ee76cb0fe4755d",
+        "bytes_sha256": "a16cc152a54a057659a2d4483fa26b10a820cc5966a297a3ef6e56de5ec34905",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adidas.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adidas.list"
+  ]
+}

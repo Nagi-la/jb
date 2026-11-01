@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-16T14:31:43.970825+00:00",
+  "client": "Mihomo",
+  "rule": "ChinaUnicom",
+  "rule_updated_at": "2026-10-09T15:59:10.240007+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 47,
+    "IP-CIDR": 1
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaUnicom_classical_aa38640bb26a7d17.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4dedbf9749d21e7c0b511b618df88a5e5dec9fed0722e1685d61dddd98430803",
+        "bytes_sha256": "bd279246e86c09ae175879f61340d24bcc9b9533da1222c7274a90d17631e3e9",
+        "semantic_sha256": "d53468b9703cd389d92e0f57a6dfce590bbb348502b8e606c120e3600255ec24",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaUnicom_domain_9825b6a37e5967da.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9be2230ae59f3ffa294709747d9204303daa6f37e56264e79d372b5f7273cf44",
+        "bytes_sha256": "59935cf00c6a2553bf28a5d86f4ab037b7131be372d437dde0811472d10f0b73",
+        "semantic_sha256": "20f149b8159afdd9fada2a46fe5dc1c07f082b3fa7a2c73a79718e7bbe127a39",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaUnicom_domain-mrs_1de589b40a0ce4fc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2167a5a9cf1eb9c0bfecbcfb509872d9000ce7ae431cffecd8856b36021f5ace",
+        "bytes_sha256": "8ec224e3ed26f4fa206ffababeffe35430560f00c548c09304383197401c9625",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaUnicom_ipcidr_32b0eb54d289cfaf.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ea682ce8c5c7fe4b0644733e52b673c1c20ee378d9741f3d10b716f36d7cad17",
+        "bytes_sha256": "292414505a7636b4ac6bb2a566a7467b9b7c50cb406d2435f23069d1a390bacf",
+        "semantic_sha256": "bda71c8800d8ae5477b853efa86a72ec58cabb13114ffda9584c6d444aa2d47e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaUnicom_ipcidr-mrs_68414bde95bc3511.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "052fc90efec9651b136b429a22d53105cb7bcb213f70f731b5fb84d640f29d4c",
+        "bytes_sha256": "3026fc1bdcff274225e5ac0f60d89dc5d5b6c98c400276d664e1e52add660786",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaUnicom.list"
+  ]
+}

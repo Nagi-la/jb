@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:59:52.956220+00:00",
+  "client": "Egern",
+  "rule": "DouBan",
+  "rule_updated_at": "2026-07-26T06:24:42.270187+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DouBan_rules_07db5e2fe85fd3f6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e88d5f0fb1fef5dfaac29c6a60c81821039184041c95924f5834b7f385cb199d",
+        "bytes_sha256": "2a3c69d2e97cf87d0903867b4bc3a963f572e32efa1668eaa153e62dcfee4085",
+        "semantic_sha256": "377fa5bc65c8f202aab8c34d0e1f952755fff626834a5692cde19dfe7bc48bee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouBan.list"
+  ]
+}

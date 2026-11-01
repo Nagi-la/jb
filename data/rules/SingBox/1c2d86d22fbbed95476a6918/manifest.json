@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:19:23.598294+00:00",
+  "client": "SingBox",
+  "rule": "ITV",
+  "rule_updated_at": "2026-07-26T06:22:06.218465+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ITV_source_c5a639068ab1b19d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "05531830f0903f5d44b538f0805fbae80bf6525a74a958d72918b50f41ee7357",
+        "bytes_sha256": "41cbecc8908e743ecd2be698d6596e0d31053c2d53696356ca24f8867afb3027",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ITV_source-srs_b2b9f43b2d46a6a9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "509e5e82a2120910a1c3c273ae7b4ec37bd6dc35c970d57a7fb407ff1889aa6b",
+        "bytes_sha256": "664b110694fb804eab2710e48aea43a72c642b64142cbf548d073a497f58eab4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ITV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ITV.list"
+  ]
+}

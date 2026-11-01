@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:03.425753+00:00",
+  "client": "Stash",
+  "rule": "XiaoGouKeJi",
+  "rule_updated_at": "2026-07-26T06:29:01.324197+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoGouKeJi_classical_2007db49fa04be73.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2a1766101b11e879999ba5d3bb44f4a1032063dfb0c7a23f608bad954faa567",
+        "bytes_sha256": "3fb05e7a2b3139f762dbf4bbcef4bfe27030bc267306713303cc82b8cb05440a",
+        "semantic_sha256": "02d976b808b4ac48bc4745246ad812351634482a4eba4039ef1f40df9b4fb60d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoGouKeJi_domain_ce3fe13606c52035.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ff645422c8e6227586c54c7076fe53e93eaa1a70460ec96f6d70cf1222272b7",
+        "bytes_sha256": "77b63041afc25c0abc6d8bffdb15cba5aa251aa9c35ba2f5a029b275a4cbf78e",
+        "semantic_sha256": "247ac8b6f96366414f72162867f619faceae3731f77fe3a00dc72f4152164c80",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiaoGouKeJi.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:02:09.919366+00:00",
+  "client": "Egern",
+  "rule": "VISA",
+  "rule_updated_at": "2026-07-26T06:54:59.268901+00:00",
+  "type_counts": {
+    "domain_suffix_set": 160
+  },
+  "total_line_count": 160,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VISA_rules_c5c647444e842a72.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a827ab6cbc6f8d9be473a1cede1b7f2c4cb8db398a46b351e4ba7f3cd825273",
+        "bytes_sha256": "ec0340a323a71a0b87e6be3a966dae2dca2913fca6432d411e29f9c355b08d1b",
+        "semantic_sha256": "4a4b56e806ad405cebb931399926e962f5867a76d944130bdc53d74817706e68",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/VISA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/VISA.list"
+  ]
+}

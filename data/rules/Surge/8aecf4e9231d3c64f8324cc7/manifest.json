@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:57.673572+00:00",
+  "client": "Surge",
+  "rule": "TVDB",
+  "rule_updated_at": "2026-07-26T08:34:42.706920+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TVDB_rules_ac800c01ae377fff.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba1472e595588ff01324b88cdbddbb10669a522c6980b3f37bb3a28aa61d848a",
+        "bytes_sha256": "4d2217a0e6e92f7e9a4115ac79e03b3e9f3dd8cf3ebc026dd49bc9f5ee35028a",
+        "semantic_sha256": "499f08f438b1abf7a5a46d468c8b063929e78322735ad84e1b0dd4708feead22",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TVDB_domain-set_2cc94f35d982be83.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81feb6261e5664bff92f5b308a2b0b089b329c6c8e42d3e1167e9c71855cfb41",
+        "bytes_sha256": "d54ddb3b049e2349a548ea41329fb29e33afc68cb5a42e0b146eefa3591a711f",
+        "semantic_sha256": "d612c37e37825b4c2d9f971a2281e70b67efa7bb137eec265ea15547e0ca4fff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

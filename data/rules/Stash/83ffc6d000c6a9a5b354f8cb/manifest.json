@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-08-27T01:56:39.493123+00:00",
+  "client": "Stash",
+  "rule": "Privacy",
+  "rule_updated_at": "2026-08-07T02:23:30.061163+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 39863,
+    "DOMAIN-KEYWORD": 2,
+    "IP-CIDR": 9,
+    "DOMAIN-WILDCARD": 7,
+    "DOMAIN": 11
+  },
+  "total_line_count": 39892,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_classical_3ae0f127ab1d5953.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "daef4143c6436196278b619e8d498a6b11dba151b3215197e15c05076fbe0e11",
+        "bytes_sha256": "9a978243684a69f1598d3c7758336b943e8f7f6f5d43c39d0f745d43fd7c4f74",
+        "semantic_sha256": "8fdc9ce8fc46dba8fc008424c871120c60cec2957ad7fdf4d7479e6be907e8b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_domain_ab0398564876b1eb.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6237a6c64137fc9d056e8d0bc56e24aa32ab69c90689dfd1a0756e2337ea3f27",
+        "bytes_sha256": "3ef491bcdca633b944663c3553ab0d8a88ba0b310057dfa9b5ee269e31131177",
+        "semantic_sha256": "eff54a88e235a0f6ccab6e6deef65f67629477119d804e67a6c8c1b81f3579a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_ipcidr_cca6233a8a1d5096.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27609cf9976e519b65964473fb69782393845bba0ca287cae3e894dc2c089e07",
+        "bytes_sha256": "e351632ea0dfe19b534a68b888115f64d60ad30854a81efa6eae5877b4d172bf",
+        "semantic_sha256": "739cdc3b59f45f7b9a7f1d1d84e7f3625b3cb32d818538a064935c7c294f6132",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_classical-rest_2064734c9d6f64ff.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f67282b0d486742583cfcf381d50a000b9953b84949a2ed8189983bc9b8b94d5",
+        "bytes_sha256": "69c7f2539710fe1bf3f95b63c629562c0510523f1196a762d1806b3367fee233",
+        "semantic_sha256": "58b70170ce9a8e7c6efa0067be168c79c9e260e421786afeea0c5369abea4f3f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf"
+  ]
+}

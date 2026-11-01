@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:49.702950+00:00",
+  "client": "SingBox",
+  "rule": "Domob",
+  "rule_updated_at": "2026-07-26T06:24:47.821621+00:00",
+  "type_counts": {
+    "domain_suffix": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Domob_source_e92808c55907920a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "885240047e29329521763dfb72aef822f98dc5a2834a1652e5c63ba99784fbb6",
+        "bytes_sha256": "569868e6a6ecab992b9af81d1465f472bc2926f89c9b4eaade70726cd753efd6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Domob_source-srs_834462ee21f264e7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c82110fe06098e749c0098c1bc7a7f5ee66f842dba7b658182ccc3fab0e44883",
+        "bytes_sha256": "0415b898bce38b0be47fecb2582782922c91e19fb90ec0b4770e01250385ed56",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Domob.list"
+  ]
+}

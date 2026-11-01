@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:11:54.112012+00:00",
+  "client": "SingBox",
+  "rule": "DigiCert",
+  "rule_updated_at": "2026-07-26T06:50:02.609911+00:00",
+  "type_counts": {
+    "domain_suffix": 74
+  },
+  "total_line_count": 74,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DigiCert_source_aa8482463c4c8fbf.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7f3fb2430108278d0c48063528965c85ffaaa7008ceefb03c6f36c1560fc8e8e",
+        "bytes_sha256": "5065be9fc42e760d7147b3c2cc86e0b81fca8b644be1b2a689ed4585d06e7f9d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DigiCert_source-srs_6dba3f14ada95ac7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ce2fcc91ba7e7a6d39082036160e11399a2a6154775388272d55087acb399458",
+        "bytes_sha256": "f89bd964c7c70faaa149296d52e6024d911107aa485fa4b39dc4361952ff64f4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigiCert.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DigiCert.list"
+  ]
+}

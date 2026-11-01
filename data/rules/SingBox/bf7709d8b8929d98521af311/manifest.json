@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:32.681641+00:00",
+  "client": "SingBox",
+  "rule": "QiMao",
+  "rule_updated_at": "2026-07-26T08:34:12.897318+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/QiMao_source_0f3fd9d6c57f7e19.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c784f813a5e65de5f1393c11a5773d9a97017bee8eb2c11dda5b95ea074588f2",
+        "bytes_sha256": "95e8daa2db1c37dd143c0284639752eee0d2cb95945df9a513947699b8b0cb36",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/QiMao_source-srs_f447a12c7e9c89b3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "16a7082200c5c8364577a40965fe2e0424d03208369a0afdbce56cbb688c8ca0",
+        "bytes_sha256": "8d4bff6bae71b9d3aefc272a7c42e58ec2da003e58fe34bea03a0e8da214ce52",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

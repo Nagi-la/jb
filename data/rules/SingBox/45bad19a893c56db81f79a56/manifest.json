@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:03.939101+00:00",
+  "client": "SingBox",
+  "rule": "Blurams",
+  "rule_updated_at": "2026-07-30T08:09:52.619486+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Blurams_source_6226b2adcb23be42.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a95cbd9c55d4fea1fb70e79e275e80aaec2e31ff9949301aef7df7f9cdcbd58d",
+        "bytes_sha256": "063bf1642eb106a2e4d270898fa08f92f65510ad71e54b4d3379f8ea89a653e3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Blurams_source-srs_bd734438ad4dedec.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72abcb7e200dc9cfca5bb51d6c85058d522610537708f8a3eb7512f35231920d",
+        "bytes_sha256": "c092671bf97ba18c13aa6886d76ce2b6b133895f010dc617ecd0a761fdd58311",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:17:03.072901+00:00",
+  "client": "QuantumultX",
+  "rule": "CHT",
+  "rule_updated_at": "2026-07-26T06:48:37.927523+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 13
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CHT_rules_3fc0aea858a0f6b8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "044a3c9b7338c4a90b34eb2e7eb96b593416216162e20d5874b3a48d77dbc83b",
+        "bytes_sha256": "6cd548456aa7fa0bbbce1ee856c8700fa8e013cbfc89e2d133acb71bc1acc24f",
+        "semantic_sha256": "036ec2df55cd5687bd4ec0fdf558107e1dc544378900b3703df3d079d341d66f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/CHT.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/CHT.list"
+  ]
+}

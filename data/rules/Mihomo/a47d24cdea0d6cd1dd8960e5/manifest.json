@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-09-07T01:37:05.256450+00:00",
+  "client": "Mihomo",
+  "rule": "LastFM",
+  "rule_updated_at": "2026-09-07T01:36:09.921361+00:00",
+  "type_counts": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 29
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LastFM_classical_6dd09a5f143caa63.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da0f50079e4849e1b8970735292b5e62ddd12682dd566c911af82bcdff7f099e",
+        "bytes_sha256": "201259ae83162db4d5a92afb79bc516f4d7d7b17ab700e096124ffc1495e850f",
+        "semantic_sha256": "313a1d02fa340d1fb1d904ef29cb4812f288498aa017987ff9671428ce1237e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LastFM_domain_699c27bff2a8af64.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c8d157e279eb491bac01361d96aeff51022a8cda33ca1b376eef9f6431e575aa",
+        "bytes_sha256": "6b34181a8f010e2c901d998a3d9564f005d0e31ba02518f61bdc7fac7c59cb58",
+        "semantic_sha256": "fad2e928ee0dad38a372ba0c1dcfa5ab4b1af88d17f4adeed39329ed5d33d350",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/LastFM_domain-mrs_65212363abfeea95.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4864a020b1758a4764fbdf4989b32aba3326e6a674f32b592d8ca60635b79da6",
+        "bytes_sha256": "c36eac736b77b64bb395e2d8b42f4cdcc44eac29788e52a5e8a51d96783f9659",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LastFM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LastFM.list"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-30T01:44:41.690678+00:00",
+  "client": "AdGuard",
+  "rule": "AdvertisingLite",
+  "rule_updated_at": "2026-10-30T01:40:36.702675+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 158888,
+    "DOMAIN": 26892
+  },
+  "total_line_count": 185780,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "ADGUARD DNS FILTER",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdvertisingLite_rules_acae0f1a35a8dd94.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b3a43f19e42f2659a920588633929061ecf7c500fdbfd7bfcd223a2e663b3aa2",
+        "bytes_sha256": "c5d22ea42b50e92c5ec66f54a493ce03c965bfb6e992a441768ff3f3466ef55b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+    "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list",
+    "https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

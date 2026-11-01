@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:07:43.828569+00:00",
+  "client": "Stash",
+  "rule": "SoundCloud",
+  "rule_updated_at": "2026-07-26T06:22:32.009305+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SoundCloud_classical_e8b16a2f8af3c786.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69dc44ea95d0dedb21880477d22810b619f5499190e6c3b8148554c489624689",
+        "bytes_sha256": "902d16ba119f92ba6659da9f66d3f743d732c8a096c31c255a9d6b3b9ce115f0",
+        "semantic_sha256": "843fd39f18a67ab78ef145bf3c73a4e356f44cd9779bad5610e41fdb0a0b3c7e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SoundCloud_domain_8f3ba7a96b231a89.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "158269dda4a55625e913c30a88caacfbdb2bf8a29bc33e1071280e35beedde26",
+        "bytes_sha256": "b649883b0bd2c5ed84b9a7623927566a21f9b58df1b34644337a865583971978",
+        "semantic_sha256": "b5999805c0cee69e179e34e688c3a538027e8ef9b6bcac9e35d79859c94ea378",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SoundCloud_classical-rest_2b53ecf4c8a99d1c.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff51ac097a7078846a7e2f396d165fa0ea13b318ae6ef8ea0fecd19cc7886831",
+        "bytes_sha256": "9f9078e36eae68237fdc0c1c4e64fd739831c0079a0419300337535bd4f5ba86",
+        "semantic_sha256": "39fbd4d89c61c900bb32b2706676c622f5fc94f40ca6112531d18860e4f3cfae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SoundCloud.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SoundCloud.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-20T05:50:22.568162+00:00",
+  "client": "Loon",
+  "rule": "PlayStation",
+  "rule_updated_at": "2026-10-20T05:38:27.774550+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PlayStation_rules_51854e7abea84b07.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0e972226cfa36839a5b6a54f29f8b7e109e7427cd0d8d7280986e7e9f9530ff2",
+        "bytes_sha256": "d49a4901e07401138fde381dd1eb6d4bf847be1cc66b939bcd265aa666eacee4",
+        "semantic_sha256": "6df5df362f0d3a9e2f75392c6840086c5687f913c89685dece2dc1724d91a79d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PlayStation_domain-set_0cd5c4105f3f7035.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23c16f60e23f9c5730d4fc6b4c0f54eca309bef384993fac5517a682f55f5165",
+        "bytes_sha256": "16a540d2ac11703951d3b0e61d285e70ad702ae541fa75852a17efc033be7768",
+        "semantic_sha256": "3abb7db23c49203750c2b6a38edb8cf11c939fe44e269bad9abb21c554ab281d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/PlayStation.list"
+  ]
+}

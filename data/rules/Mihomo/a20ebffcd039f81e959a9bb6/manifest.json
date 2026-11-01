@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-08-27T02:18:46.937551+00:00",
+  "client": "Mihomo",
+  "rule": "AdvertisingMiTV",
+  "rule_updated_at": "2026-07-26T07:40:33.191708+00:00",
+  "type_counts": {
+    "DOMAIN": 1775
+  },
+  "total_line_count": 1775,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdvertisingMiTV_classical_e48f05b7a7e5e141.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fff145c73e6fa7541d66885fc305c5e87c8cf8595645393c2f6f2e8ef07738fc",
+        "bytes_sha256": "1c50205d143afdb4abcf3f3c6fd7e164fea6fc7bd5bfdd457d043aa4dfd46a4c",
+        "semantic_sha256": "e5dab245f3be44f3ac7bf2e4a4100956a92950548d5e83830646065b3af9bad9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdvertisingMiTV_domain_bf889f5b579bc1ee.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d080f88abdd47fd2053cbfaa8f8fc8b90e4ea8da50f0966d2db4d1e2b1e4d355",
+        "bytes_sha256": "37eedf9ac0925f9f0f04d8c531464f502313c8010989681400f00f5233fe246c",
+        "semantic_sha256": "f53e882785ae3e6374efe513d54bcb07d8f2fe7dd30f17c125c3d2b8a0e23f27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AdvertisingMiTV_domain-mrs_e5f1aac8062c0dee.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "81e18ac6658bd7640b370e02c9088b3672aa673358e98c1d988daed8fd97b59d",
+        "bytes_sha256": "d8ada73f2460013897c5e23a4ffca6142c5dfe330cee404e2aa44ae2066ae0de",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "应要求添加手动整理的小米电视去广告，数据来自：\nhttps://www.zhihu.com/question/30746616\n手动维护，无自动更新。",
+  "providers": []
+}

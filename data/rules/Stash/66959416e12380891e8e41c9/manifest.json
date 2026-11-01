@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:40.547691+00:00",
+  "client": "Stash",
+  "rule": "DingDong",
+  "rule_updated_at": "2026-07-26T08:32:14.941341+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DingDong_classical_56eb877549155527.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ba84485af1a7abadc27503fea07cc73ed36976a5a580a505052c8ba7c3d0a50",
+        "bytes_sha256": "16f1a16ff81c86f45de306a69054fa17c97d2feaa520a07769eb04fc27d164ae",
+        "semantic_sha256": "4c1437eea8c33d6245d3c27f347139a9389d83523a4fbfec8e989d05b0922728",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DingDong_domain_9ac67be4d462b74b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d58b2a9d3579056f09c53522138b69fe4946171f4f07f6eb361e3264027fbaf8",
+        "bytes_sha256": "9625d66cd8255e8166b4806ae31971873dc0fa411611b3212e103ae8c0e26bda",
+        "semantic_sha256": "271da256c07b291fd548c96c23e8b21a499c08439e6babd4db9c0ac702d7c642",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

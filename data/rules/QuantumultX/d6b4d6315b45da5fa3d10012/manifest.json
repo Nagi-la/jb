@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:14:39.668807+00:00",
+  "client": "QuantumultX",
+  "rule": "AbemaTV",
+  "rule_updated_at": "2026-07-26T06:21:17.398219+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 22,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AbemaTV_rules_afa0f4fc4ae90287.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75abb7864e3683ac25bdf93e4a6dcdfecb1dedb345876ff736d84371589b699c",
+        "bytes_sha256": "6e7de6030d3955d60a20cecc27a7a0f4b2ac6bc25aaf63fccca4fdd57cc73370",
+        "semantic_sha256": "cc6971861cdd61d8e2c9919dc9acea4370dd4f68d1c9b33fb8aa7f2aa2d24a57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AbemaTV.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AbemaTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AbemaTV.list"
+  ]
+}

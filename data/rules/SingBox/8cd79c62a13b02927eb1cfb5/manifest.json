@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:02.519556+00:00",
+  "client": "SingBox",
+  "rule": "VikACG",
+  "rule_updated_at": "2026-07-26T07:22:49.184926+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/VikACG_source_c1cc577980179ba9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a7c0e2468c0d7463a8077f087cbe10ba8ea6e73d7ecd883da6e19abbcc766405",
+        "bytes_sha256": "bb82f2e5304f787b87210376caa8faa7561a840c83f75091b67147bbead73452",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/VikACG_source-srs_c84126e315543374.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "617b1dc025a3a9531d619b73158ccad6c204e18cb93c7e0f5505389983470fec",
+        "bytes_sha256": "96d4c486d4c84f7a008cc4b4c2a026bed6aeed022790553a4a6605e234c58890",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/VikACG.list"
+  ]
+}

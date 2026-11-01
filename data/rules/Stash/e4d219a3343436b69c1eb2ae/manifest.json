@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:08:54.651984+00:00",
+  "client": "Stash",
+  "rule": "PPTV",
+  "rule_updated_at": "2026-07-26T06:27:39.840639+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PPTV_classical_cb127b9193b556df.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eeceed11d9e2d145d866ca51f4ed66ade9b981ca41864406a22585bc9b4d2917",
+        "bytes_sha256": "c7ae09a5a25019d4969be3cc7228ff3ccc23a2eed2dfae2bd0dfd48fe1a19850",
+        "semantic_sha256": "709f4537860541448fdcfea4a5e424e1661acb707a2c73e1bf54f6ddc1bef656",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PPTV_domain_b7c9e9630f01f286.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b7cec9dd6d0dfee27e9862bcc59d32557f1f92f413495be9dec97144081e571",
+        "bytes_sha256": "cb68ee83d8c8ca4abf546a72a4c6d3fc6568e61276e155fa8d0022bf1e25a8bc",
+        "semantic_sha256": "4d56b78fd10011e079b35dbdbf6af1230f5ba9c6c09a9a3f15b50a1c88250e20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PPTVPPLive.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PPTV.list"
+  ]
+}

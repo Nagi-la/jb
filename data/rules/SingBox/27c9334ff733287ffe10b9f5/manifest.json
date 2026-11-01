@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-20T05:50:22.596151+00:00",
+  "client": "SingBox",
+  "rule": "PlayStation",
+  "rule_updated_at": "2026-10-20T05:38:27.876687+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 5
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PlayStation_source_c9666178d830bc79.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c5dc59e5e88636cd8dec984e4e947466b08a064f449a7118791ec1b7e858233d",
+        "bytes_sha256": "d4dcbb3c2043259821a8f2ee41e9c0babca0545d73569a0099e4dba6c3c10749",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PlayStation_source-srs_19a480f9c2049fb8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9bcb1839e23b3f664dc2076231a93f553cd3ac2e19e8bd28802650881884e1bc",
+        "bytes_sha256": "92cdd7fa8144ed6dce29f0ecc8c2b7499dbbda5a6388cf7a98626ff1eb342c6a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/PlayStation.list"
+  ]
+}

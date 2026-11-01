@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:26:48.181365+00:00",
+  "client": "Surge",
+  "rule": "PasswordManager",
+  "rule_updated_at": "2026-10-29T03:05:25.363337+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 31
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PasswordManager_rules_7b556d093dafc5c1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c32e1bd24d98d03614d60b119f0d81efee955116b1b0c0de96c77e2bed8b6df",
+        "bytes_sha256": "88766f4ef0bf3a5988fbc0a211184430d8f6fa3265b90fdd46b936daffec316a",
+        "semantic_sha256": "cdb8a3d1ff926f1b14ac9e0b3d9f9a6c4d4e8d4bb48a614e6bd42547a1219772",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PasswordManager_domain-set_07c9af8d81fdd0ec.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bbbfcff80199f21dc92aadcfded14eafbcbb9cf1d98a36fd57feb60af956aa50",
+        "bytes_sha256": "662bf661f6f5991f671394a000e9b6e34abdd3a83c1fd974feecb5993c65e694",
+        "semantic_sha256": "d7f1fde164fa98624ef02d511192c6410c7c13daa1a52373918eeec51950c5b3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:00:36.243520+00:00",
+  "client": "QuantumultX",
+  "rule": "Atlassian",
+  "rule_updated_at": "2026-07-26T06:30:35.908361+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Atlassian_rules_b6418d1dc8846f23.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f98d6c1e0687752907cb2fc3a87f53a45c278343789f09c3a9c183f88a559b56",
+        "bytes_sha256": "b0c2675e31a25bbc20be230af943ff2a4fc91e13a0e332d755d9b46f33162cdf",
+        "semantic_sha256": "bcaecc2a02c7db727d93aa0af65c31de21f284436fa219817610b8c8cedfefff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Atlassian.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Atlassian.list"
+  ]
+}

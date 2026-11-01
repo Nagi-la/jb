@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:58.768045+00:00",
+  "client": "Surfboard",
+  "rule": "Pandora",
+  "rule_updated_at": "2026-07-26T06:22:22.136118+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pandora_rules_23161f6272b59cb4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fe3e65facf4e00eb0e94c8ac3d05738a19b0dcc80bd5573cd8915e2922d8421e",
+        "bytes_sha256": "dd51c7e350759ae0f82881b42c8da8eb4e59f34fae543af9709e0ba89c761cf0",
+        "semantic_sha256": "48f57521dde4cb204841a9cb391afa84d8d56f2cb9ce322b96d93d7a008f0e9d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pandora_domain-set_23576f1b0f60fadf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9870505f2a58acf04d059360e2fbb133ed6207a4b0484c728854ff609a6b286e",
+        "bytes_sha256": "1148c3d13c200fd821565e67a7e50f025fd2fa20c719eea117eb6baa2e4e6609",
+        "semantic_sha256": "a6078445fe87ae60cf79fda6f599f24e42df48e89a7558d0dd6b4b1cac7d9f2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pandora.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Pandora.list"
+  ]
+}

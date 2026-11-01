@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:25.087829+00:00",
+  "client": "Surge",
+  "rule": "ChinaBroadnet",
+  "rule_updated_at": "2026-08-07T02:23:09.934587+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaBroadnet_rules_b917a313fd18c9cf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "553788711014b25cfa65b40c60b753efe2b790335f91e40d99f277da40131d20",
+        "bytes_sha256": "6742529d5549b410cf9f021e0406ba0d8426e56d7c5d30ec32ad8cc82defede5",
+        "semantic_sha256": "3c57c0537a73cbf9805a73b1174b64bd19fa59ad676c358d157fe33e7a2edb4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaBroadnet_domain-set_53292e8f575cb56f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1de043ecbc7d60f9eb9a255bab8cc81b20a9eb909c9b98efcffd9583dc5b940b",
+        "bytes_sha256": "4e226720e4947d3844c484194e45763f7a72768c9276f1f4bd5a034ecc9a3a56",
+        "semantic_sha256": "43db3908d508d5759ebd1ec470dcbeda99654ab5c95198fb24603fd5038c2449",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:03:02.902821+00:00",
+  "client": "Mihomo",
+  "rule": "TaiKang",
+  "rule_updated_at": "2026-07-26T06:28:23.818680+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 59
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiKang_classical_e2a9280bd276702d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c412fecd27348abe332d23b62bdbf7c9a68b6134e4ba252022dca44d08af614",
+        "bytes_sha256": "18a2bd20974b077fa59f20dea6f67b8296181a9bb79dacfce66a1e3d481406ae",
+        "semantic_sha256": "e9a0cf2e55ab2eb92302bc331be74307680dd8908235eec70748e21b9b9e5ba7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiKang_domain_8fdf2a6587fa5c29.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc9445d0f13af8e98fb29b3011f40ad6f7d3fb42aacfad62d242b3e6edf69b2f",
+        "bytes_sha256": "e15da4328eb602b627260fe99a5e44794e0a241719ac56f7d390876a633f0600",
+        "semantic_sha256": "2c6e1149d95d2a94d46a546dc23d0ccf32decb35960a04c4a66eeba386341c1f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TaiKang_domain-mrs_f70ddd1c8b69dbdb.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c39dc2e624b02929d6d567b7e77f26530d01e721408dc17fec216003044e5e6f",
+        "bytes_sha256": "034517c7d3ccf7a91398fde4946ec6cacde7cfb2c130dd80740bb08284a9a7be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiKang.list"
+  ]
+}

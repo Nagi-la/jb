@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:02:07.019216+00:00",
+  "client": "Mihomo",
+  "rule": "VidolTV",
+  "rule_updated_at": "2026-07-26T06:22:33.876069+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VidolTV_classical_9204799da0fa498c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8f275502b9fe1bab17ccdd1b5bca1135849488a0e49d4d0313ef845990704808",
+        "bytes_sha256": "d8731d86f5159fd8f53db37ec1dde0bbbbdbe80c597adb75ff3e2f9c7c161789",
+        "semantic_sha256": "c06840b2facd868a7fe929dbd3dfa1e10409fefca7b7b21d4b7d380f97be9ab3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VidolTV_domain_45abc07cfac7c729.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7b0e393f1b6bcf43753634af1b9b71d0a921ecc61290783d469c07a4659d800",
+        "bytes_sha256": "6e45104f929625dcbc852c93ce5d1eae6d80b86624e8e0e82cae6abd03ba62c1",
+        "semantic_sha256": "828e527389236fcebc2969ede33debe61cbf068da733afc2e13729913f1f8550",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/VidolTV_domain-mrs_5896f6e828d20022.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7b8858b3a56f7382fd47b707095175cb690ae771b79c695e7bfa0569bbeda796",
+        "bytes_sha256": "ac6acc47c8d9734789ede49fff3b28ee048c1a280cb4d7a3903b4cb5b65d6ddc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/VidolTV.list"
+  ]
+}

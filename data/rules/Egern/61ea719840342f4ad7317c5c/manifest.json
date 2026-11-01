@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:11:01.952744+00:00",
+  "client": "Egern",
+  "rule": "Adidas",
+  "rule_updated_at": "2026-07-26T06:30:36.902689+00:00",
+  "type_counts": {
+    "domain_suffix_set": 90
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Adidas_rules_5ec8a8de998865c0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21ae66c816cc817b9cfd52ae033f7bd44f65153554bc3ccbac18baacb9210731",
+        "bytes_sha256": "8c1b70f51f1035bc79c485e21cb088c41f4d715abd85a18379dbb6e508bc1b33",
+        "semantic_sha256": "810cb31dde109c7fb920c2e66cae3233dba47a9197f6aa7116f4920ca8a99722",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adidas.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adidas.list"
+  ]
+}

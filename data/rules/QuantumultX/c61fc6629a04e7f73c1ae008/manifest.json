@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:12:04.766368+00:00",
+  "client": "QuantumultX",
+  "rule": "PBS",
+  "rule_updated_at": "2026-07-26T06:22:20.169378+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PBS_rules_cb204f7cdf59dc3a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34ddd01becce8d8db57106388746deea30ca6b9aa6800c352ec06b04f02a9680",
+        "bytes_sha256": "985e9246ebcf5197f0aebfa7510e747c2d6d55c291b42f1d40d4341b55cae5fc",
+        "semantic_sha256": "bf122ed555f499e80178d9345542da813f49c7589ec2302028a39c9cb16ea703",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PBS.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PBS.list"
+  ]
+}

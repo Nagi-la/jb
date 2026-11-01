@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:57:45.939469+00:00",
+  "client": "Egern",
+  "rule": "4399",
+  "rule_updated_at": "2026-07-26T06:39:36.043304+00:00",
+  "type_counts": {
+    "domain_suffix_set": 63
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/4399_rules_b9e0ff19c5af6ab4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da80a5f3975e114f627732210081fe1f194f709beb5fd8e738e63c14806485d8",
+        "bytes_sha256": "7aa8fc7a4e35e4bc4f5a50fdd703028bead43ea8236721e7a33062333237538f",
+        "semantic_sha256": "937f8ea6da767953168e981fe17f9982f2b46e37e804ad9206b68a67c517666e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/4399.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/4399.list"
+  ]
+}

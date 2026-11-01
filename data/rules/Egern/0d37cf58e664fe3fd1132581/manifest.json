@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:17:34.757968+00:00",
+  "client": "Egern",
+  "rule": "MOMOShop",
+  "rule_updated_at": "2026-07-26T06:57:46.417453+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MOMOShop_rules_b2eea2b3c2c70197.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91c19525e99dbcb8fc76010d96fdc7d0ea7c390dba36eed12902900933fa90ed",
+        "bytes_sha256": "6594202c840c94df2610dfd898cf08d1b4e4bb633612e819d2453deb125b3ebb",
+        "semantic_sha256": "868a810807316793bdadef54befa821bef8003a2bf8e4bfc897088b945fe9e87",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/momoshop.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/momoshop.list"
+  ]
+}

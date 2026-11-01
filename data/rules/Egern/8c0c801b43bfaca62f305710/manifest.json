@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-29T03:30:55.215305+00:00",
+  "client": "Egern",
+  "rule": "Anthropic",
+  "rule_updated_at": "2026-10-29T03:05:33.684281+00:00",
+  "type_counts": {
+    "asn_set": 1,
+    "domain_keyword_set": 3,
+    "domain_set": 8,
+    "domain_suffix_set": 33,
+    "ip_cidr6_set": 1,
+    "ip_cidr_set": 1
+  },
+  "total_line_count": 47,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_rules_38fab5ceeef96d9c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a290792db3c6340cda49de9d6abc182a127b1d94abc4df6bd327ba5f8392068",
+        "bytes_sha256": "2a797707f8731554fc0b36515b66b78d396e0b39ed2061abc9a2f54196c91e72",
+        "semantic_sha256": "b306208fa84b55755e2b50a760f6130faad8cd3e37570880d2379d734f120588",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/anthropic.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/Anthropic.yaml"
+  ]
+}

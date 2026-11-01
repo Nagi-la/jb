@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:04:39.562370+00:00",
+  "client": "Egern",
+  "rule": "Bestbuy",
+  "rule_updated_at": "2026-07-26T06:30:55.261267+00:00",
+  "type_counts": {
+    "domain_suffix_set": 82
+  },
+  "total_line_count": 82,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bestbuy_rules_02c74199c179ac6c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "926c96483aaf0b5f8454b59c17e421e1969d6a50713916a2375ae319b404fc22",
+        "bytes_sha256": "54fe65b08baa3956ae78553e2726513fcd5d84c04ce9a1ddb4b68cea04c2aff7",
+        "semantic_sha256": "03a00fa2c4c05e3d9ec9941e8146b7e849c450065c758f949af9c07301e78348",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bestbuy.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bestbuy.list"
+  ]
+}

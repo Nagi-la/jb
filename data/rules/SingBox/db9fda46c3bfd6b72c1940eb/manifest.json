@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:35.908342+00:00",
+  "client": "SingBox",
+  "rule": "ATT",
+  "rule_updated_at": "2026-08-07T02:23:07.700603+00:00",
+  "type_counts": {
+    "domain_suffix": 135
+  },
+  "total_line_count": 135,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ATT_source_a349fb86588954c8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "74bac7234c0b96223caf9316ba5ac8f88bab299351dd9a671a497706fe116dad",
+        "bytes_sha256": "25e9f578512a0da561f46e0d95fd33ea090affd03956df39b1f7ad17a5c71c8d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ATT_source-srs_70db08db4067786f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d88740604e8f898f4632d8b4a93150e719532f060a63d438d0723a45fda1f4b8",
+        "bytes_sha256": "4ba00cbc5e582ff08eb29b7251547ec2db464d0b693d2a20dd6dea4db6372089",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

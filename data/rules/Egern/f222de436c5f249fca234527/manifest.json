@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:32.727608+00:00",
+  "client": "Egern",
+  "rule": "AppleCDN",
+  "rule_updated_at": "2026-07-26T07:36:47.417530+00:00",
+  "type_counts": {
+    "domain_set": 20,
+    "domain_suffix_set": 15,
+    "user_agent_set": 1
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleCDN_rules_51a2cbc8c2e863a7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "28925c850483730d8f32695ed30225cd4f4fcbdbe3b5607cf617beb3d51c24de",
+        "bytes_sha256": "7d063748c0bc66ea74db4da33fa747068537f0df0db30a6ff6a0ec85c09d934a",
+        "semantic_sha256": "974e9958cde44b50a85dc1c56730ee4d0d2ae979058d298466287b2116fba76f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/cdn-domain.list"
+  ]
+}

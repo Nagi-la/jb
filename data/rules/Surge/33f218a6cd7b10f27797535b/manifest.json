@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:16.866309+00:00",
+  "client": "Surge",
+  "rule": "Moji",
+  "rule_updated_at": "2026-07-26T08:34:07.971356+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Moji_rules_8fbf03bd7ea866d0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87c7359cb64ad55394d67553105cdaf4302a06a907d03f326eb3b9694aea7d4e",
+        "bytes_sha256": "3231aa87e072e82b4ad2b81dd3758f62f5c09c7cad766335384b582bbf814ff8",
+        "semantic_sha256": "89c23da6e151472e961b8a4654e441677781b2047a339f32c2b911077d27d565",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Moji_domain-set_9dd5008e8353e4dd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f780b6a6fa0d20a1768fa044d8d45bd8d14702a1e2645f0d11ed2e2408a06d2b",
+        "bytes_sha256": "4b66621aa7c007b791c79850c139ec7358b8b02e9a152fc908c7d61ad61511f3",
+        "semantic_sha256": "2cc81791f9cd4c45557662e373f873b45313a704e9abe0e9d3028869d5be1360",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

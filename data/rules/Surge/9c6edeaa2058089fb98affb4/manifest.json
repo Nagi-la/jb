@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:38.726788+00:00",
+  "client": "Surge",
+  "rule": "Notion",
+  "rule_updated_at": "2026-07-26T06:52:39.264168+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Notion_rules_026dc08b31319b38.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d3fa73033f14d188ee187981793741e51ceaf6ece6b060d295be418ce3b71d1d",
+        "bytes_sha256": "e717e12e387e51adf2f0fc0e1e5e80948436ade363fd1144fdfab3ae504b5a7e",
+        "semantic_sha256": "104a33e318268be1902cf5fd3e8029ea409d91ffdb2f6facfb6966de6458cab9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Notion_domain-set_ce85877110542362.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4529b96b435341588bc8c3c766728188d99cef76c7498b8c596b51e60b02ea2b",
+        "bytes_sha256": "25f88ebc1357eafa95860f264a14a3d71d22681534ad4e3f47b9ba112c3920e8",
+        "semantic_sha256": "e502ef69292287a6e07d3d78d4b27b7f0c90ae0303bd522594fe9347fdef4d78",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Notion.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Notion.list"
+  ]
+}

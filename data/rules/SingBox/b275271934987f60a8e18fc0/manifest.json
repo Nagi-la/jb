@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-27T01:59:33.642548+00:00",
+  "client": "SingBox",
+  "rule": "NetEaseMusic",
+  "rule_updated_at": "2026-08-10T09:41:21.215913+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 13,
+    "ip_cidr": 35
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NetEaseMusic_source_46c4986981a0ef54.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "99329022716c30c5a8ca37dcb7d47f143303f0a903c87631b10ab1e65f6f5c1e",
+        "bytes_sha256": "cb19b405d337caeca2a7678b9bdbd9cffdcbf42f19a95d500bf5e0a3c7de6e19",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NetEaseMusic_source-srs_db4488d3ee320cf6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "35b5931fb0241353447204be5ee67803c9a2c55edfc03e6b203e1a32de2356d6",
+        "bytes_sha256": "dd0f707e2940c2c61a5c93acdae4d19c34da37817d4651337b9275f8fe0418ef",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list",
+    "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list",
+    "https://ruleset.skk.moe/List/non_ip/neteasemusic.conf"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:06:49.368739+00:00",
+  "client": "QuantumultX",
+  "rule": "ZDNS",
+  "rule_updated_at": "2026-07-26T06:29:48.049610+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZDNS_rules_9bb315d37d42db2e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "385c92c7ce37a27634f7a7bbcb6ab6c231c1b0485feea3ffbf2338586c80f5a5",
+        "bytes_sha256": "62fecc6b93824511996975c78d3a67d645753d1d0a3750b0ef1019e7c6c36a0b",
+        "semantic_sha256": "145afda77af927bcc347fb757d0c96a6786663df75aa88de187fee89d7ab8ebd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZDNS.list"
+  ]
+}

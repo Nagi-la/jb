@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T02:13:11.847563+00:00",
+  "client": "Loon",
+  "rule": "ChinaMedia",
+  "rule_updated_at": "2026-07-31T04:26:17.263543+00:00",
+  "type_counts": {
+    "DOMAIN": 65,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 209,
+    "IP-CIDR": 39,
+    "IP-CIDR6": 29,
+    "USER-AGENT": 13
+  },
+  "total_line_count": 356,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMedia_rules_80a6e1536f0b2453.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4eaf7c402c161915b3ab49099406870386f750bfd9179d24cb1a23a9c6338469",
+        "bytes_sha256": "f47336faffe5aa538af6219855de3de0b31da3b261b812eec0cec7bb47ace3b6",
+        "semantic_sha256": "c32bb17d9f67814e74c4c603b3b920665b50b71f84cc04ec40872b46081ac7b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMedia_domain-set_c2cd705bf042208d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a45687b8af654adae742e64f96d83a934caad5d7546a2ad9d9f79c939387d3f5",
+        "bytes_sha256": "04561453de52dba2beb69244e807c60269facdff332706ce5f44ea333e027e0a",
+        "semantic_sha256": "284bf94b82e990ec132319d27e77cd4b217aee6f279a16c51d8050d856356b9f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMedia_rule-set_b1e806dc579e633c.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd9577b0d1e10eec921dbb83fb02e3b9fd91ffe2c3dd08a09f5616a16ae13457",
+        "bytes_sha256": "ba816f2c9e03b060f0334cb11295461ce07de242b6f10fd5e51649d3eae7674e",
+        "semantic_sha256": "4e357a66895f8fa182df987da592288734c16e3415a92632bdd4c48592b1e6ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list"
+  ]
+}

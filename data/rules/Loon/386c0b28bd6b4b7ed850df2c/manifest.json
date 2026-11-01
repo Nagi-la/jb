@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:16.356848+00:00",
+  "client": "Loon",
+  "rule": "Quora",
+  "rule_updated_at": "2026-07-26T08:34:13.597446+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Quora_rules_2004880298f5e493.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc6b80b57fbdee75f3755b2c905570c5b7dc12092e0191d29c1583e0d37db320",
+        "bytes_sha256": "75016025d8c5e6786871f84b0842af7d68f90be0162d41c0ae9b731f70148fcf",
+        "semantic_sha256": "ffc6e0c8010e4e78df0cbf9e75513e57edd2a6f477b6f7c5ad0683f07b89552d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Quora_domain-set_3d36302f17c8b102.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "80494c61f48547209ef7651a4cf925726cbb5683d555e48ccbd9d41c98faf759",
+        "bytes_sha256": "d136c5baef90837bc0200f179f9f9c525e85daec679487c3d0c3494f11d6a4a6",
+        "semantic_sha256": "eef4e19798a2a6dcab4afc6a71555092b044b0d049f4776078bdccccba00e08f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

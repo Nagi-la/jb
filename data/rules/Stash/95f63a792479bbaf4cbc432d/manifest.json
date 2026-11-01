@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:03:24.798832+00:00",
+  "client": "Stash",
+  "rule": "Binance",
+  "rule_updated_at": "2026-07-26T07:14:58.593363+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 46
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Binance_classical_c9de9678cd2de92a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dff70c8fe2d57d0b3013365eec80cb6179bfcfce48c5e06937c410dfa71b5afa",
+        "bytes_sha256": "970f2276f49831b0d0fd6d2f2d8116136077f0194846d69020715fd5508d61d8",
+        "semantic_sha256": "bf1387c4f5831652fedaff9951159561f5915d721880a1f639f128fdf7ff3ba2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Binance_domain_f91b56095ae298f2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd5be24e2608464570c27d9febd9868e61c54bfbf4ef00ddede8c7ded3d0aeab",
+        "bytes_sha256": "2f8d35971b25b411cf19e1607827b4c7ec8ebd4724478e1b4854fed3d9dbe7ee",
+        "semantic_sha256": "3ab368e0ef9f60abe126e073f953c4853e7f0601176895288e96aaab0a616e61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Binance.list"
+  ]
+}

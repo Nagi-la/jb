@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:08:57.583038+00:00",
+  "client": "QuantumultX",
+  "rule": "ifanr",
+  "rule_updated_at": "2026-07-26T06:30:00.971051+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ifanr_rules_3840ae66b7b2eb29.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45278ace37de42aad668b9dd8a386a04437fe6efdcc6bbfe2cb63c16a4fcb15c",
+        "bytes_sha256": "eb161a92ef8a06b10cc09c5bec084a91f6783d5b839a090a65420808c05a7f6a",
+        "semantic_sha256": "5a1dcd47e5fe5e62116a3e273cd318f5714eab6401e6839e3337af4f54da5c54",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ifanr.list"
+  ]
+}

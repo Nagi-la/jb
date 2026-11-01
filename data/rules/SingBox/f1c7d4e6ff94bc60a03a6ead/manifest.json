@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:11.405555+00:00",
+  "client": "SingBox",
+  "rule": "DingXiangYuan",
+  "rule_updated_at": "2026-07-26T06:24:38.663601+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DingXiangYuan_source_6780c75406bb5377.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e51909ef047d7d9ade0a6931a5a5f42a80451623dbae34703c64554010826f06",
+        "bytes_sha256": "d8ca933fe88bf0c33603166e328aa577a464c33f49ad7b3ba77a991fec210b6c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DingXiangYuan_source-srs_82ac6a05dce93106.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f5f89fa68b812925407101c2d272198915bb19b3ab8870984a1bb33957f18525",
+        "bytes_sha256": "7029b3957576ae6734a74e4bd63cc99c0b954b40a59ac4496bc1f1ca77e3e090",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingXiangYuan.list"
+  ]
+}

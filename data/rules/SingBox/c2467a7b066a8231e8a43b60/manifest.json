@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:43.782661+00:00",
+  "client": "SingBox",
+  "rule": "SoundCloud",
+  "rule_updated_at": "2026-07-26T06:22:32.059002+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SoundCloud_source_a29ff0ac15b4138d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "56c0da103b3541b1c50cd8384562c51169c83c678b88b62dd09e7b45f339afbc",
+        "bytes_sha256": "baf5cca8c7f6f2e1a6d38a48b8e596c9cfc706ac31c653cc1d133534a27c42ae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SoundCloud_source-srs_f4935c6839f45a46.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "270329ae4bfcb2e8c3e4fe62eb3cebdcce15d8979e4ba1203533541b20cf0805",
+        "bytes_sha256": "5566133a9d9968c6a91d25ade1e877edab284a33ecf3d6f22bb4839ee7917e74",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SoundCloud.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SoundCloud.list"
+  ]
+}

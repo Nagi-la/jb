@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-08-27T02:17:06.533193+00:00",
+  "client": "Loon",
+  "rule": "Download",
+  "rule_updated_at": "2026-07-26T06:23:13.220124+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 5,
+    "DOMAIN-SUFFIX": 1,
+    "URL-REGEX": 8
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Download_rules_e6377f3bf6e80888.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd253209654ec9cb963f6dddf5d002d97ccac922d6e768b6d814607175bd21bb",
+        "bytes_sha256": "837d888b6c5d121c81b3b649affa74fe21417c11272f8c3ac1e299379a95e525",
+        "semantic_sha256": "82123cc32c4f7322ec786a27217164b57d08baa12e08726a03987944154a222f",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Download_domain-set_8839c778f7677aed.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "abdb49702cce1018d032a176301577ff691c6e35f4d8053e047f70a9bbc84537",
+        "bytes_sha256": "4b4710859861c25e2e11c8e9cce7099c3cad7ecd4c6ad9665a8dcda9d160bf1b",
+        "semantic_sha256": "f77f52bcbdd0fd58d18469f859ab341896663351c5caddc6eeedbc183368a16d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Download_rule-set_5c7645e520736b5d.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f55207bc8cf3d2e79f36a171fb62d8547a0c08f2231b6503c7d4db50b9d1e04c",
+        "bytes_sha256": "2020e58b50c036aa6d187efca222adcde6dcc95ec03307e9fba74fbd8fdad737",
+        "semantic_sha256": "eca20caa7d5b5f656451531add914e23720f255d449c2d88d23217a78d799ddd",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "plugin",
+      "url": "data/_shared/artifacts/Download_mitm_d8eb56595b03b0ac.plugin",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "225ee10dd32804bc4522ff1b1872644fe3f54b89299d5e7b34e3c884de6fc041",
+        "bytes_sha256": "011d76cde1e1ce73fb9dfe9a8d2484cee3d1dbfa7bede6898cbde2697aca5003",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Download.list",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list"
+  ]
+}

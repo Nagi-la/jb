@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:13.187160+00:00",
+  "client": "Surfboard",
+  "rule": "Apkpure",
+  "rule_updated_at": "2026-07-26T06:30:35.777183+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Apkpure_rules_4087a12605a46c72.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2cdf4f14d44548a267723c192fce8b6c36ed873eff316aff4fecad8940fd6b01",
+        "bytes_sha256": "9a762f8949fe42e1de20758a9bac63c985729485a9be12ca6aeaf325c04bcb8e",
+        "semantic_sha256": "c05d4bc32d8566a87852a137b599ac3dfa4a6f1f830b97154796f5be0d71f112",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Apkpure_domain-set_a76238e460661b94.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c6f0ff23fd08b397124e51a383ef937a1670aeef8a75ad0fac41b3acf49feab",
+        "bytes_sha256": "4f44202944618cdb7d9567fa0d623d57c5f38e3b2d6f7c065fdc0ecc2974cbfb",
+        "semantic_sha256": "30be413f59b0dacf14b39249a1f24fa2ff2758f17f97e782639c878730c0f465",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Apkpure.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list"
+  ]
+}

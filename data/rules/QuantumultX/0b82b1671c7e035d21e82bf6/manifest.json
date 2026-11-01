@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:59:58.908195+00:00",
+  "client": "QuantumultX",
+  "rule": "LineTV",
+  "rule_updated_at": "2026-07-26T06:22:17.380834+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 6,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LineTV_rules_179cfeb44dc97586.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "545b00fdc12b32ac84de7b63e9e7600ce6054c64ffe3a4d3084a217957823b51",
+        "bytes_sha256": "93928e9cd3c91fc5b0be11eef07cd139bb79b6416488622eaf3092346a3b93d2",
+        "semantic_sha256": "9eb984093a1caeb1e16e9ea7a9708db6511931b61d8515014cb1cacf4cfc124e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LineTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list"
+  ]
+}

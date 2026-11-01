@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-29T03:06:26.020691+00:00",
+  "client": "Mihomo",
+  "rule": "Agora",
+  "rule_updated_at": "2026-10-29T02:37:35.083080+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Agora_classical_ca5ce650866ee130.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0f7953808084ff71e935dafc6ec4959e5b6cfa00859cf8e6bfe044619f4b135c",
+        "bytes_sha256": "529369766872651faccba4cc207bbd44bb0eb77494ee2e0174f544e20e9113a0",
+        "semantic_sha256": "febc105667f416418a1961c695c60cd26d62ebb8ac90c4be3274910970e64157",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Agora_domain_a2f468dc102c9778.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95e97b2c0ea10c289bb41dfc4559930197cc500f13d5b5bf907abe86d7ddc473",
+        "bytes_sha256": "a1fed85d12d009bc321ddc014efc6f8282615f10283373fe2a9c64cc412bbc31",
+        "semantic_sha256": "c30f456e631ea7c5487480687af603988de602ea5e96a475641044519c276cca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Agora_domain-mrs_129a41be9dc44930.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "79d547f7d594fa3023ba5a391a05bae4730881d031d66886b4c61ff3a856f8d6",
+        "bytes_sha256": "b55044ab45a67ef808781073f5fa1076a41271c9a5b31bf21f46ae4b9b777a11",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Agora.list"
+  ]
+}

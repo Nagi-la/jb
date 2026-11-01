@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:34.742788+00:00",
+  "client": "Stash",
+  "rule": "IMDB",
+  "rule_updated_at": "2026-07-26T06:29:34.588938+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IMDB_classical_e94ae0b75feb981f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6fb44a80cadedbd9debe16a99d16f1ef204f8b1ce5ba7c27a87dd00b220dcae9",
+        "bytes_sha256": "6988b831a5334c20403ceee32e223fe03f7eb8716399443f8e404fcc6ba592a6",
+        "semantic_sha256": "518f0588821737c651815efc935e06106cfd10544ec417c2ac87b63803165dba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IMDB_domain_73aff2599c94d561.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a3f55bc9fd7be5541dcd9a85c6c32a0a3957edf7725a529f3498392a5979f04",
+        "bytes_sha256": "3075fc4be3d35b733e7365faf0e581d807b6d4826d79274a55ab929e72fff48c",
+        "semantic_sha256": "cbe457dd364cf4123b36f61fc56ddef6d92eadf6ff2ffb1041a37f6b8e78db96",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-08-27T02:19:14.532993+00:00",
+  "client": "Mihomo",
+  "rule": "PrivateTracker",
+  "rule_updated_at": "2026-07-26T06:56:47.627030+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 119,
+    "DOMAIN-KEYWORD": 3
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PrivateTracker_classical_4f0a2a800d20fed0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1303d0a8e98f7f84eb4d2851e9a961747c3d9d342a1e85ceea77999f8a8ff9fc",
+        "bytes_sha256": "4b8a409c7d798be303d2c04c9bd853ff84c98eea3ad176928ed717d283bb7775",
+        "semantic_sha256": "bb6864031aaa18b8bed21858e6bb87bb9afc1ceb5835e81bbeff64639434fcb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PrivateTracker_domain_7046d35ad7598092.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "28cdf76783cdf9fb11d4be53e828080ca857695eea7ba62eb93fbebc7021b8a8",
+        "bytes_sha256": "65c900029e9974db209d191c62cf3a115ce1675570c70f947cab44c6bee90980",
+        "semantic_sha256": "8bfc16ff74d63bf0f1820cef3b041caae8db1fe18bb60205bd50f7ad4629b2b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PrivateTracker_domain-mrs_26163eef4f762bdf.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b95823aef16da7850e58a4ddb1883f923faa6caf094a3b4507c7f680f0f76109",
+        "bytes_sha256": "ca0b35a6045300b26ad720ba76ee9e5056b03288fd3ef8010e2d81553d39818d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PrivateTracker_classical-rest_79465ddd77a6650e.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "be27b2806747681f3b62d17c1a202b8896445ea77f2b7742d0dc866f3bafc207",
+        "bytes_sha256": "0e82845af35ee859b9e7b0647588cc91af30319a8a0585e97efe98e2c02a1760",
+        "semantic_sha256": "8b236983ee3a40bf7a5deb83b226c722def0abb6772160cf2783f5b190997977",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
+  ]
+}

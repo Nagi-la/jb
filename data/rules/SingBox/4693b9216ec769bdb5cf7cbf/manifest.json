@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:23.709246+00:00",
+  "client": "SingBox",
+  "rule": "Tumblr",
+  "rule_updated_at": "2026-07-26T06:54:44.231483+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Tumblr_source_0b4355cea114ad7c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6f0f61b368480a9c63c37ebacc280048788f5e1a4daa7a32a26de4e2bd1d2190",
+        "bytes_sha256": "94c48e36df7981e5cfa0669be97513634a24c578330a1afd10b4c9f4637a5c2e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Tumblr_source-srs_d8ce3534dc3ba9d1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8c8bc3f443b6480fb1b186bbc7df14c2bd9f44fe4f34ed15d8cb626b8359742d",
+        "bytes_sha256": "725172782baa65dff6bb052ae842f8aaf127beafad4f7309d183a9fc7de246f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tumblr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tumblr.list"
+  ]
+}

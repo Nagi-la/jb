@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:15:51.241864+00:00",
+  "client": "Egern",
+  "rule": "Oreilly",
+  "rule_updated_at": "2026-07-26T06:52:53.493314+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Oreilly_rules_86f231802e031e2f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e37f283002a15cd72103d79519900ea318a87f01d3ad5fe066e9a083c743cca1",
+        "bytes_sha256": "8655513badf55e8fe830da78eb26c2288a31247687987bdb7197186dfd23d74d",
+        "semantic_sha256": "0048f0ced15baa7e127c0c88398d50d51cc0ca5a4b4fdfaa959ff15329665227",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Oreilly.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Oreilly.list"
+  ]
+}

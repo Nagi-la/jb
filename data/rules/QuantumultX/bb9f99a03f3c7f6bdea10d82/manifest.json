@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:11:41.187980+00:00",
+  "client": "QuantumultX",
+  "rule": "CableTV",
+  "rule_updated_at": "2026-07-26T06:21:29.803838+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CableTV_rules_2ce67fab9e06adb8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a879b9f029e1bfabf8cb9031531f03d825c5f946196f91979d34d0113abd5092",
+        "bytes_sha256": "8ba97b855f360e758e77c2c429966a9f5db3f61fdc44d048ec535eb3980231b1",
+        "semantic_sha256": "0a71a830f8ab977a17de4f48134a677eb1ec488b50404910d25f358263a1e0f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CableTV.list"
+  ]
+}

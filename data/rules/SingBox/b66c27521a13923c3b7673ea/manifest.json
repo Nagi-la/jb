@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:08:34.668208+00:00",
+  "client": "SingBox",
+  "rule": "Dell",
+  "rule_updated_at": "2026-07-26T06:49:34.380479+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 313
+  },
+  "total_line_count": 314,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dell_source_b544576579a76e79.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ddb8878b37fcb1af467f57867a7dbb3383dd22eaac6af9b92533784f0c6c5ea6",
+        "bytes_sha256": "45137b1549f1cb695822b8f89a3ba094e62214d0b6ed4d80761cfc15be37578c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dell_source-srs_77a3a59edcc6101b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "689b7896ca83ae4927174173c48a7f9f55089d9f75766c25862e9e855bb01f6c",
+        "bytes_sha256": "426af3a61f782995fff8f310985018af99e6899e3a68c144271b0e06de13f6a7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dell.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dell.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:18.477123+00:00",
+  "client": "SingBox",
+  "rule": "WoLai",
+  "rule_updated_at": "2026-07-26T07:00:12.064296+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WoLai_source_9c6bfd16a6ef1f95.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "479cf4a2393c5ce56decd03c82bd7b669bee6c2070fcc5023b2bb1be42fbd16e",
+        "bytes_sha256": "bfb2d8a5b78526e80d962bc7c120a9ce656fb3c0e61b086c0a08721142fe8343",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WoLai_source-srs_2d156f1e4643713d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9acf98898f2d2a97e56c6abadb065b701d7e443d316fe8eb1c4ae5881295f898",
+        "bytes_sha256": "4ce398875f0c3a74ecf9610f5328a2936408856b7c554c090f1aebc092ec7d77",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WoLai.list"
+  ]
+}

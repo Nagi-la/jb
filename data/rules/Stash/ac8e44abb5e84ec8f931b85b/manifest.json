@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:39.218822+00:00",
+  "client": "Stash",
+  "rule": "Shopee",
+  "rule_updated_at": "2026-07-26T06:54:00.387989+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopee_classical_84f7c051286b6d87.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7dc649a0ecb8374fa436e0e8998651f091e0a7a6149fbd32f8a43591f286d51",
+        "bytes_sha256": "6f5825f6ecb003e995219102211cff4f17dd1e66441b548708b8ab7ab39e1e16",
+        "semantic_sha256": "fa6592a15a743fe6a792bdd8b651c31c86275d10140d99f0850b0bdc5695e988",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopee_domain_ca3f603c5a357017.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce0f6919990d314a81e51f883ec9f261a5935600060226a2b1af17e871a51647",
+        "bytes_sha256": "8e8d85b28d39e81afee2dcca5594b7abd367d1d4603fd6d614f93accf20ff92d",
+        "semantic_sha256": "1bf2685882ea41d9a56097007adb993026d1c8d3c901592e778edb8f286d6927",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopee.list"
+  ]
+}

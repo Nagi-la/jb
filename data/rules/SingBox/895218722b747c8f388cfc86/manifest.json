@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-09T16:00:00.742381+00:00",
+  "client": "SingBox",
+  "rule": "SkyGO",
+  "rule_updated_at": "2026-10-09T15:58:45.724597+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_keyword": 3,
+    "domain_suffix": 10
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SkyGO_source_139ece87f96309a8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38776fbe4c519ea780ac01337a42953c1c3a55a3ff91ba0d12d2213acc8a2f3e",
+        "bytes_sha256": "3b8a0ad4fd0177404caa81b0632ed924c4a02aa85aef3e2187b119017e3eb9c7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SkyGO_source-srs_20fa511115868469.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "de2db887bd137e7a74ede7685bf52969894b3440a8916cfb36542ad6c870e1be",
+        "bytes_sha256": "553634a59934b8a73ab00605971c354db4ccd8ee34c10274d5b23a328edd988d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SkyGO.list"
+  ]
+}

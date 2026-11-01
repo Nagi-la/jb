@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:53.731532+00:00",
+  "client": "SingBox",
+  "rule": "ChinaIPTV",
+  "rule_updated_at": "2026-07-26T07:40:10.440059+00:00",
+  "type_counts": {
+    "ip_cidr": 1307,
+    "domain": 990
+  },
+  "total_line_count": 2297,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChinaIPTV_source_10ef053eaa13edf6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d96b1f1a6eb411cf7ed9990e273633f66ae08d9c89c028d269bcad38e4f441ce",
+        "bytes_sha256": "d6047eb0903ff854c9904636b78914a72deeb2456a25930bcb1e79369770809e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChinaIPTV_source-srs_3ffa96b8fca3ad78.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a52378dfda25954b937ce79db4e60f62a47fdd97336c4036af2e2f83815cb49b",
+        "bytes_sha256": "bd3c08baff065af6c0cca62a5ada9296497917c6e63e81077419cd8d93993b75",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

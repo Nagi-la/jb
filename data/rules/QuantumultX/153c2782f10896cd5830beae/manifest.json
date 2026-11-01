@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:17:26.831860+00:00",
+  "client": "QuantumultX",
+  "rule": "Snap",
+  "rule_updated_at": "2026-08-13T23:46:02.408251+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 8,
+    "HOST": 1
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Snap_rules_dea85b239c35c3cb.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bfba9872d9f6250a43d4d8be59a9ef4752a67f51e48d14c1751f2240fb08900c",
+        "bytes_sha256": "c6a5147896eabe2b96f3c3da47f0de39047b5fb6633c5c81cb40055bc2a990f8",
+        "semantic_sha256": "1688d65b9dcf4b2bc7dfb304097197430ad30998059bb806c5c657153e75af4b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Snap.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Snap.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:36.765235+00:00",
+  "client": "SingBox",
+  "rule": "CMB",
+  "rule_updated_at": "2026-07-26T06:23:32.495117+00:00",
+  "type_counts": {
+    "domain_suffix": 39
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CMB_source_0a85af7fc1ff2e59.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5c9fa161522fd2e6225c0a132120a622cab3c50d1878d252548324aa48003b60",
+        "bytes_sha256": "7064bb07fa15f06e548b9d3eecb4f9c95f014fe5d87eb86bc724952ddb368059",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CMB_source-srs_2ccd0ccbde6a68c1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0c69f2e3955e6d1b92c5f0d83deec567d13fbd4ee6944b60d2ba5271265ad07a",
+        "bytes_sha256": "40f10c85081119a69adca058b551ba6591fa4b8a1ad064fb3d9504f86137e8de",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CMB.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

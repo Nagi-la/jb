@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:06:34.933007+00:00",
+  "client": "Mihomo",
+  "rule": "HeMa",
+  "rule_updated_at": "2026-07-26T06:25:23.311103+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HeMa_classical_d42402e4eaaec018.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eb1c7c86d31af9f9a6e5b4fdcf9d0426ff1ae962c1ff4712f889d6e1e4b01646",
+        "bytes_sha256": "23e4637eafb458af21be91d512ce8bbbd5072d8518001c5a5484133371d9fd01",
+        "semantic_sha256": "8c3f90d96a2015fe6bb48fdd1e5a2d2aaef02d95699d825e58ed055ec22e1b6e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HeMa_domain_81800f8574672b28.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ba12fc4b2fb75e02ba0f1a7b0cad096fde59942632ac2e0c9a1a2c693ce204c",
+        "bytes_sha256": "46bee76a5d0b587bcb87694c45cbbac07330346d20364c864b98fd2cf9a89347",
+        "semantic_sha256": "ec6d0f7adb3ea2369f8567d290bc735e5bb80879ac7794b87b7c240126f2edca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HeMa_domain-mrs_9d393eccae7c8132.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3a4321f049ae98ef325c0c53310a39f997931d8d0fb36bf334163e498e041b9",
+        "bytes_sha256": "3e3e0589647bbf973314e64d9fe3b3fde6e8cbf91b1fb502bff7cb21d76786bb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HeMa.list"
+  ]
+}

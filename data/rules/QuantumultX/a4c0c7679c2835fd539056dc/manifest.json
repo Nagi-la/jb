@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:02:22.052613+00:00",
+  "client": "QuantumultX",
+  "rule": "DiDi",
+  "rule_updated_at": "2026-07-26T06:38:19.530376+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DiDi_rules_fb38d3f925ee9fc1.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "768ea89ba922d2cd09f4b0654780f386f15ce8c7eab3726f8697a8727b7ff672",
+        "bytes_sha256": "474398e4a6c244869e55b21e41edf5011e9d311b4c1eebcfdf1b1b76076fd230",
+        "semantic_sha256": "959f03f3e2d5c5c35698b09cc8592d80414581839c34e67f1f406edcc8afdc25",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiDi.list"
+  ]
+}

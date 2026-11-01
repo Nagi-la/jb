@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:14:16.765073+00:00",
+  "client": "Mihomo",
+  "rule": "CCB",
+  "rule_updated_at": "2026-07-26T06:23:18.601139+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CCB_classical_57b72c7a29818b97.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d96db157bf30c24a6ef6528d6dca8d61b204e45ddb8f1dd54b37162d3b7e536d",
+        "bytes_sha256": "cf5485138d1578f5d8375063d4594f2fc42babc1ce1b1659cfe2eeb073f61a3b",
+        "semantic_sha256": "46a9ced477cf275e2b6daa132039a63ce5c2326f5cf73cb80c6816a59d4471ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CCB_domain_50ffbeb10b94e317.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c03c8ccec607d361de58c42b0fe6b210bf531bcbeefb6f1c0b28e0359809ca4",
+        "bytes_sha256": "b05083b0fa54d1a344acd1a6c51f782b225fc996579da39e8ea5df13ed6acb46",
+        "semantic_sha256": "87ab06e5b87cdc53ed58cef4c52f16afba759ec2edb4aeb404e3de233dabccc4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CCB_domain-mrs_e111cd00a1ecf48d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e3229e4f1d994b57c6d1d810eba247d95d7a541b38672041b93813abcbfb9064",
+        "bytes_sha256": "38052c568f94c3485b9b3aec40f361b7a959e09020c1b0b2378f4c720eb32140",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCB.list"
+  ]
+}

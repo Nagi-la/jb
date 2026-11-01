@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:14:43.178511+00:00",
+  "client": "SingBox",
+  "rule": "WikiCN",
+  "rule_updated_at": "2026-10-29T02:37:38.577116+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 13
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WikiCN_source_3e03f23f4fe8f08d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fcba173bf352997a850a2cf832e4e68ece2e660c485204c9f8b752ee3bbc98f0",
+        "bytes_sha256": "34e231181384fdb1e194234ebf3df9e0a70f7f01cb6697416db074e54df0d73e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WikiCN_source-srs_9f6e38624a8e9861.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2f3a697d84e34ffe86de5d4a660cb5066a48f9bfc89ec0f755d22253074f2b2a",
+        "bytes_sha256": "4347bd9ae6333b3779e098afd9dd6303ba08e5e11591bbd0be668b615c93f34e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

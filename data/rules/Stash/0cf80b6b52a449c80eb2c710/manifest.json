@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:54.024277+00:00",
+  "client": "Stash",
+  "rule": "ABC",
+  "rule_updated_at": "2026-08-07T02:23:27.318931+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ABC_classical_1e2ea214a1f4782a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "70b18b75df7cc1995b04b69ba1f15defb008e801ec40c5551312042caf0462a7",
+        "bytes_sha256": "93cc1cf92281e7dbf0025347470d31ffb68b5c61aa74623faece340a74df8ff7",
+        "semantic_sha256": "ab74d1c70740f526daae00f77cd0a5ac5f1bb7936a2b965f752185cd4df0ee5a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ABC_domain_9902b86068113698.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac748b721a1ce097e3117cc234413cf690eaa068e50bfb53ef708a460a638117",
+        "bytes_sha256": "850790eaea508a07fb7b44d5a29488ce2bbf4ed8f113bde95a8d325f0341aac4",
+        "semantic_sha256": "e52562051cf8c286cdf272ea5939ac709b41cb4eafe66f39696ccf70cbdd7d8d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ABC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ABC.list"
+  ]
+}

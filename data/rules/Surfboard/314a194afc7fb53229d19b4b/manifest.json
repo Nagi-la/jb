@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:36.410792+00:00",
+  "client": "Surfboard",
+  "rule": "ATT",
+  "rule_updated_at": "2026-08-07T02:23:07.843230+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 135
+  },
+  "total_line_count": 135,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ATT_rules_87df2568bd44d4d4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5dc0eb1d4cfa583a64d03a696790df7e1169b6bd8e723842384622cd95488bf6",
+        "bytes_sha256": "8a95253a4c8ceb2ebe1f89a97d7f999cc8654bff02aa3db651cc2c65019d399d",
+        "semantic_sha256": "9018f622573a3fb848f8c853ef193d0a2cd3ece3717f1e543bc6eb02a25aa113",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ATT_domain-set_6a49003533b4db12.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f0321c9f5bcd600e6e615ef0a5d5736f67cae522ac470794b7acaf7e77560ad",
+        "bytes_sha256": "c454299b6d1416ec9b46c50e3d95739fff74f4f2669d88601427055674377409",
+        "semantic_sha256": "e8c189085411e519420ad6d0cac4bef5e2cd0ba71a1fc23bf742045baa9ec28e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

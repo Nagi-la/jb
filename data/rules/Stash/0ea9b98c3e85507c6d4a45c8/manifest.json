@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:04:38.834755+00:00",
+  "client": "Stash",
+  "rule": "CBS",
+  "rule_updated_at": "2026-07-26T06:21:39.605123+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 34,
+    "PROCESS-NAME": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CBS_classical_adb5c0294165aad1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d208b9890c6dc47d0c20ccb99037738931fcee4f112a6551e254c34d6a37089",
+        "bytes_sha256": "d5d8ea8e30d8921831aeaf9e5c55bfd65291ef075ef6e4779abc25a7d88c89ce",
+        "semantic_sha256": "f45bf13cbb10c23ec2d5e89e8d363e8c8664a3023b15395e9f8bad6e174d5c63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CBS_domain_45c51f93cfc04941.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac0d4f74b7ba0bf73554c161a57145283e80db881bd17fbb515ced900e35e976",
+        "bytes_sha256": "4e33ec664d34f4942678d3ae3752e39676186cd7d3153cda306b2bc284f62861",
+        "semantic_sha256": "f9c847a779814ffbd86cda4802c3d1368218c7944a34c8329d9e4c6453a91129",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CBS_classical-rest_ff7266d964f16b7d.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "956b618bfb42a80bc9bbc219be0adf85bb3e5601fc57d6a08c5c4ba59e0eb8f0",
+        "bytes_sha256": "3fe9f4f105222327374b104329b2868492cf1d99c5f71841eb77c154f8c1f7f0",
+        "semantic_sha256": "a83b57bf09dee0bcb69902b607e477d9576cc0f890101e512724313a3689ac27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CBS.list"
+  ]
+}

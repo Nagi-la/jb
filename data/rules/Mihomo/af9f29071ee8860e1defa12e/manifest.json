@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:10:31.640200+00:00",
+  "client": "Mihomo",
+  "rule": "HashiCorp",
+  "rule_updated_at": "2026-07-26T06:58:11.652359+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HashiCorp_classical_6ce3d659f37a6ad2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "617628d62ae882efad31376c8c421c0f2bbfad969de36bef070b23510fbd57b9",
+        "bytes_sha256": "80a71d0f4d0088fbd805e1a579a29052b0b5f51396e0fae393eb89815f519c38",
+        "semantic_sha256": "30627a238124d088f3eae3852a3253aba3e0913094b1196613aae9b289baa685",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HashiCorp_domain_4502b3ae297f211d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "be33c3c9989ff313ff1dd2ff1090af91e32155468d3e0da080e6243f5f83db21",
+        "bytes_sha256": "147a2b8b875d60676d65ef7011575893fe1519af865edfd5f0d9bf1106f3c9ed",
+        "semantic_sha256": "cead32d2ee71427a06ea4e5682337d23e0b50fe52152657a8180744200f2cf51",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HashiCorp_domain-mrs_374b3a1303c360a2.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "30c7ce75c66118aaa2cf1ffd2b0741448fed459ecf692365bf4e20deef33af7a",
+        "bytes_sha256": "8a123f5d90eea70b68bea16bbc14d98519fac8dfb25d1b7db3a534cdc8ce1c1b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HashiCorp.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HashiCorp.list"
+  ]
+}

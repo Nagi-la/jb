@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:25.605153+00:00",
+  "client": "QuantumultX",
+  "rule": "SFExpress",
+  "rule_updated_at": "2026-07-26T06:27:52.048206+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SFExpress_rules_b61a41b171315415.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "68c65a1ba448f62efbc2b9824b7bca65c233f92c0e72142660059dcf2b69be28",
+        "bytes_sha256": "8835d8de74129d744d7f0b285e44a242835eb6b983ea7c66058e819f511e20a5",
+        "semantic_sha256": "8daf81feef26cf150657a781dc406278b5205fc358d76a2fa0dbc82770ace4d9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SF-Express.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-09T16:06:16.714663+00:00",
+  "client": "Egern",
+  "rule": "Mozilla",
+  "rule_updated_at": "2026-10-09T15:58:47.512877+00:00",
+  "type_counts": {
+    "domain_set": 7,
+    "domain_suffix_set": 81
+  },
+  "total_line_count": 88,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Mozilla_rules_883fc147f5f7f558.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "afb8a821a74aa1a5544f5639c594ad3cc538aa96d8e155e11bca5c61f4e21c09",
+        "bytes_sha256": "bb5d853bf255afb4e3a842d00d4d86bb6e3763a28cfdd1f94549dbb0967ee94f",
+        "semantic_sha256": "a9797393090c810e22043daca4b6abac742ff958a886570fbaacb794c1368d0b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Mozilla.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Mozilla.list"
+  ]
+}

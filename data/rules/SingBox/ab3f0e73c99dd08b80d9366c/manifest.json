@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:47.983991+00:00",
+  "client": "SingBox",
+  "rule": "KuKeMusic",
+  "rule_updated_at": "2026-07-26T06:26:13.949692+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KuKeMusic_source_0f0109c4a0e96769.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "495361229ea479021662ff584777a051649f09b33989d4116bb092be6cd6f668",
+        "bytes_sha256": "26e1c2f40c4cb8fb3b595f3524dfc284afd6de5884e7d69e726b5696fb20b6d7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KuKeMusic_source-srs_2f7a1b8ad52bf4f0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f801db3afab3d0bf07bf7f3d965ad1145bdb5ad8993af01eccd9e8bbb5f1c7d3",
+        "bytes_sha256": "a21271e6bc7d88560704a52a51362b95d90b3204784e03551ca3f3b668ebdc39",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuKeMusic.list"
+  ]
+}

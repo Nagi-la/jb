@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:13.371347+00:00",
+  "client": "SingBox",
+  "rule": "XueQiu",
+  "rule_updated_at": "2026-07-26T06:29:08.525464+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/XueQiu_source_aec6a895e6c1e7d2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5c25f982c385b8d26245fb3a6fd0aa775b532d8dce3868472b7fac84cf641e08",
+        "bytes_sha256": "fcf85e65707ce88c1aec4098c9cdb36ff7e8520fc7d3932eabacceb4a14e4ae3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/XueQiu_source-srs_b27dd739692f0131.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2b445b6e30079d8d0e98aac5a1d0d36b7b7f1611fa17c860d706191f667cd6e7",
+        "bytes_sha256": "78fbb9f5c69a542cf3611fb1882c8dc0704e0d6e6788521f391553ad7ac93891",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XueQiu.list"
+  ]
+}

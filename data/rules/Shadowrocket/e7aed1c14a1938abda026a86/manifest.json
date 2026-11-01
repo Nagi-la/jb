@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-29T03:04:25.284012+00:00",
+  "client": "Shadowrocket",
+  "rule": "Amazon",
+  "rule_updated_at": "2026-10-29T02:37:34.244042+00:00",
+  "type_counts": {
+    "DOMAIN": 21,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 249,
+    "IP-CIDR": 17,
+    "PROCESS-NAME": 1,
+    "URL-REGEX": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 292,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Amazon_rules_43c1ed53ad795d00.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9081a898dcf98f962c80650d07db2bc46391c69fa38bb97fb7ec38f89cc25691",
+        "bytes_sha256": "37f78cfa781541bf6d473e5e78790b575d919d5d8c39d9bb46e4e36796f277e9",
+        "semantic_sha256": "4f481ebe6ef893bb55b28f6424f0678363c24276db78bcfde18b6a29560dd8b3",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Amazon_domain-set_ce43036ca18174c0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "43a44d13dd240fcbf260f5957a3abc8fcd397abc1561013b4584696903da6abc",
+        "bytes_sha256": "795598c66f85f424756486509a3f19ed488499760661a7b17af4aacd33248cfc",
+        "semantic_sha256": "f10367c9d9ebd968e78157a20d578e3a6c5ba93c1b38e4330406d10c320b49ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Amazon_rule-set_c386ad1edd66cc22.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40fae2f5b5d30b2e789093624d342c1f5505335e766a5b8bff91404664b25079",
+        "bytes_sha256": "ca61e4e7b012d8712c1333f58321a7c6e28a2ae1ec96c3cc15c0756e422955b3",
+        "semantic_sha256": "85c23007f375fb10f937a4c4bd81a37900183ce7861514828e94f765b7828be3",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "sgmodule",
+      "url": "data/_shared/artifacts/Amazon_mitm_9ac3c1dba31b62cd.sgmodule",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8bd973b893c0a8217d20fef3dc5be6fa94b72ff50e9b61b23186c3b06a75ffed",
+        "bytes_sha256": "cdc0c82cd12d8c4aa0f06517f2ed10cec8aa4bcae6613da3485f35850f9a76dc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Amazon.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Amazon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Amazon.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Amazon.list"
+  ]
+}

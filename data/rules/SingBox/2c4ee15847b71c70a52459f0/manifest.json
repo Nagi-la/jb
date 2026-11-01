@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:43.723540+00:00",
+  "client": "SingBox",
+  "rule": "Salesforce",
+  "rule_updated_at": "2026-07-26T06:58:33.888492+00:00",
+  "type_counts": {
+    "domain_suffix": 49
+  },
+  "total_line_count": 49,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Salesforce_source_30013f6d0653a3e1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "577d23c6703119862253aad03d524df69e00f254d5299c0bda7ca5425ae07f63",
+        "bytes_sha256": "98af7ac08f53bc9ddee2b07a92f15313ddd668da381a88650ccbd4e70315300a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Salesforce_source-srs_f13c45746e123f68.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f3693c14caeca36eb84b3a3c84e6359a69a6a559d49a7ef098e015393e2b9ef4",
+        "bytes_sha256": "7b525f8e2313d30ebc0fd7e49a12630ce05b4eb3ac57d119cdff59cb9bb2f907",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Salesforce.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Salesforce.list"
+  ]
+}

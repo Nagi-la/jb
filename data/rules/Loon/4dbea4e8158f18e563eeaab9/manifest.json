@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:48:34.302487+00:00",
+  "client": "Loon",
+  "rule": "Azure",
+  "rule_updated_at": "2026-10-29T02:37:29.003423+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 150
+  },
+  "total_line_count": 154,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Azure_rules_69985935ede1a285.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ca805858c23833e862f79e545bd5b2fbf414beea6b5d0a85b54f5839f1849e1",
+        "bytes_sha256": "a5bfebf9a2c93a0851de7ddf31a787624a52160e774d70d9d3dd9f8eea6698d9",
+        "semantic_sha256": "244f7f054635f87e12593d916dbe8533459d8704a559f9a322cc6ed3742f1042",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Azure_domain-set_4a590ed6566a90cd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23632c9721fb76add3911365160bc9f2324d4c1e3e359a496b7318a6dec5752b",
+        "bytes_sha256": "b91d179a55b3c8ad2c0c6a6b417fd32f53cdfc235d9ea55346feffb767f07b3d",
+        "semantic_sha256": "04928a403ac78006f083d3b6936a05639ee92bfc6981ac10508789358558407b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

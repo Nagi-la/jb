@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-16T15:35:23.218302+00:00",
+  "client": "SingBox",
+  "rule": "DouYin",
+  "rule_updated_at": "2026-10-16T15:21:24.627266+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 88
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DouYin_source_a586d34012f79a74.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "daf1caf2bdaff7ba11e1987f53a6edb4592bf6c2a7ae56adb95e8b44c998e699",
+        "bytes_sha256": "9e641d2bbbfc769100b6c8762c77ae0dee41f6414bd8ce4beb89df410b600dd6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DouYin_source-srs_8e9a100cd44f4214.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2b574549bb314057f8219357398a80237dd5fbd094d5bbc698ac6c7f5c0ba0c7",
+        "bytes_sha256": "7ee3a5f75571f25210703545b3c67a0d599981f92b7be48f0074a05a9f83a2c6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Douyin.yaml"
+  ]
+}

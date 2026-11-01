@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:03:10.499555+00:00",
+  "client": "Mihomo",
+  "rule": "Emojipedia",
+  "rule_updated_at": "2026-07-26T06:29:13.506475+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Emojipedia_classical_e7f3ebc4f7b76aa1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "256f53af95eaaf8bcda7ea5f560b2b1535cc4b076afdd19cb9443944e5cdf6ac",
+        "bytes_sha256": "618c3fe7ed1b28afd81611441d525587b5517d361c3fef5c06611ca2ebd1758a",
+        "semantic_sha256": "2d5fe1185cc14785c9a27302ded92bdfdce3d67cb579e4d0376ae0246737b987",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Emojipedia_domain_9bab38796764ef64.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b205fc203551294b4b219ddca019f4f0d550899f1416501e938c23f727845336",
+        "bytes_sha256": "c760b94d60eaa56dd228491bb9c87ff5f073adb09a1daec3912c9e5eaea3e561",
+        "semantic_sha256": "0ada96f7f2aeead98fdd7291b2c24af2e76df6963b9d14de48d0c4080684c4af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Emojipedia_domain-mrs_456731a2f667b41e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "af9b608f3109a1958c6f342330ff28e1cbdad50ca344181c2b31bd74e18a8c7b",
+        "bytes_sha256": "a52d6ce706559edbe013ede2ae1865f185a711d35c0cc8b33b86b93132d3905c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Emojipedia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Emojipedia.list"
+  ]
+}

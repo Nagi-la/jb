@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:58:21.510143+00:00",
+  "client": "SingBox",
+  "rule": "Douyu",
+  "rule_updated_at": "2026-07-26T06:45:41.768807+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Douyu_source_2d7c5b6688ce25dc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8bdaa54175e4e7722ce3931ddc4a325420f3e974fa17d6d198497f48267abe10",
+        "bytes_sha256": "a53c43a25a7a82b127c49806b658e80a0a2fc0ff72fa086dba41f94ed37ff0c7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Douyu_source-srs_3a54366d59bc6549.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "39b46c4ac2fef8accf324b02a99fb5e0a823ecd8b31a791984befe81fa98db5e",
+        "bytes_sha256": "cb93bff19650bd064bcad8fa13ef5a7cb0d67d52a2723e6ff04fd3d493d7f152",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:02:24.062275+00:00",
+  "client": "QuantumultX",
+  "rule": "ChinaBroadnet",
+  "rule_updated_at": "2026-08-07T02:23:09.836724+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaBroadnet_rules_dc0346c02a2af016.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6af83a2051292c93b7a0bfe4b729d0cbfd9bdbaf903d1d77f731ff93c70d48b9",
+        "bytes_sha256": "90804abb639a61a38981817d5a8f68b3aa0e85b8e2c4f1622698c3b139da134d",
+        "semantic_sha256": "fb80d86dbc58a389d77f2112d036634a36ddeeb1f9a489b6791c6ee191ce4636",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

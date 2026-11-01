@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-07T01:37:05.212387+00:00",
+  "client": "QuantumultX",
+  "rule": "LastFM",
+  "rule_updated_at": "2026-09-07T01:36:09.715247+00:00",
+  "type_counts": {
+    "HOST": 5,
+    "HOST-SUFFIX": 29
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LastFM_rules_1e6d51e73c68d5ef.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c8601862371c326430143ff0a0eff097314e32d7f297477881dd6db9c91dd13f",
+        "bytes_sha256": "d34ff0be14e615f55a33ab893848f8673b1ba36b48f1f8a2badcba0c48cbc755",
+        "semantic_sha256": "36a6e6581291ccdb9a7ad514dca5d61989eb6d35d25d9a8d4110a58517c76de1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LastFM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LastFM.list"
+  ]
+}

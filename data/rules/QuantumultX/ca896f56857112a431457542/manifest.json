@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:15:18.344801+00:00",
+  "client": "QuantumultX",
+  "rule": "CEB",
+  "rule_updated_at": "2026-07-26T06:23:08.801981+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CEB_rules_d44c1e8ea8212953.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57fc3f2a098ba559a3f0d7ee50344e081135ab13521da7e5b9fa131537a86b3d",
+        "bytes_sha256": "b458c607c6272a7332aaabc12ec93aa140ae6c64d18719b9379b8aa7ff8ee816",
+        "semantic_sha256": "e9edff70cd39df1b1c5ce18d93089b4ce9b86557087a41441f7ce9aa3e93e486",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CEB.list"
+  ]
+}

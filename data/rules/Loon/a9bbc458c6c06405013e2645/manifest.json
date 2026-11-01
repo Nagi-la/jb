@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:14:43.152837+00:00",
+  "client": "Loon",
+  "rule": "WikiCN",
+  "rule_updated_at": "2026-10-29T02:37:38.445221+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WikiCN_rules_df6cd9d4179f1bf0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1f3cf0e3186be29b978deef92187ad7966451af1cb3e6d5b0c3f48fe29795b9c",
+        "bytes_sha256": "d90153d57acd6e341a44adea6f34f9a68129c706ee6a2a49575b50f9f43f4dfe",
+        "semantic_sha256": "188f4d6d4b46ededa399280dbea12e9882db4b9560cc7cbb5b6d9ad8830474a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WikiCN_domain-set_f8ef5afa9c460642.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a41da759dd89564e67d7ef2779c497c31ae8df0a784c711f3b370f4f86eaeb4",
+        "bytes_sha256": "c63e2a13943f8276b8c51a6827d3dc60b6ecd6dd4743576fa08d0601bcf1c8b4",
+        "semantic_sha256": "412513516a388609f32256d9bf2deb27aef0baef9287d3a16d4194c60c77d3b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

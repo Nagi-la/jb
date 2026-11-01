@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-10-30T01:47:21.097488+00:00",
+  "client": "Mihomo",
+  "rule": "Advertising",
+  "rule_updated_at": "2026-10-30T01:40:38.054257+00:00",
+  "type_counts": {
+    "IP-CIDR6": 6,
+    "DOMAIN-SUFFIX": 242164,
+    "DOMAIN-KEYWORD": 210,
+    "IP-CIDR": 1024,
+    "DOMAIN-WILDCARD": 22,
+    "IP-ASN": 15,
+    "DOMAIN": 17423
+  },
+  "total_line_count": 260864,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Advertising_classical_76b5ebb82520f2e5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d61958677602dcff11e56c12021b9d2b671756694fbad0903235a1f33070a25",
+        "bytes_sha256": "4afc5f75d305fa89fe0a82db6b0cfb90ccd0c9f5c1d947cad5336539c8dcb573",
+        "semantic_sha256": "e3ba30519b47da0574215e14d026bd5f2e3e2ea6777558c2ce71d066c9cb505e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Advertising_domain_70a0c74c0a76cd88.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8eb3c8da27bd3d31a8b5a54aa2f657b02829171fe881f466bfafa74ca8875400",
+        "bytes_sha256": "842c50ae013e712b5d88f72ab6047c818f0ae4bf440569c32180d6a043993974",
+        "semantic_sha256": "cdd0d13fa80e1f6201274512a1171cf3a376f063c63512757a5f01ee85e9844b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Advertising_domain-mrs_8ac20dd3ffdba08d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "83dfb7d4d99a755eb2bd8cceb26f65aa4bce024aa829fba8ebecfe3312d759cb",
+        "bytes_sha256": "6ff18569f62dc3006ea7af2442f2126fc795521d6358b8cba95f194f1ed9f4b9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Advertising_ipcidr_9c77e0fac072a4db.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8987a7c7cf6beaf5a787bc2f4147dbbc64aa1779ab8714ca7f876fd949bca29e",
+        "bytes_sha256": "4c7347e36b532a933f3bab840428b6ac865d0c770ae77aa641b6be3371084022",
+        "semantic_sha256": "b01f9df323045052893360892f8da3f1b54f47f61249139891ab60fd5fc1d893",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Advertising_ipcidr-mrs_987068ba16404730.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6c9258a7c832e30639a83dff7a16e5525fa1edc4223bfea65322f251b9f3428f",
+        "bytes_sha256": "ea8ca74ea77a7fbf74ef7e0214a31fa66f8f637a4eac82e85fc66b216b5bb6c4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Advertising_classical-rest_4cbe8ce66543d1b4.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5bf829621314d7fc9e4d0446f22e1e8694bfa19bb3261ec5f6ee85853eb0dbd1",
+        "bytes_sha256": "2bd84426002b1d6dcc79776b6e18e1005c96db511954045ca998b6aee581e3c2",
+        "semantic_sha256": "dc50a480bcb4c15fcbbb6f97c6c0027e82930e8c9429a514e7044e117240647a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list",
+    "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/reject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/ip/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

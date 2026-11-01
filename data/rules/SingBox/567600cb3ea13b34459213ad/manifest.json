@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:36.726554+00:00",
+  "client": "SingBox",
+  "rule": "Nginx",
+  "rule_updated_at": "2026-07-26T08:34:09.788373+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Nginx_source_1e9c7b0a85b0d6a1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f77fe0c5f2b5298eadf973e52559744cbb722bbe87fc13a769fb1437aac5fd93",
+        "bytes_sha256": "4dc765411676034c6b77924100e3049b23b29c27f3047c2f65af281a3a72df26",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Nginx_source-srs_637e6c023eb6fbdf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b7195f3b1fb867d11e3b8e958f9aacb0bf3b92a807bd5835d047b38e8aafcc6d",
+        "bytes_sha256": "4870c20521cc1e706bdaf4d91afcd754979929d5b0062d5d3e7fbeaeca6adc67",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

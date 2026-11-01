@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:16:15.625776+00:00",
+  "client": "Mihomo",
+  "rule": "ZeeTV",
+  "rule_updated_at": "2026-07-26T06:23:07.853183+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZeeTV_classical_c7cb28464997eb83.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "90d95e3f1bef2a2511c07ef940ba886bcbc7bff77521eef21292dea37b31aa72",
+        "bytes_sha256": "8f99f24982b0404780ccef8c7e778b1c0fa117c062c2e9f5ddf8f656942d0750",
+        "semantic_sha256": "692ad2b39f37b370b3aed5a724812c5790f9c33a7665f50027b5f993614643f4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZeeTV_domain_2d514c9dd85efd01.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a49b4460e7f27b4c110481e8e98bcf0f5b850bf1b496f778241a6718e394390",
+        "bytes_sha256": "2b4f8d6342f2052ef897944f3ebd1667f2801041b545e726663a29d0cef9f2ba",
+        "semantic_sha256": "20918ba09182b6e573eec5cb4888a0948071e3b57f80f1d0baf5e2f26473c96f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ZeeTV_domain-mrs_6f5411f1d0bfa978.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0c3ac503ce17a212f0d0a4f0a432e9bdb5539b4512585967468d8174afc41be5",
+        "bytes_sha256": "47f515d643a54d59749133d3286fad0a2a7217e5b6e11ab844181bf89a61a394",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ZeeTV.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:06.042486+00:00",
+  "client": "Surge",
+  "rule": "Vivo",
+  "rule_updated_at": "2026-08-13T23:45:36.103700+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vivo_rules_ac01d114dd0a014f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "44b549714b7f4502d2c39fe8f17e4dcb2f499d69e7853a297688956fa51697ba",
+        "bytes_sha256": "a8f5a56d9ca5a4caf8958edabee55dea6405759433f11b51ccb3fb48c78be6d1",
+        "semantic_sha256": "fad0ed3ff52004efd7df53b00b56d8b1cc64544c078119f903919d7907db996d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vivo_domain-set_ca58b49f695b5f9f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27aa902ccc9f474aa9dce941d2b1aaafedbb4f2b2f5894756b7db032f0381568",
+        "bytes_sha256": "c9da95bef3c2415008417adbc0b429d813e4575372e926d2e188edd57fac73e3",
+        "semantic_sha256": "463b74a44264f85255e55745e5613d3a798c5818a639c279bc5a87f242985029",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Vivo.list"
+  ]
+}

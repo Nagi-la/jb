@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:24.633233+00:00",
+  "client": "Stash",
+  "rule": "DingTalk",
+  "rule_updated_at": "2026-07-26T06:24:41.992118+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DingTalk_classical_48683bf2542f71ae.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ebad38ec970f75fe2126fd2c7c248b60a1b96c296a35454209a2c06ba6aecb4b",
+        "bytes_sha256": "01bf27232d70091b53e1904284e7e0d0b934a18b9dd081141bea356268ce587a",
+        "semantic_sha256": "e1d46f211a51f5517f025eeaa5ffe34d2483fe0e771a5da02ecf6269ff1309d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DingTalk_domain_bda5ae57dd8ea11b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c3262b7f13af3cd36cdb30629cf30be5d67d1e9a4ea21816041e486d5f9817a",
+        "bytes_sha256": "da2900b9f2ee6ca920499c456c9bf94a62336820c796b9740e236791c3f04f6a",
+        "semantic_sha256": "5006096698e1f317b04e193fe4de4bfc652221697ecdf171df3252842f6b3534",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingTalk.list"
+  ]
+}

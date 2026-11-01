@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:24.305794+00:00",
+  "client": "SingBox",
+  "rule": "ThomsonReuters",
+  "rule_updated_at": "2026-07-26T06:54:37.466218+00:00",
+  "type_counts": {
+    "domain_suffix": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ThomsonReuters_source_a888659775483172.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7412f057d93fe5def83f3e79a4dc94b72a254ae12340a2045a8cc76e06ba233f",
+        "bytes_sha256": "5ffefa74ff2d244bad192036b187d45a7cba4367b7d7f98750ca0b68e7fa2051",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ThomsonReuters_source-srs_b4abfdefba61eafd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7133fcb7becbd50bfeb155999276342a732ca6ed3de151f900160980d7427f04",
+        "bytes_sha256": "5fabff55968ebdf381c3e97b0bf0c814dcb12c297e879cc4d92a85ec656b8da5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/ThomsonReuters.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/ThomsonReuters.list"
+  ]
+}

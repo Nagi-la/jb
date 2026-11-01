@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T01:57:01.170352+00:00",
+  "client": "QuantumultX",
+  "rule": "LG",
+  "rule_updated_at": "2026-07-26T06:50:48.131845+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 12,
+    "IP6-CIDR": 4,
+    "IP-CIDR": 81
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LG_rules_7231c9e3fee4e861.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b8074fe967f3c2e7c69881c847dbe31d24b2ea391a53f066786cd1f15d019e5",
+        "bytes_sha256": "4610122b3f81f83fcaf0a619634cd041fd897a6ab89ef898ff37e163909a225c",
+        "semantic_sha256": "43bcab388b7bd4e089f5e85d032d92773b6676b404f62d3d71a661e651812708",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LG.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LG.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:03:07.002563+00:00",
+  "client": "Mihomo",
+  "rule": "Picsee",
+  "rule_updated_at": "2026-07-26T06:52:54.246613+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Picsee_classical_4c4155e6dd864b58.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d39547b26d0afa4dec07df4d6341889d7f18c5bf67dd73e57cc0dbabafd411b",
+        "bytes_sha256": "62d990188c638263a88caa577e381ca6613bc8af6bd4478ff15f0d9e182ee0c8",
+        "semantic_sha256": "3019d571f1c042a01095f14fb61827989caa8d17cf5a7045c72857c4c456baee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Picsee_domain_8867051783c7b09d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ae35aef560562d4ed6a580421a80b3ca7c9813901a994596a3998ccb75094aa8",
+        "bytes_sha256": "0910eea1f0a3890443bbdd1ec094a8a515aa8d923ece640210f9041570d597b5",
+        "semantic_sha256": "a97bd58da5fe6f4ec159011aa2be2b55ded25343c48bb3c32ae672fe4b49ebca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Picsee_domain-mrs_73a026ab1337852e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f4750eee85a736187904438328157aae0c6e3cba27130ddf2b1f9abec4d1e040",
+        "bytes_sha256": "359f2efc71d0364cba6355811a7a4b3d76a881e54423211c6f7eb39925320f8c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Picsee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Picsee.list"
+  ]
+}

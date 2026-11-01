@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:02:58.310346+00:00",
+  "client": "SingBox",
+  "rule": "360",
+  "rule_updated_at": "2026-07-26T08:29:41.235879+00:00",
+  "type_counts": {
+    "domain_suffix": 286
+  },
+  "total_line_count": 286,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/360_source_1b2c1469a996b8dc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3885fedb1573adfd290aaeb5636da184def44eaa805438181afb60e9b78f9c9d",
+        "bytes_sha256": "eade1a9680e2058b65607884d20d923e9e77353b2228b9060d5e4b33e2bd34ed",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/360_source-srs_32d474ecc468979d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d126f283d8c474b95ffac29f2526c45889a9d559a4bf38803610d5dceb7fb01c",
+        "bytes_sha256": "3bf373ef02ee30ed8d4e31d4fb507342475245835e6e475c7c84cac4cb531797",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Qihoo360.list"
+  ]
+}

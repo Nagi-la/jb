@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-10-29T02:49:38.643851+00:00",
+  "client": "Mihomo",
+  "rule": "Microsoft",
+  "rule_updated_at": "2026-10-29T02:37:29.899811+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 788,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN-WILDCARD": 1,
+    "PROCESS-NAME": 2,
+    "DOMAIN": 114
+  },
+  "total_line_count": 909,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Microsoft_classical_e67099aa280f921f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eab4b3bb8cda917969a9f425cf2cada18f0357ca421b919e662287c08479769e",
+        "bytes_sha256": "5093f640773b7528763e8546a15440831ddae2e7e5fcd7a0380fc4e91389f82b",
+        "semantic_sha256": "edca1d2b19d65b8612c270a45f7dbbbfa6aef03093bdaa927eb0a64a7e04f506",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Microsoft_domain_58ec314c41477617.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "453bbb87aef4c251c9b29e7ea74ebb89d3f4835d31392ee472b851e0dcaabde9",
+        "bytes_sha256": "c5d19fe6d32390dcc010389e1cca587a86387bfa3dbe2595d52629ba418ea465",
+        "semantic_sha256": "26639f0e36381c0b1d210f3bb0d9e29b1df1ae41284f8ca271577d1b74f332ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Microsoft_domain-mrs_da6a9c1ccdacd1d9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "289ccf00e5cb84a81d6fa3aef9d81dc6283f793692cd7966947517542a9d45f0",
+        "bytes_sha256": "f4d92ec92bd19e2ce1ad87b42e3bc17e18278dd8881f20575f5edfddd2c8d9ad",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Microsoft_classical-rest_5b731e88ceafa945.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e38763e3d689bfbc43789d71c246ec84d700705353378c23d014e08d7b72f30f",
+        "bytes_sha256": "5de2c45a92dcd99dde2c6d784de73b9a5fa3183cde2cb6061bc4727b7a405028",
+        "semantic_sha256": "d09d42323210aa59aa4f86229a2d834c8ff7c60a86208c7c8ea9edfbd564da9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Microsoft.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Microsoft.list"
+  ]
+}

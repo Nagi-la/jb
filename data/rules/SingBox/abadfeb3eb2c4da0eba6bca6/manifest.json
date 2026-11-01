@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:18.108729+00:00",
+  "client": "SingBox",
+  "rule": "Purikonejp",
+  "rule_updated_at": "2026-07-26T06:32:09.887199+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Purikonejp_source_ca0345e1aa53bbf8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eb5de5c8779d333d3ca98c668efc5d0c1dc67d06db912720593172bbb57848c4",
+        "bytes_sha256": "27b717f365e08af5fb80062dc50d1eb3b1cf848aab044ac0b937d223ea1e51e0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Purikonejp_source-srs_41cec0b7999a8042.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5675c1e1f2e93ff11da6d0e228de4c59a46de4281fe7c0fe3153a0b2e36eacc1",
+        "bytes_sha256": "ea0755105fde82dfe5ddeb5e8cf2a80db8a876267d676668587ae396eb792e1f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Purikonejp.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-09T16:19:09.108526+00:00",
+  "client": "SingBox",
+  "rule": "JingDong",
+  "rule_updated_at": "2026-10-09T15:58:56.212770+00:00",
+  "type_counts": {
+    "domain_suffix": 277
+  },
+  "total_line_count": 277,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/JingDong_source_9c24312f6c390997.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d7a19b881e7728386e05c79ec80adbc8d7e80be57d722bdb05b77767885da9ee",
+        "bytes_sha256": "6832aa67ba1e20248eff69b7367e44eb9ccf5dd655d567b80b9f8a5fa3fa0de3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/JingDong_source-srs_9aa2365814400fc8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "49b282a2311762f06d03b822abd0527547ab00dfc267ef310883a98a67d22a24",
+        "bytes_sha256": "c688062726b50f813ed26d59b8c594ce4962be87087e8841676444cf228934ec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JingDong.list"
+  ]
+}

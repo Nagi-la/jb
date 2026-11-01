@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:36.547578+00:00",
+  "client": "SingBox",
+  "rule": "DangDang",
+  "rule_updated_at": "2026-07-26T06:24:18.351852+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DangDang_source_519c437270b563b1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "22157d66b1170138b0bf28617ef409a0b805a1f75cda383f3dd135b61732b17e",
+        "bytes_sha256": "f1ded384d3e63020a9ae87944e8585c9a15cfb70db7e74735084394f273673b0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DangDang_source-srs_7c9db91db0409ceb.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a6b27cfa2aa37c8293368536b73143f71a64943664630ec3c3d42e83ee297a36",
+        "bytes_sha256": "0ef168f845fed64613aa7cf59928943b41fb38f70ceab94b12097f5c27ef462b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DangDang.list"
+  ]
+}

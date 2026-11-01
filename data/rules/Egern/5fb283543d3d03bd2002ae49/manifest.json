@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:15:17.942931+00:00",
+  "client": "Egern",
+  "rule": "CEB",
+  "rule_updated_at": "2026-07-26T06:23:14.195492+00:00",
+  "type_counts": {
+    "domain_suffix_set": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CEB_rules_89257978ece2aa74.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "41f7e1ef715cd8e5e829c053746a91cb578dece34a2cfe6f2dfbbbbaa40d0fa5",
+        "bytes_sha256": "33e66dd60dc3e0eee4d749275bee48cec14f55a76aea6924441779a51e1b0905",
+        "semantic_sha256": "f4fda473c4a95a937368a1a5ff2e0dde56d803dd300e7daf00e8229a0ab27126",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CEB.list"
+  ]
+}

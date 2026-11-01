@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:35.780656+00:00",
+  "client": "Stash",
+  "rule": "MOMOShop",
+  "rule_updated_at": "2026-07-26T06:57:46.469678+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MOMOShop_classical_f986b0eae89e275a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db9c8484065c5c683188e7399d4995ea313dd4ba065998ded1778c10652e5de5",
+        "bytes_sha256": "6278a1af48447902246370fd95cea592e4a1210a327b1394939a5fee1c0a220f",
+        "semantic_sha256": "31cbf7a1ebe64ca6954ec43d9de8222ee255b95787d50a30cbbb0614d82847ce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MOMOShop_domain_a18c4942ba450da0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7215efce717b26a6a9334de1e1270928d4440111b518d302b3bc1fbe1011e7d3",
+        "bytes_sha256": "689e8e178f2ae92b5e8f2c020c5a89f2f959bb3cdaee6bc2ceffd827640222a6",
+        "semantic_sha256": "c69a2a9a6b0b752467ed149b7a0231345b9a683f960bc6dc7c83458ebf8f5b4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/momoshop.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/momoshop.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:46.945113+00:00",
+  "client": "Stash",
+  "rule": "ChunYou",
+  "rule_updated_at": "2026-07-26T06:24:24.804398+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChunYou_classical_1b5b55efa8f2baf5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "887bcd35a789bf0fba591d943233e624ef078321949d52dd7dbe79da82d42659",
+        "bytes_sha256": "38cc2e859cca0ce1f70444c1cf32be0e5e8f725ea85fdd0f125ed303fedfdd3f",
+        "semantic_sha256": "4be48ddf74ec4633415fd81b3efc592368ef5a35dee457999cda66c55b46b40d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChunYou_domain_c632e24905b59cb4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "670b6a3f81d13233a015f11afabfc053add21d71df0a59a19a746f1e06d4d8de",
+        "bytes_sha256": "d30471280cfee8c644f6551f48fa49573368248c34131e6aaeba8f79f26607bc",
+        "semantic_sha256": "f78ac332b2410730b9703c2dbac60beb14a9f83ed0503c7a9b57e64f476d48c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChunYou.list"
+  ]
+}

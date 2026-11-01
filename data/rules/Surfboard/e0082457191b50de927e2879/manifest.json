@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:41.012590+00:00",
+  "client": "Surfboard",
+  "rule": "Bestbuy",
+  "rule_updated_at": "2026-07-26T06:31:00.449170+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 82
+  },
+  "total_line_count": 82,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bestbuy_rules_c8eb7106d87e3d22.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e18312c52ff9366c0f2673362a05633cd1dbfaca8d53da35bb7c0654db962019",
+        "bytes_sha256": "e4d300ccc816cce23115905c3dd879a2db1d86d7e4276bc13e3b0486fb246b49",
+        "semantic_sha256": "41b70ddb8f4e6e9eaefeaca1712a779bbf60b1a8699a7a4ade5c5cff02433c16",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bestbuy_domain-set_48fa325d06799426.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "beda5af24bd7d2284d49ada2609ed07263b78f2c1a37f1cc5d32aa09eb7c3409",
+        "bytes_sha256": "adaf79860496259668930b0308a93373764066233514155333786d78de359c1d",
+        "semantic_sha256": "2cd4abc052bd54fe5457a2d36d36d8ea0ed0a231afb5e0f08644e309475a52fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bestbuy.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bestbuy.list"
+  ]
+}

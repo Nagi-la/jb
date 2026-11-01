@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-10-16T15:33:20.587633+00:00",
+  "client": "Mihomo",
+  "rule": "Sony",
+  "rule_updated_at": "2026-10-16T15:21:16.065966+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 127
+  },
+  "total_line_count": 128,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sony_classical_9a8bdb7f721fea0d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94003970afb0cea61eb78f2ff029be7c7c6e665572a950740cc1eb27586c9100",
+        "bytes_sha256": "593e174aed3c42482e411ed2c19c1c4693b2a8cb6db423fa82e64ea95228661e",
+        "semantic_sha256": "a3db993a979447d63bd2f3a85182c85ba82e663e7ad58c1a7379a87cc0117a7c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sony_domain_01302e50ffd1f39a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a949c51d3a1a09ddf260821bf6100c59a4d97525de54cbed0fa38529cae6d73",
+        "bytes_sha256": "83d4732880588cca280b01080467c3b41bbc26454a0c5970f92c91c0d3de7b4e",
+        "semantic_sha256": "999454928303594b5f702d2371bb9c7a3b92069f4db262bb8c6c805474d06a48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Sony_domain-mrs_f93dfe3316768c79.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "50deaa3ee0e8ca6c5c8d6efcaeb0ace45457b9fb5e1bf8e62d8f420006d08166",
+        "bytes_sha256": "9f3b3ced53fbfb6e8c989daed196e5ab2977e7fc63c92419413fa3c475bc9626",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sony.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sony.list"
+  ]
+}

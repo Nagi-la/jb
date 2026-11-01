@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:51.348134+00:00",
+  "client": "Stash",
+  "rule": "Vancl",
+  "rule_updated_at": "2026-07-26T06:28:39.708577+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vancl_classical_b4ee49a8d02012ce.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "86484d5ceefb5520358f6bcf140f9e07fa0e53e3929aff9d6004a2a03a679b90",
+        "bytes_sha256": "c7f6210950c218cd310707542aeb6651b37169c4f3b117a4c7c58db03459dabb",
+        "semantic_sha256": "37cf4e01d0aa78b57d17469bc7af311069a465b95014d283bba02e207ace8444",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vancl_domain_7f428b634067aa46.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd557048e9f5a121fb917cf0f6f1554e195ad65edd43d194d1e3748d51656ce9",
+        "bytes_sha256": "ce9b8ca7afe459dfd0acc9b934e084bc244a07890549ceb91f1892fbcce63d42",
+        "semantic_sha256": "754faf5dbab26e623012e05f7c75ed6a8f3649d2315b6b1a99d14da0a1a72c83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Vancl.list"
+  ]
+}

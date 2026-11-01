@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-08-27T02:00:25.119165+00:00",
+  "client": "QuantumultX",
+  "rule": "Direct",
+  "rule_updated_at": "2026-08-18T02:21:05.087683+00:00",
+  "type_counts": {
+    "HOST": 32,
+    "HOST-KEYWORD": 10,
+    "HOST-SUFFIX": 220,
+    "URL-REGEX": 4,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 267,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Direct_rules_5f402d63e48a2f60.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a807721469c27d365bba290db5b4aae3b0fc3056b33ab55d9663c7343b0fed7",
+        "bytes_sha256": "bfaa9a018601a690ca4ffef328e4de4eeb61f4c85c58a957d6994a9b25c34848",
+        "semantic_sha256": "2dee0b4fdbb6b2bea53f680d9cd7ee68588987aace3169531da1f74676414e3a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "snippet",
+      "url": "data/_shared/artifacts/Direct_mitm_36cce6a78e3ecd7f.snippet",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9bd1056bd71806fb878d37009f43f5d9a92202142093a98e0c5d89f7761e86bf",
+        "bytes_sha256": "a6396655d1632308c1a63abd1f9468954d2475f8f4962dd2a5658eab7a6234b0",
+        "semantic_sha256": "e427ebf5ce4960a0a63cac679488a6a381400f21baf02965127445e04ed53829",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "直连指不应该被去广告分流规则屏蔽的域名、IP等，请将此分流规则置于去广告规则之前。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/direct.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
+  ]
+}

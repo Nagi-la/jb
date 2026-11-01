@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:11:57.310282+00:00",
+  "client": "QuantumultX",
+  "rule": "Japonx",
+  "rule_updated_at": "2026-07-26T06:22:06.523155+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 2,
+    "HOST-SUFFIX": 12
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Japonx_rules_e9c6723e3abae41c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4af4937d4870972bdb3d5292d1a258e3e26015430d93288d13b10f191f1ba2a5",
+        "bytes_sha256": "89e457507c82ac5886d94fbd4dad3121a9ce32f9da67bc6d0e3f8c20bf808088",
+        "semantic_sha256": "630b376fa53b8810382258667c362eedb21b3f90e642e835e8f1e652c0314fb0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Japonx.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Japonx.list"
+  ]
+}

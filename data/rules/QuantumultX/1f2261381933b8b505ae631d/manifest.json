@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-29T03:30:00.804164+00:00",
+  "client": "QuantumultX",
+  "rule": "Xbox",
+  "rule_updated_at": "2026-07-26T06:32:31.952662+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 44
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xbox_rules_f16a254415ba1246.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da373424f69edc0baf4c0b5fbe98b0e4dfb584fc1de53103c99c554b1a718fe9",
+        "bytes_sha256": "3a0b20e1d7d6d73ad3d0d6ff28f5d8c65e8078c90938fc691121e39dbd8be554",
+        "semantic_sha256": "1d539dd0463f6e6f6c00c286f5b107c171a03c38f72789fa4972bf8bc5cea549",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xbox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Xbox.list"
+  ]
+}

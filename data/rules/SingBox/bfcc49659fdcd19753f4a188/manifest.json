@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:26.128875+00:00",
+  "client": "SingBox",
+  "rule": "SFExpress",
+  "rule_updated_at": "2026-07-26T06:27:56.765742+00:00",
+  "type_counts": {
+    "domain_suffix": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SFExpress_source_841f1fb448c47667.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c6bddf7e11ad1d7b81483f01eaf2bcd786d0200cc021ad8feb5cb3656a18f58a",
+        "bytes_sha256": "9ae13fd6709c7bffdda47878ef64cc2f4632bec19a8b99db1e0b716083935298",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SFExpress_source-srs_a6473738e57ba0d8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "50b76668540db10a9012703e8878c81e5d8cf6818a19dcba8d045cf576971f4d",
+        "bytes_sha256": "22b7927f04ccf954061f7a61bd79ea253d306127a04722edcb62334d16abddf2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SF-Express.list"
+  ]
+}

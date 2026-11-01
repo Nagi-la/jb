@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:55:57.917787+00:00",
+  "client": "Loon",
+  "rule": "TianWeiChengXin",
+  "rule_updated_at": "2026-07-26T06:28:23.922475+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TianWeiChengXin_rules_4b075d7e076f790f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d9d9f87cfeca00df67a2a42eea67845ac5fec12562f0e3f86d6775c5dca1588",
+        "bytes_sha256": "386be6ec1f6f56a95014d13033362c75f7886d8a92d8e197232779051cbebb29",
+        "semantic_sha256": "cf24f4d956477c991391a5d5a50fe185c611302ae8e89f9af31a07fb7306a979",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TianWeiChengXin_domain-set_bc6e7a7c71990ef9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "075288b3e1f1a684ef880086dbc44ccb5543b3bbf2fc0ead6b55254f4640faff",
+        "bytes_sha256": "e88a07223c6814d977e619bf1b2717fd61c4428ac892f7e56d22d614031ba10e",
+        "semantic_sha256": "68b0ca0a25aca6b3376d7ffbb02cbac55eb4c29a4c3d557ee930ca7c252182f0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TianWeiChengXin.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:17:22.959278+00:00",
+  "client": "Egern",
+  "rule": "Pixiv",
+  "rule_updated_at": "2026-07-26T06:53:16.768888+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pixiv_rules_8eab84d57a00fee4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f90e66b953641feb920b814feb3939ab76e7ee51915e45e7028cda931c291552",
+        "bytes_sha256": "64bbcc2b3885b6fbe20e08557f16c4a007022e13bab535af7f7fcd608fe746b7",
+        "semantic_sha256": "9a6974bf7bd2ab677ab79204d3acafb73a06c0ef392063502d67c61209288516",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pixiv.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixiv.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixiv.list"
+  ]
+}

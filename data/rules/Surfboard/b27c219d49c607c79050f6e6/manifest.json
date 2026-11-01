@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:21.865569+00:00",
+  "client": "Surfboard",
+  "rule": "Wikimedia",
+  "rule_updated_at": "2026-07-26T06:56:05.727231+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Wikimedia_rules_7404d077a25ff40a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "efa8fc78d2b13155e22feb34e5da92f03fd8cdbf7a281119da6cc7f2a882dd48",
+        "bytes_sha256": "ae41856660aaf9fd67a143c2beb6d476dd10d6edefc719fd0976ba24f00c6635",
+        "semantic_sha256": "a0031362e6efe618c8bc907ba2fbb1186d40acb3f5af3a25138b26b8eab6aec1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Wikimedia_domain-set_8c68571c53cc7da6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d8cc1e49344827f4d96d0b062cc1aaaa557b74fa07ae1cb6725409226cc972e",
+        "bytes_sha256": "6c247270456c6a5f562819397f33fc8d02d6b4c124aaaee4d3e08ea7519f4402",
+        "semantic_sha256": "2b7e249dfbbd32f31ef8f14f0419639f207ae4d463e1537153d26ce4cdbdfa32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Wikimedia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Wikimedia.list"
+  ]
+}

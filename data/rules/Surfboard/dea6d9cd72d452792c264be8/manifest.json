@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:38.015358+00:00",
+  "client": "Surfboard",
+  "rule": "Siri",
+  "rule_updated_at": "2026-08-03T15:32:22.862984+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Siri_rules_a9100d2cd5959b20.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d2bbc238d718b7fd72fea7801fc6c719d996654669b9a7bd24e9acac16c4bc9",
+        "bytes_sha256": "b536393b6f070817211d82fbac75ac002b312f94d167ac7570bfcc5b95c883c1",
+        "semantic_sha256": "6b452196d45c6b6785bf8f6d2f9a2327a59d794eb20a6b378cdb402b199cdef7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Siri_domain-set_3a86cfd153f55ffb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "453dc555706c3a90cb9a95d70f919c4ca75b965d8b819db265717ab62b5ff70a",
+        "bytes_sha256": "4327b5b3c85b3767074a1df6a7dbe2e5fad5669cb885a91957897dcb90e5964b",
+        "semantic_sha256": "1da6e38d6f9446324bc7c1401e82704ba19d04ac09b575215a13e2237a0b99be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

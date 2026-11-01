@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:14:05.695121+00:00",
+  "client": "QuantumultX",
+  "rule": "eBay",
+  "rule_updated_at": "2026-07-26T06:56:29.915055+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 369,
+    "HOST": 1
+  },
+  "total_line_count": 370,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/eBay_rules_e85584919966450b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0bddfc3911cdf78724231661029e52d9ebcfec6b2adf03203040e7e7904d55c",
+        "bytes_sha256": "ffa3bfe7fb611fbd125e862c1253ba5a8a492fe07abbdbc465f869cd2269c188",
+        "semantic_sha256": "0bfc5412a9a008d7208eafb058e02481e3255f76c44a7d98bdd452397430d597",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/eBay.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/eBay.list"
+  ]
+}

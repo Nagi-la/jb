@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:47.950377+00:00",
+  "client": "Surfboard",
+  "rule": "SourceForge",
+  "rule_updated_at": "2026-07-26T06:54:20.203888+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SourceForge_rules_35b6cc1820e7b7e4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "974104fea99a60530bad6df9474ce19b634e6434dab1d55dcba33694e9fece8e",
+        "bytes_sha256": "252d361ee457ec7297f726f5acd00fdbcf5473a0f899d315ce7a4526f12638d4",
+        "semantic_sha256": "dd1153d15d322e02b70e2610b616abe98cd7c472ee6ac081a1f19b8a95199430",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SourceForge_domain-set_7fcc7e1270478a5d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "740f26dd67c55cfe150d1925fa7b3c24b5f17272a2c0179384e7b335824f45c6",
+        "bytes_sha256": "345f78b7a6f622888872375850c2d4f32456b79673814fd422feb735e42901a5",
+        "semantic_sha256": "eac947ea8031ae4d25cde694dcf286b10828db784a0b12792f7eb2da830d7411",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SourceForge.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SourceForge.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:17.236526+00:00",
+  "client": "SingBox",
+  "rule": "DuoWan",
+  "rule_updated_at": "2026-07-26T06:58:35.925267+00:00",
+  "type_counts": {
+    "domain_suffix": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DuoWan_source_ee7a6ce2349a33f4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0122896bdeca2e6a81b3ab5916e891b26d8b546765eba5cec40ca53c82a8501",
+        "bytes_sha256": "a95d6e9353e2e84e31c125cfe31ec69609c55daf530b22a75aa3cf99a31846ba",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DuoWan_source-srs_b28256832fd0ff07.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dd2941cbaccfc0863f3f82e3ab49ecd0b5c969402b3f654e6541d41b3c24b06c",
+        "bytes_sha256": "b148450d00334ebe60b4ab791a5215897e57865762e3d3e54035d0cfe994ff9e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DuoWan.list"
+  ]
+}

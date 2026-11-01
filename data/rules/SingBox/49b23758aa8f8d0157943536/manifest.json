@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:59:15.414049+00:00",
+  "client": "SingBox",
+  "rule": "Deezer",
+  "rule_updated_at": "2026-07-26T06:21:42.990486+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Deezer_source_8d825a231f19e936.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0da8941971c9c8a7785f5d6dd1cc21900a60d358f2e8c727689dab0bd68f6cef",
+        "bytes_sha256": "19eb2f8760e274e82039b828677aeeb25cfb1d591376f097481b521767caa960",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Deezer_source-srs_c51c6c8814f9fd64.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "58d9c7b07059a1dd6d3b0e5485eaafbd5efdc75ae40f8c2df9f93588f38cc36e",
+        "bytes_sha256": "0b976f6e0a23015524fd658e49d158022f2ce23fd960243ca2f1e9b36a030648",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Deezer.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Deezer.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-18T01:31:43.243348+00:00",
+  "client": "Egern",
+  "rule": "Kingsoft",
+  "rule_updated_at": "2026-09-18T01:27:01.459131+00:00",
+  "type_counts": {
+    "domain_suffix_set": 264
+  },
+  "total_line_count": 264,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kingsoft_rules_4a3ffaa1f2ae7425.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ea96e864563b00284ed1ec974386e229dfaeeebfd3e3f256400bcf947f0aaab0",
+        "bytes_sha256": "2d7c93ca38c8547717139d1f9533e08cad1a34378135c95fe085962df4a7e0fd",
+        "semantic_sha256": "2d7b26cd12a71e96069f9f7dd461db797d604a847f174a937a3a8525dbccf865",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kingsoft.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Kingsoft.list"
+  ]
+}

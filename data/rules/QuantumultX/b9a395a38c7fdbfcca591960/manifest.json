@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:11:22.234095+00:00",
+  "client": "QuantumultX",
+  "rule": "NoIP",
+  "rule_updated_at": "2026-07-26T08:34:08.955381+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NoIP_rules_c41d6d3ad56c70c7.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0096a9969c453fbac61e915e0256590ac64d544c6831696cf442300cd0fac253",
+        "bytes_sha256": "b64a872dad0d0b397da8396c23f448a411cf439d3344a609da7dcc1f1275c035",
+        "semantic_sha256": "1effcce61f0be958279da2dae3f5b48293cfce9d5f7afe5fb09bfa3ba900df0f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:35.668431+00:00",
+  "client": "Stash",
+  "rule": "Blued",
+  "rule_updated_at": "2026-07-26T06:30:53.332649+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blued_classical_ac54b299777fed63.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2b31362086194bcc3e98ced104265727ee79d8da9db1176403dcb5e63fef82e",
+        "bytes_sha256": "ec583ed77e84f59bd07162b1ebb3bbe3cae4d362e67b7d66dfad16fb54270ef7",
+        "semantic_sha256": "33ae6bf1aed937eab288a027eda4e1ada1b805fc868f33a74513423aa0ce653e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blued_domain_e6ef04dac66ec9c7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eb88555b31addf7f8253a7d4009d1296a2f4022c5292b4a12ba71584ce491a1e",
+        "bytes_sha256": "54c7505bda00f9d661c5c68fbe663692f52b23cc041dbd85fcf6f97c1b1a3ac9",
+        "semantic_sha256": "11fdfe7e35735662122c03a2dff4ea51ed68db815407a54d3ddfea15226e0602",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Blued.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Blued.list"
+  ]
+}

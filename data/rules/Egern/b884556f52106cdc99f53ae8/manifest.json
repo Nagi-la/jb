@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:06:08.811049+00:00",
+  "client": "Egern",
+  "rule": "Intel",
+  "rule_updated_at": "2026-07-26T06:50:53.909577+00:00",
+  "type_counts": {
+    "domain_suffix_set": 296
+  },
+  "total_line_count": 296,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Intel_rules_9af794aed200e72d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7781dfb56ed26f576e2d6d4affc591618c8dc5570470a2f8154187ff645ec779",
+        "bytes_sha256": "721abc90f618a7b73c157d399208b6eab3c7b374f2401b60eb139ce4b5e981ac",
+        "semantic_sha256": "ee51b73c5f9697e11da4597e0937f1f84db079cff3878d87c2c9cefb9dce673a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intel.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intel.list"
+  ]
+}

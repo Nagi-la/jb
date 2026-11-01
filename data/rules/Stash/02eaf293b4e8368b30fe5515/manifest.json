@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-10-29T03:13:48.100821+00:00",
+  "client": "Stash",
+  "rule": "Spotify",
+  "rule_updated_at": "2026-10-29T02:37:38.307255+00:00",
+  "type_counts": {
+    "DOMAIN": 10,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN-SUFFIX": 23,
+    "IP-CIDR": 1,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_classical_1c7784b68b72f612.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "80d29bfeeb0343027fd45200da44a807c404cde634c8b1a07a457cdf710237b3",
+        "bytes_sha256": "05ae808c38be36581ccea0286dcb469eca2511ee68c4640ebd4c42d63d37dce6",
+        "semantic_sha256": "aa6a4750278c32d7019315e6a0a8223f94179e573bea28e5e1db3f5779792d5c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_domain_3f448badc2106db9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cef7a2d3e5c6cf7d1d9e388bc1da1e7ffb807f42ffbe6d90a0ef9a47f29a32d9",
+        "bytes_sha256": "c6b13b855dc22a8a5e617fd177f529747139ac245adf245198af1536cadae34d",
+        "semantic_sha256": "5f77ac03d43c341b6d75920027e6bc3dc360d8849f391c65bf2cb04d76d59ebe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_ipcidr_2df3bb581bc5d278.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ef6752952ed27266657854f03d33f306609cc325a5a0d867cf96e2ba1314a0d",
+        "bytes_sha256": "61cd48e46402e6b0bdbe42995911461b422be6d7f13a2259d079e83339f60ad3",
+        "semantic_sha256": "337d5b58253971bb7a552fec3f295eeb0fef73268fb8b283970f805d3e394316",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_classical-rest_b3e912f137ada914.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c8952a8d767aea35396f99e10bee3928ab3b234af0a13d6153b497bf065d096",
+        "bytes_sha256": "4de6320e121a07894280b60b08e0061ccc3bb46113d1e7a92c3871ccfa2100de",
+        "semantic_sha256": "90f6076dd301639047a60eae1288e56eca3e73d8ff0eda67dd38ac3a8c6f1f8f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list"
+  ]
+}

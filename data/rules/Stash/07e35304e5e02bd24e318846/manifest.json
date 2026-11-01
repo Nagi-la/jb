@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:48.813824+00:00",
+  "client": "Stash",
+  "rule": "Grok",
+  "rule_updated_at": "2026-07-28T13:21:10.799168+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Grok_classical_a6f6c20793a48fed.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50b4e08a818a3d92cdef919aa532ef57e9ec1f2d4098424f60dcff626d43c43f",
+        "bytes_sha256": "0a03f29d440dd1a4aa675ce06571b255d7bc32287186d20b768bddc904c187e5",
+        "semantic_sha256": "1026be6eb24e27b726c31c03d683c7ed6fa2c32b9159a1c0d5a3d21311b0630f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Grok_domain_7ee36f343a7ffd22.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fa19816edae88bf2e45544a672e3c33457453ff935cc10fd7c4ef41f5c2bf80d",
+        "bytes_sha256": "7461c18a54ed45cba069fe4b365d44ba920ce60993b2e47c27e5a8dc0ab7abae",
+        "semantic_sha256": "d84efe4ab14b9a948594d3df0c91ed4b3e87d1a698407c471eb97e57d8d8f682",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

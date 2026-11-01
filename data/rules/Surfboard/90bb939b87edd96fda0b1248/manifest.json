@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-27T01:59:34.213986+00:00",
+  "client": "Surfboard",
+  "rule": "NetEaseMusic",
+  "rule_updated_at": "2026-08-10T09:41:21.331651+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 13,
+    "IP-CIDR": 35
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NetEaseMusic_rules_61449c48b7bf4a16.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35fc06742ad3f4103b85423fc284b8c100cbedbcca9e954c1558591b5d7c73cf",
+        "bytes_sha256": "58f3abfcdc9d69f47a7cb0081acd743b1a05c8f9aee50a30f244272ee53fda06",
+        "semantic_sha256": "ee64474f91bbe3a8e88c98923329a41fd984854a57f684b597058c94be62842f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NetEaseMusic_domain-set_5e28d0389585d243.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4d86b2e1b207b0ab5c2ee2743299d37c6070f5684bf3074f6ad5d939fab21a97",
+        "bytes_sha256": "bd42cdad9d309625f9ca987e9feace2525ff634edc9955edd2a9d396b9bfb8ac",
+        "semantic_sha256": "359d32521b871862c7ce81f7c55759668af3bc738032ba7665d58ae97398f751",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NetEaseMusic_rule-set_9e4c15461ba90306.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "202f20a2546c8fdbca24253e0935a1f3fbcf232cf24240387b4c7b0048afd418",
+        "bytes_sha256": "74b80e8bca4a64bcf82cbc89fd7cc20469f366fc3bd19dee3e2ba0c1b2d0cbd8",
+        "semantic_sha256": "e1baf45c4298a5ccac27e11f698a447fa32d59affb335c0f325f587e0ac23c67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list",
+    "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list",
+    "https://ruleset.skk.moe/List/non_ip/neteasemusic.conf"
+  ]
+}

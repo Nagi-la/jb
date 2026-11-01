@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-10-29T03:16:40.878905+00:00",
+  "client": "Egern",
+  "rule": "Lan",
+  "rule_updated_at": "2026-10-29T02:37:39.171832+00:00",
+  "type_counts": {
+    "domain_set": 18,
+    "domain_suffix_set": 124,
+    "ip_cidr6_set": 14,
+    "ip_cidr_set": 18
+  },
+  "total_line_count": 174,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Lan_rules_53dad82c5f61c57a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b830485e427b7fd52aa378a29a32201bcd95ec3ecb0baf2fd2a0e05295344e8",
+        "bytes_sha256": "98763049d98b8bd88ba7530562ecd9f881827149ffeb82930ccd7bcb5ccd4220",
+        "semantic_sha256": "6454b03d81c498cb6d8333a36492e7a68e5267c52f0de4e241f2692fddcb162f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/LAN.yaml",
+    "https://ruleset.skk.moe/List/ip/lan.conf",
+    "https://ruleset.skk.moe/List/non_ip/lan.conf"
+  ]
+}

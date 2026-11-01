@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:51.801882+00:00",
+  "client": "SingBox",
+  "rule": "DMM",
+  "rule_updated_at": "2026-07-26T06:49:40.564857+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DMM_source_ca90a105c11fe674.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9725d79ee36c803ab78a79904adcdb40744d6a0c44e4146edecc289658c9cb52",
+        "bytes_sha256": "880ef796c19095a13369006432a8174c78d395ae0522bb0b3db3790015900e40",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DMM_source-srs_7abf31182c2c41cd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2e7fd5ef67ead98bd89d16e7df787bd9989ef17a0d36088ec82adb1fd1ba2a3b",
+        "bytes_sha256": "42553cc29358f4f9d6577c2fcb8c2fe64e4f662ad0bac6fbf8a811d3ab48ad55",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dmm.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DMM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DMM.list"
+  ]
+}

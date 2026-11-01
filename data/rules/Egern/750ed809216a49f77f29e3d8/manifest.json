@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:14:19.792133+00:00",
+  "client": "Egern",
+  "rule": "KKBOX",
+  "rule_updated_at": "2026-07-26T06:22:16.983079+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KKBOX_rules_0ea8944f3da4744a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b00c166dd99220c82935ca0d162ef20bb257c80139fc9ef2cfc63ce453a07c5",
+        "bytes_sha256": "b837138ca40929985ceb322cdbf92f59b3216369188e11284d57bee0a6646d44",
+        "semantic_sha256": "a817389354764595b7fdec8a80954cef746af58072c22ec0a1450d183ee37c39",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKBOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/KKBOX.list"
+  ]
+}

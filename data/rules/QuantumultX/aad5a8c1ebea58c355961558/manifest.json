@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:03:51.038179+00:00",
+  "client": "QuantumultX",
+  "rule": "NBC",
+  "rule_updated_at": "2026-07-26T06:58:19.808989+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NBC_rules_fbfaa2b7b28eb22c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58b5fe3f5e27d1f53ecb627c6d741c30d4f6144ee3261a5470f92c25f53bbf90",
+        "bytes_sha256": "38172f9e5c929cb47ed85fc06c0d695fd840c4f9e0d4943c829da39438b8a72a",
+        "semantic_sha256": "59c9ffedb24b196d463defcbc0305c9e5cc3bc9d99ba62a04637e48ae8c3c903",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NBC.list"
+  ]
+}

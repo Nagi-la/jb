@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:58.007429+00:00",
+  "client": "Stash",
+  "rule": "Antivirus",
+  "rule_updated_at": "2026-07-26T08:24:50.178819+00:00",
+  "type_counts": {
+    "DOMAIN": 98,
+    "DOMAIN-SUFFIX": 68
+  },
+  "total_line_count": 166,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Antivirus_classical_6ec1b3ab23541f7a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b588ae72c11bdefae927ddf4627be9d484ed8bb8c694a886de93df4a3f79ae98",
+        "bytes_sha256": "e6ae23bffc0b767f2791d7a1c0e5fc12ba8ac3c751b1de15da1fec213b15a305",
+        "semantic_sha256": "fb203b63e9b6258eb5a640c524a8cdf41715a80afb73aa593e1fe7c68e1ab868",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Antivirus_domain_4cf9240e73430a9e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6bbe7c96c90125eb83f6b51101d68c59e4bb79000c69a13b06c78bc649696b57",
+        "bytes_sha256": "2cdc868856b0e1a1e0946818a717b5f7213ba485fbd633246da65275a90f1a7f",
+        "semantic_sha256": "6190d7fe2d5fcef034e1426ebcb55e98103d7ea710bed2335ad2b6201ca79c5c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

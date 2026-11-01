@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:40.882919+00:00",
+  "client": "SingBox",
+  "rule": "Nike",
+  "rule_updated_at": "2026-07-26T06:52:41.549345+00:00",
+  "type_counts": {
+    "domain_suffix": 196
+  },
+  "total_line_count": 196,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Nike_source_02028174deb9a8ee.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f92649508c32a3cfbc026e6f3887e28d9c2d97cff3e78ae28f2c3ba56f4473c7",
+        "bytes_sha256": "8fec7a54edf5f9398bef6b87c4fba8ee48821dbd47b4b5baabe133252a9423d1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Nike_source-srs_bbb42720da3fd8c4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c918cbf20957dbfb7131fc423c0b57aa4775f0a11785bab2ea87da8aa24594a0",
+        "bytes_sha256": "cdb5cc6e5f14500d2c4ae0d63e170716f577ecc3589c9b6725382088769e9cb8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nike.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nike.list"
+  ]
+}

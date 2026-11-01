@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:05:01.521255+00:00",
+  "client": "QuantumultX",
+  "rule": "Brave",
+  "rule_updated_at": "2026-07-26T08:21:14.566425+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Brave_rules_aa9d60f6db30fa0f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35a72909e31b5859efc071c62a17be02038f2ffbefe33c881634e650931a0890",
+        "bytes_sha256": "a9c5bfe5975a01d0e52102def658a19336b59e6649be12a5cba06a9fe41a48eb",
+        "semantic_sha256": "65c34b05fd1873fa7031a842baffbf66c6e14a925c1d7258315b0bd82367dc77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

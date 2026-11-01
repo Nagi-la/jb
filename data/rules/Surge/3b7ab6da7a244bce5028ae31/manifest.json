@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:53.258414+00:00",
+  "client": "Surge",
+  "rule": "AirChina",
+  "rule_updated_at": "2026-08-10T09:41:21.137790+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AirChina_rules_5ba47ae68d1637f4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c20de8eaac02f0d54e97684a447d5bbcd7f03009f916b1f3804e6b506bfec81e",
+        "bytes_sha256": "0f276c2a951e6d6b6360b784ad0368758201739e56c7cb0008938190d914c22a",
+        "semantic_sha256": "97a1b6b9b8ccdd2773af545cd26c5192e74c132b61bcb46790acf93a2024e5f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AirChina_domain-set_5f74667e6f612d93.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4440f817af33e5466ce18c9004195cb20b3bd5c99472a7339f0ebe8ebc8ecf46",
+        "bytes_sha256": "f4e42357c1458825c1131a0733a71743fd1e4501a2c8e0f8f1b1a7b60dd0697b",
+        "semantic_sha256": "507449bd1e297d7a035c6e3bb66aa1e5e3de7afafe423075e1639e548723f662",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

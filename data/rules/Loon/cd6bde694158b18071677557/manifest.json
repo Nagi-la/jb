@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:30.106251+00:00",
+  "client": "Loon",
+  "rule": "TencentVideo",
+  "rule_updated_at": "2026-07-26T06:45:08.041253+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentVideo_rules_4f3433b7de0d497b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d04abfb7c0ff376ef952904777a2cc524d86c4f697c25ce6a6c744c1799110f",
+        "bytes_sha256": "fa687c78a65eb893c2a8287b28d9ef94c4e2df6962802fa02ae49df21eb604aa",
+        "semantic_sha256": "27d0565da9853ef8ef6b3fde1db25ebfa28a5fa97c26e1aedced86bb63e89853",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentVideo_domain-set_305152efc9ed418a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d4f015da8fda31e9c067bd2e7e0babaed65f29a2e675f8df85d34b2f1b0452c",
+        "bytes_sha256": "f7cb4ba63cca8e0b065a42db4a73f11e1caeabae80496defa91e4488cbcb4be0",
+        "semantic_sha256": "616d13a5146ec636c9d8d071b4315117a3f6891af7bc1d4ef64a45f36e56acbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:08:41.921903+00:00",
+  "client": "SingBox",
+  "rule": "KuaiShou",
+  "rule_updated_at": "2026-08-18T02:22:32.748082+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 691
+  },
+  "total_line_count": 694,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KuaiShou_source_43e80231f7ac8708.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "03ac5e92075cfb248e584955fea1044fd86b987f1c68ce76289bc9f88ddd3267",
+        "bytes_sha256": "bf821ed44cd7c6090a4e5bf657f4ce053dd1fd36b1bd5266936c8c679901d44a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KuaiShou_source-srs_3e2549e0a527b920.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dbe02c86ebcebfb79f2011f44945f95135edc057d9e91bee5c10335050dc6796",
+        "bytes_sha256": "0286b62e02252c172669c7b2437f5d743933f290be79f5c104dd97ef28171f0e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiShou.list"
+  ]
+}

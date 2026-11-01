@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:11.008487+00:00",
+  "client": "SingBox",
+  "rule": "Vimeo",
+  "rule_updated_at": "2026-07-26T06:22:40.032281+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Vimeo_source_93c5b557da1e7296.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "87b7a5758f3b3805e0da1d87a8201359edc07d1434992b0e592f453217c23b01",
+        "bytes_sha256": "7ee36a0ff3afde779444cd853e97eb386ddbf63771443dcd32c0e8dae2250720",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Vimeo_source-srs_4f2ddcd0c9d2ebf2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b95d2a265f65f1bc786614b035d35f3aa90bb4b77a6cb789ed63c8a93445f5ca",
+        "bytes_sha256": "7fcab943acde7c3ce2f5cee95c69c0562087ddfc9fbeff94083ce14d69f29153",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Vimeo.list"
+  ]
+}

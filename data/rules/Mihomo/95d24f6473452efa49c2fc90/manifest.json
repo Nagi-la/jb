@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:14:07.696753+00:00",
+  "client": "Mihomo",
+  "rule": "UC",
+  "rule_updated_at": "2026-07-26T06:28:37.303288+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 42
+  },
+  "total_line_count": 42,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UC_classical_62cff65208f111fe.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6617ed4d02b3b16406e770b3ed331a565e4913a9fad64a72f8d98f42c0ecf10f",
+        "bytes_sha256": "95d24d8f550a13ac55eb351c2908693d4b9cd0aa2c2a9f28a6a5db86f77046c4",
+        "semantic_sha256": "63bfe955000ab271f455aae48a985e320c9df1c3d9656ede0c49176ae18c0341",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UC_domain_e30d4c21d8a95e08.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d4cbf473c3b9aed2b770ad2724edbbe40b9c75c65dabc9eacdbb018141bdc12",
+        "bytes_sha256": "2687b357ad90cb001c1c56c6abc698ba338b8bc2eb1fcd32322252bca8e87b7c",
+        "semantic_sha256": "3eec81724782820092dd1533ec2e9510dc6d24c9d969610a9812191490d19f32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/UC_domain-mrs_b0fe202e9d232d5f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "25a8e249e521bb0a86b5b7ca303b19df86bb25592413147c443aa9bf64041029",
+        "bytes_sha256": "5ba489be53b725346cd061b71f2821d8a2e444cb3403b40916fa16378ab04f36",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UC.list"
+  ]
+}

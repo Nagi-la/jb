@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:24.580510+00:00",
+  "client": "Surfboard",
+  "rule": "FlipBoard",
+  "rule_updated_at": "2026-07-26T06:29:15.403602+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/FlipBoard_rules_a3c03e77c812c9e4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a407f45a1f8219095953a8dd27f0f485f7ff282641d5ddfc1ce4839e4e38eeb",
+        "bytes_sha256": "3a5710e7a0ae581274228d2efe3893dda1c07853ee6d814c791ff0d61316b72e",
+        "semantic_sha256": "dcd8f41576c6f8af3a41286dd47a8d1adc6ad8b42b279d937e9a997599660812",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/FlipBoard_domain-set_b7d98cf4b900246f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9aa917c65fef54c6f6d61833edcfa1398e80753073ad7ac5ae0b65cb2020a092",
+        "bytes_sha256": "34c87ce8a130796246bda21a1b738194bea2e8bcca23c6e0a43beb82295c88c1",
+        "semantic_sha256": "24081d2d94a783fa1f51082d56f86a5bd38b9821bfbaab4b04215c69b3667003",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/FlipBoard.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/FlipBoard.list"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:04:33.414436+00:00",
+  "client": "Egern",
+  "rule": "AppleDirect",
+  "rule_updated_at": "2026-08-10T09:41:20.573511+00:00",
+  "type_counts": {
+    "domain_set": 5,
+    "domain_suffix_set": 22,
+    "ip_cidr_set": 10
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleDirect_rules_34bad818fbfbf0e7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "def7beee8ca045e70cda7938cffd024890c27b098157702375da3ee709cab622",
+        "bytes_sha256": "7607a8900e970dab48a2d8a8fe8f9b79dc2dcd9a547c655a5099c66a6d030cc7",
+        "semantic_sha256": "87d50d000a3fa8c31447108956e0dc13eac991c1ca66835c8e2eb712fe33da03",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
+  ]
+}

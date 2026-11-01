@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:12.308876+00:00",
+  "client": "Loon",
+  "rule": "iTalkBB",
+  "rule_updated_at": "2026-07-26T06:23:01.166852+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iTalkBB_rules_82851cf86f9adc27.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a7c7a625ed92ee952b77450ceabc90e95c662322ce3a6850ff2e234c9b92c0de",
+        "bytes_sha256": "f07cf11bc67a5b89177cb27bf6430fea6bef40e5a156bfbd6187a4ac11c2eab6",
+        "semantic_sha256": "c2667614ed0eb4ef555831b9d99ef686c777b585d296478c18888e82f6110dd5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iTalkBB_domain-set_569e64d2d8eabbf0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c64004460950d4d314823773f5f65d99e6ae5e61e4555d378fb454eecb165d2d",
+        "bytes_sha256": "ed8c4ee1488d7fa3c84c6ceeab97621116f1469ed45818fb865f0826cfd66c01",
+        "semantic_sha256": "a3accc7f9c82ecd7d3a8c28223b987903c99fb6aa4b0ec206aca2508b8110b9c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iTalkBB.list"
+  ]
+}

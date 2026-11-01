@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:40.315576+00:00",
+  "client": "SingBox",
+  "rule": "Dewu",
+  "rule_updated_at": "2026-07-26T08:31:52.165569+00:00",
+  "type_counts": {
+    "domain_suffix": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dewu_source_790891b0f35f3ebb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "181107d3c32f8036019603ffbd81750023933ca74a9705aa4012f24d29537a5b",
+        "bytes_sha256": "bfb086940081244151c3737678c4abd8ddb3f5109b8cb3bd4e95e79c9f952744",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dewu_source-srs_3cd104cb9e017fe9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eaf759a79199e9e17ea496e470054eddfff2209061c8e1f9f17d27de48864c5c",
+        "bytes_sha256": "2bd79f8688b434b7c8dc746b4acad38c8c856c6c2da7a0b0c51b1ee0cef2ea15",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:02:41.131512+00:00",
+  "client": "QuantumultX",
+  "rule": "iCloudPrivateRelay",
+  "rule_updated_at": "2026-08-07T02:23:28.194749+00:00",
+  "type_counts": {
+    "HOST": 7,
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iCloudPrivateRelay_rules_43448794bc22cc96.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ea033de6922723f7e08ef3895fc93fd28d215eb86bf31c105793941f84781d1",
+        "bytes_sha256": "737e527ea3f2b64a123d0d5aa7f0c1c4443b59d1d31541f5709efac290b354ee",
+        "semantic_sha256": "1ba79f827db12dc2f45599576285e899268251d1613d969761c9809e59808367",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://ruleset.skk.moe/List/domainset/icloud_private_relay.conf"
+  ]
+}

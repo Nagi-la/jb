@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:12:12.328332+00:00",
+  "client": "SingBox",
+  "rule": "JOOX",
+  "rule_updated_at": "2026-07-26T06:22:11.105987+00:00",
+  "type_counts": {
+    "domain_keyword": 1,
+    "domain_suffix": 1,
+    "process_name": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/JOOX_source_eba65adfbc9762c3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d4c3e93dfaabf2213101da60b320ebeb0e266e3d1dd252906c9f3de46b3007a3",
+        "bytes_sha256": "75d92a7b613ea39eac19e47a383931ac9323631072024f110b4ab1fa25cb5509",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/JOOX_source-srs_92ca89dabf003cd6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c31006111c8b38012e0a7a46b50a3e3794fb3ef939a417899b839bb73fe7e3a3",
+        "bytes_sha256": "c646583f5bb9d67f4e9386cb9e28b3c4ec1b0d5b2ccc8479514938ea253fb48f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JOOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/JOOX.list"
+  ]
+}

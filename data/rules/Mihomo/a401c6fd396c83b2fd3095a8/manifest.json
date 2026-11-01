@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:57:11.086564+00:00",
+  "client": "Mihomo",
+  "rule": "DanDanZan",
+  "rule_updated_at": "2026-07-26T06:24:30.350740+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DanDanZan_classical_c040cd07d552c677.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07117444b7a4ec3a167ab8bacc6eda6410289b3745d4145ea4c3dc7c7ea96cb4",
+        "bytes_sha256": "d22882324499acb9b77832b4bc0984eee2664f0903774397e3b84dd4e08fc0fa",
+        "semantic_sha256": "ad81d1f12ac49674393f1f3b6442052bfa9b7cde4df28c282de2bee7c3fa49f9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DanDanZan_domain_6f0bb483585aea3a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0e5846de6c68d6ec0aa507392fa45698707ef3339699244db8d7091aff4e64b6",
+        "bytes_sha256": "f384e1b548bb2db560a85a877af93e68a0149c667d77d47b92548c48ef9d3457",
+        "semantic_sha256": "5457a64a8f07afd6c86acd54fdb326855208585b0354b36c7c6946eff90b9c00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DanDanZan_domain-mrs_0da06de953715140.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b21b7f5a4ccda462ad7e73deea0ea4bf91eca3114f05ef16192dfca1e4a7e543",
+        "bytes_sha256": "09bdd6e7a12519b05b7e08d3c26dd9467a5e2daabcfdafb4a00ca678290be3af",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DanDanZan.list"
+  ]
+}

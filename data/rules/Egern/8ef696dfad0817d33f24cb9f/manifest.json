@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:11:47.578592+00:00",
+  "client": "Egern",
+  "rule": "Grok",
+  "rule_updated_at": "2026-07-28T13:21:08.920289+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Grok_rules_95e98ecd4954adb6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81dab771e49d1d2257704c17daecdfbf183dd6a5edc4b9147a99550335e4d510",
+        "bytes_sha256": "e9e6f4a7349a7e773bf202b83dbb9178a138e199b456291bd0fda999a3ca43c2",
+        "semantic_sha256": "34692d9f0413df8f6873d01e7319fc26375b074aa8a2f568d1bfd95b151041ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

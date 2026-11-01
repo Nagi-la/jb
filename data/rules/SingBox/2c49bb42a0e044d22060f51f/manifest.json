@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:18.260871+00:00",
+  "client": "SingBox",
+  "rule": "HKedcity",
+  "rule_updated_at": "2026-07-26T06:29:26.709117+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HKedcity_source_6092f98e4250f9bb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2132c7c2a3e88a58c0cbaec27392eaeb2bdb2841ab5e8493a02629a35eabffde",
+        "bytes_sha256": "8a393c468f0f54ee20edfdc84c431f453a6271aabd4907770df6d0fa6bfb5c80",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HKedcity_source-srs_41b9268a40ebf670.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cb53646cc2fd5383593f7a2641ac394b7020aef741ab13aa52828ef9e81d2220",
+        "bytes_sha256": "9cf4866dd07919d7676fc29ccc40cfa152d857be4de52eb4a9b2298646a02dd3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HKedcity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HKedcity.list"
+  ]
+}

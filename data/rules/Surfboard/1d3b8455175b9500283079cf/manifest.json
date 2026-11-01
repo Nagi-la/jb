@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:48.921944+00:00",
+  "client": "Surfboard",
+  "rule": "Grok",
+  "rule_updated_at": "2026-07-28T13:21:11.676668+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Grok_rules_1686b96ebfe522d0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "908772b80c351879d58894c855b15a648b6773cd3842b62304d2f87a39d40dee",
+        "bytes_sha256": "8d25aa798fc59da69d3c1fd12ee7b90daab726ee48fb15eff932e4a3b660e3e4",
+        "semantic_sha256": "9c8db3a116f729ec4ff7666e42b3b6a6917fcfb80e68294b8c1286ae1589944d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Grok_domain-set_88244adeb58f325e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f71ad6564a490f4b630ea69336b61bfac1a54c2e75a2fcc61f25bb25346fb68a",
+        "bytes_sha256": "bb488bc3e3360ce7529bac3765661750aaf9e187c68a974517b9dc9a927bd73c",
+        "semantic_sha256": "f45508e07d9b40daa7c9d5f6d96b162bc9d0f38319e8905bd1aa507510badab0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:04.290524+00:00",
+  "client": "SingBox",
+  "rule": "Logitech",
+  "rule_updated_at": "2026-07-26T06:51:20.677314+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Logitech_source_82aa24788971ac5c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1adcbc91087d436c903b0cb5541e7f79180b1f5c582fe73f815437cf49cd9f46",
+        "bytes_sha256": "91970722afa3c2255e90c30e43afa4850ca25afd1709a9110c612d08ecfaaf32",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Logitech_source-srs_35c959194537d5c3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0ac619b54ac771a507a5295464f05e01c5d01b19ca6db37f007e9871101b7be6",
+        "bytes_sha256": "1e5f807b6bf7af77727ed260a1fbb1ab9c3f61b0ba2d1e94ee3ad4a9867931d5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Logitech.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Logitech.list"
+  ]
+}

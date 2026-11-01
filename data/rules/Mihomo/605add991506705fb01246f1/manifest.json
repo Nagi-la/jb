@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:06:27.934915+00:00",
+  "client": "Mihomo",
+  "rule": "Riot",
+  "rule_updated_at": "2026-07-26T06:32:28.058322+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 54
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Riot_classical_b6b81b5668222c10.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d5efdd0e07262d0c2f4aef93ab89316aa42c993db31e56ed1f5d798a9bb2b0a",
+        "bytes_sha256": "e76ae7d5c0fdf3f92136b477540bf19b0fe0bbbe95b09b7efcb5f9d56f6ae2ba",
+        "semantic_sha256": "296c62e84886c5008e178e8f7c304bb1260dd6cacbb27595a2f3d16bdaae6498",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Riot_domain_36ebeaedf84c82f0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee0a5a3870dce346e03183385970f57e15cdf6f0bb1008368431b9c76930cfb5",
+        "bytes_sha256": "ff36d3d906639719cf66b794c1a23d04aa4201e867c33710a32feb7c1db1c9d8",
+        "semantic_sha256": "b84aa2f8295c501fd4ad4f4c736486bf21b7395a04a3094ea2fe549b288ee958",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Riot_domain-mrs_c4d2cc3a77aee598.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6d217fb4cf31430fd48e2008fb96d4371b5ca6fc38953d0477953a1246dad98e",
+        "bytes_sha256": "8820ed481f952b505a0be8583eeb94544c7f9fc256aaea3060cea6695af6a6a7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Riot.list"
+  ]
+}

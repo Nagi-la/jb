@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:02:54.196435+00:00",
+  "client": "Mihomo",
+  "rule": "Gucci",
+  "rule_updated_at": "2026-07-26T06:29:24.332955+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gucci_classical_ca01c961868e7fb5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb97970484101980d56dff233a5bee78631644dbe75ee4e65f7db8aff8db1d48",
+        "bytes_sha256": "6a94e09c76aa04afd59889201cc46cecd756d7ba9d7236365009163f90db66e2",
+        "semantic_sha256": "c2aeff1f3e36472d244cedd5fa208f6b0472c85fd637c0eb3331deb27d17b991",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gucci_domain_c467927145778a83.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8fbb835177fde5da9a06d9a30005054b0b7c88065477652021e51ef5b907a208",
+        "bytes_sha256": "43af46408b1128d045931850f8e98446181b31aef326b71d6882b9113f803501",
+        "semantic_sha256": "9730c0f3893fb96d4945c32aecb583117a01938daa591012385e8007d900e9c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Gucci_domain-mrs_86d9b456fa422b5e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "93ebfe7d934089dc59ebcc0c09321cfd5467f3dbfed035576c9b88472e7beee8",
+        "bytes_sha256": "1d74d435988f6bede2ffa6d3e707123dc1a25116b7bce882541347d58e1e4714",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gucci.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gucci.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:58:13.592126+00:00",
+  "client": "Egern",
+  "rule": "Samsung",
+  "rule_updated_at": "2026-07-26T06:54:11.023046+00:00",
+  "type_counts": {
+    "domain_suffix_set": 28
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Samsung_rules_2f820f37d7a01961.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf6bc2157836de627eb507e8d3278508fd7f65ad5498fa4502744db32cb2cb1f",
+        "bytes_sha256": "763924b1a1f6116661851c7fe832b3011cc1ab19fd97bfcc682d001af2e2b979",
+        "semantic_sha256": "d8d4fc2c0fe64c880a696b932e3b7141d5411e3fe2f61240ff464a59bfa490ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Samsung.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Samsung.list"
+  ]
+}

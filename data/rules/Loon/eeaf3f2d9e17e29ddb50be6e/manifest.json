@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:01:37.824000+00:00",
+  "client": "Loon",
+  "rule": "MicrosoftProxy",
+  "rule_updated_at": "2026-08-07T02:25:02.852496+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 80,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN": 1
+  },
+  "total_line_count": 84,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MicrosoftProxy_rules_914b77f751206d3e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ded034845adc76d50ee168f52d14ad8123fabd41fc315fab2110e5a3a05b8c6",
+        "bytes_sha256": "a7aab5d10904505e4b0b8b9b91fa0a9e9ced5eed798d7a899a25d92167a96dbd",
+        "semantic_sha256": "cdff862729b28382c76496003b4e3b181e0d97c94b1869a1e3fb63fb70248a6c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MicrosoftProxy_domain-set_755462dd145a59a7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6207315b9558ff0dfc06464cf44ecdfa570eea9c72e6ef9ef10336f0a8fb1b88",
+        "bytes_sha256": "57e488b2908e5502fc2036036ef6cf3384e92479aa65b41ada383a9b89a4cff2",
+        "semantic_sha256": "b4120b47a4a0249b665079949a6c3857671653b477bbeb5930ae83445f5a6ab6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MicrosoftProxy_rule-set_6a52c39e425742c3.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b663f0355d380e5840d3528c00501faa4806328b2cfc1cf4f1d108b0e880a05",
+        "bytes_sha256": "a23bf72fb350f253a4980b4bb459458f6486a349a9541bf44dabcb4d3ce2e807",
+        "semantic_sha256": "3aee2d7ff18e49486b6f8ad47d8e547fd088ba3f40989832b36620a6a0086ba0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+  ]
+}

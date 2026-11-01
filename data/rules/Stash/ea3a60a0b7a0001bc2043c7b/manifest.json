@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:55.910431+00:00",
+  "client": "Stash",
+  "rule": "LeJu",
+  "rule_updated_at": "2026-07-26T06:26:44.134552+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LeJu_classical_068293c7e17c004b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "efdaa7986860297ec4838757094f70bb195b38b1181e813e04be07db8c7ba390",
+        "bytes_sha256": "e065086b969fee93782fa10dd537e67f088829f7dfa3c561f6ea646e506904a1",
+        "semantic_sha256": "35a6aa10d1e54af017c47b157749afea93ce8e49503b201af35e66bcaf8da42c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LeJu_domain_c5f3faf0b76ccbdd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2532e98df7143786f2b9a5c1f1f401f53807990fa300410dac75131fa4cc2b20",
+        "bytes_sha256": "603472ec685f25cd34cf9464155c5ff64ab9d466d040f4b38f7d36dfc640ea00",
+        "semantic_sha256": "e99f79ddc5aa2e85f9b860d53d23574ced6e533d0a24c365becaa5cab6cd78e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeJu.list"
+  ]
+}

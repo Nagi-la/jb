@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T01:58:25.796416+00:00",
+  "client": "Stash",
+  "rule": "OneDrive",
+  "rule_updated_at": "2026-07-26T06:32:58.575734+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 19,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OneDrive_classical_b66da0833f479d0f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c28b7c5684e941774577ee4cbb0fb151853784bacbeb0d629c7efd543387f1ab",
+        "bytes_sha256": "a58ab08298d1b05c97f4ab15f59cb00f18b3e1fa9a66cd89651db4746fdfe5fb",
+        "semantic_sha256": "166658bb1e45d7b879e3b3b8949d4f26c165e4d05586285e2458c61d567268cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OneDrive_domain_c4e9541ea7a06246.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f9270b3e8a94ba0d00ac35ef4083c279463fa0eac78ff4f613be030ec52a9b2",
+        "bytes_sha256": "ec796ab2406dcb59a3766d9d0eed6f0629c97b5ac9a8c3f9f642a693f80d8176",
+        "semantic_sha256": "2bc2ed087a46820526798a1b2d92c2ba1b7f1895f8fba48c4ce87930939aa4cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OneDrive_classical-rest_5eb402b058a25f83.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c569606e3c567354016db6f64dd3ca3a2454a0f16ebaff2c81612f442e48fbe",
+        "bytes_sha256": "670685cbd75ff93d0b0c94304ef47a7c314cd9822b6ab2214c040a8edb7a57fb",
+        "semantic_sha256": "091b326e1338acc49b5596902af120decf21db21c05474ec53101d733bc443f2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+  ]
+}

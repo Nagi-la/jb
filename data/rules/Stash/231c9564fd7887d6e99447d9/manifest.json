@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:04.464347+00:00",
+  "client": "Stash",
+  "rule": "AkamaiCloud",
+  "rule_updated_at": "2026-07-26T07:14:33.936819+00:00",
+  "type_counts": {
+    "IP-CIDR": 207,
+    "IP-CIDR6": 150
+  },
+  "total_line_count": 357,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AkamaiCloud_classical_5e9e432587d96bc8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35583de642868b315f3472e45c870659fa4dbbc9abf1156cfdf66b8a3ec477a7",
+        "bytes_sha256": "34df3500fbb54347c1fe6efa394b661b67f18ef970ab93da19928055d576ad81",
+        "semantic_sha256": "afb99b9ba628b7e6b17b63a52fdee3d17c7c7b3fdbda36f2c28c8cc28d974979",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AkamaiCloud_ipcidr_f9e35bca1335fce5.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6932b85efd21762da2ff83071cd016289bb369ebd41331995cfff64b8a47e8a1",
+        "bytes_sha256": "29455a0894184c5f842ca54b35aa4c335e3354b5e70c25a41466d00afa07d75d",
+        "semantic_sha256": "6d8e390ad8a657c20f93901c498a001ef7fff065fba5cb10b21049b8a109cace",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Akamai.list"
+  ]
+}

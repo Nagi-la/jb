@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:46.543222+00:00",
+  "client": "Surfboard",
+  "rule": "Perplexity",
+  "rule_updated_at": "2026-07-26T08:22:10.131554+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Perplexity_rules_22b649043ad75863.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "86ed36f2f6e7e088c26d8004da15443072527ee0ffde8a583a76c1d4c81c6415",
+        "bytes_sha256": "ad5e0ee5344c786d45dadd133d2719ab641d964b757a945b6f74e07ed9a0f5a8",
+        "semantic_sha256": "5351ee1fd2782c3f28c7c4b03c315e5e2923b72bfaf4bfd0c0288b5b1b4c55cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Perplexity_domain-set_9a992f1bfb9f874e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c657e2e0a8095d6e018e46cb24e9f4a535edb30002a9bf4b997ba5946540d55",
+        "bytes_sha256": "ac773eecefdb26afdbc066df0eaf24856ad05e67cf83e46c259e609c91e64cee",
+        "semantic_sha256": "b6ed48ae34971c9cfd798555357ee867c6894f7598a866a42b522137765c0435",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:55.135107+00:00",
+  "client": "Shadowrocket",
+  "rule": "Imgur",
+  "rule_updated_at": "2026-07-26T06:50:27.755670+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Imgur_rules_c4485e6f07a720a5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "97b88473f7f6c9ef539cdeff881d68094f7cbd28521d82dca424ed4f46e87fde",
+        "bytes_sha256": "1a3ad2f4fc2b76ee9f200597da86f90047a0390bd14216a00ff0bc0f88a9fa17",
+        "semantic_sha256": "d814d5d3c907a734695bccdc05f7b4ec105b08ca246e0fb6870d5d6f7b81597a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Imgur_domain-set_634c3f5c83574e07.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f72cd350fb6cad5f5a7b4b64bbe27ce582b32da811c00a45302314b5067d2d7b",
+        "bytes_sha256": "ecaba6dfb0af19124072d8db7daab0cf9aa6c68edc28501c47b20ad1c0f7f30c",
+        "semantic_sha256": "305da4a0947bf50d53b56065f9d45cac4edc35275a98770effcbff2b5ab38af7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Imgur.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Imgur.list"
+  ]
+}

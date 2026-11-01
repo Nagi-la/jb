@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T01:57:52.368231+00:00",
+  "client": "SingBox",
+  "rule": "GoogleFCM",
+  "rule_updated_at": "2026-07-26T07:00:03.842868+00:00",
+  "type_counts": {
+    "domain": 24,
+    "ip_cidr": 26
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GoogleFCM_source_1ab0e9ebbb8bd69a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "841bf496e205f60fc7ebb50f41e8344b0aa5fd0d7f8759aa5c69e2c51a490c7f",
+        "bytes_sha256": "48c3ac10986c9d45619268d3a45241c9f76267af7c820414ec52bab565f399ae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GoogleFCM_source-srs_6fa428f2720fb28d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5593451ce3544e81fb76071d584e369e155636de496702c83b4e4db03dd4c5eb",
+        "bytes_sha256": "f871c3fddb5c1dabc09d2013afa5c15ba68b4c7e48da587891af9f14124350d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Google%20FCM.yaml"
+  ]
+}

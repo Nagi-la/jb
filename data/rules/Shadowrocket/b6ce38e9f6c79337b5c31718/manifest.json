@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:58:32.338906+00:00",
+  "client": "Shadowrocket",
+  "rule": "Starbucks",
+  "rule_updated_at": "2026-07-26T06:54:33.122808+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 67
+  },
+  "total_line_count": 67,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Starbucks_rules_8002e37e1c5d9a4a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "662d274b7aeb21df336875fd0f87e1be32e532543c037aabc2426a04401ba59e",
+        "bytes_sha256": "d28b8ea2bc267b43651dd12343114293b1310589138b9338dfaa4cc132f98b24",
+        "semantic_sha256": "ca4cdca6e717bec8c80c9287aeed7545c5f4787ca3e6ed7f710a56b6b164cf57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Starbucks_domain-set_d52529665013e1e6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4446cb8070f7a8c61fb83d50f9a7f5da6a2ce13d28387aaa17e1c16606a32298",
+        "bytes_sha256": "071e40b227b086a568f30f8bc3cd1a9c39391ecee7a0d25e35e55ce19dd01637",
+        "semantic_sha256": "22cf60555eb8084c0cb7d8891e2a203e01bdca99f767b251e68e7426e11a0556",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Starbucks.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Starbucks.list"
+  ]
+}

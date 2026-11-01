@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:51.501334+00:00",
+  "client": "Loon",
+  "rule": "Oreilly",
+  "rule_updated_at": "2026-07-26T06:52:53.173347+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Oreilly_rules_6c417b3c6bd832a5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b537b0860edd0ccc550d266642da78e918a975fa2c728f2b3fd7c497f3a7eda",
+        "bytes_sha256": "d6646e6f8408c1e1c6da1ed65b7a0951fef686043fc09f4e6236e575a794be3e",
+        "semantic_sha256": "ace4f9bc95c171c12c695d39dcf89659967083066ac946cb7925987da5436b5f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Oreilly_domain-set_4df6ac4ebe276bb4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c846d91f3cfa642bf0cf6cb4deac1300106ba7c77c326af6db4ff02de397edb",
+        "bytes_sha256": "5c71d5efdab37741f52a3b09dc08c13b54ba6ed5af573f60381b0102f08d2148",
+        "semantic_sha256": "04de55b76af77b09888d3abd2c402afb9bc5354afc192272150d3fa4a3bcabe9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Oreilly.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Oreilly.list"
+  ]
+}

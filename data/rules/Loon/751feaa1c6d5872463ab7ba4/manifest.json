@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-16T14:24:28.807268+00:00",
+  "client": "Loon",
+  "rule": "GitHub",
+  "rule_updated_at": "2026-10-09T15:59:05.284886+00:00",
+  "type_counts": {
+    "DOMAIN": 32,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 73,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GitHub_rules_02fb1aed89680882.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "80bd2345e6a9f96894559f41113e6449dd0729c31a88d78e88db19cae33c6673",
+        "bytes_sha256": "38deb3a9fff6ff720121ccf238a14dc7d3bc5fba3c8db5ca87cf79c74a5a6c33",
+        "semantic_sha256": "4e6de76c61da57afc9f05a4ec445a38856b1373e95caa8169d0b5db4971b453b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GitHub_domain-set_4dddee8b0ff222fd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c2dd1948da79e8a0c308e4841e3b90b1781c884f8bffa7087199f5dff28a30c",
+        "bytes_sha256": "77cac71b5be59fb4d717432990f6ba571b139aaf0656d10b920c5a457a5c5cf1",
+        "semantic_sha256": "cf71537550a585671a0c504c19f1bd8c9b571e9d95b2f6a5386f025e0f288781",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GitHub_rule-set_7407d3ace3a69fa2.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cdfe86053f647e5291575d394070f39e7b82b51eb435f6a6a45fd8ccd72cd731",
+        "bytes_sha256": "6f431a2649015e839f48b18dab6ca5b296951874f044324835440bdff8a62eed",
+        "semantic_sha256": "867d1337c8349d72e9feb86953512322e21c12ef299bda0b827221eef1bb1601",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Github.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Github.list"
+  ]
+}

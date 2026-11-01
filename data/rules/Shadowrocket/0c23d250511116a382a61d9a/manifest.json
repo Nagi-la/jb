@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:37.530333+00:00",
+  "client": "Shadowrocket",
+  "rule": "MeiZu",
+  "rule_updated_at": "2026-07-26T06:27:02.092321+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MeiZu_rules_573af5150d68b3d0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7fb1819ca2e12cdbb52e29d0b8926774bf3240e5ce3f0a56920d3cfecef18ae",
+        "bytes_sha256": "b76923d366c8bbe0f405ade7d5554c5da5ad8b758920f9df81f2c99e85ec0c79",
+        "semantic_sha256": "b0f80136d1d4ce262a74f3d42d58bafdf39674b4da29de540bd3ad22cdb968e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MeiZu_domain-set_75c9cbb5afd183da.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b4f4e3d5f6af8d72a48ca8c534c55d6caa6a7555e565b6d27597890236472a74",
+        "bytes_sha256": "dc2bca800c3bde2e0d30f1e6162509feeae26cafb83174ce6210d96b5408bec1",
+        "semantic_sha256": "a0d39364dd06b1e082ee4c3fa44ff9c8c8a75e33d2536b31e366bc9f3cf0b75d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MeiZu.list"
+  ]
+}

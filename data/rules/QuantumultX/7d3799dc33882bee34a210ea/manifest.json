@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:09:05.052173+00:00",
+  "client": "QuantumultX",
+  "rule": "Rakuten",
+  "rule_updated_at": "2026-07-26T06:53:31.047258+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 37
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rakuten_rules_ae82025457855895.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7216c6df5946c893ab5ea01cd24f674642c85dcb430fbdfb9b60f578055d7424",
+        "bytes_sha256": "24aa97880e803b239606e27347b6703f0364abd9f2ff2b06106f79c4529fa626",
+        "semantic_sha256": "9c27cca8e942b64471464c443b126c0736cd1b5c4364cf5d68aace6419818dc5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rakuten.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rakuten.list"
+  ]
+}

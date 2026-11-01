@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:38.192595+00:00",
+  "client": "Surge",
+  "rule": "IKEA",
+  "rule_updated_at": "2026-07-26T07:22:36.554652+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 95
+  },
+  "total_line_count": 95,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/IKEA_rules_02ca1dc377dd1b68.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf6e4ae1b24c60b20086973e5526b1ab14778f79a28674910dddbe358d40779c",
+        "bytes_sha256": "176249f27305b5bb0231bb82bcc9ee290440c590b647918811b04dcd7313af36",
+        "semantic_sha256": "935c7b0990f4042de324eadae530f159b881ec07a4ea51b52dd8513884845ad3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/IKEA_domain-set_7a9a8bef5ce67dbc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dae094ec3bcce2a89689c479648905aaa89f1f4433405caa15d3887ff966c6c2",
+        "bytes_sha256": "cc9fcf8cfd26947de2f22623c292809950d5581e70e550f845695f24bc44d704",
+        "semantic_sha256": "58e002a32a0e11b872c550fd628b8cd459bcbbecb939fbb883d99fb07a1e9823",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IKEA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IKEA.list"
+  ]
+}

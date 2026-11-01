@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:27.705970+00:00",
+  "client": "Stash",
+  "rule": "Coursera",
+  "rule_updated_at": "2026-07-26T08:22:42.560398+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Coursera_classical_14f7f5a06beac59d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4dbae294c019fc1e05e22231f005ca8c8c2e20ee4e769902fea1b0717c9e8936",
+        "bytes_sha256": "45d37e66f2d0c875709c861d5a090358b3771cda92685f3282cd69266ffbc182",
+        "semantic_sha256": "013c6df77edb9782ff95a912925e14586c587cddb37c43da881a5fd0f4dadf5f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Coursera_domain_c718b3a9c34dab8b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48fcde17fae6ef51d183a2aea974a39daed7728acc92b4ba177ba9fc2ab98c4e",
+        "bytes_sha256": "68ccdc4e02e4dad26ebeec29f86266cd50659b4d0a78a7402befa0dba776cac3",
+        "semantic_sha256": "e0d926b9e37b19121790c99725969579b0fba87b7e575a270422964509975987",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

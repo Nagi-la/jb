@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:21.716854+00:00",
+  "client": "Stash",
+  "rule": "MongoDB",
+  "rule_updated_at": "2026-07-26T08:34:06.612442+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MongoDB_classical_65d97cef2d4a6bd3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09c18cb5a6b0f4e23f9c78c6844c352d28c632d293c4613e2988217077dde882",
+        "bytes_sha256": "18b865c86c87ab4e8a7e5f1e7a0f771b71a07d2f49cb799b15f74ae79749c5ee",
+        "semantic_sha256": "9a23d5447c566c07431caa175db97a6516dd0315c9d27601955a83b988092501",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MongoDB_domain_c55d7a00685f00fd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc85983810d308bd4b564d4cff0af9a5d2962f8b56643be63f7ab8cfb95a0d8b",
+        "bytes_sha256": "a753da14a970b0ee042c70cdcb7dcb31ac95f6ba9e7cfeb6cfc39c51d272bee8",
+        "semantic_sha256": "2be38321204b6b19fa56d9783a9cdb559ecce1c2874cdd736f04b9159a6a5d34",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-08-27T02:02:01.696948+00:00",
+  "client": "Mihomo",
+  "rule": "HuaweiCloud",
+  "rule_updated_at": "2026-07-26T07:04:20.500941+00:00",
+  "type_counts": {
+    "IP-CIDR6": 3,
+    "DOMAIN-SUFFIX": 291,
+    "IP-CIDR": 99
+  },
+  "total_line_count": 393,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuaweiCloud_classical_e32c1ae40c15cb23.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dd4788aadc51f8e56f01717aebe039f370e508ba5db708d6d486fd9289445e23",
+        "bytes_sha256": "81cad6ec7d3f3db53d1f7375bc40d62021b5b8fafa010b1b8a3277537479cfae",
+        "semantic_sha256": "a9b1868cb04011c8a8ed9699f6ace9c7d7d1005501b002631b6e75ed38fb8066",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuaweiCloud_domain_ac253f1471fa8ee2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6750461e326828756c0eaf2225f865a6f6d6104a828dfbf57b0a716754f938a9",
+        "bytes_sha256": "c89af39535ef1c914f3fd84d0598928a25cb398cec98eb9457adcb838e6b997c",
+        "semantic_sha256": "28582fe1529051aba3bb476e133af926019d2f44770d4d76b4cab40f94224419",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HuaweiCloud_domain-mrs_fb7796cee2793f18.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "28551b911060b6ca7576adcd507d29ab602846b9bf24ce31f99c90f53d66b831",
+        "bytes_sha256": "f77d5cdc37e7e50f514d063ed92237aa1b9ae84e772b7e8868aa6e7b3fe9a5a2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuaweiCloud_ipcidr_6a44dc24bf2982df.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1bbb92bf3d8b65e7a18b4ca909c95cadd03bfbacb536498c126118c64f8b424",
+        "bytes_sha256": "88e93eb866d502956732429d337633276251d282ac85fc2e559d34d26c8ece41",
+        "semantic_sha256": "4b58c478827ab36c4e2d0cee46b3173411fb6a5c7e2ce6d86834a19a01489958",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HuaweiCloud_ipcidr-mrs_9fd5958b21a928fc.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "962135489e09c4d3959d9cd5420b91cdf60c8dea5119d24c360c5b321163d25b",
+        "bytes_sha256": "0fd003e97bb932026e7de92c7ce09e91274782c54264100bf6c85dc126729552",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/HuaweiCCC.list"
+  ]
+}

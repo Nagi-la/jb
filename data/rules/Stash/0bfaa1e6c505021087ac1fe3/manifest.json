@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:57:07.884926+00:00",
+  "client": "Stash",
+  "rule": "HoYoverse",
+  "rule_updated_at": "2026-07-26T06:59:55.007720+00:00",
+  "type_counts": {
+    "DOMAIN-REGEX": 1,
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HoYoverse_classical_8f613d7785d06ac0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8611fdb164a7e57f287c43f031b45921fa8fb273340317ad83b0223d9718f3f1",
+        "bytes_sha256": "d93d0458cb1688b63402942a02b16011596dc511f8211ccf19504ac46a8e9a31",
+        "semantic_sha256": "8675c192b2454f48b0020c06cd0211b19bb33e806fbea734b0fc09fca861971c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HoYoverse_domain_a5534e91ecb6d67b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da64c94f5555ced5b5e31a545c3667c59fcb6e3ba4d92a6cca3ac9d89cbec1b1",
+        "bytes_sha256": "eaf88e97be7e89e84035cd1449b59e4d74a7b7bd3c74d8eac419309ca0cb586c",
+        "semantic_sha256": "4b3b38953621f88dc9cd7845f4420863671f4870d784deb7d26301db46f94386",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HoYoverse_classical-rest_9507189e61068dca.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a62506a650565d651ef67e3bf23099b3098f457fd8f2eb203b769a3a434467ac",
+        "bytes_sha256": "0ca493199b06eece9ae04dbdeec4361a12f5d6a14e3e32798842ef222292f6c5",
+        "semantic_sha256": "07be1cc42b36c28432ad015f142ac65d87b0e52c63f4c1b933d1fa28e9f82db8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/HoYoverse.list"
+  ]
+}

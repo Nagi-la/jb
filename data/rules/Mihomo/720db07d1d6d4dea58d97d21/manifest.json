@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:11:32.035523+00:00",
+  "client": "Mihomo",
+  "rule": "YiZhiBo",
+  "rule_updated_at": "2026-07-26T06:29:46.315234+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YiZhiBo_classical_d8feabdc192d0f14.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27510a9a0171fea6242bdf56be74facaa49a8c12cfac0da204291a0a22000594",
+        "bytes_sha256": "581e7b40191f47f83c14c5a920abac2eefccd1287bc61c6695c68a7b4754aba4",
+        "semantic_sha256": "2c72e48b605501fd3db204c735e79a1897f681c7dafd37d7ad4449d2022f4b89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YiZhiBo_domain_78d69e6309bd5aa3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25490f4ab4b694435c2669d218bf33fd0a49639e0c0923ba8cfa5bea1dbb4dd3",
+        "bytes_sha256": "106a887cbded997018ecbf79df9f0eee72cfbfa4289fd3c01675d76b2d4bae8b",
+        "semantic_sha256": "60828ca29291d363c2f7fcfb4b1e4c1e5e312352394c65f181cd73948fd632a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/YiZhiBo_domain-mrs_5fe5d90a2dcc80cb.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cbd9b31d9e7d52e00e9b70ee33d5d003d0230aeed9409aff667512c1b3421eb6",
+        "bytes_sha256": "efb0fc6a34a973e6b45fae846c141c8a8dcc879e396a8ddbcc5f4bce7dfbeb3f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YiZhiBo.list"
+  ]
+}

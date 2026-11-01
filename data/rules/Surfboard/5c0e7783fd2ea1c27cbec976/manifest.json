@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:11:45.141802+00:00",
+  "client": "Surfboard",
+  "rule": "Bahamut",
+  "rule_updated_at": "2026-07-26T06:21:11.417202+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bahamut_rules_6cd4214245c394bb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6547deeb40c63e1b279f09bf3c2091d06290dc927473c0f99e958a8726889d4e",
+        "bytes_sha256": "0ede97c8edbac1d8149dc6c481fff2e3d84b55ae5a7d25730b038615910e6026",
+        "semantic_sha256": "67a67e989445ebcdea53c1367e908eb750cd6f6b07792b5b034a8d42716489ef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bahamut_domain-set_a65356228c6da2e1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a9dc5560695b54b41adee4a9e7082356aed8ec1ac99ea10d10144bf2128691d",
+        "bytes_sha256": "c173870b5f5a5458bcd8eeeb6c5b25c13bc40c738490fb32576af03f6d1973cb",
+        "semantic_sha256": "4e59f3187264c7e9ea6357d6926b7f8b74e11890cd394e545bd7c5a97f52b871",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Bahamut.list"
+  ]
+}

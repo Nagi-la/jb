@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-16T15:35:23.228205+00:00",
+  "client": "Egern",
+  "rule": "DouYin",
+  "rule_updated_at": "2026-10-16T15:21:26.025692+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 88
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DouYin_rules_4d3e0f8a50e4d576.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ab3726f2b9a22d5451744a31fbe44533f76370ac79f6174ed605756a109e302",
+        "bytes_sha256": "20ba4e494e3e2df5e27100657aa0fd0dcc411dc59fe9ea2cf36e47fd9f3c574f",
+        "semantic_sha256": "899e1962afc4c1e28ff0e611663b4a6c793ea65201129f7bf3c6f652c6e724a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Douyin.yaml"
+  ]
+}

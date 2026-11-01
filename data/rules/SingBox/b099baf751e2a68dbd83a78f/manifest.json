@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:38.630136+00:00",
+  "client": "SingBox",
+  "rule": "ChineseAcademyOfSciences",
+  "rule_updated_at": "2026-07-26T06:48:08.894803+00:00",
+  "type_counts": {
+    "domain_suffix": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_source_e4a6b455e77f602f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6a53943d52ee1561716aca669066e868997d12eb15907b543295a9f46686156c",
+        "bytes_sha256": "0e763c5e1661604298a47e9944973f6e5a49aa307a9007372cbd2b9ea33e5c39",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_source-srs_07a41f97f2437c37.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5740f5d066b77e2c87c266474d327e41fb8eef0dd14f7a670c8321162ee4a587",
+        "bytes_sha256": "9f2635c1e5b97bdee8115cfa855481936b73331e9e4fa59c7b8a750af98ae99d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CAS.list"
+  ]
+}

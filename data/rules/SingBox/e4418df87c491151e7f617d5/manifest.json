@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:54.725045+00:00",
+  "client": "SingBox",
+  "rule": "ZTE",
+  "rule_updated_at": "2026-07-26T08:34:57.586126+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZTE_source_01d500e60ef009ed.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b614f12e4a36eee9a5137ceea150d420975202ed0a478399d80a580213ff29dc",
+        "bytes_sha256": "5bccdf309f18bef797d0cfa12341ea2541613206b0e777b3853f27fc48ff2f4b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZTE_source-srs_5b5a640e1cd22f5b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6b9f0396289762c0629eab0170f746df460315e7ed4abee42bc4719c760fc64e",
+        "bytes_sha256": "66862e3dc989ff10baf973122803861c51880603d47bbb4864b95fb99c30e8e9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:20.809284+00:00",
+  "client": "Loon",
+  "rule": "MongoDB",
+  "rule_updated_at": "2026-07-26T08:34:06.413956+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MongoDB_rules_68240b8e8030d609.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eeec171b1ff7f88a2673dc9bda8a09d60ce302f61269e576d5be09ab91e1b4e7",
+        "bytes_sha256": "fcd2d1a7538882d8e56fd3164e7e61c6026d07107a47487a6b927c40ce35f820",
+        "semantic_sha256": "72dfd018b22e8986d97d1831df1c7d7eefb03666bb1a53f198260cf77a18bece",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MongoDB_domain-set_5a3ebd43cbbbcf59.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c05f797d942a400e1dc3dd0f3d8e5d6c3776dfbc8f28497208ecb8bbbdd52a83",
+        "bytes_sha256": "c56ce506b7c84278c40a665904c426ed9159aa604d2b6800e14298c70543b179",
+        "semantic_sha256": "c9f0262efceafa45f8da8c2037d82d19c5a5668c463a2e9e9c1b71911a232788",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

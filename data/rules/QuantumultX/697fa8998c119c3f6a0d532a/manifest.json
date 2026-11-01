@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:07:02.276063+00:00",
+  "client": "QuantumultX",
+  "rule": "CCTV",
+  "rule_updated_at": "2026-07-31T04:08:53.585335+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CCTV_rules_0c62a74b39f38fca.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65d0c54f9199fd235660e790a530bcae8ee61684e8ae846922c781ee57e92d04",
+        "bytes_sha256": "eb59673d498cf76e16e648fe83d6aea580f349466ebe8b054e6add1b0f0c8d9b",
+        "semantic_sha256": "bfa407d7cd0683656ef400c69ec5076dc4d406333ce90b03eedb25b312e383ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCTV.list"
+  ]
+}

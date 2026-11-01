@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-08-27T02:13:12.279555+00:00",
+  "client": "Mihomo",
+  "rule": "ChinaMedia",
+  "rule_updated_at": "2026-07-31T04:26:23.093484+00:00",
+  "type_counts": {
+    "DOMAIN": 65,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 209,
+    "IP-CIDR": 39,
+    "IP-CIDR6": 29,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 345,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_classical_5eda3320a55c6422.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "10c9cf7c250da5fdc3fffef7d5a0d48ca3c2e2098bc63eb41cf78e79c372ce9f",
+        "bytes_sha256": "829758c3c2a54acdf6ab27792d05f61c460a61ad449fb65c42c1c32f900380cc",
+        "semantic_sha256": "8051da890b1dc00e4998ecb22dedf5a508773755c5702225615c7fad5e146424",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_domain_4466fed5134b83d3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7b3bef80cf7f18b73a271fed5e8f6f6daa33315baf9fec620e5c42e98298763e",
+        "bytes_sha256": "0812b172559863302ee9ef2208002160f51083c4d817ee562c13678bf989fffe",
+        "semantic_sha256": "7a05110021baebc6fbaf4a87a133c15e06bf5933c47d84254447ee591e9e8651",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaMedia_domain-mrs_7becab6a3ca337ba.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "636033aa9c4c2fc0f348f3af45b34447d015d6266a45c956e386d719c332e582",
+        "bytes_sha256": "28c4f8932c03b5768454571660bf49e113a068808278704e1ddda4a5145776b2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_ipcidr_fb38400f16cbaf7e.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d6b671bc88794b71c41732c09eadd8ee869da1c6def4973d9f3a650d8a98b9c7",
+        "bytes_sha256": "e69c301e7bb8dc2f0369432a974a0bd40154ebd09e6614025d59b9aa6e886271",
+        "semantic_sha256": "c2f41c23dab49c4d7c2dae78f1df2786ab4a494cbe822e75a8b23dedc6f202e3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaMedia_ipcidr-mrs_e5a00ec31eaa1bd7.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "684f399c0a7a9b9d4b0d941a096056965a40f89546c3acb8f00087f870f4e254",
+        "bytes_sha256": "1bc55b10a3cf0a520d0daccae9b4687bc7d34735d72d77e1ac5532c325af8a0e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaMedia_classical-rest_da7437412e7c0e0f.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a5dec5cf12cd7f00b3b74c6ffd700a5e6afdfd6603f58c9ff630dc4533951e3",
+        "bytes_sha256": "ace2219e0effc4268720c4c034d67adbda6cbc24b1ab417e0572df347c152519",
+        "semantic_sha256": "b969095d62b7aeb6aa92b7768870d05df2149966ecabd847c21914a0c305e4b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list"
+  ]
+}

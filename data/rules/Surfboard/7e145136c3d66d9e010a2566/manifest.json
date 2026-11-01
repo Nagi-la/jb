@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:20.926832+00:00",
+  "client": "Surfboard",
+  "rule": "WBGames",
+  "rule_updated_at": "2026-07-26T08:34:53.239233+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WBGames_rules_82aa543dacec2bd2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "99eb644c717fecfffea2a04beacb39f7b882837266dee5ce4d50f095ba2023d3",
+        "bytes_sha256": "408619605a60bd7b95e9345b1681903c6fb0398f37a24f6a6f2427fb2c5e9d15",
+        "semantic_sha256": "810801c3cc956c1181b08170629b8ab24ca8369f9f62bb10a0949a3c3a5c8e70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WBGames_domain-set_7fe9193e453d5262.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec1edd5988ec57bbadb5fc9793935b35875032f27d367d249f3eafd090dceb97",
+        "bytes_sha256": "a6a310ef937053e82dae758d6d0f15d6d52e91da95fc1de8396999447f4dcc14",
+        "semantic_sha256": "023c29173b38e32dbc29330863b00f2a65cc1c415b79d40c5f3cae289395e7b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

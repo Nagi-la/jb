@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:35.337968+00:00",
+  "client": "SingBox",
+  "rule": "HeMa",
+  "rule_updated_at": "2026-07-26T06:25:21.154114+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HeMa_source_86b3295a953c19e7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "70bef9fe086c874203b06b4b19c93381a869e4af27c0e18ef8fc8060ba5c5b93",
+        "bytes_sha256": "df888ba58b11e78e6caf1614c28647a0ab35f11c5c9814940003d7ea7550ca50",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HeMa_source-srs_9fafffeb6e4a09f6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0bcffd39719bb553ae68bb0db5fd91ea0bc2725d04e37712b957cd3e0986842f",
+        "bytes_sha256": "276db2c5b412cdaa405b4c8e5573d6ba0ab7ab11bf9f76fc86456b02ece5eec3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HeMa.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:14.380137+00:00",
+  "client": "Shadowrocket",
+  "rule": "Espn",
+  "rule_updated_at": "2026-07-26T06:29:15.812836+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Espn_rules_f15f5daf9255ef8c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "338433b976326637c60974a70bbebfe93c58e5f5f362468f2cd45a66794facba",
+        "bytes_sha256": "d3969293528f62b7534ba9303bae27437e85badf484e8ccf1ea5b91bfb52ec23",
+        "semantic_sha256": "94090f90f52b17e38428a7d75488abfb170ca818a148fd78d0e72b803f71bf59",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Espn_domain-set_d6bd922e6785c5e9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ed47d5adcd95981f5d2d99f8b06d9cc3103328f82d541bd00bb3220e48989cf",
+        "bytes_sha256": "13e1badded7a0936aba06d751041acea521daedd77b17e55a2db2c8b24a79631",
+        "semantic_sha256": "6d5a47675e8378ba0353e36d68ef518d8777031361c9020c785e97cc74cce23e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

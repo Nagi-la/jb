@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:08:34.209485+00:00",
+  "client": "Mihomo",
+  "rule": "Dell",
+  "rule_updated_at": "2026-07-26T06:49:44.651330+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 313
+  },
+  "total_line_count": 314,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dell_classical_d12e39ea0810d78c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "feeebd04a16cd990c787b3681f0824265175614a7218ec30dc47a15dc2db8804",
+        "bytes_sha256": "2bd86bd12c5b9b79ede5574fecc275622fea28c2188c949ad4a351c820a1b680",
+        "semantic_sha256": "3737261ec1f8e11a89a2bb9b9208d94c3d497cc24e96852fae5fae21c349ddaf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dell_domain_c2c12aeb4d6ceede.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ef47998f3ef99602903237df37bf7dd24bfd28aece9dd6b7d56e3638494f9d8",
+        "bytes_sha256": "f59ae35ac8d40cfff3cb019f019a95733919b3b22c1174080ee36fd5ffe9b118",
+        "semantic_sha256": "a403d3837a71452383abb06f09e50923f1ccc09780540661553d9582b8f941e9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Dell_domain-mrs_d59448bacbf1c933.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "89bbad1900ed9e61f7b8ee6490ec5dad3275394dcaa1adfb1989f0ad4fee2969",
+        "bytes_sha256": "073495e374faf111e8c2d82c2045f5b195608364616d473300d5d58c0704e8ba",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dell.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dell.list"
+  ]
+}

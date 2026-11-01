@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:15.896443+00:00",
+  "client": "Shadowrocket",
+  "rule": "ZeeTV",
+  "rule_updated_at": "2026-07-26T06:23:03.800062+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZeeTV_rules_6dfd0976f71c18e3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89e079fe5ef47c0192c73ef162dd9e27de6ea806b9a37c62c25fa4aac5b9a812",
+        "bytes_sha256": "2fa1bed06af12dd074ef300981cba1af1aaec23fce11ef9e0f008eb5d7f12b96",
+        "semantic_sha256": "c283fe22a025bf87ef095f717dacd85310f635493cdac0d96bdc2af69b806d1a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZeeTV_domain-set_a23365a1fea3a7f9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "182164138b1056bd45d90cad5625af76d2281196abbeec75766f336ce003afa4",
+        "bytes_sha256": "93d31514e3db5fdf324892aa074a2daf7dd51205f68e85ca9a96fd55733a547d",
+        "semantic_sha256": "c731521f3f60121567079e17d4da1f54055f031f8fb675af70cc5e49d24daae8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ZeeTV.list"
+  ]
+}

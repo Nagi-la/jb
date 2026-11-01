@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:02:55.920896+00:00",
+  "client": "Mihomo",
+  "rule": "Marketing",
+  "rule_updated_at": "2026-07-26T07:16:42.063809+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 56
+  },
+  "total_line_count": 56,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Marketing_classical_722778c47d2ea11b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "301ed55058b0df3eb6d52f38ceeb6a742bee6a24048bac894da8855a7fbd0d91",
+        "bytes_sha256": "2fc21a10796193f32a908693ccb40e19b29a0d34693d8eca5e921b2a55a48715",
+        "semantic_sha256": "c006b2373f97f51b6db7dfad3f8e83c361922fb95d493b21afed5676477ac7cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Marketing_domain_7c5c60d0dba471f7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5583d2eda64b3e704c5d2d553b407c46b627a47dbf86a622901fc7b5075cb0eb",
+        "bytes_sha256": "546517f06937d6183014dffdf72ae16e767e9fed6db5d7a591e5e054f4c38a9a",
+        "semantic_sha256": "3edced35846f83dc1c877d444fa42a3fd0896af7c04e47d5f4f262311b63d8be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Marketing_domain-mrs_0c87a5f7fe39a3a9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "259c2c2c02088c07dbdf23ba26a4216673af8c6a035712dbfd0a70c6300e41c3",
+        "bytes_sha256": "9e91da2616628c0458543bef9140de7de3e11939036d0165fc3da5aca9f44a69",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Marketing.list"
+  ]
+}

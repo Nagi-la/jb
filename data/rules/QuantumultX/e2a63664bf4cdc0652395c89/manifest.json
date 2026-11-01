@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:10.390200+00:00",
+  "client": "QuantumultX",
+  "rule": "Vimeo",
+  "rule_updated_at": "2026-07-26T06:22:35.818550+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vimeo_rules_9a7154cc06732d33.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52a6133d0ad1f4ebdcb2fcaae3aaca035d2f810472525fe12f66c5ce1225f59d",
+        "bytes_sha256": "8f85830ecb0ef9e8534a0a3a8c2622a781c04309338328864baf49147e097c6c",
+        "semantic_sha256": "1dbdbc9ea66704c1162c5368fa1d9d1486ffa3886a125483725d2a006dedfe1e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Vimeo.list"
+  ]
+}

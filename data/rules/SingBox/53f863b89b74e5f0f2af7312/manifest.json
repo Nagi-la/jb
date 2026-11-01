@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:40.673096+00:00",
+  "client": "SingBox",
+  "rule": "DaMai",
+  "rule_updated_at": "2026-07-26T06:24:08.523391+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DaMai_source_aea8d8b02e19d837.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "07cdfa393911a4866e665d2fb6bb4b2611d00aba3839a455c424fcb970a5f17c",
+        "bytes_sha256": "3b07c8979d059f4305498ad16fa3cb54ad5a02b0ecf1012f5f12f38c6ce15fa6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DaMai_source-srs_81df5c311fa815bc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d87f26c3fdaca2b3ced5534fdfbe4005fbd7cc4e8bb480f6abc9187b764d75df",
+        "bytes_sha256": "188f044e2950d3fc5730996c5a39d6ba095b2dc9fd8c59fc9b7a88346bd1b0a1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DaMai.list"
+  ]
+}

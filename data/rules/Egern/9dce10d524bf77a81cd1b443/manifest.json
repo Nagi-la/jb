@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-16T14:34:02.085661+00:00",
+  "client": "Egern",
+  "rule": "XiaoMi",
+  "rule_updated_at": "2026-10-09T15:59:11.218931+00:00",
+  "type_counts": {
+    "domain_suffix_set": 181,
+    "ip_cidr_set": 15
+  },
+  "total_line_count": 196,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_rules_8719ebffc62a7799.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ea708b24858c3d4821de4ae64f2e23fac71c57a4d53b93bbfb986099fc586d1b",
+        "bytes_sha256": "0308b252ed41770ec9b0fbea0fcd200996a9c2b84d4add427e64c6a019b538c2",
+        "semantic_sha256": "7ff80bbf2720f8bb90b527716d363fd1f9df3d27aadaf33eaba299310e717c3d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MI.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list"
+  ]
+}

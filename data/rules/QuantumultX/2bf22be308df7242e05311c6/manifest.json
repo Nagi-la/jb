@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:17:31.151265+00:00",
+  "client": "QuantumultX",
+  "rule": "VK",
+  "rule_updated_at": "2026-07-26T06:54:59.203433+00:00",
+  "type_counts": {
+    "HOST": 9,
+    "HOST-SUFFIX": 43
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VK_rules_7857271214b25b31.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77f00030738823920921690fa7d7dd87cc7e67d549a3368cff52bc0a71566c3f",
+        "bytes_sha256": "a26854984d4bee7c95748921ebe337576f5cd945ddc353665d7166c61efa79dc",
+        "semantic_sha256": "9308e898dd89af1a6a0dfb86fcaf266b091e2c3fcb74cf967ca928412a6eb368",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/VK.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/VK.list"
+  ]
+}

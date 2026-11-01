@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:56.285087+00:00",
+  "client": "SingBox",
+  "rule": "Jetbrains",
+  "rule_updated_at": "2026-08-03T15:39:45.188438+00:00",
+  "type_counts": {
+    "domain_suffix": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Jetbrains_source_48f239cf27d611e8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "111b414d0651d8f4abbbc35085e18f4b2f2cdb049777062cfe1176eeb444fb56",
+        "bytes_sha256": "4ff17e2a5665884420acf94d6ebdf767f1c684bb9b749a593f9a674bb959b5e5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Jetbrains_source-srs_e16e03fe230aff12.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6db300969714601c693874faf1e869341007effcfc2bab31493e84dbce9ebfdc",
+        "bytes_sha256": "854ec99ddb2f9197adaf569d6c528172dbb962e3ec5215fa3f1ca0985c795595",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jetbrains.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jetbrains.list"
+  ]
+}

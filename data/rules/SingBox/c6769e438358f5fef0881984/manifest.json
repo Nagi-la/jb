@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:40.272739+00:00",
+  "client": "SingBox",
+  "rule": "JinJiangWenXue",
+  "rule_updated_at": "2026-07-26T06:25:41.282167+00:00",
+  "type_counts": {
+    "domain_suffix": 7,
+    "process_name": 1
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/JinJiangWenXue_source_295626ad0928c4e8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "46dd344bd6c5a2a36cee7b5838cacaa76392013d73ce8e861323fd473234457c",
+        "bytes_sha256": "06c9e11850c1f5e265d90be5c03f77654ce18b8379b705d641d4a9123d3e23f6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/JinJiangWenXue_source-srs_39f5bb7bedb79ddd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4be85adee294d39eff29df74e01ba3844e06ecde71835690efbde91faa468c4d",
+        "bytes_sha256": "8ccc83c0838602ff3d95cea654bfa76058c527d87c5e10122e3d304472fe2996",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JinJiangWenXue.list"
+  ]
+}

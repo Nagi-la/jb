@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:57:16.471820+00:00",
+  "client": "Mihomo",
+  "rule": "Beats",
+  "rule_updated_at": "2026-07-26T07:03:20.006726+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 716,
+    "DOMAIN": 1
+  },
+  "total_line_count": 717,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Beats_classical_6cdd09a6cb8f79b2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "312dd576d5bbcdc79d0d91233f8d3f442a40607e3103df9eb5406f1a614083ce",
+        "bytes_sha256": "8e1f4d9dae7eaa8203d84f6548a3c0653d12dce977641f48c451abaf8f9ea916",
+        "semantic_sha256": "6b3117fef47b2f169ce8aa2002884bef02c63ff569b9eaf71f59efe55b845831",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Beats_domain_bd61d5c32981283c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "711bf4e4c9f4a5d7fa0cbaa727afb2fc409c78b6932f78cbf666f0089640ed0a",
+        "bytes_sha256": "368f5f8b7f3b1461ccab45d7a0b088f6af14c919f5d3db3d874b0d3776741422",
+        "semantic_sha256": "84f0bfac16da3fe049b57e1df401b2939a390495ede2401ce22605443bcf9653",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Beats_domain-mrs_324710aaf571a970.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5e46a9b705a6716d47a1647a7245561a410141681d1e58ceb232db604eb8c0e1",
+        "bytes_sha256": "fd1a4f3fa92a34636616d644e93c1bfdb74a5b3e46fd928ad1e72ef1caafccc4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/Beats.list"
+  ]
+}

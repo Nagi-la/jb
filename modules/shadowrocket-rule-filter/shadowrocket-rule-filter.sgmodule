@@ -1,0 +1,11 @@
+#!name=Shadowrocket Rule Filter
+#!desc=MagicRule 规则类型自定义
+#!icon=https://magicrule.pages.dev/apple-touch-icon.png
+#!author=MagicRule
+#!homepage=https://magicrule.pages.dev/
+
+[Script]
+Rule Filter = type=http-request,pattern=^https:\/\/magic\.rule\/[^\/?]+(?:\?|$),script-path=https://magicrule.pages.dev/modules/shadowrocket-rule-filter/shadowrocket-rule-filter.js,timeout=300,engine=webview
+
+[MITM]
+hostname = %APPEND% magic.rule

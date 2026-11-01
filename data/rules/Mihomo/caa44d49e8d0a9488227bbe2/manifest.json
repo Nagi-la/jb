@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:43.299132+00:00",
+  "client": "Mihomo",
+  "rule": "Teambition",
+  "rule_updated_at": "2026-07-26T06:28:23.614768+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Teambition_classical_b23be69188759326.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ab4caaab336e8557c579fe6a4bbde32a611a27bc034c0e50cfe36cb509deca8",
+        "bytes_sha256": "430cc46b790ca65ea9b0f7c3e467937bd9387e9e5ae461e454f045a3198da238",
+        "semantic_sha256": "734be24be55658896af0384c6797d26bcd05f796ba27543ac1616d39094cc7b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Teambition_domain_26c0269eb8dedce9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d3cc3ddc42e6dd1f8adfee94706a5f39e5cc4e355be161742e564778eb467eb",
+        "bytes_sha256": "732d919f837c286947318ab257cc842c55cc03a07738fe31d01e5e0349324359",
+        "semantic_sha256": "d2f440bb912497a2a320bee18050ab4f2f430707e5fd83be3a30629595d3e6a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Teambition_domain-mrs_c688dde25eb6ed7e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5974e1746fdb451af3d5497fd188a9fcb226cf11a215cd8b7869a733d986db8a",
+        "bytes_sha256": "cec3889862883cba5d1e2e1dd810a3bd76452c9320985df4980d58ff768ff58b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Teambition.list"
+  ]
+}

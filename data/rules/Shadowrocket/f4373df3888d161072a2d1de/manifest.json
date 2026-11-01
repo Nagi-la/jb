@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:06.638819+00:00",
+  "client": "Shadowrocket",
+  "rule": "ArchLinux",
+  "rule_updated_at": "2026-07-26T08:30:38.847594+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ArchLinux_rules_ae6171bfb84a64b5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "359b2eaea010a8a60209fd622d25d4939d63eabbfcf39c838488a2a9bc679e2d",
+        "bytes_sha256": "9013b101009a3df757da7f8a830ee3a7c013337738f499dc546ab255c6a5c467",
+        "semantic_sha256": "bc1256ec0abcbca04eb54367b576174c8f2d7a4b7adbd5398b12a5790fc2ba4d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ArchLinux_domain-set_9f55b3a1cedeccd6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d236466f64df5cb0ae1c54f07d1978059614d09d21e09863c8fb704f0aade76",
+        "bytes_sha256": "6d09fcbeb27c4d44315e77c6e851268549e2b1eb27a6130c8bf2f5624f0a3346",
+        "semantic_sha256": "90d728166f8f27915dc0819dd9c21264cba5d2de10abefe62775f96999ec09aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

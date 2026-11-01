@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:27.723972+00:00",
+  "client": "Stash",
+  "rule": "DianCeWangKe",
+  "rule_updated_at": "2026-07-26T06:24:33.508826+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DianCeWangKe_classical_abe4e838fd787767.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b0954687f018995a709d1156b03572599696f0248acb75d846b20a1aa15d6ed8",
+        "bytes_sha256": "8c0dc6b2175bd986f218fa5e8d3995e1c1b28c0c7603ac20f5f4729a9c65c523",
+        "semantic_sha256": "752857e4a80bf2b26975718b4de6b75fe9a275d65aeeaf9e421bda0a129ca575",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DianCeWangKe_domain_f81ab450761fb44e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a84df8398dd26bd502dfd848eb1abaf34faa612886fae3797c8c1fa6983271e",
+        "bytes_sha256": "fb375f22eb0f24bf4d5d46e3dae248007884de8c54c95819924877ceb897df75",
+        "semantic_sha256": "3fbe3542b3a451ff497ea77b90a2b0253fad5c0131d12e7d83c251a877676ce1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DianCeWangKe.list"
+  ]
+}

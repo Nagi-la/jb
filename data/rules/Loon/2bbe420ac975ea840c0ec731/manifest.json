@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:56.483484+00:00",
+  "client": "Loon",
+  "rule": "XiaomiAI",
+  "rule_updated_at": "2026-07-26T08:29:42.071826+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiaomiAI_rules_2c1c484daf7611ef.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "62024fc9462f7f8f572771a5c552caaec09312b397c1963e4412f7d8c5ea8700",
+        "bytes_sha256": "9647afe81d1719d7f59bc2155023d99a84bc977aa31e030c099bc69d8a2bccac",
+        "semantic_sha256": "be8847700060b6be47c3912df7039d6a6711cb88ca01f0d4871ad06325953902",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiaomiAI_domain-set_f5199ecc91b525eb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "29d1e9ce39437c5216c046c506082347a602c4881fea9c7c8a46a4046a4197d3",
+        "bytes_sha256": "a4e6989e6123cfa2acb5cb15399a184eab354f44e1eb7652bec7f41b7c72d733",
+        "semantic_sha256": "5f23414cec2120b35b8bf4e5628f279d7ec581b5f02da9b9da13b2192436cd2c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

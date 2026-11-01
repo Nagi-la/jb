@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:52.620351+00:00",
+  "client": "Stash",
+  "rule": "Bitwarden",
+  "rule_updated_at": "2026-07-26T08:29:42.991385+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bitwarden_classical_f855e17086ad100d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e102cc5c537be9dc255935d2165b89adb0016052d5df619419ab67e30a3dfd6",
+        "bytes_sha256": "696364c87031ca11af44ea1aed2527390eadc6a5c6a337a5f5ae6651f0c12a0c",
+        "semantic_sha256": "5b519fa679706d355eb9bf08c321c3fb5093c02f9527516e682ff2e87b174f4a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bitwarden_domain_42e7ca821cd3b5dd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0515cbde90cb921cbd4ae048c1d1c7585ff5f066fb115d89559e54d8c92b4dfa",
+        "bytes_sha256": "12a5855be06772bf2a305541b30f147d63002e07593d818054a4b6594a9decde",
+        "semantic_sha256": "4acbfcb5f8897d975e90cc4d8d24576662334a906ec68b531303dd7a6059f94a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

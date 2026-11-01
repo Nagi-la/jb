@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:04.184684+00:00",
+  "client": "Surfboard",
+  "rule": "Blurams",
+  "rule_updated_at": "2026-07-30T08:09:52.750660+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blurams_rules_b46d18ff532dab2c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5af0a83c1facc1fbbccf039ee4411caec50f71fc6eb43913f8b874a0e746c509",
+        "bytes_sha256": "95b34dd0502a55f53361bc642b215f1ae2d1f748816ad18cfe6b182e5dd61f65",
+        "semantic_sha256": "a5c30083bcfac03632e085323533da98e43d43794a66e69edb1ced01e71e0cea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blurams_domain-set_527262625b9fef4a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c393c4b3b9970d81dd5cd8fb71170caaec35fbe23e4a28f623fee0afccb4d4f0",
+        "bytes_sha256": "eb6a397d3a293263524492fd3ea2fb3da4d508eaee9effd5ca2377ff72894baf",
+        "semantic_sha256": "be19f54064adfcf2b1eae28cf81725b0ce93202e406b487b2047db08e146d6ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

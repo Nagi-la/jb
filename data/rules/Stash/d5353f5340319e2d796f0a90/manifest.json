@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:16.555100+00:00",
+  "client": "Stash",
+  "rule": "Moji",
+  "rule_updated_at": "2026-07-26T08:34:08.749407+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Moji_classical_118663393e831388.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b12bedd5302c6965fcc597a68f26eb6710f395ef7958843d728d93c7fc9fb6f6",
+        "bytes_sha256": "3466d756e2e3cdebf4047761151fbf54d080d393b37f5a391f722716be3a6453",
+        "semantic_sha256": "a753b48ce83b9d016d2388ef3284da7ce8d6638c7b71035587c3154e2eb4cc72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Moji_domain_6aa31a353e78a968.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "911202a317ff8cc4b2d37a8987004490a27660a45b2d5ab1b7eb2a14de732925",
+        "bytes_sha256": "0027483aa542da31ecf116c76be14817be854c55e9aec10a8fdc88ef15ab4e43",
+        "semantic_sha256": "55ac6fc25d37fc2994b5aa03a5b6f5d4f98efe5f20fdc57b4fd0b58921e263a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

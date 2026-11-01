@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:02:22.229856+00:00",
+  "client": "Mihomo",
+  "rule": "DiDi",
+  "rule_updated_at": "2026-07-26T06:38:27.142986+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiDi_classical_adf00cacc778e5c8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "43ffce25b388e45030950c7f454484dd8e154b5266fcbb1efa31b0929cf1a482",
+        "bytes_sha256": "e69cf09829326e22a3b30731d5724c8ac431a35badf28e62e9498854e83a08d4",
+        "semantic_sha256": "fec06bbd935fec8a5d25d8cf2bdde67863c4ccb3693adedb5b17459edaa2860b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiDi_domain_52e36e393c51f6f2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "003ee7ead458c62a2fe0ba53f6a21f1c28dd6b9cad79f5d814c5bf173f05cd18",
+        "bytes_sha256": "18ed1047dfcfff74c304f95e6c34b3c90f9b2fbbe0e61b6228e9034949202ff6",
+        "semantic_sha256": "39da0685a492056e94a3f7a3627ec52d34f6dd36d3d8619c7b9beb48c732db67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DiDi_domain-mrs_fc9aac090582ea0c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "37e62192d817d6e0635436a49412b0981332860fa12619e856d45afa8acebae9",
+        "bytes_sha256": "7d2f97a41bcbe3978c23bd4a2882585367941732cb601f49b4991a7b9e85dedb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiDi.list"
+  ]
+}

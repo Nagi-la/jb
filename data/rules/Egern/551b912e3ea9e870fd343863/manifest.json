@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:10:22.108537+00:00",
+  "client": "Egern",
+  "rule": "NTPService",
+  "rule_updated_at": "2026-07-26T07:01:35.731378+00:00",
+  "type_counts": {
+    "domain_set": 75,
+    "domain_suffix_set": 126
+  },
+  "total_line_count": 201,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NTPService_rules_17acdf8c1ee71c03.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fdec1127f00d84e8989098e6701bef2dbc932b3d5558fb32f3d0897e6b670ed3",
+        "bytes_sha256": "8e006429cd8abbdb7c84ece1733711fc6ae8701c24656e855739766133b78319",
+        "semantic_sha256": "755a1312a4aee4aa25d425b9306c11430d298f88ed51d402d225ec9b176d6ab8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
+  ]
+}

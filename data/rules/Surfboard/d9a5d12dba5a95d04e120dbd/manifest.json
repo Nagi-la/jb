@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:03.092055+00:00",
+  "client": "Surfboard",
+  "rule": "CCTV",
+  "rule_updated_at": "2026-07-31T04:09:03.200645+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CCTV_rules_d69e37bd6431f07d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ca2ef5b1b1f52f913fad6ea0a138b6f3511fece35e9167befd8a2de7b5d0c12",
+        "bytes_sha256": "5ca01e90211128d9f37b9dbb13a250b226c0c149d412dc97346f9177c1f35f23",
+        "semantic_sha256": "951974d01bebf815cf6278cfaa9097567da8c46d14b47c2474a541ff8c1e9e92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CCTV_domain-set_2c4ce80ac07c2453.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f335b49c259c782d114098d7cd2ced39774635bc64de4e98791b5c5ee13038e3",
+        "bytes_sha256": "e4e4aaa1a0a3b6bd3dabf450c337c6d76a4892fb9cea760b2c5f52b4f9fb7a5a",
+        "semantic_sha256": "d9bb874cbf737dd3c6c6100645b62709577d941eff761269b40d6b4e2e941314",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCTV.list"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:56:29.175782+00:00",
+  "client": "Mihomo",
+  "rule": "FuboTV",
+  "rule_updated_at": "2026-07-26T06:58:17.256324+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FuboTV_classical_21e42da95cbf8d80.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "196ed826f290d5ac94d9f09a4b8b42f8196424344a68437e21d53fffdcd2986a",
+        "bytes_sha256": "ae1a7fbfec6a02357386994c721246c5e6e927c959fd1519b3ac4d3769606c98",
+        "semantic_sha256": "3315ebaebe180a4bd9b0a363c0c3f17be2aff768948044d2dcdddd1f1cab4803",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FuboTV_domain_9b79f80574406f9a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18dfba25fad579b5ce5da53497dc79e34154fc3434d4f7673b62d29cfb23c7c4",
+        "bytes_sha256": "bf37389334d60b3bcc8f27d7557d83836cbfbf9fecdbd8eb9c3b3a251be8399a",
+        "semantic_sha256": "ad4baf3a564311fb92638cb666894cbb57cbd4df528294d19f6bc93f2be0899e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/FuboTV_domain-mrs_01be71dea924e32e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a50df3f59047d668cc8410641f053c0272b0a0e45872fddb21829536b94ca225",
+        "bytes_sha256": "d4029370525851e9606717792e2f9e504f3d5fd6a11333d24240364fc052e4d2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/FuboTV.list"
+  ]
+}

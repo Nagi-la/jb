@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:56:41.099133+00:00",
+  "client": "Mihomo",
+  "rule": "Verizon",
+  "rule_updated_at": "2026-07-26T06:55:33.708646+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 183
+  },
+  "total_line_count": 183,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Verizon_classical_0df7c97fc2ea685b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8592a0fc4b447009e399d765585fb7d560e8ece6b36a0de6e18352f52d15608e",
+        "bytes_sha256": "f8ad8ae85fcfea5b1e211c9e538cc16c27486201149f1d7b0772f13888b243c9",
+        "semantic_sha256": "a93be203315714111bbbaaf33fe21789da9da3f43bb007b27d790b23810ff580",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Verizon_domain_0f32e857cf2539e4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb107f380b1bcc315353958fefa98b7981cc959644ba64cdb06de9b689553adf",
+        "bytes_sha256": "1062fbbd0f1dc9b9b32bc08a9d0607e71923772d0abed3874745b8b91692228a",
+        "semantic_sha256": "dbc3dca10fbfb799bd3d7913c0490c27626f6f7af1a9ae10d47c372341d7e97d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Verizon_domain-mrs_dbf161347e8756e9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "94d450dfa80f9b1a9305a7b8878a0759d67106e1fab3300b5d62015b060990c6",
+        "bytes_sha256": "d325eab66e0f6d7f30f5e64030ea0985ae9e95c060bc176ae9cc345073799eb8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verizon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verizon.list"
+  ]
+}

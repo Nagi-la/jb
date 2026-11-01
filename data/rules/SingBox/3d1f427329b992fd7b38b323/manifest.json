@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:43.307806+00:00",
+  "client": "SingBox",
+  "rule": "ShangHaiJuXiao",
+  "rule_updated_at": "2026-07-26T06:27:56.959619+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ShangHaiJuXiao_source_f468165abb3ed033.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "19354df82baefbb901ec70b4ba763a011c916df69505af235b55205fca4df2d6",
+        "bytes_sha256": "2bf0c598aecc6a17260b79dc305444e121ff1436f391ee51bce6efba24625cc0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ShangHaiJuXiao_source-srs_ee8f683a62a85f78.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "60c9c03ab9f5e137c1ffe69fd9597edc89d6f942ed09e292b3a54efd0ae4a2ca",
+        "bytes_sha256": "ae1417fe222a4b16c0364bcf7668df5688fe42309f3129b4f197ab565a62a88d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShangHaiJuXiao.list"
+  ]
+}

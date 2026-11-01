@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:12:03.544139+00:00",
+  "client": "SingBox",
+  "rule": "MUJI",
+  "rule_updated_at": "2026-07-26T08:34:07.471575+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MUJI_source_1db2066bb4738a55.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ad10655fa49a289d5f1243d98ac66ee6b84a5795b579b5040f39938e4f51e6eb",
+        "bytes_sha256": "4c932e839058bfc353a0950aff65e71ed03413ea5d5f62be32add6854f4918f1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MUJI_source-srs_96baf14387aa00c2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "70a2a0555fae5369417b4b76edd340c4ac4c116d013173e09dac61a2b7d5389e",
+        "bytes_sha256": "2eb5034ec8be17adb7b09dfa680f9578622aff5a9e525a2fc1487e24373e9ae9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

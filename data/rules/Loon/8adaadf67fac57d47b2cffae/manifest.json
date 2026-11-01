@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:16.737907+00:00",
+  "client": "Loon",
+  "rule": "HibyMusic",
+  "rule_updated_at": "2026-07-26T06:25:20.590455+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HibyMusic_rules_9288d38fdd8e5f46.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18060531451ada546bbf74ed8aeb29b4ee02cee06640c572eecfbdc5340de107",
+        "bytes_sha256": "db5f7f52c3a6e437643ffac9e94c3f8909b86473abbe17fde43aeaf59fa7d9d5",
+        "semantic_sha256": "b49866d21075b07ed3638818bf6dbb6cfbf132e2fbf031a5a138566ba8cdc946",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HibyMusic_domain-set_3358aee0f772b1fe.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "854dbb310143091e35353bd8a2dcc476ebbdb0cdc1e4c88ecefa035b42849f8f",
+        "bytes_sha256": "ccee40fb313d45f47b548e901d51dab7e0a25510f095433bcaefbbd4961faedc",
+        "semantic_sha256": "962790d24ea612bb6f9822913416bfb4fa5178a6407015f9e54af36b15b11e6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HibyMusic.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:11:50.136204+00:00",
+  "client": "Shadowrocket",
+  "rule": "AndroidDownload",
+  "rule_updated_at": "2026-07-26T08:24:24.891740+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AndroidDownload_rules_c2be20c7de24dc10.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "33b15d2eed5ac162704a30c2e6c9632dde483c138349cee5f978b9155ecc8623",
+        "bytes_sha256": "57efcd759a74e8e02fa550c56e280375abcd5ffa9aa7b13fabf6476abf0cfb04",
+        "semantic_sha256": "ece49449ea37a9598d14dcf759b7bbd62cc8c62df7bb6d691a9349707804558e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AndroidDownload_domain-set_3f983b4cb6efbf85.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b27e6016f2db6ec6e96fe83527552a700840bb30372cb21a803bf91a11f55fc4",
+        "bytes_sha256": "8fc119e6de0a997dbbf9b5061276eacfca55a58fa8e8798a2b72966221a2c0b3",
+        "semantic_sha256": "6bdfd998bc161d41ead151b0cb34ef6b0a8e20d3266b8d50b17214b6f46836b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

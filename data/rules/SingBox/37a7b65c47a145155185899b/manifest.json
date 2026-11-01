@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:18:39.763059+00:00",
+  "client": "SingBox",
+  "rule": "ZhongGuoShiHua",
+  "rule_updated_at": "2026-07-26T06:29:57.695922+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZhongGuoShiHua_source_c69849b91be17469.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1cc5e1c9b23acbf38df0720ee99343d02095596d5ada8c32fbe59eee9fb8839a",
+        "bytes_sha256": "cc3446ece11dba21546fc19edfde460032844eddbff2b8e8853d6d88ec7429ed",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZhongGuoShiHua_source-srs_47a78e08339d69ce.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "edfb589c172c0db947588ea4f2b17b34acfb92e46abe06188112180e2ddc9670",
+        "bytes_sha256": "e74782b51191339ad7e3fe9b423c6bd9c1ac7b346a5c5807a809f486b62ef040",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhongGuoShiHua.list"
+  ]
+}

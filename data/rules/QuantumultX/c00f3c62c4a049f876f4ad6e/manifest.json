@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:04:02.077839+00:00",
+  "client": "QuantumultX",
+  "rule": "Fox",
+  "rule_updated_at": "2026-07-26T06:21:44.023183+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 260,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 262,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Fox_rules_829fd8d321cafa2b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ca49c8e07c5d8977e63ad118408575d5a6244f5a9d47c38180a3896ffc302cf",
+        "bytes_sha256": "363c5208234d6bf43df9a9d4e99aa238c3e422721292d83414f30ec485f08b78",
+        "semantic_sha256": "0d53c66899c9034d19b4c6c257f63377b993786f564b24fa370c26c4674c557e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Fox.list"
+  ]
+}

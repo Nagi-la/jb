@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:13:31.186157+00:00",
+  "client": "QuantumultX",
+  "rule": "BiliBili",
+  "rule_updated_at": "2026-07-26T06:38:07.527671+00:00",
+  "type_counts": {
+    "HOST": 51,
+    "HOST-SUFFIX": 67,
+    "IP-CIDR": 7
+  },
+  "total_line_count": 125,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BiliBili_rules_eaa7f3f129f365c0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "475d99474feeb6d73368352e6effe63084b08416d145793392a80634e0fefeb1",
+        "bytes_sha256": "86b945023aff79f5fda81b0dd502137331dd6a98e9d70db0aa160a8128682f1f",
+        "semantic_sha256": "f2b8273cf0d765523448c6075547be9d855545c4d288c9c3959f50b658830c88",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
+  ]
+}

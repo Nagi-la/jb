@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:56:41.042298+00:00",
+  "client": "QuantumultX",
+  "rule": "Verizon",
+  "rule_updated_at": "2026-07-26T06:55:13.638316+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 183
+  },
+  "total_line_count": 183,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Verizon_rules_9ff9d30d66098aa6.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "af89c51ec53f69fa1ef83764d365c9a365db63843b5cf73518493924fa6a73c5",
+        "bytes_sha256": "d86d452e2999aaf182e262f320a4847ef71aa91838fee6b1bc3cedcbbf25b63b",
+        "semantic_sha256": "dd27c89adc10419944b400ec46cb1afe3dce0fbb79a5d247a1337a684cfa5bf7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verizon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verizon.list"
+  ]
+}

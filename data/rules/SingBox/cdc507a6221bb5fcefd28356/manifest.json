@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:37.676068+00:00",
+  "client": "SingBox",
+  "rule": "MeiZu",
+  "rule_updated_at": "2026-07-26T06:27:04.184444+00:00",
+  "type_counts": {
+    "domain_suffix": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MeiZu_source_98edf44e57fc9358.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "499124e7fd717fa9e683027c29beca313d94b2320b992dc5317764598b1c7db6",
+        "bytes_sha256": "e17a5e25922151a7b1a0ed5ff25d0cb61db2fbbd6b94029e8d9cf928729cc5ff",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MeiZu_source-srs_ffb066670fa75c81.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d1e4efaf185a443947e88ae2ffb7fcfd948a839d939aa688e7ea71d044e3712",
+        "bytes_sha256": "25d68ad9ea587d5328a821af797cdd7c51d26d7d314e8574057f20121ed67b11",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MeiZu.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:42.684762+00:00",
+  "client": "Loon",
+  "rule": "Ubuntu",
+  "rule_updated_at": "2026-07-26T06:58:54.600727+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 54
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Ubuntu_rules_71302be5ca58ce30.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9122c1155e6aec17ae0fd802b012f0d68669841524a41b1049c1473b4c9fa5f4",
+        "bytes_sha256": "a69678bffe1c94505dd87bb18d9334c36c503ab7a51c09734ce957ad541da5b9",
+        "semantic_sha256": "17d52a2d2be9a1c7c8131ba3ff21f7b871a1616977fd7e5c529665d1157e0f74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Ubuntu_domain-set_a67c4c76e655790c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7d8d02cdd19ea857b42c38b57188c9d2499688a82b06428137ef0d2e93876533",
+        "bytes_sha256": "6a90ccaa388f42b3e1108260b40c33c343d3052eae8c1de7116587e49f98b5df",
+        "semantic_sha256": "7d6c663ee292ef73ffefe7fcfb64fa6b085f2a67724c34f235e3b23f4f4fc79a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Ubuntu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Ubuntu.list"
+  ]
+}

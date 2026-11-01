@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:57.165101+00:00",
+  "client": "QuantumultX",
+  "rule": "Antivirus",
+  "rule_updated_at": "2026-07-26T08:24:28.145759+00:00",
+  "type_counts": {
+    "HOST": 98,
+    "HOST-SUFFIX": 68
+  },
+  "total_line_count": 166,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Antivirus_rules_6f01380ad0810ccc.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e288f3579132488a7cdbddfbc8bb5e4a1551bb9b439f0101cd036266707c3e94",
+        "bytes_sha256": "e00693e76ee047ae4f285033fdf4947a86575bda218b0a29b5e28e1258803ea1",
+        "semantic_sha256": "79f7a8268a43569ea1a95ee05460a1d44ff784929010912a3402b8c196454508",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

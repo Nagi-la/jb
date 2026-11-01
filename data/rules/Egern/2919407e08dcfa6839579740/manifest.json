@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T03:26:48.204010+00:00",
+  "client": "Egern",
+  "rule": "PasswordManager",
+  "rule_updated_at": "2026-10-29T03:05:25.460288+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 31
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PasswordManager_rules_94396d60bb370b2f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fdbda050996c92430050c8934aa285c99ed8490651f06f43a0a32bf6b1fe55b",
+        "bytes_sha256": "a6633c8b89e402a696b15e6e864654d5109c36bcb65644e40ae03cffa40879fd",
+        "semantic_sha256": "2c5203b3cbfbb266a17216ee2a7488e93f02cbe626b5acc19fdf04eff28a16b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

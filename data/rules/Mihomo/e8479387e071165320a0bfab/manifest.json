@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:14:49.166355+00:00",
+  "client": "Mihomo",
+  "rule": "WenJuanXing",
+  "rule_updated_at": "2026-07-26T06:28:49.735486+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WenJuanXing_classical_ad655902bd55ed56.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1ea63f88eff5d80c4380457114aaddb9d644320e2eb5465140d4600dfed2fca6",
+        "bytes_sha256": "a9e39d1a4edf3fa21be7352c8e847ed86e322daba661431c70f56674b71e6535",
+        "semantic_sha256": "8b39a67e0bdc8ef6c939c71bef25f9a4554b690122ba5a6094417e33c96dcd35",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WenJuanXing_domain_1f6e39528195d5cc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd7d87018a605ba1e613044cb1f10f51f993a074c35be6b06c419db224ee2df2",
+        "bytes_sha256": "5b4329b7042274a1f70fdb8067d3d209aac5970b37d9f966221dd3e4999b1c46",
+        "semantic_sha256": "57b66fbbe2a2fe68c604ffb3115bcfb19a079e0b9c15b057231c869e226a18bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WenJuanXing_domain-mrs_4c1cfeb42676e45a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f162b5bb38a76965470d5ed30089edd27e38d6e54e9b3d07f365a476826ad6f5",
+        "bytes_sha256": "65e2d651d97e4eeeca021f3d6550cc3062e60d25bba5c5a219cfd6a6b6b60af0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WenJuanXing.list"
+  ]
+}

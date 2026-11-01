@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:09.057557+00:00",
+  "client": "SingBox",
+  "rule": "ChuangKeTie",
+  "rule_updated_at": "2026-07-26T06:24:03.540019+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChuangKeTie_source_34075cefd6d56f83.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6b8c29ca774fe7b72739b39ed974079a0deadb517c089d86b27bb9d89f3e08ff",
+        "bytes_sha256": "4a9fd3170eb03dd1bfdc105a1842f8c52b9798c2dd344b8c58fc7b3a0a2e6f5d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChuangKeTie_source-srs_adbf0aaa4b300f88.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "70ea9199708db405c39aef364c82749c07adb918a53812fb7f6928d4c22f39a3",
+        "bytes_sha256": "63e8eb40e1787c31a0b1274144654fd5d1752c44e9664d4e8ed046e32ac0ac3b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChuangKeTie.list"
+  ]
+}

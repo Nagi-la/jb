@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:08.335618+00:00",
+  "client": "Loon",
+  "rule": "ChangYou",
+  "rule_updated_at": "2026-07-26T08:31:40.920718+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChangYou_rules_7f2779811dd5f461.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52767d075dcc3e1be15a756289688a59d340dc4c93ddc26a1774f6f442b741f5",
+        "bytes_sha256": "7b6a46a0b33688e372a484bbd046a55a79fa0e3189ef2e7b9fccc1709ecd7e06",
+        "semantic_sha256": "2ff3ba709188e05903cf6de84cbce6ec109ada2350fd0b93ddfecfa0eb0c4765",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChangYou_domain-set_0ee8647c44ad6ff2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77c965a2f66b4e8f4aa25c12a7b9746b8a38dfa94f2072aec025bd6b73b003cd",
+        "bytes_sha256": "a27b5426da74add7b6ab7f44853fe12c97db532369dc9b694cc6898ba960308f",
+        "semantic_sha256": "5aa3cb5e4f61f672f8b37dc5766a36f3dd1c80d63040c3c9da0f1d40918e423b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

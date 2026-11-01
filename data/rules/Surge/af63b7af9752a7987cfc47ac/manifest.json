@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:05:28.893780+00:00",
+  "client": "Surge",
+  "rule": "Qobuz",
+  "rule_updated_at": "2026-07-26T06:22:26.308559+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31,
+    "IP-CIDR": 2
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Qobuz_rules_0463090fc919d7d7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "627510579243bf221acb6b8faa7072aa1ae05cc039115ec18ddc96dca2e744aa",
+        "bytes_sha256": "1f5bb33780ce77a4361e45e2b26363e3e13f1f9acec3f17898c3a35c4b19af62",
+        "semantic_sha256": "a795082f2d797dc2f105522b281ad12459a36bf16f4c49979643a501b1fcdc66",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Qobuz_domain-set_0282b2fea867a1b7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f235be7c0f49adb27ff476d6c216945434882f0d1368483446efb90774113dd",
+        "bytes_sha256": "04aac3a1470ae49752fa1ae87657cf2aa03e5c05db75c041d033c39cb83c25ae",
+        "semantic_sha256": "f817f33ff5b6fa0b03cdcc9c0d79fcd74016c9a13209e6021d660770c8235d12",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Qobuz_rule-set_f684326dd90bac79.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e624c94bebf331fadbeaa7e1ce5abf11affb8409b045cf62b30bcf19209d7e43",
+        "bytes_sha256": "df7a57ad75c0c58e2dedec3d882a0c685aa3b3ac615e468a201f077785d6992b",
+        "semantic_sha256": "d5e2b0430e890b651d0a3e3da378453dbc50b0f9de6224a68d9edfd09d232243",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Qobuz.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Qobuz.list"
+  ]
+}

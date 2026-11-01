@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:48:34.348395+00:00",
+  "client": "Stash",
+  "rule": "Azure",
+  "rule_updated_at": "2026-10-29T02:37:29.194447+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 150
+  },
+  "total_line_count": 154,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Azure_classical_a5f38efc75afa09c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "36d3784ab44498e7cdd242ac3beea7abf57e7878cd728bf2e1ad26c9f4bd8249",
+        "bytes_sha256": "74a340ca4097d34d3517cd1f38761355718f5b47332980dc9fab9ff72f0e6aef",
+        "semantic_sha256": "063bcb185c5a8cceaf1df70cf7c79588b8ba0eda53394949a4feae805a9fffec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Azure_domain_926a563823eb7e3d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f61a2eb6c12bd8d89ca6c7157af8a4ab6aa0a15b11062a87101678d777ab7b7",
+        "bytes_sha256": "6f4065723caa727af5496895425b89880a63ee7dc8848132065a8714307c2a77",
+        "semantic_sha256": "129dc7732decdd2d803d9ace1287cfdc0de89fd0d00449d53dbfb97dc8206203",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

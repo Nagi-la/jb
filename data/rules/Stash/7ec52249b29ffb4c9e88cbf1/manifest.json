@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09T16:08:53.608835+00:00",
+  "client": "Stash",
+  "rule": "SocialMediaGlobal",
+  "rule_updated_at": "2026-10-09T15:58:50.766515+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 612,
+    "DOMAIN": 15
+  },
+  "total_line_count": 627,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SocialMediaGlobal_classical_90965bd56bc873f2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "249286a5076118f3869fff5a743826a381b0410af0c453cee8fe48f5ae430d29",
+        "bytes_sha256": "2f59300a2c75fa1ded6003dd82cb7e153c747c44d3b311b0f8da233f52158953",
+        "semantic_sha256": "f75e9bc550db465607450686be6f4db15de394ac833343ef648c918f512d88d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SocialMediaGlobal_domain_6fd3200567d1e0cd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "acbf7734e83d70fe7cea40dd5ea08220e049fddd545b0a2acb9f65ca212e0586",
+        "bytes_sha256": "cdfb69ae69afc175b78cc27bae80f5d3bc7ceaeac134c3b9967e068d554f50ce",
+        "semantic_sha256": "9013b1c1d364a3c711849b9a9d3c24a901b4fcac88dfb2810e36c36a5d96d19b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:32.826753+00:00",
+  "client": "SingBox",
+  "rule": "STUN",
+  "rule_updated_at": "2026-07-26T08:28:12.924000+00:00",
+  "type_counts": {
+    "domain": 358,
+    "domain_suffix": 1
+  },
+  "total_line_count": 359,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/STUN_source_bcdde1ab61ff8403.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7c710ad7d2deb97bbfd45a8a0bc1a8893a3fcadd113ac1cb67fb9dc44ec39d7c",
+        "bytes_sha256": "ced9f970f6244a6bb66773a3456dde45f73824d77ccd8211e857bb2ed2ef3228",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/STUN_source-srs_c474df1562dd9afc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "22138f65dc0cdcb6864fc926840dacc73048f2733127abbb11b144cdde1875d2",
+        "bytes_sha256": "04c6517221f0a71458fe190412ca746eeb1737447ac3519a368143e642d344d1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:55.259724+00:00",
+  "client": "Shadowrocket",
+  "rule": "GaoDe",
+  "rule_updated_at": "2026-07-26T06:25:07.489159+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GaoDe_rules_5abbe8649250e5dd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03a6683f12bef41bbdcc640917039d71a50f439e0fa7fb085a1f171651a01797",
+        "bytes_sha256": "6a2d8fee90dc072fbd8439b0ea2b33b1cb71ad77468b31d8ea96e8ec6c819fc7",
+        "semantic_sha256": "6acaf15a21f8c9b28343c9f946c6bb65a824cd78458e5a8cc4694f6d3765d5e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GaoDe_domain-set_0304e6cf83ce2bb5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ea00bffce5fb1b188b390e419761fd0fe3d83b4bf8360b4132de0074bedd848f",
+        "bytes_sha256": "754e7cfc579966c57a5a8f5318433ff4989ced945447bd98b9cf34623478c1c1",
+        "semantic_sha256": "6397b8bd512d45786b1babc162f457a210718551bea8b823d77b0916f949309c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GaoDe.list"
+  ]
+}

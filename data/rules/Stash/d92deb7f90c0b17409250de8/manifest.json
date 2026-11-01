@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:41.717195+00:00",
+  "client": "Stash",
+  "rule": "Wasu",
+  "rule_updated_at": "2026-07-26T08:34:52.297459+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wasu_classical_c30e67feb7a590de.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f457809c971e5207cbd16362c9712711a828207b33b2cebfeef804e0b3f6a94",
+        "bytes_sha256": "8a11ec118fdb5af71b39c9ebac448c17783cf258612f6c801823bea3c0f92943",
+        "semantic_sha256": "7ce7a3ab09361892722f43a41566c213c432bd3c01274e015fedcc036a733a4b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wasu_domain_7e51ad8300d3fe2f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ed4802e43f99b45390451f083a03fb305b85338a1f9c3018026646131699595",
+        "bytes_sha256": "6c81505602a7728a28f2f712734c104a69c226820d413611e0d63911d948530a",
+        "semantic_sha256": "4a47ec435701305aa6fd877549d91215584c84cc4489a5e25f1335ae061fff23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

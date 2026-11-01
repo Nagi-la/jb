@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-16T14:36:15.884270+00:00",
+  "client": "Surfboard",
+  "rule": "ChinaMobile",
+  "rule_updated_at": "2026-10-09T15:59:13.944961+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 51,
+    "IP-CIDR": 1
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMobile_rules_7ef639ca052e31b7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ce3fc54a2b4b06b3392b365f1558f6b54294a73a213d12925f58c2e532b7c4a",
+        "bytes_sha256": "edc3bfc115734481af2c2877640b9c808e6d872069a69b26f7d390999227da96",
+        "semantic_sha256": "53b4570fbe9d0693376043354d98d387cc5e44bb3a9d684cf3ad6cb7988beadc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMobile_domain-set_fc24749f60772d33.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7242a43b72d10ce3cf719d0898ba98f709dda11d74600f48e36756a4f011fb93",
+        "bytes_sha256": "269a350f60d013f6ad481abd190107465c81a16094406709908ca11731397323",
+        "semantic_sha256": "039d7a5cb96a7ccd9ac443ce60e46f1ded3b1ab49248637fb341b32ed7bdefdf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMobile_rule-set_0694fd5bc54ffcc0.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40694ffd9e80fee02572c0c3e58c958f23b11cbdeeb0c47462b1be58edd5f7ef",
+        "bytes_sha256": "f1dd37f9f66882783177755f3c753bdbee32b86f93087f9a9a5c8f3f733362dd",
+        "semantic_sha256": "d2c5f248339134597edd40fa5864969d21a42f3171b7aeee3026a983fdfa26b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaMobile.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:39.213030+00:00",
+  "client": "SingBox",
+  "rule": "Shopee",
+  "rule_updated_at": "2026-07-26T06:53:56.711315+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Shopee_source_20b9de1674a2332a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b15210dbce77bc4d5bc39e65cb3af03ed26c846cd41b8084095a64372bb878b6",
+        "bytes_sha256": "cafb57885433af2369a2cae64c658a81ef372365cabec3c44a7c7d70cfdbb169",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Shopee_source-srs_317e4c19a309ada7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d517cbfe39f9d87e1d5ad1ce695449df52ac133adad4f145f8008666dff91cbb",
+        "bytes_sha256": "7275315e09850d410636893723803deda5df0c9e0037495a8d808c00f20e5630",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopee.list"
+  ]
+}

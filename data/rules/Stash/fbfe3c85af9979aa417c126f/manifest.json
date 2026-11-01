@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:38.036453+00:00",
+  "client": "Stash",
+  "rule": "9News",
+  "rule_updated_at": "2026-07-26T06:30:32.952170+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/9News_classical_5ad1b9720b3ed1bd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6dc2a76b3486da278a1e650011913ef84d668ee8f6685f7aa73297407c5ffc18",
+        "bytes_sha256": "70f2224e14561bbfe81961cd00991b1f22108c4b66a05c1e08ab3f6d44347eba",
+        "semantic_sha256": "bcb783d4ee4c37353ed9aca00e5a6b9134a8e64d53234f79aab18de750ee705a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/9News_domain_2f250f272d2d46e7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d78f8e462052a430191d4987d96b7b77f0d6860a723d29283a2956e7808d30f",
+        "bytes_sha256": "11155510edb9fab86e36ccfb074047ba8e035a3cedf2cca583dca57281edb30b",
+        "semantic_sha256": "b895b8954126a88b51d80080d27642a05232851ae1beadcfbf8ed47a14622fe5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/9News.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/9News.list"
+  ]
+}

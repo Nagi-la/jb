@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:14:43.193453+00:00",
+  "client": "Mihomo",
+  "rule": "Salesforce",
+  "rule_updated_at": "2026-07-26T06:58:36.786650+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 49
+  },
+  "total_line_count": 49,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Salesforce_classical_6c15280105dc794f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2aba582a9578b77a6164075372e7424d009602e1729f94314a8faaad9c15db8f",
+        "bytes_sha256": "cd17de5092827771d32d26e2c8b30872f9a0fae9b0b11936255d399512a518f7",
+        "semantic_sha256": "fb7b11e6a4617cfa755aaa036e3de82900fe05c65d343f3d6f7a1fea28da725c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Salesforce_domain_30c383e193c09ce0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "093bd0b13301b570979b8da7b87bb5783dffc38570af6fe0585d68aa98864b75",
+        "bytes_sha256": "5f8f20554f66156383928a654dd08ab780131d003c70e71a6d343d4a4a3ba7ef",
+        "semantic_sha256": "8c76af0eb8b484fdbb731c49fbb8a9e8e7e3745e7ee13eb8e3e5d62de2b0c8c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Salesforce_domain-mrs_9c50a7f0365faeae.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9eeea9c420e70c172576f5c6fdfdc01b83234c310e957bb586090cdca5de5f6c",
+        "bytes_sha256": "6260d0941843e5fbac68c43e19b5a00641dfef098b90fc553249d06743ed06ae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Salesforce.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Salesforce.list"
+  ]
+}

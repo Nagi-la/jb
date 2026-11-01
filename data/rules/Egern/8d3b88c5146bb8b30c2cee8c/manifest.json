@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:14:25.235436+00:00",
+  "client": "Egern",
+  "rule": "Cisco",
+  "rule_updated_at": "2026-07-26T06:48:29.454227+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 121
+  },
+  "total_line_count": 123,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cisco_rules_540c271f1156ff8d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7974fc5b37ca6af05739ad88148b195ca60433756eb016289675b0069a38d171",
+        "bytes_sha256": "d825c41b8a5f60a792d57b62c8a59eadf06802df6e8f2599c5eba2a838b6a3f6",
+        "semantic_sha256": "e9b650af5ccd85bf1845b25eb7a90841e5bc7d6744b0ff49a2f3c5be9275b789",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cisco.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cisco.list"
+  ]
+}

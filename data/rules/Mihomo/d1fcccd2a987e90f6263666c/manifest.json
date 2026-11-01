@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:14:38.021479+00:00",
+  "client": "Mihomo",
+  "rule": "TigerFintech",
+  "rule_updated_at": "2026-08-18T02:21:58.881519+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TigerFintech_classical_66196db29822a46e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e91ff511e30edb8fd88a98c874bee4d410f1e389ad3eacc08060f1684be48891",
+        "bytes_sha256": "a99e5d4a82a5f1a09ade9b2ba1a39fd7f0a8be3c6df11c8b2ff278a429069545",
+        "semantic_sha256": "711f5f983f14f161285b05788474d6b36ee9ae68c24b27b80d9fb05cc95109ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TigerFintech_domain_cec9a1efc2e035e5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e17f6cc2a748b1320f8836965b5b882a64db8f958d9ecfb8ccab4904ba14bedf",
+        "bytes_sha256": "62d3af579e360b2e08da5942f578a1077ca4f467a1d68ae45e333fa0bc974097",
+        "semantic_sha256": "40b4cacc33660362caaeec8bc5e7f4a64d220c1161b15a66637ca6200a0993f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TigerFintech_domain-mrs_c06912f89f527b49.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8f69b62a56cb0a2970bd1d6d9763c90a523ecde9e294e1aefbfe5d1038d0a58c",
+        "bytes_sha256": "81d6dda4524d1d2f166c42339cc07294a38c2eeb27ff94365fdc82954fb52bdf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TigerFintech.list"
+  ]
+}

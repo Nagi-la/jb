@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:13:39.322972+00:00",
+  "client": "Mihomo",
+  "rule": "NaverTV",
+  "rule_updated_at": "2026-07-26T06:57:32.797349+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NaverTV_classical_f69373b70ccf0e3a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "92d121a6cb97bcd8b169b422f0ac4e5deced4f06968935b0f22b7e02a68abdfe",
+        "bytes_sha256": "04017d07ff21aee2a4ee856ab39ab6b817f317bf8ccbe93ad0a3daf0093f00a5",
+        "semantic_sha256": "e184a330467ffe333e41b1fa50b79effbde34e768989db5476b953e3fd92a496",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NaverTV_domain_7ecb4da71649414e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "efa80b773ad875e33ac8d2f59dc65c7c95b2cfe17bbdf34c6696f7408c98f4bf",
+        "bytes_sha256": "e5b2ee9d1740f14cce80c98642b8821ce15a72dd414997b116139a365292e4e2",
+        "semantic_sha256": "06c7c4ccc39572022efaf12d3960662f3dbc71c7fd32332accc39a039dea4db2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NaverTV_domain-mrs_08da803ea23943ab.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "96abda52efa2f86822e64ad873750659363dad141072046022cc1f0bbcf0f299",
+        "bytes_sha256": "589ba4038234f5b6d23677a88715bc10115f42e8941bbabca9feacbe8edba51b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NaverTV.list"
+  ]
+}

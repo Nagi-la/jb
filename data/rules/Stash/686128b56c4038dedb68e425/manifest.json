@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:21.707953+00:00",
+  "client": "Stash",
+  "rule": "Zhihu",
+  "rule_updated_at": "2026-07-26T07:00:11.635088+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zhihu_classical_9a18393b2929111d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89dfa8b79a51c5f16e22976dee21d48e5b9c7c97af55c7e97abc05208ae3fff0",
+        "bytes_sha256": "47d45408a6ad68188b030c8620b9877fab1e1b5f0c537904b6fc3b3cf1c5076e",
+        "semantic_sha256": "5f35ca534520b8526c07f906f1aeec2e1e9c630cffa8302dae2832254fc44a6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Zhihu_domain_ef5a95e6f637032c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17fe7b2880d99ff2f0d1a759f6445381a48503a2262df0763b284b26b4c3ebe8",
+        "bytes_sha256": "561d573c977204b18181276c51f57a81e0b12e54cb1b43ba0bbc6a53deb8b927",
+        "semantic_sha256": "2998eb40760fede3f892e173eba85e1a383035b9db16ae9ad2e24fd9d1d201ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "知乎分流规则，目前只收录部分。\r\n\r\n绝大多数CDN服务器IP地址并未收录，欢迎补充。",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

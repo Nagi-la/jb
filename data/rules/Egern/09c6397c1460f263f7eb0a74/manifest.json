@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:56:28.680201+00:00",
+  "client": "Egern",
+  "rule": "FuboTV",
+  "rule_updated_at": "2026-07-26T06:58:17.223955+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FuboTV_rules_1daaf6d96b209e35.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05873609b542499472c0af8222bc11118a65aac538f1d242cb050d207221dfb0",
+        "bytes_sha256": "8e623cdb8fbc24cc6022d4bd9a430769f6a870325f683f52c83ae193c8c1d91a",
+        "semantic_sha256": "810e4a5e0c41b0329294b5ecf9250dcc2bb8f36eb6dd4f82b4cf6df3f5428d64",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/FuboTV.list"
+  ]
+}

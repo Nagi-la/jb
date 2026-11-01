@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:11.847231+00:00",
+  "client": "SingBox",
+  "rule": "Sectigo",
+  "rule_updated_at": "2026-07-26T06:53:59.523273+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Sectigo_source_1413f8e7d33400a2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dac2c15d38e68dc996ab8a640df6933d8239886264f9940500697e0d09a3c417",
+        "bytes_sha256": "3257444f90768f56fbf90e8ac4a8179923483faf5c9ef636cc89202a43416f22",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Sectigo_source-srs_8faa267548044361.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0a0c0a85c7466ae5e2f68d93211e6c9e0a5cee4b2dd2c45ba98dc996609e842",
+        "bytes_sha256": "1a7e3a0b1aa15e9195774f58d8e71628cb2eb52c160309ae6ebd21312ccd8d33",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sectigo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sectigo.list"
+  ]
+}

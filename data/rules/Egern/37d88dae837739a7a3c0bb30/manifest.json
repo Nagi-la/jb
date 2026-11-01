@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:13:19.433792+00:00",
+  "client": "Egern",
+  "rule": "Windy",
+  "rule_updated_at": "2026-07-26T08:34:54.201023+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Windy_rules_246adf5234210bda.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05b165bb14aba4735384c83a6b30c9b360a89af45388b931b4ae2999f508f02c",
+        "bytes_sha256": "8221c3b4d3b75202ed187d957fd56cce9712c4e08a33e7122bd723c183ca62c1",
+        "semantic_sha256": "2a746c357337e39036c868e2eb3eed89d8d66ef054e26f63f7c24abdba2dacea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

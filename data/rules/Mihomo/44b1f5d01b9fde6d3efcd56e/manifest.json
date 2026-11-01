@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:16:07.051638+00:00",
+  "client": "Mihomo",
+  "rule": "MiWu",
+  "rule_updated_at": "2026-07-26T06:27:08.843108+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MiWu_classical_eca6f7001534ac96.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "184d7951bc9ff30a4791cea757f1daea53565994b159146556f2ad2e73215e1b",
+        "bytes_sha256": "a37cfb40f36b46f0df860aec227a6e77dbfa3828d0c3b41d55f1f7292e6a7e45",
+        "semantic_sha256": "3f5bd3e4b9ee7680cdd151330a017b4c404fa56377d958d037727c1af6692b4a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MiWu_domain_cbeeddc290dd9fd6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30a2e79e823235b4e90093ce798b5b741be99b9afbfc2da717bd36ff4a055ac7",
+        "bytes_sha256": "000c0f20fd9558990e9f3c370493ceee391ad6c9fc08e095893a3db305142a2d",
+        "semantic_sha256": "6cfa72bbadcf4c6ede62016e5ba076f02b19061c155ecc17d63f3bf08bc068fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MiWu_domain-mrs_fe675d81674c637d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "98e58da13c79553caa37b02fbd45c9ab8531a1ee4c8fa80fd25fb6e26eb00ecd",
+        "bytes_sha256": "9e31ae49ccd15a20ebab9624027780494e36c4df7deeb53c1f2e700bf44daa6b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MiWu.list"
+  ]
+}

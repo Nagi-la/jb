@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:09.795420+00:00",
+  "client": "Surge",
+  "rule": "Android",
+  "rule_updated_at": "2026-07-26T08:20:41.904893+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Android_rules_a6492ec345b2cc6a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc6d4fe458d4ec20b93ee97dc0cd1c45f9fbecbf53baac41e4235c543ea84762",
+        "bytes_sha256": "879f7104532eaa7ed62d2fbac7eaa311da81a4f73ca6892edd39c8e5b1c4ee5b",
+        "semantic_sha256": "24a8a5456618cf1c25c0abe61cc693e8f47caa18d483e366acb5f0c7647c5181",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Android_domain-set_4d198bd6c56823a5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4abc66676777353a5d827953e424b6337300e17692bac4eafaa5e7ab97e75433",
+        "bytes_sha256": "912042373713a8ba4e09769cf7c9f49fc9887230be808768f3c18f94228f14e2",
+        "semantic_sha256": "0db3c647528434fa7fde0498578d192e827fdc07357a47f6cabf1cf7f3304128",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:35.489532+00:00",
+  "client": "SingBox",
+  "rule": "MOMOShop",
+  "rule_updated_at": "2026-07-26T06:57:46.397471+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MOMOShop_source_5521314a50e7953d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2ee464592c0bb99dca46f036eb08c36c9e64dbef8ae938b01cac15cc3e0699ae",
+        "bytes_sha256": "b20a24e731e548dbae4574b77df88d60de8543a81be9f197c108bbc77c390945",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MOMOShop_source-srs_1f3f59d5586ce2db.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d15221a9a529b28f847ec0959b263b9fc8da0be6843bb5f14a122882dffbb9fb",
+        "bytes_sha256": "7fcab81e63fad909f4204385f8d9a861001c66aa82674c02ba763c83ef7bae0a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/momoshop.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/momoshop.list"
+  ]
+}

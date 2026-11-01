@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:21.203784+00:00",
+  "client": "Stash",
+  "rule": "TMDB",
+  "rule_updated_at": "2026-07-26T08:34:40.551280+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TMDB_classical_54a8852fb4b9701e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b604f514764384dcec279eb45e4217e12726a9b035e95f64b75b91318d218ad0",
+        "bytes_sha256": "8edf0e9da83c7fb47f403e91ff2598a25f91cb0e6622231b2655fcd79dc91064",
+        "semantic_sha256": "c582bb2793f56fa4e46793d1ce0ff118e406c1889ca79ac68051afcbca49db13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TMDB_domain_103cf6a9eb9245b7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d14d1be0dc4a926b91dd6fa4ef8ea7a252851321ef287f4d2ed4c8566afb49df",
+        "bytes_sha256": "19c26a27796bcb8773866551838f39f8b76b81b25a8fb5dc56a96f9427996b17",
+        "semantic_sha256": "e156bc7d3a36f555938e3325416852484bfb8b5b6f4c8bedaec8fac9c34d044f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

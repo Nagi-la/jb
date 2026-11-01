@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:18:37.544943+00:00",
+  "client": "QuantumultX",
+  "rule": "Notion",
+  "rule_updated_at": "2026-07-26T06:52:38.764810+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Notion_rules_ca839208a396a5a9.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eddd57dea971e8b0f4998c8828187284588c962f70a9a961a898a4fc76d84ddc",
+        "bytes_sha256": "a869ce907380dc3168f85085f86aa6bd7f0b94fc29360f98cf633dc31699335c",
+        "semantic_sha256": "60b20de14870ae28601f1503e34e4d524bc9299fffe6bdf53c1b5eb3a85bf5da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Notion.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Notion.list"
+  ]
+}

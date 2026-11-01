@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:43.482798+00:00",
+  "client": "Loon",
+  "rule": "WiFiMaster",
+  "rule_updated_at": "2026-07-26T06:28:51.488644+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 62
+  },
+  "total_line_count": 62,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WiFiMaster_rules_86df6b27036c5c88.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95cc236b6db0d156e7aecfd1e408fe6ee5d700ab793792b0c80aca8ab691bcfa",
+        "bytes_sha256": "970e1b0d24aa9fb22e49c85d25fe14c676823cdc5a0eba7741e655240bd3f0e8",
+        "semantic_sha256": "39a10a3008be120c444455e7428493557510fdc6fbb5bdc305bf297b81cfedec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WiFiMaster_domain-set_98d5e0930303b084.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "14c67ba70a628e1bd57723938195a08bd2d59bd9aab1fed0359fa62434501df7",
+        "bytes_sha256": "967fc440be8a936f309acc280a22d87dd21295583e61eb7f3651e6fa050c477c",
+        "semantic_sha256": "1619cd7c63f9574e44bdf64c54612e6abcf667cc8819f4a9c3cbd1a12d5ddab1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WiFiMaster.list"
+  ]
+}

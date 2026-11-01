@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:01:36.184708+00:00",
+  "client": "QuantumultX",
+  "rule": "Nginx",
+  "rule_updated_at": "2026-07-26T08:34:09.627913+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nginx_rules_1d142ff5fe86649e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84908030a521c089d3a200aebcbe739ab61e2521a2a13103da24ac65b4a38e54",
+        "bytes_sha256": "3cd2fdbd13ab1d4a1a19bf2d2839daf8b3c4b67bf5e135e8ab5e08c0a4150289",
+        "semantic_sha256": "7529cd4369296032dd621079eacc1e8b8864a353f192adf68678146c9117559a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

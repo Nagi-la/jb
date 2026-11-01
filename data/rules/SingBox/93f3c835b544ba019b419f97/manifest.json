@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:17:09.069928+00:00",
+  "client": "SingBox",
+  "rule": "Shanbay",
+  "rule_updated_at": "2026-07-26T08:34:26.202113+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Shanbay_source_fc2ccb118ce69afd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "42781f1c60e537db70cc483102d6dbe21743ed968f933e67e3618b0d545db054",
+        "bytes_sha256": "a1fe02274fda62c06e40e4666c08b7202d6c69311545839978e576942ee0d893",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Shanbay_source-srs_a5efcb88f8540db2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "45e8753b7beac722aba03849d76afe170d4cf65cf57dd7d09de3e072007f55bf",
+        "bytes_sha256": "ea9cdc0f874de885c5ff2bbd6299d2cccb85cd2eb2bb15b51f9090f437740294",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

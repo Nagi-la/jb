@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09T16:08:53.556589+00:00",
+  "client": "Loon",
+  "rule": "SocialMediaGlobal",
+  "rule_updated_at": "2026-10-09T15:58:50.609305+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 612,
+    "DOMAIN": 15
+  },
+  "total_line_count": 627,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SocialMediaGlobal_rules_684529cddc032a47.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "895e06a7d35c6d70d4e4d5022156096aff806fac499e73e4f1ec5b050f928d0b",
+        "bytes_sha256": "ba761b1479b8697679dcfe3dd2536e94e2af1e873997b4bca80669a95c4a2aee",
+        "semantic_sha256": "d521a15ea8a54de757f23eb89c681ffe0b39e6bb62104a5c16c27e50c5e8395a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SocialMediaGlobal_domain-set_5ba1d49e3badc761.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1424298de5ffde46a5509f935bc31db14503b87075d627f6320abc9115c8495c",
+        "bytes_sha256": "da8d27871c5c2abe7343d940abff19c06759e31c71941b566896c2129cd09f3d",
+        "semantic_sha256": "1c2d6d4f1bbf406d7f46edcf8c4fa2fd4183feb36272e5090d82a9f114e0e1ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

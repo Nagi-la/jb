@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-10-29T03:07:25.414200+00:00",
+  "client": "Mihomo",
+  "rule": "Cryptocurrency",
+  "rule_updated_at": "2026-10-29T02:37:35.051016+00:00",
+  "type_counts": {
+    "DOMAIN": 8,
+    "DOMAIN-SUFFIX": 232
+  },
+  "total_line_count": 240,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cryptocurrency_classical_66825de9ba0fd5b9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "37c212f8ddaf2ccd0746482645ae93c74a948ca232b2208cbbe3a3c23dfd909b",
+        "bytes_sha256": "77bb5e6b56c86b324e9b29d69bf56acc5864a06225d128acb536f3ae289b4e1e",
+        "semantic_sha256": "dd8a3287a30049c16772708b7dc9cde9e02b793e18be6c10a9081be4f1ec5479",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cryptocurrency_domain_5e0badca5d352f6d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8b78078fbbbf31fa4a11ecccb66553b154169e034b26cf260f3de511f9d1983",
+        "bytes_sha256": "f5a983a99ba5100c4f1b5cd1d94ece4fffb3c7d3c51d7c58fd98da9fe3f57a98",
+        "semantic_sha256": "6ee29cd968894ebfec986d0cfbfb53cbe6a0bdba644fd4a42bed1e7a8e080f63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Cryptocurrency_domain-mrs_f2ca0589ed60644e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e3fa0b41b6bd9624ceda04494787c99e8207ab1e4cd374a1a061f22cd4909604",
+        "bytes_sha256": "a6809057c386aab32c94b6ef787d20dcc58509305e3831f47771d8fb31ba0db8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

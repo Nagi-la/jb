@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:05:31.460007+00:00",
+  "client": "Mihomo",
+  "rule": "Dandanplay",
+  "rule_updated_at": "2026-07-26T06:24:17.235708+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dandanplay_classical_0c63f47cb3c323c9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "12ba7f1a07e2e4d92eba55c141b11ee450fca8d0b80920271f497a965bb08b5f",
+        "bytes_sha256": "0cd3af775f3813f1e5d7e3eb972946000f0f1f0dc915f4f470571c64bbbf58e5",
+        "semantic_sha256": "89761991599ffcd32098e3abde055181120ca67cc4a18bdef4634a6e9f20cbbc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dandanplay_domain_94487e34a5f3f268.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b94b7fd99d33778cd89395fc487e6e574005609ec872bf4aede9724446535ac",
+        "bytes_sha256": "c36f189c8d6c9cb738c0b1676af045776e6c65fe65d4ff771f7febe65e815668",
+        "semantic_sha256": "7c89fb2e50bafde64db70822277d7c56139bf08e4d834df6f8b9ac60b0047f0d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Dandanplay_domain-mrs_ca05197857c9bfc1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5acbf5ec25da96faaf5c2111dfba0b14eaa377370814c6fc9710e8425424a2a0",
+        "bytes_sha256": "320a6de8f6b10f1c0feeb82ef923372a4117b7f979db201ed644d4a461d7f6d5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dandanplay.list"
+  ]
+}

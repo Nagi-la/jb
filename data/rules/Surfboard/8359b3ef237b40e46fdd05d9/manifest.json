@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:16:14.683987+00:00",
+  "client": "Surfboard",
+  "rule": "JingDongCloud",
+  "rule_updated_at": "2026-07-26T07:03:23.074073+00:00",
+  "type_counts": {
+    "IP-CIDR": 7,
+    "IP-CIDR6": 6
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JingDongCloud_rules_d4cfb762f099951d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a95b92ab2beecf05afa727597fb57a7da9420658aa9c94576e6880d30d60c840",
+        "bytes_sha256": "a67645d35587ddb389c5fb55c765e1deea315622e4d8799a4d8ad80f5fe11a02",
+        "semantic_sha256": "2dbe0772ccb8c63d826321cc2a4dc836d6ce62f4d7fbc296f5457f1d03eaaccd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/JingdongCCC.list"
+  ]
+}

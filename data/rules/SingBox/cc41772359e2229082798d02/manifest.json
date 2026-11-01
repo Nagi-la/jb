@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:58:14.519984+00:00",
+  "client": "SingBox",
+  "rule": "Samsung",
+  "rule_updated_at": "2026-07-26T06:54:09.785545+00:00",
+  "type_counts": {
+    "domain_suffix": 28
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Samsung_source_daeeafa85338e241.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c3ed62ebc4fe88a1f6b902f4689bd73a5b1993e095b2a5aa140a128b25a908ca",
+        "bytes_sha256": "39656b2118eea5ceb1b49dfd6d1568cae0e51ea5623b0499805dd3882bcfa36a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Samsung_source-srs_8da1f82e266ce02c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "95dc05a8b244bda98570d387918015a9b16669baf7fff4c8fa2177ed94520463",
+        "bytes_sha256": "d5b5f36a5441521e16a47dd6eb3a27ded94f8e35d8bd6e118a4e753b9b93df93",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Samsung.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Samsung.list"
+  ]
+}

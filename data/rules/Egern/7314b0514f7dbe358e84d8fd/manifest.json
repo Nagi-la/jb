@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-20T05:59:34.851489+00:00",
+  "client": "Egern",
+  "rule": "Yandex",
+  "rule_updated_at": "2026-10-20T05:42:05.036617+00:00",
+  "type_counts": {
+    "domain_set": 18,
+    "domain_suffix_set": 140,
+    "ip_cidr6_set": 16,
+    "ip_cidr_set": 41
+  },
+  "total_line_count": 215,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Yandex_rules_b271962617b511e3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d5b89507ad5e91ff7869d9d433ea25c34f04a6e62b65e6cdd66cfa1c9e499a2",
+        "bytes_sha256": "b918ffb461993a45bbff13ab7b7fd5ae6a0d0a0b17a9846dc327c6e1aec19138",
+        "semantic_sha256": "5f25d7c3f20c418e569df15d0bbe584c40b3d9fe2029e01eab711e1f8150fabc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Yandex.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Yandex.list"
+  ]
+}

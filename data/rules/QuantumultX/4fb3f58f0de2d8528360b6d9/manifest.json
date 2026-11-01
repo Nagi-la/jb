@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-30T01:40:38.235949+00:00",
+  "client": "QuantumultX",
+  "rule": "Speedtest",
+  "rule_updated_at": "2026-10-30T01:40:30.023977+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 130,
+    "HOST-KEYWORD": 1,
+    "HOST": 3345,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3477,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Speedtest_rules_d231b9c3940fd0cd.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1decb7a334e5a2eea00ace655a1c8c20f40614129665943e875198974b7fd7e3",
+        "bytes_sha256": "0781a51e8a205eb2e6ec7fcfa5696ec8c7f0c16c151b9299f833879da13ba08e",
+        "semantic_sha256": "feb8e7cad2185a0b8a973118ed1ee0c803a3d5a77b61d5f634c965cc27c8d81d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Speedtest.yaml",
+    "https://ruleset.skk.moe/List/domainset/speedtest.conf"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-10-29T02:53:34.011643+00:00",
+  "client": "Loon",
+  "rule": "Netflix",
+  "rule_updated_at": "2026-10-29T02:37:32.293293+00:00",
+  "type_counts": {
+    "IP-CIDR6": 199,
+    "DOMAIN-SUFFIX": 28,
+    "DOMAIN-KEYWORD": 4,
+    "IP-CIDR": 1386,
+    "DOMAIN": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 1619,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Netflix_rules_f3bd3eb7f4910286.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d09be6ad372a8db7e5eaa4dd75f91f49ad31355cd22ea5e0472fd9b1e074e3e",
+        "bytes_sha256": "e353a0f5b0ea2cd4a05a65eb27eb36be07f56b8afab4d3d1460b5448aa28bd63",
+        "semantic_sha256": "467c51bf40c95fddc3d9a47648f81aa4aa3a55c01fcf3ceb1f5460a49c8f549b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Netflix_domain-set_35a885fe40a43c62.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b3d8f59c2f72c74ee9b1c7e54f08e79bc24796d3e85fbf6a90793e981306b48",
+        "bytes_sha256": "dd053994d8967eba4be130e95e63f9b6a361c31bd1825850aebd9662ec0cbaa4",
+        "semantic_sha256": "7ad3c68601ab24fe923709e32c85e97372b4b2c3dc72faea952969da5b61a0ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Netflix_rule-set_8e9c600439766901.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bef0cc03dd9d91b7f840e5e20c99e2c9a1fda55f4cb87baf7fd6ef013a3c1be2",
+        "bytes_sha256": "1d3e52ef4bc187e5c8ef5d82d78b226abde3b8fea9329c2972055c7cef76f659",
+        "semantic_sha256": "fde6b2018ef070828bb8a17b72cfbf4e65440fc74c77422e45937cdf10b22025",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netflix.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list",
+    "https://raw.githubusercontent.com/QiuSimons/Netflix_IP/master/getflix.txt"
+  ]
+}

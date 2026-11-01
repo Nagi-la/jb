@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:10:28.304329+00:00",
+  "client": "Mihomo",
+  "rule": "TianYaForum",
+  "rule_updated_at": "2026-07-26T06:28:25.529201+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TianYaForum_classical_94e0ee4be31d035d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52fbd13c3a30d549b56c38a165b2646edfffadd0335e08582e204897b1b91a12",
+        "bytes_sha256": "604111124570de068457ad2d5960a633ba6463d1686bdd7918c11efa3cf5846a",
+        "semantic_sha256": "8b83eed4cce96b6250dfbafb5787c91d6b34cd12af1f24ef845236f3a8843e52",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TianYaForum_domain_3f79f0d16e5a371b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4d3d00e4c3234209a9bca7f78e484a2559c20fa10cf381858617be735dd4c9b1",
+        "bytes_sha256": "93a28f18ebc8e6f0bc09d4490ee4200ef8b73d6ddb6beaf6c8e8d9a048da26ab",
+        "semantic_sha256": "c088fb2657a6a8004aa3ad32612cf51629d44968da9d747a53d4fc4e8d3a2041",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TianYaForum_domain-mrs_b603b49259722d73.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a4e637112979498a5d5bdd4619d913fb77e2d359ab1b7779c86dff5f565248ef",
+        "bytes_sha256": "c3d6a61d9f3dfcad99e01adea2faa94b9c4f86a273188f0f77bad1a1aaca0507",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TianYaForum.list"
+  ]
+}

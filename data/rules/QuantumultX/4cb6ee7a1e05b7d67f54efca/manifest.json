@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-09T16:08:53.547735+00:00",
+  "client": "QuantumultX",
+  "rule": "SocialMediaGlobal",
+  "rule_updated_at": "2026-10-09T15:58:50.588559+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 612,
+    "HOST": 15
+  },
+  "total_line_count": 627,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SocialMediaGlobal_rules_5314f98df378229d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4178e7e3d96ed2e187784864c079447f0e8bba9d6b1bba150934711f41238eea",
+        "bytes_sha256": "a808929dda0e38987cd135fcbf7bb918b218ec6c06c9af9b25e1072a6d4f3253",
+        "semantic_sha256": "21a07d96df7890e54bbcf2af4be6506e24413d03047001a734af1cdbd28059f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

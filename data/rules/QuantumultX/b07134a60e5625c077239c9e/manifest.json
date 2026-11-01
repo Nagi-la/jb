@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-29T03:17:37.060708+00:00",
+  "client": "QuantumultX",
+  "rule": "ByteDance",
+  "rule_updated_at": "2026-10-20T05:42:31.698862+00:00",
+  "type_counts": {
+    "IP-CIDR": 1,
+    "HOST-SUFFIX": 1034,
+    "HOST": 29
+  },
+  "total_line_count": 1064,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ByteDance_rules_784864b9c554dfcb.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "496047ff6998fedee6c7bd3f157516df256050818534f1fa2daefd9595ca2d5c",
+        "bytes_sha256": "e00a6bbdd175071d7b9c5ac68e677222f88b1fc1f45d9d02e8b67bc2fabc1c5e",
+        "semantic_sha256": "f11808598be7b7c62901c7dd7268142b7171ec51ea1880f2f8ef8c16b509ea13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list"
+  ]
+}

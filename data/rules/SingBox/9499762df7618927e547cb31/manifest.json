@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:16.279340+00:00",
+  "client": "SingBox",
+  "rule": "Moji",
+  "rule_updated_at": "2026-07-26T08:34:08.220457+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Moji_source_ef847124ed762dd3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4cf9538bc842df2b6fbaa3fe2289a9fe1a2cf34616be1ff7bf52f77a79d7204b",
+        "bytes_sha256": "88b831fd5793a49f007d26d23c23582f3811946b49307a7fe4b7f275433c2a0b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Moji_source-srs_7dfd0a3bb65bd2fd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0439da29862f37e77bc8d82196d2547561a576cf5f237a8369d7fdc1ec9cc3a8",
+        "bytes_sha256": "81bac818cd80f04e14759d560db7fe064d177c250e36a6f33aa6b8dcc5e48edb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

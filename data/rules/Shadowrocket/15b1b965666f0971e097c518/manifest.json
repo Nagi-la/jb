@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:19:18.119418+00:00",
+  "client": "Shadowrocket",
+  "rule": "Discord",
+  "rule_updated_at": "2026-07-26T06:37:28.826515+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 29
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Discord_rules_cab38c2c0b331080.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d9934b7808480f4049746bf6a45010f44dcf087fb2d8e6b7a869f838cd46bd4",
+        "bytes_sha256": "c7dc97a62ef9ca858b0292c0be6b09b16eee0edddf5a3ee32d2604b7a4f3847a",
+        "semantic_sha256": "4a9851d461c43d3a1a2da27040156c455a99afddb9e4db7b0108d602f0279eb0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Discord_domain-set_0ec2dc079800c400.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf85953b07ec53c4022c3183cd3b7d2df906de3cba9b8c1a5733f7cccd7fede5",
+        "bytes_sha256": "4b6255ba966a266d8c645f6d61ffd5f3329bfbe63c34e7e7675040edb0a9cf64",
+        "semantic_sha256": "770bc676f8902b4b2497c0ce09e921ac45df6a5bea5264292c07c851bc056ac7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Discord.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list"
+  ]
+}

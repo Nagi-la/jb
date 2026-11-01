@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:07:25.092236+00:00",
+  "client": "Egern",
+  "rule": "HBOUSA",
+  "rule_updated_at": "2026-07-26T06:30:18.010050+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 42,
+    "user_agent_set": 2
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBOUSA_rules_6314d5de464939ef.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a21396560a6e15d891152ad28643ccda4d29c168406a2df6fb6a3a235af812dc",
+        "bytes_sha256": "893a5e32dbaead1e87a87dd61b99f6ae364340df07cd7d5682f09e69bbea880c",
+        "semantic_sha256": "59528c55fc015c99cf4c561af28641d08a6c10a47d8b12b1e5f4a604a5a4ccc8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list",
+    "https://raw.githubusercontent.com/luuanng/surge/main/HBOUSA.list"
+  ]
+}

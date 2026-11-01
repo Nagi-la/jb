@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:07:28.980418+00:00",
+  "client": "Mihomo",
+  "rule": "360Cloud",
+  "rule_updated_at": "2026-07-26T07:02:33.157899+00:00",
+  "type_counts": {
+    "IP-CIDR": 28,
+    "IP-CIDR6": 2
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/360Cloud_classical_2d8816ea6db7d4f3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e05eb20eb17c3af65814220b9f2724c234552871db0c4455a967ca55f29b851f",
+        "bytes_sha256": "9d40c0689835355d0153824a35998eb5cad97234244612620853934f7ee0bfe1",
+        "semantic_sha256": "da9199e83b7ec8d8d5d263cc4261c5fadaaa0ea50f009e3736b97cd7db0d7b94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/360Cloud_ipcidr_4c96e221e5622d2e.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2492a7374afe7e32d75f84adadc220f5fc235c3af1e1a946c5947c61dd85f726",
+        "bytes_sha256": "617b8503f82da372f0a1c010521b237bfca17dffb7b7bb1a29c36dc206eee1d3",
+        "semantic_sha256": "59d0895809288bb81773daf8d7e16f3e1f5256537c5d270d26ea94ee0382da9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/360Cloud_ipcidr-mrs_0e6df057c1eb547f.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0a88477eb614028d07eb309b77fbf561cfd3aef7d7704418acf058ffc90fde26",
+        "bytes_sha256": "353755c26481628838261c112f13d1484c4517edab05f0f4efdc85904fc0e526",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/360CCC.list"
+  ]
+}

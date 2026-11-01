@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:31.412644+00:00",
+  "client": "Stash",
+  "rule": "EncoreTVB",
+  "rule_updated_at": "2026-07-26T06:21:43.563195+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1,
+    "DOMAIN": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EncoreTVB_classical_dcf4f284f7d6c1d3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89a4e5f912e586b8675808fad81daca2055bb705f7d227165417c0f5703ad36a",
+        "bytes_sha256": "f00fe8f1fa14af5b8dc9936b545f722e9932c98d13c3b9261b233d58903fd374",
+        "semantic_sha256": "b2b7877f9283570ec480b70a2e12cb1bc6ed4823a67f91255ccd7915b14818ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EncoreTVB_domain_ee9dded455206f5a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40725f74f8e39dccafd20b1477bac1084aa7fff4dff2a0c1f5b60d9fdfb40fd9",
+        "bytes_sha256": "f1feca3d604144d0599bb94c630e46b78fb88a2101f20203a6f6276d20a9acc9",
+        "semantic_sha256": "d9fae1a37428e3e7b73b399cd6c22e7ad91230bb236754ae8846f7a6fb754919",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/EncoreTVB.list"
+  ]
+}

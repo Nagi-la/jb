@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:27.930104+00:00",
+  "client": "Stash",
+  "rule": "GitBook",
+  "rule_updated_at": "2026-07-26T06:29:23.463733+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitBook_classical_b84d324f5d497050.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa322dfc2fc40dea4f17158d2d8f523aaa55c2dafbfa118a99ff804a03a59c37",
+        "bytes_sha256": "9c77b906c458013ee37e7ffe17c0c197b53fe15ddad7342cea4bacb7cb202384",
+        "semantic_sha256": "702ba2d115a77bda80cdb6961760c231e6d3285fe73d6d8ae0d55e9ed5707996",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitBook_domain_485152b02ff0bc30.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3de100a71d04d988f566f37e6e9bcd036fac870ab1998b7cdc5545637714c9a2",
+        "bytes_sha256": "1413fd2462313a3ff81101a5f1d90cb8690f5aebb68cfc95f3faf458b98dc2b9",
+        "semantic_sha256": "de59054085e8325129b6bf8233a05ae004de4d7e3e99f3afa9439ed3ac159115",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gitbook.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list"
+  ]
+}

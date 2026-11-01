@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:11:54.409936+00:00",
+  "client": "Surfboard",
+  "rule": "DigiCert",
+  "rule_updated_at": "2026-07-26T06:50:09.147022+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 74
+  },
+  "total_line_count": 74,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DigiCert_rules_7d8ce1acea806f0a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e81be1cfb4b1ad37de5d9fb2bb6544764a7dfd6f00c7c4dadae665c3fcbcdef3",
+        "bytes_sha256": "e740c4c326106e22455e357978459d445612b02ba6772af0e532a2137a5bbfc2",
+        "semantic_sha256": "5706e3e0c2a8fcb1cbccde7b39a611e918a9ba4cea2cb230a843e31dd1e15fae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DigiCert_domain-set_2648901335f28da4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "546df48053815b1913a855188ba7d889587b8e7319ea4ba44243acb83dc635cf",
+        "bytes_sha256": "63e603bbc4a407c12269b0d7af38791524611a881ed197e46b843c3ef4fd4545",
+        "semantic_sha256": "44e2926fffe27ca7004fb86c5804aa4ae025c6ada9cea134061a04befc7f4664",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigiCert.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DigiCert.list"
+  ]
+}

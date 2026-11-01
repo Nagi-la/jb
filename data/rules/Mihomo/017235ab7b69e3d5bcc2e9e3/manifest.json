@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:13:33.682500+00:00",
+  "client": "Mihomo",
+  "rule": "Garena",
+  "rule_updated_at": "2026-07-26T06:32:04.616262+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Garena_classical_22db34c8013ef5da.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "017cb5ab7d334c135fb99ce485e3f9c3dff6d254febcac02e523a262ac584dac",
+        "bytes_sha256": "098ffc54466a4f6ce5b2b3a1b30c0e49bbf20d84cbb9871dacfa032d1fed8db1",
+        "semantic_sha256": "f47421d2aca136eb0327e8f1e9e83b7d70fa238c2de10eccc45e87aea95f892d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Garena_domain_33cb28099e5eae82.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f7e591ddfb3a093b65a4d3bf7f092e185566c03efa8b79f025049ded920da76",
+        "bytes_sha256": "a5903e22859a635f8ad94e5df11d988958202b4bdbfe8bbc297180f7b2d485de",
+        "semantic_sha256": "2b3af808c8407bb4ad2a5cb8c8a1788e678c7cbb448f053dd14793710b50ce83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Garena_domain-mrs_4092fc86b92dcbe6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3c8a9f17b573aeda26021344f78954003f21f99d08f6f58554f854922928bf02",
+        "bytes_sha256": "a69d5f9b300aec13bb06750b336dacd1f2220624b26c7adc05b45ed482ce9609",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Garena.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Garena.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Garena.list"
+  ]
+}

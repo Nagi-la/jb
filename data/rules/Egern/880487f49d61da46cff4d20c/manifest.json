@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:07:42.584465+00:00",
+  "client": "Egern",
+  "rule": "SoundCloud",
+  "rule_updated_at": "2026-07-26T06:22:31.954904+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4,
+    "user_agent_set": 1
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SoundCloud_rules_e5fc66c4210d3fd3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e435796d02f66fba1ff43b19a88bdc0c31ef0d17636561eb3961ffae979108e8",
+        "bytes_sha256": "336dbc4e526ca88fb34941879e8bcbb8fb9985be5c51d7c2897077fea7757958",
+        "semantic_sha256": "b4cdbbf8e8597e3623050d0ad80f299ee2f3d1a821284c84ca6311c533639734",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SoundCloud.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SoundCloud.list"
+  ]
+}

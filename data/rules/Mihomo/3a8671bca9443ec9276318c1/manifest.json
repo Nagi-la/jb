@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:16:26.872411+00:00",
+  "client": "Mihomo",
+  "rule": "Assassin'sCreed-Odyssey",
+  "rule_updated_at": "2026-07-26T07:00:14.887489+00:00",
+  "type_counts": {
+    "IP-CIDR": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Odyssey_classical_a588a916fff250fd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25743b8296013d441484caf674e59b7f3a2ee0a58ebd5b1286efccca55b0fe6b",
+        "bytes_sha256": "d296b2796ebe4b51b23c6c5aac2a7d6b50839193c317a09b2af737b0308a4400",
+        "semantic_sha256": "e5b0486c4a6246324f9197c1c5fc4bb78015400156e24b841786b855749c6928",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Odyssey_ipcidr_8f4d5f5f566db272.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "02b9ef764cc1b2d0a5f3295272b3cc8586b0204d4fd6ce23850e5834a17cfab5",
+        "bytes_sha256": "1d68337dd64932c669c8772c081ddc1869d17f593b09f7cbcb55e21de2cbbadf",
+        "semantic_sha256": "ffa554224965824c5f952f117b39d005a6a593d003c49a8a0ece7bbe6c61e5c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Odyssey_ipcidr-mrs_599dde896c66da5f.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9cb2fd2f51fa69a6235a82ba2be255c1ab51bb093b49f8156b2624719e677881",
+        "bytes_sha256": "5beeca62f093e5efe060b386a8a528118c31c8b962c40d71c774c1ff2bb75c41",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/master/rules/Assassin's-Creed-Odyssey.rules"
+  ]
+}

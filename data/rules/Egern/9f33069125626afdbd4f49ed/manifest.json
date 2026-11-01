@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:12:04.352684+00:00",
+  "client": "Egern",
+  "rule": "PBS",
+  "rule_updated_at": "2026-07-26T06:22:20.308673+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1,
+    "user_agent_set": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PBS_rules_852ec9ca11c00d4f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e744a1478044eb1b1ad699188e6fd0eb3b53c01cb5fdc6723e518f8651ffc0e1",
+        "bytes_sha256": "45c9bea985142f67eadfe8957e588eddee60c13f6d89ee60151187b81aaf95a2",
+        "semantic_sha256": "3c09d64d2a7804a20ca9c2482679b7d8ae838797d33094e418f72353146d4c3e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PBS.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PBS.list"
+  ]
+}

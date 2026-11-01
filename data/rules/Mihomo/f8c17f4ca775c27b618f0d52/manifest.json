@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:14:30.621631+00:00",
+  "client": "Mihomo",
+  "rule": "All4",
+  "rule_updated_at": "2026-07-26T06:21:23.664149+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/All4_classical_ed242c366ebb4bee.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6651b1f021f33e405546217f266d14b583d7c056f45fae67a8a0c7bd7c8b6878",
+        "bytes_sha256": "7cedf2594fce74bb428e5917320d4445afbd93c87acd70e6f091bfc8cc75e0c5",
+        "semantic_sha256": "06818f93e72022d8c69de5090050ddc27b948db31c4929117eb06e4f43c48756",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/All4_domain_0adea14621322fcf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75201d21842f6904d0b2ccc19be3292b999c7324bd7722690d4df242ab848c41",
+        "bytes_sha256": "76a97793bceb929ffde584161e3eeef24e4625e4c4e1f6864153f559ece3a7fd",
+        "semantic_sha256": "e2517c2c5ca4f19225db46c5aa1fa2ad2112d184f27ef7ad674629dce8f78e43",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/All4_domain-mrs_7b34fab9b9e7d907.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "87fd492ff5ae05a8278916d27e01b1f3be839a8667a1c8cb9bb3ef17379c59e5",
+        "bytes_sha256": "d7e40f5f9e67f3ec76b748a635ba6c907e634ab365f91aed755e38f46fcaf147",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/All4.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/All4.list"
+  ]
+}

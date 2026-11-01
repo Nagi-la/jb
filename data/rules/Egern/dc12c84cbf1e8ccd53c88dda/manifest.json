@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:08:09.808379+00:00",
+  "client": "Egern",
+  "rule": "Stackexchange",
+  "rule_updated_at": "2026-07-26T06:54:27.215390+00:00",
+  "type_counts": {
+    "domain_suffix_set": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Stackexchange_rules_6c7736cd934cf1c9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "454f1330a8ef80c31baeb81278517840624990eac6af68f5884f0479c6bd80a8",
+        "bytes_sha256": "db238a05eddecbd68afb3595d687261d93f89d39e6ba65bb56edd7ca98e82cc0",
+        "semantic_sha256": "6353f4860bef7ae076e19ee468eacf2a81c474609d7694324f5d5c6d4ffe2e40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Stackexchange.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Stackexchange.list"
+  ]
+}

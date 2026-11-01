@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:23.615661+00:00",
+  "client": "Shadowrocket",
+  "rule": "Pixiv",
+  "rule_updated_at": "2026-07-26T06:53:13.403729+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pixiv_rules_406723a1876977eb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "33c52f1656cf902e36b0e390b0bb5078914adc012b9dd99d561440121ac9a247",
+        "bytes_sha256": "54ddc7e33b093715b551c4fc34232c9488d6b47333b653358765f3c696ff3492",
+        "semantic_sha256": "aaad7ff12abc1888e8b79c13e7ac0330aa131af25e4db8203c1992f685693635",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pixiv_domain-set_6d21bc3763839e88.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef59dff5b02a07ae514c95920ca7f3b26c30ce80e0c76906689f7e9bccec9fa3",
+        "bytes_sha256": "2972ddad34bc93ef2fbf454bcd200aaa197540cb0612103a478d67f5b86650a9",
+        "semantic_sha256": "dae0c3ca3edcc8da413127e1359d44b41c8255bcf388db7809cf8c148afa27cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pixiv.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixiv.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixiv.list"
+  ]
+}

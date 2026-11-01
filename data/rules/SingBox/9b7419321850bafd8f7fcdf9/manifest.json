@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:09.012074+00:00",
+  "client": "SingBox",
+  "rule": "Rarbg",
+  "rule_updated_at": "2026-07-26T06:53:48.303473+00:00",
+  "type_counts": {
+    "domain_suffix": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Rarbg_source_0a0c0be38cfb27fe.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4da76912fb1b98ce00ae8ac0006be23c677ca9470e25f3c8317dfe2375d2475b",
+        "bytes_sha256": "b5ceda9262dffa69fbe4ec020ce0233112c1f177087b4dfea9fc14e78caf4ed9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Rarbg_source-srs_8b35339f5cdf3a2b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0f13959b99607751609ea7d246961be4816488bb345fdf579cdee477b94caea2",
+        "bytes_sha256": "e95d05658af3648042a543397fed63cffd693221488cd3ec65dc39d3fa708859",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rarbg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rarbg.list"
+  ]
+}

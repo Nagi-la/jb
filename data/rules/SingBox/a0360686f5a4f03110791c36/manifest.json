@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-29T03:13:48.080778+00:00",
+  "client": "SingBox",
+  "rule": "Spotify",
+  "rule_updated_at": "2026-10-29T02:37:37.867285+00:00",
+  "type_counts": {
+    "domain": 10,
+    "domain_keyword": 4,
+    "domain_suffix": 23,
+    "ip_cidr": 1,
+    "process_name": 1
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Spotify_source_cab761104ee83880.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6d5fdd8e453b1a5f1f5b116d0f469e466c6752880584c9d1e5850e00af51aeab",
+        "bytes_sha256": "ca894d7dccbfa940b0ef4d23e001f4336cfdf6707bcd7e6a18c0294073a58fa4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Spotify_source-srs_01e8298209fc0d8a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8a961921f7c65ab91f7deaa7cfd2ca9da0595ac0ac7cb460df900d0ea4f367a5",
+        "bytes_sha256": "ba6df7721e1e71d3514b1d61c4ac8179dc2770d8aebf11e9e93c6b75f67faf4f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list"
+  ]
+}

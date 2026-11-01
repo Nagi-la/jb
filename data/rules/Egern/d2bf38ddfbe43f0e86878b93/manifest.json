@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:41.877447+00:00",
+  "client": "Egern",
+  "rule": "LondonReal",
+  "rule_updated_at": "2026-07-26T06:22:18.540780+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LondonReal_rules_40ef02017581b1b4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a2f02535138f278cf02b74f828bd028797eb488855853c5c1da77f85cdf5dfe",
+        "bytes_sha256": "05678b5bc2ee86bc477b652dcce18028044cc9cb690a4f170f54e9201c64823c",
+        "semantic_sha256": "3b91a86e4f58edec39885a3d82bd42931c3f87c9af39d86dc9796f08a515472b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LondonReal.list"
+  ]
+}

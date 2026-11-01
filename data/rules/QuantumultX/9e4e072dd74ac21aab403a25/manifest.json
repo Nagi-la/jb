@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:19:05.610941+00:00",
+  "client": "QuantumultX",
+  "rule": "AppleIntelligence",
+  "rule_updated_at": "2026-08-03T15:32:17.829170+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 1,
+    "HOST": 5
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleIntelligence_rules_cec1c792099a44f5.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7f8cacc6a14c981acf6766c4242fdda30c81458f1b6ccbae7b71ddcd6a94462",
+        "bytes_sha256": "78d075fb4e8a3cf91d6947b862cd729aefe8f5a9366bfe077ca64975b1b72c6e",
+        "semantic_sha256": "869400cf4a932689e0e9ec629b4b7d0a0a44cc4c75b8eba093c99e54970d7182",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

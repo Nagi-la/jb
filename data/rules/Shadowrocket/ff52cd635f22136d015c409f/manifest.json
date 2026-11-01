@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:17.144965+00:00",
+  "client": "Shadowrocket",
+  "rule": "CCB",
+  "rule_updated_at": "2026-07-26T06:23:13.474008+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CCB_rules_c3cd0e09c40c8bf9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "44e010f6c0924768762e2795972a35ef56752d864910f2897e8422f5d5e9d056",
+        "bytes_sha256": "feedce1cbce03bd0442fa5e62d4dd3e16f1d7c57cc6edf25754c16ecb6fe88ed",
+        "semantic_sha256": "52fd300ae71d43ab644fa4b9e630637f95d94e658bcef661480c5b4b16177f16",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CCB_domain-set_2818d5ea55cc61f1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "19fc9e973ff42edf3a56699034d02d98d24402250bcb96c0e81b31d9ff5cb455",
+        "bytes_sha256": "cbef2bf64c3030d6bd684245960dffa32d23864ca7be6b286d34d37de8b8e863",
+        "semantic_sha256": "b9b518bc5d51fa3bed856733aedf697204d2f9892b010e2f954729928bf08707",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCB.list"
+  ]
+}

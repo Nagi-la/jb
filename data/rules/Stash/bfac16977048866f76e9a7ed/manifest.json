@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:55:55.957468+00:00",
+  "client": "Stash",
+  "rule": "Signal",
+  "rule_updated_at": "2026-07-26T08:21:31.820922+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Signal_classical_446e4a874b6f6f54.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab10de36d8138360c010b1b2af429adaf4e26253935250a5d6955969f558dcbb",
+        "bytes_sha256": "b60d1a3421f795d875d7cacd217cb8f89f6d792008b34f58a9e7db503188199d",
+        "semantic_sha256": "431e0f0ad07e6b21d185730bc1ba462dafc93b5a6f9c1f5ef8e582d7b5f1f05f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Signal_domain_98114500ac777946.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "068f55412f25c2f8eac13b34a566f99ef22aefaf1c75bdb32a464887de454679",
+        "bytes_sha256": "c73b1e61d08e0dce264be2fbb8bd51a70b6865ec1c7561ac20de26347f542df5",
+        "semantic_sha256": "75dfae425d13f00aba15c219e2e2f6df38cfa85e17345b4cd780397e67623143",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

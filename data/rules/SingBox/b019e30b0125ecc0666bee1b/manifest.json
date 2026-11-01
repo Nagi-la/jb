@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:27.256247+00:00",
+  "client": "SingBox",
+  "rule": "AppleMedia",
+  "rule_updated_at": "2026-07-26T07:02:43.331724+00:00",
+  "type_counts": {
+    "domain_suffix": 52
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleMedia_source_a53927ff3f70f393.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dafa329ed2f69471abaf00c834303dbb9ec2b3ed02b3bc21826dbe250a17fa01",
+        "bytes_sha256": "4decf63765f64580546a8eeb76a380ea9c21d78926da1817a207fd38a68a921c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleMedia_source-srs_ff8f2e6bb179351c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fc62424506be0ba12f51933264b7204ff16f1f17bcc666bd5716e11281ed9358",
+        "bytes_sha256": "c69dd57b7aba35a42c7a73cba4c092079ee443ecd4887e19909baabe52ea5bf8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleMedia.list"
+  ]
+}

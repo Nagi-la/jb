@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:01:08.554361+00:00",
+  "client": "Mihomo",
+  "rule": "TCL",
+  "rule_updated_at": "2026-07-26T06:28:13.663687+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TCL_classical_9904cd7cefc174ba.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "523c78dc59a965b0aed46b87028b704c135b1824736f8c551c0f2258fa671fd0",
+        "bytes_sha256": "1e7505045d8837297fd45c4af760c5010800f517a56635307ea02a68ac768169",
+        "semantic_sha256": "148afa4079a4c58eafeea257f14740684e28d754c1575d97c1595831a2b0a558",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TCL_domain_776e48cbe9570141.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4ecee7adc4a793505c03cfedfa53168d6d57fbbe02341078e68b3520841fd3c",
+        "bytes_sha256": "24a9239b7e6f8f7ed816d7b03ccd027fecfef7e1dcc0c98d039afa69c032a5fb",
+        "semantic_sha256": "f0bedefddd571f461caf469879fa305405c935187d850c0778c066f02efacadb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TCL_domain-mrs_b6fb290a0cf20a60.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "730171208935f22fc243935fb06a3aa7d1bbbeb9e6ded428f3cff2f8a2f65857",
+        "bytes_sha256": "e507259ff58587e61fdd907601ee3170e524faf488fad3fb9a58f7141e8db55f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TCL.list"
+  ]
+}

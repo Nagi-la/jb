@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:16:28.585891+00:00",
+  "client": "Mihomo",
+  "rule": "CGB",
+  "rule_updated_at": "2026-07-26T06:23:15.648620+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CGB_classical_16bdd8cfd356b2be.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "387a73d4d8eae0b07e6753ef6f915e34c8fb837ad7665159f3b3e6d14ebc0a1f",
+        "bytes_sha256": "753c332477203d878598c224b26897a1efb362113dc7aec5d77a09010067edd0",
+        "semantic_sha256": "1349c5f4b688c9eb47984e55c6f5b7f4189f9bb7e1b6da31de7a532ae6d2608e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CGB_domain_fc7c0791af7390eb.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3db0ec45dbbaf560e4bb53f64710207ee94fb162d0656c7eda626c6e80278307",
+        "bytes_sha256": "b21a97178a6c13d9fca66eeef9c53d0a4812c1abd5da26eccfa4ceb9af745b90",
+        "semantic_sha256": "7a40b0cc636c6f62c724987b82a4453616aab44fb88e3e2f34f33d5a7083a912",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CGB_domain-mrs_ab323600f6ed82d5.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dd81e978b479c28e0ccd4fead545a4ae0cf9985e1ca5e242651a3c0ed0c19cf9",
+        "bytes_sha256": "1a619d5eeb9ce174749498a0b71dc7a9b6c60ef6b8fcec9e6c16dc02f757ad51",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CGB.list"
+  ]
+}

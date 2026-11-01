@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:23.423254+00:00",
+  "client": "SingBox",
+  "rule": "AppleHardware",
+  "rule_updated_at": "2026-07-26T07:02:05.166819+00:00",
+  "type_counts": {
+    "domain_suffix": 226
+  },
+  "total_line_count": 226,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleHardware_source_39259c3cff2fbc25.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8ce26bac385bb1b21502fbf569de95dfd3d13c4ceb2d68dec0270b1a5df10fbb",
+        "bytes_sha256": "e2417364fe5510333283edfb2b64a1f10c5b895f9dd66074e57dea982dde4ed1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleHardware_source-srs_dd97227e79420058.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8fbc1c8c2493573135786a47bd69cff5e07ce914a995d3ba3e831c023c9c0950",
+        "bytes_sha256": "636aa7bc9acf1833f404538aaaaf1bd0c7a0403c120818ae1e49650dc9f812bd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleHardware.list"
+  ]
+}

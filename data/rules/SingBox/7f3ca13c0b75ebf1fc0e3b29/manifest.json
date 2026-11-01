@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T02:37:22.918996+00:00",
+  "client": "SingBox",
+  "rule": "AdGuardSDNSFilter",
+  "rule_updated_at": "2026-10-29T02:37:19.158715+00:00",
+  "type_counts": {
+    "domain": 181,
+    "domain_suffix": 4
+  },
+  "total_line_count": 185,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilter_source_c82d65e69f4c33e2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1e802d3b519421be38d442b4059ffd6f9e6140aacdfa18582cd3c5e40551f54b",
+        "bytes_sha256": "85dc0b0033fba39e93da0a61f59d19ee41b12070f695f1c60795ce0f7619ff35",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilter_source-srs_92f76d7b03579f2a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6ff87cf7a076a499b763270085fdf54d967eff4c497dc9ff7070aded563fac09",
+        "bytes_sha256": "a6c45718315adf50d26b2a396d948c479b211eba85f5fd48d8356ec7ff7729fa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 规则！！\r\n\r\n建议搭配子目录下的Direct进行放行！！\r\n\r\n实验性规则！！谨慎评估后使用！！\r\n\r\n如有异常请反馈！！",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

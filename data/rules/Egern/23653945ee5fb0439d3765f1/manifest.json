@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:01:35.548998+00:00",
+  "client": "Egern",
+  "rule": "Nginx",
+  "rule_updated_at": "2026-07-26T08:34:09.808467+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nginx_rules_fb86417bfb3147c7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba8a4672a1aa61ac920b1358da9481ec9bb105cb545092612395dd42dd34677d",
+        "bytes_sha256": "4b9a7a17a17d15926e8eb757ed40e968f71dbe364c7a80a5e5865f7bb7003bb5",
+        "semantic_sha256": "9af1de8644d1ce17c8c137ee3123d5734aafc0ab843416155fbb012aa0118aed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

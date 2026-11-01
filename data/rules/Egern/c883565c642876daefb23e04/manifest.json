@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:03:31.910173+00:00",
+  "client": "Egern",
+  "rule": "BlueArchive",
+  "rule_updated_at": "2026-07-26T08:31:38.345978+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BlueArchive_rules_be18ab8f2ec36da8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "60e0c351da8656fde4e62e13a0accca4fdb44ae1d61d73f3c622f9872f247ced",
+        "bytes_sha256": "763517bd5af54ff5c0e07da59b7de36527021b6a32225f6938f9d9fdf4b7568a",
+        "semantic_sha256": "3a223d83869be3a0ba8fac7ed43c8159d8885c02031e515c63397f5e21e6317c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T01:58:30.196671+00:00",
+  "client": "QuantumultX",
+  "rule": "NetEase",
+  "rule_updated_at": "2026-08-01T04:37:52.251030+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 158,
+    "IP-CIDR": 30
+  },
+  "total_line_count": 189,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NetEase_rules_ccff9ed16434537d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4fb4d8250e5aea5e2aa82db15ebe7c1c3d7b7eb6b61ca134a090424a7b5524fe",
+        "bytes_sha256": "262197d32554876cf245cd534c2a34ec418c4a8f054c3f8d57baaf2e4b8d5e48",
+        "semantic_sha256": "be2c0bf9c9597d53bafbee01f17d3e0c3ea32aa3575d2a1db578a0561f03f1e3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list"
+  ]
+}

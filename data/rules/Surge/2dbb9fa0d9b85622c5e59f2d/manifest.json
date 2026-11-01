@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:58.797253+00:00",
+  "client": "Surge",
+  "rule": "UBI",
+  "rule_updated_at": "2026-07-26T06:32:24.171467+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UBI_rules_3b809d8e1e882a8a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccfff2bcb12b270712a0e4e5899c0a922798be7931252c995b455ac901fa4088",
+        "bytes_sha256": "c298dbc9d24a3766131447e7095509c7d576f171ff6dfd0307d798b15cabcbd9",
+        "semantic_sha256": "5c4e9c161af57b75c447bd8b0b46e97842a8cd09726801369434bac4e015af58",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UBI_domain-set_cf3411a2c7c5170d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f1ca87ec07e291ca87e7ce3d8b6a3fcbfac2177e5b89d3a6ca59662d753daaf",
+        "bytes_sha256": "f1156677d51ca0f793ed8deb10af9198d6ee4dfc7a3428361bae513a8b6bc111",
+        "semantic_sha256": "a6933cc2314c0355d906ce1778b6d48c9286288d9565c96506a4b3e1b842d65e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/UBI.list"
+  ]
+}

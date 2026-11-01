@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:56:14.090192+00:00",
+  "client": "Mihomo",
+  "rule": "Acer",
+  "rule_updated_at": "2026-07-26T06:30:27.668701+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Acer_classical_11591aa7f3002410.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e0a0e58a647269023140bddd6675b2df250fe6b529296be53bab51118932a64",
+        "bytes_sha256": "204711dc5948488db590690252e9b12c1f51539f9de7b7dabfe4829745ae4309",
+        "semantic_sha256": "7c3cc814e1553da589a08b3e80c0a680c153b7abc39cd7d96e8bc234982100ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Acer_domain_ce7cce3fd82fd3fc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a04927776636c5ac27074b53d3f02af4787770db0d2ff5eb99ca580eb595d30",
+        "bytes_sha256": "ec151dd0c97c535b356639e9dd19d808ffa925315f52504747ebc445157d7e43",
+        "semantic_sha256": "506b787e8cbf9efcb1fa54e1f4b6c3a39948541cbf0f6f3231586f802289d9b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Acer_domain-mrs_dbd14b12a6084e66.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0825736e27a5cad6062d790246ee0c8342978b1cc9c6ceeedc9ff2c73d477cbd",
+        "bytes_sha256": "fed8eb29e761a00fcf439d2dd48ab3e4df6a99ab0195c69d5628540d8427eff0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Acer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Acer.list"
+  ]
+}

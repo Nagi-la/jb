@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:58:34.650789+00:00",
+  "client": "Stash",
+  "rule": "Dynu",
+  "rule_updated_at": "2026-07-26T06:29:19.236130+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dynu_classical_43da50d34cc7f72e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c3b8cee3aca46139dc874f1fb34acad6116bac6f0a07b40337fdd7c272819d50",
+        "bytes_sha256": "c31d3d1f08bcaa1b8c55685c68996719ed27ce92374ad8f7489387c13d5cb866",
+        "semantic_sha256": "7cf37b1f7a962b8a527ee80617919a1e1362234d869fa8aa869471602a95c0f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dynu_domain_c27d4a3769ee0c16.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "63b9a15ea3c2f55805095ce5f8cb0d65b0cdd79dce6610ddead3ab62133b5e35",
+        "bytes_sha256": "715246ad8e90360b3814531d5ac8c2215800a48c34ed40b0d87e9ba56c763433",
+        "semantic_sha256": "305897e2b3abe593297bbc9611abbf8a667556e6169afd19b21d942113a25aee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dynu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dynu.list"
+  ]
+}

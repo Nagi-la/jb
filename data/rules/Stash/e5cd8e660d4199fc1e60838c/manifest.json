@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:08:34.707680+00:00",
+  "client": "Stash",
+  "rule": "Dell",
+  "rule_updated_at": "2026-07-26T06:49:54.675527+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 313
+  },
+  "total_line_count": 314,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dell_classical_d12e39ea0810d78c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "feeebd04a16cd990c787b3681f0824265175614a7218ec30dc47a15dc2db8804",
+        "bytes_sha256": "009cd9aa2e5c54b2a2a9970d5106044577042bd734f249cc6758d01de8461b37",
+        "semantic_sha256": "3737261ec1f8e11a89a2bb9b9208d94c3d497cc24e96852fae5fae21c349ddaf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dell_domain_c2c12aeb4d6ceede.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ef47998f3ef99602903237df37bf7dd24bfd28aece9dd6b7d56e3638494f9d8",
+        "bytes_sha256": "e63b26f16438d7ef2a8315c1b755f0a8055266c9f596c88d313bd6d56b2d9fb9",
+        "semantic_sha256": "a403d3837a71452383abb06f09e50923f1ccc09780540661553d9582b8f941e9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dell.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dell.list"
+  ]
+}

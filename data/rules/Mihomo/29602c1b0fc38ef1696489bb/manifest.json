@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:10:17.208553+00:00",
+  "client": "Mihomo",
+  "rule": "HibyMusic",
+  "rule_updated_at": "2026-07-26T06:25:20.737143+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HibyMusic_classical_6934db3d59c49ea7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f21a05238ffd99ceb6297bba8defc2381dc129612a54f3af490b2f1e7d242dea",
+        "bytes_sha256": "c994b4dc35d673d27f5fd0a3244d6138ded72ac088259f495b0e5093192ed14c",
+        "semantic_sha256": "fed54b9fce53c5bb37f7cd9c6fd4122ef3cea6c5822f1916f802d56c4f13d913",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HibyMusic_domain_cb02166dfee9f712.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0339e531aab30dbcc29ce39a9ab0a54fc009d93860f8f3d34220557d4abea682",
+        "bytes_sha256": "fffcca460d9b00f302f3879ffe6883b57283a0f8a208ad185e8c22e141be2393",
+        "semantic_sha256": "f1a9b4617aded5e18169b586c1c25443c009e51bb4e261da7decacf20178e7cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HibyMusic_domain-mrs_e894728ec8283b94.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "01f6a5a82476cb17f4cb7fac20bfa06c7dad38d75f053b4062865ba87231855a",
+        "bytes_sha256": "7405d5d0d159e7c8831c0c01bc561570ddf2d94c3e2c1f745b616f1c81ca77f8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HibyMusic.list"
+  ]
+}

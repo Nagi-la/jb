@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:03:55.017515+00:00",
+  "client": "QuantumultX",
+  "rule": "GaoDe",
+  "rule_updated_at": "2026-07-26T06:25:05.267600+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GaoDe_rules_7b29877cbb030a5d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2092170355447e28698430ab6487781421f21e19be8fc1e355eb5e4574298b69",
+        "bytes_sha256": "dd236b90835b762315e461ccc20a8c229c3737834d6681e965279cba23c378e2",
+        "semantic_sha256": "f97a0a980205ba339583270f23b7eee71b83d2f0e937a23d1c250860f429cb93",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GaoDe.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:03.872225+00:00",
+  "client": "Surfboard",
+  "rule": "HWTV",
+  "rule_updated_at": "2026-07-26T06:21:57.913545+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HWTV_rules_5396c63241d16a4f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9060d0e15ea31183e715ff13a0713ceec829e70daacf5af0d450cef034f8507c",
+        "bytes_sha256": "b5391887f7c93692ad62fc47a46afcfc940e1f25d31cf3a2f734b92043e5da6f",
+        "semantic_sha256": "466a479515ff4f13d3c135774bb6df3d366563c80654edf8ce5d7a06030b154a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HWTV_domain-set_24d10b106151c918.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc763d594192e5b4e2b2d38f7bf2b9cf78d001207c1b4484edf7621a4f4ab325",
+        "bytes_sha256": "7482593b8322442982a2cc71328981e615799b1edb39b3dc79fb892f6c55cc43",
+        "semantic_sha256": "284c6ce8a4fc16f909f069d0e148eb05bde0815b7a9406749137778ece5fa0d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HWTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HWTV.list"
+  ]
+}

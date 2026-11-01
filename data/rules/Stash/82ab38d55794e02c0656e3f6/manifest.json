@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:57.447811+00:00",
+  "client": "Stash",
+  "rule": "TVDB",
+  "rule_updated_at": "2026-07-26T08:34:42.816609+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVDB_classical_4df006046de0a6f7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5bf5db43099553679f3cdc934b8a976fb5823b28adfc62aa0e61397ef2541745",
+        "bytes_sha256": "48c34b2ec61915cea60598b95c0a98eaa75970a2fd9102e08c622aea80d54ab7",
+        "semantic_sha256": "2a032bb9a5fcf7a818a8b1562f3a279725fb14085be91b3fc84c8b5f9df8e68d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVDB_domain_15ffc2bb55802d1b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c300bde8b986f147debd8d9736c49dc9b7c05c78d5ef627653ae64c208bdaf5e",
+        "bytes_sha256": "e5c382985818f3b057dae2554cd224365b077b56d11ef143f31029a744c820be",
+        "semantic_sha256": "3d034ddf7bb7db50cd26e7ad51b04d1cf3a7c2264fe7b066e005ba078e04c56b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

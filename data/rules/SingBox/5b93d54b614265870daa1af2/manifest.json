@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:26.604703+00:00",
+  "client": "SingBox",
+  "rule": "Feishu",
+  "rule_updated_at": "2026-07-26T08:32:48.099395+00:00",
+  "type_counts": {
+    "domain_suffix": 43
+  },
+  "total_line_count": 43,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Feishu_source_c751e7f9230d9b0d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cc01109746e56863d5dd9c809741c8e830295b0285cc9b545f5ec392311c4053",
+        "bytes_sha256": "aa7142fbab219adec5c0020babc0cee99d03e7397fd6fb5b494aa12143175567",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Feishu_source-srs_741645c1a0e93bc0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e4c3e667bdb138254fcb49681eae7b0d9c08c7e54085a6087a107b9707c14d98",
+        "bytes_sha256": "c78eea85048ad2e534da6fff7a754519547f912448774af683592231eb049b85",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

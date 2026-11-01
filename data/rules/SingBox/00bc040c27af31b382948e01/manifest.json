@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:35.624230+00:00",
+  "client": "SingBox",
+  "rule": "Blued",
+  "rule_updated_at": "2026-07-26T06:30:49.716004+00:00",
+  "type_counts": {
+    "domain_suffix": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Blued_source_e359619f28deff51.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "18763ac0c6e9510dc655a6ee87b430fcee1f8fdf4d4db7a24cbab163f9cba898",
+        "bytes_sha256": "76eb81eeb33560a4e38f21ffb4682f62643b321030bb6150d6e5730606a6928c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Blued_source-srs_cdff9d61f887bf97.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "401a479253149d434cadf36b9c5dbd650f973c00b4ac0607f955b025d1768990",
+        "bytes_sha256": "a6ca6855dd88c4fd47dd517b22cc41050f6adc43cfc97458e4ac6ec9fcc4d3f0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Blued.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Blued.list"
+  ]
+}

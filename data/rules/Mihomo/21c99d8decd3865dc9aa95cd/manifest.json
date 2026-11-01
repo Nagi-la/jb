@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:09:14.758823+00:00",
+  "client": "Mihomo",
+  "rule": "AmazonCloud",
+  "rule_updated_at": "2026-07-26T07:16:59.389000+00:00",
+  "type_counts": {
+    "IP-CIDR6": 1265,
+    "IP-CIDR": 3892
+  },
+  "total_line_count": 5157,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AmazonCloud_classical_522c27c2e18efc91.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d45ccc6a17e2fce1d4a450c467fd77a047f96221898b037f75c644f13da012e",
+        "bytes_sha256": "9b148fe4a07d0ef6fbddd1e9f7a9f2c047e7001a9a28e045899dede449826c6d",
+        "semantic_sha256": "74502fa697ff0c9a7cbf5454a060abaff5aa9f036b36eb76a21b4e2f28007db2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AmazonCloud_ipcidr_e173de415f18fb19.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2468cfe2ecb98e88c2ead557de271d3fc16bcc547c175eab230ce883d7bb267",
+        "bytes_sha256": "fa89d2cc9d01fa8bb4b5cb44b0204bbb6081f7e3eda7437f2e56c536446224bf",
+        "semantic_sha256": "b2ad4c32f8297a27f207e2be895ca10e25a0b9770364681ba32fae976e4bad69",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AmazonCloud_ipcidr-mrs_57a0d708f899c3e8.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "64711ef9655f5a1d04ca11f3ee5d23a98e696399b0b6df0dabd6d552decbb63e",
+        "bytes_sha256": "b9fce569df8f811ed037a8eab59afd6f78001536e78527b097faf29e696dc543",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Amazon.list"
+  ]
+}

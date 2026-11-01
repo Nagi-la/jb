@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:11:35.555480+00:00",
+  "client": "Mihomo",
+  "rule": "FengXiaWangLuo",
+  "rule_updated_at": "2026-07-26T06:24:56.134642+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FengXiaWangLuo_classical_ed1ec41234d699ac.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dd29fd75cb183a3ec58c7968745030e0047638affd267e49e0983595dfcfcb26",
+        "bytes_sha256": "282b349c845030f8c8e28d44c69350203cc6400adc4e1521030a4eb6cb9d488a",
+        "semantic_sha256": "e3164294a9bbfa93fa5502c758d8dcf09e97e86bc3647745156d5b559cb63cc9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FengXiaWangLuo_domain_a4a7855ec02c6a8f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "80500dd8adce5cf3faaffff32bceaf29d2a5c13ce10ed01a53d0c25c1c487039",
+        "bytes_sha256": "48f004756283fcf3ada964da3fa49a246e8e731bdd9a888364768b751ccf0952",
+        "semantic_sha256": "5a90ddf2911decea5ec3b008bb7160b21f53597df42f999e1e9859ebea9c9da6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/FengXiaWangLuo_domain-mrs_1a1cab42796a6278.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d734b76e2689b92a25130a7cc9b79a58f3c80e71d161f13158ffa22023b56617",
+        "bytes_sha256": "0905964e57bd91e735048e8a14c47b53058a0d26484bd69f10b24d9900bb8771",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FengXiaWangLuo.list"
+  ]
+}

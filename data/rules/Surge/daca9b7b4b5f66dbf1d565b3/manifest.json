@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:57.367050+00:00",
+  "client": "Surge",
+  "rule": "Lenovo",
+  "rule_updated_at": "2026-07-26T06:26:50.991485+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 60
+  },
+  "total_line_count": 60,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Lenovo_rules_09499cbf3ae27fc4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d59f4dadc876a2218e53e5af692f4db2a470a38277bbc520a8d656135e3303ac",
+        "bytes_sha256": "3e1162d1c0bbb782ebeeeed7af473937f3c2d0d900373eaf851d95b9ca5178c9",
+        "semantic_sha256": "a5505b2f1ef50668c215ed507935f0fd0d6ca2dd8c163fe8972c755f2e0bc4fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Lenovo_domain-set_c403e6d33c8b9272.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5edeb15f7f01050a4d3da5554e139eca6a1770b65b9432f8de485cc6ec667c6",
+        "bytes_sha256": "f09b8c0d4f2977cc60d3eac8bdf2372e1c5e8e1f23418ae5c4aa1500554d0fd6",
+        "semantic_sha256": "3ee6a7f49a78d141df560534d74cfc776d2651058160e093c54cfe3348a22664",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Lenovo.list"
+  ]
+}

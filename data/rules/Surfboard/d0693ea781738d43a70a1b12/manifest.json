@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:31.361337+00:00",
+  "client": "Surfboard",
+  "rule": "TakeTwo",
+  "rule_updated_at": "2026-08-17T02:14:55.034564+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TakeTwo_rules_529052d542a814ec.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d69849c956fdb0d84076e694ebf8ef6288959fcc578dfc527edb61cd2ce87c0d",
+        "bytes_sha256": "4a75714dca5beea56300e977d831c4ec9fa0dea754142a23ec8794707820c702",
+        "semantic_sha256": "d8d16252b053874f969611900b837e250c509e7b6708c28cae2d5f5ecd52f060",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TakeTwo_domain-set_c3216e74d23711fc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8bac963cded87b9860d93155d6c626c6bc9e4122e697d92304a96d9e986ce0a1",
+        "bytes_sha256": "cc33837a0e08d3b8ce05d163ce3cd5fe3f74c85f1bbd33e29af62c1f1e872ab3",
+        "semantic_sha256": "cf002d20bb103e67b67b01c0e735e9870d6b69182abfa928b28722e65237974f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

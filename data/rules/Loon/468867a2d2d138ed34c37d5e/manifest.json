@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:18:30.752524+00:00",
+  "client": "Loon",
+  "rule": "HBO",
+  "rule_updated_at": "2026-07-26T06:21:51.026469+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 91,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 93,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBO_rules_775047e13ab7727d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "722fca50ec55d8105ea2b16d4308116354d79618cceccbe11117f58639e2fb61",
+        "bytes_sha256": "a7523cf46d75d9046275d81cbef48084d4bfa0d41f698a971bdd1f2193ffe60b",
+        "semantic_sha256": "85e64cb246b4db1dbe685cdcdca41ab56796260e6b83b4c0bf29a860d6722e10",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBO_domain-set_f5710ce36018195f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f0a8e4fe34169f01c3cc264d0c6b1a132d00842845538f07a9c829be4c2502fd",
+        "bytes_sha256": "16e3ad309d8f389acc32a14ff51da2f19c844efeaeff98069e45b136b52c31d4",
+        "semantic_sha256": "f2437ea922fef2f34297c946c6592173aca32139c1d985bc6e1dc683c3de7d05",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBO_rule-set_4e73bc555c6da43d.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b913a191a2b797ea3560fc47a9e27e61a276905d1ea51c8843857f80717d525",
+        "bytes_sha256": "65df9aa9125a1012c32b407c71e4e7631d2cfeaf0e06bc6e691a1193cab00b15",
+        "semantic_sha256": "43f99d742a793d72bc32d7b1371718b750de3ca3387dca96ca0bf15d19553d31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HBO.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

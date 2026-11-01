@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-10-20T05:59:34.829982+00:00",
+  "client": "Surge",
+  "rule": "Yandex",
+  "rule_updated_at": "2026-10-20T05:42:04.968358+00:00",
+  "type_counts": {
+    "DOMAIN": 18,
+    "DOMAIN-SUFFIX": 140,
+    "IP-CIDR": 41,
+    "IP-CIDR6": 16
+  },
+  "total_line_count": 215,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Yandex_rules_196e74794dbd8979.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d90ebdabee9f26b0adf5d5025f7a4824d2210ee71a383e00594a50dbed7a170b",
+        "bytes_sha256": "04b88a2c514c8fb6c45c37770d2ae803c57e1af6a96ce1cbe4bf37eb312efacd",
+        "semantic_sha256": "99a5b73e7cd55105ed2d4ca18ef4451c3be66799cd1a4e983303e42b74c06681",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Yandex_domain-set_3f029e773db4773e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4410fc102b73123d4d942ed96c9a356c9ca164c834f6c6ca519050d90bfab7d",
+        "bytes_sha256": "60171faaec3f5949a68229c8f34e08467553d76fe982c8a6c98c6da1cccd2b05",
+        "semantic_sha256": "311a89ffa8a25dac4dd276afdf46cabbe8ec68d1ca9946f524ad480806b01ea9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Yandex_rule-set_f00cf9c1b4693b7a.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "534552e98e4da9373d5fad7da91858521fad19647b910a5d50c92c2c1afa2b13",
+        "bytes_sha256": "a108668cbca1048a06c2f48430322e68b3a6cfdbc5021080ef63e6df3dbd97c4",
+        "semantic_sha256": "9cb2c136c93985fb6fd99db622ca8ddaf28d5e19295727638913125952ff376a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Yandex.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Yandex.list"
+  ]
+}

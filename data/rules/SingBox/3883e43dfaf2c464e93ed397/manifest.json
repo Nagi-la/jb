@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:57.905266+00:00",
+  "client": "SingBox",
+  "rule": "Antivirus",
+  "rule_updated_at": "2026-07-26T08:24:40.850052+00:00",
+  "type_counts": {
+    "domain": 98,
+    "domain_suffix": 68
+  },
+  "total_line_count": 166,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Antivirus_source_1882d8341e50c0bb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f546be40653364c57c6f7464eb049683e95cd8a5e9327b0909fe1df1d889b70e",
+        "bytes_sha256": "c4fbe978243c763d92c5f1a0b6190b9c563350f0b81d005c083bec1b6fc2a79a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Antivirus_source-srs_6932b023f71cea11.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3ab4009ff351aeca375643bb7470085a720a7901e6bffb66cb43872a5f6ad6d6",
+        "bytes_sha256": "d6e4ff9e9e890be7480fe48275f7bd4b0455ba0de522d2afe979f0e79672ecc9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

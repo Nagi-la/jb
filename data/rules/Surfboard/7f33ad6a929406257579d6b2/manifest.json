@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-08-27T02:13:00.032274+00:00",
+  "client": "Surfboard",
+  "rule": "iQIYI",
+  "rule_updated_at": "2026-07-26T06:46:12.795719+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 47,
+    "IP-CIDR": 23,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iQIYI_rules_f13b7e543f2bb786.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1500d2738ab6a6e30393d6d58340c5593677df3359533a57117acdee8105caed",
+        "bytes_sha256": "ca2a3b68ff87dfaaa18dcf4f09f2554234b90502202883bc179464b099a9d51c",
+        "semantic_sha256": "2bcb49b47e17907a350d95c5e16d38f4829f7839fa7ba73e953a6de7a5bd25ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iQIYI_domain-set_dc11258874b02230.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a2af25a7398e532bb95e4096240c724c0d451b27e941a3c3fadde7a93627d7c",
+        "bytes_sha256": "679846adf5e9250bb89881319f7e6d8aaa5f58e383437e807da84eb38132181e",
+        "semantic_sha256": "f3eeab92e429df6863c74b8df9de071a7318ef9dea66231e142b831a06a16484",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iQIYI_rule-set_f49b99d5f9b06fac.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d4387bf2da9029f8fe8762957a69cb23263aa7f7fb2205d7bfdadf0484aaf307",
+        "bytes_sha256": "d9bcda23550c79b4ad86bd80905974982d5aad74a7db77a3bed3f4d54986912d",
+        "semantic_sha256": "4e71441e54f672559ae0be547f9d58ef94b0fa19b8c4488fed0752049f5c87b3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iqiyi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list"
+  ]
+}

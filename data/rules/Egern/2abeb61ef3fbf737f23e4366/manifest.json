@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:49.494746+00:00",
+  "client": "Egern",
+  "rule": "YouZan",
+  "rule_updated_at": "2026-08-01T04:38:18.034992+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouZan_rules_c24dddb85e623ca4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7c6045770c49110c955c8c42d5ed7edf2482b25cbbbab052b1c23d044d0da56b",
+        "bytes_sha256": "364861e05161329fc53137eb310113686f366c11135c2c61b797face3809ee3e",
+        "semantic_sha256": "d563037078613bb7fb9af9d76faaa187c8a98cede7b862e9efde7168b558ad19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouZan.list"
+  ]
+}

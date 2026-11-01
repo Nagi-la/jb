@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-08-27T02:03:31.339345+00:00",
+  "client": "Surfboard",
+  "rule": "GlobalMedia",
+  "rule_updated_at": "2026-08-08T02:57:13.676764+00:00",
+  "type_counts": {
+    "IP-CIDR6": 200,
+    "DOMAIN-SUFFIX": 1117,
+    "DOMAIN-KEYWORD": 28,
+    "IP-CIDR": 266,
+    "PROCESS-NAME": 3,
+    "DOMAIN": 89
+  },
+  "total_line_count": 1703,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalMedia_rules_cc585dc24cd7d1b8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9785f7fa07378c59d54b5dcef005575e24bae3eb23c6e6080f255cf7e5db36e",
+        "bytes_sha256": "b447e29809e9709a3b1ec0cfdc3c85dba43dcf2b19820d161b38d1515bad8048",
+        "semantic_sha256": "7cca40bd88b05af63c767e73029c1e4cebe76e6cb242930b5ebd474f35441a82",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalMedia_domain-set_55cdeb67ae4bf01d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "04d28044c0d1fc3e6c379acdb0eeb169a7fe27208d3c17561d3488aca61dd0f9",
+        "bytes_sha256": "77fc24c0a956e51f9c8058e66c06cf4f55a52a64ec033bb8714f3950044112b5",
+        "semantic_sha256": "a7c848b1cdabca3f04efffb58ec0c701fb4f22f9420dde2254251b7d66aae9b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalMedia_rule-set_d878d9620c3bb00f.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e2a1d8f3630ae8f1ae0a86aaee9b21ac7193b47145160d7dac72c40e8b86488",
+        "bytes_sha256": "66a00e00017591902047834e26b1b7d50c250e5ab88e480fd8e1765d39a1cb9f",
+        "semantic_sha256": "e58f6b25b623bcb6c61c7a59bf94bbecc85bb365d5a3de9603835ead6e04e9e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
+    "https://ruleset.skk.moe/List/ip/stream.conf"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:52.910142+00:00",
+  "client": "SingBox",
+  "rule": "AirChina",
+  "rule_updated_at": "2026-08-10T09:41:21.171758+00:00",
+  "type_counts": {
+    "domain_suffix": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AirChina_source_215ed821e62bdd7f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9014192611737af5588a1e5adda07eb084dc52db4c80fc2dc9b13d66a5065417",
+        "bytes_sha256": "712c4da83136a8f787779b2f7682d61b7858c8b89f7e3b3773683715d93b95cb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AirChina_source-srs_b3d6e3bdf0988c5c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "07d85c182288713182b327f6fa5f68115af745a09e0147781a8da377968aa798",
+        "bytes_sha256": "38515aa122d06a3c8079a6ee5c1fbaf4b94daa557a9f818f34a7ce73b9f9cf67",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

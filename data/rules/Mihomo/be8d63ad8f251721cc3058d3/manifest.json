@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:16:25.317763+00:00",
+  "client": "Mihomo",
+  "rule": "KuaiDi100",
+  "rule_updated_at": "2026-07-26T06:26:13.570030+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuaiDi100_classical_aa89cae9ca6dffaf.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40da4da3210a9786a661bef7ce439b0f9d5e9e93981e317153bcaac341467cf0",
+        "bytes_sha256": "2187cb18d2f348dd90f497093fceb43c6f981f8bf38497333c46f045597d56da",
+        "semantic_sha256": "6228616a08661f6a02f7b93c8f9325a6860e9f321f4c7646461220ebdddcbb00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuaiDi100_domain_64b174bc8f9776dd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6302b2597c6c6228bef51b68b3c1bb3540bd65f07d139f0a843255de20c3cfe",
+        "bytes_sha256": "63fab81b2abdf4a44acb1b1277b7a5d1c6a38f0d9d065bc8afb8e6878f39b86b",
+        "semantic_sha256": "43311272244ff50c75575e5f4b05c7303fe6b773cc3a19899387fd70d1b6409b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KuaiDi100_domain-mrs_2fef8a24cf16d126.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "992998c5253fe2ee9912263ac23948ea46849f2cddfc04a915450d93b41a07b3",
+        "bytes_sha256": "6fcfcc9a745e633e66988807100504a33296bb0d7f1c78fafb5b34362616d2cf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiDi100.list"
+  ]
+}

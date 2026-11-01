@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:05:27.406147+00:00",
+  "client": "QuantumultX",
+  "rule": "Qobuz",
+  "rule_updated_at": "2026-07-26T06:22:22.661790+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 31,
+    "IP-CIDR": 2
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Qobuz_rules_ffa0835c2a84da91.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b2a4af50bc9f9d0ce00331a577b64ed8e33f0660f2b55f87982bc0ecf521e33",
+        "bytes_sha256": "59b0ec88c77eb591eaed6b6828d4a739c720101c458eea8f7b477708a5d40661",
+        "semantic_sha256": "ee521ed459d8b195223cf8d75c8fa5c68d838773e22dff80e0cc396d1e1e998d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Qobuz.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Qobuz.list"
+  ]
+}

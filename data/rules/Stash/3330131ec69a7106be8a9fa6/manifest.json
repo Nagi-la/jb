@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:17.498698+00:00",
+  "client": "Stash",
+  "rule": "DuoWan",
+  "rule_updated_at": "2026-07-26T06:58:39.761574+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DuoWan_classical_53d4fbaceffbd13b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "091acc5f420f1ce31ccf78aab28c06fb5dc419a49147999371263e78e703e238",
+        "bytes_sha256": "08a7f15ac85cea808ab6ab23c287dcd645f37786a31964e3d3feec525c093fc4",
+        "semantic_sha256": "4654a7ae26be9dd5780b115a27fc54714cbbf1a9c939b4a1ee9f73cfcd8cb769",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DuoWan_domain_63531c942a5882b7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b9814e6f75d8e9f3215ca37852d2bb32afe196d6380825747a86934ac2275a4a",
+        "bytes_sha256": "8e66eeda45dfcaee05a4bd6543f3c2befaecf40ff94fa9efa18fb4f6e0d78073",
+        "semantic_sha256": "d32f9795c4f9514ac3ac21abab7b398c2347d96c40cc331f1f4018c6f315d33f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DuoWan.list"
+  ]
+}

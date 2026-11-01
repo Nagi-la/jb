@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:31.858278+00:00",
+  "client": "QuantumultX",
+  "rule": "HashiCorp",
+  "rule_updated_at": "2026-07-26T06:58:09.981662+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HashiCorp_rules_1d6b279a9a3048d7.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d06104cb4b03f6564c80911ed1ad68e63ba652dd78f4a238bac04a9fb8948ca0",
+        "bytes_sha256": "4aa9ca9d564fcf20f91bb4d6df64d0185b0676a7eed17914f5020610ba552e6f",
+        "semantic_sha256": "715ace232b078c394f20017e3836ce40d6c588a58a20e6562c0ffdd4ff67cdaa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HashiCorp.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HashiCorp.list"
+  ]
+}

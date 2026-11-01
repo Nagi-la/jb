@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:38.012217+00:00",
+  "client": "SingBox",
+  "rule": "Vercel",
+  "rule_updated_at": "2026-07-26T06:55:34.404632+00:00",
+  "type_counts": {
+    "domain_suffix": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Vercel_source_ff20958f47421863.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7b75814faf682161bdfc586f20b30eab14ac619b5263667c57e30a7378f3d87b",
+        "bytes_sha256": "56b6f8aa917a3e027dfa39e71f1256a3ecab809b37ceae451472c97e041e5db1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Vercel_source-srs_940be8a9562c1389.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1a027fbec6e1fb340fcb23881305ef611ad6657151c6e7414c9b84e9c5da62d3",
+        "bytes_sha256": "9e1417c5e3cab400bc025d571b65431f61accbcb4263c3502738561dc6206858",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Vercel.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Vercel.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:06.348412+00:00",
+  "client": "Egern",
+  "rule": "Picsee",
+  "rule_updated_at": "2026-07-26T06:52:54.154517+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Picsee_rules_e22f633e64e5245a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a26a997c4b34566929b0fb36eb22abfd1fe7906338d0e0ab103691a889b80298",
+        "bytes_sha256": "3ad911a97edacfbd24cab852979de6d16f48553ee311c3b0d2afc62042b6a5f2",
+        "semantic_sha256": "a4ba477477e09b1afb4f81e4ec076b8e0373ccb9a8e66a25b94bbfd875d05498",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Picsee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Picsee.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:53.108465+00:00",
+  "client": "SingBox",
+  "rule": "BaoFengYingYin",
+  "rule_updated_at": "2026-07-26T06:47:45.323327+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BaoFengYingYin_source_73dd9a1e88484e1b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "94790351e5a930599ca5c30c582adee5b8ac9d031deb996d7dab4cef67d5a629",
+        "bytes_sha256": "61b234650483455250b9958638d577ccce2f80f6dec16725ba1fe62103468913",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BaoFengYingYin_source-srs_0c29a7b5eee8567f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40a0a69c111411fd1417d1f8965ba35580ad92dc8ccb0eb5fa4f29278e285165",
+        "bytes_sha256": "13507bdf4eaac2d50c00ec02926a664287bd46ee781490538a57b73de99f41b6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaoFengYingYin.list"
+  ]
+}

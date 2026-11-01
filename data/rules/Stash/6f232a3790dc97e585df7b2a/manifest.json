@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:24.689297+00:00",
+  "client": "Stash",
+  "rule": "ChinaBroadnet",
+  "rule_updated_at": "2026-08-07T02:23:10.068625+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaBroadnet_classical_63ec7e4c8174d65c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f7e483922ff2be349332981bf982da374711c5192bd0fcada2dc4b5adadcc6a",
+        "bytes_sha256": "a229891b744dce63e9088532caa95f345303e9cced8b8edc57d64527ea074141",
+        "semantic_sha256": "fc3fd98e131dd21909ececd0b37ee9f95482c669a1d4315909ef41dce7870bbf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaBroadnet_domain_b29439bbdd4c7e79.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a97ad757c7e7084209d506c937734a868302c6389a26d4ca789750643bd8a3f",
+        "bytes_sha256": "480b692aabb83fe270dd44630094e2da2db0efaa7f397b664be07f30d18943a8",
+        "semantic_sha256": "647b4dc7035f382979d74514163ed3f00d6567c1df7b303ab65a60b2aa52c6df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

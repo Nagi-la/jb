@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-29T03:23:34.786425+00:00",
+  "client": "Surfboard",
+  "rule": "GlobalAI",
+  "rule_updated_at": "2026-10-29T03:05:25.039611+00:00",
+  "type_counts": {
+    "IP-CIDR6": 2,
+    "DOMAIN-SUFFIX": 358,
+    "DOMAIN-KEYWORD": 11,
+    "IP-CIDR": 4,
+    "PROCESS-NAME": 24,
+    "IP-ASN": 4,
+    "DOMAIN": 69
+  },
+  "total_line_count": 472,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalAI_rules_4137e3ada289200d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "59db01ccfbfa53999465d8e197b80e9c2876c59b7bc6b96f2195a1258b939ce3",
+        "bytes_sha256": "1f7f5be52a88405dba36d49b9b0f9e1914f060be6daaed7bd58521b34795038b",
+        "semantic_sha256": "6b308967d476b90466329162aaa55e63c8c8568b2ba3a8b8be64fc424f38f289",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalAI_domain-set_1fe683b884fc10e9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "695e14b72430e0110cb22ae23d46dee6cec3dd4ae4c27fcaac8b3cecef553032",
+        "bytes_sha256": "8e537eb988f21ddf2e4c643ffc75e9f9b9a619c227d43943f3c8315c867abc91",
+        "semantic_sha256": "1b74e3f41b7bad3f92852f7c478ffdd06e106ab2ce1f68a70cc390b4e89621b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalAI_rule-set_59d1820643a652e2.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fbeba11523df09d787b81dbb08d06e51934daf627cf875094b09e2b93f887ede",
+        "bytes_sha256": "c853f2c9217e0d9ca30d9eb6e6303c96ccb1aaa27e3c54c16803c3811512569a",
+        "semantic_sha256": "81d7c2cd80b1dc6009842c58d0a0247caedffedcd1c73463b20c6f6ba05f7e46",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
+    "https://ruleset.skk.moe/List/non_ip/ai.conf"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:27.105177+00:00",
+  "client": "Egern",
+  "rule": "Riot",
+  "rule_updated_at": "2026-07-26T06:32:26.572428+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 54
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Riot_rules_b48f4670c65f85e8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7ff43f9246161a7773f389e41f26594342a423b590db91bde2be0b1b624a929",
+        "bytes_sha256": "6b0c1cfe53c6ac7a0a1ee38d2e44d6551b3e7f27920dda9c9823ecfd97571520",
+        "semantic_sha256": "ed1b3f1a78c8ddd619dfb01cab243daf7ef16c32f3b888cb3b3b8534f346e66e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Riot.list"
+  ]
+}

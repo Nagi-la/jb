@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-30T08:09:30.978094+00:00",
+  "client": "Egern",
+  "rule": "AdGuardSDNSFilterDirect",
+  "rule_updated_at": "2026-10-30T08:08:21.968729+00:00",
+  "type_counts": {
+    "domain_set": 184606,
+    "domain_suffix_set": 4,
+    "ip_cidr_set": 72
+  },
+  "total_line_count": 184682,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilterDirect_rules_53e75d18f929a13c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f482d04d531c3071bff090f60bb901665da74b5fa5dec32be8da883f88c566c1",
+        "bytes_sha256": "dd8296416bf457ea6fa9294ee6bcda9289138f3396e716b7278fcd373d00b0de",
+        "semantic_sha256": "f79062be5933cd5c3e767698e4835cc5568a23847785424aa739fbe6ee0bed89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。\r\n\r\n请将其放到AdGuard DNS Filter规则之前进行放行。",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

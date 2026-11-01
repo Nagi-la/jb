@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:05:23.737533+00:00",
+  "client": "Stash",
+  "rule": "Faronics",
+  "rule_updated_at": "2026-07-26T06:58:25.624975+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Faronics_classical_f3112e5058ab69f0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87ef45f914972b5a6e8b93af6c4c7ab60f4055d42d71506d7275d4c7c1e6ff20",
+        "bytes_sha256": "fa7dad84a3fd414e6a127c96e1890d97e50cb9031debbcfa4dd2b15a0d43e14f",
+        "semantic_sha256": "8b697cbbc7f5b7c6a9715ffe0a66e2d1a58b1f5fd18272984a1b9074b1da0f9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Faronics_domain_042a5f19201fc4f5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6dfbdccf0100a40606ce36500bc9a093bb015d1d8ca35a38efb63552be660ff7",
+        "bytes_sha256": "6fadcc9c80ab9af8a3c6a87251d803149cf68b70e0405156623ceb730af2f1f7",
+        "semantic_sha256": "962e3340d4be07e025fa6b7244cd7b6fcaf0e2c28fc11ab390a05fd7cb267e07",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Faronics.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Faronics.list"
+  ]
+}

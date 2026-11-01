@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:57.295466+00:00",
+  "client": "Stash",
+  "rule": "XiaomiAI",
+  "rule_updated_at": "2026-07-26T08:29:42.523622+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaomiAI_classical_e1cc4f9b858bac8e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "53faed687baf76489bbb4f5988972fd321cbea2bd41e1fdb6f6a9fa8aefd1f35",
+        "bytes_sha256": "ca2a767198f3f51a8b962aba5cae6cd09af6ed6b75138a301ffe738540890438",
+        "semantic_sha256": "76c3470a36a06f04b177622b7c14b607fb0bfb89d87f7f6ae8a97fb376104821",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaomiAI_domain_dd4b9764ae89dbc7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b696d59c0080d2eef218da25e49bd186b260183614bf4e07a39ee38df10d8d5e",
+        "bytes_sha256": "7808a6365a09429c123247301b8b85255ba1422a0d61d80a09f81f86c3f0c3d7",
+        "semantic_sha256": "22292967b7293c67ad5a09a810f772cffe823296664e4ef37e122832b76b6435",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

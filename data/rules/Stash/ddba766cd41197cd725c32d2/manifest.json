@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:39.870885+00:00",
+  "client": "Stash",
+  "rule": "Voxmedia",
+  "rule_updated_at": "2026-07-26T06:22:55.908210+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Voxmedia_classical_63e6644d63e4dfc2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb6488db83673f1f8a09645a5f7721263198bcbe886523a866816e376a91a749",
+        "bytes_sha256": "017b141a87ea2e0b01b9313889c7f75cb0cc2e73a9d3cb2d62c131e257e434e9",
+        "semantic_sha256": "5535d83cbcc11306f690fb0ce39a882ee03001731b4514344b348ed5e9051165",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Voxmedia_domain_6d120007a7ca2469.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df77eaf26adea9b856353c13cb455d6f073f90e59efd0e5cecf872c278fb894e",
+        "bytes_sha256": "6209b514eddfa107bf1706e4f0b002cea23fa2c55ce23d746fa2d5fdce9d3116",
+        "semantic_sha256": "db2d4138da4ea6571d0b88973cd73809126cd7f2e1b026d7b23fa878ab553891",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Voxmedia.list"
+  ]
+}

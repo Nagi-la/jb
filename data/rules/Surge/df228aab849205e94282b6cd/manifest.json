@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:28.161302+00:00",
+  "client": "Surge",
+  "rule": "Redis",
+  "rule_updated_at": "2026-07-26T08:34:14.550828+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Redis_rules_867e92e4dc891693.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4d6aa926cce873c57a199daf9da9ecb9ce4c8965ae534bc0ae7471449939fbb8",
+        "bytes_sha256": "23c0dacd8b82c963e200c5e89acf3f40555823d64010546fa3baf2804e4cfb3d",
+        "semantic_sha256": "8b4b4bef262b9a9d9bd21847e0a94710a9142f1bc9640d7567c6edecfe2999b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Redis_domain-set_2a202ada61d780b5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9935795791666c4f53501c8d85132e80f6cb542c3c49795b29353a08dd464b81",
+        "bytes_sha256": "719972c2054b746afa7c078b05524c18ea6c5a588e1933abcc5b006a54e19c87",
+        "semantic_sha256": "64870e81efe9fd7980f0b39dcb09b4f6f6b5580fbfd8d19391dadeb6e15292ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-08-27T02:17:30.115319+00:00",
+  "client": "Stash",
+  "rule": "Naver",
+  "rule_updated_at": "2026-07-26T06:52:31.538679+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 52,
+    "IP-CIDR": 144,
+    "IP-CIDR6": 50,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 250,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Naver_classical_2fc73b2f1d0817cc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccd923ff78e836918d01a2eedfe392a2ea5a60475a5904deef6ac08865e26656",
+        "bytes_sha256": "ff3711e8f113250cb41b830807775a834167f8bfc6dacd92c8084ad757ad941a",
+        "semantic_sha256": "588b2e5290d542f87e9d27498e0b344d1154457e83c9052cc3fe4b570983b648",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Naver_domain_65fa5e4c0a9e87a7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7c4f0613d3c30226ddf11a736b9d082a2ea7dbf5baf9eec2554dc5bda120635",
+        "bytes_sha256": "9266ea11b0170cce77bd645e0ba5247c799dec1ca893fdae1409c20e0a1df5fe",
+        "semantic_sha256": "b9c6bd4fb1929f7555de6252557492cd1c9f73dbcaa6afba9ef2326c9db23f1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Naver_ipcidr_25cedd5ae14d5279.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31bfb4ee2be86a72897db307852877888f9b5b2b3492dfba277fc29f5c5535a5",
+        "bytes_sha256": "16fa6b00472228757dc3609b998db6a2bd121ed185d06af6b45b03384774cfcc",
+        "semantic_sha256": "a5f71b510e09c05f9df578315e3eb009386991a40e7c288218d4eaa58cdb57e2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Naver_classical-rest_3e8e42426f1483ac.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5186480b23c5330e3704d4c2dec62badcb379937de967e945deae50eebfb6f2e",
+        "bytes_sha256": "ca40249ab8b94c41b86ce9713e432a5ecae1b1f1a93cf921fe6660170788cb5b",
+        "semantic_sha256": "bc266e6a8381503c619073ff174025cd7093cfdb576a41c66714aed8147ae740",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Naver.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Naver.list"
+  ]
+}

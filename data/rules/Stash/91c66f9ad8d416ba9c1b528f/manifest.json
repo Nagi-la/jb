@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:25.720274+00:00",
+  "client": "Stash",
+  "rule": "TGBus",
+  "rule_updated_at": "2026-07-26T08:34:41.146641+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TGBus_classical_d5e6503aedb7821b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "927965af195e7e9d6f634c5529d1dcf6789585989ab907d598593a98ea35797d",
+        "bytes_sha256": "f6a09a5f5a78dabe9feaa1e787ed7bf934636ed1ec6d1c8ee601c15a05c81b7b",
+        "semantic_sha256": "923461af3b5c978d7200aedd4c3b75ab5406273cce4cbefef6aff3b6848e25e1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TGBus_domain_cd2b3d0aeba32577.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "866662ca53a55f01452bcc88933b7e9dad2a891b7aad46c03372fa61fa5bb949",
+        "bytes_sha256": "88796c792fdab990e2d7e51fd24dc3af4c9cebb2d70cc619f5dd32672a0c38a7",
+        "semantic_sha256": "99260e05b191225d832e381b075c5c60e46695c2465188d0afd47a0053112f9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:22.030614+00:00",
+  "client": "SingBox",
+  "rule": "NYPost",
+  "rule_updated_at": "2026-07-26T06:22:19.945654+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NYPost_source_ba95fe25a4592ba5.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c2af5af06e24e1e7418fae194902a2c917f0b35ef9e4548c2fed5f04f9a72052",
+        "bytes_sha256": "6910c9df3b2dd099b72fae2c68f355cd98125029d5c6ba84f194d15f4f479690",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NYPost_source-srs_85fa7f087ea388ad.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5d625f1a795de6060c04490b97ce6981772a49e789c21513269fac272a7244b8",
+        "bytes_sha256": "69d7719989574d5d3870ff68c969d58830b9a96640cc62e6c0c6c5c5f1a1403b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYPost.list"
+  ]
+}

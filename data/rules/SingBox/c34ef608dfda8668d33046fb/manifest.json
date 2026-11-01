@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:18.947090+00:00",
+  "client": "SingBox",
+  "rule": "Razer",
+  "rule_updated_at": "2026-07-26T06:53:35.948590+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Razer_source_a2a64e698f26d770.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e42d58fa5bff1cd054bbf9d64e20c0a5debebe923df7eb0ece631e5bac7f9d29",
+        "bytes_sha256": "c0472347cf00d4cdff2b747ae1e541c55d48315fbaa4bd79e914f6374ff120f9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Razer_source-srs_77cfe70dea538215.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cffb5053879be993f6098149f7b00f66b71462750a6a06646016900cdc9fa2f1",
+        "bytes_sha256": "1f7ac5c8c36bb1d7e94ad3de02f15f8cc46dcd374fca51792b657a7a92f75bb2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Razer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Razer.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:02:26.296084+00:00",
+  "client": "QuantumultX",
+  "rule": "LeTV",
+  "rule_updated_at": "2026-07-26T10:36:29.378225+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LeTV_rules_12df2b7a930ad197.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30d433256603c5de3af3ff525ca2a5adf7c483da0eef6578d2cbed4ebd4e51df",
+        "bytes_sha256": "0c4c594547a6acdaee49d262f4820ed8a879456c6d50ac4fcbde1d0d5e90bc05",
+        "semantic_sha256": "2f19eeabb1af854e9a4095790524ad850472224f7475dcf437fb14d86e9f5e5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LeTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeTV.list"
+  ]
+}

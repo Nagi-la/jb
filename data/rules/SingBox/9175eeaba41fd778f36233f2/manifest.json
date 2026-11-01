@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:31.384243+00:00",
+  "client": "SingBox",
+  "rule": "OuPeng",
+  "rule_updated_at": "2026-07-26T06:27:31.202387+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OuPeng_source_4d22ace9d8cfe889.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e9dc7f6f82a12801a912d32d18512bf635170dc3506d70432f37cb44f977eee3",
+        "bytes_sha256": "fe3104e0386d3b1508f01f3c6e98026eab187df90840ee9c6f1f7a03d7faac0d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OuPeng_source-srs_1e7c5633540a2203.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b5e027fa19b85b8e66a1d62cda1d1ed35bdf80084ff6a10596fca98ee61fbfb3",
+        "bytes_sha256": "363c61c83f8f2cc1e6b7b04cad3fb22df5afac6dd9477db937b7f72b022ef34f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OuPeng.list"
+  ]
+}

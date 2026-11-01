@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:00.915661+00:00",
+  "client": "Surfboard",
+  "rule": "ChinaNews",
+  "rule_updated_at": "2026-07-26T06:23:51.041220+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaNews_rules_19aaa3908612d71a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71c62e68c4d70029b9222715c462cf4ea9a27927d38ff3238f2c9b1028059c26",
+        "bytes_sha256": "59e94f6df62352da9d9292f6ed6b358d4d532f8515f7c59198ea91f93f9fdab8",
+        "semantic_sha256": "c89952ad1fd7959e9fe77f660c897fe28d9575ae406ef3f4f4d2677de11b4f48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaNews_domain-set_996327701164c747.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8baf3a86ed7754a7baabded0fcc316a2ce08aa73c437cae36c7a104872fbcbe6",
+        "bytes_sha256": "4e220924de16ae4cef4154681f4cfeb179ad9b79b6930b20fd4c3c0d3d15e8f2",
+        "semantic_sha256": "5e1fffacbeee8c67ed49933381d979b6ec96f8df8bfc296df58409db96c1af40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaNews.list"
+  ]
+}

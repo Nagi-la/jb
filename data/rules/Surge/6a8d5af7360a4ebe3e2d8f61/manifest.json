@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:57.911847+00:00",
+  "client": "Surge",
+  "rule": "GameDownload",
+  "rule_updated_at": "2026-07-26T07:15:26.890577+00:00",
+  "type_counts": {
+    "DOMAIN": 494,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 498,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GameDownload_rules_99528f2898a794ff.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9ba13d3e8f5c9ae2cc55a8ea52404987a36db447949d5c4d698015b619940a9",
+        "bytes_sha256": "51801c678d0d68009d73402bc4017984d3ddced674925c9dfbb24ba3484d7825",
+        "semantic_sha256": "299970b94d06c5786141a8d4fdccdda68b9c2be4ee0f61ca36b799a4f7d61003",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GameDownload_domain-set_feee7da8fe507bfa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c566ff9f3163ea1b74d0e0344251756ef1451c2b2f1c6250009f76b8ac6d0556",
+        "bytes_sha256": "02954a06f60980f69f95308f852a48b777e9c3912e99a3b6126ed3eb94b555a5",
+        "semantic_sha256": "31bef32bd981b5ca7b490a9a2f74d7c15836333248743c893ce290fcde438be2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+  ]
+}

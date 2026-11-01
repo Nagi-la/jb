@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:46.301695+00:00",
+  "client": "Surfboard",
+  "rule": "36kr",
+  "rule_updated_at": "2026-08-13T23:42:09.535137+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/36kr_rules_3b0faea7b7351a32.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "88ce7c33b0b597bcf3e6d1d9649bc89be1db69dd2d45dcfb941fe4b6889b91b2",
+        "bytes_sha256": "bae6b3e9ad81f761ff67546ad25d9153c480d9bbd6cb6f289c3786585d1b732f",
+        "semantic_sha256": "1c9da26cb95aa0896eb790da014ff5e12828f31294031f9285f9b71e3d5bfa89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/36kr_domain-set_121148f80592b7ca.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d4325f9d125f7abfed18d275439eb80d3b18f353016bbc6555d5f7f61146f635",
+        "bytes_sha256": "a430b447175802b0f3153acab2757158862bc0f1f1e894f13f6b9d51b8c9e1e5",
+        "semantic_sha256": "2de21b8232f8f078ac1f8bf60b3393c6791a71c836296856f8b38e443011422f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/36kr.list"
+  ]
+}

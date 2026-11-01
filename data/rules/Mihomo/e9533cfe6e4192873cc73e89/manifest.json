@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T01:59:48.132333+00:00",
+  "client": "Mihomo",
+  "rule": "AppleUpdate",
+  "rule_updated_at": "2026-07-26T06:33:27.360641+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31,
+    "DOMAIN": 66
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleUpdate_classical_10f9dde67c682c5a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1721fceedc1466fb8490e621246cbdf44aeb4a3b348b3b389d187074b80efd2b",
+        "bytes_sha256": "da90181d3bb9f53aa424bd48a3246ec7f8a5a749f61939ea74fd451940d5d281",
+        "semantic_sha256": "49e718ba01fd143eb007775c258bee659583d3d6b458c955709c411e6e80b63e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleUpdate_domain_7393cc5d3c2effb4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18b36f8c64b26150edbe0482224576e6599a3b1b00ec115ee5ecb9591ef58c5d",
+        "bytes_sha256": "a746c771c143631f9ac2f1f35eba2e12b739ab841e84e3ca022e2eb847d316fe",
+        "semantic_sha256": "befdb42c304e0426c03bc5e12f4d818315bbe9f477d15c06203c5306962d43b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppleUpdate_domain-mrs_f781b1150f4cedfd.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "167e68f317339b92ba13d143cdaad0810a29cacd1493c9144be8f32806e250a8",
+        "bytes_sha256": "006f5f6e96d35b227d65d97eda7d51d99963505e7baf1d7f70db02ccaef50a8d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LuzMasonj/Quantumult/master/QuantumultX/Filter/BlockiOSServices.conf",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/IOS_OTA.list"
+  ]
+}

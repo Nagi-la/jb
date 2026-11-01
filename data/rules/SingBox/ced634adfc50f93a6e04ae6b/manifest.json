@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:06.566434+00:00",
+  "client": "SingBox",
+  "rule": "Manorama",
+  "rule_updated_at": "2026-07-26T06:51:41.683998+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Manorama_source_6ce2029a0e2da44d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c46b16363334b9d50494716f42f78a0633945521a19fb1ee94d9f8157e585b20",
+        "bytes_sha256": "a002d68a4e5816e157d7518bae3b3439e99773ae860dedd3981c22f3b188588a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Manorama_source-srs_c9b4279e34501790.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8d72cdedf16a40892536f6ca1501fe4edf4ab6d96a7bc79ae0e80dc0920c3568",
+        "bytes_sha256": "f3c8c4dfefb5e701230e407d05f6c9396570603b8629cb3afe6da17d2f3900d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Manorama.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Manorama.list"
+  ]
+}

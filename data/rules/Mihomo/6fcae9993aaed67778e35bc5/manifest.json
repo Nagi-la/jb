@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-08-27T02:08:06.841201+00:00",
+  "client": "Mihomo",
+  "rule": "AppleFirmware",
+  "rule_updated_at": "2026-07-26T07:01:49.829979+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 177,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 178,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleFirmware_classical_20a5ff606e1c489a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "97b216d46246f95c13d31b4c7804cc9d9dadf6f4a769cbd68cbefea5ed41f12c",
+        "bytes_sha256": "9d56dee702e663abef7a376cde36fb7ab05031d8fabeecc012af1fbdc2759ea4",
+        "semantic_sha256": "573c6bd520409dfd69640c29126b40c23395df94bbffc1fa518f1e8e9c3cd331",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleFirmware_domain_33f9264529bb890b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "85603aebcbea75555ae88b2d50f8db1360304d8fc95158546d19bb552032d33b",
+        "bytes_sha256": "7b0bbd98bcc51e1f4cea52332eadfd78c1699b2b8fe8eec7a87d73413255b3f0",
+        "semantic_sha256": "2168d40937410ef0bd09a5356d0c20f7ab411b04dd82830a7a4b1041a1f40f26",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppleFirmware_domain-mrs_8b4d7d97bd59b2b0.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1fb994fa2fa0f2a2ad9fbc42172c3c554aecadb178da2871fa80c5c55c4f8930",
+        "bytes_sha256": "74245eae99b8edd6266c1293e4643a2efa276154c1629613cfbc873bf639b17a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleFirmware_classical-rest_5c5335f66f62d7cd.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d9339b34f0c2a9280cdd5fa7f58606556171e0437f5b68c5d8424e1417bb01c",
+        "bytes_sha256": "467d996a28e2c23f63181c67312f7817b5ddd3f50b7ffe19e49f5ba3ff42f022",
+        "semantic_sha256": "e3717823430c500d25490698c1cb53feddc2e5596071612ec5f003bdd1e46a5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleFirmware.list"
+  ]
+}

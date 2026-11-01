@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:58.370998+00:00",
+  "client": "Egern",
+  "rule": "KKTV",
+  "rule_updated_at": "2026-07-26T06:57:33.225532+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KKTV_rules_7e8141a923072b81.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d06dd6805c839768899da229d688e518872cfdb29e0699d82139e532683c560e",
+        "bytes_sha256": "8d0c97df5e98c64b422860cc4a99b321d0ac4d76300caf9cd078d061a3b0b20c",
+        "semantic_sha256": "e52764d0c437aca1c44e78e02c114911ef4422be0e4ecec57f35a4cb6962aeff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKTV.list"
+  ]
+}

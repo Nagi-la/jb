@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:07:37.942937+00:00",
+  "client": "QuantumultX",
+  "rule": "ChineseAcademyOfSciences",
+  "rule_updated_at": "2026-07-26T06:48:03.470560+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_rules_d7bdee45984c95ff.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d726fe037831d6771ec6d1f785a3eedaa87a9d0c09bd7fd42eb7a802e090326d",
+        "bytes_sha256": "2c651e79d0602f151ca70d8863a898dc9ef33d45ec18bef6a762d19efb91c4bf",
+        "semantic_sha256": "bdc3fb2f0d0c9dd53766fd7ade57df06e58ef9395724f50e0e056173476449d4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CAS.list"
+  ]
+}

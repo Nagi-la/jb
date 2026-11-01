@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:14:25.699813+00:00",
+  "client": "Mihomo",
+  "rule": "Cisco",
+  "rule_updated_at": "2026-07-26T06:48:31.544889+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 121
+  },
+  "total_line_count": 123,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cisco_classical_00a4e61874d24383.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0e2ea62206b151ee37af475212637704538ac69a8129c9bbe8cf5d206fe04942",
+        "bytes_sha256": "6c4c2b1d61a3d796753f23cfae50798e89911316c9a1d99fcb47ed292428f392",
+        "semantic_sha256": "a9aab6409ec6a3d3d12e3db35fe1a038ef439ae1192e12153ba96453e5df0974",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cisco_domain_4fe67741f6e761e8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9dbffb50b9d2fb7e7a9072af81925e6aa0685c8bec39ba40b9886da81487bcd2",
+        "bytes_sha256": "575ac1473ab5e6fe73e0d4390751673524fc1c2bf31f7dda05e9c32aaa17df2c",
+        "semantic_sha256": "405e08195f34b0b6e2b1a662373a812ed75983b56dc307901740316ec94d4a23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Cisco_domain-mrs_b9a65620fcb648c3.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "05112df8f633988c6d380745a9be3a5d3b18c857685e1401ba3ac625f5d233bd",
+        "bytes_sha256": "fa15103de252d82650d8530a3c242c5b14d9bed7a1e4c7e4f4286b4fe0fc3a07",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cisco.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cisco.list"
+  ]
+}

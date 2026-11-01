@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:14:11.315562+00:00",
+  "client": "QuantumultX",
+  "rule": "QingCloud",
+  "rule_updated_at": "2026-07-26T06:27:42.250424+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QingCloud_rules_497276093d2ded04.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4894a0019ae4c70e69d931afc3948ec564545c323555be812b97ebdce8b15032",
+        "bytes_sha256": "51dd544232bc73b81f8892a6351acffad72d4a4629e625d2a9228328cdd09fb3",
+        "semantic_sha256": "6aa6372c3f3670a8bac9190c2ef553223490826dda6a5727afa79ce0e734a9ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/QingCloud.list"
+  ]
+}

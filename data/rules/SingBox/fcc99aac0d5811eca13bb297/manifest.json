@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:07.012092+00:00",
+  "client": "SingBox",
+  "rule": "LanZou",
+  "rule_updated_at": "2026-07-26T08:33:23.067290+00:00",
+  "type_counts": {
+    "domain_suffix": 28
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LanZou_source_561589742f58c755.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c0180da4c545be38551def2eb081ab10ea06204dd684c6dbbfe13f8f53437705",
+        "bytes_sha256": "2174d3699386685407566686f1c33ae4e423ba8a88bc5c25430e52ec4fe6bb8d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LanZou_source-srs_655f310ef25a2da6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bc81d876c9e0422cad373f6771bddec58145307bf3065c8d94bd76a9318699f9",
+        "bytes_sha256": "96cd0f83a93a15e4fba9ec25f2aa9c605449e7e88aa0f12e6997a0deb540746d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

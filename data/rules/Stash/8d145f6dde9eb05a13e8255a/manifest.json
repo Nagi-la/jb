@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:56.145714+00:00",
+  "client": "Stash",
+  "rule": "SpaceX",
+  "rule_updated_at": "2026-07-26T08:34:30.371458+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SpaceX_classical_155ba9708a07368a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3acbdbdce035d175aac233d5aca6198c964dee8641248eab8377bc7fec1661a8",
+        "bytes_sha256": "46a876e2169adc92ac37568572b4d2c3084b58a8fccc679114ba5be9836adac5",
+        "semantic_sha256": "ed3899c608da9570b684a27d56a4385b44d184ed9e339a6d244a57f1a1d59a7d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SpaceX_domain_ca0c2ee3db678674.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6179d805d7104229d71076c36687d810cae835d75d4b963e6467ff1f586ba0ee",
+        "bytes_sha256": "47fdbdd3691c537b9fafc7155aef59061c9240ad1f5b37abd724a48d772d08b1",
+        "semantic_sha256": "b97462e8a0a73b3b47409d02457820ada5c2dcdbe6697f56509d702e164a7ce8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

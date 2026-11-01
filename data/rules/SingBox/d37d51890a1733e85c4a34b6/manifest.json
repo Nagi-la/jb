@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T02:02:05.783172+00:00",
+  "client": "SingBox",
+  "rule": "AppleProxy",
+  "rule_updated_at": "2026-08-07T02:23:33.603243+00:00",
+  "type_counts": {
+    "ip_cidr": 1,
+    "domain": 34,
+    "domain_suffix": 25,
+    "process_name": 9
+  },
+  "total_line_count": 69,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleProxy_source_78c9d0364d09a3bf.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5f7e76f78246382c441430d413c4fdc602d2094e6d53cba66577521209659d04",
+        "bytes_sha256": "2f529d8236fa79a8d1aceebaffa324eeb14c527b24e5d7b27a5ce28c0049a30d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleProxy_source-srs_7cb071d1b5bef5be.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cb15c76fcf96f11d6d8ef3c972a938e800bc281e8df08dff62b8efc2cf5da3f4",
+        "bytes_sha256": "6700523e93b4bf0c78a12dde733cdfb6386e2dcf522970d62f9045be296f5570",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

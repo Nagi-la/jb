@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:59:17.267388+00:00",
+  "client": "SingBox",
+  "rule": "Taomee",
+  "rule_updated_at": "2026-07-26T08:34:39.647347+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Taomee_source_cbd894819a168664.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7759600031a9889fb1fec874626ab6b574d5c323091471eb732e9b13c4069e28",
+        "bytes_sha256": "d8f582f7c2a5fe34d4ffc6d679222f58b252c2510bf7cbf6df9d3eb68706e4cc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Taomee_source-srs_d7a269b696f847e4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5a032e7351d898fa13639b39656f81914a444e2557e9bfd60609f9e71643730f",
+        "bytes_sha256": "52719000662627d5b28583962addbc202f637eb73b1a4c48c8b58750b84ccd71",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

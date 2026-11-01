@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:05:31.478166+00:00",
+  "client": "QuantumultX",
+  "rule": "Dandanplay",
+  "rule_updated_at": "2026-07-26T06:24:17.009773+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dandanplay_rules_c031c4c711a83897.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "411d64f284e4742052f1990c73f3153a7aa6568768b9cb00691f5617671b3b55",
+        "bytes_sha256": "feff5c5edb12553be4c23003562fc806b50d28e29547bbda3f0905549e4cc5d0",
+        "semantic_sha256": "55f9c6c2399743a06dad6dfa8bf64418fd2604c0d6adff9620f2fe2ae776cc71",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dandanplay.list"
+  ]
+}

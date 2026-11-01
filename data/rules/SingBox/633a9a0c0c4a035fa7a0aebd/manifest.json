@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:46.926414+00:00",
+  "client": "SingBox",
+  "rule": "ChunYou",
+  "rule_updated_at": "2026-07-26T06:24:15.520122+00:00",
+  "type_counts": {
+    "domain_suffix": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChunYou_source_c4b1c6649b916d0a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "324ed115973e323a57530ecb665f6592424cc724ed02222f89a5ef036a20e6e2",
+        "bytes_sha256": "999e2735401d55381d3c22dc413cd67ede8a11daf374c95963f79bb38b7a7552",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChunYou_source-srs_ca8d36f7aee36b96.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b2c38029af22c30f5ce7847d19a3520681af331fa925eebfa41e60ea9a6f5faf",
+        "bytes_sha256": "d89fba6fd5a5d7d0db1064e11dc2da7e7f6ec7e5ac21ca329367c24f0376615a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChunYou.list"
+  ]
+}

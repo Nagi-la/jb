@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:27.295101+00:00",
+  "client": "Surfboard",
+  "rule": "AliGames",
+  "rule_updated_at": "2026-07-26T08:30:07.770244+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AliGames_rules_e0181b4de5ba9a14.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d0290fa14c895f4ee75418c6490ae903e4e9930e4f0b52af1368775298e44744",
+        "bytes_sha256": "7d28e934c3d057e6f4d621fb94bfdc145f529578c146a2ccf5d987f7f647d547",
+        "semantic_sha256": "cb46243891a5b1565c3834fc63ccf682c8bc3802859985e4cd7cc5f19ba8ca63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AliGames_domain-set_3dd8642d0aaf86ed.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1dd5cc6f2c1fe3c10a99324f73bcfcaf2b2855b4619307bf9efd1458efb9139",
+        "bytes_sha256": "8432f34e83feae1d9240518b9ab0d525a225d17c8b094f47e5819dd5aadc36d6",
+        "semantic_sha256": "801b15719a4af586cc0e50d34f5f6d41b1c729bb2c338763356a29a3dff67b9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

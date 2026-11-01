@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:58.741390+00:00",
+  "client": "Loon",
+  "rule": "KKTV",
+  "rule_updated_at": "2026-07-26T06:57:33.041794+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KKTV_rules_abab0ce817359a5f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba79aca80aa086c0c2b3bf02601ba7745252502241d9ef777388157ee6cc54d3",
+        "bytes_sha256": "7bcfaa9bd96b5706f3c59a98a47c3ef6b55c5aed5891d80f32fd07648c5199c1",
+        "semantic_sha256": "4f3eede8b0cddc825372769b8f998a385875e6d605bc39dbb559ca797488002b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KKTV_domain-set_e689c1c492815a6a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "272640163d6d49f2e7ab81216a1e2598a6bb8082d00b724295d16a5cd0ce3539",
+        "bytes_sha256": "59b161f55f261ccbe581a4035f89c8435c899e29c9f24bad0120bf44d8381cd5",
+        "semantic_sha256": "70966563979255dade7f377221593d36ae62b545064bf3436b23ebd8c1679a4c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKTV.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:12.909372+00:00",
+  "client": "SingBox",
+  "rule": "Apkpure",
+  "rule_updated_at": "2026-07-26T06:30:35.585847+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Apkpure_source_f4cd3618046eef2a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5cef28aaecf55fab0ed185b0ec3d7c497a123b29e84c13134f6a97a563eb4545",
+        "bytes_sha256": "943a85b151224a11dadf02f58d0b0cf25ae155a8476bf22a29ada9f0e8b95f29",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Apkpure_source-srs_7d28b37d505a36cf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "23dce5b01261cf805b6241f2b71d785bcef7f7f62352a0a1af4718be63ceeec3",
+        "bytes_sha256": "909525b9534839282d3e917df8a551cc87813f702844445c15478213df048e3b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Apkpure.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list"
+  ]
+}

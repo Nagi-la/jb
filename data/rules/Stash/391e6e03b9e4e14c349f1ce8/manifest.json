@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:52.315060+00:00",
+  "client": "Stash",
+  "rule": "Oreilly",
+  "rule_updated_at": "2026-07-26T06:52:53.614465+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Oreilly_classical_9ef15c43a731c80f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1853eec827dd3f98a735ef89ed60381be671b95b3b646ab024f3d2cc70b2974b",
+        "bytes_sha256": "ddfe34d5e18221a7e4e52aaa15d9893613d6958f81964d09266e18159ad6135e",
+        "semantic_sha256": "f70c893c240886845846118031c56e4e9359c318940ae8402f696ad071e396ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Oreilly_domain_6b4bb68bdb429988.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "889f5af1359c4d08cade6c77ed412b6331d3c1a7afbfb590eb457f62a84b8d81",
+        "bytes_sha256": "f522d23822b315396a7aaecde3de6f4b9f0c9976e0de365a2d29003cb140f721",
+        "semantic_sha256": "d8353a7b5f821d2717cb08ee4d16925e761f669ae58b00e4e83720c79fe8850d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Oreilly.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Oreilly.list"
+  ]
+}

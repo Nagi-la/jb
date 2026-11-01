@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:18.625534+00:00",
+  "client": "Stash",
+  "rule": "WoLai",
+  "rule_updated_at": "2026-07-26T07:00:12.210542+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WoLai_classical_159b7bfedbd357bd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "643bc98fd602e5ce381f3591367d0f62c56e74519409722d33f996af6ebc3d2b",
+        "bytes_sha256": "e468b48643290de9972626f8d7016ee59daa05fbcb5d79291b7ba9de3343a066",
+        "semantic_sha256": "9f0fad22e979967de76bc7e2f14863a3ba0eb92f0fff5a311799d50353ed1194",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WoLai_domain_d98829a01816545c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7974ccb5339dc6f1f627076ed18882f22ae23412bb25af78732f858019847d0c",
+        "bytes_sha256": "e996b63d6f03128dd0b32a4a0829f44f0c61cfca636cf2c96187a3d52e8dec3f",
+        "semantic_sha256": "b181fc431ba6a43d85794023e84687a9cd3a930c1bd8bc87a2afd6af8eb34bb1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WoLai.list"
+  ]
+}

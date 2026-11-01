@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:58.770823+00:00",
+  "client": "SingBox",
+  "rule": "AppleMusic",
+  "rule_updated_at": "2026-07-26T06:33:09.851910+00:00",
+  "type_counts": {
+    "domain": 7,
+    "domain_suffix": 11
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleMusic_source_3400c5b6c7b73c29.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4adbce65ca8e0ab24ade0369f40cca34270588dd131f46e58c6502f74e0c5353",
+        "bytes_sha256": "89d812f44b1770a89eb0cdf0038f5da438469267aa1112473fcaf55cad3bddf6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleMusic_source-srs_fc542c4c8b351e19.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e7f49ce577f749aac91a17a960d58f30d6153f48924dcdacb19333f1a19c818c",
+        "bytes_sha256": "426f05a4cecb96b6ef2e1003a92440e859c659abf155b34576a6ae061d38c573",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

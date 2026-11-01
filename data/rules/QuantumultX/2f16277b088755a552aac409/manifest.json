@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:03:12.624891+00:00",
+  "client": "QuantumultX",
+  "rule": "BBC",
+  "rule_updated_at": "2026-07-26T06:38:07.510477+00:00",
+  "type_counts": {
+    "HOST": 21,
+    "HOST-KEYWORD": 2,
+    "HOST-SUFFIX": 17,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BBC_rules_23a3059dda1214e0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "857f05f8750f39e1dbd2aa99e673e1a6d593805c127b87fa27692c310373bd5e",
+        "bytes_sha256": "b5776f3fee5882e75bd74f3e756a3b187f8161c1e9736a8aa0f5dd57e34bd61b",
+        "semantic_sha256": "1a257921a620336aff13238e254d7d790bb77679f8118d0239e27b0eb34387e1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BBC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BBC.list"
+  ]
+}

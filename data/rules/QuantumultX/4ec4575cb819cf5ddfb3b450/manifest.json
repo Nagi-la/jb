@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-30T08:09:30.940019+00:00",
+  "client": "QuantumultX",
+  "rule": "AdGuardSDNSFilterDirect",
+  "rule_updated_at": "2026-10-30T08:08:20.976833+00:00",
+  "type_counts": {
+    "HOST": 184606,
+    "HOST-SUFFIX": 4,
+    "IP-CIDR": 72
+  },
+  "total_line_count": 184682,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilterDirect_rules_402291bc21c14e1b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "640a86c5b36f778e5f48843ac7b397739245e5a5c74ff3c13cf34526763f6ed9",
+        "bytes_sha256": "bb2514a9fc1f88fa8cf5cf6420235268716bb8a2e25a835c4e622060babd2827",
+        "semantic_sha256": "1a111b044ba1aee9ebb68d642fa4cde7adf46af003c3eede2ccf707b77396576",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。\r\n\r\n请将其放到AdGuard DNS Filter规则之前进行放行。",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

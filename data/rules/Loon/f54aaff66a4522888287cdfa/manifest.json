@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:52.159717+00:00",
+  "client": "Loon",
+  "rule": "GlobalScholar",
+  "rule_updated_at": "2026-07-26T07:23:02.458447+00:00",
+  "type_counts": {
+    "DOMAIN": 76,
+    "DOMAIN-SUFFIX": 226
+  },
+  "total_line_count": 302,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalScholar_rules_8ea1164607216c07.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb7a7e8a9130e30a0ce7784868d637713931bd1eb8e832a54cef097c823b2893",
+        "bytes_sha256": "bcc6c55db008f4fe577349c4f6f0c835a8f34d51b5eb0a20160aaa31940e309a",
+        "semantic_sha256": "d6edc187e36cced9d3e9cf0cc9b4d8d6a4998fefdab19ded09d055f5315e0d23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalScholar_domain-set_2119e07b63509584.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1be5e9416da20cb349fdd760619c43fa7b3ec41da5598c58d3aae36fe001d7b0",
+        "bytes_sha256": "80462496eb38e73229ebafafe2a4f6914e070006081b2d8f510929de80614f38",
+        "semantic_sha256": "03de1f7e7f2957f6082db07df2ba090ba00234ea74ddf6c75a76fefbb470d4a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

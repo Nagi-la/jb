@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:39.842453+00:00",
+  "client": "SingBox",
+  "rule": "Voxmedia",
+  "rule_updated_at": "2026-07-26T06:22:52.680960+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Voxmedia_source_16101a9e3a602497.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "095ece4af675c5b899a71973de7e1894a964f9bf6b372d6a35f75c17a2f990a1",
+        "bytes_sha256": "4f97a6f7f73cc80cea0e65f322297c89db4884e4bd607aa2572e0f63258150d4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Voxmedia_source-srs_354c7db6d06742c2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "34ebd63fb96a40351e3121b8159b3337b61d0beeedcf96ea39c8f2583183ab38",
+        "bytes_sha256": "6c9ce512cfbd2aef93162012335d0a19639a3f0a3fe2fbbef31fe535738113a2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Voxmedia.list"
+  ]
+}

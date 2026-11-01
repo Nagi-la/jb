@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:19.006582+00:00",
+  "client": "Stash",
+  "rule": "CEB",
+  "rule_updated_at": "2026-07-26T06:23:16.293036+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CEB_classical_e7dcc65ec74f783b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f55a392c7c63ccc0fdcf7e342dd129d12548292477ae28c7de48970198e52744",
+        "bytes_sha256": "56550ecbc6ca019c1bfcfab2050a6c41a5d62c0e0e9ff69d8b98d4f290d8dd47",
+        "semantic_sha256": "eba449e2bf614e06165a5af4af5d5c0e9234bd4fa6a091049ed19d4f12138f44",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CEB_domain_36d43469f21b7703.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "783c782457fe3494e504ef26e75d891c52abb93433eed2ef071c73cf69d96841",
+        "bytes_sha256": "0d612868313ef232c20066fa0f0c7bc422a3db7c338067ef24b0f7e7faf80edf",
+        "semantic_sha256": "1daf6115ae776ff24d7f5706532509a5e8b2a79ce0f35bf9e8e94798a09698d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CEB.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:35.707417+00:00",
+  "client": "SingBox",
+  "rule": "BaiduCloud",
+  "rule_updated_at": "2026-07-26T07:03:00.755308+00:00",
+  "type_counts": {
+    "ip_cidr": 141
+  },
+  "total_line_count": 141,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BaiduCloud_source_b28653fab81531fd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "35072214245369253fb6d3781ba20d267e8a04d57aeb4e237f50486a5f821c04",
+        "bytes_sha256": "b53059e7f6eb9791277f433ff6953c92626520e3a0eb12a4c1ca020c239a5dd8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BaiduCloud_source-srs_9bc6fd24c7f4f83e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe30f9cefa74ae44d3e9ccba46860d0a3fe1d70ddb5e21a949f99092e298569d",
+        "bytes_sha256": "7e9753261492fe1c02621617e9d1be5b1b93c3e7893169744f5288c6d4d9a187",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "非百度网盘",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/BaiduCCC.list"
+  ]
+}

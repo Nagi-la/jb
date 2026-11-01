@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:40.356762+00:00",
+  "client": "SingBox",
+  "rule": "Canva",
+  "rule_updated_at": "2026-07-26T08:22:43.264268+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Canva_source_dba109198334f740.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f6053d7ba456bcc611f331e45e0ffef2819fa81ba457d5ce634ce412ba55b0d2",
+        "bytes_sha256": "69b07ab9e013687917c156983037eddaec54a4de69234fb6f3a667a3d6fd7cc8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Canva_source-srs_ef4d91bfb4eb9f35.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6b2db83e73e32c6abed9e519063a5a75c28b7a4463985fae9522b85ff384d16e",
+        "bytes_sha256": "d0ff9ba927027b090aa61d5bddcf9768ac27d69819d5b5bb7a96ef1e0f768625",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

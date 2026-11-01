@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:55.932867+00:00",
+  "client": "SingBox",
+  "rule": "WildRift",
+  "rule_updated_at": "2026-07-26T06:31:44.158741+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WildRift_source_024ecc3159e45190.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7e7179c17621b18904b21ff3d8c6e2e7498fe9d7a283177642d51a0f4ceec5cd",
+        "bytes_sha256": "5e3af4b66da3f77c5511e26637fb2249e4d958b10ab1cfc7c04243ed12dad947",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WildRift_source-srs_d51d69470e98ffdd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d1115bd7521847a3bc9aad1de43621bdf87c2abdfaffc2ab66e15f62a283088",
+        "bytes_sha256": "8e4016665facbc7880e7d12322d1cc2c750df94f4897160298e638ad33c04130",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/WildRift.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:27.648266+00:00",
+  "client": "SingBox",
+  "rule": "GitBook",
+  "rule_updated_at": "2026-07-26T06:29:23.371741+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GitBook_source_b2a3d130696d5d02.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c98fc8ba7d3a5fe9423c6ac5e4ecc9cfce624656d40abf81674d14329fe75a8f",
+        "bytes_sha256": "15d8e4a15d8b88718a1d8c13232e699cbc16264cc2eec2ff45a454aac131420d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GitBook_source-srs_b8ea0838a3e5075f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3509c8b20620169f98b5784123b5c9c858639b442c16e87551b61cc89ebbba53",
+        "bytes_sha256": "81ee9dc56bcec95f361215439cdd9f27e2c772c69fa46ded97e0f21f95dc36eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gitbook.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list"
+  ]
+}

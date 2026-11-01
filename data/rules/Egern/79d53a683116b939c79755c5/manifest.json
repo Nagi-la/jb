@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:19:03.398038+00:00",
+  "client": "Egern",
+  "rule": "12306",
+  "rule_updated_at": "2026-07-26T06:22:42.181920+00:00",
+  "type_counts": {
+    "domain_suffix_set": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/12306_rules_4efe457a6ef6fd29.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f1d04e63974fa99b5e409e9f994975f2116f51dd57cd5c1d3e6997c577e55f66",
+        "bytes_sha256": "fd49da3d5c0bbabafa998a087c97f766cdd375e9c5cb66a71dda63b6ce0b44d0",
+        "semantic_sha256": "cf06305ad38af43c16badf94bf40f814ed7c0ae555110e553c23aa9be53f0a20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/12306.list"
+  ]
+}

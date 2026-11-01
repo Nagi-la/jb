@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:06.531131+00:00",
+  "client": "Loon",
+  "rule": "AppleFirmware",
+  "rule_updated_at": "2026-07-26T07:01:34.115860+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 177
+  },
+  "total_line_count": 177,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleFirmware_rules_940f564a0ce10481.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aaa9df3cc9c7d92eff82d547bd6e392f4316226319248b2bc4fa081186446439",
+        "bytes_sha256": "b5a19209f5215edd393aa4b6c8ddc116f5783a8b425aa93f29e9ce867bbb8fe5",
+        "semantic_sha256": "627cc5ebcd1b2c5b77039d9df40fe6c370561581d417b0ca9f88cd62b66fcc08",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleFirmware_domain-set_8905eee9817303d6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50e6ec0e66bc270e27d62cec5b03a0f24db0561ca0c09db6f86bd4ced529f6a0",
+        "bytes_sha256": "203376cb8cb4dd80fa8c085129587a845e22782750f1ab25187b3b8a8ca7c521",
+        "semantic_sha256": "94b70f12138af5356f1901793db6a29305b173c928625cabe97b2853ca33851e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleFirmware.list"
+  ]
+}

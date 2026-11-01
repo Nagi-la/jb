@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:56.240671+00:00",
+  "client": "Loon",
+  "rule": "Westerndigital",
+  "rule_updated_at": "2026-07-26T06:55:45.182680+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Westerndigital_rules_b482edc6839016ad.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05fc59cae2b8cc4913a3655b2ff0b82a7fcf8a01a98fef1af137aadde6682827",
+        "bytes_sha256": "b012a7b3db1db452a08438953f57492a03c3e63e1d7e4fd17ec7972221464b07",
+        "semantic_sha256": "42404babeb613c5c0610ec2d0edf3586a2fa4dd679f912c49d32346c69f85d51",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Westerndigital_domain-set_026f2716027d551d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a6920de6187fa7d6e312338cc0157cbcbaf83b17b9184a7c1f8bd9e54d05250",
+        "bytes_sha256": "2c90114d6451738ef4ea515e68ae641afa4d45fff171652233e5bdccdf868c69",
+        "semantic_sha256": "07beb44b92adc62009d7587cfe86cb5e6e36919a762f49375d72f90817a4cce1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Westerndigital.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Westerndigital.list"
+  ]
+}

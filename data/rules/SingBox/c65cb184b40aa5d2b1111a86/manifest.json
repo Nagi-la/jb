@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:20.650281+00:00",
+  "client": "SingBox",
+  "rule": "WBGames",
+  "rule_updated_at": "2026-07-26T08:34:53.043481+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 4
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WBGames_source_9cb6934e3ed09b8b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2d57c967827bc8938050906a86866f5b70f2835898f3103912e341c86061b663",
+        "bytes_sha256": "3686553897daeee6a5633770c1d4cba31981a3d34baa3c8e7fce148dbdb89dd7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WBGames_source-srs_02295c27ad77d413.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0b31e5c5607175c122a56167e4bc624c9790a15184851cb9ab827d4dfc480a55",
+        "bytes_sha256": "d4123ea33dd09bc33b45e1f4bd6f8550bf5517beb2be782d7f72b09f4484715e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:12.719681+00:00",
+  "client": "SingBox",
+  "rule": "LuDaShi",
+  "rule_updated_at": "2026-07-26T06:26:52.471777+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LuDaShi_source_1805beeb9f634c0e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c720eb5f9f60c4790d438e884322e23013279801b9b22b55c45638afe2ac4585",
+        "bytes_sha256": "2c50b8168a35d471ec14dafca2a525280e4ff00da905a79a17d3b8406ac1654d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LuDaShi_source-srs_b08f4ec9e7cf17ea.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c358b9c0f174ece664935c329b9ed0b52706b6f0d64de247f635051cede43c1",
+        "bytes_sha256": "43b0eafb5059c83ae2836a18c07331142af7f8e0deeb170f6bc1840c46e79826",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LuDaShi.list"
+  ]
+}

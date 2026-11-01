@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-10-30T01:50:58.669522+00:00",
+  "client": "SingBox",
+  "rule": "China",
+  "rule_updated_at": "2026-10-30T01:42:31.736240+00:00",
+  "type_counts": {
+    "domain_keyword": 10,
+    "ip_cidr": 3896,
+    "domain": 25,
+    "domain_suffix": 6302
+  },
+  "total_line_count": 10233,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/China_source_6cd43950dcac2177.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "378ad0b1fee79d4a7a6ab9abd1155aa97f63cb1161c67d1d059923d0041a0253",
+        "bytes_sha256": "4aecba4a3e899692cdeb5ebedce4d769e251e043bf7a1a93873c110e0570e630",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/China_source-srs_77939d32c7747736.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "78fe44d46cb0c620b1e1edfeaa10bb10039a4e93ed780af8b695876fd1f4894d",
+        "bytes_sha256": "1bc6ce22708a8dc7c251816f33aff97ff86da147e163f315e2340bd409c9c7a1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list",
+    "https://ruleset.skk.moe/List/ip/china_ip.conf",
+    "https://ruleset.skk.moe/List/ip/domestic.conf",
+    "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+  ]
+}

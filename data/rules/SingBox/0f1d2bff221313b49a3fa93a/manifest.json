@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:11:30.673529+00:00",
+  "client": "SingBox",
+  "rule": "Instagram",
+  "rule_updated_at": "2026-07-26T06:20:43.449962+00:00",
+  "type_counts": {
+    "domain_keyword": 1,
+    "domain_suffix": 75
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Instagram_source_97639ff0637f3ac7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "75a8571cb672ae0060e991cad01bac4a9a5424444e91963318958256fa69fe71",
+        "bytes_sha256": "a8ef81ed3c27be16134e5ce01397efb36cc587e9189d0918cd2898c9c71da150",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Instagram_source-srs_a076dce4881d5d5f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "61ecf4d58c2f2c653d1eb9690e472a70c5ac33460d51d6041c433c5020ebb569",
+        "bytes_sha256": "52a0963235236b2d60e28915473a44d6e4fb1400a1e71dbd97edabcc87bc841b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+  ]
+}

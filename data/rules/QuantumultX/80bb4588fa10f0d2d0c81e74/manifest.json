@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:07:58.016884+00:00",
+  "client": "QuantumultX",
+  "rule": "TVer",
+  "rule_updated_at": "2026-07-26T06:57:33.527626+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TVer_rules_c9532cf4ab1c1545.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e94410633bed2af0f63a49f03c30eb9ff1eb51e78b0c6a72591d7320809db1b4",
+        "bytes_sha256": "faeacfb8fe4966cc643ccf424e0d51e34ba502ea8de56038aed0e444d6242ada",
+        "semantic_sha256": "660a4829da85d846f4ef8f815e83994f2b12336d25541ae638e2bca9e60a5489",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVER.list"
+  ]
+}

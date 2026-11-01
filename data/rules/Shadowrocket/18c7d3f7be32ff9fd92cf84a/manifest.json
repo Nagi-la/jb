@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:40.558542+00:00",
+  "client": "Shadowrocket",
+  "rule": "Nike",
+  "rule_updated_at": "2026-07-26T06:52:35.087304+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 196
+  },
+  "total_line_count": 196,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nike_rules_96875eb02a3259c2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27a5793a23a5fa5258f825b6343b4c5673f22ca82ccada5caf93b5c6326fb9a4",
+        "bytes_sha256": "1660e60932c086246cc7d1dfa02e5759dacfa072f6071de63ca2fbf5a5ce4d2d",
+        "semantic_sha256": "3a65866ed1739410929c57ac71edb61911e1957837af7ca30e2d6cfad67e2a97",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nike_domain-set_a20e7657f9e00485.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3d6c75b7bbf08f41a3bda9ba6fdbeff20a7af3d76809eb348eca384ec8763bc",
+        "bytes_sha256": "b3ac71d100651db37d923f926888cda379bb0232323963e6da683ba0dfb4f9ca",
+        "semantic_sha256": "4cc646f5850996e13d0eb3f713931b7f1cdddf40f1b70a49de5c1e3a485c867e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nike.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nike.list"
+  ]
+}

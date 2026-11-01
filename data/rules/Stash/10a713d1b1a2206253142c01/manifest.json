@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:44.143079+00:00",
+  "client": "Stash",
+  "rule": "Rockstar",
+  "rule_updated_at": "2026-08-13T23:54:43.875844+00:00",
+  "type_counts": {
+    "DOMAIN": 11,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rockstar_classical_c03feb877c3ed6ea.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a6771d01bca1e54dd09399a5ad347055d4468ef24af09e6503db315b48c1c2e",
+        "bytes_sha256": "b7262046ef15a8715779945bf117db2dbdb036a8c8eee2febd3d47d2fbcce4f4",
+        "semantic_sha256": "a88ec55a51e4921dd069312c877b486f63bfe61348fc1e534aee516bb00877af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rockstar_domain_71929ed6c80aa8af.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ebcbaef85aa82c2c144dd07cc12d555074bbc65dd9a6f5d9a5c393a1856215c9",
+        "bytes_sha256": "97ba3d25e34d675f805c7ea536bc717d18380c38afc882f4673f5ce3c20beae4",
+        "semantic_sha256": "7aa8a2f63d71876efcd6b1ecf76d2235f62181143b9fdde139ffc01c8b65cfc5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Rockstar.list"
+  ]
+}

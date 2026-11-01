@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:13.005261+00:00",
+  "client": "Stash",
+  "rule": "AppleNews",
+  "rule_updated_at": "2026-07-26T06:33:15.671524+00:00",
+  "type_counts": {
+    "DOMAIN": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleNews_classical_cf057b111b812553.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4bbb87ba992d8cfae474e514866a27390411636e6fa20f10f3ac31a7064fa39",
+        "bytes_sha256": "d6797077aa19772e2477e6b5f83ebe7ded7864187f99496a467e0724a05306c6",
+        "semantic_sha256": "3f25fcc3a9b9b72afd7ed01e5e3870b9ecba945061b29424a79bfd943c5cc5e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleNews_domain_ed9ecf545739546a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "64e567ec1f006d785e485c9c4efeaa156891fb1b84e8a245c80687189d6f871f",
+        "bytes_sha256": "1f950f18388ab1267a5f073b91db43e183167bd3cbcc8dee651553d50ed60e40",
+        "semantic_sha256": "34b82246cd9f0b3be3ea10f51574d9e09683f6c529b401b4b112f65d565741d2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "DOMAIN,gspe1-ssl.ls.apple.com  必要，但会导致「地图」使用「TOMTOM」版本数据 (DivineEngine)",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleNews.list"
+  ]
+}

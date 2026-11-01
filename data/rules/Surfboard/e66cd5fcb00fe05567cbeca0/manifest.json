@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:03:21.111288+00:00",
+  "client": "Surfboard",
+  "rule": "LastPass",
+  "rule_updated_at": "2026-07-26T06:38:07.107064+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LastPass_rules_579f728a0338cca5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc5f4189020c61f9e97a15b4e230938ae6b99026a0625a91b0d65370f0f4fe55",
+        "bytes_sha256": "cfb9d73e17781080a7f5146d0b235f2e12c8f8dbfd0171c61c16d183e8990b1f",
+        "semantic_sha256": "ecff80b4b9d0c894e606b4353ce48bc097ae0af2d82cb01cb467868c8f47861c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LastPass_domain-set_31b44ee487d84285.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4be040a2ef215b9d29a919042e63ec9d31d211a1861cba02d9acac74a8c863b",
+        "bytes_sha256": "283d70067e2ec6dd36fe8d4124afb200cfa9c2d6495b6524c52f926ee11c5e58",
+        "semantic_sha256": "50732ca70ca166c7b2e36874e0e20a5e1a33d62e6e112e8410d68fa7c1e28e48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LastPass_rule-set_7a9d4f49f44f67b0.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf41ab2b4e22f56393c5a5cf4f9984de4154b1bcff9568ae6ffe0c95fa04618b",
+        "bytes_sha256": "be2e555a26985c74140ae3d4b15a8409ee431f436693f727cd9c305c05990b5e",
+        "semantic_sha256": "7a4dcb6c6328dc52a64bf37e68ac3906182e96396ba65d714cf8521514ffb829",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/tools/LastPass.list"
+  ]
+}

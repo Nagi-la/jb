@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:08:41.937935+00:00",
+  "client": "Stash",
+  "rule": "KuaiShou",
+  "rule_updated_at": "2026-08-18T02:22:41.146102+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 691,
+    "DOMAIN": 3
+  },
+  "total_line_count": 694,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuaiShou_classical_4770d22e3e790f77.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0d21f283d53cc766d1b0ae7f5c9f9a8fb661bdb7ad0e2c1e1d6c316e8420f03",
+        "bytes_sha256": "f45b9f22605265e8080eaf927be2bc04f3370ad88804070d16ba045662e1df93",
+        "semantic_sha256": "c1b58a985e39fe69891abfd1816dd9fa2d2b468352bc2eefd74a0ad87fd0e894",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuaiShou_domain_4bcfc5b8faffebad.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c443c1d0ab49f7f4236c3535db98f4b4fab34cd3d0fa0acc3e008b14b6981b27",
+        "bytes_sha256": "8ca30b9182f5ecaf949040606359586a239a9abc8f3026d2f3d34d8fa3134d19",
+        "semantic_sha256": "f3edf09de0fccae62a6ea6303738f5e4667df6c60c35ae8f5f56dee75d4ad320",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiShou.list"
+  ]
+}

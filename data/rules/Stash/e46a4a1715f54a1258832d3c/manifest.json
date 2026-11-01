@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:40.760531+00:00",
+  "client": "Stash",
+  "rule": "Nike",
+  "rule_updated_at": "2026-07-26T06:52:53.348985+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 196
+  },
+  "total_line_count": 196,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nike_classical_5254722e29294433.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9eb35ad874f1ff95285c07beca6b656e9981bf6ee1be5af6356c6b9c39cc2b3d",
+        "bytes_sha256": "e6d4e1398474e8c5d03a5be76be9c498bd52057b2371970aae3c5c29ac9ecfe7",
+        "semantic_sha256": "386d370c1aaf236f74f9be212dbd2fac8c32c8c1867a71626878d8e35b83db18",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nike_domain_e3ba5c8d570e10f7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "596abd37e6cad0af8cd08e046a954c13de2dcaefb94c24e73233ad6eb5198ee8",
+        "bytes_sha256": "b37908eb30d94fb10fbb4efd53739890cd2e7183095a81d2f883cbe8d0141182",
+        "semantic_sha256": "1333af1f30193ce24da03e4ec8a8af87cc92fc533033bb82ef905bde3f88b14f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nike.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nike.list"
+  ]
+}

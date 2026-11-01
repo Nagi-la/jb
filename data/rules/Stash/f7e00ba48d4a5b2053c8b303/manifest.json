@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:55.925619+00:00",
+  "client": "Stash",
+  "rule": "MeWatch",
+  "rule_updated_at": "2026-07-26T06:22:18.189495+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeWatch_classical_b22ed5676e0f80ec.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "28c3122748a359cd1a37599b01a118ee053238d9e5cc65c248a7de302c51e994",
+        "bytes_sha256": "bfa0c093be6e48e543cfaa340fe0d1fe6cfd02439aa53d337b7f12f762d1029f",
+        "semantic_sha256": "a4dfa3bda450f6696218b70361363676174cdb6c54800ce5641be8592405e764",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeWatch_domain_ef02f7cc5b4d74e8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a66e81042ad071e4667851172e3421894acf78843a0a0250321ab1e34c68da2",
+        "bytes_sha256": "77b2e3d36ac12ea96f0d22e262d769b0c95ab20e42094573712505e450e91ed7",
+        "semantic_sha256": "e7180a9ec78ba69bf28f93d76747e30f96d009f530d8d960e23a68a4cc618aa5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/MeWatch.list"
+  ]
+}

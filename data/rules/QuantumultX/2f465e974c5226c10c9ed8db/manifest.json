@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-29T03:15:41.686903+00:00",
+  "client": "QuantumultX",
+  "rule": "Copilot",
+  "rule_updated_at": "2026-10-29T02:37:38.613482+00:00",
+  "type_counts": {
+    "HOST": 70,
+    "HOST-KEYWORD": 5,
+    "HOST-SUFFIX": 304,
+    "IP6-CIDR": 2,
+    "IP-ASN": 3,
+    "IP-CIDR": 4
+  },
+  "total_line_count": 388,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Copilot_rules_019506b27dd4c36a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f483efe7fd26da18c160ccbcc014c8fc623956d0093d74399dabd14fbe6d974",
+        "bytes_sha256": "b14e5aa2d017675af3a41b1bdbfeb83e1799783c016c834715364f07c3b3953b",
+        "semantic_sha256": "1f184c58e0aa9e3c9daa348cc8cd9ea1b07427febc7ba5e03563f06cd2b4ea52",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list"
+  ]
+}

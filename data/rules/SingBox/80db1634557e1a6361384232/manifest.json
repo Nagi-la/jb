@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:44.294631+00:00",
+  "client": "SingBox",
+  "rule": "SouFang",
+  "rule_updated_at": "2026-07-26T06:28:01.562524+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SouFang_source_e3bbb3e828a44f42.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2b19840bbf6d777d53cde83bbcec17820df7e4466cbf997aab511e7a7ecc0ac5",
+        "bytes_sha256": "5a15a24854ec79459fb529676fb75dfb3b9c9ab601cb502e38c07f5a56ffa2b0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SouFang_source-srs_e54f69940fe0d19d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e592112976269a52b17c8d1b1f3dfbae833409892430ffd91962e3f5030ed3d2",
+        "bytes_sha256": "1141b07b0feeaa84db4b93079e8f1cdeef87b2e58e95468eadf43cbe9cae078e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SouFang.list"
+  ]
+}

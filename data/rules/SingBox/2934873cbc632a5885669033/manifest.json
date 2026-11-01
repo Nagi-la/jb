@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-09T15:58:48.674686+00:00",
+  "client": "SingBox",
+  "rule": "ZuoYeBang",
+  "rule_updated_at": "2026-10-09T15:58:44.764548+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZuoYeBang_source_a3844d81e2052d2b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ef8b5e4b4d05468730482bcfbf9a0bf7c1d74400d7cef4036f9fe48587334c68",
+        "bytes_sha256": "5e0a5e5799eafe2b13570325f2979bee01d778eb77015601a762645545bb0b50",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZuoYeBang_source-srs_8e1b655ec0179bed.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e8beb6245d73bf45239890c30871aafa9fbe74944df209fffd489e771a2571bf",
+        "bytes_sha256": "90ad3c213e6c034219d41e6e3710c1c35242ec9c0d03040172a7998a0c506d0a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

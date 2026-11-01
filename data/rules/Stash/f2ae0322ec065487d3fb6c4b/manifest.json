@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:05:07.451144+00:00",
+  "client": "Stash",
+  "rule": "Bloomberg",
+  "rule_updated_at": "2026-07-26T06:31:00.498276+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 61
+  },
+  "total_line_count": 61,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bloomberg_classical_4b78d6a7fc3a164c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a8871ac79cf3658bcf2d41b26561b519a8d36ab2f00c55131f8175c75165e6ad",
+        "bytes_sha256": "97cc36c72197b8644f40e29811787722aedc5a95b236e938d36b4322a440016f",
+        "semantic_sha256": "87fad0fcb8bc4fefd26fc00030faacaf1d7370f1b00d3dc48e394899a2a56110",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bloomberg_domain_4f8721ee1d669f21.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb1ce60d536c32b4f54d26dddd95ff591c6a8a33e90ec2235f0288f05e63a50b",
+        "bytes_sha256": "bbd4fdf9b9921d790e229893fd07bfd1d3308e5d4aeb042fcf8fec2ee44175c1",
+        "semantic_sha256": "b450892d0983132cc16094c53500341430edd1febbaec196f7c9628803cdc59c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bloomberg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bloomberg.list"
+  ]
+}

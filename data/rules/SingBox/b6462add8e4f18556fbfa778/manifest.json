@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:22.555859+00:00",
+  "client": "SingBox",
+  "rule": "Buypass",
+  "rule_updated_at": "2026-07-26T06:48:16.327245+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Buypass_source_ecf2ae764d47a8ca.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "24b1857563f4de6804e7c099d8eb8ea1e2f2ae90cff9c054ba6daac2fd9825c9",
+        "bytes_sha256": "f5cfa6b1ac2ec4ef08d377a5377d5b8cdf8aca71442c9aef3c5909c24cb890b3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Buypass_source-srs_564ba6a3365e6c17.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d3c5734812e9c26119fbc8052eaf8639498b525c137de53a0ff3a18dabc3cac",
+        "bytes_sha256": "97b83d7a74e567d6799722d354f6a2093ca79106b15f20902ced9d41a4332aeb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Buypass.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Buypass.list"
+  ]
+}

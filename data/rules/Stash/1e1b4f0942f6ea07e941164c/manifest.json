@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:07.591641+00:00",
+  "client": "Stash",
+  "rule": "MiWu",
+  "rule_updated_at": "2026-07-26T06:27:08.876737+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MiWu_classical_eca6f7001534ac96.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "184d7951bc9ff30a4791cea757f1daea53565994b159146556f2ad2e73215e1b",
+        "bytes_sha256": "fb303d00b7eb2c09d37e9e1889fa7be0e7c92df1f218ff42916baa06b2776641",
+        "semantic_sha256": "3f5bd3e4b9ee7680cdd151330a017b4c404fa56377d958d037727c1af6692b4a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MiWu_domain_cbeeddc290dd9fd6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30a2e79e823235b4e90093ce798b5b741be99b9afbfc2da717bd36ff4a055ac7",
+        "bytes_sha256": "5f0e555bf08106d1f3bf810151f8cfcaeb69341776a0e6bccf8db9e1443e9ece",
+        "semantic_sha256": "6cfa72bbadcf4c6ede62016e5ba076f02b19061c155ecc17d63f3bf08bc068fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MiWu.list"
+  ]
+}

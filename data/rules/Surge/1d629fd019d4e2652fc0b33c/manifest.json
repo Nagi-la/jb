@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:07.256566+00:00",
+  "client": "Surge",
+  "rule": "AWS",
+  "rule_updated_at": "2026-08-24T02:19:42.470220+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 77
+  },
+  "total_line_count": 77,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AWS_rules_faa1c6c460b8799a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7bd32b0089b6d36003861daee287c3848912e332415d74a238af3a5a7c5a1ff8",
+        "bytes_sha256": "12544259ad724426f8eaf97473ff1e5c6b929881c2d6531f3a32e3771a1211bf",
+        "semantic_sha256": "33cb2b112f5e50f012f00122749409f828c5b8ec5c084cb485a3c409418cc1ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AWS_domain-set_6bf8ae47efcea9df.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9af5762c130cb4dc1181f4f4aa69eea2ed3e13215a5e073f1c6617b737a599f",
+        "bytes_sha256": "4bfc0a61b1f21fe2fa56072f16cba1f2fd7dd2af0e388490dd8962c3d3b44740",
+        "semantic_sha256": "b28001f169b5a8cc799906d9c35a944abf20db876298d6fa49f6b682809f9444",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

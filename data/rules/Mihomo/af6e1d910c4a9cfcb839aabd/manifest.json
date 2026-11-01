@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:13:41.152724+00:00",
+  "client": "Mihomo",
+  "rule": "Pinterest",
+  "rule_updated_at": "2026-07-26T06:53:03.603716+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 52
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pinterest_classical_3dcff1c11b1dfbd4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3cf7db387b1dcf59e1b750465d6f8098713d89730eefd63cc7038cd1cee36fcf",
+        "bytes_sha256": "8cd947531bf762d38c36bb470da2ec5a2917382d239537f3424a46050c36ba4b",
+        "semantic_sha256": "6ee26c9127067d936822b4717d23cba789f7c1709de62c1b41f40aee62a4a03f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pinterest_domain_47393285cacd5627.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c546f434745ff0a8278b22aea92793d40331cad436a31d73951a7eb4a469265",
+        "bytes_sha256": "b70b0b2609d890893a2b4e813c67dfaa158cdb79bb0e1e6e3847dfae1131f1f1",
+        "semantic_sha256": "9e29da39218a6abd90e800a6eb830c8d347b7db189a65b1fd0c0b8014784b79f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Pinterest_domain-mrs_6a47c2c309ab0666.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "10832ee94f96423317b43500453e7d7d47a21ba3446bc6ba166f76baa157efe3",
+        "bytes_sha256": "c1bb32591ba738ab678c79188ae17feb05a79681494d09d482a79cd77bf408f1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pinterest.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pinterest.list"
+  ]
+}

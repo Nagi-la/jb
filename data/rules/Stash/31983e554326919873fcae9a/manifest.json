@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:56.610542+00:00",
+  "client": "Stash",
+  "rule": "Nikkei",
+  "rule_updated_at": "2026-07-26T06:22:21.707915+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nikkei_classical_9987f99e93d10a6e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "90507eb22137b2ca8bf0daf9d931d78fde641f9941c8158d09d98b995a0a7c32",
+        "bytes_sha256": "6ca74d57ec51ac9529fec83252cb1e2d8e76d56f5a94d05bbd99e853f58c40fd",
+        "semantic_sha256": "d07efe652ec0d0e86819f49cdfe8a41aec1087e6535e3a8e950568ad823e5123",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nikkei_domain_e0cdd2c49a3a9d30.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4463f56491b5f32d9065d5bdbb70281fe6ee9a0d37f94075fc7955f79435d2b1",
+        "bytes_sha256": "54024a9c10aa6a01444fd9857415c0d066662cea389159484245384d13478546",
+        "semantic_sha256": "817657d3460f952167dfaa04c78e5b9d922d643aabbdc26b2224e3382ff2f53d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Nikkei.list"
+  ]
+}

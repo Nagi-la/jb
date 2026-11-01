@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T02:38:27.161568+00:00",
+  "client": "Egern",
+  "rule": "GoogleDeepMind",
+  "rule_updated_at": "2026-10-29T02:37:20.609064+00:00",
+  "type_counts": {
+    "domain_set": 16,
+    "domain_suffix_set": 33
+  },
+  "total_line_count": 49,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleDeepMind_rules_dad58d16641b88af.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6a851b08731dbd26a1c20b8aafc49a275705b82c8144c76aea8e99e8ed2fa61",
+        "bytes_sha256": "dea510deac56bab1e6dba76728640d9b864b41ae75b5a1e3fc9b60a34776d7a8",
+        "semantic_sha256": "c24f434e790d5334e8a32a83c9e7a03a5f6cf7b4ecf7de49a254ae1509fb636a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

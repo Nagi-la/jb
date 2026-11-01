@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-09-18T18:49:29.183814+00:00",
+  "client": "SingBox",
+  "rule": "Stripe",
+  "rule_updated_at": "2026-09-18T18:49:23.646116+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Stripe_source_434ccaac9253b81e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dc1d83333e20fd5903496c5e95b73ae302323c4487dfc9b49a8083e1fe533af5",
+        "bytes_sha256": "cb9fde3c0fca9247eb5ffdba0bd4830ae071215ea7f0c7a442ccef850548f4b4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Stripe_source-srs_61ccfa098e420e8d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6e65e8e99709a74b182a70328c4b35b70804bd4e3ecc56f806ba4faa2fdc1974",
+        "bytes_sha256": "543eb4dc882015bc3fca79bdb1ca4c098acd8f229db4f74e35cda826218dca8a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

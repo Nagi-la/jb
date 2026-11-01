@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-29T02:42:18.297536+00:00",
+  "client": "QuantumultX",
+  "rule": "Scholar",
+  "rule_updated_at": "2026-10-29T02:37:23.423489+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 226,
+    "HOST": 76
+  },
+  "total_line_count": 302,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Scholar_rules_2a7e46f60ea34853.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a85aa2de4c3abf44a18b131796d5aed8662ab0001eb8f003a9b30b160977b0b",
+        "bytes_sha256": "4e7446eb8160887556f9069478ee79a5e2c64a4765def8ba71a046f65dc30ebd",
+        "semantic_sha256": "91d2a35e5947c781c0036389e240c4dc95d6d838adab66e197b082e35400b6e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Scholar.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scholar.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scholar.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Scholar.yaml"
+  ]
+}

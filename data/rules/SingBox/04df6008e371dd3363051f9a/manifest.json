@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:28.473032+00:00",
+  "client": "SingBox",
+  "rule": "LivePerson",
+  "rule_updated_at": "2026-07-26T06:51:13.920615+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LivePerson_source_f3f5434b8e1b0634.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5db2533350cefe2574e8f890a669f5f7b8adc0d6983dd840ed3e986505c42de8",
+        "bytes_sha256": "5d4a89fe4ff1f905eb0e06c2b02f6ff38af91455797d50daa7477ddf44795a39",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LivePerson_source-srs_c80403c5f04d6685.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9facdcb44367a0fd1a62c7c939b842b474ad5879fd96a36858fbf0042cce5e98",
+        "bytes_sha256": "f5d1a80899bb77b4c72ab8d4e65843eb4fac4e42933792705a920416a167ead4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LivePerson.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LivePerson.list"
+  ]
+}

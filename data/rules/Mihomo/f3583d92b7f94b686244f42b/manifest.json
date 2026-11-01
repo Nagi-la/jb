@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:57:19.964719+00:00",
+  "client": "Mihomo",
+  "rule": "KingSmith",
+  "rule_updated_at": "2026-07-26T06:25:43.397543+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KingSmith_classical_36fe24eb1e697c63.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46135e4a68037718e71da7f225c30b1bd211701b1a1f4c2b887c20acc135443a",
+        "bytes_sha256": "0fb23425b3f80fd86661f055890128502ae172476af9d44155f54ce3409e5394",
+        "semantic_sha256": "0e7a54cfb81bc61f3aa57e194eafc5e3e9eee80f5a4ce37f9dec6fe2225b3d33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KingSmith_domain_74a81745cb481b89.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9e49a90e952f47d72c3d93ad74bab8503bf581d7724d6681fa83550555eb484e",
+        "bytes_sha256": "51946cd5acd1fb1852c094f9db0428ce593c540124c34a2d79cb85e98af4598c",
+        "semantic_sha256": "492f10d726bf5b1e0e3ceedf5b10b9ee953aa683e36a6553f8feb4a59aac5b57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KingSmith_domain-mrs_93fbd2ad990080da.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "21b14c89a40dbd652395f9491fd36d796dce192471dac8662704e3a83037d79a",
+        "bytes_sha256": "26ed73e6dab695c0a1a65d03f4f961d0159533436060cb02cdaa54d353382399",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KingSmith.list"
+  ]
+}

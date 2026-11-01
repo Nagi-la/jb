@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:00:30.757258+00:00",
+  "client": "Mihomo",
+  "rule": "EncoreTVB",
+  "rule_updated_at": "2026-07-26T06:21:43.521197+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1,
+    "DOMAIN": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EncoreTVB_classical_dcf4f284f7d6c1d3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89a4e5f912e586b8675808fad81daca2055bb705f7d227165417c0f5703ad36a",
+        "bytes_sha256": "c739b18b2adb5f0e8bfc95b92f2b0f94a1a3007e06578dd01403b4375c4a3087",
+        "semantic_sha256": "b2b7877f9283570ec480b70a2e12cb1bc6ed4823a67f91255ccd7915b14818ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EncoreTVB_domain_ee9dded455206f5a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40725f74f8e39dccafd20b1477bac1084aa7fff4dff2a0c1f5b60d9fdfb40fd9",
+        "bytes_sha256": "f7a02c2a865db07d876c2bee77749c4c612642a2b67dd28e40235db0705b2e24",
+        "semantic_sha256": "d9fae1a37428e3e7b73b399cd6c22e7ad91230bb236754ae8846f7a6fb754919",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/EncoreTVB_domain-mrs_beea2cb78dbb472a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a1bb20fe436357de3df9ce581a788717e5ef0784fc1578ed69be4fa8fdc0bfab",
+        "bytes_sha256": "4f7199f52793746ba809d834fbc3a640035e2bdfd0bd28e98b06f936bf289a65",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/EncoreTVB.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:33.171022+00:00",
+  "client": "Surge",
+  "rule": "Udemy",
+  "rule_updated_at": "2026-07-26T08:22:42.785533+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Udemy_rules_a049d52a104ed1a9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b595416ce0e986e350a2a694ab8b35b9a62005c2050056678c6ecab1674f3495",
+        "bytes_sha256": "b0354a504dc043b042f285d37dce102e75247feee43f6d05e90f7c2178fc6486",
+        "semantic_sha256": "5333de68dbc02a3a1d11700590587abacb8ed7ec42f442b4fee81dab59b13f36",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Udemy_domain-set_b3adec1569be5bf9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d980afde416420812c351a50f82b8ff7ae67db142c63b667d32d6a641b103b79",
+        "bytes_sha256": "ae086e95f11b967efa9470c782d02c2a83feee9983af134f453002d9efbf67e6",
+        "semantic_sha256": "567a0d6fa1c73fdbba97eb09af07dfe3f8adb67f29162189f2428824987a1da5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

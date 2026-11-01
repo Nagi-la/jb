@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:05:47.670358+00:00",
+  "client": "Surfboard",
+  "rule": "Nintendo",
+  "rule_updated_at": "2026-07-26T06:32:29.450169+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 127
+  },
+  "total_line_count": 127,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nintendo_rules_4260b65ffee631f7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "738490e375c22c2d9b6abb85618f71b447c23ca69ac7d997a52b73fb2f3d6e58",
+        "bytes_sha256": "ad0cc9a97c2c38f687de1973b40f2cb33fa7ba4209f7d4125981a3fbbca90574",
+        "semantic_sha256": "4fa26ede19ea58394977f14884a9e9270a098b75d6493bed7d2394c113df8e95",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nintendo_domain-set_a35b008782d25640.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d0899ec21a1f1c97e3bb8fda9febb997c15141982e563ab9fb61ec18046b127",
+        "bytes_sha256": "ac8fbd443e2f14cdb32be66e83b4e9fd5817320c902627e63f4a1e1540f221d6",
+        "semantic_sha256": "6be41fc8a97cbe12b20c598cd4f5c8a91e10eb4c68df1dc5d397bc4493ffdd0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Nintendo.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Nintendo.list"
+  ]
+}

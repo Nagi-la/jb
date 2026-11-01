@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:40.144074+00:00",
+  "client": "SingBox",
+  "rule": "AliPay",
+  "rule_updated_at": "2026-07-26T06:47:04.026385+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AliPay_source_7f29ec29bfaddf33.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1544f8f4587e12b45523f190555af96b482039cb5eb8b58d431b334c0cdb8c86",
+        "bytes_sha256": "2990a6fc7e91ae3e2fafa705f7ce4d54a21a3b573834c295a71ea323f91bcf78",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AliPay_source-srs_193c277ec3139cc2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b11d45b06596ed8ca46d1d3b74c2cb150bd7573fc1095dc8f059d93227c28146",
+        "bytes_sha256": "2ef37a0defaf081c068849681577cb978ffeee0e1a5c225fa0d0e026f1081c70",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AliPay.list"
+  ]
+}

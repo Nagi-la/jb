@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:14.444724+00:00",
+  "client": "SingBox",
+  "rule": "8btc",
+  "rule_updated_at": "2026-07-26T06:58:09.052457+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/8btc_source_8385320dc05df588.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eaa508ccf18201abbc6a392a23b7f41278fa1985d4354a205fac71fd52ecb426",
+        "bytes_sha256": "3c212ed05da0612a7d685bee192a2a7843254ad5af1dc75a8bc1f7f21bc18ffa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/8btc_source-srs_81389b25a090df50.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4e50dea776ba015aa7e4a802c9b507ec8ca65056daaa2a2f19390e4a7e1017f2",
+        "bytes_sha256": "476c47d33eafbbca0830c462909674f7238513b73d7cb3ffe638bc8472542765",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/8btc.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:56.350863+00:00",
+  "client": "SingBox",
+  "rule": "YYeTs",
+  "rule_updated_at": "2026-07-26T06:29:39.995765+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/YYeTs_source_c87c4279b0aa785d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "77c9df31b7bc6101bc61909ca53b265368c60726036ee3e1e3403f84e1a0e254",
+        "bytes_sha256": "c22aa31d491c53b2b074a0de2faf1fad6555b5224cc5ec6335290553689d0f8b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/YYeTs_source-srs_0baa165b0ccb96c8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "45fccdabb6dfe33c2203e7afe1ae013f8685309340d33edde4b9d66d47415a6d",
+        "bytes_sha256": "3f86cb05be94838ec7ed3d2ccfd572dacd778f4aa189eff1df4e77803f0795b4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YYeTs.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YYeTs.list"
+  ]
+}

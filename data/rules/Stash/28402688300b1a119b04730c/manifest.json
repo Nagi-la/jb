@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:50.137687+00:00",
+  "client": "Stash",
+  "rule": "Intercom",
+  "rule_updated_at": "2026-07-26T06:56:31.904931+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Intercom_classical_190219e0f2a92508.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7ae4d8d97e8193f4481e54de7db34fda0b1ed3b3ea070c4e36b178eee9041418",
+        "bytes_sha256": "3a78da5fd0f342d9992a2d0816eb0fd6b8803741fee83edb77298d6fa6fea1bb",
+        "semantic_sha256": "43ac373c321f0e901cb0119165becedcec0a0a6b15c1ff35154f4fb466f73df0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Intercom_domain_7b953738e1e2c98c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de910e7faaf08115ce575f109cfafddd7c97d4ff37da38f5d56c044dbc588852",
+        "bytes_sha256": "34fa45e2614d3b355ec2ce605ec8f9cce060f630f26eeb6a47b3bebab37d0b36",
+        "semantic_sha256": "3a6f8cabc3e762072e4d779663f0c8c1b948c4b5f8e9cebb6acfc5e0b730b2aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intercom.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intercom.list"
+  ]
+}

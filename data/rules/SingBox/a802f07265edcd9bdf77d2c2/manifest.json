@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-16T15:33:20.564122+00:00",
+  "client": "SingBox",
+  "rule": "Sony",
+  "rule_updated_at": "2026-10-16T15:21:15.868459+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 127
+  },
+  "total_line_count": 128,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Sony_source_e92696521959f77f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "816109a01422e0081900655d0452f2a176dc391d0742aac7fac46ff3e7ada687",
+        "bytes_sha256": "3f3c6888fe1249efe7104788326c6caefed8d2a32ce27169077c28f14a878dbd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Sony_source-srs_3865b71ec57c1063.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0a250ca1df21143977e26f27a1d8379be9289c46821d002bc603ba8035a45aa1",
+        "bytes_sha256": "0e9ccc8599c107737e8056cad872bac9f3063147df8de2902b61cea586befdfd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sony.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sony.list"
+  ]
+}

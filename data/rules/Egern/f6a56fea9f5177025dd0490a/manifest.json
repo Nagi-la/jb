@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:12:11.350592+00:00",
+  "client": "Egern",
+  "rule": "JOOX",
+  "rule_updated_at": "2026-07-26T06:22:11.011905+00:00",
+  "type_counts": {
+    "domain_keyword_set": 1,
+    "domain_suffix_set": 1,
+    "user_agent_set": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JOOX_rules_9054095f13fb8376.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6c6961c23866fb958de70adfab4f62c7a428f3874cd76da0386c41d996c6db8",
+        "bytes_sha256": "e6fb71cb531923f9ec793bb697cdc1245b6db8ed36d7ed1c896ebae80d520851",
+        "semantic_sha256": "acd0faed217971640786be070c2606865b0e3a18b82d7881e59617bd72eec7a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JOOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/JOOX.list"
+  ]
+}

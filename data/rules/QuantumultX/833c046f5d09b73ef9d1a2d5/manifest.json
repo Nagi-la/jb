@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:56:13.673861+00:00",
+  "client": "QuantumultX",
+  "rule": "Acer",
+  "rule_updated_at": "2026-07-26T06:30:27.341242+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Acer_rules_9b77055edb7686aa.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc23f1a027becef59ae557bee9fb2960f11286849db4849f68325b97e208834a",
+        "bytes_sha256": "707a5bf323ac802d65c2a8a173a7e1de34500aa854abe7da22770350b81cdbb1",
+        "semantic_sha256": "1a1e0fce6480e0c383e4023dcf998983b1ba51fdfa125846f9030a2fc56ef937",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Acer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Acer.list"
+  ]
+}

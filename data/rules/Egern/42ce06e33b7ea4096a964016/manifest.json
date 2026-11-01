@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:27.321388+00:00",
+  "client": "Egern",
+  "rule": "LivePerson",
+  "rule_updated_at": "2026-07-26T06:51:13.948011+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LivePerson_rules_f9b26257bdb9d862.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6d0178834344a6e06929b15479c2d3b51c7c5589b9262d2f4c26b6a678ced12",
+        "bytes_sha256": "1edb8c13db2893d7030366b5381158968b35867e6ac167657c930f8bb9aa3098",
+        "semantic_sha256": "58884354b180dbd9e9d19458e1b0617ad6bdee401fbf0386c8f0213e0cf4c064",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LivePerson.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LivePerson.list"
+  ]
+}

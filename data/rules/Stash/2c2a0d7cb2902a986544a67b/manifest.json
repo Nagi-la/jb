@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:16.365185+00:00",
+  "client": "Stash",
+  "rule": "51Job",
+  "rule_updated_at": "2026-07-26T06:46:33.604525+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/51Job_classical_3381d957def2c90f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "933298069dd25fe5c6a063c4c2be83b9aa6e52a6676c155fde83c9e0eb9c9d18",
+        "bytes_sha256": "87ad889b3ac6975e25e711f52eaa1db583541b211cd795f0c8544ee8dcd6f4fb",
+        "semantic_sha256": "d492dab322c624ee84b9752d302a1f20cbec339e13def60c3431b5fe11fb359b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/51Job_domain_5b11c75a5e0928e3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ef65b9ee9746a19dc5258077b70f94f0b4094aebfe8d2c846cbbeae980e8df0",
+        "bytes_sha256": "59efee8000c37f6769c49a7c6a4e46410001050fd91097494bee08a88f782c2a",
+        "semantic_sha256": "d6a4c83018a12703add57ff853c2f53cdbf9bce493a28c77af6137781389522e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/51Job.list"
+  ]
+}

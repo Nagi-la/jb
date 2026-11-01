@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T01:57:51.216108+00:00",
+  "client": "Egern",
+  "rule": "GoogleFCM",
+  "rule_updated_at": "2026-07-26T07:00:05.310398+00:00",
+  "type_counts": {
+    "domain_set": 24,
+    "ip_cidr_set": 26
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleFCM_rules_8520458090093dc1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13861a332618b4c213cf207a0a04759d3e1e8e909ed87a178f12dae25e999990",
+        "bytes_sha256": "11d80b85ef26e43ec3130e52126b6c604f13d8f9a69a0e11e1d5f19dc0a8ce7a",
+        "semantic_sha256": "066ed484172a6872819fcfcd5d53333ae36bfefcd122613f2e4fb806e76f5b04",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Google%20FCM.yaml"
+  ]
+}

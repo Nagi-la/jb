@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:12.017293+00:00",
+  "client": "Surge",
+  "rule": "Airbnb",
+  "rule_updated_at": "2026-07-26T08:29:49.892456+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Airbnb_rules_71c13a213a1d3498.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7f3e4ae067c2a7049079f4789bae19acdaa3d340c2c5a65006caa01e0525d1f",
+        "bytes_sha256": "c0a96b2e22e7e5d4345f0ecc1aba030e9754947b9fc08df00e3d6529dc893d0f",
+        "semantic_sha256": "8edee093975794af7ccfec735b63353f1df1cdfde4ab00bd418089650797d974",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Airbnb_domain-set_4985a7dbf7dcc395.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f72dc3d3b580ff31e94feb5c74a2b76a2c9c51abcb685fb6f4d8898414fce68",
+        "bytes_sha256": "0992901bcdf5e6e4e4d1c2d5347971158c23159a6af882727207ede7e192f7ce",
+        "semantic_sha256": "c37f92bbda6b7ea2b22fb3e5767fbf577f3eeef103c8772ffb011f688e9f8df2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

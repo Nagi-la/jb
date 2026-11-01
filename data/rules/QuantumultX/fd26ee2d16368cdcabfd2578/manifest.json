@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:08:52.023917+00:00",
+  "client": "QuantumultX",
+  "rule": "Bitwarden",
+  "rule_updated_at": "2026-07-26T08:29:42.673303+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bitwarden_rules_e75349d96c5e146c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c9e4f22db9328811eb0cc8dbeb354dd67b1a458c9e6374bc465dbb8d6e3e71d",
+        "bytes_sha256": "3dcbb29d5958b51f495e566f03f14b22aaefbba44d6b698e2c50dd193a9301f8",
+        "semantic_sha256": "6cc8f6cc8c81db579c4c70f07eb85ed8d779420172df98d12690842f574b9cf3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

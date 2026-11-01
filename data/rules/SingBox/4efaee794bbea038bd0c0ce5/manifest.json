@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:26.687149+00:00",
+  "client": "SingBox",
+  "rule": "Trae",
+  "rule_updated_at": "2026-07-26T08:34:46.082581+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Trae_source_2e31907356514aee.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0465b59e44da3c9c5589a227761abe0efce100ec9160f169c4784a80695bb665",
+        "bytes_sha256": "4bd53c3c9df2f2b1e0cd71282ba8ad35e4313f33187b85c8b29fa4823b93931c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Trae_source-srs_2cc3c10235f0d25c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6dfab678f58c3cdf09ad77343291e541971fa77e02d462cfb8f3e8cd8416e53b",
+        "bytes_sha256": "fb8130b1f804998dad9f2f5f8208f9e40a78a10288b3034a3a1b9c9e92ac7c7b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

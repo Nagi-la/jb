@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:18:59.139214+00:00",
+  "client": "Stash",
+  "rule": "Spark",
+  "rule_updated_at": "2026-07-26T06:38:06.584718+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spark_classical_1dca3054a5e0872d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "755ec5af0691b216d3bf7344cb112f8bc3e1263ddfaac9167c2701c5dce84577",
+        "bytes_sha256": "5b614b20b76d5e3454a5487511dd0c679c1be50858775a3bae03bc572c2ed263",
+        "semantic_sha256": "b3a303e1ea08f5aff26239748e4ecf474b302cd05917e1e527d854ad904981c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spark_domain_0e4ddf59e18547d4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bbb02fd1c71d494e3d0178f9e58b8110d710ab0b60134a0c2d947da61b31645c",
+        "bytes_sha256": "9feb71e01ff555759f7012c6f3a0ba72baaad82569a4ed8039a64a0203bb14f9",
+        "semantic_sha256": "6e0b72a6a0b1bac54c16228061730144c328c39e597acd1b585c57511f481a62",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spark.list"
+  ]
+}

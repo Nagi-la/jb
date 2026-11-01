@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:11.492920+00:00",
+  "client": "SingBox",
+  "rule": "DanDanZan",
+  "rule_updated_at": "2026-07-26T06:24:18.308993+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DanDanZan_source_b10d319082bd9717.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f86cdd99c219db9a4c25f8688e8e6ddc96fde23c993f2971b58d085e8da2da0",
+        "bytes_sha256": "1410aec9a18cb9857490ba372c00bb9b789eb4acb4261d6249c2e6473e29287f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DanDanZan_source-srs_b1428ab2bfc7b985.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b1c69544904263bdad8f3220c86e1c6ccf2c900a1492aec4306e50ed7fa6653d",
+        "bytes_sha256": "6660dbe42b24a0f5c22d6ae796daf2b114cc549533d806410342350fd42d155a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DanDanZan.list"
+  ]
+}

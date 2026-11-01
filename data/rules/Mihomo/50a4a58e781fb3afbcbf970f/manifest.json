@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:06:01.922704+00:00",
+  "client": "Mihomo",
+  "rule": "Bootcss",
+  "rule_updated_at": "2026-07-26T06:48:15.988862+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bootcss_classical_e936e9b76e0b06a6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1c18437ced3d0b1adbb821539385e0423c0d6fa43db36d80fd8dae704e8d9e6",
+        "bytes_sha256": "f2da4e6f1757a64d570451f0fe03912aa77c75f6338fdc7c44b168a59a35f50d",
+        "semantic_sha256": "e229706472b98c4c5999f4e22a05675afef597514bdef8038c067a16ba552b0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bootcss_domain_dcf323b4d86de19d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "41173fd9eaae88790961af47b79c9e3f23cde23d6e98915eca60913a7bcee706",
+        "bytes_sha256": "5ed21c327808952106d849ff563ed8830ea01d8015b6bb3a6493e8a13e7cffc2",
+        "semantic_sha256": "86bc7caa04af94a93cf363e51d584e03822a88600e401ddb5f94942ea33ba178",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Bootcss_domain-mrs_b4f38db87f449a65.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72a52164c813fca497dcb4f085f7728322c743b1f281c1c7aca9adfe4b84ac60",
+        "bytes_sha256": "2c9bef59e1bc252e506c7804b7906967d1c541c4fa21cc01a0d779645373510f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Bootcss.list"
+  ]
+}

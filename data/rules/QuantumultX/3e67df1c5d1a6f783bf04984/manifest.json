@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:03:58.317930+00:00",
+  "client": "QuantumultX",
+  "rule": "TencentLoLMobile",
+  "rule_updated_at": "2026-07-26T07:16:31.467370+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentLoLMobile_rules_e2b8c8dfc5f39efe.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a9919dc7f96bb921f0b86f78aa8b9c87cbe6439eb62176caf5cb4be4a3d75cf",
+        "bytes_sha256": "9ce1abbd485ae2e03ec9c149b06f750833ae19cc9396127347f25f59bcbf3b32",
+        "semantic_sha256": "177d93cd63f640d18d62523a59a30fe7f7ef316df089e8ce87d79e8590c4903b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentLolm.list"
+  ]
+}

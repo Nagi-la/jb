@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-09-07T01:37:05.242277+00:00",
+  "client": "SingBox",
+  "rule": "LastFM",
+  "rule_updated_at": "2026-09-07T01:36:09.858979+00:00",
+  "type_counts": {
+    "domain": 5,
+    "domain_suffix": 29
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LastFM_source_020f7b11721bdc7e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0da8066b24f3b646b1ff2df4f653d889403f290ac8354176b80727b45981f845",
+        "bytes_sha256": "0671ee850065afa83026d96f51cd101b026caef10a69ebf45cb01c4088cbc193",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LastFM_source-srs_e297e6d9d7d81c2e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "109891300327a49506634bdb758829a4ed0c8fc1adf95149b985d8ae2ea069c0",
+        "bytes_sha256": "0ef08fcdf8d4a56b2d45db4456ef4071a8d1c3d30414ae6f77379b867de41850",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LastFM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LastFM.list"
+  ]
+}

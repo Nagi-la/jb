@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-08-27T02:00:08.560761+00:00",
+  "client": "Mihomo",
+  "rule": "TencentCloud",
+  "rule_updated_at": "2026-07-26T07:10:44.348397+00:00",
+  "type_counts": {
+    "IP-CIDR6": 32,
+    "DOMAIN-SUFFIX": 355,
+    "IP-CIDR": 2326
+  },
+  "total_line_count": 2713,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentCloud_classical_159802604d6322a2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57a2684a1e5af83d75756e313bb0cca416c5830f6a6b4f14cc59a5af89f1ad6d",
+        "bytes_sha256": "7512ac7c6bc5405006a182d0aef3f4b1fa9e6d59e2f8b707783712962f76c837",
+        "semantic_sha256": "3cf0a303fc79c4bfde340023cb2ed40b922e7cea326deb8c4766e1ec4876d135",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentCloud_domain_bf3fe5a4bbbdd39c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c3d977f0ebdb0ea1a71914b36bc5e921b13b38424a146104a795c572fe83e0a",
+        "bytes_sha256": "97f182975f89cf024ea0aa84fa8fd934e54521db20d527a963bbebb2391872e3",
+        "semantic_sha256": "55f83e32ac1efdc8476f5e368c9766d45a73f9a98d2f8732af48af4124fd24ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TencentCloud_domain-mrs_03a8b3cf02024412.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5b90533b3c590dd8d3f08844a651e9255f1d01c67da188c2e9c47260d900ab6f",
+        "bytes_sha256": "d0f872ca2a3805ccb643592e88d80fd2f51323c07feb90297cc5a4f58fda876b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentCloud_ipcidr_48a1ed25dea2238a.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "525ca111abeb95636407a216687751df107965960dd55d9a7e24b175007068cf",
+        "bytes_sha256": "4d9045c299e0f9913ae5c51bd34def19ad66eb7354f4e3dc5f58d887094f080a",
+        "semantic_sha256": "a56a49acd624d06cdf76e853d279a3a3b4164dfefa37004650529efb373fe7e2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TencentCloud_ipcidr-mrs_6b0fb66cb4746cfb.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bc62d703c05d799183c8ce4b417d8dd284ddd8475bc18dd8cc56dba09a6151b4",
+        "bytes_sha256": "7ee13942d77fead2cdead507ef1ec9547c604cebbbb0cc974506e12e0eb4e985",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/TencentCCC.list"
+  ]
+}

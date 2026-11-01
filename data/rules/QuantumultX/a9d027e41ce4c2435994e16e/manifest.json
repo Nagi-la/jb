@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:07:16.478579+00:00",
+  "client": "QuantumultX",
+  "rule": "Keep",
+  "rule_updated_at": "2026-07-26T06:25:42.578740+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Keep_rules_f3923792ecd1fe22.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d26933e2c06c2bc4fe763a4ab7ed979b8744cabdd19cdf971fa8db10acfb833a",
+        "bytes_sha256": "657d035ccdfb6a93f6830e8ffd24aeee0e2f91afe6accb41fcfba10fca249309",
+        "semantic_sha256": "f03a92bc7d1b0808505e69487c9543c95b438aabcfcf3aa65daf8e1be21aa71a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Keep.list"
+  ]
+}

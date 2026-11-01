@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:02:10.377381+00:00",
+  "client": "QuantumultX",
+  "rule": "VISA",
+  "rule_updated_at": "2026-07-26T06:54:44.674701+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 160
+  },
+  "total_line_count": 160,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VISA_rules_08e1580a48f27365.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d70701ded95e5ae65ba8aa742b33f113a465b275d68c5c7f802ad3c1d4d957e",
+        "bytes_sha256": "fcda87b463da62ef97df8cb1b903c7afbbfc2f8b1650e19b8f2576daa2218d4b",
+        "semantic_sha256": "33b0e468589e41e0c35fa0bb55f7c6754a0d906b27118ee6d80e7a4f7dbd6a0f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/VISA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/VISA.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:44.185943+00:00",
+  "client": "Surfboard",
+  "rule": "Teambition",
+  "rule_updated_at": "2026-07-26T06:28:25.735271+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Teambition_rules_62be72eac39acff1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d04dab1d438f8a3611de7416b1572cb1f830a504e92bdcfc51b48e6250ecb3c",
+        "bytes_sha256": "b0b4cf28255f8477db5e6b17ba5af9e33a601679baf8a1e8c1b5b0d75f629a1f",
+        "semantic_sha256": "cf075b34d258beeba4b80ba5deb36221b792ee1b972ba6b980800a7997de72ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Teambition_domain-set_ac3155ee1d75dfff.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23c0978209c41e42641fec142817a8ef24cdcd23a77e9f4b3993547210fa59b0",
+        "bytes_sha256": "bc64cb5a3ced6a3dabfacf34e640be2b1afa79b9cd6a121f6ee05c5352f51d17",
+        "semantic_sha256": "c180f0b3e46d2eb767ca6cb638353899b42dd02e47a4503ceb9f2668f9967a2f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Teambition.list"
+  ]
+}

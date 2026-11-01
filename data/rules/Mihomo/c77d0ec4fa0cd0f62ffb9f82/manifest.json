@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:12:15.532439+00:00",
+  "client": "Mihomo",
+  "rule": "Huawei",
+  "rule_updated_at": "2026-07-26T06:43:32.103168+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 402
+  },
+  "total_line_count": 402,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Huawei_classical_5fc689c5041b9ac6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a89eef254987ad6e1eb567ce0cdda3d92f415b0aa17b19d346f4e260426bdae",
+        "bytes_sha256": "62feb6987f51fdaeca14a21f0337a44cd4cf6cc6d9081952adb40e6634a93e05",
+        "semantic_sha256": "4839737b574d4ca081b34a02a0e0fa196045c505b6f08f99b06c439ea9ec4108",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Huawei_domain_a3f0addb7643a501.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6582250cf1f5b335ec1282f3bdc41d0ecd472ae383a8c72e1798ac12c8599a75",
+        "bytes_sha256": "4302c1967887ecc661ed4329015a00e74e78433062d3f47a443edd3b6390eda3",
+        "semantic_sha256": "74df933231af8903fb524ad0bc23d9609555ff79b86c7e1facbfcf8416eee544",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Huawei_domain-mrs_56428a6f71110210.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "03051c819949012bf0db87a8be4fad76aead703842b71e49d49d4eac0260d4e1",
+        "bytes_sha256": "ac731fc6b89c67c38fc6ab4ca4efbf3617852fbc1d0acc47e1031c7ae4d024db",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuaWei.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaWei.list"
+  ]
+}

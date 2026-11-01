@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:00.400459+00:00",
+  "client": "Stash",
+  "rule": "TencentTME",
+  "rule_updated_at": "2026-07-26T08:21:42.863924+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentTME_classical_8b696fb84b677b14.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2ffa06c9b97737c5fc109e432f8ec0f109c0a1d2c869f7ca8d2fed8377534daa",
+        "bytes_sha256": "03882ebcf4357c132d6fff2036e2f5c050cadd6436f83a683a2fe41912618c7b",
+        "semantic_sha256": "bb8a3873b2dbb5b349422c3718934a8cb4c07a8fee189054bca7867af8961ecc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentTME_domain_2f770c387cdc427f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79cd84cc9fb4df2d3c4dc939365ffcafeb38a79563d1369a2799c608610a57fa",
+        "bytes_sha256": "89b9cc670ead35530a5a8ad99650900e74ce3c18b78d9864318dab09dfc1a0bb",
+        "semantic_sha256": "1e2740560afc1d43d15e9395b9daa086180e78c60d04e03f4e2e9b61917536c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

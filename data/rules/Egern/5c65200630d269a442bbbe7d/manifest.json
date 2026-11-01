@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:04:18.060263+00:00",
+  "client": "Egern",
+  "rule": "WeiPhone",
+  "rule_updated_at": "2026-07-26T08:34:52.624288+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeiPhone_rules_1baa70bb6a5769a2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf3381d5deca932866c1eb590290cf6c86180e858f94c284d6571f522a09dbce",
+        "bytes_sha256": "f8d0e94e90a66b760b05478287685a9cb673b2d58ff6550ed7db7aa515386e70",
+        "semantic_sha256": "bf7fecab5e9c4d3ad9cdd1ffbd3be00fbe349e12ccd4eab2d33bfee5f6e16707",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

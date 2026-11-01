@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:18.566533+00:00",
+  "client": "Surfboard",
+  "rule": "HKedcity",
+  "rule_updated_at": "2026-07-26T06:29:26.831405+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HKedcity_rules_4bd625603a914081.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bcabbe8843c310ccf1da93072c23be6cb39a37c473e4d7fcedd04e48f3203e21",
+        "bytes_sha256": "ac97d0a70ad2c05c94147913692b28e5448147b37848b562fe21dfa6d06604dc",
+        "semantic_sha256": "980b36cf80e326ea8bf9daf85712d97b8af7920bde20a981529998ca4d4645a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HKedcity_domain-set_294338d4a4e34aa1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6754543308a5a5f9cabdaede16d6a2fda537f5bcce52e58bb047c96eab60afdb",
+        "bytes_sha256": "59b68da674a111351948d097b6556a50051ed35e8d86d687201238168076a332",
+        "semantic_sha256": "91608e90da4606753e08c839d2a89e4e37a1b8bdf6626f07449427419f348ccb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HKedcity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HKedcity.list"
+  ]
+}

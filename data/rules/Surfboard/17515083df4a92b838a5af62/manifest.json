@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:10:39.740332+00:00",
+  "client": "Surfboard",
+  "rule": "TVB",
+  "rule_updated_at": "2026-08-07T02:23:10.591497+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TVB_rules_ea16fd291e351ea8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2bea4fb001b5aafaeb5cf55c0316bdf3ffbbd509eb24fa75157e3ee88980a07",
+        "bytes_sha256": "44a638fec6d9110ebec1a53dfb53def25be312fb8983bda5fe53d08930971d34",
+        "semantic_sha256": "c0b888ead51e9566750d7d4a4220f862a83f483ad918e4a17b703c2a32d6f8fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TVB_domain-set_c6279cc691f54f46.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f7b20374dbb7ef903494e658167308f25b02501cbdcbcd136229ae2a444a27c",
+        "bytes_sha256": "de34c78ce632d3eb1cd3623e4b45d53c5fcda8bff4bccdf47a306a7c9935ac02",
+        "semantic_sha256": "ab89b3897d99876327cfab13479bc776902888ec133d54f8d5f76a4945123fba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVB.list"
+  ]
+}

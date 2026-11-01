@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:36.999816+00:00",
+  "client": "Shadowrocket",
+  "rule": "DigitalOcean",
+  "rule_updated_at": "2026-07-26T07:16:51.321145+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DigitalOcean_rules_a8a89d8ead8645bb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9114e7fbe59f87be58d8061f8273217d8c94a4e096fbbc54727f7a2d63cc9e62",
+        "bytes_sha256": "9ed06915ed5707ca421c71325875c8c47d0c020706a4aa784832b04ac61d9226",
+        "semantic_sha256": "e212a0d58d95acf0be24a7ba954c34cd7cd6112594ec85a652be11c99527d6c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DigitalOcean_domain-set_d9a95d1e68454da8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f1b561fc71c621381bafcfda8e6d2250544b7ef460db59b7ef8db04a1cd96db3",
+        "bytes_sha256": "e991681f1df5adc097c01525e9c2fbb03136fab067854ef22d7ce91f3f21beca",
+        "semantic_sha256": "f7c242acccc58e1d01c0539ebcabb9f0b51d16f0886bc82f748d1ed06693aec4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigitalOcean.yaml"
+  ]
+}

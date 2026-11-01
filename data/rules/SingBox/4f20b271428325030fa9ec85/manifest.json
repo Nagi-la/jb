@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:34.793724+00:00",
+  "client": "SingBox",
+  "rule": "Uber",
+  "rule_updated_at": "2026-07-26T08:34:43.109252+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Uber_source_8f58cbe6af7bce1f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d218a6d46c48c88bf83aca3f7b1bca3ab4e7a3c078fdf23439ad8a1a36a7860f",
+        "bytes_sha256": "b84b8ec174cd128c44820a5fd206d07c714f39e4717d025bf6ad9ff8e15e2d18",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Uber_source-srs_89408cd1820d86f7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1eda2ac6ffa985f0f4450df3cb92987ccae18073511ba6b56d248ef048e1f58b",
+        "bytes_sha256": "c0127a054fc5381d5a522ab46357e1a21e5c20020b0714b3f5d0475485b937df",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-29T03:10:38.254740+00:00",
+  "client": "QuantumultX",
+  "rule": "Steam",
+  "rule_updated_at": "2026-10-29T02:37:35.705562+00:00",
+  "type_counts": {
+    "HOST": 18,
+    "HOST-KEYWORD": 3,
+    "HOST-SUFFIX": 64,
+    "IP-CIDR": 12
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Steam_rules_d54f7e99b6c857d2.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b48de353a00f05b72337512123d55243ab0a53a0619bb12a6546734eeaee3a2",
+        "bytes_sha256": "c8475f623f87621ae4e2e413916343b2fb87ac67ba8c9f9024596eb4abfe6ea3",
+        "semantic_sha256": "103742bb7edbb98778c8f627bd4a94a5e6dca1b6a1cfde4afa90de3c8f611381",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml"
+  ]
+}

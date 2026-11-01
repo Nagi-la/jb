@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-30T01:44:41.648507+00:00",
+  "client": "SingBox",
+  "rule": "AdvertisingLite",
+  "rule_updated_at": "2026-10-30T01:40:33.581850+00:00",
+  "type_counts": {
+    "domain_keyword": 164,
+    "ip_cidr": 234,
+    "domain": 26892,
+    "domain_suffix": 158888
+  },
+  "total_line_count": 186178,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AdvertisingLite_source_f6cdf2d67cf991e8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f65366e2faa517b1d110237ea03303aec12604c67271015bcead59a08f29b181",
+        "bytes_sha256": "ffa5495e75dbaade392117f5276649b9cf4676e951a6993f3a627ade57bb1067",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AdvertisingLite_source-srs_e7d992aa1f4d2dcd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5b4d330d441630b3aa4deb989d43d5d08e1655f89c3ab3ae3a9ebf82201cd775",
+        "bytes_sha256": "4a82723760976ecd4bf1410cb7fd01b5b40015ee53e74d13a815ae47c430e060",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+    "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list",
+    "https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

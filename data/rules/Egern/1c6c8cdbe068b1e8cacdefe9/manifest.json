@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:36.068365+00:00",
+  "client": "Egern",
+  "rule": "DigitalOcean",
+  "rule_updated_at": "2026-07-26T07:16:51.455132+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DigitalOcean_rules_127c997be53ab085.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9308c98888f5fd7d927b2d3c0c335d934ed39264bd4c13dbad5507dd4e82923",
+        "bytes_sha256": "79f3fb9fb11852e48497da1f886b718a689610bb8000ca1f22b4f1aaefa35183",
+        "semantic_sha256": "a2d5961a18e1bcae7f8e1596427162ee556d8841dea78d28484939bb51256357",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigitalOcean.yaml"
+  ]
+}

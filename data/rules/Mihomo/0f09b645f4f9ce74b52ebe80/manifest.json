@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:10:35.404390+00:00",
+  "client": "Mihomo",
+  "rule": "TapTap",
+  "rule_updated_at": "2026-07-26T07:16:27.333801+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TapTap_classical_ef85d3b6c1c7e79a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bbb672ef0880b5c209b4991f0823538b47de9b5044e552c4d72e7fa17a54565a",
+        "bytes_sha256": "26c6d7e03d4d932d98e7b256214afdfcd02672d8993c4bc85e7e6a931a8cc27e",
+        "semantic_sha256": "c78ed090e39ff278445f40aa33ce2c3afd2380363b4001059f8bbc1444bf7f19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TapTap_domain_366910bbb8666fd4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52f77b7b001c38490ef70440a5347aa62052209bfb1faecf27df0fca17c8af84",
+        "bytes_sha256": "4aed0679dba7b24cae0470964418be7e11a220e9f69aafd36befcc3ff4cd4d6e",
+        "semantic_sha256": "c64ac7b108fbf900b68ac75e1f21e2666e1d3094a558bd73108098cb33bd45ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TapTap_domain-mrs_7fcbf0e070959963.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "69b871da6b5cdebd5c8d5b6c706b3f2efb5b5d02ac2c52ade827fd70a1e2a3aa",
+        "bytes_sha256": "f52e455ef0d436378d1fc61d0955e8b0b8c2a1f710a8db1b0623856e9e0c95e4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list"
+  ]
+}

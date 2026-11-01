@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-10-29T03:31:55.086394+00:00",
+  "client": "Surfboard",
+  "rule": "Google",
+  "rule_updated_at": "2026-10-29T03:07:14.601983+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 934,
+    "DOMAIN-KEYWORD": 6,
+    "IP-CIDR": 2,
+    "PROCESS-NAME": 5,
+    "DOMAIN": 241
+  },
+  "total_line_count": 1188,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Google_rules_0804a8c31c599a1e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8fc1a55b63cd745e56e3ee4444b486d78c27cd47a0158b2063f4e3cb36b67621",
+        "bytes_sha256": "ce1510f56d545565b4fb7b60ed4c29f07ddd4171aa3c8cba785fbf6589e9d4a7",
+        "semantic_sha256": "ff3b92d08af81833d37774fc44e29b6dbfd00b137d32d05be48643de48dfe1f4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Google_domain-set_db8a3b429bbb3398.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce6079ec8e0c9fa9af81ad7fb2a1522156859dbe64e307c7c4a903cc93e534f9",
+        "bytes_sha256": "51bd72f81e7b355f4e3b1d6c549c2e6fb66b4b285a510a797a2653fedc0e1b60",
+        "semantic_sha256": "039dc952de39f18326827709b620575c8ce52ca88b5a90be1f24274a4e09cd6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Google_rule-set_071cb6b4c228b0c4.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d86f2691d8748740b9d2154497cf2a09221e1ea3b6fa0003da0572127172ea66",
+        "bytes_sha256": "406a874cb5bca73daa7852bfddc0e662b11fcfedf78d3688bda6f6420abc5642",
+        "semantic_sha256": "50b3a7e4292a964dcbd9e7b1e0a036de9f6ea18a2dc8fad897423ed37ad6c314",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "不含有Youtube分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Google.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list"
+  ]
+}

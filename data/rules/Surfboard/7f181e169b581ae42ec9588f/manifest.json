@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:05:07.747551+00:00",
+  "client": "Surfboard",
+  "rule": "Bloomberg",
+  "rule_updated_at": "2026-07-26T06:31:01.950922+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 61
+  },
+  "total_line_count": 61,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bloomberg_rules_c29e17f6880bf8b9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ad5e720d1570f3808da2b847f30b003da0e705e1f6b09a6f31f764cc6aa4e8f9",
+        "bytes_sha256": "ffbe0c951ea3a357aa7991cacafab154379ea75cec39851cb4f7d0211bd83c0c",
+        "semantic_sha256": "609ccfd1497dbdfc6323936e79ef26a5dea3fa299d058ea16fad5d036a05a35b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bloomberg_domain-set_67cc238553c38bb3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a3d227c097daaa256b9c30d90a2777f03adeab989fc4f3121ceab51a8fc3b0fe",
+        "bytes_sha256": "48d00af5974cb829a2fc65e01c56a0a732a0d96176efd94b8a3d8e39c57a0636",
+        "semantic_sha256": "b731583ed1ddf018baef83ad17d6c3be50cce343b10da7ffe46bad96906620cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bloomberg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bloomberg.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:28.167232+00:00",
+  "client": "Surge",
+  "rule": "Snap",
+  "rule_updated_at": "2026-08-13T23:46:02.600059+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Snap_rules_2ddd895d7799982b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "345d7ccba329960b9fe261f9c7c77a84858501c629e64146a08e5fe854549209",
+        "bytes_sha256": "fc770ad0e3eff321e34e09ec90f9cfc81c4defb9d30cb2bf799fc1c65958ad6d",
+        "semantic_sha256": "4b0e9d944a24e73a3f932df5ffcd78350ce9ffd5861a4dab7eed672ca4d8e5d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Snap_domain-set_452269dd959e3315.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "53e704c95c7e5d9d4e421266ca1569941876bb93c88889550a8a47d397a99656",
+        "bytes_sha256": "35ae21c50c832a6a24c5e457f15b83ffc2c2e75baed2d0c2d328e52710ca431e",
+        "semantic_sha256": "95cfd6d1081415f443abaecf9be33c70b6e7366fad61282105c20e974c26aa81",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Snap.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Snap.list"
+  ]
+}

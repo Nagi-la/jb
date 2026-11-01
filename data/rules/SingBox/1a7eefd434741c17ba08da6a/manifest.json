@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:20.639122+00:00",
+  "client": "SingBox",
+  "rule": "KingSmith",
+  "rule_updated_at": "2026-07-26T06:25:43.336650+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KingSmith_source_9d323e98d5daf31b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7319035f98c559990437a06a11ad464d490ad723f7396009c65bc2b720bf062d",
+        "bytes_sha256": "066d7bcc46435a9399961c59ba800eb1df7f4e51c90736496185a434789f56d8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KingSmith_source-srs_509ab1075dec7694.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f814a421598038e37a778e5c250ba5940e71098144289443fbeb1102d9bdf4ac",
+        "bytes_sha256": "397ccf974fc55bd9385cf69a1d56ebd08798c638965b75d44499cd441e3a4cc2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KingSmith.list"
+  ]
+}

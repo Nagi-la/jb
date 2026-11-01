@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:03:20.242847+00:00",
+  "client": "QuantumultX",
+  "rule": "LastPass",
+  "rule_updated_at": "2026-07-26T06:38:06.745195+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LastPass_rules_7b927b8d81a290d3.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81adc62a7da945d51134da379b1c5fcf21d4a92e734c8ccf2d612835fd94ddf1",
+        "bytes_sha256": "875cd8b1a4f8cea479ea40ca519f7b1e76e71199685a95a8973c680479bca048",
+        "semantic_sha256": "bfd44e42d7b37dca7c535631e286bc2f60ca79f764fc00f8ed9ba8b90c209350",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/tools/LastPass.list"
+  ]
+}

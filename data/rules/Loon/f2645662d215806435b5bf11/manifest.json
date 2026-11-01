@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:32.995943+00:00",
+  "client": "Loon",
+  "rule": "Qualcomm",
+  "rule_updated_at": "2026-07-26T06:53:19.574450+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 49
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Qualcomm_rules_976e079e952d5fce.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c29b29098bda25a38077f9875ecd12eda730333fe4704b5a19150cf1d0a805b",
+        "bytes_sha256": "bcfc975940c2f5fac16d5108850866f56bd3deae5038f89b99423e82a0266723",
+        "semantic_sha256": "854147b9c35c24d524feae814d4ef799b61d2c267383c435ce83342d276bf023",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Qualcomm_domain-set_6514ae869c3b00bd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48df1f9e73386c7f909ae695cbe299065e6e378053290e2442af3910ce3be9cf",
+        "bytes_sha256": "0d708afbceed3425cd1f2ab0b1bad0e403799b0c550785c8ef7312939ef89dc8",
+        "semantic_sha256": "6f1302169cc4fbbcc3ec877516a7353a980bae0b82e867b0d62548aa62bb3825",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Qualcomm.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Qualcomm.list"
+  ]
+}

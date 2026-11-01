@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:09.399709+00:00",
+  "client": "SingBox",
+  "rule": "ChangYou",
+  "rule_updated_at": "2026-07-26T08:31:41.512308+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChangYou_source_a0bc63926f622528.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9ec7ec4ec4884b351044769162a0c4ef7507a1c7c87b4fa8a4f67d9513f023fc",
+        "bytes_sha256": "3abe59d29482d4d03bfdacd339ae1523c4ff1bfa2f6cb72397539ff7bf58652d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChangYou_source-srs_1b151042d2515ba7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "48223ae45b40bdda7b061cd9f17c69cb6d22e37761cdf13abceb196cae291850",
+        "bytes_sha256": "3ac2cf8e6095a90974e6396ec241bff54660ac4a55d5b251b5e7b8bc0967436d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

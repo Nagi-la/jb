@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:58:32.072029+00:00",
+  "client": "QuantumultX",
+  "rule": "Starbucks",
+  "rule_updated_at": "2026-07-26T06:54:29.701031+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 67
+  },
+  "total_line_count": 67,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Starbucks_rules_39e7fd2154af3df7.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3546197f636358338411efd61a4047657cb91dbf404e5a950b029a72f6e9eade",
+        "bytes_sha256": "02d4581b9e98f7788454f5f3a0411df1284ee863b3830d696299eafe612bf23c",
+        "semantic_sha256": "34ef3583847e2020f71c5784f096682da45e0f50f7df68b15845fbd5dcf85637",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Starbucks.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Starbucks.list"
+  ]
+}

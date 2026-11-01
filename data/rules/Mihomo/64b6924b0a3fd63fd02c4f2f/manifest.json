@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:17:13.985609+00:00",
+  "client": "Mihomo",
+  "rule": "PChomeTW",
+  "rule_updated_at": "2026-07-26T06:57:45.921339+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PChomeTW_classical_5f08ee08b1835235.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "474532d49b3d66ea7ff9844c6728926c2e5d83507686498cf2d6a5154119ed0e",
+        "bytes_sha256": "90f5fec02ac74fdef227d95fa386d79006ac0ebe4d7f467ac3d53640dcc308fb",
+        "semantic_sha256": "446cb73f0b373a15774026c2ed15577acbe838f598c0297b755fa0e43f24df41",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PChomeTW_domain_ca38ee97ba88f029.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b180567f1a29411a7774bba3bc691eb35cb5feb090afc3cd648e57c851ebf7fc",
+        "bytes_sha256": "dc505c934ad829b130b079e255217e64a2104b4307583016907b0ca30fbe14b4",
+        "semantic_sha256": "f30bca6e78f2ce9f5450abae8c0b815fae4e4d961333472002449dc030365abb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PChomeTW_domain-mrs_d453afdc55d9391c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c9e9b162ab269c3d1a5ee74db36df95c0779528607eb1cea8d3c27bc89aba259",
+        "bytes_sha256": "9adc4665f5d48e5a9cbcf9b31830923e3208a4d17e447a636a8222cfb3583f2e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "注意，非国内的https://www.pchome.net。",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PChome.list"
+  ]
+}

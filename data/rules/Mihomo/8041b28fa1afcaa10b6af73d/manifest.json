@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-16T15:35:23.238857+00:00",
+  "client": "Mihomo",
+  "rule": "DouYin",
+  "rule_updated_at": "2026-10-16T15:21:28.851071+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 88
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DouYin_classical_2177efdc2538936b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f26df56f0a8eba13059c62c403521817003a5c4f81e5c9eeb40ab6920228a286",
+        "bytes_sha256": "8deeea9845b9fe8bf3d7a3e80f1b2472db795ca86e2b02b81e21c3c53b1586f2",
+        "semantic_sha256": "e51b081be687382d76143892bff179517c7cfa53e66dbe6a5c5b0284de0696dd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DouYin_domain_d9f6419a99467ad3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a3de4cad55480fb604bf0263dacccbf98e7cca5427f26f32fb49e54eab4a8c3",
+        "bytes_sha256": "7e3e26355a29f077e43ac9a8233373500adfdd77034e91b00aa4ff52622ca824",
+        "semantic_sha256": "8c6acbae8deee5fd246fe7aff8ffeacc5c1ecd8184081f36ee4f6b890f87b118",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DouYin_domain-mrs_1584b22a55ab9977.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9ce136518df3a68a813cb3656e8585d5bd508952e6d96404db5f04be99718a62",
+        "bytes_sha256": "9130106dcf506626fee6b0561c93c65b7223f67d0e45d18d620a421dd26ef478",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Douyin.yaml"
+  ]
+}

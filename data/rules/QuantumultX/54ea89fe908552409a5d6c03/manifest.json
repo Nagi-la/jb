@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:08:06.708154+00:00",
+  "client": "QuantumultX",
+  "rule": "AppleFirmware",
+  "rule_updated_at": "2026-07-26T07:01:30.664100+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 177
+  },
+  "total_line_count": 177,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleFirmware_rules_168e3d14c59d9020.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03cf929b9af048cb1d18d737be2e6f31ebca6b76f8e10b1a73b363b53476a202",
+        "bytes_sha256": "2bff5c3c618719413d4012f5772edc11e7c0dcaa35b8a3509da1fc6dc99e8da9",
+        "semantic_sha256": "b38767793013c2cfcc01ded3b50ce9efd641f632bb962151e365b21adea6fca3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleFirmware.list"
+  ]
+}

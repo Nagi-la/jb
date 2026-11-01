@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:08:20.969363+00:00",
+  "client": "QuantumultX",
+  "rule": "Wikimedia",
+  "rule_updated_at": "2026-07-26T06:55:55.849823+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Wikimedia_rules_a233079e31107bf4.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "046a8bc62394325c0ef8756770ebbd2303b44b1e97c4cd643cb6c191560ae76d",
+        "bytes_sha256": "5758195233197e842b05b32cf26e08c6389430c2ceed991b8e4426ffca78cfe5",
+        "semantic_sha256": "8cb16a08a39d24c1b93a5b32536c7b82cfb68752fce8b53be6356dbb5476e161",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Wikimedia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Wikimedia.list"
+  ]
+}

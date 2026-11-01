@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:59:49.384071+00:00",
+  "client": "Surge",
+  "rule": "AppleUpdate",
+  "rule_updated_at": "2026-07-26T06:33:21.697429+00:00",
+  "type_counts": {
+    "DOMAIN": 66,
+    "DOMAIN-SUFFIX": 31
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleUpdate_rules_b2fada64ed43b7d3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d420ae3fbf7a15322883510f454cb75692148b427e41221618b654085c8c7b20",
+        "bytes_sha256": "575e9d2361aa33f2a4afef37e78d046d524aed1a6eb256c18e7f5580604e0724",
+        "semantic_sha256": "78919ea7c74ec74ac016711f65f69e2ac7d39bfd0dd82100fc01f1e0247101fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleUpdate_domain-set_b23bc2a9fabddf2f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03237e25accc57c14b54eaa9c068e6c4ba50b5e16ba7294c464059259a9dfa3e",
+        "bytes_sha256": "086d275739a05648a1f4634f05b6ae404a26416913705c6d97a6c42c1d7ee089",
+        "semantic_sha256": "57e768bd5b059dae01e92576d998085632c2ff8c6c87e499eb61af823ab8310d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LuzMasonj/Quantumult/master/QuantumultX/Filter/BlockiOSServices.conf",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/IOS_OTA.list"
+  ]
+}

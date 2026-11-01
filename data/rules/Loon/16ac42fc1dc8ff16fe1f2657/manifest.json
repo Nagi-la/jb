@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:06.470229+00:00",
+  "client": "Loon",
+  "rule": "ApplePodcasts",
+  "rule_updated_at": "2026-07-26T08:22:24.158441+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ApplePodcasts_rules_146bb5d0fc892b33.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "851e5edff06e78bb63390b8002697038fc1ffc520e400724e5a93ffd31825b18",
+        "bytes_sha256": "031b12b02c8d038a9941c1d9e57508d8b99830c71c5ba008034f7985a8b5620c",
+        "semantic_sha256": "5be81dd574fdf4232f1719945ad8a125fce86093913c41a0512952aae4a3eeb2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ApplePodcasts_domain-set_9d26b320b1b91b34.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a2ccfe3a305ee275d15893dbd201b28dcb37b638b5c104cb711bbe1b7387e03",
+        "bytes_sha256": "d3dc5357fa084dc60f9bd0c37f3e6f56b2e3f6cee3e9802ca4cf6811870e3892",
+        "semantic_sha256": "4b66824d4d8f5b1dc8fd2a703328979b276ea1a37314eb6753ddc916c13c5e74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

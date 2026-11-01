@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:16.217085+00:00",
+  "client": "SingBox",
+  "rule": "TongCheng",
+  "rule_updated_at": "2026-07-26T06:28:28.484421+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TongCheng_source_88bccb65ba6f678e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b2224374006e3b5c8db323279f18dc6bb65f2340f34e5a65280349a36e22101a",
+        "bytes_sha256": "8d6f4561daeabd768ed915a1d564fb3eaf38b49fcf7d679e6943ee7280d48241",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TongCheng_source-srs_360d8d341ab5f6b2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3ecb542369bbdd90b0fe9f99c26dad6fbde64e4317410d559dea994d54f6b70f",
+        "bytes_sha256": "5e53637bbd4cbb991d0e17e607b90d1f59861c2765085e6343e6fe0807a231de",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TongCheng.list"
+  ]
+}

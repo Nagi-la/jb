@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-29T02:44:15.203671+00:00",
+  "client": "Egern",
+  "rule": "Apple",
+  "rule_updated_at": "2026-10-29T02:37:26.081359+00:00",
+  "type_counts": {
+    "domain_wildcard_set": 15,
+    "domain_set": 280,
+    "ip_cidr6_set": 3,
+    "domain_suffix_set": 1769,
+    "user_agent_set": 5,
+    "domain_keyword_set": 5,
+    "ip_cidr_set": 10
+  },
+  "total_line_count": 2087,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Apple_rules_3ae0440ce99a7de0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94ac27d0962052cd64bd7377edd1466dbefaa89981cce4a06b7dc2be415f2e14",
+        "bytes_sha256": "50b7d33938d8a4cf27104615d150f700d43ac438782494046c376fef15f64c55",
+        "semantic_sha256": "bc8bddbc8569be5820db5aadb77b41add8b80135836237332c94b0996b31d767",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Apple.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

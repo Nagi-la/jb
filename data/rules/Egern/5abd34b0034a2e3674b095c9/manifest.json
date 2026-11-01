@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:43.960430+00:00",
+  "client": "Egern",
+  "rule": "Sohu",
+  "rule_updated_at": "2026-07-26T06:28:11.649035+00:00",
+  "type_counts": {
+    "domain_suffix_set": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sohu_rules_f5e538c0b66d2ef6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dcfe604c070e627f4bc5593d4ebd0bc58e180fa71940f12a8aa3405bfeab19a7",
+        "bytes_sha256": "4d725cf7124f1e5d48a84e7893c682b0c7d7fca45828c49ca07f3464a211a280",
+        "semantic_sha256": "001824e18713cf56c56425a888d46993f04f125bc2586002fcbdc40dab2cb18b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sohu.list"
+  ]
+}

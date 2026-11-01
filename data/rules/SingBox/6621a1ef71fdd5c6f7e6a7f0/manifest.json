@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:58.509236+00:00",
+  "client": "SingBox",
+  "rule": "TVer",
+  "rule_updated_at": "2026-07-26T06:57:34.642180+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TVer_source_48c39cc304fab389.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d912c9bebf3fc5f7add5f190efc87205a712e4e2187c84cf3db2914469e25d2a",
+        "bytes_sha256": "1d673cdded5cb6c9e7d46a007ab0a89bd7c7f22e54cc08e076fc63ac418fbd6b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TVer_source-srs_a743f73db305179e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e84a33127452e2a9ca5a34bdf1112194b42aa34c2b8c55431ab20dc7e35b62ad",
+        "bytes_sha256": "31be67e028f22b6b4785b51bdeb02bbc91d43978706be40634f47da8191752e9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVER.list"
+  ]
+}

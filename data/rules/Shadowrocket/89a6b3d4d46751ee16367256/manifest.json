@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T01:58:10.638624+00:00",
+  "client": "Shadowrocket",
+  "rule": "Sina",
+  "rule_updated_at": "2026-07-26T06:38:35.932649+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 141
+  },
+  "total_line_count": 142,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sina_rules_5d3286375d7b94e6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f827502633ba008ce309b527fbe1492deaa1ffa4b5bfacb8b83bbd5add896aee",
+        "bytes_sha256": "7f5cc878f14cef512ae2a8f3a126ea9e4da06e980317eb1b69a2b31a15b8b120",
+        "semantic_sha256": "9ea8f7b2b69a1b6b2a60725e55ca410d82de7aa7570e18756958647a3ce4bc8a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sina_domain-set_08bf401e74c06a3a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0974e030437d2b6b2cd91dc2ecab7edb8ce15846754e9f4c147a04cb7ebedd6b",
+        "bytes_sha256": "81f085c14d628e276f2869fa8b8cc44baed461632a88c15dc81d8711b470181b",
+        "semantic_sha256": "1fd1d42c6cf483aa3acc3bb35952a784b0d05a03ed03f1b756476928341ca8ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sina_rule-set_002c3aec28f7db86.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8cbeca0ce163bb09e3dafcd2080ede81c9d0d88f1e13957a7ef82db4dcbac2ec",
+        "bytes_sha256": "33a29875a0260a3f767046c704d9f90426e85ac62be599a8d8acc0b6a3fdf72e",
+        "semantic_sha256": "9a6c0112b1c2b049c4f644e37b79431e83298bb4102cf0b5e5f9bbd39dd67eca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sina.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sina.list"
+  ]
+}

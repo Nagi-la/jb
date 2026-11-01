@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:02:48.182619+00:00",
+  "client": "Egern",
+  "rule": "McDonalds",
+  "rule_updated_at": "2026-07-26T06:52:07.919174+00:00",
+  "type_counts": {
+    "domain_suffix_set": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/McDonalds_rules_b5e105fbb81cb365.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "696eb3df4be79c32ae9ee802bc13ba52bba2fc344eb3ed30ef525b1ec999b58b",
+        "bytes_sha256": "b8e97199cbc9a449d184ad78319d573d8784b9c7168bfd171217519eb37ad790",
+        "semantic_sha256": "64fffc1444ec4b77e4258c257647a4071bb4d0e6e3c5e75f917aaaf978e36acc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/McDonalds.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/McDonalds.list"
+  ]
+}

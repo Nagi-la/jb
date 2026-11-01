@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:30.438272+00:00",
+  "client": "SingBox",
+  "rule": "TeraBox",
+  "rule_updated_at": "2026-07-26T07:16:49.792502+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TeraBox_source_896d6f0871a03e9f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b24771a3f584190e5111f2e8beee071e289812b122f623e3b86c17ed6667a806",
+        "bytes_sha256": "28e2119c6fe7b42026edd0442fd83b72c33581aff5e13965390dcbd4cf7bd380",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TeraBox_source-srs_1665116e6b627d86.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "80d0bdbe42f167274b5be3326ce30b3513ef39d3081af23ebc250408029a75ce",
+        "bytes_sha256": "d7b06d39312afbfa92ca66ce37b863c3e65a3a7bb37005aa0514b4100af9d40b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeraBox.list"
+  ]
+}

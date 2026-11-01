@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:24.584771+00:00",
+  "client": "SingBox",
+  "rule": "Ku6",
+  "rule_updated_at": "2026-07-26T06:26:08.500832+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Ku6_source_ba70c055d65c575f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "861e55dba782a6c7923c62f323350261116740bddf08afc9f643c6c7ccbbe62c",
+        "bytes_sha256": "d8d7993278769ff1dd7688ed010d35d162f20c0dc70c99b447d6853f7f8d5cbb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Ku6_source-srs_404de1175e2b9a2c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "26d04e622add01d853f8f502a84e11d89795c61ff1ca25e08bfefdf5ddaaed49",
+        "bytes_sha256": "d1178d8ec241326ef11b24b80f4aa7eab1ccb3ce5d71e5ed3e544ae7b745905d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Ku6.list"
+  ]
+}

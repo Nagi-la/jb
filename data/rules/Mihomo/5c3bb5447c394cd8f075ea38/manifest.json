@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:02:52.456158+00:00",
+  "client": "Mihomo",
+  "rule": "AirChina",
+  "rule_updated_at": "2026-08-10T09:41:21.226908+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AirChina_classical_d5e8c294bc9a0dcc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5cf6cb4375b68c0777a41db3c3309fc57e68b5a0038326169e3cc5eb57f43a11",
+        "bytes_sha256": "bc832b5380013de168071a259d54a17d9ef87ab86bda1c4e7c7a9e2487761648",
+        "semantic_sha256": "39464519e7b02438000f9d0e3284a3a3112c1a08473c57d78b99c38c9ed276d1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AirChina_domain_20fa30b93c1f01c7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4c5cd7b76f2819b40813dac1815b2dd40d56dd3adbaf5784a5dbbd5139da0b7",
+        "bytes_sha256": "732edfacae563b26f8faf4568373df887504e356886154071a32751c9d8415c2",
+        "semantic_sha256": "d56d8005407768cea5809bd0c2811055c79ffbb93c2276d1027aef19006ab031",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AirChina_domain-mrs_0c4e61c1e8d56af9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a3e7aa6b3afbec96c242c5ea8e91fda31fe121abb8a8394b4e8646efda8b6784",
+        "bytes_sha256": "3370ea8fbd8be2da23ff5c149d284d21a92d7fe8f6368a52e249041ef2392fec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

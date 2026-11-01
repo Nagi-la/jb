@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:05.815022+00:00",
+  "client": "Surge",
+  "rule": "DynDNS",
+  "rule_updated_at": "2026-07-26T06:29:13.463298+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DynDNS_rules_781a5d903c5ccded.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "342c8470064f0f64ccbbd8271c7b59580c7500ffbf40d9271f40d498aef72391",
+        "bytes_sha256": "6aa7e4092e4c21d6bd3c3705bdef8ee2ef16f70c63f79a3fb4ff115ac9218906",
+        "semantic_sha256": "1674232204d5b79bc5994da2d035611fc58c415a113d5dc14c2adb39f4907b6d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DynDNS_domain-set_ff027cae24f03da1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25eb268a6c1ff315362fdbdbedb831957efabc16c862f97f7784f76eb2dfd410",
+        "bytes_sha256": "4772126989ce5922f601383d1982c2b00c7f18feaf00d9e01d7b97b45fdd37ed",
+        "semantic_sha256": "0f65e7a286bf2718ca591b273e835b13932618ea1c42eb4e18f9ae26598040cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DynDNS.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DynDNS.list"
+  ]
+}

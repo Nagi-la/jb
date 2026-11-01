@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:51.174408+00:00",
+  "client": "QuantumultX",
+  "rule": "DMM",
+  "rule_updated_at": "2026-07-26T06:49:35.915668+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DMM_rules_f3f42e5a4b239367.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c2c4b9f09624f28c4a3a0ec41e74a6e71a7828840e08f1fa5e7f2465abbc649",
+        "bytes_sha256": "20d21284f2f3c3f727e8b9b483dae59853b0a55e930ea770f7fe00a468f1dec3",
+        "semantic_sha256": "90b28cec767d197be9f1ef84acbaee4e4bfdbc97a5a6946b6d146244bfc8c721",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dmm.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DMM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DMM.list"
+  ]
+}

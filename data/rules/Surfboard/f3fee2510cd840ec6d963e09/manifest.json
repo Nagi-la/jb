@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:44.050983+00:00",
+  "client": "Surfboard",
+  "rule": "SoundCloud",
+  "rule_updated_at": "2026-07-26T06:22:32.376189+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SoundCloud_rules_88f048726aadf375.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4e5f1dab891e83da3601e592c7d939335a576802629f99965fcba486675fcbf6",
+        "bytes_sha256": "df43c2776e13f421b45057c1605ec4a6162e0e0f47b964708c53cf08c20e69f5",
+        "semantic_sha256": "34f06c0ad62ad22222a96c308061d61620955b11210fd032057b3cae610f47d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SoundCloud_domain-set_36af051a939a0b7d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d4c4504ac6b15024cbd029b84a27ce229f405e6c344ee21208f2f1a578d3be2",
+        "bytes_sha256": "e7044362d126004264b38fc53e22dc9eb10fe316528943c2dd2b2602d7caeef8",
+        "semantic_sha256": "076b81396b1d3ad2e53b0c3c64e03dc8798ccf60b7f41772c3ad8d06dfdedb54",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SoundCloud.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SoundCloud.list"
+  ]
+}

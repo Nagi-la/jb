@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:25.483846+00:00",
+  "client": "Loon",
+  "rule": "HuluJP",
+  "rule_updated_at": "2026-07-26T06:30:23.298507+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 57
+  },
+  "total_line_count": 57,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuluJP_rules_0d9926bc0a5958c4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3636198f93be397ca3df3240da6d69eeaa92e8232d18504609a29b006210cfa",
+        "bytes_sha256": "df94d978c21cbfd9a23c9cd5985954f1cb6a399207d41b04990732b01d7b25a8",
+        "semantic_sha256": "6d411d38afb2a6df3d1268900a13fe8aea641c6ffffa567d81895e5578664af0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuluJP_domain-set_c0b332fca106164d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de1fbd9c869261dcd1b32e9306ca62602e60543aa73f6167cce38c1832d09067",
+        "bytes_sha256": "281f6796f55ccd4dc9a32d5cbb9f37af18ac28ea47a6df86b9e935d37145dc67",
+        "semantic_sha256": "ddcd428bfac4245a869d89dcdc95160459cf59fbc51dfddb6ee7591709842d3e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuluJapan.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

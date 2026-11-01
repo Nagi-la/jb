@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:54.147894+00:00",
+  "client": "SingBox",
+  "rule": "KouDaiShiShang",
+  "rule_updated_at": "2026-07-26T06:25:58.102866+00:00",
+  "type_counts": {
+    "domain_suffix": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KouDaiShiShang_source_49c9f34fc80a183e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aab8f3cbfce0dfb7e2f1cf646391eb5833cdff77fadb74b0ecff41a6c08ab867",
+        "bytes_sha256": "8ab33d030011e4c1bd20fcd688b6e18695a47ada403dd025208aad1c495d5cdb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KouDaiShiShang_source-srs_72c512f13bffdce0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e9e7a71ed6874c037bb146aaddcc1a2e8da160cf44ea16e2e14f454d5027c2df",
+        "bytes_sha256": "b5a408a1d42fafba943b183ad8b490c654b6880323269ad6b1ebd7adfd431615",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KouDaiShiShang.list"
+  ]
+}

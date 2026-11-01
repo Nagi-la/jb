@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:11.863095+00:00",
+  "client": "SingBox",
+  "rule": "QingCloud",
+  "rule_updated_at": "2026-07-26T06:27:46.661066+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/QingCloud_source_c9be8767d2413461.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e92c3e8c636aab83425e42b898efcfe63962e5098ff358a71274dcf38f722cb1",
+        "bytes_sha256": "f7e3e9154a0e933a1a30675e90aac9a88d4fe33c3ad89d2dec0647a17923124d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/QingCloud_source-srs_27bfc0a60539ff16.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "58fb4f4b3cf52ed2fe263e0f3edbe8645e9e13ff51bc0a5eebc1c91b1cf6f374",
+        "bytes_sha256": "4cf805b78f9c05a85a71bb972c3f9cf5f397c3b86f19a038c5ef751665fc0bb3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/QingCloud.list"
+  ]
+}

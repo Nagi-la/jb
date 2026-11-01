@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:57.873548+00:00",
+  "client": "SingBox",
+  "rule": "YouTubeMusic",
+  "rule_updated_at": "2026-07-26T06:32:45.538782+00:00",
+  "type_counts": {
+    "domain": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/YouTubeMusic_source_113a1d3758ff07c9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2fa8b194facfd17731a3b8cf3d0474ea877b2db7f4a07b6abc809dde812c4ae3",
+        "bytes_sha256": "6122c5e50d30bd51119356678535c1562c5058779040ade24993f43baa9331f8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/YouTubeMusic_source-srs_9c9cee20b430d2e1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "64d484ed8a86190c5e925f563f86defe715ff16785626e591770cdb08fad48d8",
+        "bytes_sha256": "5489334335f651b5ef3123fbc08541b0e42ff8f5c28da6c022069e199eac8f44",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTubeMusic.list"
+  ]
+}

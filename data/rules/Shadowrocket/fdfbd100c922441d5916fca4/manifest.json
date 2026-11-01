@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:29.639086+00:00",
+  "client": "Shadowrocket",
+  "rule": "MaoCloud",
+  "rule_updated_at": "2026-07-26T06:27:08.347223+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MaoCloud_rules_0a741f22e9e67191.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50d0f086b57c0278e12254a76318795cf3ddfe2beda7853f7b13c0f35941baef",
+        "bytes_sha256": "027a922669bcd7e994d20f3153674793a03b53c75c8a477d70ced8c2f00f5aac",
+        "semantic_sha256": "1c723a10cfa1cd717efe99adab47b05918a25cf17465b8f34ce49849f7640e87",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MaoCloud_domain-set_1e86726f4c6a3d8f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9470ac614c5ea94e34941793ff881931fdb4de24b14613f63f8237c5fda65f9e",
+        "bytes_sha256": "91f80c512f69a39d8803c7c3182fc4d67edfd99837b803069ac0e8251b8acec3",
+        "semantic_sha256": "b4d133d47d3f57a87c908106e810dbe52ddd4c83c28aae8061dd123e67528bed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Maocloud.list"
+  ]
+}

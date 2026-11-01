@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:00:00.464810+00:00",
+  "client": "Egern",
+  "rule": "Dailymail",
+  "rule_updated_at": "2026-07-26T06:49:09.116472+00:00",
+  "type_counts": {
+    "domain_suffix_set": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dailymail_rules_d4cf3a9dbba1d7f1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "114aea480e7ab48f0e1b6841c9cec7e8abf04ba8bad5e060599d6813eaa69886",
+        "bytes_sha256": "84afc73d7c38f7985cbae159727c4f328e588eb8d944914be01fbd06f1642c04",
+        "semantic_sha256": "19b559e596449c3c6a5f0defeedf800966e0c72909b69cba3bb4c80b68be26d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dailymail.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dailymail.list"
+  ]
+}

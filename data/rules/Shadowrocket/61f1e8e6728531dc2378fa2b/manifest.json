@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T02:52:34.517877+00:00",
+  "client": "Shadowrocket",
+  "rule": "Roblox",
+  "rule_updated_at": "2026-10-29T02:37:31.753173+00:00",
+  "type_counts": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 51,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Roblox_rules_df34b0945add5ab2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d84532eb0361517097a083a36642471698995f138fdcfd4db3c88460974d1f32",
+        "bytes_sha256": "b0ec7d640f025f5fc29e959df2a83cbf3c73c132951066c9232e09ecb851803d",
+        "semantic_sha256": "4314c020ab624ace5c0ef09c8f1a8b830ac3dc1b1d3150155b04e9861cb24d1f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Roblox_domain-set_ec3c1342f447f579.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ea9c213257a32035d7d35c934fe8c105fbded5d30f9abf5d2258a97f4de8a0f9",
+        "bytes_sha256": "931e6e2612b013f073a6fe4f5fdf1d2d4d3a11adba29d034b1e9159b9cc06255",
+        "semantic_sha256": "44e29255b48f3adf555cd9311dab15ff38b6a2871ea0d4abed70a7891d177feb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:15:16.126405+00:00",
+  "client": "Egern",
+  "rule": "DuoWan",
+  "rule_updated_at": "2026-07-26T06:58:37.243097+00:00",
+  "type_counts": {
+    "domain_suffix_set": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DuoWan_rules_976e06f7ef89d50a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc1f23e7b027e7ce1b15d8dbce84f97707e79bfaf93993f7e0933d6a60c1cdf0",
+        "bytes_sha256": "a7deacc32931b7f34547566d661faadb7b948cd20771078c8f49a7a622312ff6",
+        "semantic_sha256": "01a5ff25fefd8b0cd1cd2199b62d449527844e2675dd43e3207adec71d16f48e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DuoWan.list"
+  ]
+}

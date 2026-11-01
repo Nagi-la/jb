@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:17.245752+00:00",
+  "client": "Shadowrocket",
+  "rule": "Razer",
+  "rule_updated_at": "2026-07-26T06:53:33.783909+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Razer_rules_2dd80da0084e7cda.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd02f975a0de3d6f5eacfdefcbbd5c5b492dfa4087c897f9ed5637d1bfb51fab",
+        "bytes_sha256": "e7e6316da83ccab1ee8645abd6c41c98a009f1118c4fc110bd3ac196170f13d5",
+        "semantic_sha256": "9fed7e2b4d2255d0b809d6849c3f3e7a013d66eaf4efe62bd9285ff2f7eb1b5f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Razer_domain-set_bccab22f864dd092.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "930af8fa0c0390592a60afe5818d9b3cf2319e5f254023a9713d4456f738d799",
+        "bytes_sha256": "685be5d8cd831de6ecd9ea7bac0cabeb84939c6c182c1778554cda8367140fe8",
+        "semantic_sha256": "2ae1cb6a13d793870aac82d3d3d842e052c1d1d9a801d0dff3cd72755481baab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Razer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Razer.list"
+  ]
+}

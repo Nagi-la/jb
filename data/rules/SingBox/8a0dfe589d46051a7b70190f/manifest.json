@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-08-27T02:09:01.924595+00:00",
+  "client": "SingBox",
+  "rule": "PayPal",
+  "rule_updated_at": "2026-07-26T06:37:03.520628+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 245
+  },
+  "total_line_count": 247,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PayPal_source_16c86eb6860df994.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "974196c32d84d7f04ab29395509f025e9cde6e64d5370dcbced6e411747bff9b",
+        "bytes_sha256": "1d7bf95ce1dc278f77eca59b52ccc7451f7dd7e6c8e663a3586cf99c17f9fd10",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PayPal_source-srs_0fe86794e992baf7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c6ebe40124fec5962590288d5901086eff7a6a162ef85f07fd2801632a34e840",
+        "bytes_sha256": "3b560635349719bac794197467f6dc2d10fd5db00ee0a8c8ac08c2cdd391660a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PayPal.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Paypal.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:00.013300+00:00",
+  "client": "SingBox",
+  "rule": "JianGuoYun",
+  "rule_updated_at": "2026-07-26T06:25:40.580555+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/JianGuoYun_source_aba3e7fbd17b4dab.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d4a3a5b3512a64cdf3c5309c3d08b5b3fe77d87752f834b378b384a7a0163d5c",
+        "bytes_sha256": "13fd7d42e5869820a95879a800ec353081f366e477d6f0427f202e6a7c27c256",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/JianGuoYun_source-srs_93cea14321e1325b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "002b4f3ff0c58bf092258e32d76550df756cb1bd908ebd3da2d67599b5505fe8",
+        "bytes_sha256": "0b5e7bb4c8eebc77b3e727b518bf5ccd48773821d5a09ccc94f24d68336d8ba9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JianGuoYun.list"
+  ]
+}

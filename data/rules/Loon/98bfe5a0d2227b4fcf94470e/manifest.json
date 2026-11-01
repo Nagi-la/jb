@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:45.139198+00:00",
+  "client": "Loon",
+  "rule": "WeTV",
+  "rule_updated_at": "2026-07-26T06:23:04.587010+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WeTV_rules_c886e050c1bd0090.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "902b7d96883de059cedee00335a0830c79a6449e95533ad8943e4c21811c7153",
+        "bytes_sha256": "7f4d6273bc05561c2ef7066c2b3166a5ade22463e4bc73ba3fc9af757a7ab5c2",
+        "semantic_sha256": "41766b41f6556f1b68ee751ff8efb010483dc1d28a6c84019becd8b331235c33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WeTV_domain-set_5e1184d23cca83c0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "000cbe3967ecb4e9f2e60ea68ce429f3502f4147a4a70b2437812c96ff2089e8",
+        "bytes_sha256": "259acca20d433e883d5ee898c2f228395c2e6fbbb894e45f0629523ea0dc69ca",
+        "semantic_sha256": "b0fbed95880f531ce8bc6a485194f2b9b90aea0940d96dfe82c9e0f08250dc57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/WeTV.list"
+  ]
+}

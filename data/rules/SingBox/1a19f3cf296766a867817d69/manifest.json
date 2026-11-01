@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:51.081535+00:00",
+  "client": "SingBox",
+  "rule": "Vancl",
+  "rule_updated_at": "2026-07-26T06:28:39.614972+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Vancl_source_ddc5d09669d56409.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bbd5623e042e3d7b2cd9f4047597be87d2a9c8f252e4027398aa76ace7a4bdf1",
+        "bytes_sha256": "c00aa40fb6a3e03424a04f59573c612d01bee218ba5256717557e76134b2cab8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Vancl_source-srs_37d94b5cf6c2d7d2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0f08fa2c16de5e3af74c1ac3ab62e92883d25315b9789e7848c3d80396a94721",
+        "bytes_sha256": "2dbda46da7680ad64be268be36aa45b98115e02696bbcf7d62edce54f5c15bfb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Vancl.list"
+  ]
+}

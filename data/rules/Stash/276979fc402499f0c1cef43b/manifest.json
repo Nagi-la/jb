@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:05.668988+00:00",
+  "client": "Stash",
+  "rule": "DDNS",
+  "rule_updated_at": "2026-07-26T08:25:14.026375+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 111
+  },
+  "total_line_count": 111,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DDNS_classical_edd04772b08088f4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81e84e94a2cf3b523a084329f568384186b75fbba4c9ec912e00a8fa0b785df9",
+        "bytes_sha256": "57a4d4e0d5759f3156a03f60655c7e5b3c68ae631984a0caee81a8a78551e46f",
+        "semantic_sha256": "494ce24617f57fa7566e54c64a5508f034c85b26d435951d06b50b7cefdf4dde",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DDNS_domain_de58146310e54617.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba242930feb023a388bb319a8b0115956f9a8ec097ddce66c3a690b3d1284ef1",
+        "bytes_sha256": "997bfb835c80c3392be1fb793c00deaab41233afe6d6f92dcb8978437c5b1b60",
+        "semantic_sha256": "f2f1c8136d9be52bdf2d3604bc7af2bfdba9a78658569132541bd85046c51932",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:10.901421+00:00",
+  "client": "SingBox",
+  "rule": "Stackexchange",
+  "rule_updated_at": "2026-07-26T06:54:25.651774+00:00",
+  "type_counts": {
+    "domain_suffix": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Stackexchange_source_8e20c8731502453e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "03429311ed0a032e3b4b4128cbca8cf41b78533a6471dbe03c900c82c74da43c",
+        "bytes_sha256": "447a6a42b8894f3cfad94dbcffcba4e02e63192fc983e09a559f14090396bca6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Stackexchange_source-srs_7b901e4483760567.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "27bf1c7559d8a499871d92473519413ca0d14ff60de926aa2a36bde40f6da10f",
+        "bytes_sha256": "363d4f895961df61d1ae964ceab85e4a16fc91ca348da0b828afdbe5c9914b33",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Stackexchange.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Stackexchange.list"
+  ]
+}

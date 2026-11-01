@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:18:36.116570+00:00",
+  "client": "SingBox",
+  "rule": "PikPak",
+  "rule_updated_at": "2026-07-26T07:00:35.671079+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 21
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PikPak_source_4b9238025936ce60.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72abb387680ab47c7da7c2c211636b267cedb10a6bc33fd443afb9c81d650a3f",
+        "bytes_sha256": "601c2724599a1d883eaa75080d2b1d1ba7f8014c2a5cd2c88936f7ab6699a6b6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PikPak_source-srs_aa2588a9c2b02614.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0ef76c1d1b2da19bf0f2c8244d0b78146b41e7b7bf4f6425b77bca0be6ec4c78",
+        "bytes_sha256": "eef82d66bff45d5e176925beb0c87dac0d72fdadc33490a821fc5a858f8e5a27",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/rule/QuantumultX/pikpak.list"
+  ]
+}

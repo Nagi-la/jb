@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:18.335019+00:00",
+  "client": "Stash",
+  "rule": "Purikonejp",
+  "rule_updated_at": "2026-07-26T06:32:10.008854+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Purikonejp_classical_c95856be212773ed.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6aef450334465e966a53f7927c4bc7a66483bc34307f0fe43ae8ecb64ee74f0d",
+        "bytes_sha256": "9ebfa11f4d11b9bf167c573095029ecc77390f1a374191d648d118b023f73ef9",
+        "semantic_sha256": "cdf789b477553889e2ae49df816415c1cef5f04ea65fcebc3a275a006b5a26b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Purikonejp_domain_f2509aefd25aecfd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "420c98f9c081c916285f2a78695b9866213dac206e6b404c98d45324e05f53a0",
+        "bytes_sha256": "a8b9248582dfde8e8b639656395351ab2b8dbb432c5862aea5e9d14663509eec",
+        "semantic_sha256": "99983bfd31c732963b59296b1fdb05809b88effe530f237d7b821825e26c3ba1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Purikonejp.list"
+  ]
+}

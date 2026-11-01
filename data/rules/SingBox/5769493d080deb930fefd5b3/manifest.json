@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:11:44.472141+00:00",
+  "client": "SingBox",
+  "rule": "Bahamut",
+  "rule_updated_at": "2026-07-26T06:21:10.984614+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 3
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Bahamut_source_a2985fefe60a7e72.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2d7945111bcc5e76905c632193f47dd16db8d7fe350431c6fd0becd480f4f7bc",
+        "bytes_sha256": "0b87085729b9bfbad70d17639d3dbfb8eafedb93a16b55a67ed6dca62475cc94",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Bahamut_source-srs_723f416fde033513.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "75d32c2c660c8bc91d79bde5347c9b6a7b39a53f8bf6a8103f24753c29d3eabb",
+        "bytes_sha256": "b9ef2e31a6b359736aa618f2a717aa3530b66394a6c658dd0f16b77b67ef6174",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Bahamut.list"
+  ]
+}

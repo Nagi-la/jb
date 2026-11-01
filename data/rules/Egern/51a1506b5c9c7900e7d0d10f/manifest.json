@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:59:26.934056+00:00",
+  "client": "Egern",
+  "rule": "EA",
+  "rule_updated_at": "2026-07-26T06:31:57.720765+00:00",
+  "type_counts": {
+    "domain_set": 8,
+    "domain_suffix_set": 165
+  },
+  "total_line_count": 173,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EA_rules_8a4c9cf7eaa1f112.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c206493f26a4d3f61b3a2e859599d7254a2c6611ddc7391a5ffd6d4e95a325d4",
+        "bytes_sha256": "3e8e7fcc80ed4045d91b328646423bea50ba031d2943ac92f33c7226c05217e6",
+        "semantic_sha256": "483fcdbd9ee38d94dad9450ed9fa178c0b8fbffdf8f1bc459f6aabc33542b3bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/EA.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:16:03.430384+00:00",
+  "client": "Mihomo",
+  "rule": "Logitech",
+  "rule_updated_at": "2026-07-26T06:51:23.003040+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Logitech_classical_c132db99d19cb0a1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dd510dd009f92f39c06169a56a7195b56ea707eaf379e4bc47f306d9e8b0fb94",
+        "bytes_sha256": "de8f6bff44bc544e88522a58d71d43c65f44248e10614a0d16f457f7dc12104f",
+        "semantic_sha256": "d12f8ba1f26ec5e7303f03e18fa892169c7a5af5988933e1def1c372a3dd78db",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Logitech_domain_423fc4c713fc1a3c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ceac7180b2b6fb12083883cabc9c0b5b2306f79f70073a867c400d411ae04abb",
+        "bytes_sha256": "66f6ee06596640fef62d0f0e57076456b7558c64cc16e3e62da8f4f531320c21",
+        "semantic_sha256": "49ab1e512f23af76be661de327d898d87c7bb112bff4ce60e215d39a1b3a666a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Logitech_domain-mrs_d440227866f63693.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "751b3bcabf34b48aedb8bb6ab6507fa93733e61f5727675ea2f3c25ceab10069",
+        "bytes_sha256": "bd198ea40c4ac1265e95a6ea27d5d4f3d2908ceb36ff9ae48f426e25eaf5d78d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Logitech.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Logitech.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:31.739372+00:00",
+  "client": "Stash",
+  "rule": "IBM",
+  "rule_updated_at": "2026-07-26T06:29:35.269166+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IBM_classical_a691467644704be7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a97c50ee705ec076648bba309bf83954ca8aa3c3b331ca5c062386cce0a78ccf",
+        "bytes_sha256": "6b377e3f2b9c4072737c363768314d0e4583c491d5e55d5d66fa3b4b0e3d2c89",
+        "semantic_sha256": "30d2e67f01ff2accdf549d4a4dbb9e0029f5d2928105c63faedbd974f984494a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IBM_domain_79bcf210c845badc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6048d9fdc86e702a715b368a03fc63ea10df021980a2c28f8b57b2f1b69c4030",
+        "bytes_sha256": "3bcc0eb1a32c43e2a2c312dab5cde512c46fdcd62eebaf8cda78ba3d03f0b55f",
+        "semantic_sha256": "65bda940c42327767a124aabdd4f3b084142c93ca1d549eac2cd6fbb19aa84e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IBM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IBM.list"
+  ]
+}

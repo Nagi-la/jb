@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:13.959922+00:00",
+  "client": "Mihomo",
+  "rule": "WangXinKeJi",
+  "rule_updated_at": "2026-07-26T06:28:48.928083+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WangXinKeJi_classical_090420235726c887.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f0396a4650fc3af4cc30cb46d0858d9307d2ca40dce8453ce25a2e93f622678d",
+        "bytes_sha256": "b35fd4752abeb99b336222de4445672914536ac2eeca7f1144da3b42dfc1f1a5",
+        "semantic_sha256": "e3721470e3ca02bacb6f67777d1b0c50da8c5c189078136fc27ea3e697e0be8c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WangXinKeJi_domain_5e6abfc759da823b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2022029e99a500bd5b396726e15d8865d12523af9366a336e0bdd0db84867b5",
+        "bytes_sha256": "400a76c9051718b73a7be03025d20a9667e69870425284c9b30f706db692766e",
+        "semantic_sha256": "ce3cae3ad6ca070afc317006ba9fbc772f6074c21e2bcf6d413af49a88632296",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WangXinKeJi_domain-mrs_edf16d499206eda8.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d54a4a0bf9701f2f3ba64d4d8ffbe1a20c98ef6a529034e5b65b2d394aeebec3",
+        "bytes_sha256": "2666959fa606598bbcc006b4698fc8405e3c40a84750699f73753c2e06d47988",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WangXinKeJi.list"
+  ]
+}

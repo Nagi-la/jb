@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:16.288017+00:00",
+  "client": "SingBox",
+  "rule": "51Job",
+  "rule_updated_at": "2026-07-26T06:46:30.004528+00:00",
+  "type_counts": {
+    "domain_suffix": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/51Job_source_a048056a3e902d69.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7c7f33f51f8c008337d3d32846d12398abf7a8cb4f9da1a80d88849db167b906",
+        "bytes_sha256": "ecb0e0b6118f0fd4d8a785776fd1ac1139bbb4a24cf6a39572fa7e0bb0f01b16",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/51Job_source-srs_eb00745c2cc93722.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4b6571010731c0d0783fc8e5030174e50c2c2c4097296a6157c12911a8356416",
+        "bytes_sha256": "2cf881795c9ab89e2ad62a306fb43ed3707d764ea9014252e305663d64695f40",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/51Job.list"
+  ]
+}

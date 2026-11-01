@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:15.143250+00:00",
+  "client": "Shadowrocket",
+  "rule": "Reddit",
+  "rule_updated_at": "2026-07-26T06:53:43.521249+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Reddit_rules_983861b08fa5afe8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ad99f2635a0e6f7e3b5ff44568bc4825a2ea577f98fc7816d76dc1cbedc8514",
+        "bytes_sha256": "8690f375af91d0da51fdb777322c87a0e0f17d0a292cb20554e32a0467ec70d4",
+        "semantic_sha256": "85191211b4892c97b46f4c8d66a42d7cbe452babab9b96af3a15f2163ef02c11",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Reddit_domain-set_52939ecc3f2582c1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f54b076917a8e7d739466378351288559ee03af09aae4476b8a0b326c9d3ee02",
+        "bytes_sha256": "f247d207f5fae9e416eaad20ae7f1f6c0fd34b530fe9f0f4f6ff7917a7d234bc",
+        "semantic_sha256": "f6a8d2edf396d33fd1b65ab0c62ea970813163fde0badf777c2d753ea44e52ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Reddit.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Reddit.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Reddit.list"
+  ]
+}

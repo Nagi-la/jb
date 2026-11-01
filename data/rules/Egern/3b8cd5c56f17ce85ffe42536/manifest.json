@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T01:58:28.930935+00:00",
+  "client": "Egern",
+  "rule": "NetEase",
+  "rule_updated_at": "2026-08-01T04:37:56.870885+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 158,
+    "ip_cidr_set": 30
+  },
+  "total_line_count": 189,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEase_rules_d101fe7fc124e566.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9e81dc6541d444e5023ad8b85e43f77628c7916eeb369eac303afd07606748be",
+        "bytes_sha256": "88a8a7239f354ac896ccfe0087c0701bd58d39061449bde873ab11720b32db50",
+        "semantic_sha256": "1fdc1fe1ee395204c4a25db1b880b161df08c4b2ae69233292c512e5986109b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list"
+  ]
+}

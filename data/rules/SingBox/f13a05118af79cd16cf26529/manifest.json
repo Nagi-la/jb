@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:17.769639+00:00",
+  "client": "SingBox",
+  "rule": "Viki",
+  "rule_updated_at": "2026-07-26T06:22:34.756517+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Viki_source_0df9c36868a02c68.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e5156d1b60544519c95f3680ae8dce5053e9923202a174eaadc06c14da876857",
+        "bytes_sha256": "ff249014d31333406a87f0c0659fe854f38fe930b7cc38480e9e772f1458a3e0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Viki_source-srs_65aa6294d8bf814c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "46ee7247835e942cf8c157fafda0d5e64b30566354ec8ada6950f74921b24c6e",
+        "bytes_sha256": "079f47bb3627d86dc0711825a7196d91c283da04e9370deb3c0ac6169dfa3388",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Viki.list"
+  ]
+}

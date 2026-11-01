@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:56.440364+00:00",
+  "client": "Surge",
+  "rule": "CKJR",
+  "rule_updated_at": "2026-07-26T06:23:22.155599+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CKJR_rules_40251891bf3e2af6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca7b3fd531b3c391af23cf1c662b1aeb1d9d3f35794862205938820d5e073a1f",
+        "bytes_sha256": "218f4bc867ec7514d656b16258302b212aefd9fb8941f3068b31545f391fc6c9",
+        "semantic_sha256": "9b10cf41e58afb2ce6ab23184cd9f13370b38ae535967328dda880c5e0e21032",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CKJR_domain-set_d0c10cb95ea2fb29.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1266c16bb5b4e78b80d3a09cc5ca707adc397a703be63898e1587b11d500f382",
+        "bytes_sha256": "d60594486ac212d064551ab58b20fe7dfeb4b67d5663d99750352ec56744d475",
+        "semantic_sha256": "18df8c3fc613595f9672e8632920a0c93cc1589a3dc4d238697d81990aceabc8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CKJR.list"
+  ]
+}

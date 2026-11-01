@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T03:06:26.008654+00:00",
+  "client": "SingBox",
+  "rule": "Agora",
+  "rule_updated_at": "2026-10-29T02:37:35.007297+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Agora_source_376c4c66bf561913.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f227da8d0ce99ad32216202795362ee579e77d6262301bd0f853afa5553ffa3d",
+        "bytes_sha256": "55ee7d4d75d17e25f41ff957b2a82eb85dad9760d3e686454179b3edd4f8b17a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Agora_source-srs_b3fd52591d1028bf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "36ca699c3a10f8c9e77895c2fc9de4317cdbc2a9e6a04cfecb5c057103a2b965",
+        "bytes_sha256": "bbc479202b74d9db3891512335906924651bff67ad2296abfdef7231bf319982",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Agora.list"
+  ]
+}

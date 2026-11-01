@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:08:57.708043+00:00",
+  "client": "Mihomo",
+  "rule": "ifanr",
+  "rule_updated_at": "2026-07-26T06:30:08.599960+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ifanr_classical_3b7c5c84fa9e6abe.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9bc2a1fb7cdd0e94306e2556cce4b1d09d5ab802c6b6c8fe4a4c36c254187ab",
+        "bytes_sha256": "40991d55af3e4f80a958765ec637e1ee375c2324cdf7a9e1f0930e86906f32fa",
+        "semantic_sha256": "bb67cf890de0fc38a813301b916cb2dbcb88291d1ae6a3acfb9917723bc1ef19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ifanr_domain_64289c82f86aebcf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c128ea9a938c1b606d58c85c6d7ca944c5baabc4e26d4ccbbbd93b4d07b731e",
+        "bytes_sha256": "adcd5d17481d4b51af18dc5ae2115c25eceb6c241957cab18a5c4cf839d74780",
+        "semantic_sha256": "7f0b2dc7edca1dce3f1306ed9c34ba22b9311deac0817a5480ac8bd43818f0a9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ifanr_domain-mrs_0db19057775cb15f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e69880176075327e83ec98969b6e7d481ae68ad62f66ca36def2ec8f1aaa3e6e",
+        "bytes_sha256": "dd4b19e990fc4d721dc1c575d49b6b7b57b2b2109aab018925d4b6cdf87f2d32",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ifanr.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09T16:11:47.826365+00:00",
+  "client": "SingBox",
+  "rule": "ChinaTelecom",
+  "rule_updated_at": "2026-10-09T15:58:53.476941+00:00",
+  "type_counts": {
+    "domain_suffix": 91
+  },
+  "total_line_count": 91,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChinaTelecom_source_1f943967e7ed0a4c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "97d53c417fb75294458ed8ec2de9355141bc9a4829b038dad1c31eed190d4fe0",
+        "bytes_sha256": "4cdb1d2ccd2a8fd2ac062d86b3ae0addcd92e0ddb908a11d6571815898cc004e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChinaTelecom_source-srs_2ad65e4dc67c619d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cf72dc4fde7dffef4f0102eebdb95f6b3b6758a716189195be4ad0c35ff21ad4",
+        "bytes_sha256": "ed653c966dd9084f48631d0bad9a74bf2baf1c07457859a21c08b5fe5d58ec23",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaTelecom.list"
+  ]
+}

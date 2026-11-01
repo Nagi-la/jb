@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:51.484595+00:00",
+  "client": "SingBox",
+  "rule": "HP",
+  "rule_updated_at": "2026-07-26T06:29:35.487297+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 158
+  },
+  "total_line_count": 159,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HP_source_704e4d37dbd213d6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4b054179d46aefe7b69f05216a08285089ef30f379092a3b4f739c794848f5b6",
+        "bytes_sha256": "ed327ed11270db74eec4bc2ccd3834a366427cf3efa73b55a8c182ff2955e460",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HP_source-srs_776b34932868150c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5771f7b92a3bfba6a857c59dd3b91fe35b977cf641d37517721bcd822d32e399",
+        "bytes_sha256": "d33bc6af6b564691ebd28f2b20a80daa97a0a65d19be5ed7478063cd7122f36a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HP.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HP.list"
+  ]
+}

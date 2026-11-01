@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:50.928764+00:00",
+  "client": "Surfboard",
+  "rule": "Lianjia",
+  "rule_updated_at": "2026-08-13T23:45:36.859572+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Lianjia_rules_b8897f50133acbcd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5adfc7a051fce7d60ae481434fd19bd2a158a5530bec2e7d41e107c794ee41db",
+        "bytes_sha256": "8566ae7d5c7715061d1332c5efbc15c90e885cfbfa12e44867780375d128f688",
+        "semantic_sha256": "c106d25b580c68a6f68cb557a4a9f64b8025adf456e82973ed7e5954ac681018",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Lianjia_domain-set_cded156fcf75d6bc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "064db675d70944ef625957a7d7a4308c469fe9877a8116baf302bc52595a3d5b",
+        "bytes_sha256": "44bb02e78978d0ea0d8fa40864928848e0443e0f28606c77c3d3999c4e0d989d",
+        "semantic_sha256": "28cee8971177df610a03905332b2eabeb91ff59f3c368d431bf8297cb3ab47d4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

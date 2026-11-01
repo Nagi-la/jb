@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-10-30T01:47:21.090503+00:00",
+  "client": "Egern",
+  "rule": "Advertising",
+  "rule_updated_at": "2026-10-30T01:40:37.228344+00:00",
+  "type_counts": {
+    "domain_wildcard_set": 22,
+    "url_regex_set": 15,
+    "domain_set": 17423,
+    "ip_cidr6_set": 6,
+    "domain_suffix_set": 242164,
+    "user_agent_set": 1,
+    "domain_keyword_set": 210,
+    "asn_set": 15,
+    "ip_cidr_set": 1024
+  },
+  "total_line_count": 260880,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Advertising_rules_8953ff95a8384813.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61187d39b63d90b6d5f82754d45c4ca936a8ca76cf68bd50f51640e300968424",
+        "bytes_sha256": "dbc2f32df32cac3ae68a949e9fa8a9dc90541279104d15c4a69a0a833e176fd9",
+        "semantic_sha256": "e0d12e0903480e70fe25b03684317d444ab075890cb1ebf45a42356c17e2e124",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "module",
+      "url": "data/_shared/artifacts/Advertising_mitm_296fa9fbf91ef37c.module",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b3faa59798352ff6b21a36db189027d36a96a5c013953c428d771966b822f117",
+        "bytes_sha256": "d826baa8e3fba9fbefd684aa51d62017c5fed0ccf85500e105e0c9bcc3e47fcc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/ad-domains.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Custom/video-ad.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/AdBlock.list",
+    "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list",
+    "https://raw.githubusercontent.com/scomper/surge-list/master/reject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/AdReject.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/ip/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

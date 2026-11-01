@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:59:55.401841+00:00",
+  "client": "Mihomo",
+  "rule": "XianYu",
+  "rule_updated_at": "2026-07-26T06:28:59.148694+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XianYu_classical_b31d0eeff10eff8f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df0ef72b7837a8cceb24364effcf71602cc7a1d93f53a41f2509203a59f7dfee",
+        "bytes_sha256": "8fbdb112c6a89786bb251de5bb115abe39c3bb8c9c8e924e1881f51d06414413",
+        "semantic_sha256": "161e76fff871d70c7df0281bf94cf074d3dd0a1a9039b5634eb8392ece1947cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XianYu_domain_ab4eab5556641fa8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f0573abac218eeec0ecd82c499b7d3efc2635f7fc6cb57dbdeea524be015ba2",
+        "bytes_sha256": "18813636f3387b1cf343fd56e2ec360e84865d2e346301c5f141c83ad30baf61",
+        "semantic_sha256": "e85e460173f1b12bb2a1623d4338d29ea197a2777364cea83cfd97ba61122170",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/XianYu_domain-mrs_3097301270775a03.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8c8c3c40c17aa3495bc84ccd3b837f6137de4f905bed69f71ea342bcf45b88ef",
+        "bytes_sha256": "419302731cde51f9da19c4c599abfc8e857215753dd070e933798aa377f893d1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XianYu.list"
+  ]
+}

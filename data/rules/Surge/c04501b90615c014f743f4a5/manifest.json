@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:26.882372+00:00",
+  "client": "Surge",
+  "rule": "Dood",
+  "rule_updated_at": "2026-07-26T06:58:09.350074+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dood_rules_31175b59660063d7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03039a6a953b7c51f41f5af541f0fd4a5a172deb185a54c3f1aeea2383e8a4b3",
+        "bytes_sha256": "f20898b2a8da7d1c71c4f93d02885e343b1fbd6d7ed1c03835af8e7adce76122",
+        "semantic_sha256": "f863521612a5094eb6386b80bb29a21e1932f1eebe1525e29780cc19036aa772",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dood_domain-set_996841b344caf86b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7a4e338651d1fd831b3244114d9d4a1a8da2fb5ebee030882796634460edd2a",
+        "bytes_sha256": "7e63feaa64ef6eef89927975ae56ba8e5cd82acf0094395ead538b76e746e889",
+        "semantic_sha256": "ccd73e0eb06c5cee650c7c6475d4b9a817434fe2615401f680d09cf93ce7976f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dood.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dood.list"
+  ]
+}

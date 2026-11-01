@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-16T14:24:28.877087+00:00",
+  "client": "Stash",
+  "rule": "GitHub",
+  "rule_updated_at": "2026-10-09T15:59:07.544133+00:00",
+  "type_counts": {
+    "DOMAIN": 32,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 73,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitHub_classical_66f5a463ca33f147.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed1514ac0d6f7020921314aced670d4ec7268a9193e8c3f6c5dbe1089c8d908b",
+        "bytes_sha256": "e94523b7ff033e7bcfce565a55d6d1d0c0629b0057f6e104d72975081f20eea9",
+        "semantic_sha256": "0dd92d5dd60f5d6ae72399fee64cd90774bf5666d06ccd3e36d9a130ed32940e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitHub_domain_181db151adcb7fed.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27404d26aee5bdb0fc0108efa374b4f0c7fb00dd3f8ee56e4de621faafbfe5cb",
+        "bytes_sha256": "b4296a0e4de8fc05b651075d14197aae4f5706a63b2cb5055f18e03db7f47d52",
+        "semantic_sha256": "e795cb6220de232f4ec848acbab87eb0cae1bd2150473ac4f0067e4760b5d036",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitHub_classical-rest_8f50bc9f04b45529.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98542c2604d989dd407009c230fce7359e3a657164743f30abfcc50bcabb05d3",
+        "bytes_sha256": "5f7dd613182a7165f2a5b4b35b79af086ee39528c9622aa6ca31b4bf9c0ee406",
+        "semantic_sha256": "20b5ded0c8aa9c8dea30da3a6988fda6d1ae194a3c7c690f8d1426294327eebd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Github.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Github.list"
+  ]
+}

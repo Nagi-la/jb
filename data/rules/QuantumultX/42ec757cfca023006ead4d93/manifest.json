@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-10-29T03:31:55.029103+00:00",
+  "client": "QuantumultX",
+  "rule": "Google",
+  "rule_updated_at": "2026-10-29T03:07:13.217974+00:00",
+  "type_counts": {
+    "IP-CIDR": 2,
+    "HOST-SUFFIX": 934,
+    "HOST-KEYWORD": 6,
+    "HOST": 241
+  },
+  "total_line_count": 1183,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Google_rules_d1123fc9c30418d4.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2787b8c6e97c5f0e3a83e6186c38b31cb36e64a6ec9106ebb3ee4ab44e4c5b60",
+        "bytes_sha256": "e41ddc317a2181e7cfc74deabc193120a93816fffe246e7eac0bc864937dfbac",
+        "semantic_sha256": "06f85497bcb7ecb35a8b740964d618dd82f9a610f1e7492244620404c51755cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "不含有Youtube分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Google.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list"
+  ]
+}

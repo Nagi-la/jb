@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:26.929804+00:00",
+  "client": "Surfboard",
+  "rule": "LeTV",
+  "rule_updated_at": "2026-07-26T10:36:30.235403+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LeTV_rules_95e9558a7232c7b3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ac363ccfe0bbb46860d8c9c2d954dcfa75a03fe2a26d968e448929bc692e49c",
+        "bytes_sha256": "c8e42752d9967a9074689c34f194bbe8157b59e50df927dabb4c0d3942551447",
+        "semantic_sha256": "a981fcad2ca5e2b7bd1acdec5261e0b24dda617564fb6040e32e421f201d93b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LeTV_domain-set_23e4666f2f4295f3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b95894efa913f06606c818138414ae12eff88b52aab998747a00947325e27a67",
+        "bytes_sha256": "46ff39f0ba5e121ccf26eb83fa02ab64fad669cbe25622ae90837a5ce7b08492",
+        "semantic_sha256": "e75a03c9f5a3d7ce9374a16c8ab26ae068a4d3f336525e4f1b05062272e065aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LeTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeTV.list"
+  ]
+}

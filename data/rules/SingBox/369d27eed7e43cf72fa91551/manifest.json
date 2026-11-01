@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T01:58:25.552141+00:00",
+  "client": "SingBox",
+  "rule": "OneDrive",
+  "rule_updated_at": "2026-07-26T06:32:56.160765+00:00",
+  "type_counts": {
+    "domain_keyword": 3,
+    "domain_suffix": 19,
+    "process_name": 2
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OneDrive_source_670189e8c907a202.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e8223e2ce33eb74e92098b3f7cb9b171c811d2563cf3dd2dcbed083d1866afd2",
+        "bytes_sha256": "18d0e80a29424729b3e36f6cebfd23bdd57e739abcc2d294defc6d0d02bb1921",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OneDrive_source-srs_ead26fccb4535c02.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8ab7e413e9459f375350b7c3a013c55d058b1d21da2b629991446fbe10b34aa2",
+        "bytes_sha256": "e45df56672c711191fa80b37304f449dc06f97a7f4fd4a5691da4f9cd2a85f07",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+  ]
+}

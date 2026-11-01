@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:11:47.982533+00:00",
+  "client": "QuantumultX",
+  "rule": "Grok",
+  "rule_updated_at": "2026-07-28T13:21:04.301613+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Grok_rules_86f10b4f55233d5e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc5b9bed322a7ee6cc7d1b27592a5475a4d7f51f37542b0824504e264752e153",
+        "bytes_sha256": "3a83a0a546267995e484724649090f09a4197b35a878522f0a6337d87d74f6cb",
+        "semantic_sha256": "ec7801acd4e411240ac7f4776c7e07ebbc093476b8c1a875c745023c235553f2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

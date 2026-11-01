@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:47.881242+00:00",
+  "client": "SingBox",
+  "rule": "ASUS",
+  "rule_updated_at": "2026-07-26T08:30:39.440757+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ASUS_source_2a0d203bc613e0a7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8c0616db77089c109b05789c98485fec8aec6e44f8be10f1fc1bafb91a121f44",
+        "bytes_sha256": "58387f300ce294bff3d446a3cad96ced1616616ba8ab7cf4e849e009a6d67ad2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ASUS_source-srs_f141541bf96e3574.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "13a8da40e62205bfd3c28ee45d4fad289f2c29ef34c3f5fc39e3ffcb5a1d7f5d",
+        "bytes_sha256": "6769f02189eb69ef428c654c9ea4c59ba3129b9fc4a40ab5039e7b6dde383141",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

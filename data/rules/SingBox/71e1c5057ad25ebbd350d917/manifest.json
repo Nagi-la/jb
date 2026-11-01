@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-27T02:13:32.008256+00:00",
+  "client": "SingBox",
+  "rule": "BiliBili",
+  "rule_updated_at": "2026-07-26T06:38:16.588690+00:00",
+  "type_counts": {
+    "domain": 51,
+    "domain_suffix": 67,
+    "ip_cidr": 7,
+    "process_name": 2
+  },
+  "total_line_count": 127,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BiliBili_source_602741c921461987.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1cb5f4b7dee35804ab56dd0f1bbecde2c728139088bb58d909ce5323b3de2e83",
+        "bytes_sha256": "5c15f19473d76d85196301b8c5ec5fae7fbfaf68638bf7e519908afea114d512",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BiliBili_source-srs_8c91abb2f0364263.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0052fac3b3640edaa3595d1031406dd563e9af046405365135a63455324a3d4",
+        "bytes_sha256": "b5f61864056f16bbb4924e6b69c6933fe1628e8bf099a022e82fd46e10270d1d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
+  ]
+}

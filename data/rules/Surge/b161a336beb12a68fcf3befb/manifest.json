@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:04.051464+00:00",
+  "client": "Surge",
+  "rule": "TaiKang",
+  "rule_updated_at": "2026-07-26T06:28:19.880600+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 59
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TaiKang_rules_313b0735bda89e23.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "36ca8a4da4feab0fafb52ef2b92bb1b2a67c10cfa67523b5fb217a96d202a733",
+        "bytes_sha256": "b648a8ef3e2ba07dadbec5433ffd92ac314a19151a04dd4bf542da7ed8314d4a",
+        "semantic_sha256": "39d471f91aef4ef946faf50425c10d3ff85fa5cf970aeb06882837c128a38abc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TaiKang_domain-set_9f9f8a92209ea273.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03c2ac729b8bf67ccdb4ac744b4c7a9ba8ca477b7c77e31ece2fd0f5a097978c",
+        "bytes_sha256": "24a162141baef5199ff05de6ff479926660dba8b84e8c9df375a12e553fc9f27",
+        "semantic_sha256": "7c0098e4f2eec56365d9ff654d256040a7569809150df66e8b284dd5e759da5a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiKang.list"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-08-27T02:05:43.050020+00:00",
+  "client": "Mihomo",
+  "rule": "AppStore",
+  "rule_updated_at": "2026-07-26T06:32:47.687077+00:00",
+  "type_counts": {
+    "DOMAIN": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppStore_classical_4b40a053943d24c8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0f03f559be9193d2ce60c2ddaf818b2cf987c7781afeedec22679d786a2c9f3",
+        "bytes_sha256": "53c213c9774eb108e33164cf0fc812fed9d0bb6a04687d06323f04fb2f1c41a2",
+        "semantic_sha256": "0c1db6e751697b91f8930391a81b95545e56214f06dcf73cd205fe594db207fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppStore_domain_f84f56ab230ac721.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0930bab9f5c29660933c8f7f3d04ee5b612c489a15c6c09bfe87148447664b9c",
+        "bytes_sha256": "758df8f8e1df7f70cf5058992dcd6291ef990a5e930b31e89ea279d78781f071",
+        "semantic_sha256": "b3b7958a59b29a271f592ab6ed7597b71c1bb8bae7ab62b1a7e2ab9fa84f2731",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppStore_domain-mrs_0bfd384cf0129526.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "53a189837d45594b92900a671c2aba9b3afd073b1bc8d0de5dc0c2a5ac39958e",
+        "bytes_sha256": "ac44abbcab9a11032a581e35edefa210dd2fa155e9bc5a33c3afb73f549afbac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

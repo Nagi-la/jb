@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-29T03:23:34.759099+00:00",
+  "client": "SingBox",
+  "rule": "GlobalAI",
+  "rule_updated_at": "2026-10-29T03:05:24.817377+00:00",
+  "type_counts": {
+    "domain_keyword": 11,
+    "ip_cidr": 6,
+    "domain": 69,
+    "domain_suffix": 358,
+    "process_name": 24
+  },
+  "total_line_count": 468,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GlobalAI_source_b95ac9aafe397cf8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "360815ae89e8d0dea7f3e58dc137aca3d6eb9ce0ee5aeb3cd64d566944228abe",
+        "bytes_sha256": "e112576d21e41dd2c6db374e65aeab77f5db3a398897554898a3fd3e90cc31ca",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GlobalAI_source-srs_d55f2e0f9e16c76b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1d20cd5af72dc76e9c9afc424ca09b30ccb82784cedb9be58c901f4ec9ff07c4",
+        "bytes_sha256": "3b6866f5441a0c8893e2c90103f7cb0e9292b9022b41341131ba36f06c5c9785",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
+    "https://ruleset.skk.moe/List/non_ip/ai.conf"
+  ]
+}

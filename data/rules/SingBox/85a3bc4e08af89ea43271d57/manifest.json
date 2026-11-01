@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:08:54.399837+00:00",
+  "client": "SingBox",
+  "rule": "PPTV",
+  "rule_updated_at": "2026-07-26T06:27:36.346694+00:00",
+  "type_counts": {
+    "domain_suffix": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PPTV_source_2cf7d907c5a41644.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "395dc22e440f22f39d29da26078a14e3e5cdf80eb357fa0a18958d525e7e295e",
+        "bytes_sha256": "e0830ce7367f4c786ffaf69c94534d28c1100c6d7d8e801e9c64b600ed2ebc68",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PPTV_source-srs_f433bcbef569129c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7ea783afba6a1f025b85e3a2bd02aebcbba5c77a7711fcb9c672d3b0a6a4657d",
+        "bytes_sha256": "51b503e6d0cbb56fc764135d1d25897cedf39c379a88838a413285b85284e0e3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PPTVPPLive.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PPTV.list"
+  ]
+}

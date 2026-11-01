@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:31.977919+00:00",
+  "client": "Stash",
+  "rule": "OuPeng",
+  "rule_updated_at": "2026-07-26T06:27:34.329310+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OuPeng_classical_756e049cac59e2af.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4bcdb274e63df4884593cc1c4656a286e1c6451bb0d26f9c6caf02aab811d3f2",
+        "bytes_sha256": "e5c34dd1c78306e5b181bcfadd3e31ec854aa60c2e4e061523f094104f0a3354",
+        "semantic_sha256": "aaefce5e45b6d7526572d6e62575ec0883b37daf56093cb1082f72e4d3983798",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OuPeng_domain_47087b370e030acd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11474c305c91b15cbb9d921d2c9b12fa092f6eeeb43199261868f6ec77b38438",
+        "bytes_sha256": "772cd2711d731c37ccc52bb3161eac35944e34a2d581f72b3465c9a74055bb76",
+        "semantic_sha256": "2017edc0908f06b184643678df2e93190ff882e8244aa9583e84326db2a51ca9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OuPeng.list"
+  ]
+}

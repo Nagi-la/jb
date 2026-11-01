@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:25.289976+00:00",
+  "client": "Surge",
+  "rule": "BaiFenDian",
+  "rule_updated_at": "2026-07-26T06:47:23.597866+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BaiFenDian_rules_e6ad3ea2ad71c008.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bfe38ef3e233dc78b61b58bd8ca2088a51c0e72b3880c7f932aeaff7c5bb375e",
+        "bytes_sha256": "b89cf06dc60a419657fb961d091a3228e772431be341d913c3b50d93ca1b5fbd",
+        "semantic_sha256": "a4c63619596b705ab2a4c179ba723bbe4b1b97036031a8471ddb3da58cee6021",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BaiFenDian_domain-set_ab6bedb9bef1493b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5e3761b2939131efb52aeeffe1d9f68b81379cf322733dabd1565f89436b6db",
+        "bytes_sha256": "216c193a16b3c406a6bb45d8a7c4f56101087aaa9192377c568813205333de6f",
+        "semantic_sha256": "d4f389393462751f4a4d0f3980bdc2b9fd07f121fb4491bb5873ab08306dd993",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiFenDian.list"
+  ]
+}

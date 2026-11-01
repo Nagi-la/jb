@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-29T02:45:01.727773+00:00",
+  "client": "SingBox",
+  "rule": "iCloud",
+  "rule_updated_at": "2026-07-26T06:32:54.458254+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 55
+  },
+  "total_line_count": 56,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/iCloud_source_ebc0bc80952adfed.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8703a382518143ebef0893ee6717eaac2cedb01afee356a6efcb2c8076ce17e7",
+        "bytes_sha256": "2e0c858774f4c04f18a0adbdb45850cc39dee50719436dee9b8775f94dd9e859",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/iCloud_source-srs_67734c129bbe32e4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f69822afd8b0cfe521422d28793e772f288c5fca1a3549f05dc4be75fa45436d",
+        "bytes_sha256": "f93e944a0a60bcbd7b6ceb3d475cf76395ee8b65d0743000e9ca00cd384804ee",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:19:32.460347+00:00",
+  "client": "Egern",
+  "rule": "Youku",
+  "rule_updated_at": "2026-08-01T04:38:22.137423+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 58,
+    "ip_cidr_set": 1,
+    "user_agent_set": 2
+  },
+  "total_line_count": 62,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Youku_rules_6280002a906d3ba7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4bfe47eba30d99bdeb7f9386fe533bbffccdf8334005a0ca3758b38da1c3de0c",
+        "bytes_sha256": "522f882c4aeedc461c9288eacf93fe87a44b6aabd0e2790cd3d5761d8649de82",
+        "semantic_sha256": "7dd77194768dfc133e689006ee7f01b9d1a2f3f96a1c9be25be3a25c38902971",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Youku%26Tudou.list"
+  ]
+}

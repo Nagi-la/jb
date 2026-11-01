@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:15:37.883220+00:00",
+  "client": "QuantumultX",
+  "rule": "Disney",
+  "rule_updated_at": "2026-08-07T02:23:05.037203+00:00",
+  "type_counts": {
+    "HOST": 6,
+    "HOST-SUFFIX": 242
+  },
+  "total_line_count": 248,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Disney_rules_9dcd23156c2640aa.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "64057ab545207f3e37923e55dc6dba30b852d2df8e4550803af6c6816aa5dff1",
+        "bytes_sha256": "774d4c829d4608bc8be3558f6e600f9188f8a5e28cf05ae3d8c4bb5409f396b2",
+        "semantic_sha256": "28fece04ff6bec8602932c472f09d3f529ac8b24f9360a903378f2876067fd64",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Disney.list"
+  ]
+}

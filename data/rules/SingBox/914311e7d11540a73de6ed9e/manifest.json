@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:14.118532+00:00",
+  "client": "SingBox",
+  "rule": "JingDongCloud",
+  "rule_updated_at": "2026-07-26T07:03:18.269164+00:00",
+  "type_counts": {
+    "ip_cidr": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/JingDongCloud_source_b993e48f9d2f0a8c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cc03d3375d3db9e123d34ad440946b1e26abdcc5cbc83ea86f0c18faf0abffcf",
+        "bytes_sha256": "22f7ce7699e00443d63892ece3e2acfa61b9aea892685f30eb6152761bdd4325",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/JingDongCloud_source-srs_9f40851849b82d54.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "15e5a815ba9d3968d2bcbb1fb7d067d28cc6cfe40f4394de0075b533860a1078",
+        "bytes_sha256": "14a1149c591120b8c57f4da9b5cb0cbd7313ab8d724e1e6436ee88846faaff8e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/JingdongCCC.list"
+  ]
+}

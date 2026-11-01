@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:08:26.250315+00:00",
+  "client": "QuantumultX",
+  "rule": "CNNIC",
+  "rule_updated_at": "2026-07-26T06:23:39.330079+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 50
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CNNIC_rules_2227c3be341d0eab.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "093dc663e78b3fef2a0c97c00c18c162b4b6685b7b49e238f5fe99dd7fc37c36",
+        "bytes_sha256": "4484972083f792bfa30b3cfccfb05607d715db577ec0bea985fc6a33b69f2563",
+        "semantic_sha256": "5c6284a4d78bde705212e7404424f82a8c43dc5ca023f7cb1f5e6065c2deafd3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNNIC.list"
+  ]
+}

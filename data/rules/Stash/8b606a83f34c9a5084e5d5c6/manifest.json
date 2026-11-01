@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:56:19.976875+00:00",
+  "client": "Stash",
+  "rule": "LiTV",
+  "rule_updated_at": "2026-07-26T06:22:21.561568+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LiTV_classical_43ff8d42a85d94e1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fb9696b514f6c829874b4c8e49634ced2a3a87693689278a30f47331e8fafda",
+        "bytes_sha256": "6176b5ad43ff1c573d7f3fd29fabd5fb28ae3467d0aa0090748c43e41370dfca",
+        "semantic_sha256": "f899a814fec918693be0ac93d5c29faee244d9373e344d37633303d79d8b6354",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LiTV_domain_5da5d94e6044992a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5e2331a5a2dcb6f2a5631d84f590b02191da1bb85f08b313f495eff0424cefb",
+        "bytes_sha256": "8cac24fcc938625adabf397515f0b519185d0ff330e2620a31a18c440f5d9c4d",
+        "semantic_sha256": "841c478373dbc6137cd6cbc92a796368adfb466170ae2566790d7a80f39137d2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LiTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LiTV.list"
+  ]
+}

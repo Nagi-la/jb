@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-10-29T03:15:41.735460+00:00",
+  "client": "Mihomo",
+  "rule": "Copilot",
+  "rule_updated_at": "2026-10-29T02:37:38.977400+00:00",
+  "type_counts": {
+    "DOMAIN": 70,
+    "DOMAIN-KEYWORD": 5,
+    "DOMAIN-SUFFIX": 304,
+    "IP-ASN": 3,
+    "IP-CIDR": 4,
+    "IP-CIDR6": 2,
+    "PROCESS-NAME": 23
+  },
+  "total_line_count": 411,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_classical_05e0618a980f4a89.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b8cf6a6c7187f6a7b4e57c851554c9e067b17d269ca60cdc4e4defae9e91285",
+        "bytes_sha256": "c57f51675765719ef87df672e9cbff41c91fb9fe90a8bd55fe8e92f851d96a07",
+        "semantic_sha256": "3c41611bec5971c81249b7c0a2083bdd27364654521e6648ff0200a3b50630f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_domain_3f48286ec3eb2944.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "29a81e2da806d3379f467689bd98b27f3ba270122c1b85233fd62127ae4ecaf4",
+        "bytes_sha256": "4b2715f53d7c1299201a9ead9a9ed0874662180850a5c99d990b144780f13943",
+        "semantic_sha256": "d99988a121745d4853c6eb264e7f69a2f1f1f34624600414ae2f5e58bfe86a47",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Copilot_domain-mrs_5b77563f4d477ade.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2075d1ea79ac43b395fb70201b3a18d9e7c315277bfdbd966b73d8af5841665f",
+        "bytes_sha256": "6caac4a03739301f7326ef0312450ac080bc5c18813b5b1a51e142168c6dd468",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_ipcidr_6548909c1706829c.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c925296d0f0182a06bd6a022cc8441f660ff259d6b259488f65f268a3fc6176a",
+        "bytes_sha256": "f2442d34e6272606ccc1954c27bab6b72d355173db2019413366ff5b2647fe90",
+        "semantic_sha256": "ea0dbe9c841fe05cfad217af1b1025a77175e39e933e116ba6cd61a1555d1847",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Copilot_ipcidr-mrs_8f64d7506c0c44b1.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f67bd0fbca7e214a31c6cbead80a166bb3e8a568e62dba45554eeefa11153edc",
+        "bytes_sha256": "839c4a6d89910572f193135af201ef7ca9b6eebfcd8f2af1061066c65710d39c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_classical-rest_4678143e95380431.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b819a062e4126068ff817096c23083aa831728230534cdb7404cc8a7fa11110",
+        "bytes_sha256": "f69d36dbaa57f15bdb984371b8899b67d453fa1561650367d1686a5c9058431e",
+        "semantic_sha256": "b848029722bae5ca6a473c2a904b6c194da76ec13d9d8063d8f940daa0ca0666",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list"
+  ]
+}

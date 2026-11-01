@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:18.264729+00:00",
+  "client": "Stash",
+  "rule": "HKedcity",
+  "rule_updated_at": "2026-07-26T06:29:26.799377+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HKedcity_classical_903a64037025a4d5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d06a00a1d85004dab2b8fcfb03b47be581fbbcec1fcccd0007838d4f69e3024",
+        "bytes_sha256": "2a406814c5733d482618a1fac2699af8628271ebe02ff61a05dfd325ae354fff",
+        "semantic_sha256": "39968ebca7a5e23388fca211ad94934c16cf747603f80864ebd630378440dc8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HKedcity_domain_c4fc29584a466fb8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e1b7b604582553b7422a3fdbad54a8546b36b895d1ab80292738e4cbeffe231e",
+        "bytes_sha256": "f6f9d526e1aa3937869e39b444e7901a1054c588254ff75b1b0716be7b457ac9",
+        "semantic_sha256": "5dd95560b73b56ddff2c29f8b9d6a6450ba1a5d758aab22b3e4d91d4ebe4ae09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HKedcity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HKedcity.list"
+  ]
+}

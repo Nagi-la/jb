@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:43.768312+00:00",
+  "client": "SingBox",
+  "rule": "Teambition",
+  "rule_updated_at": "2026-07-26T06:28:21.441472+00:00",
+  "type_counts": {
+    "domain_suffix": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Teambition_source_2181254c40d36d11.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3f11cb30f4443c36dfaf9b04f1b856bb963434769159ffadb2b275102c54c71e",
+        "bytes_sha256": "a421a5586569cf1f22004109ec5a1be1dc0afe8777dfe175e5cd55874156063f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Teambition_source-srs_944ebc6ddf956d62.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7cace70f1906a9d7ff284d72b6d58f59351566fc156298bf38abac985b6bd545",
+        "bytes_sha256": "d1c2de8c93e713477f782f7ff2bae6e690822a55c46b88f7f375cd294ac9531f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Teambition.list"
+  ]
+}

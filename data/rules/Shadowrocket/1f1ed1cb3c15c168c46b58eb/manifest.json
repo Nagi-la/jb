@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:46.909961+00:00",
+  "client": "Shadowrocket",
+  "rule": "CSDN",
+  "rule_updated_at": "2026-08-17T01:59:49.967105+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CSDN_rules_5ec416403d2dd492.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c071b66d64f61777b734a802acd00e3f06aee766543d869f3242d52920ff08f0",
+        "bytes_sha256": "0016df88eed2c0aa7a0581babf8d31289c197d0ab2ba994f2c40116b5212e19a",
+        "semantic_sha256": "b41ff2faf6afa059dfb9a167288ec5ad23cb360cc014adefd358ea83012bdaeb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CSDN_domain-set_cccfb16475afe9fd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "084cee43cab06acb72dede6bc988eb7a11e4a7e434d74d486feb9145bbf18430",
+        "bytes_sha256": "f3ffea3a52fa791dece73df34d6221ece4866a0d9ba71c6895575a2e23b62194",
+        "semantic_sha256": "4211a1daca3f497a399983b318e8403691fa41dbdd141d05170c92f39d627bca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CSDN.list"
+  ]
+}

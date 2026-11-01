@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:04:38.068344+00:00",
+  "client": "QuantumultX",
+  "rule": "CBS",
+  "rule_updated_at": "2026-07-26T06:21:30.331392+00:00",
+  "type_counts": {
+    "HOST": 4,
+    "HOST-SUFFIX": 34,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CBS_rules_2437c142037e591f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd3464afccad782d08e6dba1cc2f73bf14b788c8487f8a7ef71394a5d77e0e91",
+        "bytes_sha256": "86a3e313930fd48039d47877f7c40682313cd692f1b641bbe3362534af0de2b3",
+        "semantic_sha256": "7dd02b0a5b44d8e8fd86ae03af466f3b90c227d2766157a708d4fde16e6036e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CBS.list"
+  ]
+}

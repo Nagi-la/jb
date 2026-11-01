@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:26.687350+00:00",
+  "client": "Stash",
+  "rule": "Trae",
+  "rule_updated_at": "2026-07-26T08:34:49.571685+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Trae_classical_6b68980f3d7a57b4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00f9891adfae75073e565424672f0004e68051df50244f0eae9368c48a0582a5",
+        "bytes_sha256": "9fe871396e7729b0ffab3f875672883f00b3edaf931221b075a3a306b34ddc9b",
+        "semantic_sha256": "6c9d2f967bf5393e7716d75753fc442bfdb1176e476c65c8475a47381571aa19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Trae_domain_4fcfb9ba202299ba.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "409c854653d624c6bdc13be534a772e1575fc96e39e0079131d58908ac587841",
+        "bytes_sha256": "637dec849175f0954830303961a2c3c7bde08d36778a87533522bbef5742e89d",
+        "semantic_sha256": "ece4983d089d70c6ca8ef804c0ba90d4eeed0de70c59be71a89453e07d6b62f0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

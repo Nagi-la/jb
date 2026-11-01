@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:44.054974+00:00",
+  "client": "SingBox",
+  "rule": "Wikipedia",
+  "rule_updated_at": "2026-07-26T06:37:20.269911+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Wikipedia_source_39556e1c2886cd3a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0589ea1374a343fb60f7a763c6373cb82b2bbef9abd6bad36d2c3204fd97210",
+        "bytes_sha256": "12695c41da1150f5d049785191324795322d9ed1066f79efe882bc5aacbae471",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Wikipedia_source-srs_8f2236ff8fe1fd2e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d8ae4de8935ae3c33fa3d65439b18184a5e20e8f8186487eadd0a2a47ac0b41",
+        "bytes_sha256": "0cfa9bb502e0b4b79e9639adad8e895bcaa9c294bdcf08530cc79949a15df515",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wikipedia.list"
+  ]
+}

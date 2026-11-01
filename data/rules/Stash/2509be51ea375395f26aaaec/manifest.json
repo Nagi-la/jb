@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:15:38.432125+00:00",
+  "client": "Stash",
+  "rule": "Disney",
+  "rule_updated_at": "2026-08-07T02:23:05.860998+00:00",
+  "type_counts": {
+    "DOMAIN": 6,
+    "DOMAIN-REGEX": 1,
+    "DOMAIN-SUFFIX": 242,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 251,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Disney_classical_2398f526d51e3086.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5141e27e46b385740d35762a90863ac5d9d4afd376a0295e17bc3ff1a9e16118",
+        "bytes_sha256": "f4c88375754a5eab8e2a530cea800ac0b97474f29a3138ce8d51fbd576f6de0f",
+        "semantic_sha256": "6952ac99b8089dbed22d8b833341072a0c47de879ed76e87c293a3aa55ca0e20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Disney_domain_5f08879850e8fef8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f947f2a7856e0aa2723ff55a07e7214d985d6a68ccf8788234a38b43f30b6b19",
+        "bytes_sha256": "bc26a978db50a43eb3b788977eae153296ffa8f8dbc1a53499cf09ee06b9a3de",
+        "semantic_sha256": "09f6a89d7cba741e3cf382dad69105ca1f1b734f9efdc6efa7c809bbc3adecca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Disney_classical-rest_770bf72e4379f5f0.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5308265842c3a7ad0c8348cfc3511a179afca5ca2fac3ea472d552083892de9a",
+        "bytes_sha256": "6b9b5dc6ce888c5e8a7e05cc52eec0611027703fa9fe7fccdbf50d13800d38e0",
+        "semantic_sha256": "671d75fc6fb4cbf7c0a76314b60cd3828cfbc04365b23456e358621f30ef9c9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Disney.list"
+  ]
+}

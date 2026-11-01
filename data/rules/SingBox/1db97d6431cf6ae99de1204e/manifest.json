@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:42.908631+00:00",
+  "client": "SingBox",
+  "rule": "PandoraTV",
+  "rule_updated_at": "2026-07-26T06:22:22.378248+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PandoraTV_source_a9dd2369b8f540a5.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e0ced19141bd5e6e379b636294743b7a8190e337173db45fcc45a5294e545639",
+        "bytes_sha256": "64471a5b0d574e4d834c81060329a09c1d483055f770e1040c0a5644ec598a00",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PandoraTV_source-srs_47db34301f5386e8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4d6d2c0320a5d16faec71f4c3fd4b20090bbba91cb94f2be1d7789c98401c2cd",
+        "bytes_sha256": "b29d66e438025be2b70a5bc1620a5b1b4228066da9d819f40247f4497fcbf9ac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/PandoraTV.list"
+  ]
+}

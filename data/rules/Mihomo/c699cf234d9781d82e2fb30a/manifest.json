@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-08-27T02:16:39.918275+00:00",
+  "client": "Mihomo",
+  "rule": "JinJiangWenXue",
+  "rule_updated_at": "2026-07-26T06:25:41.466220+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JinJiangWenXue_classical_9c784246b217e91f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "668c74af24e190d0d3d9bd75237310c1d40de6d38659f79e53b3b5c8dc5dc58a",
+        "bytes_sha256": "7e0ce6bbd197fed7f04681bd0083f46fb3b5129ab95ea50c6d58a8257374e9ef",
+        "semantic_sha256": "6bc5b43b307eceb15a69972efbec83bdf71489510bdf4f1f444a05079c264627",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JinJiangWenXue_domain_c5a450d04d1c22e4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3eea716a5123e4e63dae4106190d6be0f68b653b26dbfeb42ea818ade49cd0bb",
+        "bytes_sha256": "c193b7fc1b423815adece9ac80cbe5d47c05553d177ae8e01b64f7410bce5282",
+        "semantic_sha256": "ea97f9e1166300baaff9a823e20db9c4b5908f1166b79617fc0ef87f8a343149",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/JinJiangWenXue_domain-mrs_d3900bf858f5b62b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0b79496cc9cb279b97eeee9327889be1b92be086ab23a59bc4c5e82460756e85",
+        "bytes_sha256": "4eb914b9c9cda2a96793cabbe7075d2250511468724486ba5af190d5c9130ed1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JinJiangWenXue_classical-rest_f4cb3cf2f3f6a7c7.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0d2a5c51660652b2e6536cdbd8a7dba182735ee84437998bbf5ba40ad1df684",
+        "bytes_sha256": "7efa8b3e0aec2a5e9e3bb15c578bcdf8861fe7fdd8a8be2e0ac089ede758ea10",
+        "semantic_sha256": "b547b89687c40da3fd0b2f70f0cc8e7ddd69795f58e41dbca3aa17a581bebe24",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JinJiangWenXue.list"
+  ]
+}

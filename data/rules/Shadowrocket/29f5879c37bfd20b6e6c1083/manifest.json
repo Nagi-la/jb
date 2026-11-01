@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:15:25.308860+00:00",
+  "client": "Shadowrocket",
+  "rule": "HBOHK",
+  "rule_updated_at": "2026-07-26T06:30:09.087896+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 27,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOHK_rules_bdf6ec35872fcc8c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f2eac2ecafc6de9461aef2d137729a718168fc04e8a64658e8bb5aa096a3f5f",
+        "bytes_sha256": "e96b54032240416bf9c2d70b8a88c6fcb0f9d0fb760293d6306ca50a9c165f46",
+        "semantic_sha256": "8819ae977cf6a8f2fbb78ad3157511ea2ee860da1517062d43e9056e4fa5c7a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOHK_domain-set_3cb099d78b346365.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "924b3696df417666de5e837c892c591e47a15df809f948d2e016c08ae9c35b6e",
+        "bytes_sha256": "4fab8a36752c78e0846c28fb7fb6d9d708d94eacc610f816573481389816a98a",
+        "semantic_sha256": "011a47062c71f0c1d86fdcb2605180419252b5d9632094f060a8bfc82bda6e20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HBOHK_rule-set_f10ab06554036082.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed1b4e43c7cee52f4470aa01ca241c4f41f4a904f428baf9418adad409194996",
+        "bytes_sha256": "88618cc710602f6bd8ea42d922f3af6a22afbd4bed8d707c495a9f88cbdb38aa",
+        "semantic_sha256": "423ba4be0674838f51125fd5bbc70d4bdaf3afc388b185927b8b9e29d206b4a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

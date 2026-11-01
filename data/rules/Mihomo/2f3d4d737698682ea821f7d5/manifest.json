@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:48.532252+00:00",
+  "client": "Mihomo",
+  "rule": "CITIC",
+  "rule_updated_at": "2026-07-26T06:23:23.702990+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CITIC_classical_52eb6b1da7e9b934.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "201bfd50af3b72e3e25c44a17152eada9043a2e17fb0d4c9374cbe4abf711abc",
+        "bytes_sha256": "7a48c45ce0f28a57a1000d5128e951538dfb031e6d583ff153cac6684948b08c",
+        "semantic_sha256": "79d22495dcaebe87c9e8ba6e79a442ea927433ab2a1e47972bed273e68052c4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CITIC_domain_0c1d03b423212b25.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a117843adfbf0d7a07cc45d241224fed4e84c3d3d3da0a75148e593db5393c24",
+        "bytes_sha256": "bd1265beac8bc576ae05b716b78a46ff236d5939d18d2d43db6fd86e991ec7a3",
+        "semantic_sha256": "b8df2fac9426d26992343e3696cc19d36af7a349607868ce7c5752c96b6ea475",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CITIC_domain-mrs_abc48d6a6cbcb33a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5edebec8d756c98220e0ccfc105945ec880082184106930885e1451a2ba97a99",
+        "bytes_sha256": "0c24a604cc648ce2739a8fa3293f4baf2acc887d2d6d5334c58e52ff0526929e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CITIC.list"
+  ]
+}

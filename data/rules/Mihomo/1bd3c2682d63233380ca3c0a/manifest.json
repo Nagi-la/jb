@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:08:54.018422+00:00",
+  "client": "Mihomo",
+  "rule": "PPTV",
+  "rule_updated_at": "2026-07-26T06:27:38.677713+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PPTV_classical_cb127b9193b556df.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eeceed11d9e2d145d866ca51f4ed66ade9b981ca41864406a22585bc9b4d2917",
+        "bytes_sha256": "611553835aa4d6ab7ba5b4e604c6a57fd2d6df17d5738fd36b7c7c3ec66c30f3",
+        "semantic_sha256": "709f4537860541448fdcfea4a5e424e1661acb707a2c73e1bf54f6ddc1bef656",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PPTV_domain_b7c9e9630f01f286.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b7cec9dd6d0dfee27e9862bcc59d32557f1f92f413495be9dec97144081e571",
+        "bytes_sha256": "cdd7c655293d86a85c8c6da83d0fa54530b76de3c880fa77bea9f267a1b8f8b4",
+        "semantic_sha256": "4d56b78fd10011e079b35dbdbf6af1230f5ba9c6c09a9a3f15b50a1c88250e20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PPTV_domain-mrs_2643bf9cd979daf9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9a576a2b0b864dfafa592cc8e0d1c55878fd47bd8b9d9cb5d44a951c2b5bf42f",
+        "bytes_sha256": "5e79625966cd5568d2f0bc46f377beaecafed8050cad118177e0a4e431a94472",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PPTVPPLive.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PPTV.list"
+  ]
+}

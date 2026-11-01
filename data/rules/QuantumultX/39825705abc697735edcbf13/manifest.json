@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:17:10.367240+00:00",
+  "client": "QuantumultX",
+  "rule": "EastMoney",
+  "rule_updated_at": "2026-07-26T06:24:44.142590+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/EastMoney_rules_4e9f80f6fc4d4282.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e23a8e1ac114436bdc5f50f301c78be5f600489cdd4f327ae1da67222be718ac",
+        "bytes_sha256": "8253a5a82056e4014abbf6df767608527eb5c7c0c0a6f6b6a00bdb5dd37b51ec",
+        "semantic_sha256": "c00c0384b4b6a1a1229a5a47d8fede9aa8d4824d25c35b0dbb56409e242ae97d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/EastMoney.list"
+  ]
+}

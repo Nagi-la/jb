@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:09:12.073889+00:00",
+  "client": "Egern",
+  "rule": "iTalkBB",
+  "rule_updated_at": "2026-07-26T06:23:01.196923+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iTalkBB_rules_89f094a5ac8759b7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e381584132a7526a172e3120850cbe13dbc0bd57b8ddd1fa6c9b47e261b257f",
+        "bytes_sha256": "e533ee2bcfc0b60b7217ff98df7dd109d1132e1fbdb80fb79c665b2d5397e31b",
+        "semantic_sha256": "253e83237c4fe872044d98a388ee44e04d19c47cd72218ed080559f36ff02259",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iTalkBB.list"
+  ]
+}

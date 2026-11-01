@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:05:23.745356+00:00",
+  "client": "SingBox",
+  "rule": "Faronics",
+  "rule_updated_at": "2026-07-26T06:58:22.192286+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 18
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Faronics_source_3eadf715c0d07dfe.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eb17c0010bf27c71e2bc709927f67f55136a1b5f735f79da2ccc1e0da180a2d8",
+        "bytes_sha256": "80a6b8cb1afc7b3d1a23419cfb08cbb53376246dcedf8a17863f86014d3efe54",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Faronics_source-srs_03c15f506d3fa69a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2fe658e1a680061cd168800136cc95c851331a5fa4f07aa0a8c35a2dfc53576a",
+        "bytes_sha256": "f7ac9c5da2c3deb5594159ab0d6a210be09ce5892d1c721b94e58d5bd282e5d5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Faronics.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Faronics.list"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:01:28.567591+00:00",
+  "client": "Mihomo",
+  "rule": "FangZhengDianZi",
+  "rule_updated_at": "2026-07-26T07:17:26.591812+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FangZhengDianZi_classical_485126d9a2e582fe.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "078e02adae1dffd65fb6864eebee9571251b684b418f4c2a84a3f16bfe4d3b85",
+        "bytes_sha256": "ce79d02bbfb368a05913ca85f523669564398f897340b0d3c371ad7854c7d4e2",
+        "semantic_sha256": "e3c6c18b8770ac2439f9169f914c697822070ca54139ca23dc4afcdad7c6baa3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FangZhengDianZi_domain_0dd7505ee2214231.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27212d1819d64c00da7be975c441a0165ed00b70c7e7e3a3ddcbcb73767d4373",
+        "bytes_sha256": "c3900122aad1b3c3a01a1feb2429d8047959f5ea22f8c44c6f91a666c1133a7b",
+        "semantic_sha256": "4831bcd8b10a56d6f8ef07e40584e8f39d29da66bd67949f2f13cf7bd258d7b3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/FangZhengDianZi_domain-mrs_ca2af20a5fce0759.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "24eef97d49fb6f153a8688b7002739417bdb6596dd0454aa70bdb1133778f909",
+        "bytes_sha256": "ebb78e21d68dbe9dbf4a9a260aad287aa8c190d0801f3c46995ca29ba91dc5d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FangZhengDianZi.list"
+  ]
+}

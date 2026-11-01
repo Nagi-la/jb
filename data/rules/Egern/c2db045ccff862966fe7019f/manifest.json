@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:57:32.919562+00:00",
+  "client": "Egern",
+  "rule": "friDay",
+  "rule_updated_at": "2026-07-26T06:23:01.460811+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/friDay_rules_91584e6ef49a60a2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b9a01e25afb6c2061e503139ab48d4c1099a03004a581f37e9bce2ee5fb502d",
+        "bytes_sha256": "54f5171eeecb84c2d74fdf26fc12cda364ce3de4d394db5f8799c03d5d718194",
+        "semantic_sha256": "a669938df7959ab804e53ce1b512b5a88a749d82af30e5a7d68f2ca5e60798e1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/friDay.list"
+  ]
+}

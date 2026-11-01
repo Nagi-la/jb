@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:55:52.241428+00:00",
+  "client": "Egern",
+  "rule": "Yahoo",
+  "rule_updated_at": "2026-08-27T01:36:24.209637+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 177
+  },
+  "total_line_count": 178,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Yahoo_rules_893637617361a331.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9332f257c1afbd8cf3445c5e9ed1ebfb7e0bdb62427e6d9c1966b0862673c192",
+        "bytes_sha256": "fb251725f60b25d5c5387799d10c3fcc0ab0a88a1cf530e70491b9e40a949acf",
+        "semantic_sha256": "f449e70eaeda7635d73426c2a0cc289f7297ffb0e38f83039f71a1c4fd9adb3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

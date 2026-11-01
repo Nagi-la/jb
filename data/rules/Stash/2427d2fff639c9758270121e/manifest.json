@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:06:45.931768+00:00",
+  "client": "Stash",
+  "rule": "WeTV",
+  "rule_updated_at": "2026-07-26T06:23:02.345166+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeTV_classical_48830fe1ab7c3048.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39762489172a8ba047b47ebce41e661c669d4588f40b1bb56fcdec86da248f7e",
+        "bytes_sha256": "c9a0d952e1b904a7e1422473ec39775983e84645e7bb75317506f5ab0e87f19e",
+        "semantic_sha256": "18b9ea0c1e034a4d2827aa1705da5ba28900eb495a71ffa370085375b30e65cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeTV_domain_780ead38b427535a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c444556237c37b7f4fa0981aed2c8b7bc29b2d5a377a3cb5a1043df28b73ecf4",
+        "bytes_sha256": "4100fe36f69cf2efb1f5f5217c42dd3db0b8295555e153923deec1da3fa4e4b8",
+        "semantic_sha256": "03d203c43ce37046b7d4703f77273331debddcb0e2bf8fa569eae0295ab56f4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeTV_classical-rest_4f634f60debe40b6.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01d15396d16b706f9db7e116f8357383938812dad2a9a1587a7fb0b8feca3dab",
+        "bytes_sha256": "956dfc0c6a23054699a405afdf523ebcdf438dfb7e7375f839926a44367e05f4",
+        "semantic_sha256": "f70afa07fbb7bf834b3f425f3033de3cadc2fa3288dc7dc8c6fd767360b2f7b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/WeTV.list"
+  ]
+}

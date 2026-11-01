@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:05:58.414483+00:00",
+  "client": "SingBox",
+  "rule": "Nvidia",
+  "rule_updated_at": "2026-07-26T06:52:20.216915+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 62
+  },
+  "total_line_count": 65,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Nvidia_source_debef381616e6376.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "236db495396c3a292f3e7efb22be37eac4373766c9d9dab5231709a570e73764",
+        "bytes_sha256": "53b78dcc703ebe1c4620095d7ffe84d8d212b22e78fb7fc90b029397208210d4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Nvidia_source-srs_3abd8c5ae3f1bdc6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7fd8f897b77ade4fc4153ed44bb98ffbdcb4ea5cbc714461767624d11737f59f",
+        "bytes_sha256": "73b3a88332ed3d230cf042203bc2f240e97c7aec20d352bd1b8897dd7988030b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nvidia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nvidia.list"
+  ]
+}

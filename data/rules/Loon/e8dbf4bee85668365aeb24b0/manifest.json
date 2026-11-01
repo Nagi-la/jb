@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:56.757509+00:00",
+  "client": "Loon",
+  "rule": "Sogou",
+  "rule_updated_at": "2026-07-26T08:34:18.351786+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sogou_rules_75d60875f80fb626.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cbd97ba56eb2f5089d4df8edbbd6a1899f665f290e3c59b0cbb29956faf6551d",
+        "bytes_sha256": "bf1ed95c97b8e77587ff5b5603debfc7dfb3cc46c09a4e63daeb3216a99ce036",
+        "semantic_sha256": "c268ed0e6451d109643aa13d9e9cf7c81587af39cc329bf0c0f4200758ae1c99",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sogou_domain-set_c53be15202bba9c3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc1d1fc8244e64ef978a4f940fe63fbf876baae4baabaa2a69eaa0ee7a26a662",
+        "bytes_sha256": "cc1b566a21f5ae014eabfc5bff6d372d82c43dbef7a813eb8913f36afc800f01",
+        "semantic_sha256": "53b41a4969812bf903d13ab5b1a803d81725e74bbc823408eb7b2010785f524a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

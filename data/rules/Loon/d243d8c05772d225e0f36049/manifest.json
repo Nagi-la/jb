@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:04.803075+00:00",
+  "client": "Loon",
+  "rule": "OnePlus",
+  "rule_updated_at": "2026-07-26T06:27:25.479553+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OnePlus_rules_9fc33e63da1d3430.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39d532e660ab44fcca91e7299f9374a20c55130c3177ebd0c0db3cb35d2e5de9",
+        "bytes_sha256": "74cb84db20c42eb440cccce1b17eabbd8ef53a114d2327988f9888604fa3fde8",
+        "semantic_sha256": "3391d24f5176cfd614c7f098e4388525f17d93a32b93ad52bda902b73126e865",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OnePlus_domain-set_9cf69b92b81f2e29.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2bb93d01399abefdc831c6bf71e5cb4f153e8e96a4355b10b1f4b78f37b8abf4",
+        "bytes_sha256": "1b0283b2b7a5a9c1034b21c1460373a395890ce8c0670eadfa9ad7ce372040f9",
+        "semantic_sha256": "a745fd8c12b77d3b321c12e8f48d09aea391cf26c67db547c3f2b394a2c142e9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OnePlus.list"
+  ]
+}

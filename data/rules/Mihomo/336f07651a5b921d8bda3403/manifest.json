@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-29T03:01:09.486023+00:00",
+  "client": "Mihomo",
+  "rule": "ShiJiChaoXing",
+  "rule_updated_at": "2026-10-29T02:37:33.899152+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ShiJiChaoXing_classical_4dfb0c5392d4aa0e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bebb42592d2096624a11e0abf8da8becfcdd00c187d3612050dbe691e5592542",
+        "bytes_sha256": "702063b3902ce1759bf730650318cfcd67d1b96dd37c3565fa35cf8312856398",
+        "semantic_sha256": "03b750e0530c0920973a1949efbefbfe21a6f754c0b7dd92fe1ec53ffc4db075",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ShiJiChaoXing_domain_0dcb2b769c5899db.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a83cfb69280b0b575931a14c52a1d587c61c485949999dfb68975661e6855e9c",
+        "bytes_sha256": "adf825b3ccb65f6761eb1d266e329c6236e2c048eff06921fbbf973ad7649ffa",
+        "semantic_sha256": "abfc96c16e0d5b6d27b981ea61f3f4527ea017d6e92cee25cddc1300f60dba71",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ShiJiChaoXing_domain-mrs_bcb6c9b4d057fca4.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f4a806e50c5828fc4ad639463673e0488dccf968b3ce8a20f7c36ec8f06e11ea",
+        "bytes_sha256": "96603d585b3eb41ad4b927acc5dabc1807d73516a6b095a2b2fd0caad8380b15",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShiJiChaoXing.list"
+  ]
+}

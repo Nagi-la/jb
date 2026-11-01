@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:21.859872+00:00",
+  "client": "Shadowrocket",
+  "rule": "Dailymotion",
+  "rule_updated_at": "2026-07-26T06:21:42.411830+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dailymotion_rules_d787ab25d2c55076.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5bce690026def14f63cf156285f026aef3ac51c0a4d96b01e1f82ab2b951cf7",
+        "bytes_sha256": "fb1a47f79cf98cda3954e683c17f2a7e40764767b887772ac96d451ccc6037be",
+        "semantic_sha256": "c7578b78858e0d1de7107fd095aeae7fa819aa42db7195b03711ef83ff66419c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dailymotion_domain-set_700d2c3435648d4c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "efb235be5c0ccb0067325ce2609ef6e384ec1cb2a88e74db20181b01625b2d78",
+        "bytes_sha256": "2415663e0f1aba4564c6419c85d82f6ecde35b7ed7ed7e6196e876cfed79f71f",
+        "semantic_sha256": "bffae3bcb128391ef1e39ad69d7998c47e6ea019dd71411d056ac9c491a1d4c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Dailymotion.list"
+  ]
+}

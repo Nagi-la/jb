@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-08-27T02:05:42.845810+00:00",
+  "client": "Loon",
+  "rule": "AppStore",
+  "rule_updated_at": "2026-07-26T06:32:47.545279+00:00",
+  "type_counts": {
+    "DOMAIN": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppStore_rules_ad57806869875608.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0db0121c0d93b60439423c8d22487f7e3b183cc8884a84c094089a97f619d49d",
+        "bytes_sha256": "b17ccfad14818be2b0b4cd34f2627f09045ea0d0702852c8b90980d1959a0c8f",
+        "semantic_sha256": "13c05ffcb8df747972456307eb1e4407e9c908bc78e8a4ebe50872c51750130d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppStore_domain-set_a2e32ae0beb991af.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8642615dbad182c3449b0d5bc48e79ce60dfc627a776300e08e97fcb04550d24",
+        "bytes_sha256": "2a4b9e959d546f6f09418c272a8469c4f3e37d6e952781d6e6cdbe9bbc46b07f",
+        "semantic_sha256": "44ca9aad8d74199f4b5da0f79a2de5b55978ba83d657674445592145b427f79a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

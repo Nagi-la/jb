@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:16.851240+00:00",
+  "client": "Surge",
+  "rule": "TongCheng",
+  "rule_updated_at": "2026-07-26T06:28:28.311016+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TongCheng_rules_610d06556ada0a8f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c29b2c4950e6ce5443be4ca1c0cf0285ce8e70f82d9493f10e015bd65f7aa39d",
+        "bytes_sha256": "afc6898612e75230ac2ef4cc17c05fc9910499061392292af35edc20fe61c25a",
+        "semantic_sha256": "5ed58a54929b3fb98aa4c9ecf1e40240b4f6bcf714f443aef87495e9ae761d8c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TongCheng_domain-set_969a9213503857da.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32a2e37c7977a8c7f2c10a59e7d2d0547fc24e3d415eac86fba18e7902b70f4f",
+        "bytes_sha256": "cef12f98e79378bb51dd570cbf363f2839afad2dbd7052a718be7813b0fd7a41",
+        "semantic_sha256": "0b46ce385fb22bb4bcfc4e16e545f0318d3230463cacb3782b94441bd845a94b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TongCheng.list"
+  ]
+}

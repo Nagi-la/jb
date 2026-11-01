@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:41.330462+00:00",
+  "client": "Shadowrocket",
+  "rule": "Pinterest",
+  "rule_updated_at": "2026-07-26T06:52:57.615722+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 52
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pinterest_rules_40f0d10e5508ea21.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34cc25349cfa4b8b0aa00abd9752e5818536feea3a06de8d7eddaa9f32b83dc9",
+        "bytes_sha256": "4e0dce9bfe3a51548e8b304394f371f7fed25e219b089286728a511e2341c31d",
+        "semantic_sha256": "9b0eebba3a9cd522b1ab9c0b1bd0e162cac2f83d91e849c9759a15a4b8dea4c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pinterest_domain-set_9ada20cef639a21b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa40030c2d9e9fa84a86d4b7877d371509ee1c3931eea31784b8304ee24e1b59",
+        "bytes_sha256": "e86d7e3659b62509f649fa3a4ec5818a821c4f37cb37c11b70a8fd1d03a74fda",
+        "semantic_sha256": "e12e5ba4c536442d51431bfbded25e1ac09f9fee708946f2385f6fd3073b73f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pinterest.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pinterest.list"
+  ]
+}

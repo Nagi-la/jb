@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-29T03:02:08.447364+00:00",
+  "client": "SingBox",
+  "rule": "Developer",
+  "rule_updated_at": "2026-10-29T02:37:34.211194+00:00",
+  "type_counts": {
+    "domain": 91,
+    "domain_suffix": 630
+  },
+  "total_line_count": 721,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Developer_source_98db24e508621947.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7855315cbed71bdbc39f0f4bf4fcb3f4b60546276ed6698abf540c2b03cc8397",
+        "bytes_sha256": "d1bc55fc90ea1182affccad5785338eb1bd08f6cd7db2c71865cdb3f29be374b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Developer_source-srs_2fdcacf9cc7e299e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "772d528d7bc3b2a79ee92be41bff70333b6496a125f0bb7890eb197ffb1532d1",
+        "bytes_sha256": "8c8da4af0abe11c93e5f192615e1322c67d0baf09d0ef51de414e4a2fdbea2fa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Developer.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Developer.list"
+  ]
+}

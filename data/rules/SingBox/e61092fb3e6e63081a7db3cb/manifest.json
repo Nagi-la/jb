@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:46.542159+00:00",
+  "client": "SingBox",
+  "rule": "ClubhouseIP",
+  "rule_updated_at": "2026-07-26T06:30:17.029653+00:00",
+  "type_counts": {
+    "ip_cidr": 100,
+    "domain": 4
+  },
+  "total_line_count": 104,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ClubhouseIP_source_eb1b7a6d75085305.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "650facc01ef03930b89dd982f621074ac1448fd0ad8bee9d2652bfde698bce3f",
+        "bytes_sha256": "275a7a1e3f296444ec1d0fe721a7eab3720f9b5c7d74e8f4290e3e9e81723960",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ClubhouseIP_source-srs_7c52deafd064358f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7adfc5f6a896e1a45792b76adb0932b9761373d1f5be49928b76fd5e323e9a99",
+        "bytes_sha256": "197c088881f51eb971c7865340b292fa7d54671db9afa14592cc056bce53d08c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "需要与Clubhouse规则搭配使用，ClubhouseIP走直连，Clubhouse走代理。",
+  "providers": [
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list"
+  ]
+}

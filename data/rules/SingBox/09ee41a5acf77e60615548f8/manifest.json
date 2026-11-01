@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:11:50.542244+00:00",
+  "client": "SingBox",
+  "rule": "AndroidDownload",
+  "rule_updated_at": "2026-07-26T08:24:27.135436+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AndroidDownload_source_7901010fcab1db59.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c09e39441b91f43531924ba51eaecfb403efb2e4de8ee59c47d4a86c226fb153",
+        "bytes_sha256": "8f952a1a28726fe6ae71b7ecbe2b8b8f5436d6c9c157db645cb0358919021e74",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AndroidDownload_source-srs_808c014e8a5fdcbf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "312ff1e887ac018a718086fba8fe12fd3c858f05488ad0ca9d28e1179e4aec35",
+        "bytes_sha256": "d79e88e75553462e273bd253fe6cdeba244146dc83ce53c9398fd0e0804a670b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

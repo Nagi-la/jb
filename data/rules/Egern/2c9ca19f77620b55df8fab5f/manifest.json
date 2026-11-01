@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:34.656378+00:00",
+  "client": "Egern",
+  "rule": "TapTap",
+  "rule_updated_at": "2026-07-26T07:16:26.245141+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TapTap_rules_b368c8296359f5bc.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9bbc66f4db034d7f420b2dabc1979db0dd6a1aa2ba938c85ef9b100e97abc4ce",
+        "bytes_sha256": "768659c2812b05ddc14fa6536ccd9a304677d5541dc303e9537fbc7b9eda5321",
+        "semantic_sha256": "afb50f966902b4a1503feaa2af059d02c9a22ef72338102c639f1c45515365f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list"
+  ]
+}

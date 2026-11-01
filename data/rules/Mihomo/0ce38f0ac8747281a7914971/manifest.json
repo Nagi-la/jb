@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-08-27T02:01:38.314588+00:00",
+  "client": "Mihomo",
+  "rule": "MicrosoftProxy",
+  "rule_updated_at": "2026-08-07T02:25:03.211800+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 80
+  },
+  "total_line_count": 84,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftProxy_classical_c8ef3901eb8f74b2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b7380d048287c7db93365900d82223bca69aa46e5f9d9b5305b21eaed986692",
+        "bytes_sha256": "3dbde016e913b233df46869279e43db261b82b1e1b6a54110bbfd12e9db767b0",
+        "semantic_sha256": "35f59495edea0682a60f959c41a291aaa191d11f70fe6cfe001af1f142ceec96",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftProxy_domain_82c7f8e30e9c5d9b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7bb7c56205ab01c8685dccdcec8de8485d39d2ec51afb533465a8495efd34166",
+        "bytes_sha256": "30f0ec37495e23c788cffa699ef92b2d042c61a79620ce5bd115ad1efc7f50f7",
+        "semantic_sha256": "db37c1db0280836a4840b0056833badf5647b3579a7beec0529d8479680d9640",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MicrosoftProxy_domain-mrs_668c0d26aa2fbf3d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b27288982aecdf9da29ca272e2de8259eabce90b45aa1b1fbc3ca68478b58fdd",
+        "bytes_sha256": "51cde59bdc0367d4d1af9a5278cca6ab9b8803edcde2de77fc2e28d1ad1d5c1f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftProxy_classical-rest_158fcde4661d756e.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a58aea5f383f5036e02696c8e8ba8f69f9de80fe15ac90567acdb28005be0e3",
+        "bytes_sha256": "096c388232a4d8be34cfad07031f8217dd83f0f0d79316274eb1e61cf4d0d495",
+        "semantic_sha256": "35dfcc58825c79e151a3c4883ca5bca67f208ae45fe353517e9f6ef4f4623826",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+  ]
+}

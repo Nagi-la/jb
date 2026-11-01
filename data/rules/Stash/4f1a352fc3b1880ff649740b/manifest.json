@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:59:46.950171+00:00",
+  "client": "Stash",
+  "rule": "ClubhouseIP",
+  "rule_updated_at": "2026-07-26T06:30:23.005277+00:00",
+  "type_counts": {
+    "IP-CIDR": 100,
+    "DOMAIN": 4
+  },
+  "total_line_count": 104,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ClubhouseIP_classical_f4281abcfb78ade8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "117106d917815f7db266512e23f6df555d5a8eb3e68b791b6c2e1d89b04398b7",
+        "bytes_sha256": "077cd7f9349206746348b5f88bc51c192c8377dd12ddd6c1412828296b54eb8b",
+        "semantic_sha256": "fe60cc54b6c716be2542fc49fbbda414e3c6bac51d4c7b250c161cfc2b4d11e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ClubhouseIP_domain_6ac3fdfe676fedec.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb6a0ad36228bd6bd159a1f8bfab227641eb2024ee18513711e261afa70a9747",
+        "bytes_sha256": "39afab144edfb9f0f7892d162cdeaec9cf6b9f1a07bf1a73de4423063ffb357d",
+        "semantic_sha256": "9f787d9435c9b56c0d504833e8f226f2b37adc692506c57c849ed8307af711b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ClubhouseIP_ipcidr_f65cae80fd50b919.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48224ec0641a52d0406368d1cb1c8c862e418338c2c7fdfaf79da43b15434514",
+        "bytes_sha256": "85ed7d187ee08fc18941b1eef0411e3bc5e8097d8150b25290d927669b8993db",
+        "semantic_sha256": "949804d6f425a2e83093576c04821e7af709b91fd0b1c2f387208add6fa352d6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "需要与Clubhouse规则搭配使用，ClubhouseIP走直连，Clubhouse走代理。",
+  "providers": [
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list"
+  ]
+}

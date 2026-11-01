@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:08:54.070538+00:00",
+  "client": "QuantumultX",
+  "rule": "PPTV",
+  "rule_updated_at": "2026-07-26T06:27:31.745291+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PPTV_rules_ae9453966ddbea4e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd7ec47a1f14bdc3d7ee59beaabf6d72017d8ac868c5740725c22c6767b8a73b",
+        "bytes_sha256": "34e67118622e13d49ceb5ad1004236e373c8939868f7eb71c833227dcd390ed1",
+        "semantic_sha256": "b0ea89d22861a899c28c8436389d41bf01017926e0b8f2b34f9e61166c51dfe7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PPTVPPLive.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PPTV.list"
+  ]
+}

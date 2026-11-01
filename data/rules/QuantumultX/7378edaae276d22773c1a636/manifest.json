@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:14:45.182454+00:00",
+  "client": "QuantumultX",
+  "rule": "KakaoTalk",
+  "rule_updated_at": "2026-07-26T10:35:31.978148+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 59,
+    "IP-CIDR": 6
+  },
+  "total_line_count": 65,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KakaoTalk_rules_e6aa6906b170151b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bdd95ce801b47c0aea25e4a0da8c50714c57b4a27cef77d11ca53b2ad070f4f2",
+        "bytes_sha256": "4ebf115cbc38b71bd609fd658073aef65c213f6f854f9d6ea970ee9641c829f8",
+        "semantic_sha256": "2682c407836e80c40ef096d1a14ff4e020361bd6bd2d658bc3b3dfed09dbfffb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KakaoTalk.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Kakao.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/KakaoTalk.list"
+  ]
+}

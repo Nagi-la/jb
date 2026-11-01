@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:07.342321+00:00",
+  "client": "Loon",
+  "rule": "ApiPost",
+  "rule_updated_at": "2026-07-26T08:30:38.426389+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ApiPost_rules_cdd93f54c94533b0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7b42f54287278d8058dd4ebe64f8352ec7ccf1a390d7c58bf5edb644341c70d",
+        "bytes_sha256": "4b92857f4968cf7de6838c55feb276a2633c0a8958bab692470e541b021dc8fd",
+        "semantic_sha256": "afaaced99725fc4f1d0c54d1b72562472f8dbf1f5d189b19fbcf43e597257baa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ApiPost_domain-set_1e79ab3ed09f9567.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "359fabdbfb80b599efa17b8912d37e3706af7c8443d5d2a8d84cf0b86fbaa6a7",
+        "bytes_sha256": "02a3937376f29821c1a060b2f363b0fff59c265f7b63e234d2133a907e69cedb",
+        "semantic_sha256": "dd6b05fb1e2d6370a800329c43604c7139063f8b1597c5ec018cc68ea98d61f0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

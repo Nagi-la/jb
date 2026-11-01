@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:14:46.453652+00:00",
+  "client": "Surge",
+  "rule": "KakaoTalk",
+  "rule_updated_at": "2026-07-26T10:35:33.232594+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 59,
+    "IP-CIDR": 6
+  },
+  "total_line_count": 65,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KakaoTalk_rules_1c105ccdb47c7b05.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a79bb9e93b6bc3241f6791fda4342eaee62963fcbb9a749dfbaa072c4a4c4af6",
+        "bytes_sha256": "07f61bc438ed098117851fcf3ff24ad3b8e700b1e3d15fe027569fca2ba22688",
+        "semantic_sha256": "0c94714aadca61d56508a9e2babea46b17b8c6ac53743d6c761d801c3da209d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KakaoTalk_domain-set_b7798f8fdcb89c15.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c0e2c2acb30007c5d0d15edfed8db6b7464cb8303b7b8996b74a74f612e3d0ab",
+        "bytes_sha256": "e7c47ff824d8fb2a715ff57172d15567997d1b624906f02951598cfed87e3b9b",
+        "semantic_sha256": "51db5c119ffe3f99a5a6f28332e04f55a315810f79b46220fa9f023916c3728b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KakaoTalk_rule-set_f4cdecad08c3573b.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58b44f988ce71a7d36a49774cd4df6dacaf17994ab4defc4b15d74985c0601be",
+        "bytes_sha256": "0258fd332611a091563bb3d72c5697f4a5ba559cbcf5fffb34526146a17fc478",
+        "semantic_sha256": "ccc174b8d6386f75ccdd0d0527e4319799403524d70805d1df4a50da23d4538d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KakaoTalk.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Kakao.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/KakaoTalk.list"
+  ]
+}

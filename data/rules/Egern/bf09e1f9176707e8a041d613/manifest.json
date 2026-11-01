@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:13:13.602019+00:00",
+  "client": "Egern",
+  "rule": "iQIYIIntl",
+  "rule_updated_at": "2026-07-26T06:59:03.341090+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 5,
+    "ip_cidr_set": 14
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iQIYIIntl_rules_f784273bcd4a0fb5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5361e867069a45b4ed8b314ac5a6f20c17cd775cba9f7f9ea06c9b41c5ecf313",
+        "bytes_sha256": "975a1254c4e2399ae49d91e276de273ff85296908420a548f18ee58b3c08fade",
+        "semantic_sha256": "e77015bb13f0ca17926e607e717fd7136e8829f3c3d40b52bdeb7a8a4fe1e435",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/IqiyiHMT.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iQIYI-Intl.list"
+  ]
+}

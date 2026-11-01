@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:32.260951+00:00",
+  "client": "Surfboard",
+  "rule": "Zoho",
+  "rule_updated_at": "2026-07-26T06:56:27.712907+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zoho_rules_5ea1f3953622913c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f44e30d80d7ad248f62676d1749b0a47a1a74fab60533c61487dfa7bc4e6e1e",
+        "bytes_sha256": "6477fb5dee6e042a68fc899baea6ff30f1bf66ce1c06919b50d30acff0ea69b2",
+        "semantic_sha256": "e1933b797a1e8dda27cafbee4a0bda307900fd0030d80adb5e1fced54001df4b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zoho_domain-set_ece5110fde1c9535.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7be56f388cdd0fb4b2216ae230620e2f2f27cf08030484004e9cd39d3502dbdd",
+        "bytes_sha256": "f864bea6b2c340f1decafa7588162108cf1515cbd1663398d891e4f4fbc44294",
+        "semantic_sha256": "bfbc6e0191d1a785f59cc2c2a4832e5781eb5fe3d99d5698b422e68db34a8172",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zoho.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zoho.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:07.089903+00:00",
+  "client": "Surfboard",
+  "rule": "Kantv",
+  "rule_updated_at": "2026-07-26T06:22:17.267912+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Kantv_rules_9938886bb8b3b347.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d4d399bdd88244957950a1d8975686c3edaec30c400d07eae14e86e350065b6",
+        "bytes_sha256": "530d8f6d0aedc2a32a6a8f8498a5f365f101fdec053c7b50cca0010cac0a7599",
+        "semantic_sha256": "b7cbbe683d86e2ddc75f378ec7a216c847ee560f66744db03da7d5a0c70d1387",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Kantv_domain-set_07d182d51fe42b23.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a5b342b2e07108570aae1fcfe95e8ae007518240029918dfce6539339cf5c1b",
+        "bytes_sha256": "78c6ad6ee66d49a3e093dfa039549e639130a0cde9734ccccd6f1102b75bce09",
+        "semantic_sha256": "48d433a992307add5ccbc0e0be0249ba614ede06d125f2933f72e5036e0212f7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Kantv.list"
+  ]
+}

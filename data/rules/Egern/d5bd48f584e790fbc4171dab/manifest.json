@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:15:00.708672+00:00",
+  "client": "Egern",
+  "rule": "CNN",
+  "rule_updated_at": "2026-07-26T06:21:29.086495+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNN_rules_466d9819249bebdf.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf62f7314bbad96eab7ed5494759af5e406387afc82b8d3c86c4958e2a404248",
+        "bytes_sha256": "51104050f2a8fe42e0889d155302708a46f82ed16f73cbb5a7e98169c4086c90",
+        "semantic_sha256": "d73eb8e6e3ac83db6a2a4526175e9918be67f9bdd8bf2c1618ed6d40ff1638b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CNN.list"
+  ]
+}

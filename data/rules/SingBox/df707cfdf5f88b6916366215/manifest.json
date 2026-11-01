@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-29T02:42:18.321937+00:00",
+  "client": "SingBox",
+  "rule": "Scholar",
+  "rule_updated_at": "2026-10-29T02:37:23.531761+00:00",
+  "type_counts": {
+    "domain": 76,
+    "domain_suffix": 226
+  },
+  "total_line_count": 302,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Scholar_source_73741f17fcf1fcf1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e4e2a72f3341023622ebb21827ef60d7269ed7c928d5057b4e20b7b12e6acfda",
+        "bytes_sha256": "fff071328892258540285199ec75cc375185518c82bb49a84148fa1014ccc685",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Scholar_source-srs_b7e00c1a3ced3696.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d35d9ffe14b296ef5bf7f47ad8031938e652324c635d7a7ee5fd0e385088315d",
+        "bytes_sha256": "4a13ad1920035c70d2870d79c2252b058da67531337ed0fabf0156af9d0ddd74",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Scholar.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scholar.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scholar.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Scholar.yaml"
+  ]
+}

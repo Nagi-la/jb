@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:14:35.581501+00:00",
+  "client": "Egern",
+  "rule": "DangDang",
+  "rule_updated_at": "2026-07-26T06:24:18.386010+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DangDang_rules_8be0efe3a02be2b2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6e59765accda5d6bd360463e9f32bdec788b9b6d38ad1830d723f720e3a487c5",
+        "bytes_sha256": "b74407d3be73c7fd4e05d362eeff0c985135160474de3c646131bc1edf23574d",
+        "semantic_sha256": "7ee19f32f7fa33e431074a5393e8604dc447f69140190ab0d3e73a0b83243b3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DangDang.list"
+  ]
+}

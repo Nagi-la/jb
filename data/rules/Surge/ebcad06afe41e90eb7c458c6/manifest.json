@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-08-27T02:00:26.471608+00:00",
+  "client": "Surge",
+  "rule": "Direct",
+  "rule_updated_at": "2026-08-18T02:21:10.579099+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 220,
+    "DOMAIN-KEYWORD": 10,
+    "URL-REGEX": 4,
+    "PROCESS-NAME": 36,
+    "DOMAIN": 32,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 303,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Direct_rules_471bc079c5184e1f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21bfd5d344103e8cb294d0c00efbcafdc0f7fbdc7641616b2c7502d36beeea06",
+        "bytes_sha256": "2b46d667a22343b92bceacc19d3fc3fc11ea65902524b763066737d1230d9379",
+        "semantic_sha256": "909cfd621c80a8c725f12f46ed834c8a358e0a5d5d71e84c03caea94018c2352",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Direct_domain-set_d8ce53ad61acdd9d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2328a280f1463840fb2d48225f85936e3b03a6bdea48352a8e241d6b9e0c8a84",
+        "bytes_sha256": "691b25f399331018999a5e0cc654e23c40583f37a06eb3048a0090ae0d961db7",
+        "semantic_sha256": "246d181fec82b9578d9bc71f0131ec67bf9f949eab9af57d1436fc2bb3eb6496",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Direct_rule-set_24b598b89443a3d9.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2f9352bdb466a58fbf98c0d106785c00f1274f2f5b69077f81ddf0587758ae4",
+        "bytes_sha256": "a591af804ac898dbdc6e24f48d096cf3ce723a91dcc0d0856573927d7828142a",
+        "semantic_sha256": "aae619b567f6f93187a93987d7371510843b6f6bd3b4ffd4f8b66a57a41919e8",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "sgmodule",
+      "url": "data/_shared/artifacts/Direct_mitm_21f1e3bfa92f318b.sgmodule",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f934a1fa5669fe036a073ab3ff05432be9caefe41d9ded98c0095a8ab7d9d1f",
+        "bytes_sha256": "a56a26dd3c168ff67ee542e244bc210b5d7b17d9bdcf5089acd962a5a8eddf69",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "直连指不应该被去广告分流规则屏蔽的域名、IP等，请将此分流规则置于去广告规则之前。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/direct.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
+  ]
+}

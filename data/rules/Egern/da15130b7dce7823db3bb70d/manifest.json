@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T01:58:24.368714+00:00",
+  "client": "Egern",
+  "rule": "OneDrive",
+  "rule_updated_at": "2026-07-26T06:33:03.801244+00:00",
+  "type_counts": {
+    "domain_keyword_set": 3,
+    "domain_suffix_set": 19
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OneDrive_rules_a9fdc96b132d9e48.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a6a7e57c149e40cd3f507be6441a54168d42029a634981aee29cd0535f51d5c",
+        "bytes_sha256": "da3c207e6415e720b2b2f4170bfe1b72da45e72f2114a8b72a8db5eaf23b2a05",
+        "semantic_sha256": "d3ce4173c939563112011fbed312fc6ad7d17b98c482ac17bfd4fc5fae27bdf1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+  ]
+}

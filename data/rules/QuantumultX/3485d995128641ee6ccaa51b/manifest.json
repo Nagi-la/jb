@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:05:56.221085+00:00",
+  "client": "QuantumultX",
+  "rule": "Nikkei",
+  "rule_updated_at": "2026-07-26T06:22:21.356356+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nikkei_rules_2d02ab3f4bfc46a6.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77085b904fc125c68ebb7bda37c0d38cc0838ef77de829941f0beecd85fc9f2d",
+        "bytes_sha256": "4d424fac6451d5a5bb311d80e72a09f4c34a01ad7108e2fa5c9cefa7365520f8",
+        "semantic_sha256": "a9ff784167e6cae79f115dc970849061785dcd141f6cd5526302709492e19b65",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Nikkei.list"
+  ]
+}

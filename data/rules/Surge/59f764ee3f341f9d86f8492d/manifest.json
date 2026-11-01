@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:31.014898+00:00",
+  "client": "Surge",
+  "rule": "TeraBox",
+  "rule_updated_at": "2026-07-26T07:16:49.641187+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TeraBox_rules_c6e2af78bbcc414d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "73b89aba2c805e22541f3f7155413faffb2aeecf506cc569595aed58400b1a5f",
+        "bytes_sha256": "44f836ce5a2cef49eafb9226391724fcc8ccb562380fdb640b5c7dddf39a62f7",
+        "semantic_sha256": "dbeca05b1b671915602bd31332aa1d0601c4b91fa89c88c5fa76521984b096e3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TeraBox_domain-set_99a49af367d976de.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "057c71563d3cc4a3c5eb9d56874f4b321de6ee456f4902af39db0e19248f7b05",
+        "bytes_sha256": "544411f110e96ec08b73f07ac68378e3261367f37919ff2877b44c0ab0d331b1",
+        "semantic_sha256": "0735c2c97a90fe46d57c4951ec0f401e538f25a92123b5ca441b786021fe9e46",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeraBox.list"
+  ]
+}

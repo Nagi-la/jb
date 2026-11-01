@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:55.755504+00:00",
+  "client": "Stash",
+  "rule": "GaoDe",
+  "rule_updated_at": "2026-07-26T06:25:14.389626+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GaoDe_classical_46ed9ec1383dce87.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c9c0d1138246035bb5641561e6c2873b186752e4447f3334ffd7f5fa68be130",
+        "bytes_sha256": "17b7d91372afddf846993c69750facea0725fbb41fe129e771918be508755fd2",
+        "semantic_sha256": "1a43d51ab36fbee3c6fdcba4e2a7f2968a8665185c394482fe085b1933f918b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GaoDe_domain_dd43ce321d40227d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a90f5a4b030aab6a6f83644a6092b1cd581393c85b5012746bb613f78baabc1",
+        "bytes_sha256": "b45a80fab1d93fafdf8118aa7a135325cb60399e57faede290ca00bd81af42fd",
+        "semantic_sha256": "869793b2a652188623b73b272943f0d2338625c35afaf298ff58cfca2c8c8118",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GaoDe.list"
+  ]
+}

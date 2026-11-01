@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:14:50.996258+00:00",
+  "client": "Stash",
+  "rule": "ChinaASN",
+  "rule_updated_at": "2026-07-26T07:27:13.319899+00:00",
+  "type_counts": {
+    "IP-ASN": 5076
+  },
+  "total_line_count": 5076,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaASN_classical_c9dae92ad3cbcfb1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76f2bd676f5e28268f2ea86d1771ea001e72a1caaf0c8e2bae44ad2223981e4d",
+        "bytes_sha256": "ab6f89fd65ff0ca4b3dbe235c95605b75541f29625072c0a54eda50a11d575ce",
+        "semantic_sha256": "3858957e71bd8cfbc172ec36388614645d73e70ee321809ada6ca4aa8d59a6ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+  ]
+}

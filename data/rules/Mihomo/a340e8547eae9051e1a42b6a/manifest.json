@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:59:35.150799+00:00",
+  "client": "Mihomo",
+  "rule": "Blued",
+  "rule_updated_at": "2026-07-26T06:30:52.106762+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blued_classical_ac54b299777fed63.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2b31362086194bcc3e98ced104265727ee79d8da9db1176403dcb5e63fef82e",
+        "bytes_sha256": "bac053c7a149b1a468984451da359c94a5d442c1f7db718e23169088c0dd8173",
+        "semantic_sha256": "33ae6bf1aed937eab288a027eda4e1ada1b805fc868f33a74513423aa0ce653e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blued_domain_e6ef04dac66ec9c7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eb88555b31addf7f8253a7d4009d1296a2f4022c5292b4a12ba71584ce491a1e",
+        "bytes_sha256": "b900ddd83e0742a546899a615293514201fcb45f573b94828b66a75013df535f",
+        "semantic_sha256": "11fdfe7e35735662122c03a2dff4ea51ed68db815407a54d3ddfea15226e0602",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Blued_domain-mrs_ef1300f7d876637d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe824b378855d86a77afc9982d0b1d4b0937a5b60f2b7016a92f68dedd20ef06",
+        "bytes_sha256": "0a0caa9409f358042991839f7fd02a12d83c9c3da9279c9e76d436e7f25d070b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Blued.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Blued.list"
+  ]
+}

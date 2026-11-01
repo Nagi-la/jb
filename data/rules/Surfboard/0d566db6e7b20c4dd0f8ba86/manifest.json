@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:01.369701+00:00",
+  "client": "Surfboard",
+  "rule": "PCCW",
+  "rule_updated_at": "2026-07-26T06:53:09.815546+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 27
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PCCW_rules_41a405c2130f3762.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b27309488e3793a496f244f88e021c17a5d3874d04ab4a32829aa9738fba03c6",
+        "bytes_sha256": "e8c90a18bcebd05bc61588b51dbcbd2763863bef2c35656e504bcf8da3d70678",
+        "semantic_sha256": "c5baf0ad709fc0055bb9ffe3ff7d1e1ae36137e1e659bb5f3bde8bac3b77c1ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PCCW_domain-set_7769a13ead841a60.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e134c5a25f2829eb461bc810c0d8c9c4b4f536e3d0a7032b69850308f8622de7",
+        "bytes_sha256": "35c558c0bf625493934bc7360718a0b7c5a7c234e6251c0046ebf7309131f4a9",
+        "semantic_sha256": "ee6227a193f9ef0077d931136c1d17bee6d472a61fecc83914836b20938cd9d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PCCW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PCCW.list"
+  ]
+}

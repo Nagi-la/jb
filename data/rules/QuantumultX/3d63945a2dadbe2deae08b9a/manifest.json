@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:12:08.105027+00:00",
+  "client": "QuantumultX",
+  "rule": "Aliyun",
+  "rule_updated_at": "2026-08-10T09:19:13.464580+00:00",
+  "type_counts": {
+    "HOST": 4,
+    "HOST-SUFFIX": 96
+  },
+  "total_line_count": 100,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Aliyun_rules_2088f2723c06a32b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d1bafc0167414c6390123249c183ff8042a265f9654ce8fb89090c25180698e2",
+        "bytes_sha256": "eea831218cb1038ae9378d9ac17dd9aacd31bf6195fd46a8c35b2836023b9f84",
+        "semantic_sha256": "cb544614a704710f2dddb2bd662fb4776670ecb11e757ff3343c2aaddfbf9abc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

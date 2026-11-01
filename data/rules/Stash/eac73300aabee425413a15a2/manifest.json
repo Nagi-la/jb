@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:07.314742+00:00",
+  "client": "Stash",
+  "rule": "Verisign",
+  "rule_updated_at": "2026-07-26T06:55:25.100538+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Verisign_classical_563c2beaae425141.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45c073585eb436031c4be670b9ec2710e91b4f1f26feb663ae917eb4b89e0757",
+        "bytes_sha256": "49ca1701472e45985f2edbb39da891847d54f08048ca3c5c37eafb879931cfb3",
+        "semantic_sha256": "a8b5c44fac7b59406dcf6081859be368d8636ceac3be1cacc00f8a35ab51ba8f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Verisign_domain_faa914c2b51ed4e2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f032365c0c1d41479a35538e149903ed65d0b553e19f76191ccf97be3213ded6",
+        "bytes_sha256": "e40d4e14db4711370d67860741629df357739e02c03d9900bd47c5f33855d60a",
+        "semantic_sha256": "88f97362e8615cba479dcdb14279ec27d8b70ed4e9bafe4ad472eb7fb9c7adbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verisign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verisign.list"
+  ]
+}

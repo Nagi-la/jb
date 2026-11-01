@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-08-27T02:13:32.294822+00:00",
+  "client": "Stash",
+  "rule": "BiliBili",
+  "rule_updated_at": "2026-07-26T06:38:23.826071+00:00",
+  "type_counts": {
+    "DOMAIN": 51,
+    "DOMAIN-SUFFIX": 67,
+    "IP-CIDR": 7,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 127,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_classical_e094628621c39bfc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c398ef187521bd5b807e6e330f23dc531313f59ebc8d7a1df4b1cd34cf8b8b3",
+        "bytes_sha256": "3852777c5950d97198272d1c1972e4d7966ed7aeb94c11db280dfc162c7f5af7",
+        "semantic_sha256": "46c87b075d5e59601c48029b059c835344d8d4cc3489357a4322cc6a3e6777ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_domain_5cc1e3b7b98328b6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a518d129fa15e163726d9a47bda968e82f9535fd9a976275ec06db22a493bce",
+        "bytes_sha256": "699c877e926f0c6fc5e91d25134e7d79593e1cc268e042b981cc6cd403f408d6",
+        "semantic_sha256": "141e99de155443b8efc1ab4771413654b5ffb5b349ff1948e5b4a617cc7e9543",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_ipcidr_f8ab3a3ae9898cd7.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "547f6deff3016c172b9e382ce62157750d241b33517204e9ccc0a6d29257789f",
+        "bytes_sha256": "19398537d52929ed34c3851e27a297d4f1a05218a1d2547752190539b4ad502e",
+        "semantic_sha256": "24ab526141fb3052f14406eb8f4df778fb59d7dc6c3fb27098b8201b585787c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_classical-rest_ba60b0434357041b.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed9745ad1f6049d794edf9d1779b49c61e938dda3f39912bf867d86a8d7dc204",
+        "bytes_sha256": "74c85ae87472280d24ef17901db2c11e502070b60dffa8d474c525e09f9d5d95",
+        "semantic_sha256": "844af9d0b99b2063e8120ed6d317318ccd99fe926f08e60b9739c483d0eebab0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:24.413028+00:00",
+  "client": "SingBox",
+  "rule": "DingTalk",
+  "rule_updated_at": "2026-07-26T06:24:38.637638+00:00",
+  "type_counts": {
+    "domain_suffix": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DingTalk_source_0c2442ae63164310.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ba2025fabd437378cfc72432f77b4efa1073ddb4ca90278ff3f474de50a5d6ea",
+        "bytes_sha256": "6d52eea5766f6c6fb646f5200179c6ffd16a5e66b035e66293778547674f6af5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DingTalk_source-srs_652e47bb328a228d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "22f6d2962b85d464746413c76888fbe7eaabb3f6a7405a068ec5c73478510eb0",
+        "bytes_sha256": "932497cea6b649a4467c3ef9ca37aa686cadb6a643fc905eacbe5b7335a43d46",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingTalk.list"
+  ]
+}

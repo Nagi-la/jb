@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-08-27T01:57:39.331817+00:00",
+  "client": "Mihomo",
+  "rule": "Cloudflare",
+  "rule_updated_at": "2026-08-07T02:23:04.720867+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 77,
+    "IP-CIDR": 15,
+    "IP-CIDR6": 7
+  },
+  "total_line_count": 99,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cloudflare_classical_896dbe0a45adbef2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50dfbaba3cc98b3cdee2241c37c3142420d9cd4910001f0b3ff7bf32cc404eb9",
+        "bytes_sha256": "bd83070b086d1c7996969aa49dfd3f137ad4edf6848a88943982f34e79039477",
+        "semantic_sha256": "a1af62e88a16b6b2114e269c1cb4ffe3d03cf258fb8f185002868cf0705640d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cloudflare_domain_88c43b32775bea8b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3db6ad1b3b39c10986e7690c9ae8ac2d67aa46cbd4d8f4b3acac32006239385",
+        "bytes_sha256": "f4abcd2529b86cab78ad82b76f94d2804c3f94fe2f6dbdc4c89e86a49fe380b2",
+        "semantic_sha256": "3e9ba068415df09842b48ae73af329327cd22800b17eff875d167878324c0ea6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Cloudflare_domain-mrs_f9a8b4bdf8c82b84.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "62d5586d774d8c650457e117f405240b158e84f5bbb6eb9b76606c319654a594",
+        "bytes_sha256": "506abd7aa793ace09945821f6090a3420a669d1abd732acd15c2e6ea90eed64f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Cloudflare_ipcidr_c16651be0e3325b8.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e788990290468dc20af525cc9a7a06a12b6408ce0cbb72a0f7ed42ebaf549204",
+        "bytes_sha256": "cf1eec82cdf1383ee62e237d0df6f6cd906e9c79ef16f5caae46522fc30feb6e",
+        "semantic_sha256": "6b49a490cbd5ba200ea12e38207828d623713dac883195e395f5da1f61bd2c4c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Cloudflare_ipcidr-mrs_bc5287143986c8ec.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "42e7e2454d2544f09f642ee5365c17e0c9c89e4b7eafaf7ed912c6525fa89f7b",
+        "bytes_sha256": "32357c489f9c6c84b8c8d8c3be60f6b586af26281821e61535f24de25e743e78",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cloudflare.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cloudflare.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Cloudflare.list"
+  ]
+}

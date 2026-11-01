@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:04:02.125779+00:00",
+  "client": "Mihomo",
+  "rule": "Fox",
+  "rule_updated_at": "2026-07-26T06:22:10.453428+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 260
+  },
+  "total_line_count": 261,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Fox_classical_c6073786133e703c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5116a8ba3932972335498f0b33a4f2cdde154330935fe53a2dcc979544ec58a1",
+        "bytes_sha256": "6281a6f29879d8a74ecc5a0f62ce4aeb3ad2fd5fbb55286c373373e42bb34403",
+        "semantic_sha256": "2253c82df74aca2bfd08718d5be0252c0c192146993063900a51e49c195aca81",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Fox_domain_7f1d50e27413da13.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c553af62f0041237eb888e6846d3fc4d3fc99a79a8576e56115da3db2fa7abae",
+        "bytes_sha256": "1c22bed1535755b7bafab611bb4c02596ed6329296d8279dd6977657cf8ebd25",
+        "semantic_sha256": "7b27b78aee4f651b7f889d53851be316ee1ecefa2aaf5e939c4eaaf085f15ed8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Fox_domain-mrs_3039ac8fa6c0467e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "05f4116a2af292c4f3ba8bb5a8de9d92b81d83230909cf5c1664310a22b6df5e",
+        "bytes_sha256": "3bdc8823941c1f02958c4ca806ae1f70761b75189d8e8f9749550f3d5a5ba6ee",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Fox.list"
+  ]
+}

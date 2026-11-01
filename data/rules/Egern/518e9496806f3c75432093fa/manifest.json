@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:16:28.182236+00:00",
+  "client": "Egern",
+  "rule": "CGB",
+  "rule_updated_at": "2026-07-26T06:23:15.618541+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CGB_rules_d9c6319b56e5d9b5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8744d98a92a9812ac054639f3a30ac27b26efe6da059a373bbe18a9da96ed9e6",
+        "bytes_sha256": "ee41cc23a9ce1ab085ea13cb3372f92ef20f1d53b172ecca908e43dfa570fe38",
+        "semantic_sha256": "31246d19352844a4792a0e392a865b937793f3b5f54849674b28346ecdab3166",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CGB.list"
+  ]
+}

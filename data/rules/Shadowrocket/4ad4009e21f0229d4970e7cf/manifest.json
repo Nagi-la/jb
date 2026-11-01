@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:36.472538+00:00",
+  "client": "Shadowrocket",
+  "rule": "Nginx",
+  "rule_updated_at": "2026-07-26T08:34:09.722184+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nginx_rules_544d06453247684c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0337ea6577707bc8fce96c90d3d3cfdda49b73626099616c5e9499a4b31f15b8",
+        "bytes_sha256": "9eacbaf7cc53e43a92e204104ec45894aec241b19aab00a582646110d814c3be",
+        "semantic_sha256": "0d33d485e3896313548de8b21ffa3021cf9a5ed17c13e789a03b7cbf52adcca5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Nginx_domain-set_bc2c12bc37d2f8fc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c50e8cc5caaa853c19b6ca662331efc7e3af49634e8531e74d8e83b682b6ca9c",
+        "bytes_sha256": "c3969b33ec141ecda03f01339fb9c9bbf7692c17e55647b255a6c7886a193736",
+        "semantic_sha256": "3e49955219aaeabfae6e0f5fb1d720e4140f1f102e684a2c0f9b7a99d6dadf6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

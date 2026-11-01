@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:10:23.256156+00:00",
+  "client": "Shadowrocket",
+  "rule": "NTPService",
+  "rule_updated_at": "2026-07-26T07:01:25.813497+00:00",
+  "type_counts": {
+    "DOMAIN": 75,
+    "DOMAIN-SUFFIX": 126
+  },
+  "total_line_count": 201,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NTPService_rules_c1b6961a431e8a42.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07ae5d0a7768e3734830f16945dd045b7cd0a979425c8b65345ed9be764f3661",
+        "bytes_sha256": "4c26793b3ca45380c2289488bd52eabf892f7ade72109309c3e1dfb71ba13c1e",
+        "semantic_sha256": "2be526fb5cb7ec5b77ada94a751ac607daa6d378e3d10c0a369184bc7d271c7d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NTPService_domain-set_ef3996251a308eb5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d3de8b8e78e87045abc2258c233563ab47a68fe8c6ec6ebcceb036bc8ea789d2",
+        "bytes_sha256": "90049022f4f7e58783af98283d9927fe56422ff9cd18f597da4774b784ecd884",
+        "semantic_sha256": "8e3de16db5c7ea8664f24ea67c6b52ff2d54815a0608e73e42cefbad7f339926",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/NTP-Service.list"
+  ]
+}

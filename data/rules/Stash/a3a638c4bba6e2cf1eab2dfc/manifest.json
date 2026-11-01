@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:11:50.555697+00:00",
+  "client": "Stash",
+  "rule": "AndroidDownload",
+  "rule_updated_at": "2026-07-26T08:24:30.426143+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AndroidDownload_classical_c8b31d6d9f7337b2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9957409e96315e4ecb2999cb241822dee9de6ad3eeb3fd81b6565140c7ba6b09",
+        "bytes_sha256": "b6c04fba19a668d65cc7b063c5ec611bef05cc757fb8d4f20189af0dac129733",
+        "semantic_sha256": "bc61b145a648ebeafecfa77c752065c9482ff1f100a49ef37b44abfb7ac19f51",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AndroidDownload_domain_3271960a0e0fcb6a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4929b7fbe618fbbe544105be75ce616b6d34d1e833369e0945ba7818a5d10d2",
+        "bytes_sha256": "697b40d037813d8a69c34c6356306f64213b78d8265032153f285c1fb5fff9a3",
+        "semantic_sha256": "f6bd57ef9530f465197ff16e7aaf8767be3944bed84f19a4e4c06904c3a24a77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

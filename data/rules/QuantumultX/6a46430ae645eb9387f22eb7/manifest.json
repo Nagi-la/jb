@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:09:14.611452+00:00",
+  "client": "QuantumultX",
+  "rule": "AmazonCloud",
+  "rule_updated_at": "2026-07-26T07:05:40.779104+00:00",
+  "type_counts": {
+    "IP6-CIDR": 1265,
+    "IP-CIDR": 3892
+  },
+  "total_line_count": 5157,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AmazonCloud_rules_a7ad9211da79f70e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "93a6f41b601574b1fb5b17481166d754f756f6ad71dcf3bb285cb87b40cfb0ff",
+        "bytes_sha256": "db17e63c3e2b363f6b70f589cf9ed92c9d77a650c4b46a57ca1279a024599b4d",
+        "semantic_sha256": "a09e95337b98ab42aaf28ccd75f3f8e9fdb0242cf83ec59fb7104da30572ea5e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Amazon.list"
+  ]
+}

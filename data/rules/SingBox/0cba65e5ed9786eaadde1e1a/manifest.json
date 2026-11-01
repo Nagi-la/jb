@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:26.483735+00:00",
+  "client": "SingBox",
+  "rule": "LeTV",
+  "rule_updated_at": "2026-07-26T10:36:29.757716+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LeTV_source_f11ca05f88fdda77.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d417a5181e25497f2f00d1410e83fa79eb1cf41734b55827409ad035669ba048",
+        "bytes_sha256": "7708e40392fc4e77dbca477d528043f8fe3dfc2f00ee39330c5a91e77330d18a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LeTV_source-srs_e9136659f5f7021a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e328029d0b8737db0a84bb58e4cd12161736cbfdfeb3a08615248be52d658f46",
+        "bytes_sha256": "34d28df0966dd50dd4d71e1d93a4be5f9a54af1c7d3d87c8ae30cadd8505cc58",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LeTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeTV.list"
+  ]
+}

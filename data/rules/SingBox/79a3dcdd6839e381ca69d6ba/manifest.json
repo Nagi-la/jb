@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:29.919510+00:00",
+  "client": "SingBox",
+  "rule": "MaoCloud",
+  "rule_updated_at": "2026-07-26T06:27:08.413245+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MaoCloud_source_79f63f14f8fe7f75.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "edcb134d3ad0d86db8cc1281ceea22396880b82effa94460ae691cc46452b1cd",
+        "bytes_sha256": "b96ffea3b6c6993807f2d9b67f049258a1109a9a48d340f8091afe7f11179dbc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MaoCloud_source-srs_2d0fa7387edf68f2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ea169120bef58d513ffecf2fb4c26780b0694db9a1f1784202502cb27cf116f2",
+        "bytes_sha256": "bc1248350c70e4da1dbe6a485e7c1c9fee65d098a0e28dbfb1f3458b2c46f4bd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Maocloud.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:44.941425+00:00",
+  "client": "SingBox",
+  "rule": "Sohu",
+  "rule_updated_at": "2026-07-26T06:28:09.873901+00:00",
+  "type_counts": {
+    "domain_suffix": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Sohu_source_76bd56d6ffef5d9e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "83386ec6afe84d626bcc3e3ed4f60c29ed17cff2e668de692e0fc79160f9fca2",
+        "bytes_sha256": "f9a232a8b0eea10bad43aee89ed33fe2b785695e8890a5bb946c1761296eb17b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Sohu_source-srs_3489d95edbe14187.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "df96e1d16cb383fab82e9fa15be7cc466957ee7599436ea459c7c5b641aefc10",
+        "bytes_sha256": "f15c8c34364bade6393da63703ba2a3bbf6211837db913f2fcaa5918ea1dc7ff",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sohu.list"
+  ]
+}

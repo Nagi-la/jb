@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:49.416273+00:00",
+  "client": "Stash",
+  "rule": "SoftBank",
+  "rule_updated_at": "2026-07-26T08:34:35.682369+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SoftBank_classical_716e3021b5514105.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba8f97e6d21151c707b3c32263977c8c14daf38fdf252a16e6cff9da1d92289f",
+        "bytes_sha256": "5285975cdbcebe035f1199b65ce2b20020c6e0ac17efe57d683aa4e78723301d",
+        "semantic_sha256": "8cbf2878c69cc1d816cd3a1810fab8d1f93874ac7d5abd73f800fc2d4a7763c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SoftBank_domain_f9ca992823244cb7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "403c44926be2a26e7bee1a4f5e2a20c521b88f54d7a36b6abeba5e533eab5aa1",
+        "bytes_sha256": "5cedb0a8f29d07a4918d5ffc468dda1a8fe3c081cdbae65d6007e50f084e19bb",
+        "semantic_sha256": "014bd199da56ee080c08752cae7b3b386f9275517a5e63d46f56e7fd1f05e08c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

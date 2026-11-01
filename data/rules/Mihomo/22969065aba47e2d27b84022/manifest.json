@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:58:32.228403+00:00",
+  "client": "Mihomo",
+  "rule": "Starbucks",
+  "rule_updated_at": "2026-07-26T06:54:39.455541+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 67
+  },
+  "total_line_count": 67,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Starbucks_classical_ba7d81a7391f1455.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7760818240b0f3e222542c75450aef524b898d14d956164ea5ef988d66e1ace",
+        "bytes_sha256": "394e8bbf9bee88bc9374a8a8996d92c46d23c222825f60fe226bebf6f29e5c07",
+        "semantic_sha256": "93395ee281d5bd7c48cd31d4dd42e9b6e9877ce2bf7e061c0786135bd65bf774",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Starbucks_domain_073cac2e82484215.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c19c4c4ca40b6c28540189f569f7e41dc3db0b2a28ef7c7b5c27bcc3cefb7893",
+        "bytes_sha256": "ebbbd8e5d9a6a40f3f8fef0f982b6293659bedc6c579696fb84cb7c2f684d8e2",
+        "semantic_sha256": "4d0868347a3cbb779c6e167d0493e1304b8d241d21982dde8415172780b73c7e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Starbucks_domain-mrs_b22dbfdd88f09f82.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3e983c6abd46176982f0f942b2bb0331c070bbd196d9b74bbe2a4b73f872194",
+        "bytes_sha256": "25cde6a29e23ff2514b11c630247085ae6ab6ded09ffadf131028b1d8a9c1b1c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Starbucks.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Starbucks.list"
+  ]
+}

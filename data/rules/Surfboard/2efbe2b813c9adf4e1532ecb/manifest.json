@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:01:33.257341+00:00",
+  "client": "Surfboard",
+  "rule": "Niconico",
+  "rule_updated_at": "2026-08-24T02:51:10.296871+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Niconico_rules_8dddd2e6b3c6745b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d40fa87f94870b4bffae387702fc9e63bb8535824ca7254d6e920c3bf635d17",
+        "bytes_sha256": "c33504db7589711399e6c745632d6821ec743f0c394484a3b1fb41a2fcd32cb5",
+        "semantic_sha256": "fe4abdf85111937bb974a90b2815a4d9745285519a0e79a106cc33ddd4d00f92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Niconico_domain-set_20a3fdc5f96f3693.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65065abf1fbb824140187cdbd0a195d92a72d3417e423488fac052b46d0cdbff",
+        "bytes_sha256": "61bd3c8ee1841afe4caf5919b0d63eda0bca007e202fe1eaab28153e782beb71",
+        "semantic_sha256": "6039fa377004aacc2f1b63aebd5f658e179ce62176e227917a1bc7ef87baca17",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Niconico.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Niconico.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:18:51.195848+00:00",
+  "client": "SingBox",
+  "rule": "TianTianKanKan",
+  "rule_updated_at": "2026-07-26T06:28:22.406274+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TianTianKanKan_source_086e0034f4d93148.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "92331b3d3e86284248862c8fd8d2ffa51cefc2179b117c9a9d610f03fd1e9c55",
+        "bytes_sha256": "a220cc248cf3a87641ba4cc6baffcc77f6cb67bb552a241bf90bead136042c88",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TianTianKanKan_source-srs_b2fad6cde84e69d9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "37c496cb6ea824a58f71ac09df446fe6cdb12240804ed185a4437d537663cef7",
+        "bytes_sha256": "a0d04cd277d85fc0ea533b08c20e5e7ea4a3bc6852b44f775bae0e12f2a3e1c1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TianTianKanKan.list"
+  ]
+}

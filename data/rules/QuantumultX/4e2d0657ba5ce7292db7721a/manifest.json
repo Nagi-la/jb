@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:15.110986+00:00",
+  "client": "QuantumultX",
+  "rule": "WeChat",
+  "rule_updated_at": "2026-07-26T06:59:04.633760+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 12,
+    "IP-CIDR": 9
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WeChat_rules_5edae392a8febe8e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d09e090c30f040da8395f3ec422229609885ea22d5916aa3f015807fdccca8d6",
+        "bytes_sha256": "e0a9e03855901ad55fe87d46858f3956365a16146ae99200a7e8084319b75ea9",
+        "semantic_sha256": "8e4282765349a9e48ae1b36141ffc8d72052de8f8cc25928316c0f9e28851c10",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Wechat.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+  ]
+}

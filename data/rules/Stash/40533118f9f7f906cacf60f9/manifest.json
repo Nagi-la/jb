@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:04:12.914676+00:00",
+  "client": "Stash",
+  "rule": "HuluUSA",
+  "rule_updated_at": "2026-07-26T06:30:29.399558+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 57,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuluUSA_classical_c120b345fbc97b8b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ca956304691fdc0f7d626fdc73f57a88dc6d859757ad0aaa3f1f888c2bd34d6",
+        "bytes_sha256": "8c8e0af35fa975540d7b00342c5475c113e37f2c5be128a35a34901c04d3f1a6",
+        "semantic_sha256": "7351b869bd791c5a2d5b030d37d06e3350695aa5ee8f28ddf4a3ba098647c8b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuluUSA_domain_342a5d3aa743a7fa.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da7835dd548289b36f38ab0f06e08a9cc00d0696f63192b240f8567ef3f72bfe",
+        "bytes_sha256": "c24c27afd6dffeba7423f660cd5310aea3193996672a7f653d0311c9686ed97e",
+        "semantic_sha256": "e3ccf53dc286ddce41a827370083bebfcc50be446bc0626c0a59c719e3e1e3d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuluUSA_classical-rest_e0157de6229e2e7a.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f7bfedbf77af5d5817486b1400302ed1c7637f5ea2290289b2ccb364c6e5e73",
+        "bytes_sha256": "1e487da1e2ae4c28b983419d2955c38a9a6bfcddcabd77047d106dc295880b47",
+        "semantic_sha256": "fb07badef73906c669a00b48f6409eb074fb3f329215ff4aa56498b25ee2f230",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:41.723576+00:00",
+  "client": "Shadowrocket",
+  "rule": "RemoteControl",
+  "rule_updated_at": "2026-07-26T08:26:02.116203+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/RemoteControl_rules_21be0dc6b9978879.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "635caab51153d0b3fc9085b2d0fc3de92b72a83f3f62e7aed7e7ab402c737bce",
+        "bytes_sha256": "058d55c7bd828ca3ee7b5e0c0e5f65607a60dc0359a196a12ed94e73674370ef",
+        "semantic_sha256": "fab0c440293d914719ec8a31333bece1640b2cea795db02d3e4278db1f9f0ad0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/RemoteControl_domain-set_9e8cd974c45b130c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f78c02a81c50e2b50ddf5c2aa341643a55034e2826113cec551356f17cf291c5",
+        "bytes_sha256": "4038057f5357d212452dceff32219c68881fbad1f1063d5f001ce2db75757d12",
+        "semantic_sha256": "9933a13e12204e7dcc2377bce8875f2faaa59716698fadb052e06319bef4fc18",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

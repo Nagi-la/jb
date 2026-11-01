@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-08-27T02:13:31.479787+00:00",
+  "client": "Mihomo",
+  "rule": "BiliBili",
+  "rule_updated_at": "2026-07-26T06:38:21.433733+00:00",
+  "type_counts": {
+    "DOMAIN": 51,
+    "DOMAIN-SUFFIX": 67,
+    "IP-CIDR": 7,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 127,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_classical_e094628621c39bfc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c398ef187521bd5b807e6e330f23dc531313f59ebc8d7a1df4b1cd34cf8b8b3",
+        "bytes_sha256": "7191b1b7ef2cfe5763998e67210c207d2c9b16197af94d105ea30654b74c83b2",
+        "semantic_sha256": "46c87b075d5e59601c48029b059c835344d8d4cc3489357a4322cc6a3e6777ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_domain_5cc1e3b7b98328b6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a518d129fa15e163726d9a47bda968e82f9535fd9a976275ec06db22a493bce",
+        "bytes_sha256": "9abdf96c2db38ff8a00e4593604cf91107cb9620eab62bef35131e6057968250",
+        "semantic_sha256": "141e99de155443b8efc1ab4771413654b5ffb5b349ff1948e5b4a617cc7e9543",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BiliBili_domain-mrs_3d436f35733838ce.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "51021631e13a4a183ead1c9930515092fe4e7667f09c5d49ccbd313014ae5654",
+        "bytes_sha256": "fe08234c36c7c9838fde1b49aa2f561ebe8ef2cf07417db20d0375f775e85a94",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_ipcidr_f8ab3a3ae9898cd7.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "547f6deff3016c172b9e382ce62157750d241b33517204e9ccc0a6d29257789f",
+        "bytes_sha256": "38d393039e196975fcfdfa8317e9813a6c5ed998ddba8ede7d585fc46d8aec91",
+        "semantic_sha256": "24ab526141fb3052f14406eb8f4df778fb59d7dc6c3fb27098b8201b585787c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BiliBili_ipcidr-mrs_269042e7895b4d51.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4c4417520780b5fa62e3a61dc2bb6536ddfef4b18497370192ddc52f160da8a7",
+        "bytes_sha256": "8b4142d78d1f7fa51f14acd4fd98b45bd088dbbaf4bffe68b1da190d5d01f237",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BiliBili_classical-rest_ba60b0434357041b.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed9745ad1f6049d794edf9d1779b49c61e938dda3f39912bf867d86a8d7dc204",
+        "bytes_sha256": "2c89e6ac41c834ccab82892e0071a5f09866fa2a16085d20436989e9f022aa71",
+        "semantic_sha256": "844af9d0b99b2063e8120ed6d317318ccd99fe926f08e60b9739c483d0eebab0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BiliBili.list"
+  ]
+}

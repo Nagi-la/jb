@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:06.533460+00:00",
+  "client": "Surge",
+  "rule": "AppleIntelligence",
+  "rule_updated_at": "2026-08-03T15:32:18.009189+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1,
+    "DOMAIN": 5
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleIntelligence_rules_34a35d75e35ebe12.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "987f8e3ba88cdcdd9bf30a4d90174f87520d8f4cf315773f17acd8aa0f57f271",
+        "bytes_sha256": "aedbba09889e3d41afdfe90b81071cac5579d0d51b16c1bc2fe5841bfe0a6224",
+        "semantic_sha256": "49035c9eee284bc96b7be0f6ca49e8a3d684a5d94f094e5c45bf4c839fe354ed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleIntelligence_domain-set_5c33c66ed7865760.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de4f44a55072eef75be93b9787aaad94f6d1689d0e6bdbb7cea8c76294acd288",
+        "bytes_sha256": "6fa28eb0d2b62a0e1197c78383b60bcfbc600f2a4dc312e00912df6549305fdc",
+        "semantic_sha256": "49ad656c9060fb621016fdd6d8c9e040b6c783515f8abadf0411fba707abc84b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

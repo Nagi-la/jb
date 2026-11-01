@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:58:15.896345+00:00",
+  "client": "Mihomo",
+  "rule": "SteamCN",
+  "rule_updated_at": "2026-07-26T06:31:42.645986+00:00",
+  "type_counts": {
+    "DOMAIN": 12,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SteamCN_classical_f12eaf58b7866555.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fcc011a066ffc31d49fd5dd79502982ef63b987c26da32d2595dd7f343abf68f",
+        "bytes_sha256": "509082c81e479a12a6e142ed5fc1165bd85fe9f499d29b48d294e027a0d7e713",
+        "semantic_sha256": "b439b408bf23255c6b6267ce3243fe476c294b4214063123fb7e79e6d30011b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SteamCN_domain_d9f795a90a2e36dd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65eff91ecd8ffe2968bb38591abbc986c4f9fe8d9265faeef7c4d4bdc28fa267",
+        "bytes_sha256": "562b69f75119d509dfc1b7928c6467b6bfbafd37ef153131266cb69a4b5348da",
+        "semantic_sha256": "0f5cc5f85c9fc24334e781bd4f8b3a6eceac50d9ae8865ac6e9208d34c5a6649",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/SteamCN_domain-mrs_8ff2c288a1c1774c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "351473827fded4ea62fad0d71b64a23a6bd933dcf72a1590377d84904a5e1b03",
+        "bytes_sha256": "7015303014c0d34fe90635dabbf7095a453e5920ea670fa0e9369451ba7adf16",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+  ]
+}

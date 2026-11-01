@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:44.204271+00:00",
+  "client": "Stash",
+  "rule": "Wikipedia",
+  "rule_updated_at": "2026-07-26T06:37:23.882064+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wikipedia_classical_33d59ab25a8891c6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65057356914743f1063a24901dd4ce0e7e6e91c7a72e913528920aef9fb2d986",
+        "bytes_sha256": "aa5fd6940e48adc7d3ebd0777a67b6d2f5558349ef24dc618719836abb91a3a3",
+        "semantic_sha256": "3e34cd7a2ffac918db240e2d6b7afc63ce1a7b7b940cd12b3e50013f3197b163",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wikipedia_domain_8f9434c35566e1a7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7cf317599c632b11b4ba09b7b12063109b748ea8575a99fcc99af0d981993317",
+        "bytes_sha256": "4bbc257c61430286c8b0f935bb3bfe70dbdffcdd7486f6eaf96242baa7829cf5",
+        "semantic_sha256": "51aa98400c43d9bec5509d3e978818746ea97ace694bd00595fd0c9f948d1664",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wikipedia.list"
+  ]
+}

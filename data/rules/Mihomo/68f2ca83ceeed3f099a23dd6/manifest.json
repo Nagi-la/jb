@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:57:25.949329+00:00",
+  "client": "Mihomo",
+  "rule": "Dood",
+  "rule_updated_at": "2026-07-26T06:58:09.446561+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dood_classical_3aa3ea6f4b842139.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a6f84c957ee095e3c9ef62c9bd69a25822470de332ea8c0d65fb34ff8e7dad36",
+        "bytes_sha256": "98a5c1d5ab40e9cab45372e1ae090d1c345bebccf7fc1ed71ad304a365637fda",
+        "semantic_sha256": "520ebedd588cdfc2387e7b3e7373359b9d0a7121aecf9473314117f9118e5db3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dood_domain_dc1d85bcf0a58393.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d67b163417e8a637b212878d971003f5cc1389a9d308565fc2b506f4931f67a",
+        "bytes_sha256": "5bd0fcad0b073e0aebcf1b93d366677033263569943cc13103fc2be417f97542",
+        "semantic_sha256": "f1fd2b534a81c867ec4ef707b40835c65f7d6e94d419e617a09e6d3adeba8137",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Dood_domain-mrs_a426358b53c06815.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "484417328ee8912feb7b0526bbe3e0c0d1d537e9065f62daca2a351e7ea3745e",
+        "bytes_sha256": "d226249b59fec7a1696e3a2da75c34e3654fa78cacf3dc8b72c167f88c69607b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dood.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dood.list"
+  ]
+}

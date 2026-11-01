@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:08:40.984986+00:00",
+  "client": "Egern",
+  "rule": "KuaiShou",
+  "rule_updated_at": "2026-08-18T02:22:34.451771+00:00",
+  "type_counts": {
+    "domain_set": 3,
+    "domain_suffix_set": 691
+  },
+  "total_line_count": 694,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuaiShou_rules_d8e552d80fe59f22.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08994eac76281628a0b94e4327748156895e0c33337232449fe381058a5647b9",
+        "bytes_sha256": "6e48f1deb915b346832f91d237dde560417088d17c8bbbfb62c90319478c7d80",
+        "semantic_sha256": "036c69b6665f20bd6bdaffd1480ce51b9062135ca612bfde8ab2c86d37ae39d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiShou.list"
+  ]
+}

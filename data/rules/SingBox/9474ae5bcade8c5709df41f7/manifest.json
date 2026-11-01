@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:09:12.971265+00:00",
+  "client": "SingBox",
+  "rule": "iTalkBB",
+  "rule_updated_at": "2026-07-26T06:23:00.999672+00:00",
+  "type_counts": {
+    "domain_suffix": 3,
+    "process_name": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/iTalkBB_source_fdd54fa58bb297f1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40e10e41f1094af6cf86e96c7cdc0f3300fc880ab98b2264b63851f8426b74c7",
+        "bytes_sha256": "cdb3982fed5dd4f4c4d32d85871de0d11e3df8aad87a9b758f613e18141f7cf3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/iTalkBB_source-srs_12ed0f86ceae3934.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "81920a6fcf1047352776f9acac4d937de2e651a4e1a3ce34740e5eda9925e3b9",
+        "bytes_sha256": "e904800c62be4a54c45a2300690ebcd734ba41feaa8d1b741d60ff9ecca4d957",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/iTalkBB.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:16:13.834094+00:00",
+  "client": "Mihomo",
+  "rule": "JingDongCloud",
+  "rule_updated_at": "2026-07-26T07:03:20.729547+00:00",
+  "type_counts": {
+    "IP-CIDR": 7,
+    "IP-CIDR6": 6
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JingDongCloud_classical_1fbfe1fd308f88ef.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1cc9211a6a93a7903231ecc46321b2b3f818d8f7b70bdf0e50165c09961c1f54",
+        "bytes_sha256": "feecbc00ea96137ae7b13b1ac66e10248d5a72194fe55a2acfe3dd4d02a08437",
+        "semantic_sha256": "17b8011e67a46058f1bee87f8148faa832bdeb795686d8d2345d38d9317d4dcc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JingDongCloud_ipcidr_3478836f5f5849bd.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "771367fbf9f577f702874c0112f3d685b818af240209b721f855cf42d18ab33b",
+        "bytes_sha256": "69300e2cbe1bf2bc476c0afafdecfc2bc80d37b9e3eef232dd06dc356a652a72",
+        "semantic_sha256": "fff7642a37dd93b9a7b34f451ab20d8d9ad7485578030654e13df1a845d9c3b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/JingDongCloud_ipcidr-mrs_942f2293ca2384ca.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6dbfe4b0804bdd9d2c15a09913e2808615a17310e960e8894486517de7094f93",
+        "bytes_sha256": "71d35083898f6c71d5ae52e5d2528bdc374c2dece69802ded0ec9994723b5b18",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/JingdongCCC.list"
+  ]
+}

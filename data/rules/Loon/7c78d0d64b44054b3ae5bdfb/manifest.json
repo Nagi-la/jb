@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:05.416961+00:00",
+  "client": "Loon",
+  "rule": "eBay",
+  "rule_updated_at": "2026-07-26T06:56:35.073952+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 369,
+    "DOMAIN": 1
+  },
+  "total_line_count": 370,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/eBay_rules_cfbc2424f83728d7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b83fd069c2788f5a768a34c2887d183dbb34060577e6bf88a7f877f79774ae76",
+        "bytes_sha256": "8aa84d3bee5e54555a776c03ae8b02f4ad0590fae7349d018eb7da2293dad24d",
+        "semantic_sha256": "e4f1489ff115e77b93596f8286661c85ede92da99bebeb4361daae28de69123e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/eBay_domain-set_23badedbd6205f33.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9ac236325e0d7cb8df35c2928bd4f5d7f7b4f7cab684b3828075b9ce42d93ab6",
+        "bytes_sha256": "dcb4a12b77581f5157d0ff64ea268759c8a5ccb9a88d365f4624876b00015e5e",
+        "semantic_sha256": "9d9967be64a07b9961d9bab1bdc406c24e44986fa35114884d5c47a133680abd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/eBay.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/eBay.list"
+  ]
+}

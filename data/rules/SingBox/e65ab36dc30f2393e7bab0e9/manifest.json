@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:12.575476+00:00",
+  "client": "SingBox",
+  "rule": "Debian",
+  "rule_updated_at": "2026-07-26T08:31:46.044111+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Debian_source_4f7e2c8a484eb529.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "15cd2a07d0dcf20bcd99ec54de19d2390d017882d2fb70159056de667da88461",
+        "bytes_sha256": "db89f622c1443cf081ed8a0a909598f8613ce628e7d7604145a8ec6bba7f1beb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Debian_source-srs_384f870d4094f324.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4c7386c5f7276aa53aa18121ff6100caecd33443cdca7cc19a704cd83b1489a2",
+        "bytes_sha256": "1c4fdeffe9e02f66e6860700053f3608b9d32e95f8ea3ba3003807fdf01db660",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

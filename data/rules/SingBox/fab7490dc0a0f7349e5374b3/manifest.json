@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:25.157516+00:00",
+  "client": "SingBox",
+  "rule": "Fastly",
+  "rule_updated_at": "2026-07-26T08:21:15.825395+00:00",
+  "type_counts": {
+    "domain_suffix": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Fastly_source_a8660b4b078abf1f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "953b6a112779a8b671af929e9972228c6cebed4202a5c793669c0d3cadda8b6c",
+        "bytes_sha256": "83bb0bc65fd3f555553fcee4c5dcc793d447a07e84d3a5a2e9d3a85ad2dab0f1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Fastly_source-srs_21fdb02c3e48a93a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0a121b40096bd2518864ef5f031c4b6f400eb7a9f82e0dec4e5ce1bbd16d50b",
+        "bytes_sha256": "a151214d4a127316e18c468d47fa8147f3e887b080a9490f967350df1ff4f0f0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-29T02:57:29.250996+00:00",
+  "client": "Stash",
+  "rule": "Dropbox",
+  "rule_updated_at": "2026-10-29T02:37:33.333833+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dropbox_classical_8183d9c29efe5545.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98b90e9237971ca0da7e21b58930685364920763b8f95f76a7a48368c94394bc",
+        "bytes_sha256": "926e7cdbada9c1f7eecdfe3bd28735424deb98ca5c659928e382928fcf9fcd12",
+        "semantic_sha256": "31cf41cba5713452b14e088bc3c12c77acbe3f93e462aaf0501f87864acb8fa8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dropbox_domain_3f165c1749e10de6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d24cc5354631fbc52ddcbe93fad867105078ce95a22679e3dd93d85a5e0b5531",
+        "bytes_sha256": "9be561f5fc7e26100bc938a7a96557085f9ee76d6c7ff339a5b183d667c773e9",
+        "semantic_sha256": "4ffa990fe1fcdc0a16cc1273ae43e254c155b43d2f3e0d11d50ba50e9bdfe5de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dropbox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dropbox.list"
+  ]
+}

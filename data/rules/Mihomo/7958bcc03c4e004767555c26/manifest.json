@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:06:36.678371+00:00",
+  "client": "Mihomo",
+  "rule": "Siri",
+  "rule_updated_at": "2026-08-03T15:32:22.811153+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Siri_classical_d23ae8f1a5eb159f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7149b09ce0848626410d28dcb09a9e382b0fe707db31b78863124658df637eb3",
+        "bytes_sha256": "346ebbe056e1cec39c8776023a7321c4cae27b469d75bcd4bd3adc24d86777df",
+        "semantic_sha256": "44e7f690f6e1fe888af712e57671d38b4b21c0cb72f59d9d19ce4f7d908cb0c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Siri_domain_082b652ec997883d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb4d39adce6a70a627f3c3059fcf26776d4a3c95d3365a77699f8ed412955737",
+        "bytes_sha256": "393b7a884ab56f1f4dbf141b7ca461f39b84d4774b49f37911081e46dda8ccf2",
+        "semantic_sha256": "bedc5b75287fb72302b84e848121385f5f2944b8e5602e077a0277aaea06abca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Siri_domain-mrs_6393a18ab7fef8e1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0abd97c02f31c576c8cdb996895ba52ea9d8bcc8bd7a3d8027b397f9217276a3",
+        "bytes_sha256": "6a8d34a77b33755cf56e8da25c882965b9cd2f60766bb2494bc916d7194bd656",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

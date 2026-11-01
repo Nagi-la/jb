@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:17:12.807038+00:00",
+  "client": "Stash",
+  "rule": "Beisen",
+  "rule_updated_at": "2026-07-26T08:31:21.439835+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Beisen_classical_0166167b5e7f685a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d221f77944d1820ac6b2ccc3839c84268b1b4ec1ed77dfa400555e6162b512c1",
+        "bytes_sha256": "3baed7da873d67a3196d999e91ce46bbb5a57f7dc237f7589551dbae6fa1c898",
+        "semantic_sha256": "81d84fbf610171ce38cfc84f228789793ccb4f9693d2d1440f7f67baaea893ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Beisen_domain_cf7688f2dac93b4b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7cd8b65f5b00d03b94e7deacc9f4649d5ed42d360e8b46e0fa0546c175f9c9b",
+        "bytes_sha256": "035d9049823c75f1c4df1ea010101a15493004d1b0a3a3adf6013d59267dbf0d",
+        "semantic_sha256": "ca9dde651c3e2aec7ddb1395ec9cc5511c3fb7ec37255276272edc0c434bb7ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

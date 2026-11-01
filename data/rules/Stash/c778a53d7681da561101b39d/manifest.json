@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:01:46.143477+00:00",
+  "client": "Stash",
+  "rule": "Brilliant",
+  "rule_updated_at": "2026-07-26T08:31:38.087365+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Brilliant_classical_63599889855db6f6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2f3da8e45c34ba14f1cde44fd26bd155e582fe3f3314910267415cfc678361b3",
+        "bytes_sha256": "ac2cd010a46dbdc5a3f217b1a7a116023639b24d96f44118ea9a70766c7e08e0",
+        "semantic_sha256": "1ff25f8e96e04fc43da17e0c4f8efdf2c9fda40de9d239fc1a63e518bee9c9fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Brilliant_domain_f1ce47092370136a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e75c70aca8689106867e7dca0e0e97aa17e9b0ab9ae2124991b876b538f87986",
+        "bytes_sha256": "7a1e2abe1aa9c661b3c4ef33c7d3067c7a6aba63db3251111a0da0e5ccf5269b",
+        "semantic_sha256": "5c017fb84690515969643d0e330ca487a4abb4c4d70524ec30114332a38fbb7f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

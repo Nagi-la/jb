@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:48.939909+00:00",
+  "client": "SingBox",
+  "rule": "BOCOM",
+  "rule_updated_at": "2026-07-26T06:47:44.351548+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BOCOM_source_2eb3d5e4aed9f953.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8e4dc7222f81b614df3ee6583ae361f1f6241e8731d124aa8fcb2ff8702802aa",
+        "bytes_sha256": "1520b2093c3ed3e954a712e6d246e60a2ca66fdbd21d054efa7f9cc9d7953d0a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BOCOM_source-srs_0b34365c9ef5d92c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bfcae417baf97360fffcab19b3895a02505c38976794acc6aa85d6f4ac05b346",
+        "bytes_sha256": "bfa8c5038c46b374edf3485462b9663a8f4211260c563e0d991897c7c62aebe7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOCOM.list"
+  ]
+}

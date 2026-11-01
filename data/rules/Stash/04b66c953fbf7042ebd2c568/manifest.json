@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:13:01.760312+00:00",
+  "client": "Stash",
+  "rule": "TIDAL",
+  "rule_updated_at": "2026-07-26T06:22:31.600218+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TIDAL_classical_83e0d6de42f2a44e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2988b67aa29459e3f37a27786907121e09cb831639f15d3c163bf0cfdd9f89b",
+        "bytes_sha256": "ea4910fff401b0cef9f0ab622e4a6afb1717594adc8f03202750dbc94c778da2",
+        "semantic_sha256": "0dea1af10561283e309bc0961313ba5cf744dede032d8450d343dcdaa36c6587",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TIDAL_domain_bd10c3adf984afde.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "410fd61bca07992faee69e1ab263a6f220f7a882c957ebad30134b4b29c5429d",
+        "bytes_sha256": "7ebaa323e86ce572d1be7b60202a5b7fb783934c4f8ee80d890f4c5ecd81e786",
+        "semantic_sha256": "4a2aa58c37911b595bce8b4bbb6175bb47e88b70ac8fb986c22abce8bfbe44a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TIDAL_classical-rest_1cef41b9c70574cd.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d1b0a389cca850de6dbc94cb2531527158c77bbfd0dd9f26bea7cad63fc2d8c",
+        "bytes_sha256": "73a630edb43134175572169e2d2bf31b56ab54a295b33ee626adfa8aca261a6b",
+        "semantic_sha256": "f1c5a01eb5e1cb3af923bc58194e0d55c150fa382a0a340aef52580a853507b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TIDAL.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TIDAL.list"
+  ]
+}

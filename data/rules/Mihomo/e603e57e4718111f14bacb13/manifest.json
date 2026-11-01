@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:15:32.162915+00:00",
+  "client": "Mihomo",
+  "rule": "Udemy",
+  "rule_updated_at": "2026-07-26T08:22:42.867426+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Udemy_classical_3a6fa561bf41c5be.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb613888933880c741b1b3a1cfecbf2d018502630fcd729728404d63ad6fd961",
+        "bytes_sha256": "f55be65b228cec138e6e6ed236eda60887a0ddbaae08b0c53908d2bd5a2692ec",
+        "semantic_sha256": "797c3df60c0e9c8f38d6ca7ceae1fa84924359fe64d3cad53661a79e465045ba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Udemy_domain_a6c721235300764e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e932eb10ef72e3daec9ab768271586fd3b00d1378612fb51699d3e4115b8805d",
+        "bytes_sha256": "b3a813700e97a1db98dd0528a1585c852b50ade0b9c7d961fa6b42dc0e85ae68",
+        "semantic_sha256": "3c277ba4dde6db7de57562f128c60e19971e75fc418b90186c359d336534a4a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Udemy_domain-mrs_82bdc3c8114e14c1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ef6c00e8467eb0d0c20d65c96070350760349a6bdf49afd5d91a7b1a57c07313",
+        "bytes_sha256": "5ae2ed8c6209d7dba23990ea32eceed63a52bb601fe4d64531e95000c78952d0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

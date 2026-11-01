@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:51.560213+00:00",
+  "client": "SingBox",
+  "rule": "SMZDM",
+  "rule_updated_at": "2026-07-26T06:27:56.753433+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SMZDM_source_72058a961306c8e1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "10e9026fd19942e051a1049c704936529bef4f9b5f7490a3f158053a8e36d1ee",
+        "bytes_sha256": "d27f276caea306f308a6ecb34e051b8bd8a4af18998e4bff1b1de0951cd6774c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SMZDM_source-srs_26d53b765c97cd5b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f9dec02d6708e86eeaeb012db8381ea825bbdd283feebffc84a56549304c543",
+        "bytes_sha256": "44ade8f993716b1e1c4825662cafc5992c5f84b103089e8af2decff7aa4145df",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMZDM.list"
+  ]
+}

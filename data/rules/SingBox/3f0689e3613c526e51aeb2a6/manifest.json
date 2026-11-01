@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-08-27T02:00:25.653213+00:00",
+  "client": "SingBox",
+  "rule": "Direct",
+  "rule_updated_at": "2026-08-18T02:21:11.747956+00:00",
+  "type_counts": {
+    "domain": 32,
+    "domain_keyword": 10,
+    "domain_suffix": 220,
+    "process_name": 36
+  },
+  "total_line_count": 298,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Direct_source_46a9b4b8fa95cf66.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "395bf76df8cfe0f47c1d18255f7ecd39a2be7f0e812710fe927f75db7f797ffd",
+        "bytes_sha256": "c171db45da4e01f305d95a5f7fac50f47d3d151196fe2a7c1655ed6552ad79f9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Direct_source-srs_a0b171aa5e98724d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "397cde4885c9c7215450775303f912c8d5b951b55d03403f67bb66d8ee95754e",
+        "bytes_sha256": "7c8154f7fc53f19a2b7d9bf598cf70e3d15a1966c4e7f67a128b98a36c653e95",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "直连指不应该被去广告分流规则屏蔽的域名、IP等，请将此分流规则置于去广告规则之前。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/direct.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
+  ]
+}

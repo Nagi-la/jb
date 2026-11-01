@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:38.489535+00:00",
+  "client": "SingBox",
+  "rule": "AiQiCha",
+  "rule_updated_at": "2026-07-26T08:30:02.382960+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AiQiCha_source_296d59374c122e71.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7f4107d1de817f963d159c9aa947d3b2ba2010b367529c34b02f0d738066de77",
+        "bytes_sha256": "1b5fa62704aaf46ed18d0ab0492e84e1bae5c7bcb3d15a8c4e78d9fcb04ae8ec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AiQiCha_source-srs_86c19ce70bc2421e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c6b36a0c1c16983093067d1208374ea7f15cbd272cdddc76b2796c49b0f5bbd8",
+        "bytes_sha256": "9b4000d101162a75597fb2783a7798b90c2a2d059a0119cfa0b9dbb5fd0bc1e7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

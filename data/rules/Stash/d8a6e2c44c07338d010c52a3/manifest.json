@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:13.555636+00:00",
+  "client": "Stash",
+  "rule": "Eleme",
+  "rule_updated_at": "2026-08-01T04:38:12.124215+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Eleme_classical_178684ad6d134d94.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "725a91c4338bf89f495045084e56c38b6e7b71a6a606e515eeea6ddfb6ede882",
+        "bytes_sha256": "699669e04ca35b88f806a346a176c434c8e2e092c5bbaa0918150301991e0ddf",
+        "semantic_sha256": "9312939bd494c23c8ec396979142dfcf3e1bf71c7955c3c4b40de16a5a41ed10",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Eleme_domain_55d7797615633295.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2564c6abc8aa034db38ef805cb2ff225272971617b6fcf6f0b7020c6339e359c",
+        "bytes_sha256": "62e32597baaa430058e324c2ef2639747fe36953321191b9cfc9a1542a21fa86",
+        "semantic_sha256": "ba5b66f4a4e8dd317a9e695cf2dbc7440f412fba76ea066e611667620a1dc540",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Eleme.list"
+  ]
+}

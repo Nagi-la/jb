@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:04:05.539789+00:00",
+  "client": "QuantumultX",
+  "rule": "URLShortener",
+  "rule_updated_at": "2026-07-26T08:29:08.833577+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/URLShortener_rules_226c5ec1b0670be8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31c4ab07d2f9c74c1090a9e4e60030aacb6d75e073567748e6c5a96d7071347f",
+        "bytes_sha256": "82579ef9befb79f6daa06f7478bb1507331c720766fe71b0966defa86131c10f",
+        "semantic_sha256": "f13bdbedfa768a9948f4d4edb39339a54231c0de99446ecd69c328940af64eb8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

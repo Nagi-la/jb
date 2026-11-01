@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:00:34.334168+00:00",
+  "client": "QuantumultX",
+  "rule": "Uber",
+  "rule_updated_at": "2026-07-26T08:34:42.973507+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Uber_rules_165f12c5fdde243d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13d87db1bc00af522cd0c008694c41c039a22c7f5e0c638ff9b9f66d0c232579",
+        "bytes_sha256": "aae34895db053922865415dda0889f08845216b0225eeaa732b927fd06cee1aa",
+        "semantic_sha256": "ede7a26f13736aca7263eb2f418dfbc2bfce6630dce193c837dbb2478b27ebdc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

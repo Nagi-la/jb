@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:11.421545+00:00",
+  "client": "SingBox",
+  "rule": "Airbnb",
+  "rule_updated_at": "2026-07-26T08:29:51.855609+00:00",
+  "type_counts": {
+    "domain_suffix": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Airbnb_source_50f490ecf9e60119.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "58464004190116e25dc4d9f507150985c03d9d21ffd1f028d89cc4ee61694a6e",
+        "bytes_sha256": "f01cea9c47cfdde8f7edf898634f423ef44771cae3732f7d260962821ec8dc6e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Airbnb_source-srs_da33ed20c58df38b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aafa14aba6dac6c9886b95c5c75c46560c8dd715c01894b731a2544681afcd6c",
+        "bytes_sha256": "c2be1afb2c662a8856aafc12df6b5215d13c482014e34261499a679b6fd932a5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:09.255848+00:00",
+  "client": "SingBox",
+  "rule": "Android",
+  "rule_updated_at": "2026-07-26T08:20:41.931599+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Android_source_f069167011b9f7d2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b7223f3dafd04db7c6b82f9ffa6cd50a16f26206a8f4dfffe83bc6b0c8ac0e39",
+        "bytes_sha256": "d40f038fb3f677f1cc17d3ca8e169a4dc47bd6b05525dbc63a0323dfcf672eeb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Android_source-srs_efe480efa9db7e7d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5b2c1acc6da6bd34eafc1432393d68d7b72b297278a2dbbf447c5aadef8ce11e",
+        "bytes_sha256": "d68cf5c8c74d03e84649e0c39f7c22fa95b423dff3b46927d35605ac6d00569e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

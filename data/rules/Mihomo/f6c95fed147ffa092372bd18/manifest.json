@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:00:14.103078+00:00",
+  "client": "Mihomo",
+  "rule": "6JianFang",
+  "rule_updated_at": "2026-07-26T06:25:04.989357+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/6JianFang_classical_ceab760dd71188f2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "650d92582c52412191bbf5bfd1e4193ca0f4924a9a83facbe3e845c018de4eb3",
+        "bytes_sha256": "d14d38d71bce6178d54381c148fee4552368cfcd264ea7fc6a4cd48c7a4105ea",
+        "semantic_sha256": "dfdb029a05963f98fb602f725c6b468330c026bb02298b09323e4e8dc8cd6da3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/6JianFang_domain_7ff8da303f087a94.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d374bc0f1652ccfb0b9f77782354ba7d853efff305d08abd83dbdb669156d493",
+        "bytes_sha256": "6687580b5b43f84541a807470957de0913822710d12614b28b3fbdc42f7e428c",
+        "semantic_sha256": "1e190edb2256a4bdc98ba4ad9bef4604f73998d777c4dcbdeac67755c87a391a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/6JianFang_domain-mrs_9c88efce083770ff.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1d6af57799a557aea60792bff55b1997309ca40c3aad35ca853cf3665cc10229",
+        "bytes_sha256": "be2bda028c51c5343f68ca0e8e5f262caaf557d5c65433916c459f5dca052aa3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/6JianFang.list"
+  ]
+}

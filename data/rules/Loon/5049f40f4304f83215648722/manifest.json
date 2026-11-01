@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:20.606607+00:00",
+  "client": "Loon",
+  "rule": "Zhihu",
+  "rule_updated_at": "2026-07-26T07:00:11.290860+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zhihu_rules_3be84b045c475c96.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ef6992c70e675b12ca6d6ca8d83822ac7151844c928bba1ca2645ae3eb14f07",
+        "bytes_sha256": "f511b8f2e68a4424e3c20d0ed745809c3fc9f0f1bd207a7a35bbf61d4f35c716",
+        "semantic_sha256": "9ab555c306351cda7a8c5d751bde38f3718dc2ee30aeefb4a17df8df7234ab5e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zhihu_domain-set_c145790214e9ab7d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "320baf6829f964acc669db0cdb6b612919c622a1b4234a09dae1b84787bab360",
+        "bytes_sha256": "8af471866efc2a9e1450d4019ff563f00d2724e3052e42a9fd14e615fd2ffb35",
+        "semantic_sha256": "4d7d5edfa3c3bea1768248e1a4ce6cbd48aa4fe84699b1b42088617270d0c189",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "知乎分流规则，目前只收录部分。\r\n\r\n绝大多数CDN服务器IP地址并未收录，欢迎补充。",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

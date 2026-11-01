@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:10:48.430686+00:00",
+  "client": "Mihomo",
+  "rule": "MOOV",
+  "rule_updated_at": "2026-07-26T06:22:19.359455+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MOOV_classical_c16cabfdc9f9ee55.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "065d1f1ea5f61214490bc944418b051567a6db9d55975846ed3d87938320b7b6",
+        "bytes_sha256": "3685dcaf0e7bcb8bfe6342595c5389f95293f495dec6f98a83cdd5b8d95fa296",
+        "semantic_sha256": "23aebd91e03327284b52a441bf8674a6a8f6fd3f843c511d047dee40d9c9a4fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MOOV_domain_8695ed570f66d6e7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6c8874461c7aa5cc262733ff3d63f330d466a421421a578eb160f700aa9dfc0",
+        "bytes_sha256": "9cabb07414d945ca817ed7cba9d8b98d447dc46c4cbd2303a6de364e0b8688ce",
+        "semantic_sha256": "eec03ff35abf8584c7e904db38dd29274ceb19646476984bb0b04f4c7b6024a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MOOV_domain-mrs_4541aeca3ed91cd2.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5c4d1e6502f760a936ccd833f1e8da304a442997a6d724998200edf68a94106a",
+        "bytes_sha256": "b339ee02b355f9515db77fe253fa7a95f202c79a1f1c9b3d0f10cb2561e799d1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/MOOV.list"
+  ]
+}

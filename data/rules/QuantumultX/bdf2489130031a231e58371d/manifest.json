@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:56:03.719323+00:00",
+  "client": "QuantumultX",
+  "rule": "AkamaiCloud",
+  "rule_updated_at": "2026-07-26T07:13:50.861113+00:00",
+  "type_counts": {
+    "IP6-CIDR": 150,
+    "IP-CIDR": 207
+  },
+  "total_line_count": 357,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AkamaiCloud_rules_94e3dce7a15a0185.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c41f2330c0d061951ff72c71d9f657433f034e95de5591c90056a1ee21df3f7",
+        "bytes_sha256": "6358ded6138a0b4f314889aca9b5d41a4f55bc7dff6cb6b43a2a0f0b85abd46f",
+        "semantic_sha256": "0ea589e12c8fbac62e5d06d0abd6e5152926c46a7576896f6f083cb47d8558de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Akamai.list"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T02:11:11.111144+00:00",
+  "client": "SingBox",
+  "rule": "Alibaba",
+  "rule_updated_at": "2026-08-10T09:19:13.170875+00:00",
+  "type_counts": {
+    "ip_cidr": 148,
+    "domain": 5,
+    "domain_suffix": 1471,
+    "process_name": 1
+  },
+  "total_line_count": 1625,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Alibaba_source_96c246f63627ee20.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4a550a23880649a9dd45dc68cdec78c6e2a050c2da28caf65904196cf53f609b",
+        "bytes_sha256": "2eb7e7f14869f872db51e39da4a5cb3cbc2de39d41e8e039b98abde27e88f1ea",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Alibaba_source-srs_c5e771ca498c04e6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1a9c998ee9cba71239c6d5066b35411b0f4240e494723fd3f8075e8aff060a96",
+        "bytes_sha256": "96716c9d1a1856b9d82bf0421b4c1ef9ed6f7f98adffa22c42983d832732a78f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:11:28.703946+00:00",
+  "client": "Stash",
+  "rule": "DiscoveryPlus",
+  "rule_updated_at": "2026-07-26T06:58:15.215967+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiscoveryPlus_classical_7437fd3b0d5b8985.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "934548633ff76d6d182c3443495e8209e64b95df34d1958184630adcefd1a23d",
+        "bytes_sha256": "3874a3c42aa98e43c7b212477b69af3fab42ae6a7770f99f0bd312bd880c4b83",
+        "semantic_sha256": "097a8c3332a3519fda8bf5938b6f9cf99c845de4a52be5d6342efd46f0c13fcc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiscoveryPlus_domain_fb500dc902b68351.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5476373556be5e1b1207fc7ff71f3e4981902c6650bfc5a3ca959fa4351c01e6",
+        "bytes_sha256": "a1756a2b78901451b6e8a98f439973624034c4be9c58f0bb0f2c6e765f49c3db",
+        "semantic_sha256": "2abdb64afe6a8e547bbf3a645f2e55764adb6f555854ff1a0aba83ecf3c18708",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiscoveryPlus_classical-rest_c1efcd76d52c6751.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b0ab7f03395eb72a44b359dc15146e86150a9cd376c998eba2f4020d90805f0",
+        "bytes_sha256": "5699a4eb12802abd4429c53ae742758722dd68c4901e99e007e2e16b21f01038",
+        "semantic_sha256": "806a29676c005f61a41899fd02624cf60afd0fd74816a8a28f41fbe547eddcc2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DiscoveryPlus.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiscoveryPlus.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DiscoveryPlus.list"
+  ]
+}

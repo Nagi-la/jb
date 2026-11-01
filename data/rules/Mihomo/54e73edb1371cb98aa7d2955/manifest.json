@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:12:17.262175+00:00",
+  "client": "Mihomo",
+  "rule": "HKedcity",
+  "rule_updated_at": "2026-07-26T06:29:26.771548+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HKedcity_classical_903a64037025a4d5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d06a00a1d85004dab2b8fcfb03b47be581fbbcec1fcccd0007838d4f69e3024",
+        "bytes_sha256": "df81d4fbf5eafbfeb95104e914171915861487801d489098fa1d6cd430aec2b0",
+        "semantic_sha256": "39968ebca7a5e23388fca211ad94934c16cf747603f80864ebd630378440dc8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HKedcity_domain_c4fc29584a466fb8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e1b7b604582553b7422a3fdbad54a8546b36b895d1ab80292738e4cbeffe231e",
+        "bytes_sha256": "726b0de1cad0156a705bc4e97b6e0e70640081754dbe1b464046e07017273118",
+        "semantic_sha256": "5dd95560b73b56ddff2c29f8b9d6a6450ba1a5d758aab22b3e4d91d4ebe4ae09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HKedcity_domain-mrs_f91f234ca5ab505f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4e7f4a1911c1b39692e5e563f1e06b07307ff2c6c03094a6f72dd42534418aa4",
+        "bytes_sha256": "95097e294cb0dcc9141625044dc4475f63f007708f88b22fda74085fcd439ea2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HKedcity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HKedcity.list"
+  ]
+}

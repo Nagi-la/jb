@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:08:39.553775+00:00",
+  "client": "Mihomo",
+  "rule": "AliPay",
+  "rule_updated_at": "2026-07-26T06:47:06.283341+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliPay_classical_f046199a4ae2f296.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7c22bdacc8bebf9255e54a7e26320e97cedb7728367d7aeae44ef7f1f5bfba0",
+        "bytes_sha256": "5a3118c77ee816c7d00bfbc39284ed5258a667641383d56e9a888fda63671cbf",
+        "semantic_sha256": "b7d512fbd23736208530032499d6b022057d5de4120e48288db159f5606192c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliPay_domain_b4c5da3a5c114848.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5014e5bfd4231a7107ec72635b23c3efd0db0c4b58715e2e8be28778d057fa10",
+        "bytes_sha256": "31f6ba5212c404634b7fac30562f8640efbf3a25b0e410a5b0963536c46d1320",
+        "semantic_sha256": "ffa5ebfcb3d8f242bae91693dc6efa4229e34a5bd9859db9871ddb652e63fbe2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AliPay_domain-mrs_9436082f549dd5c3.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "93c6eb57e30977a480efb85709961d5145047d74216aae8c9a50fc3bd525070d",
+        "bytes_sha256": "469d1c71e4107aac91bc584d562281efc202acf7fc303f4856d109ff20027c3b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AliPay.list"
+  ]
+}

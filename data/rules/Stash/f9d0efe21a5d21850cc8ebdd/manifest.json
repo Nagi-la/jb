@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:54.973656+00:00",
+  "client": "Stash",
+  "rule": "ZTE",
+  "rule_updated_at": "2026-07-26T08:34:57.996640+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZTE_classical_cbb951ae7a741055.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "391bbd996c45c7c97be31b89b9a3bd8b045f1ea32d2401f1893cabcd8c57a53d",
+        "bytes_sha256": "eb06690b2d53d4cdc3c2715fcb4a837456b482c2285e8e55b8c98d00eb8ef214",
+        "semantic_sha256": "6030630a91b85da4bb839cb7d5f30608d0ba4694994054ee84aa119c6d7688bd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZTE_domain_067ead5a70fd1265.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5bf08df4eb2aa627d5be8753cfda756f98c09ce62dae57919cd31a66032e6605",
+        "bytes_sha256": "7893eb3f93abd4c67c053a1dc286597430647364d21893519472351636bf8781",
+        "semantic_sha256": "5b626042ab215261dad470df3423cb21f78644e5147831cacb8beaf64b4dc83b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

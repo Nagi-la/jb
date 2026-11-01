@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:14:01.873909+00:00",
+  "client": "Mihomo",
+  "rule": "VikACG",
+  "rule_updated_at": "2026-07-26T07:22:49.246202+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VikACG_classical_1eded9eb3becb25e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d463a6fd613e46f9e45e92961dc7a4c042fa66c4f40a5a04d74f8eab87cdf51",
+        "bytes_sha256": "a1341dac1103e814e2edd2fc7c7c32d469285ae93ab3035e3d518620ec69c271",
+        "semantic_sha256": "397070dbdeae1fba3094be857c3fd8ac15e2d34250f9370dae4deb0f01e479e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VikACG_domain_4ce00e19f91e0021.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f61e455889e90d921b65d254acc773a2a12d7ae05af8a0a1879def4893ecaea6",
+        "bytes_sha256": "dd4094575620ff8ae02bf49fa73556a18cc5b2af9fb592be4fee89f78a45b280",
+        "semantic_sha256": "cfc9e254dfe9c806baa10e7ba76fd73d0561ed2e7dee92457a9dbc6f56515b72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/VikACG_domain-mrs_ca78e1bb18a8439f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4847f044dcf6ee5548afb9161a1aec59cc70016e831dd2f6f7a27c7487b3afd6",
+        "bytes_sha256": "59dcc968c1e63f4b053fec10483e31c9cd4f42efdec90f32602a2263f5ff459c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/VikACG.list"
+  ]
+}

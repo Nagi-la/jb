@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-10-30T01:50:58.681434+00:00",
+  "client": "Mihomo",
+  "rule": "China",
+  "rule_updated_at": "2026-10-30T01:42:44.471958+00:00",
+  "type_counts": {
+    "IP-CIDR6": 4,
+    "DOMAIN-SUFFIX": 6302,
+    "GEOIP": 1,
+    "DOMAIN-KEYWORD": 10,
+    "IP-CIDR": 3892,
+    "DOMAIN-WILDCARD": 2,
+    "DOMAIN": 25
+  },
+  "total_line_count": 10236,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/China_classical_488d107c687bae96.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eca7b8b3deccff6aa5121f57ab8bd5c888cf06852cf49e3ba1163e67eb21a31f",
+        "bytes_sha256": "32d764b68a11fc27ddae9ff80d1d7b1df134d84ccd0e81e06f64c13e0e0a43c6",
+        "semantic_sha256": "5d6696cc49c176b64d2b9b7aff106962ed1c70a4da17d91da435710d2dc3a54f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/China_domain_1ec82b4822ed91d2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e752bc9222abbd6e03c6ae79b69c53022db5e3fff7c52c5ad78a49fe34f6bca7",
+        "bytes_sha256": "bdf4a4a65f50a9ccfb241a3c1c9783c575df5fcaee32ab2b40fdc64e0be97d4b",
+        "semantic_sha256": "9df1fb9329980a9d310505c62677068ce8c2c68f7eaa3ead67101dfb628311e2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/China_domain-mrs_e758d02261cd6dbf.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8eb81a788b0e833d37be89e5ad3da4761a5e088e5f4cedcfa65e07d78dac1bed",
+        "bytes_sha256": "3ec93b36ebb0f9f33f67809dcf1dc23097ad68e265094d59c4924a92b71555f8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/China_ipcidr_aa12dd9375fafd7f.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "22d8108347261ddb82d4ee02665f9503dfd7d780babaa220dd76f100d0a0a85a",
+        "bytes_sha256": "49e1f9c16816aa4fa40b26297019257631c5710b135fc92188269569f8952382",
+        "semantic_sha256": "d7de81246e43cd81700ea4d1e56e2de9d7318d50ee75b54772f4bab2d6ff131f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/China_ipcidr-mrs_d17806eb84626c69.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f77cba24c3ccdb394006d3ca75c2c4d7722905324706b35656d7f98d466fa061",
+        "bytes_sha256": "4e4141b2ecfbfec6f63aea1792b0f3fda67abd6486dd913b5d5a61de66abb959",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/China_classical-rest_92992f8fa661a871.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d13222854c4d2cb7de285421ec796c7222b39104fbcbccfb0c910d64e306243",
+        "bytes_sha256": "2bade3972175ccbbd3344a05a76ab0d9ebcf71b238b69f17b447b77ba132ceae",
+        "semantic_sha256": "e969772114fd42c8b67dde1104c2e28a9a299fc7f6d25a31b95288ecde96bfc0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list",
+    "https://ruleset.skk.moe/List/ip/china_ip.conf",
+    "https://ruleset.skk.moe/List/ip/domestic.conf",
+    "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+  ]
+}

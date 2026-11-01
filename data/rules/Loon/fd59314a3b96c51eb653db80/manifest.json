@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:33.657691+00:00",
+  "client": "Loon",
+  "rule": "iTunes",
+  "rule_updated_at": "2026-07-26T08:33:00.442322+00:00",
+  "type_counts": {
+    "DOMAIN": 45,
+    "DOMAIN-SUFFIX": 53
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iTunes_rules_93c8ba8c2822c393.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c166d8b734d95655740c48fc15a9b522f28bc47bb4f9028039d620912b1f872d",
+        "bytes_sha256": "aef5c9ec83f20bec354091e1a88fef51758d23a6f77c7e84c200968f01b9a1a8",
+        "semantic_sha256": "29cbed4ddf59e0a0ecc67a58696aafad3a792d438321c0e8114aa810a2cf3acc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iTunes_domain-set_8ca8a2806cfeff93.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2f9ee692c1ab4b4c24527655b5b2a40516ed13f2c3452c610013f54b2bc7f2a",
+        "bytes_sha256": "ba965916eba294551da75dac3002f221bc5f4626490d97b849d3ce5911c9407a",
+        "semantic_sha256": "9700e8d82ef277bec8beecd9ed866d4370782017b0ba021d815cef70d69c4afa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

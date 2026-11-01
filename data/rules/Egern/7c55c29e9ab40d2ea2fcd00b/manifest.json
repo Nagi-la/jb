@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:04:44.999935+00:00",
+  "client": "Egern",
+  "rule": "Perplexity",
+  "rule_updated_at": "2026-07-26T08:22:09.986340+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Perplexity_rules_e2d3bc2e2679de8e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6aa3781356bd07adf4b219e579233e51ebf8190ff90362de168e1fa4451ccf98",
+        "bytes_sha256": "921f015c0eb1d483f82ac602270b96289e74f122715bdc3766407e626f2f9deb",
+        "semantic_sha256": "18efb7791b32bd444ecb1371f2d2b4acc5db7e48decbedd3fea56db6c4482fda",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

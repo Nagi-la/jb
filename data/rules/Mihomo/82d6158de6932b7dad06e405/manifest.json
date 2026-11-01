@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-29T02:52:34.553205+00:00",
+  "client": "Mihomo",
+  "rule": "Roblox",
+  "rule_updated_at": "2026-10-29T02:37:31.869128+00:00",
+  "type_counts": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 51,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Roblox_classical_0268b4812fb0d119.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08656a80b441b3abb7f39593ce9b3bd1d9fc5d0d3d79b1682a1bf36eb7215c28",
+        "bytes_sha256": "3571c2caf96c627b97e2a8c657d9affa9acc68b84d44c269d980ce5beff9ee92",
+        "semantic_sha256": "b54a1b051605a34c489486a996d1479648f5d118682404ce5b063293a73460a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Roblox_domain_8ed3cc767937340e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e43e18596583b9bd8e61f5c2f92ab27bedf63d3eff17332a9bacaad2fd5ffa50",
+        "bytes_sha256": "e6dd65507bff3722e4f1f2a89f24e2c49c445ab9a8e7b6b820c6bd2d4ffbbe4f",
+        "semantic_sha256": "b1f9303fb58fb483cb60d7b0c3ddfe9562e1fa8526241d8e65203189adcbb6ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Roblox_domain-mrs_3742866ef3ba62db.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d97c48e2e1e2a0361087cf596dcc9fce4f24fd3f75a05320ad93370385d54105",
+        "bytes_sha256": "df80ab311ecebbcaeae69fd8cc7db9254122553ae819f2f72d6f285a79682ef9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

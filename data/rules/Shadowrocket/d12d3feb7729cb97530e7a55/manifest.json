@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T01:57:13.156737+00:00",
+  "client": "Shadowrocket",
+  "rule": "DAZN",
+  "rule_updated_at": "2026-07-26T06:21:38.345454+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 23,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DAZN_rules_b0180aab528c12a6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d1da4c0b76810f36d60d07b26a96c901640034cf15a4e2eeaffd98f943076c2",
+        "bytes_sha256": "78735247d724711f0f094714b99b9c3c689f8c7105b7c0b9d720f162714b70b0",
+        "semantic_sha256": "df738d05c33d8f461f2d67f56703f4a0fc91484242cfa0d2b9721c3820d10aaa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DAZN_domain-set_f7e81d051bf27b85.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c1b1eb35b860c2d12ba1d2f3c336380b243fa0955f8ebda97a0f3ef074d3f3d",
+        "bytes_sha256": "a95cbf7cbe69019149ed146f7a642a5740ccf3649b7eaea2c965c7e1b5409166",
+        "semantic_sha256": "8f99dc3f18d42e1ea0013a07e381dc396aded982e040bd35600dacb127952062",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DAZN_rule-set_27b4c0de5c17a38e.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61406af81b796ebaffdff57021c529c41d84b9ebe092f9dad362aa18e49e7c6f",
+        "bytes_sha256": "86d655b21b1a81feba296077d90369f3e01207783784161b1862bb6f71ccea8a",
+        "semantic_sha256": "0355a0405be76cee775bafe94b0ce6de61117791eab67f6702576f356a791e40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DAZN.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DAZN.list"
+  ]
+}

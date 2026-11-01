@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:16.669665+00:00",
+  "client": "Surge",
+  "rule": "Pinduoduo",
+  "rule_updated_at": "2026-07-26T06:38:39.773487+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pinduoduo_rules_015382082e742bf2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f0a951ee16664343698c83bc3106bc4db3754aeb50b9a58c5a12da1a4aaff8e1",
+        "bytes_sha256": "7b561a9045503af2ba2e76fb0d9f6a26b7ca4df3867a3360f5f73be564ba27c2",
+        "semantic_sha256": "c026e1e69280ffb4c82398db68e512c0057621d570277343f9930318d21fdc47",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pinduoduo_domain-set_17e3aa4f7c3d2cf5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa6381389d7c11d01b73223dc9afed825eabfec0be195b658cc8a54cd6090156",
+        "bytes_sha256": "a02192ab942e44bcaf684533dc2b8eed81cae6badf93f41176c69ee40c68ba5d",
+        "semantic_sha256": "b4ed944176d651d3807eb1ceddbe03ec52aa58e6341953b2b0df0975ebf86bce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PDD.list"
+  ]
+}

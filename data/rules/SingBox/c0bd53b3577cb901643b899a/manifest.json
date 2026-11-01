@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:07:25.402172+00:00",
+  "client": "SingBox",
+  "rule": "Cryptocurrency",
+  "rule_updated_at": "2026-10-29T02:37:34.925272+00:00",
+  "type_counts": {
+    "domain": 8,
+    "domain_suffix": 232
+  },
+  "total_line_count": 240,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Cryptocurrency_source_f38122160394d875.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ce372ee2e37a57a6ba8d7b1c5870e2f8d42c71f20b15072a8d320db1e4db68f5",
+        "bytes_sha256": "5be3f41fe5830b2395392195b184fe5b80463e8c57d8845b619ff4028884c8b4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Cryptocurrency_source-srs_59f10d3303999f35.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6084680a67eb25264ca4e2d495bb39ad6e853eb3bf4a8dc3176498792150ff46",
+        "bytes_sha256": "a11a3a7642848605ce10b128cd987417d74b0b126ff1b59aeaff9573ca595308",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:17.423762+00:00",
+  "client": "Loon",
+  "rule": "WoLai",
+  "rule_updated_at": "2026-07-26T07:00:11.912825+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WoLai_rules_85335643b1a2b71e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65765ec5ef30991d26459a5740af81dee2de0cf11f023d2ec6e4e8233fc7268f",
+        "bytes_sha256": "15204686068b01facc7a97e89314c27944cf6acfc35b10cac2969f1721d8811f",
+        "semantic_sha256": "469c81a3106b181693486b9f780bb9d53b751e8a8fb421bc6dce78c971c28b30",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WoLai_domain-set_6a07ba5f8118c378.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ebbceddde967746d7cedf766344afdafcc28bd7996f97cca32a626c13fe41a6f",
+        "bytes_sha256": "13bd90bf3c85b851f149dec156a775a495e89bb54bac8ea278da309e94366238",
+        "semantic_sha256": "580d5b9d787825a8bdf417a5d63489652b6e228bf7cfcfae73c90de6515da3ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WoLai.list"
+  ]
+}

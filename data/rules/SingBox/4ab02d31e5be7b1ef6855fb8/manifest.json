@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:13:12.630054+00:00",
+  "client": "SingBox",
+  "rule": "ChinaMedia",
+  "rule_updated_at": "2026-07-31T04:26:20.744619+00:00",
+  "type_counts": {
+    "domain": 65,
+    "domain_keyword": 1,
+    "domain_suffix": 209,
+    "ip_cidr": 68,
+    "process_name": 2
+  },
+  "total_line_count": 345,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChinaMedia_source_c3f1d7e695d4f76c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6b004760bae49378b63afe39c36826406ecbe6c38d03719baea7838bfb1918fe",
+        "bytes_sha256": "1c86156429d2ec26d125291e2397e2b035fd2359f3ea221a6cb689de9957d0a3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChinaMedia_source-srs_cd38b1c133ec11f0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7329fe097a654bd290f2700741463b1f23a1efe9c609188d445ad1233aff1163",
+        "bytes_sha256": "bfc13daffd8bd53d5f64557d4ba57046df3c84eb9ca656437b787fe187040bc0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/DomesticMedia.list"
+  ]
+}

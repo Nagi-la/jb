@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:15:08.494716+00:00",
+  "client": "QuantumultX",
+  "rule": "My5",
+  "rule_updated_at": "2026-07-26T06:22:18.736085+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/My5_rules_2e1717dc94839cb4.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71ace45c14f043e3e6a82627488224dd2bc122b4a08373056fb8eddc4e1d3cd3",
+        "bytes_sha256": "d272deee4503a3fba96a366d027d8dd496e2d7162dfe9555e2bba0ed7fb715b9",
+        "semantic_sha256": "abfeaf26206503b950750b0e719f6592358b8ebe43108fdd8b2c850b84895522",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/My5.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/My5.list"
+  ]
+}

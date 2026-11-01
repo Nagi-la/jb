@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:13:56.382618+00:00",
+  "client": "QuantumultX",
+  "rule": "Westerndigital",
+  "rule_updated_at": "2026-07-26T06:55:43.927936+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Westerndigital_rules_ba7e76c47128d9c0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c4567a4f8621c2bc8bf67d4107634a46854382bd36c24c751544fa9fb08c2cae",
+        "bytes_sha256": "44d46524ea14bc8ddbdc064efd1a5475631a92ca2a373d6cedc2f2bf4f1a3692",
+        "semantic_sha256": "6691f1539c7f35120d3b8e8bd88518f66220cc6e8c40c2c76290554621d83b6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Westerndigital.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Westerndigital.list"
+  ]
+}

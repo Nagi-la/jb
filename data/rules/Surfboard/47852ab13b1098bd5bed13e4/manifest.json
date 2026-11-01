@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-09T16:04:20.754144+00:00",
+  "client": "Surfboard",
+  "rule": "Baidu",
+  "rule_updated_at": "2026-07-26T06:39:20.041086+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 323
+  },
+  "total_line_count": 323,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Baidu_rules_19d58355ea359157.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d537960aa42aa40faf720e23023b6caf090901d37bd4db5192284488c4db2945",
+        "bytes_sha256": "4e78ddbd22a2b32d93a3c257eb175cf9dbc7a86e9183b0147ece2970ab113030",
+        "semantic_sha256": "85a23775a1706f611086f93d8dc2c033527cebbe6cb38fb133f45a931a50e683",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Baidu_domain-set_343a45374ed3a40e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "adec2a0b7e6932895de0ed14b279824efd61e926f28e6f6af5ad58dd8100da9f",
+        "bytes_sha256": "a09000e3ade102275e232ad016c113ef738fd6b8d195e15156b3b000ea81f1ce",
+        "semantic_sha256": "480f47eeb6fb9993e230ec5e26598a87c53c024df7cc34c74ff2c1fbd09b2d8a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiDu.list"
+  ]
+}

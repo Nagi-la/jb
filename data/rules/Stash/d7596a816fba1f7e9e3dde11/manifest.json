@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:26.813114+00:00",
+  "client": "Stash",
+  "rule": "CNNIC",
+  "rule_updated_at": "2026-07-26T06:23:48.338818+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNNIC_classical_1393fbfd33ef8391.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89e060890025d0ed9ef27708e5df222bb74d6169f9f16c036f46ee0ea731e14a",
+        "bytes_sha256": "eb676ad8f3abfe2232d194e579a421bda78647254955e70ff64a3ea2d6900731",
+        "semantic_sha256": "cdc187d01c58bbc44e7767a8252498f7b4f0df898a893a3da3e2cc4fb630aeda",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNNIC_domain_3b460fbe0f86c413.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f374b3262637bd47169671f09f39b1c1c6878693ff8a235f7e97aea966e6434e",
+        "bytes_sha256": "8f21bd572be21cf66bde31299b97f2f6e248953a098dcc89878410e2c28575e0",
+        "semantic_sha256": "ae548337e3125e2d7803703960fa90ec230b7af92cdf0a53b42780eedb6121c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNNIC.list"
+  ]
+}

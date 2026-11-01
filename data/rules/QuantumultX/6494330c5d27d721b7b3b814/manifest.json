@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:00:48.233681+00:00",
+  "client": "QuantumultX",
+  "rule": "Migu",
+  "rule_updated_at": "2026-07-26T06:27:09.705768+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Migu_rules_c06cf9e5940bfe88.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87fabf1819e9c2eaf67690270aa9cda1257c2e8cda65f0f08274831a5c7fb474",
+        "bytes_sha256": "bc99f34d4f396189b2eca0f18bc1ded05aad2ffa5fb2005387e09e19854befb3",
+        "semantic_sha256": "ad10c34581c59f99cd7b0a91cb864e4697816806b886dd39889529beb700b676",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Migu.list"
+  ]
+}

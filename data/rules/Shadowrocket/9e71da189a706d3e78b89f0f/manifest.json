@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:57.294727+00:00",
+  "client": "Shadowrocket",
+  "rule": "Zendesk",
+  "rule_updated_at": "2026-07-26T06:56:29.036617+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zendesk_rules_18cbaf779e60eff8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65a6a61a3167bd71afe1a2cd16bad81905bb2725258b5de930e3ed04e37d732d",
+        "bytes_sha256": "dedfe6ff17f861ad1b4ac90793e08352cc5b91af9b84fd90570479f5b49f0e51",
+        "semantic_sha256": "b6a491c5eaf837159723a6d375b09d5f4cee15288f4ebda8e6f87df30bd4de94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zendesk_domain-set_01da8d291c2a12e1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08d0b6337b5b183996dab2a54e98ce0c1ae252701ae6560a0e5f62ec6d96f5a9",
+        "bytes_sha256": "99e6398c000ff6f85c8e18ffd789c19b0639dba4b613dbcc235450091a116c3e",
+        "semantic_sha256": "a3eb85ae8fddc474120c1234a8cd380e326acf9b5f8039998cb26bedd0cb1ad6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zendesk.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zendesk.list"
+  ]
+}

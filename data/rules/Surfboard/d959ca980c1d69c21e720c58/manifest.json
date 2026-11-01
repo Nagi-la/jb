@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:26.873108+00:00",
+  "client": "Surfboard",
+  "rule": "Feishu",
+  "rule_updated_at": "2026-07-26T08:32:54.021111+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 43
+  },
+  "total_line_count": 43,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Feishu_rules_802556fac80965bb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6e6446ac34a2be156c44057e4493dc04ff7a9948438ab65f9d2d4937c4bec3f3",
+        "bytes_sha256": "593a22d62d4fdb768c11f4a5c5287859e1408ae7f6d0879ae03341e8a6310c9a",
+        "semantic_sha256": "b5f58480c495c9ed223164bdc0cb6469e80781d5541ba6d393ddc2cc5b92f057",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Feishu_domain-set_5d3118cf93817675.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b281abd5d8b82983e34dd289e199f30bbde2513c233efab037c100e209b3ce8",
+        "bytes_sha256": "dbb4ac8a2efbdaf0633231f2d4e40c367cc8f8df4b11805416c36abeb6e091b4",
+        "semantic_sha256": "1c97daa6512131cae99bf196609e3bb1f97ae0e0747829bd8f76fa68eaa4108e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

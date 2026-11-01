@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-16T14:36:15.802082+00:00",
+  "client": "QuantumultX",
+  "rule": "ChinaMobile",
+  "rule_updated_at": "2026-10-09T15:59:11.683332+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 51,
+    "IP-CIDR": 1
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaMobile_rules_54d83a392c42d51e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "985eaf8abf73633981088ab18f58c599d07d1a97c5d1a560c9bb8d9de23c420e",
+        "bytes_sha256": "62f2e5b2af02f6fadcd434997baf5894a586de26f4933c9ad945775bb1ce928b",
+        "semantic_sha256": "357322fefc4f934da8167f6371b023c82ae1734fda13663783b9a8b62a6631c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaMobile.list"
+  ]
+}

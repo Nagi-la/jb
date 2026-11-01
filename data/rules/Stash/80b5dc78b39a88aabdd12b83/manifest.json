@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:57.602787+00:00",
+  "client": "Stash",
+  "rule": "GameDownload",
+  "rule_updated_at": "2026-07-26T07:15:59.509618+00:00",
+  "type_counts": {
+    "DOMAIN": 494,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 498,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GameDownload_classical_323bbd133b5a7f3d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69a91fb6e14ed7ff492b3eabf645d2d29b566ab29ce652654f14257ed4b18c4a",
+        "bytes_sha256": "8155e06f6699b0fbff92b0442d821b04d5207963a07d9f51db40ad1021b89eb8",
+        "semantic_sha256": "a6a8f41948e2592ee2e87cbaa1eb0494b895e0be998559004e3622a52d55d05e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GameDownload_domain_731f0cb151e024d0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c692649d668e4cbb99650b163b39d5dad17d07cd20902dfe2764e33f1879e855",
+        "bytes_sha256": "c09ddce746812ea4e0024daa36f93184bb5ca0529152d4e37716d9af0f71915c",
+        "semantic_sha256": "98312e23015446cc9eeb2a884008ab4dc91efa49a1150cde2792bbcc5dad85f4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+  ]
+}

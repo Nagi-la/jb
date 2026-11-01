@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-08-27T02:03:12.312611+00:00",
+  "client": "Mihomo",
+  "rule": "BBC",
+  "rule_updated_at": "2026-07-26T06:38:16.791785+00:00",
+  "type_counts": {
+    "DOMAIN": 21,
+    "DOMAIN-KEYWORD": 2,
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BBC_classical_e3b623fe60f8b285.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2da948bfb0269f2151584ae09434747f808e84fca8beafb2361f361d88a24c6",
+        "bytes_sha256": "847ae5f6b227d429eea0da3736a3c61db266d9932e9fcb666df08f4d4c86def8",
+        "semantic_sha256": "4078c05ef07a39ddf6a8693a962761800ae87ecd4f15be5573cdd023d8581b9c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BBC_domain_eafb2d006a489674.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6af087d4c708aaebb5ca1802f918214126e08cfca4f59a1d763c6c241632af45",
+        "bytes_sha256": "9c716a45a48a713d8858f90c39a2c236281aa871de67eb5725fb91e969dcca65",
+        "semantic_sha256": "5b495124326e66026abd534316b236d28adcd1604de36a4464c1d80d0589af9c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BBC_domain-mrs_7bda23464e199b67.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2f9389e4ef9c4b68367048de1993aadc807b1798a759a1a62959536fbaa30715",
+        "bytes_sha256": "5b4e268772dbbcf6c199b26956feec4b88272cf6ee3ce16ec4110c8de7568476",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BBC_classical-rest_0bcdaec251e4a700.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d952a132f7d89e69fbd148c33ff772a549293fb6423963d9614bf2edb3686cf",
+        "bytes_sha256": "8b0e1fbc48c01cf760a932d3b618be78efc3cea6977ea58dd92ac556d7e13289",
+        "semantic_sha256": "86ad4cada8587a1ad19bc1895bfe3718f535c6cd05fc426f5d5f5b8541f1e57c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BBC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BBC.list"
+  ]
+}

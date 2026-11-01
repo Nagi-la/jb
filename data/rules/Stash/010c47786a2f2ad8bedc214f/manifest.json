@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:03.023932+00:00",
+  "client": "Stash",
+  "rule": "CCTV",
+  "rule_updated_at": "2026-07-31T04:09:02.029184+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CCTV_classical_a851d83ecf3124ea.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1745cac2f2f3c433d080d4f35bbda25b1b88625d5195d25d9c9553911a306b4c",
+        "bytes_sha256": "509fca600cfee6c6566a08bbadd354364d97a97c942678da8ef6dfa35b4197dc",
+        "semantic_sha256": "febb247ab27936918c9b58b21c6a24416af11fc0384f0c530c1675fb6f7bb986",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CCTV_domain_de332811961b9019.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec9e220dd09233014588031b3136b748c8e004051c5ab727b56845f536da5c8d",
+        "bytes_sha256": "4e3701a026250116e0a8d6c3a1dca4dbe629219191bee54700b20a6adca7284d",
+        "semantic_sha256": "c78f1fd73fe8017537969aa52679b14b8ae85d7fb00cc0bead1d0427a4a3d578",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCTV.list"
+  ]
+}

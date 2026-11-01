@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:15:33.934671+00:00",
+  "client": "Mihomo",
+  "rule": "iTunes",
+  "rule_updated_at": "2026-07-26T08:33:10.572638+00:00",
+  "type_counts": {
+    "DOMAIN": 45,
+    "DOMAIN-SUFFIX": 53
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iTunes_classical_7d692c880067c871.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a621238002c9ccff50627eefa465343dd1cc1cb2b57b91d999a906828e181457",
+        "bytes_sha256": "a2ee116e8f8c406a5f09605522cc39687469c1247d1dbad7590e60290e76f63a",
+        "semantic_sha256": "f3c290de3993444536bdb83999b1a7cf0b3020e8321d715c1cbc8d0436a99f9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iTunes_domain_a6847f7b925cc1fe.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6184992638ec1d959422747f9b1088585a3301275f7ea7c313b3c6ae66c4f756",
+        "bytes_sha256": "855886b3546a3e089078bf8bfe2e504640bec9a6e349aa7b7054e14b9d26e63b",
+        "semantic_sha256": "a7e2299bfebb3bc87be9b052573c75460a1ed3905bd6c247ff875a6950c195f4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/iTunes_domain-mrs_57cd0e2c3f464b23.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "090d4c652fa5cae58fbf52bc605c8d98eac9f98ea2ab2ae652ec528017251909",
+        "bytes_sha256": "467f31d7d053d34e67a7408422ed43c4f1db6fb0757b3e300ffc1b75d991a859",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:56:41.078398+00:00",
+  "client": "SingBox",
+  "rule": "Verizon",
+  "rule_updated_at": "2026-07-26T06:55:26.779552+00:00",
+  "type_counts": {
+    "domain_suffix": 183
+  },
+  "total_line_count": 183,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Verizon_source_8895e26abe90eeac.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72d6129ca8a306c517481cc9cbb90d976c8a95ef844fc0a82093785f868d9d6f",
+        "bytes_sha256": "7eda9308f3c76ca8ec2ab4308b6f157dd31f8c6e82caf6f9882dfcc08d98cfd6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Verizon_source-srs_60b1a6a083fb5cfa.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "69e1ed8d45788135f6d4f33d8b2ddad4484718e32ee457acb630807e8b572ea1",
+        "bytes_sha256": "ba92021252b22262cc048ba1bfcb67f9a834677309c72af6c882a12538fd6018",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verizon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verizon.list"
+  ]
+}

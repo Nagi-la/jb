@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:54.431366+00:00",
+  "client": "Egern",
+  "rule": "Imgur",
+  "rule_updated_at": "2026-07-26T06:50:27.854884+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Imgur_rules_971e09f71f246404.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cbd1c70766c0f60bbf6a36f2da9b7ee17e772da68722a744130d336d1896d261",
+        "bytes_sha256": "cd87d03578b925828f7d32d8a65c8a39c422bc0d26797d1700fdc4d59e5bb6d1",
+        "semantic_sha256": "4ae432afe8917e6182e1a544323957609230d51d7e0a6b7f7c24e49eeb677989",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Imgur.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Imgur.list"
+  ]
+}

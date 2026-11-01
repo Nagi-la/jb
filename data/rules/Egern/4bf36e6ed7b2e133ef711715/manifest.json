@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:59.671971+00:00",
+  "client": "Egern",
+  "rule": "PCCW",
+  "rule_updated_at": "2026-07-26T06:53:06.170772+00:00",
+  "type_counts": {
+    "domain_set": 4,
+    "domain_suffix_set": 27
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PCCW_rules_653fcacefca506c6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "514693d836ab38069725d5b33589a9bfede5253c48af8fbd405bf442981bfe94",
+        "bytes_sha256": "c4b3b1b8c277e9781ef8afcd8df34e659db3dbbd81744f208a91d20d80051a21",
+        "semantic_sha256": "f35d4652b316f87f65d3885f094d3f0bf1a9639998bc841c3ddb3a913ba021fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PCCW.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PCCW.list"
+  ]
+}

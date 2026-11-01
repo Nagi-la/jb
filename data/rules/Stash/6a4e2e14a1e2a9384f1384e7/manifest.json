@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:01:33.038316+00:00",
+  "client": "Stash",
+  "rule": "Niconico",
+  "rule_updated_at": "2026-08-24T02:51:08.940571+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Niconico_classical_2975c547f46a1786.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b1f1d326f16eaa4ac549dd5f42651aa82e2864d44cd9a279de73e257440fc77d",
+        "bytes_sha256": "c2c2bba6ba698e7adad3db68447010da7088f0bbe9a598c1c0472dbaff2ee374",
+        "semantic_sha256": "22e92e3c0c189ae45945b008b15c90f8627c5702658e883d6ad771e9ca00b536",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Niconico_domain_7cb6f3097914f448.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aff8a7efe87f78560c3f8e6e796d78b9481c25ff935cc3a513a248f1a6dd9681",
+        "bytes_sha256": "9e6afbb411dc109df42bf507ae91ba2108a21135a1e5f688edc9dad66c37e0ca",
+        "semantic_sha256": "d10d1ab822c4852c6b51c48ce9d04a3909eab89e8feb0de2e7c2a6067e5eba85",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Niconico_classical-rest_6f026f555ac063f0.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1a5cf33b433c3beb6d4eac887bf652fb8b5b29a633e8253538d639caff147f5",
+        "bytes_sha256": "10449bcf81cdd14361aa9d116fde78740a0574e67c17a2b72d8ba6c502bc2241",
+        "semantic_sha256": "ce6a003f3df46a44893eacfe019367af026ce85e980fd96f993440b87ae46159",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Niconico.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Niconico.list"
+  ]
+}

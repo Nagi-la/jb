@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:58:23.444327+00:00",
+  "client": "SingBox",
+  "rule": "KuangShi",
+  "rule_updated_at": "2026-07-26T06:26:19.694578+00:00",
+  "type_counts": {
+    "domain_suffix": 23,
+    "ip_cidr": 3
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KuangShi_source_ddeabcc9bd1d3c23.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f9c255ec1bb26c40f5114fa699b711b80d11e0a2c3046657232b2ce145210c9f",
+        "bytes_sha256": "ed01264afdf4dcd39358cdda58b3bc49950fe622c40116b65184c99765866c67",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KuangShi_source-srs_c4778c32d63e3040.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a6c0c7d1ae9fb92a1811b4381f60e636eb624b270128ea358d0da85bc00cca60",
+        "bytes_sha256": "91a99066e06d8ce395f4dbd1d88eb8832a067762f3e0f08871056be0540b3a05",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuangShi.list"
+  ]
+}

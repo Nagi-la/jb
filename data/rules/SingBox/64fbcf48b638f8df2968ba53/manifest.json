@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:03:20.822798+00:00",
+  "client": "SingBox",
+  "rule": "LastPass",
+  "rule_updated_at": "2026-07-26T06:38:07.050739+00:00",
+  "type_counts": {
+    "domain_suffix": 3,
+    "process_name": 1
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LastPass_source_fbfe2f846f7f8e3a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ba4b28c109a3cac21756f053f215a7ebad4c8a707cf4d52cbf266863b494fc67",
+        "bytes_sha256": "a12baa774c77f9266ee8230647f74b7bb6bf81238da74e1cb9ba9257d67087b3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LastPass_source-srs_dc39fa1554a65229.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7c8636cfc5a4f9bb2137abefa825ea4448d54653ac98e477878a8e8c37d9d3b1",
+        "bytes_sha256": "fcefc85c80ff4d5f2d493c8a8cdaf5bf477a15c6aa16e79b9e7c2c153dc35daf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/tools/LastPass.list"
+  ]
+}

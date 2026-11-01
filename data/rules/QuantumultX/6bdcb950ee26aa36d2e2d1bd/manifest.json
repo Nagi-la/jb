@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:02:15.747663+00:00",
+  "client": "QuantumultX",
+  "rule": "Pinduoduo",
+  "rule_updated_at": "2026-07-26T06:38:39.315411+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pinduoduo_rules_fffa017794886f08.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ad3af68d25ea27e3bb8f8d8ba0a2a4b5b404a46904440d95b9ba833970030974",
+        "bytes_sha256": "fa9c6712900f63ea986d9ef9cae3ceb15d70c888420e5273709ef9b1190f2003",
+        "semantic_sha256": "c5b6670499a94a96590190f70cffacad678d43db1747d4734d4b8aa8a1b83add",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PDD.list"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-08-27T02:03:29.872700+00:00",
+  "client": "Loon",
+  "rule": "GlobalMedia",
+  "rule_updated_at": "2026-08-08T02:57:05.745309+00:00",
+  "type_counts": {
+    "IP-CIDR6": 200,
+    "DOMAIN-SUFFIX": 1117,
+    "DOMAIN-KEYWORD": 28,
+    "IP-CIDR": 266,
+    "URL-REGEX": 1,
+    "DOMAIN": 89,
+    "USER-AGENT": 19
+  },
+  "total_line_count": 1720,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalMedia_rules_73e3a63f2cbd069e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f58e37dff33fb19b99bef0bd927af1a96e23422a93ee149681c11466c1ec07e",
+        "bytes_sha256": "5eb0372ff3d9d38e15145a6023417d38fb4d37fef8a04c60ad7c56c95a463bc1",
+        "semantic_sha256": "6e999d9407127cdf77f305a9bcb096002575bc5439370ae697fbf6df03ac015f",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalMedia_domain-set_55cdeb67ae4bf01d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "04d28044c0d1fc3e6c379acdb0eeb169a7fe27208d3c17561d3488aca61dd0f9",
+        "bytes_sha256": "6084a942b154b97d404a29f3a49799e157608f43f03de8e6cb861f7b30358568",
+        "semantic_sha256": "a7c848b1cdabca3f04efffb58ec0c701fb4f22f9420dde2254251b7d66aae9b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalMedia_rule-set_8513a1a401bb06ca.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8453b524024cae4ff82fe7731c2b5e8ff8481e2bbdf7605acd2c84215ea87a04",
+        "bytes_sha256": "9e8e48138b9d58e268c3f84c91a9b0fecdf64f6b6aa95e47e43d92e5e6998fed",
+        "semantic_sha256": "7e1dda769d15ddf01ffeb10cc5cb522727a6d16a35ba87b6589e03982a0d5ba1",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "plugin",
+      "url": "data/_shared/artifacts/GlobalMedia_mitm_1c889267959fc3e2.plugin",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "56d47b18315a9d93653ec6ff982eb1e42142c651f1c2eda7dae797bd5bdaf622",
+        "bytes_sha256": "cf8968bc5a56e81d83d0e5b2cd3f58d2eaecb2003d8a3a1d896382e3f7ba2a4b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
+    "https://ruleset.skk.moe/List/ip/stream.conf"
+  ]
+}

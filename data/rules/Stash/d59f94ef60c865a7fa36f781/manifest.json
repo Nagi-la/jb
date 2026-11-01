@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-10-30T07:52:03.727833+00:00",
+  "client": "Stash",
+  "rule": "ChinaIPs",
+  "rule_updated_at": "2026-10-30T07:51:50.586381+00:00",
+  "type_counts": {
+    "IP-CIDR6": 5499,
+    "IP-CIDR": 12949,
+    "IP-ASN": 5076
+  },
+  "total_line_count": 23524,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaIPs_classical_ef098f9be13f0809.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05af9bd822bb1ea9b94acad48ad1bc1b3fa938cd9ea01cddbcc6177f2045c6bf",
+        "bytes_sha256": "81388e9fbb097d95908e73cc2539eb54ba1c644f17dc65ac270461c1ff05dd15",
+        "semantic_sha256": "6c6181807ce7e1f5d7393d0b99cc68370de5f1980b8b21bd8097f117b2026cec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaIPs_ipcidr_460acc276e282d84.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "86fbf90753ec3d8001c284397b033720ad389a4828dd640f51f1ceafca0f4786",
+        "bytes_sha256": "8de54aa087e2051d590aedca14f2d003bd73e56e906f8483278a2a6728d59ced",
+        "semantic_sha256": "117e3d7a7ba0ad455b4328be97e0ce13495e9e31d83999bb85173efe19467f43",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaIPs_classical-rest_5a00c2a99fb023a0.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76f2bd676f5e28268f2ea86d1771ea001e72a1caaf0c8e2bae44ad2223981e4d",
+        "bytes_sha256": "6a57a4de70030768e01aef16faf441ea792de4feed15c174467f6b7ae43687e2",
+        "semantic_sha256": "3858957e71bd8cfbc172ec36388614645d73e70ee321809ada6ca4aa8d59a6ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml",
+    "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/ChinaIP.list"
+  ]
+}

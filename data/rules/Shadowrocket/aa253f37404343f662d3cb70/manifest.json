@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:12.951635+00:00",
+  "client": "Shadowrocket",
+  "rule": "Eleme",
+  "rule_updated_at": "2026-08-01T04:38:07.643498+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Eleme_rules_77dafed496279726.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "305933d218901ee8b6250f3e05d45b95a6afe3e5de9a32f324a7be785fa09213",
+        "bytes_sha256": "609fd9a984cc9ead12b6e1228acc4ed7b06417196a3f879d1c772d3bb7c34756",
+        "semantic_sha256": "bd89844ba393c4cf8839737c9a634d041da197cbaf4cea622837039c9ce6468e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Eleme_domain-set_d9c5304860ec588b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cfa6cb0aed9e3ba35f2b80c8ea363a1810896f6e6171edb9189330c1bdcd87ae",
+        "bytes_sha256": "e217a0abbec8d0c478be6811e97122985f92bd47c54da6817f555e4f59b40529",
+        "semantic_sha256": "27d0d1ff375c4e86133770079ddde0716c02432bc09902d27edf3e684d051f81",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Eleme.list"
+  ]
+}

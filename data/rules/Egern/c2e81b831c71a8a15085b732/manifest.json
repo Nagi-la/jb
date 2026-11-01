@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:07:35.916835+00:00",
+  "client": "Egern",
+  "rule": "115",
+  "rule_updated_at": "2026-07-26T06:22:39.423629+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/115_rules_ce4befb6ad776cc8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "587e3d542c002dfb656fc15ce86199ad233765f8dc763092377a3f444dddf07f",
+        "bytes_sha256": "0cdd108e5aafa3f65d4c911051c4b6b4a7dba41b6f68d25d28bb1c7f5ec62bdb",
+        "semantic_sha256": "088cbf8074d3257d26668ac21899369eb085f71de7d159cefc454c1a3699ab6e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/115.list"
+  ]
+}

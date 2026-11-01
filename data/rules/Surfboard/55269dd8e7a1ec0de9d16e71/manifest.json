@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:43:17.721047+00:00",
+  "client": "Surfboard",
+  "rule": "PrimeVideo",
+  "rule_updated_at": "2026-10-29T02:37:23.756669+00:00",
+  "type_counts": {
+    "DOMAIN": 10,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PrimeVideo_rules_79865b76ba7e24aa.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d745d68b746d18c2851c27f0cc33b1c7de40d2dd8204a00f022c8789bc0a806b",
+        "bytes_sha256": "f5faf6d990e9559b47b4db6c4c175f946d64d71117dd7552bd48fafa0c7b8717",
+        "semantic_sha256": "c399375fe835fbeeaaada403322e94f29e0b956c04eb83fa3be49ef47eb84bc0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PrimeVideo_domain-set_a47fa5da84e6279c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57df4d7b065c51884b9947ae9f26484f1ba4d8f166f5aae7a00681cbd25664bc",
+        "bytes_sha256": "f37f543a88dac4518bf8c7592c6a2987fd41bbd190befac453c7bd0b63e5e4e1",
+        "semantic_sha256": "5f8b580fa02441bd976e7d5e87e8a24f4991b15f30f3a8742d8295a61bea4afe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

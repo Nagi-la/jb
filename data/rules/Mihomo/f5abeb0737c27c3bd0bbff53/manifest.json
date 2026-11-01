@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:08:44.926377+00:00",
+  "client": "Mihomo",
+  "rule": "MeiTu",
+  "rule_updated_at": "2026-07-26T06:38:35.884982+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiTu_classical_97b6af5e6b3647d3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0519373402009f2c311526720376b8982dda444fb3652391b963f94424d8f968",
+        "bytes_sha256": "18f4448cd0d91b7b6d020a8554f707e0ee1f804a8a3c6aa161e88d24389f067d",
+        "semantic_sha256": "659b9f343ecd4a6db25d7134a61268362ff5fa1473a91ac554bdd65b9151bd4a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiTu_domain_a09e8d7b39a149b2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b71193278d2b762f4ee7310f27181a0a0780af974c0f5449842d6021e335ce6",
+        "bytes_sha256": "ce77b6867e693f87d4de79fcde81914c532790396a45c81d2c8689c9c6045653",
+        "semantic_sha256": "6cccbe0c9660fcc17e4073fbaf0560a5d1ce478b805fff56fa1bb85d37e6e2e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MeiTu_domain-mrs_944834ee41d33bf1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8d9a6f3427b154b134ae997667b6c3bd3af3028dea88c7d44115b33a30a88b1d",
+        "bytes_sha256": "f1eccaeace854cee20649964ae37b20cb875274eaea88ea9befa874484b54d9a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Meitu.list"
+  ]
+}

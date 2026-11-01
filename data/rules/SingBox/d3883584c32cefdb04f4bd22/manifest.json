@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:00:38.481808+00:00",
+  "client": "SingBox",
+  "rule": "ShenMa",
+  "rule_updated_at": "2026-07-26T06:27:59.027227+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ShenMa_source_9f1056e9721141ae.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "81a450302f4ad9d2dc0ee21d247dbb6efcf7b4592d50f72eb6e411af0dd887de",
+        "bytes_sha256": "cb225a3bc113e390b1207f9be7676fcdbc53b3be1822e5a3e43a6802d8530081",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ShenMa_source-srs_c45cadd12904c47a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d6f71fde672ec287da237f6cf14978a1905d49538bed1e46a9360ab16118e436",
+        "bytes_sha256": "aad755f80ec4503e088c74897a684026335b661c330ce052d8e7ff1161a5eabb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShenMa.list"
+  ]
+}

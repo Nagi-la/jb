@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:05:02.483964+00:00",
+  "client": "Egern",
+  "rule": "HWTV",
+  "rule_updated_at": "2026-07-26T06:21:57.815563+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2,
+    "user_agent_set": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HWTV_rules_f52f7f8c65cee200.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "346421ddc31d4bb16726329bb336ac072ef6f0ae612044dc8d83a765aaa1c753",
+        "bytes_sha256": "32eaeeaab57f25ddb5a5007aed12e9304f42b18e1f0a937f581c9a698d30a998",
+        "semantic_sha256": "ea4f26f5a2e723672913c8d8e0c3dc926c853b3baca88667e0aa20265ec2bf8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HWTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HWTV.list"
+  ]
+}

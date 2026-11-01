@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:26.975836+00:00",
+  "client": "Stash",
+  "rule": "AliGames",
+  "rule_updated_at": "2026-07-26T08:30:07.727668+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliGames_classical_7bc9d1db3266deab.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57e404422c4bc13b49d157c50bd837d0a8d0579ff42b84b3b69b528e8586c517",
+        "bytes_sha256": "9bb125d401b8458783cc899752f67bca1fe521afd7772583aa643019d1f0468f",
+        "semantic_sha256": "0d9d292f8a70599e7307e270bae585b83233f085bb1fabbe0fae3ab3dbc34ad9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliGames_domain_7533bb1eb188d5bb.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc1195fc97cffe0798fd12e9bf0a5e23d1130fdbdf37e430bf41238d1c05e0cc",
+        "bytes_sha256": "74974e06974fc2e393ee72aa56d60c60e987ef83d3c83760e5109776fc64adb6",
+        "semantic_sha256": "bb8b8163d10c9b6a24f211eac3b5048b98b4b598d5cadfb1f18534d9a5f88bc3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

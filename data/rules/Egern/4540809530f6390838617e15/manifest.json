@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:12:40.037080+00:00",
+  "client": "Egern",
+  "rule": "Hulu",
+  "rule_updated_at": "2026-07-26T06:22:05.196726+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 57
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hulu_rules_de46542f4a1ca907.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd8860913d74698f251ae4c610b6aecc0cfa0d8cab2315aa95d616b44e49c67b",
+        "bytes_sha256": "08fa03c60db36eeb632f38e301b7e641748779e26e4a38d7a7268f61250e49f8",
+        "semantic_sha256": "831af5b0e6583a4efe3e75f06e8609cf4a9fc95a1643caac8106fbc73ef8150c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Hulu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

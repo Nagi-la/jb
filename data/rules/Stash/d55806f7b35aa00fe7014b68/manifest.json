@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:53.108382+00:00",
+  "client": "Stash",
+  "rule": "BaoFengYingYin",
+  "rule_updated_at": "2026-07-26T06:47:45.887427+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BaoFengYingYin_classical_2aae1c7c733b930b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ef97183ce75b4b26133d60c0b9dea04f79ebf97f72afeeaa2c45e4dc6aa2c6e",
+        "bytes_sha256": "5850facc782e424c376871e9422337c5d3f5c29f22c47117eedf54af7cde1dac",
+        "semantic_sha256": "a0702469fc7b600f758b7aaf4b33d14fa64a6e10d1b45cd71f1c54389e9f6ac8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BaoFengYingYin_domain_d598b8bc1ad2c82a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ac02f43d898e335a8f1d1f5081daf24f0a9e571e2c31ff2103f39a96b57174f",
+        "bytes_sha256": "885f417ada81964ab9ca38e7e75833a230e696ed9a6929863d2d8c44308bab0e",
+        "semantic_sha256": "a7c6bf9d4a6ee2038132f400acc10bb13a9da0ac5edf051f482acc138150db1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaoFengYingYin.list"
+  ]
+}

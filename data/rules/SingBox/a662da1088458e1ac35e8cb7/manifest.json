@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-27T02:03:30.982029+00:00",
+  "client": "SingBox",
+  "rule": "GlobalMedia",
+  "rule_updated_at": "2026-08-08T02:57:09.183901+00:00",
+  "type_counts": {
+    "domain_keyword": 28,
+    "ip_cidr": 466,
+    "domain": 89,
+    "domain_suffix": 1117,
+    "process_name": 3
+  },
+  "total_line_count": 1703,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GlobalMedia_source_bb196b5461585867.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38a72ebaf89deb6fc16027fff6c84e4e2425029a39c10659523d0f2f3414324c",
+        "bytes_sha256": "628a5d17fb2e01e7d5ec9caf2566d055696139b0349fce59084ec3cf59035bcc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GlobalMedia_source-srs_7e5879f5c5fca98d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "597e5e7ba517301962791bade7f5a525d7d2cb0c53206a054615a31f8541b42f",
+        "bytes_sha256": "1f1eccafbdec761ceca69acf95ad3ceaf3a132f991b58fd5b1669f1475c18ead",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
+    "https://ruleset.skk.moe/List/ip/stream.conf"
+  ]
+}

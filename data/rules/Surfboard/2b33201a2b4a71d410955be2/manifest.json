@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:02.697994+00:00",
+  "client": "Surfboard",
+  "rule": "VikACG",
+  "rule_updated_at": "2026-07-26T07:22:49.302069+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VikACG_rules_054984ee72be2c40.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bffd1057bf836d3850cbefb57c404a548f831fedc18353e6e03b950748e21a08",
+        "bytes_sha256": "19c1cc042d1caab319c187da535765a7167e72b3a4ffec8bf7e63ff37f1a8fdf",
+        "semantic_sha256": "7291b22dff86f0b021205ba10d98731647a3efa4b98648752a3868198c705d70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VikACG_domain-set_e184e1b01a5e4524.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e6718786777b85f1872c696b38c7f5a13881547d06d209c029e35bcf1584b23",
+        "bytes_sha256": "e94e2015bbae5cdb61a2373b2ef4136bc138ae804df5d42f9db147fab45591b3",
+        "semantic_sha256": "e31d47e1401d03ed7a6a2dc172211de2c6398c38b98815c9a3409bad99ec0a9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/VikACG.list"
+  ]
+}

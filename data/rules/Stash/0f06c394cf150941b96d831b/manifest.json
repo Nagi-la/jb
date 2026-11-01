@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T01:58:00.115143+00:00",
+  "client": "Stash",
+  "rule": "AmazonPrimeVideo",
+  "rule_updated_at": "2026-07-26T06:21:28.861499+00:00",
+  "type_counts": {
+    "DOMAIN": 5,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 19,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AmazonPrimeVideo_classical_a8c5424c21a6f055.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f1d62c9bf64c56870dec3b08f7f23337c50f0dd4e4b8ad057533c9232c69f4e6",
+        "bytes_sha256": "f9d526687b080215bb391d0ce86c641bed7e23185ab3cdd81eb3a06f4cbb175b",
+        "semantic_sha256": "fe56e2ad5321b3ecb216e2de975c33bb7cf20bc8c88316d3e796238ea33eb4de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AmazonPrimeVideo_domain_64bbc01fac8cd7ee.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2f2bb20a2916e04a06c35c0e735214d446c12d32b3be4f17500832e97b2ee7c4",
+        "bytes_sha256": "c884e92ad0c5b302d229a81d5aebe711979d5aa2ecdccf511a5c21935c42c7a8",
+        "semantic_sha256": "c94664eba7a6425d13386deaa742406ef9a341fb02cb0a12f77b460ba0428a9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AmazonPrimeVideo_classical-rest_49b8662cd657dafa.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf11f4c06d94b479c3c4e7f6f64de939aa71db90e6d800b4a99f49dd68ac4e9c",
+        "bytes_sha256": "28dced8d506efa56df8ada764ae95ef0fc42e073836ba63976285b9b72a06b0c",
+        "semantic_sha256": "84d42032bd9d9180a4f7098ae103546a7ecdfd287b71c644c8503c8b9bcb4133",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AmazonPrimeVideo.list"
+  ]
+}

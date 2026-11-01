@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:12:36.574651+00:00",
+  "client": "Egern",
+  "rule": "IKEA",
+  "rule_updated_at": "2026-07-26T07:22:40.744387+00:00",
+  "type_counts": {
+    "domain_suffix_set": 95
+  },
+  "total_line_count": 95,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IKEA_rules_d4622aef6968e476.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4322cbf5003851374a9c16f9694d3dc26feb1c920bcc0adc7ad50bd74382817d",
+        "bytes_sha256": "41bc52e6fd6f7ae66504e227538a6ed8f7b6894932e7184cb3134c1060f4f534",
+        "semantic_sha256": "6eeeb8f532a03212eb116573b75c4e044b468bfdd0957ebcd28d0c6ef0c4df9d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IKEA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IKEA.list"
+  ]
+}

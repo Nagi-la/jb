@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:04:38.757232+00:00",
+  "client": "SingBox",
+  "rule": "CBS",
+  "rule_updated_at": "2026-07-26T06:21:35.668081+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_suffix": 34,
+    "process_name": 2
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CBS_source_ee1bfc2b1b4ad457.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8fd64fd0e5f08bdb6518cbc8a1c8d5e156e7afe3702b347190614f05f1b1cf5f",
+        "bytes_sha256": "c5b58b8026a473a292eb317679e80799f554afc04810e71393a60d3ad62915a2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CBS_source-srs_3853cb493bc364dc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c5007fc7354754ef9869c230bdfc81c120c0fa8e506c362bc524e1afd71fcae4",
+        "bytes_sha256": "bc8fe3613303544d08fdea4d67570f0c2349d81af95cfad27c3da27d6424e8c1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CBS.list"
+  ]
+}

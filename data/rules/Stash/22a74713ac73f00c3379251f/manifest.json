@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09T16:11:47.844272+00:00",
+  "client": "Stash",
+  "rule": "ChinaTelecom",
+  "rule_updated_at": "2026-10-09T15:58:53.714959+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 91
+  },
+  "total_line_count": 91,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaTelecom_classical_34841613fc2b23e0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e50d56f261a07cd0db57822f72f0490676750944c7711617bd79df76c0026706",
+        "bytes_sha256": "9e7d9c9eead07d59269e87a4fbf226e6ee2f399658bd0505f7b5c89bdc9317eb",
+        "semantic_sha256": "2712f54f3b9c84291f3f16d8513e5cbd5b6da6e105d19fb341df2689ef2245de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaTelecom_domain_1729005cc81caec7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30cda270847502e5c9677baec05599f3ad4830b5cde0f1a5b3507b8f66404b0f",
+        "bytes_sha256": "e2092ba2b2df60bb35cbf4eb0f77fdd3878b3463928db9334b62fae530a3d117",
+        "semantic_sha256": "c2b321b8d730da5e99073d46a05470cc4b34cc19d8ac3e2a4347c2f11025ba31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaTelecom.list"
+  ]
+}

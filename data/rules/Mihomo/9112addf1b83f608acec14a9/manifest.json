@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:10:30.042311+00:00",
+  "client": "Mihomo",
+  "rule": "UPYun",
+  "rule_updated_at": "2026-07-26T06:28:36.164840+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UPYun_classical_8a9f84eeacf68ed0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "15f75cb7be7dd5a077621ce8d6f90b8a2803041d88fdc930b83a48485071514d",
+        "bytes_sha256": "d1feba4b08fe4ed03644d78da3f6380d68c9887c6d93c4b47fe4ec054938106c",
+        "semantic_sha256": "0ee2692a1a4d496098608bf8cbeb4a5c6029bf59dcfa6328c2ad503794aaddcf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UPYun_domain_3545e47c246049d0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e56b5b00ccb11992093848de4bc608cd00ece799e92361a30da276005697adb9",
+        "bytes_sha256": "ca2d275c1fd8e2bedb75523405d8c864d6abbf1de5205fb9d5a9dd0a908b60b5",
+        "semantic_sha256": "e7e429496ea59bc9a44dbeaa2ae69b4aaa6da0c16572abb1d0a1c0f9a04f7e8f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/UPYun_domain-mrs_b75e0587ecae8397.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "532ea94b341fe1b3f100f5f2c3f7b15bd37c569c1e9f15627a69d664fe2adbc3",
+        "bytes_sha256": "ce1b559062c292a060f76df4ea75ecd31d4675ca4e8eb486ef03ca0596205dd4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UPYun.list"
+  ]
+}

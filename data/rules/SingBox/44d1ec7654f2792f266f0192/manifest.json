@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:11:39.847819+00:00",
+  "client": "SingBox",
+  "rule": "HKBN",
+  "rule_updated_at": "2026-07-26T06:29:24.641825+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HKBN_source_4e6c8ca00a4babd7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f08d75d01352dc9a22e3473de2d7b92bdb62dce7feecec3e205fe23b5c8c15c3",
+        "bytes_sha256": "c933fb36e8195b59fbbd9c2dc997cb026562651bb823105949c0c12b0e1910b9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HKBN_source-srs_5a9b6dcbde7b937e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f4d17474291f2b49b63c768111ed2b3d1b03555ad892c5e27cad49d4352f4fed",
+        "bytes_sha256": "64163942057d2c811c06e1ee44b53cbef44e77102e341d2db2e6f4fd7ca71b5d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HKBN.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HKBN.list"
+  ]
+}

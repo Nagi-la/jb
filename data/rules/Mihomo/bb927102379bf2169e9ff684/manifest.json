@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:56:04.045917+00:00",
+  "client": "Mihomo",
+  "rule": "AkamaiCloud",
+  "rule_updated_at": "2026-07-26T07:14:28.154379+00:00",
+  "type_counts": {
+    "IP-CIDR": 207,
+    "IP-CIDR6": 150
+  },
+  "total_line_count": 357,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AkamaiCloud_classical_5e9e432587d96bc8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35583de642868b315f3472e45c870659fa4dbbc9abf1156cfdf66b8a3ec477a7",
+        "bytes_sha256": "07a17369efbfb46257396b300a567dfe6c451325c06a7d1370ac916a1ff499f8",
+        "semantic_sha256": "afb99b9ba628b7e6b17b63a52fdee3d17c7c7b3fdbda36f2c28c8cc28d974979",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AkamaiCloud_ipcidr_f9e35bca1335fce5.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6932b85efd21762da2ff83071cd016289bb369ebd41331995cfff64b8a47e8a1",
+        "bytes_sha256": "383107bb48b58437a2578bf77ae139a3f916afa2dab3d1604255a8ed7a856df5",
+        "semantic_sha256": "6d8e390ad8a657c20f93901c498a001ef7fff065fba5cb10b21049b8a109cace",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AkamaiCloud_ipcidr-mrs_3b78557c67bfd55f.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0bfd434f6ba67f693e09a94964c6b1f4e82ffbd0ad6d330e90bfedde6835242d",
+        "bytes_sha256": "f3d2d5974b1cad4cbf926af6fa624347813c01cd0633bb0e4909f53ae2c1b213",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Akamai.list"
+  ]
+}

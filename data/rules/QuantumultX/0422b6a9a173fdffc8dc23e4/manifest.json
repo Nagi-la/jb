@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:59:51.904031+00:00",
+  "client": "QuantumultX",
+  "rule": "Dedao",
+  "rule_updated_at": "2026-08-19T01:59:32.001192+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dedao_rules_57ec583abd052d68.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "729e55f293145ae01e1b033630879a2ce3106d03a83aa588532837fc6476cd20",
+        "bytes_sha256": "1b58fc0ed75c6f7ffc7825c55968170a15e1d40f10d2bca1230b7ddcf482e70b",
+        "semantic_sha256": "eb5e485f51f1b961aea300f9782d807ee656b0e65c06e73c4341cd5f56e4376f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dedao.list"
+  ]
+}

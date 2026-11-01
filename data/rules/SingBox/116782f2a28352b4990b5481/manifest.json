@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:02.775917+00:00",
+  "client": "SingBox",
+  "rule": "CCTV",
+  "rule_updated_at": "2026-07-31T04:08:58.557715+00:00",
+  "type_counts": {
+    "domain_suffix": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CCTV_source_6184cd1dbcadb9c2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0e4eeb20adf8f5ee51b9448d6f6673a2094c0030ea0655585436d1ce09b45e37",
+        "bytes_sha256": "14a055d6fe69f642f0e4b46f36637f92d8ac077d02706f12ed133e5e656e5fa7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CCTV_source-srs_0a3aa83e31fa195d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "701e1894bf437220f3220b392433e5644030be430408ba2b32a9ed72c2877617",
+        "bytes_sha256": "432d9c5b7efae4ba073ecdc62b556d12d7277be3a43468cdf9de8752c81af84e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCTV.list"
+  ]
+}

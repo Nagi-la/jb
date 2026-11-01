@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:00:44.213813+00:00",
+  "client": "Egern",
+  "rule": "PingAn",
+  "rule_updated_at": "2026-07-26T06:27:40.809703+00:00",
+  "type_counts": {
+    "domain_suffix_set": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PingAn_rules_ece6b786be10faf2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4c694c7d938daa9f2f2768a9cd3bab3518ee825f92e0907cd795bf5c6372174",
+        "bytes_sha256": "a09ad5821ce3c05a1d3640347a4380548e7b220520916c310a736df7992a34d1",
+        "semantic_sha256": "db9e45e8e6216a0f46b6b50d1456a540b36af6d4133e098dda3ebd2e9046dd6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PingAn.list"
+  ]
+}

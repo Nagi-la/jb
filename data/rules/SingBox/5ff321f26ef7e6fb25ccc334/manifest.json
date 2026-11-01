@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:23.363175+00:00",
+  "client": "SingBox",
+  "rule": "Gitee",
+  "rule_updated_at": "2026-07-26T08:21:17.309617+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Gitee_source_80dfd82f18a7ef08.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "83a79b47f4d5e245b09220ac5633cffaa1d699bcf8e8c55484b8e7f3efe9552d",
+        "bytes_sha256": "14cbe0e1b49174bc98e65cf75d0c5e62c617db242c0768aa82643575acf14e46",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Gitee_source-srs_fda836365cd2fa78.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "efe26f8baa57885a0bd717e451e018ebec2f535910291952eccf148f196582e9",
+        "bytes_sha256": "3a26c3872b02f0b977add6a1828acd22129bf9d5d6b084baf7b5d41478b67403",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

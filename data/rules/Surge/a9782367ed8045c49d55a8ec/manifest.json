@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:40.423812+00:00",
+  "client": "Surge",
+  "rule": "AliPay",
+  "rule_updated_at": "2026-07-26T06:47:02.899309+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AliPay_rules_2433d4e5155a71c8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c935537f1ff337dd356c8a794a4d56c46559a008bfaa4802d033a57bb7322f95",
+        "bytes_sha256": "243586c4b980e6c5f3f8a4c371430321885f2d90c7b8f789d39933fda4de3c8c",
+        "semantic_sha256": "158e446b2b782466d92df02521b69d639e9ebabe709aff035cd24bddfbdf48fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AliPay_domain-set_1e80507bf644f9f7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a3afe443f63fe3f04d0ded16c6e2e7a1e4c48579e34c294c31c44788a8c371e0",
+        "bytes_sha256": "69a148bf4753f70ebca0637c9b7c8d1f1079130f24c2b5ec55d13223a79e0589",
+        "semantic_sha256": "344814c32121eec43310ce70ac3bb04b18ce8346f6ea491642659304e8e286b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AliPay.list"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:14:00.051267+00:00",
+  "client": "Mihomo",
+  "rule": "ChinaNews",
+  "rule_updated_at": "2026-07-26T06:23:50.973475+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaNews_classical_a81089987e8ee0b5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "446bdfb1d7e5e16e14840bfa58b3149a39c5342936805d2f93b5f6912af25bd9",
+        "bytes_sha256": "784b812f381ac88c110ae71e40fcd9cd1538a767428b54ee373ed07c664cb800",
+        "semantic_sha256": "e70389276f5a7cdf52ae6ee8ffa7d772c5f43f2f0c2062989cd1032a41932763",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaNews_domain_9ee02a5ac23d461d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9c17221ab77ebdb07b61a5237b9665e223634f1ecaa92cae88257ecf50030e7",
+        "bytes_sha256": "60169929bb51fe606dea68d5f7c746c2f46ca26bfc2685b0d9b66936f39759d7",
+        "semantic_sha256": "58c722d5c554c906d56f596a7e71cc7856a64a04b2b69e300ab863e15b0b84fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaNews_domain-mrs_d74fa279277cbe7a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40e68ae02b56412b6a9e2d6cd3071a9c8480bc4b8ff5f45896bc2a84852fe6df",
+        "bytes_sha256": "684485b56d3c78bb051317e491f709f749f2618b426cf9f124338501c6d7aa57",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaNews.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:08.435669+00:00",
+  "client": "SingBox",
+  "rule": "Gettyimages",
+  "rule_updated_at": "2026-07-26T06:29:20.353900+00:00",
+  "type_counts": {
+    "domain_suffix": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Gettyimages_source_986980d07a6cb6fa.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "413c31164dac14b202c2224407b14417b3aa21ff119578e0290d478723c5ed0f",
+        "bytes_sha256": "a1cf8d54259229a67e3a9c65d25b54866424349e8866a580b8087d270ec68672",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Gettyimages_source-srs_7f9085dc06829a63.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c56bb680e685e2d86174ceeb26d9100d29d3a434227a05d5faa009b9e018fa43",
+        "bytes_sha256": "39ceadd03758293b6195e59617a5c7be0bd39b5413556420b3fb439ddf10306c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gettyimages.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gettyimages.list"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-27T02:03:42.629118+00:00",
+  "client": "SingBox",
+  "rule": "Twitter",
+  "rule_updated_at": "2026-07-26T06:36:15.915937+00:00",
+  "type_counts": {
+    "domain_keyword": 1,
+    "domain_suffix": 27,
+    "ip_cidr": 8
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Twitter_source_fb053739c28e3073.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72717b9b6afc520090af0af7f9da61c438d9187be7abe6dad4baccda4318069b",
+        "bytes_sha256": "375caa961450026dacedbe5c55230966a24339155d08857c14188cc9677527d7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Twitter_source-srs_67e5c15fd4a14f24.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4fb53afd23d1862b6f30c9f5de11f90e3d1eae73d9a14e9b4a227e09411aafe1",
+        "bytes_sha256": "eebd828cfda6a6ed97cf8ad5928c8fa55ab8e8cdad182c069334f5b2f0e4a523",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitter.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitter.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Twitter.list"
+  ]
+}

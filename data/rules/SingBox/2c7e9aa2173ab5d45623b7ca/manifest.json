@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:17:12.741155+00:00",
+  "client": "SingBox",
+  "rule": "Beisen",
+  "rule_updated_at": "2026-07-26T08:31:20.828707+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Beisen_source_b6ec04e7f7ace06f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3bbf5f72e4a5298a5d10a4bb3028e287111b3df5d6f71fa8025804865a113168",
+        "bytes_sha256": "575ccb2e6e7e3faec00dc528adec76a5f8985940d6620b15f37409e79053002c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Beisen_source-srs_8fec0e2fdb0a1734.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "95f3a6b48ef8d4ee94cd1397efdbed827ca03d79fb4db45fab99438dafce9a6f",
+        "bytes_sha256": "640123d617df88c8147c318f6ef3fcd00e845bfdb70ffd6fc5cc18a7d80356d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

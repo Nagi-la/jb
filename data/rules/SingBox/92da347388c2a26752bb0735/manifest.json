@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:12.902069+00:00",
+  "client": "SingBox",
+  "rule": "UnionPay",
+  "rule_updated_at": "2026-07-26T06:28:37.844591+00:00",
+  "type_counts": {
+    "domain_suffix": 53
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/UnionPay_source_90c2579a896117f0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fc94ebdf6717b23b5d3ab4415eac49ad668e4acb2a8847166b785a71928553e0",
+        "bytes_sha256": "2a4101fdbe04011a52d86bce25836a0c5f1db02b892aa5770cee4f106706cfc7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/UnionPay_source-srs_f4e386720609eddf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "60a9c41027c1fab4675f4fc7280be8a6d0ec8283cfa30d0f856553d27a8bf3c6",
+        "bytes_sha256": "c93086475d8802792b0d5f6888d86f2a7d2a9ab88dc7a0c93f45b954e72b1da4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UnionPay.list"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-29T03:15:41.743924+00:00",
+  "client": "Stash",
+  "rule": "Copilot",
+  "rule_updated_at": "2026-10-29T02:37:39.003430+00:00",
+  "type_counts": {
+    "DOMAIN": 70,
+    "DOMAIN-KEYWORD": 5,
+    "DOMAIN-SUFFIX": 304,
+    "IP-ASN": 3,
+    "IP-CIDR": 4,
+    "IP-CIDR6": 2,
+    "PROCESS-NAME": 23
+  },
+  "total_line_count": 411,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_classical_fc7aed44f2e6746c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cac51c81c2e6e25f072d32125e0f56e945b2c7c0e34f04c33addb48526c4450c",
+        "bytes_sha256": "dea36da915cfb5bbc47225828dd00c77ec2213135df4a2aa11ab3deefd4a6b2f",
+        "semantic_sha256": "60ebd22ec35359b1963a4b19d6d237c5f5af42e7b335dd6bde75d819c0137aa3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_domain_3f48286ec3eb2944.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "29a81e2da806d3379f467689bd98b27f3ba270122c1b85233fd62127ae4ecaf4",
+        "bytes_sha256": "1450933b45c0cd1cdbd584ac9442648324b7d78f5d55cea844d58eae39084884",
+        "semantic_sha256": "d99988a121745d4853c6eb264e7f69a2f1f1f34624600414ae2f5e58bfe86a47",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_ipcidr_6548909c1706829c.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c925296d0f0182a06bd6a022cc8441f660ff259d6b259488f65f268a3fc6176a",
+        "bytes_sha256": "faadf5bec3658e62eacbc2d39d92fee1a82d1fcc5514443ba24e873ec2c74a61",
+        "semantic_sha256": "ea0dbe9c841fe05cfad217af1b1025a77175e39e933e116ba6cd61a1555d1847",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Copilot_classical-rest_2b270a7bb2a7f63f.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b205368cc75171e740e4fb6395b26b2bf8c1aea201822e4c9593c545586d7fb",
+        "bytes_sha256": "3e9ac04f71601eedfdb5c533df11728062ba8e737616c21cfafbfa74fbde60ec",
+        "semantic_sha256": "0678a02c4671112e1da8b3c7906cce67da4855fa43dc99bfa6e0079bee6f6f3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list"
+  ]
+}

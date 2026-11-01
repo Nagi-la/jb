@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:13:58.319475+00:00",
+  "client": "Mihomo",
+  "rule": "AppleMusic",
+  "rule_updated_at": "2026-07-26T06:33:12.082182+00:00",
+  "type_counts": {
+    "DOMAIN": 7,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleMusic_classical_d29fca5460d9ff94.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "539765e18b91c34cc0789c4b767e0903cac20febab02a4ce436ebcec3f29458d",
+        "bytes_sha256": "dbe91cdb3aedc823ea6a5a8004dca9c937616eb2ab21c87e79629824c46534ba",
+        "semantic_sha256": "39a9865c5f97b0890466943214a781ed54683d094ceade38e97bc4cea736a25d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleMusic_domain_353e8a23c3ed4091.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f58d10996af00d8088885bf90dad20b4ab3c67a96aed9ccf6dcac0c9934a3c6e",
+        "bytes_sha256": "2ea9e89cace1982de17c1dc5def3ca593d69d1508ecf2b9e2907d955f3c314e5",
+        "semantic_sha256": "ba8728f4000523bc92f65a8db872f0cc43c9a293ffdbd6036e342323acbc6c91",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppleMusic_domain-mrs_eeafae5514904447.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "47d298b443e3184f50d4be246fbdb7f4b6b31a5ceb5c0646bbdc6ac7b6ee01ba",
+        "bytes_sha256": "1d0816f8c472c8cc76be65c7db957d174a97500517a3df36df4241271ea45844",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

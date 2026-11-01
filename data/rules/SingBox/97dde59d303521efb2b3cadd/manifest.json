@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:15.630924+00:00",
+  "client": "SingBox",
+  "rule": "Canon",
+  "rule_updated_at": "2026-07-26T06:48:55.064562+00:00",
+  "type_counts": {
+    "domain_suffix": 71
+  },
+  "total_line_count": 71,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Canon_source_24bfeebf6a429517.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bc1b12594a000d5392867dedc5b1cb462e8b7375d92512f31b38a3791553c6e7",
+        "bytes_sha256": "2ac24923181707acf6b854d34c4585596dd53b9e4883be7e1cc9a9ba013f07e4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Canon_source-srs_f011e4c6014bbc81.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "49bf4eb2d71c41fa2156d046204405ff1d06bb8a8d601f5e47b3474387dd0dd6",
+        "bytes_sha256": "c7fd0520c779b913420cdb1226ffc297cfd8ffd602945888d488c94da350d521",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Canon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Canon.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:17.926016+00:00",
+  "client": "Stash",
+  "rule": "Viki",
+  "rule_updated_at": "2026-07-26T06:22:35.325713+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Viki_classical_c219c02e6a8ae78e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1899dd6dfdbe387058517f4c422463ce7efd254f3e2ca86c47dfcd6d03c8af6c",
+        "bytes_sha256": "3b0caf7b11d2bd137995f40dc26d93fc477ecaf41a5f4e042845be6b1d3705ea",
+        "semantic_sha256": "832c3ba0159251bee40942c2d93e42cde9d9921da03e2a4fcb7d02cb29a97f6d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Viki_domain_d4094386bc5da08d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d0cb992b1122d91c2822acc9d348d3009b622bab673015ee35566a68e04a56c",
+        "bytes_sha256": "80f7202046d40bd20977608cd364df8e699b3396d9a69d120483755ad3c83a19",
+        "semantic_sha256": "b9201a3fb034667ddebedc717f0f420f10f27b4d37589e795b40b612b1d37cb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Viki.list"
+  ]
+}

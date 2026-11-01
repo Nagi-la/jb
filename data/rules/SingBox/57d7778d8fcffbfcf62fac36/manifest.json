@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:25.744273+00:00",
+  "client": "SingBox",
+  "rule": "Heroku",
+  "rule_updated_at": "2026-07-26T06:29:29.685186+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Heroku_source_951e88e8a1f36f25.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b3e45920f40f05d5c67dfd9bd5550aafbc2b4b95589564dd545fcbe88e9a19ba",
+        "bytes_sha256": "a6b09170aee76dd83a509c66c58c8d20d6ff80e2dec6cf58d0130ddecede025d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Heroku_source-srs_5cececb0bae8dc4c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7a0fa13bf3653ded9a1d3650fe5f48b79a5ff713235a765a00c3c37eca0b484d",
+        "bytes_sha256": "00f7c4c0c62a5254b4b8437e9e3edba4a92bc3a2e4323cfadf74d6f096e36ed4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:03.606745+00:00",
+  "client": "SingBox",
+  "rule": "HWTV",
+  "rule_updated_at": "2026-07-26T06:21:57.786045+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HWTV_source_e6c2bce8285439d0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "415f29488b5e6d486cd7093ee91a6bf2fad7dc52b9d932ac00314da89297c47a",
+        "bytes_sha256": "0188c97baa29ab257e84c4d0241c5aaf8bef2eae27b830e1f3976a689eb18929",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HWTV_source-srs_7bcdc06ef09f409a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1395eaa5d4e4691025de36cbc59f1f1fc88f9ba945c3a50235e3381042d6cd3b",
+        "bytes_sha256": "f803a545e23b4c193fed7931a9717e5d973373eede05f5e96020394044b08b0e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HWTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HWTV.list"
+  ]
+}

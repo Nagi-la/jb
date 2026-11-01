@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:56.779523+00:00",
+  "client": "SingBox",
+  "rule": "GoogleRegistry",
+  "rule_updated_at": "2026-07-26T08:22:18.108282+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GoogleRegistry_source_57a18dcab3cb298c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "895a1d029769bd4961dfd6d07c473449642ed2c0a650cd67084178479a819589",
+        "bytes_sha256": "1b24e0544e305f0e629a9ff1b9cd51f6ee7db59419e0fef041c663682713dd59",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GoogleRegistry_source-srs_91a2a7b63d4beecf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ee77c5d2fa2ba21362db74896f3e591021c47a6afc6f89b4d8858a1b9bda027c",
+        "bytes_sha256": "318d81a0a8b636eede77c239bac70416bfb7155f69b7778e6d3dfde8aef93b49",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

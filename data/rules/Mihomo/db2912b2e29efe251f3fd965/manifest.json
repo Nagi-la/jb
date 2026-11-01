@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:08:26.220338+00:00",
+  "client": "Mihomo",
+  "rule": "CNNIC",
+  "rule_updated_at": "2026-07-26T06:23:47.151243+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 50
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNNIC_classical_698fe1a68d3572e3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b8655b392cbc7f11dc371569e5e5c48c9c93273c226d28fdc08817311286efe9",
+        "bytes_sha256": "c9f06f0a68348f3ba0a84bcae098f8ffe592d7d806532513b46e04ddf7faf93d",
+        "semantic_sha256": "9aa152a352ed7089a50fcdb0f86de480d2dc782d3ed9a1461eacbf5b1a818b99",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNNIC_domain_4cdf2ff2e7d623c0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "215fcfce8cb3592ea66eeaba1a8ded1613d567e8cd1822c7bb24bd3ddf75b82a",
+        "bytes_sha256": "e5618436dcd063f8d8e842391b4374e7fff3b6a784af21003c0d6a7da87b4ef9",
+        "semantic_sha256": "d8c97e1941c01815eaded4ee90b4ba3f3c6a072d3a19cb40fc1b7a9aea0cd33a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CNNIC_domain-mrs_f0f91990dfb820f6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e8af38a3d46b02d1c6034247cf5094578bf8a7f23f458009f0544f0358027be0",
+        "bytes_sha256": "768f140139737c2f665d9ed63f62275a41872cdcc8fcb4c0616a73ea351ed2f5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNNIC.list"
+  ]
+}

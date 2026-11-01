@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:01.687956+00:00",
+  "client": "SingBox",
+  "rule": "TIDAL",
+  "rule_updated_at": "2026-07-26T06:22:31.473128+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TIDAL_source_6c37cc3439ee6946.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c91bc23995746cc417f3b7f3fd7405ba19b26b2dab6973bc52945cbc0a105936",
+        "bytes_sha256": "cc64cd68ab5c1936ffbc7045362d9cfd1b68daf397aaf78d5614b38ccf2245e9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TIDAL_source-srs_f91efa8054b33ac9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3a3381f7a25a986edcad1fb8d4ab95781d110c6111078ea0399697d0132f6cde",
+        "bytes_sha256": "ca10a89f541884b99d35838f11751d8467b82f2d483df2df288a5c3b4d934f35",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TIDAL.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TIDAL.list"
+  ]
+}

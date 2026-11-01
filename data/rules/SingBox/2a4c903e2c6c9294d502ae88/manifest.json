@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:19.016345+00:00",
+  "client": "SingBox",
+  "rule": "17zuoye",
+  "rule_updated_at": "2026-07-26T06:45:52.479586+00:00",
+  "type_counts": {
+    "domain_suffix": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/17zuoye_source_51f4ba85756e379f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3c64f6883f4fa4963ccf5d3325dcd0ad45a8504215dc6f88ed0a6433451d5def",
+        "bytes_sha256": "f76f2846893ad27043760c7b64e101ba785b265739017288a784a7eadac9117e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/17zuoye_source-srs_cf1bf3b4ad0a88cc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b16a1062332dd102ee5bb893d7514f34ab2bb0127b8514965a6f8a137dce0918",
+        "bytes_sha256": "f6ddca6dbfeae8b84da52d11eedf16b1fb9fddf5523e792afa3e162c3f031aa1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/17zuoye.list"
+  ]
+}

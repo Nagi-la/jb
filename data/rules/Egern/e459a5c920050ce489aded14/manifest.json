@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:56.952685+00:00",
+  "client": "Egern",
+  "rule": "Antivirus",
+  "rule_updated_at": "2026-07-26T08:24:43.946328+00:00",
+  "type_counts": {
+    "domain_set": 98,
+    "domain_suffix_set": 68
+  },
+  "total_line_count": 166,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Antivirus_rules_e583254ba294cb6f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "74a47e307adfa9ace600f9646f8cae447aea1b547a93fb27995195a2d4522763",
+        "bytes_sha256": "6f7b5c117439ec9a8617d73d82fe88e17750d9198b01dfea1c163f9f9b8f7f12",
+        "semantic_sha256": "e0d0725d3123669dceacf5da0d75465401bc152c0f859d2bd302a72ec022cb11",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:45.784050+00:00",
+  "client": "SingBox",
+  "rule": "JueJin",
+  "rule_updated_at": "2026-07-26T06:25:47.470603+00:00",
+  "type_counts": {
+    "domain": 9,
+    "domain_suffix": 14
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/JueJin_source_e4006dbd27bbb68b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2a50d2ff51e3dce92b1708d4bd6e71c60da1a8880ca941df97b4452d88020134",
+        "bytes_sha256": "e02ebcf51956dc87a7f462f3e03592befd929f05637119f81e9f833feec6387c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/JueJin_source-srs_28b66b50b72ecfd0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "812b456f9b5152dbfd57c549cec65c80e2dd2a71f4b4e04bba98d98bbbfcdcae",
+        "bytes_sha256": "cb527602b69411809af02f4af145c26e2372848b6220fceada2bf5183843cb39",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JueJin.list"
+  ]
+}

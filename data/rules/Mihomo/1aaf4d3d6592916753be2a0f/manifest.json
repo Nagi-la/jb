@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:59:40.203604+00:00",
+  "client": "Mihomo",
+  "rule": "DaMai",
+  "rule_updated_at": "2026-07-26T06:24:10.763247+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DaMai_classical_e1c1e8d9b99fb422.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "374d6d6a8d96c9bfda193382e521da0d83f43eb99b1bad5daac5d75e6e0d78f0",
+        "bytes_sha256": "ad04ee0084938db2e54eaf3993e256a5665694e2444a62b75865c81e72b065be",
+        "semantic_sha256": "d5f103c82059ca8fa98c978d31bb9e950e149a64e63a0b094def8a9847656f5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DaMai_domain_e8d28087188fee5b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2f9fb8ba489db04cb2e76851b676ccae9366d121c1cbdf897b4425c8030283d6",
+        "bytes_sha256": "6034ea5fd14f656a2d7700ecbc187c839ccab9246cc82a1577abcdd63a69c2df",
+        "semantic_sha256": "1db790710b6f7bf5bec52375d5073ebd65ea01a93f7629a9a45babc9c1c02b76",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DaMai_domain-mrs_3759a2923d55597e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "092cc982ea61a134247c0618374df4ef8a213fe23de0f9f7ae12cd3ecc1421e6",
+        "bytes_sha256": "cfb27e7574402a88049a5e1de986c0cd91d203741ea6e201073130850803a4ef",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DaMai.list"
+  ]
+}

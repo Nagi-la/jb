@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:55:52.763963+00:00",
+  "client": "Shadowrocket",
+  "rule": "Camera360",
+  "rule_updated_at": "2026-07-26T06:23:46.156552+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Camera360_rules_333f88d81c2073e2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e6df47469a7b80359389629690928062fb3a6f0f47e049f84d03fbd379283af",
+        "bytes_sha256": "cc21437f83a81ed7d873d4d3983fb84233759689447c2dffb9a7ce09febccebc",
+        "semantic_sha256": "3a3e1b6f218124bd28f9075b74c5aa920d930fec3a2a5380c8182e045ce1b30b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Camera360_domain-set_b5851ee04da893a4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b495134ba8bf00ca711022f72377540c7ca9187252ed7bb01854a94b7ad9e524",
+        "bytes_sha256": "46fac94c21483ba9308101f2154cbf6003e47394c19ba80a9ea00c10626a4e89",
+        "semantic_sha256": "be5b95300607b3591a89ceebaf6fed0e0c54c5e99e098950122f06d20d9ce70c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Camera360.list"
+  ]
+}

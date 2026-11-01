@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:39.943796+00:00",
+  "client": "SingBox",
+  "rule": "Emby",
+  "rule_updated_at": "2026-07-26T07:00:46.506955+00:00",
+  "type_counts": {
+    "domain": 52,
+    "domain_suffix": 30
+  },
+  "total_line_count": 82,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Emby_source_a7b89b6473039436.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "93a35b9eb51ed287f0406a24a15801c933509e143ccf0e88774d301a548a0a81",
+        "bytes_sha256": "8a4d57f845446bb2c5742d6d84eb3806b748735235e45aceb930a2d989ff8570",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Emby_source-srs_d947f31ccffac0a0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ed24a270bd39a0cb16ad90f13c88f269e487360ef5dc64cddcfafce309e7367b",
+        "bytes_sha256": "175efff32ecd89909144676413f33b1656b82bee94db1347dee07bae7d21071d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

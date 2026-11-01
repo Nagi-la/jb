@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:55.299151+00:00",
+  "client": "SingBox",
+  "rule": "Imgur",
+  "rule_updated_at": "2026-07-26T06:50:27.817244+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Imgur_source_ef2bc1718ac37068.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3fb6244021d710d45905c6293e170fc25e1d9aa652ab1f9501d923025ba79a5",
+        "bytes_sha256": "6dc68d819042fd61f36877cc53ee3488f758718aff627451c4056641383e491f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Imgur_source-srs_4a163d6648f27766.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c831cd73b7f216d889ae576fd5786c2e9ff06f44d0e41737df97edbe842ef57d",
+        "bytes_sha256": "59b40ffddb641e93974960352f9662e37d98af0315279614408f332555b22147",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Imgur.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Imgur.list"
+  ]
+}

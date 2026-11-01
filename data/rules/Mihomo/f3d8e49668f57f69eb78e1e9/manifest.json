@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:04:14.908126+00:00",
+  "client": "Mihomo",
+  "rule": "Canon",
+  "rule_updated_at": "2026-07-26T06:48:58.233239+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 71
+  },
+  "total_line_count": 71,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Canon_classical_f6abe4184cf79711.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30ffa47bb0caf25ceff906d088bbcaac729a9cbd28106c31f2cb2714c8500b7a",
+        "bytes_sha256": "0d9371254994d433c7a347d00e689b0f8f52790fa9be3c56b20df86eedc2f3f3",
+        "semantic_sha256": "5bc749c346f8e5f4ac76a8edbe6776635c1b5ea6d39bd12ebd6bff9e88adb085",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Canon_domain_970a0f4eadc52d7a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c8b52160b32a36f82c76c5d38fba6419a5fe7d1001faf72cee846611b6b4cee6",
+        "bytes_sha256": "4f12cd307a2d6b4f0bc6b442bf70e45f21b5f245bbd80b2b2283d14e7e64e171",
+        "semantic_sha256": "7a7c81fbf01413f4889e2cb34041eeb4c80d408da6d92260fb7ed1b59b7218f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Canon_domain-mrs_f6d5a3095252415d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3a9b3550771ff298161238aac9bf81ed4d0d53fd5f37bbb9cee4f5b141e50f71",
+        "bytes_sha256": "3270222aa01a42d4e2dca0ff9e2b6d0bcd8941ccaf6cbd3902625b96e4a7c790",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Canon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Canon.list"
+  ]
+}

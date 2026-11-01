@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:44.238485+00:00",
+  "client": "QuantumultX",
+  "rule": "Sohu",
+  "rule_updated_at": "2026-07-26T06:28:02.847586+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sohu_rules_c4ea0c215a12dfb8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7f5ae8fe56f3d7ebc36a671a93c0e5b904f46537bf8f02f1c489293197187be",
+        "bytes_sha256": "9dbaffed837ed0c8625cee43ca47f8e00011053c25d4dcca78b17f3104dc3525",
+        "semantic_sha256": "aa8768ee16bfe23b4484d1e06314a304a54c79367367ce1dee6e2f5515b142ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Sohu.list"
+  ]
+}

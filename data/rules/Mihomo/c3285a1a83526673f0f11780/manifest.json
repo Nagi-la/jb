@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:18:50.686894+00:00",
+  "client": "Mihomo",
+  "rule": "TianTianKanKan",
+  "rule_updated_at": "2026-07-26T06:28:22.466643+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TianTianKanKan_classical_db507c316b53243c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f18be88e89b0215e83188e8e2924b5d4a5f8bf83e38f8044f29d3e236a53a3b3",
+        "bytes_sha256": "7940900fc4324201f915b4e57d24468111da71b35972a42f77cdc314ddf7bb4c",
+        "semantic_sha256": "51c391dd65bb3319a9caf25fbf135e73e6d7dc0b880754a78116628feb096657",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TianTianKanKan_domain_fce72843ecc5be37.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c263337ea688d640851125932b078fa5a5adc4337b4242421c134616de52678",
+        "bytes_sha256": "71bc4cb5f44a48b3c4d38a3ee49b33e60e4a92254f55a73577a8693f48c94275",
+        "semantic_sha256": "3a9843bb0d40df35dd63c19af0eb20ae3b2945b7968d90817aa72440f7474ed6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TianTianKanKan_domain-mrs_83584dd128eab660.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d198eaf07950524f528ad7b3d65a15b2118c28b2617d0eff255945fb01e38281",
+        "bytes_sha256": "1c36f06c2fcec8c472410000bd32acb796239f6a39837cbbf62866e1711fc83d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TianTianKanKan.list"
+  ]
+}

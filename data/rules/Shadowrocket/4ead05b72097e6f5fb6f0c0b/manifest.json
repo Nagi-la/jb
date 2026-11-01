@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:19:07.613420+00:00",
+  "client": "Shadowrocket",
+  "rule": "Deepin",
+  "rule_updated_at": "2026-07-26T06:24:33.559799+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Deepin_rules_58cc03e9fca5e4e0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5bb164f03cb450c41f4d167ce160a501b6be17f8dbe7adaefe1c51e41c3f67dd",
+        "bytes_sha256": "e6f1c645cbdf503060a249c01e0003b0128a6e14a404d0f5f5cfe08c4de276e8",
+        "semantic_sha256": "ada42c202c571902f3b2a40682bc3a4bdff92dbe1db57b2365385103fcb94a0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Deepin_domain-set_4103cc97a75c2cc9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3f98361344d95cce8a355447a29f57caecef998d93381df4d272060fae311a67",
+        "bytes_sha256": "19f27f9b12ad6afde961220497ac9a73e0b334f93442365b35320eb6daf64b51",
+        "semantic_sha256": "0525e5797ec9876e2a46dd60f54ec42113b6eb1607b5514af223e9a05f27d859",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Deepin.list"
+  ]
+}

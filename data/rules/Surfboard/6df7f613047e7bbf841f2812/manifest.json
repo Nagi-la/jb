@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:58.060978+00:00",
+  "client": "Surfboard",
+  "rule": "Antivirus",
+  "rule_updated_at": "2026-07-26T08:24:53.208717+00:00",
+  "type_counts": {
+    "DOMAIN": 98,
+    "DOMAIN-SUFFIX": 68
+  },
+  "total_line_count": 166,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Antivirus_rules_665e579b30d952f6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "360632f40626bc5549635f31e44d5f9d3c0fcfec585a8b50dab2c9c4c4161ac0",
+        "bytes_sha256": "72d89f9947b427924fbc221ffea32daf5c5caf79778ca7ed1e7a8d40cf230e57",
+        "semantic_sha256": "8c0d9989e570f448b335dc86d0783e28edaa72f002e54226eb15518d1c435b23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Antivirus_domain-set_a93d1d4e2992d3db.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "546e50ade58caef6d1e088e70d5d8b185bceafa8fc6a057627557145419952c0",
+        "bytes_sha256": "cb3b77ae9ad2660f2d016178792961d09ebdb498a027c5a4e30b1224e9518a99",
+        "semantic_sha256": "d7a5b21337ea3244eb107313019c63e2c353551e4393ade11e2418f26cf493a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

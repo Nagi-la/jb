@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:56:52.644461+00:00",
+  "client": "Egern",
+  "rule": "ABC",
+  "rule_updated_at": "2026-08-07T02:23:27.260045+00:00",
+  "type_counts": {
+    "domain_suffix_set": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ABC_rules_879b0de94c0e7697.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "62917b363f096b6786463e655f2bd7b815443948c94e73f0321dfe36eaf264ab",
+        "bytes_sha256": "74e3322568486a84f4a6702cbdaac864e40225963275d49f085f334b125a2c1a",
+        "semantic_sha256": "81dbc58e0a34c10f9cff628b540d1f2d9bcd8265b0e372e5d58aa92aee1364b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ABC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ABC.list"
+  ]
+}

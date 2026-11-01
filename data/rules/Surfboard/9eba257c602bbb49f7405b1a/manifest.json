@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:40.694601+00:00",
+  "client": "Surfboard",
+  "rule": "DingDong",
+  "rule_updated_at": "2026-07-26T08:32:17.147159+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DingDong_rules_b06023b23a00a386.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07e481339d14cc9dfb2a055aa754e9d8a92876cd4d0a40626f312e3571e2a9ba",
+        "bytes_sha256": "14e0e71d8a7242d19453cd5b06f87cbb5b27757bd0a3c85ec151dd4fc16eb304",
+        "semantic_sha256": "92cfbe347c78de95ba3813b2540ee2f7f5d9f4790c7467ec45d9b2392096d9c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DingDong_domain-set_d7a45ef0c1a8176e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "666fac3e4c4762e072f2cf2c1fef5dea58eb8a8e500d086a9f18be60c23559ca",
+        "bytes_sha256": "8ebf036adf9c8faec84d046954951145ea0172656aa610f775694ea445d213cd",
+        "semantic_sha256": "2b84de2eb057e7589289c1425d896fc94dc8d61af284ee339dcef6d48907ab6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

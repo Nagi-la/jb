@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:45.599018+00:00",
+  "client": "Surge",
+  "rule": "HuaShuTV",
+  "rule_updated_at": "2026-07-26T06:25:21.514946+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuaShuTV_rules_8c82d2c5135ea449.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c93bfc118153730aaf6670aba7246ec261fce4cc0a44d72c6a021eaae969559",
+        "bytes_sha256": "2324284769e745d23638e21cf3a3030fac2e6846fa098574ca7ecd5b852975a9",
+        "semantic_sha256": "3e8603383eb813758da596bec04ad3ebf6da623b51e04ffc9b2340439b94ce1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuaShuTV_domain-set_4d76b29ff7834305.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0528da4974a4e062ab446eb28989eb7f94e2d0998048d23a3823435921ba2d4d",
+        "bytes_sha256": "84e8861f73af6df8813ff515c848492de3eeed5f8302283e01a4e3f7d83275ff",
+        "semantic_sha256": "0d0864c12524b15087a13d1f78ae19f90f88f144df57e8f33a866da00c438c76",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaShuTV.list"
+  ]
+}

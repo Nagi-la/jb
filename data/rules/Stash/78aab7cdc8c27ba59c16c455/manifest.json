@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:42.720671+00:00",
+  "client": "Stash",
+  "rule": "RuanMei",
+  "rule_updated_at": "2026-07-26T06:27:54.151898+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RuanMei_classical_45c91fa42491ec35.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11dafb36594b55e0d1606145b5abf56bdff628b9e57055928bedc2cc27da36ac",
+        "bytes_sha256": "9dc72abb857160c0528a34ab291d8c67fe44711196b82a11e86a5e26e6afd423",
+        "semantic_sha256": "1cba382d1be8e2111c5ecc895d06b292cba281394489ae003c829d8e6080ceb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RuanMei_domain_a88c37a20b70c516.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5cfec67dd0c06da4c60278437af9755f3c249a7f117c0465bd80506edeacce56",
+        "bytes_sha256": "ba0f80dd8484fa18ec5251d661c383c4985aa9b3a07515af1988c2dc73a6af8b",
+        "semantic_sha256": "378c05ea19226ec5ab37616379c5aa9d863f6a47a1c686e1915b342fdb38f479",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/RuanMei.list"
+  ]
+}

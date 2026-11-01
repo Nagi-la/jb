@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:02:33.627708+00:00",
+  "client": "Mihomo",
+  "rule": "NYTimes",
+  "rule_updated_at": "2026-07-26T06:22:27.338458+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NYTimes_classical_979978c0f0517152.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "15918236f1850bc496e37873ee09bb87f4082acd7bb80e53ffafe63aad795ec5",
+        "bytes_sha256": "193d827523712dd9a8fe08d17bb2feb561686cc2798d10d38541f6673dec3402",
+        "semantic_sha256": "63ed825d969576d071a64c32efbc796fa5e0d337e5163f5dc888e77f99defdaf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NYTimes_domain_688e2bdcc2372d2a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "85050dafd6e315c630c7266daed158904aef616b0498843afec99a0070c45903",
+        "bytes_sha256": "8a495bd2545909d2d999d6aa662653497831a260c211219f7fd4174488cee3dd",
+        "semantic_sha256": "b25591cccf5a7f2a1f75b21df3dd64feb887002bde76ce7de2cb8ab9582d48ce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NYTimes_domain-mrs_ecd4cf6000b9808e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a813d30eae90e4de19830e46098ec03e4f2389217c90124652a520665742f9d4",
+        "bytes_sha256": "874150a97ec79e50d6d3b48a1ba7df62c4e9727f9cf2a816ef140292f33a06fc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYTimes.list"
+  ]
+}

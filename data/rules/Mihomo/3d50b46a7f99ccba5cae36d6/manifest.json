@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:19:17.991638+00:00",
+  "client": "Mihomo",
+  "rule": "Discord",
+  "rule_updated_at": "2026-07-26T06:37:33.561809+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 29,
+    "DOMAIN": 2
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Discord_classical_6d212a56316192c6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3104a56ac9293524ba8ebb2bdb3cb20ec2ca365758a49d0975b8414975c4e3a",
+        "bytes_sha256": "5fbadeea8ff61c2a0d4b9a7e3dc211043d9fa00021b40211658fa1c1a3ea59e2",
+        "semantic_sha256": "770cbf07a437a2d5e217d4d78eefb8bdff9eb55a164dfb5f01b5d354f8170cbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Discord_domain_93617863022990a2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "548e5e134c48bf4f7d1eecb439cfff1e3e0c0f7318d6863217c9b23dbefc8040",
+        "bytes_sha256": "c0bfa89cbd03733a8db39b04a7d5a07073dccbc6d8c4ff5f09f18ee12ff43a6e",
+        "semantic_sha256": "d8e9abbb2eecb6086e021c974fac28707919aedc9431d2ec64dd297329039139",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Discord_domain-mrs_21d36bb8c4d1dbe3.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ae362bd3242b0e091c074510ac7245790aead603e8448e1044a9a1ecdb1d7953",
+        "bytes_sha256": "08624ea4371fb869b0200023628c831fb1f0b80dab07c050687c568e453233a9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Discord.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list"
+  ]
+}

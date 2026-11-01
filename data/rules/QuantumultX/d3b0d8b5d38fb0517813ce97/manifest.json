@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:36.039195+00:00",
+  "client": "QuantumultX",
+  "rule": "CMB",
+  "rule_updated_at": "2026-07-26T06:23:27.408146+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 39
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CMB_rules_7cbcb7405d2adffe.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2afa8653180c136190d54c945a7e2379f7a5d2e78bbf2348e57888b027c3c878",
+        "bytes_sha256": "7602f291e0dc9dedbce5027332a53722bd3cc59f913d6973e46bde7923650143",
+        "semantic_sha256": "2b88e150ed49a2d3a67bbb8981be4eefb787de57dd3842d659c252fc0250bf69",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CMB.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

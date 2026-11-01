@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-08-27T02:05:27.367063+00:00",
+  "client": "Mihomo",
+  "rule": "Qobuz",
+  "rule_updated_at": "2026-07-26T06:22:29.908282+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31,
+    "IP-CIDR": 2
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Qobuz_classical_73899ed107ecaed3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b2f1711a129a69e0db5372864c980167c273b6b230dd56ebd013b223f0e9c3e3",
+        "bytes_sha256": "0a72ade289a019433d17db4a3775284a1fd5f8c0ac5ac2bae18940313b1fd81d",
+        "semantic_sha256": "00e0fe4431c52ddbca8347bf3d6b5bb9bcbdd085a9ac1feeb743053d53d73120",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Qobuz_domain_e2822ac2560c7b13.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3717555fdb9f10d6865cf2171af9550714df4d3a75c3522870b7744c9b94ad21",
+        "bytes_sha256": "973a88f3422526a0107bbcf236a7446d954abc3cf3ee7631e71051c5bdb03412",
+        "semantic_sha256": "d9901323c0e6fc360fcfa56bdfb962d123a3e86debe03c40ac179b37b6015412",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Qobuz_domain-mrs_6072e49483aeb8ff.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "44ebf1d61e1104ff4324abba75dbebda49181c3574eb8b4ea8bf2daa422ab0f7",
+        "bytes_sha256": "f8e232fb3853ab73f07d0b5788bed8a24675118866981f8c5ba5d7d7954f7bda",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Qobuz_ipcidr_bfb190904630dcc8.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7cbad9954d982a314506e4c36ffb301aa09b0ba17ed4a89c1890cbd4bc37ef32",
+        "bytes_sha256": "9240d17ae433424c701c37bcf7e9d7c49007f65195f9fcb4dd8a4c52fb086904",
+        "semantic_sha256": "80bc1c29608ddbd60938804add87f61511fee3149a155fa12d6193d913207741",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Qobuz_ipcidr-mrs_78509b161a523af4.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "db5eff5faff7505f1930fd3486123d58630580eeefc6fea07472f3f82965dc2f",
+        "bytes_sha256": "2e3f89d2280fb965c9b3629df621ef14cc72c9a79e3c622c9436b96e33d5c384",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Qobuz.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Qobuz.list"
+  ]
+}

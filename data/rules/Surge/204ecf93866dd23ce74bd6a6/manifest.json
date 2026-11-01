@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:35.369068+00:00",
+  "client": "Surge",
+  "rule": "Jsdelivr",
+  "rule_updated_at": "2026-07-26T06:51:13.560549+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jsdelivr_rules_be2827fbef898be8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9ce88c903d2a377471ea2c72d3a4fbe18c198f8fe6121db0cb4443f48ae8d0dc",
+        "bytes_sha256": "fc7dd6853e9f75ad9028515db74c5b8d159089df0497b21c255ee6ae4516fa1b",
+        "semantic_sha256": "f4fa6ee1e722b3cac8d0f9fa7737d3eb22e80044fd3df55cf361e708dfbd1aaa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jsdelivr_domain-set_57b732980f1d7c5d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f359fc8bf4dcc7d5db2a8b3fce50114d4257728cc3b2d48a6cb70911268ec513",
+        "bytes_sha256": "1c31f8e9ad79df9f0e68d7324c91be19e1fe58ce41434f2300cd82d15213db11",
+        "semantic_sha256": "862e7ce93ee1b68c31160ec904274f9da5d6ef8e19b12dc00c6f94e77e13095d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jsdelivr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jsdelivr.list"
+  ]
+}

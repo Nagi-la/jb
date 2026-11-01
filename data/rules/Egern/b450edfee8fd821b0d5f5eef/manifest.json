@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:56:50.600219+00:00",
+  "client": "Egern",
+  "rule": "HP",
+  "rule_updated_at": "2026-07-26T06:29:38.027439+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 158
+  },
+  "total_line_count": 159,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HP_rules_5349b5e2856968e6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d4f5dd55871879453ab64179440ee5c8c006752ff4641905f0e0a8a1ad039bdc",
+        "bytes_sha256": "b2a3f4bb74e4caa38220b26a6b19c6ce94c700ec28b7499f4c743ed5890a2750",
+        "semantic_sha256": "4d69be5f2961d6b933a6fbfdf35182320fc03a7dec6a437e8f35769488c20de1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/HP.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/HP.list"
+  ]
+}

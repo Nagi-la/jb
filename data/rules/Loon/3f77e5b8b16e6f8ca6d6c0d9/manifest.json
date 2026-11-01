@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-10-29T01:52:49.938954+00:00",
+  "client": "Loon",
+  "rule": "OpenAI",
+  "rule_updated_at": "2026-10-29T01:51:38.342039+00:00",
+  "type_counts": {
+    "DOMAIN": 12,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN-SUFFIX": 32,
+    "IP-ASN": 1,
+    "IP-CIDR": 3,
+    "IP-CIDR6": 1
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OpenAI_rules_93fcf98c00bcec03.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76ea4ffced65833d22c7a5c50e0576d528011236fad807ad9e805375b974a0ff",
+        "bytes_sha256": "91df04d8b198e620708fe3ef9b553901c8b08f57e2bab0dc3804dbb2c7d3fad7",
+        "semantic_sha256": "7d68b565bf9e28b31ba4bff1738898a122e72a2067cddadb8373ad73f0e929bb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OpenAI_domain-set_0e2862db7ac56063.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48fb79395df084d362f4cb1447c27a40de6b6e5480da88564867d39992a06f78",
+        "bytes_sha256": "11d7e352471b556ef65ee7937fc341de969622d50cf71fb086bd09b54ae499f3",
+        "semantic_sha256": "67b4cda5e3e2dea8b39120fec0cc42283b54f92e36cf917909d9e968db68df81",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OpenAI_rule-set_d904b5e753aa1d85.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7906536518c8cc9e2b4cde88942c415e6de9095a542e69e6e2380e0ab1064dde",
+        "bytes_sha256": "445ccabcb16d5d20deee34344a77ade47cb4c6c1eddd199487d71a4050b26610",
+        "semantic_sha256": "e38d91fc62727af4654703435e8fb14a3df4929509a8d61ef1d30b8648ea320a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/openai.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/OpenAI.yaml"
+  ]
+}

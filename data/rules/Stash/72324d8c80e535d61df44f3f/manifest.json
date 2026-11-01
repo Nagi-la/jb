@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:11.039363+00:00",
+  "client": "Stash",
+  "rule": "Stackexchange",
+  "rule_updated_at": "2026-07-26T06:54:29.788310+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Stackexchange_classical_047bbcf82a8d5549.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ddc9cbf0218808839c33eb01f8c52c152bd089d65d5b583356174b5a9bbd3404",
+        "bytes_sha256": "534170cbb805cec52632d26d4a9b3644972ae25160eed331358e7d6c0b87da75",
+        "semantic_sha256": "e617c8ad9da0b41c08033c64761c3d5844052baad636afd6be03166118c4dbce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Stackexchange_domain_8dc998df3b049434.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db7e48ad9158e4d3c8c58707287908b0a78a97a2a89bb9832a8f375a4bb86e29",
+        "bytes_sha256": "68d03da10d402a5c4a00cfd279c618b443ad06a739adc3341e97d6e624cfec91",
+        "semantic_sha256": "1aef84c039b151ad923e24d41d16663f812a580e4a38062219c9af7e5ff5a704",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Stackexchange.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Stackexchange.list"
+  ]
+}

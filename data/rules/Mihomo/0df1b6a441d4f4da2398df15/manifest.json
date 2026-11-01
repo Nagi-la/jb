@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:02:15.883307+00:00",
+  "client": "Mihomo",
+  "rule": "Pinduoduo",
+  "rule_updated_at": "2026-07-26T06:38:40.353827+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pinduoduo_classical_a442634d122a265e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2272f9a39a9e6d8a93961cadea62740a6590d986470df4ac70a6eff26a7fcc22",
+        "bytes_sha256": "762ff5c9ac3183a019873b2394ba827ab4937e68ba6114fd3eaff74a831bf6ab",
+        "semantic_sha256": "48e0207520b023f07aa7ad303540c18c68ee1a97e74ffc7899f0d12316a813cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pinduoduo_domain_ab56b2753ec9d168.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4110364bde25953db4bf6fe004a837aa9d7c28626fe693f44d013737aa5da46e",
+        "bytes_sha256": "f58fcb458befe5e7b63f834db76b8fea7bada9c3c2f76db9d2e95c7e39b226e9",
+        "semantic_sha256": "73910706242b9fbbc59732653d8dcfd7945bc45ca4597b529db233f1489e8c8c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Pinduoduo_domain-mrs_4657610b04704c86.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7dbfe2885f05db7ff17fba2def67e18b09691663798a31cddcb38dcb153121b7",
+        "bytes_sha256": "8df12a83fc71de57edfee1c35d65450c9cd8362e3945e03912e39ad697cf9b64",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PDD.list"
+  ]
+}

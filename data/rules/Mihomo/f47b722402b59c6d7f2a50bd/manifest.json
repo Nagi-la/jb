@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:14:09.715356+00:00",
+  "client": "Mihomo",
+  "rule": "OpenWrt",
+  "rule_updated_at": "2026-07-26T08:34:09.440848+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenWrt_classical_5e3a3a8eaad36842.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a30a4fd9d88dba2784c8aefa45e0155e7dcfe299fd1b52490b7fa9e5e51c28ce",
+        "bytes_sha256": "a1e4bfe8960fa962d5a68b880106c1ee3c68f3bfadac75a14cfa88f92c42cd86",
+        "semantic_sha256": "2f1e3b48de78a82a089643ac751d65e6779e28dea1d1403161a1a123a21bfda2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenWrt_domain_bd37cc2dac38ecfb.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b19cdd8f38d938daf25d9bc1d0a5580b67e12e7605330b985b2a44c2e0986d0",
+        "bytes_sha256": "a6e946dded1785ad01d99bb979046f4b8b203ea33b5cd4f121acbf245b7feb3a",
+        "semantic_sha256": "6d32be0bef65bb44c9622da6b916b324290636d49c27670d3e28cae7bc65c084",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/OpenWrt_domain-mrs_28628981b10ec6cc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e16716ab6d0ef8efd972359ce3332e55968f58f1400151be7a67bfd0c4753dfa",
+        "bytes_sha256": "558fe68a08cb06c87918e02f10b401206f2504421500996900b0b78e7386c7bd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

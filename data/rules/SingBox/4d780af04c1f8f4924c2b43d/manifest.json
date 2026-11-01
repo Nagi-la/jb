@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:07:25.914260+00:00",
+  "client": "SingBox",
+  "rule": "HBOUSA",
+  "rule_updated_at": "2026-07-26T06:30:20.782453+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 42
+  },
+  "total_line_count": 43,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HBOUSA_source_ee40c3c4530e016c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ed6595c469e847e11685d5b1466e7466f28c0cda2d4cb500e966b356e93f1d14",
+        "bytes_sha256": "a865c3d2b73a8ae64ff2d6e76326afff3487d16638a9fe471b6fba2ad8325b0a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HBOUSA_source-srs_0a55e9ac4ca681b2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8367ad13c015c2d398afa9b92045b7979f784086a1d123f42d5b896d2409175d",
+        "bytes_sha256": "b6556d479a106fbeb2bccf61439f2b47ca7f270ee4dd31b57943bed030cf52d7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list",
+    "https://raw.githubusercontent.com/luuanng/surge/main/HBOUSA.list"
+  ]
+}

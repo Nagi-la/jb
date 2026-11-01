@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:11.097350+00:00",
+  "client": "Stash",
+  "rule": "VISA",
+  "rule_updated_at": "2026-07-26T06:55:05.493082+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 160
+  },
+  "total_line_count": 160,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VISA_classical_80143ddc8256fff9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48b806242bb0fe0b99e98c945b501d261c73a08bc65c78b3ca1240b37d442801",
+        "bytes_sha256": "2d0307d38655f6567fff6bb1b0d7b6e056f03eb5b6db97fa81f353a66ef3e3cc",
+        "semantic_sha256": "ef4de1e6eb92fc624f632479dc4ec577d7d1b5ae4c46f1e380528843b8e9e32c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VISA_domain_eda41bc78db024b8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f01e8af44fb144bc43eac4942b34bf2238b23e9712c73d621884650a25a466b",
+        "bytes_sha256": "da9091a22f8e6577a77a7372bbc873520b084473b3c8f0ccf488dd070660f4f8",
+        "semantic_sha256": "54fc1a9e82ff76d24b1778f8ab2a33d68310e8b40f2a4e96e2dbef486705759c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/VISA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/VISA.list"
+  ]
+}

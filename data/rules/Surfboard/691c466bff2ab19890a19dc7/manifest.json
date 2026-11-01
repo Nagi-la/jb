@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:24.060561+00:00",
+  "client": "Surfboard",
+  "rule": "Tumblr",
+  "rule_updated_at": "2026-07-26T06:54:44.366991+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tumblr_rules_bc51acd68043121b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffeb214cbed6eed5d8bc73f7032e2c5a35fc0bfbd7e9cc1a2ce4c3f5178df12d",
+        "bytes_sha256": "ecdb0463c22e085b6953701ed8ccd4e6ce4d81e0da21dcb87c9576c14d073ce2",
+        "semantic_sha256": "8b618612a4e8804a3e1d14b528d67ffa514f55994459ff920c161d52ecfd5006",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tumblr_domain-set_35ed2a4cc0104949.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aef0e92af39b3a7c8eb3b56009e20b9a2adc122f110fc59c5a0c8431057a33b2",
+        "bytes_sha256": "cc661fd6015a13197c99803a804218e5adb500d12e68c8931b3a30d442e44f05",
+        "semantic_sha256": "8a3b38bdd5250ac51a3b333036c4e2b8170280439e06350206608881b6157c94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tumblr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tumblr.list"
+  ]
+}

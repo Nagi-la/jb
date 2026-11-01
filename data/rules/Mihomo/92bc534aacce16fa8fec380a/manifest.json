@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-08-27T02:05:08.962310+00:00",
+  "client": "Mihomo",
+  "rule": "DNS",
+  "rule_updated_at": "2026-07-26T07:01:12.348733+00:00",
+  "type_counts": {
+    "DOMAIN": 93,
+    "IP-CIDR": 28
+  },
+  "total_line_count": 121,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DNS_classical_9cc7e13423eedb91.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "485cd014cba3665f732a12c312df7c36dac3b0ee2c248b96596facbe1786fdd9",
+        "bytes_sha256": "c2039abeed67cf80ef677c5ed980c22863198ca6f74006a53a22af1d5285fd88",
+        "semantic_sha256": "2f2e3141af2a989c399e9467df8d1bc99f9a8b9efe8c0bdfdb86b7b822111698",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DNS_domain_19c6e01b1233745e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eeff95f7e0221b90e2c5857122b93d5656bb3a363dce9db0bebe069a9b74ac47",
+        "bytes_sha256": "0a16c01d4b8f2416fc0b0a3441890a63b274221a90699ad81b0ac9798538685d",
+        "semantic_sha256": "452065da50db2c4157ad830437f377e53f1b1b4fd40cd2e006b7f13659776a2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DNS_domain-mrs_416ea1f3b4528b91.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fc47e685a909c327264172c105c36b8cf105bf363c18a862a5652033d3757d42",
+        "bytes_sha256": "ffa453b39ae8327651c201bae65bab2904467a0e9e2cfc157f53b704eb948df6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DNS_ipcidr_02437331c87c34b8.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e7bd908a1a3e61d4a87232ee3e9bcdaa59314b08e645e759210aabcec84d8af",
+        "bytes_sha256": "2befca80a1b4e06f8d23cf2f4b95642131e2d965f6fc21c216934df31999ed0c",
+        "semantic_sha256": "ca03870d551d7a6302d28baa195eacf224fee96a7a3d324c02cc6a9a1fec5c18",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DNS_ipcidr-mrs_c06b85f58623ed84.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "36b0e5725c5c56e27596aaf3562344d103461608a643e98fee5e7e2b3b98fcb3",
+        "bytes_sha256": "e61431294cd9b54c6afc58a03c109b5d3d7dcf0748e703ef5f4b41b2f4ec9971",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
+  ]
+}

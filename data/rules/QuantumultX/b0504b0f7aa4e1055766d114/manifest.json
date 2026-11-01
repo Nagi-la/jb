@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-10-16T14:24:28.794957+00:00",
+  "client": "QuantumultX",
+  "rule": "GitHub",
+  "rule_updated_at": "2026-10-09T15:59:05.218100+00:00",
+  "type_counts": {
+    "HOST": 32,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 40
+  },
+  "total_line_count": 73,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GitHub_rules_8ae314ae6a73a225.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b439698e2dc30585e36188d0f12ddab4143786422cb1a625d8b61d5cd3b2a62",
+        "bytes_sha256": "2ec159f2425d66421a75493693893709b8ab498b2254ed591361e4a6d05a5e72",
+        "semantic_sha256": "d2eca5f664c042cd230a8f5ac3e5409304d227eadaa35af3561086192c955b1e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Github.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Github.list"
+  ]
+}

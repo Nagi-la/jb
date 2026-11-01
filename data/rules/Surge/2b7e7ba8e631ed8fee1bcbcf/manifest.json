@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-08-27T02:16:50.242577+00:00",
+  "client": "Surge",
+  "rule": "GoogleVoice",
+  "rule_updated_at": "2026-07-26T07:24:10.446118+00:00",
+  "type_counts": {
+    "DOMAIN": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleVoice_rules_7e2a5efa51b704e2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a51afc8919e1627f98f520f19d2f375ad8045ea6a6c0bd3278e916f8e1d36589",
+        "bytes_sha256": "38510b110674118bd5041d0068a560e6617b2b4b2964858c64b11940a4114282",
+        "semantic_sha256": "1d10099df98e7553489dd8f9ba264629e7b1e2b1aa9154ddb981287b1549de10",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleVoice_domain-set_a79ea0736aa301a5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e70d0f084bec41e1f47c65286455997f38788a512653a1bcdf24248fc239e5b",
+        "bytes_sha256": "4cc8b6602203df4e422423ad617545060e2308a98732ddcf7ef19fd15f4b11a9",
+        "semantic_sha256": "dc7fa2d344a64d5a0ced11bf0254235a2687d83f9cd504b4f4c4104ca3734c01",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:11:57.717209+00:00",
+  "client": "SingBox",
+  "rule": "Japonx",
+  "rule_updated_at": "2026-07-26T06:22:11.101437+00:00",
+  "type_counts": {
+    "domain_keyword": 2,
+    "domain_suffix": 12
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Japonx_source_c496ab44eb496a57.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8f11ec2b40bc96439220ceec330cfae3102497ba566a3d9b22bd0812981225b9",
+        "bytes_sha256": "5ffb784ba349b1dad80845daf69443a60c24ab588060be1f4c84139e74dff1c4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Japonx_source-srs_442378435e50063c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "36e99193ef1cba4cddf0305c35ea5563a342c4a8e4d0898e0c167bafc1601365",
+        "bytes_sha256": "b7a4fdd8e032db25d53e1ae1ae92c9c74e6c7382eb67347c6a50abf6591910b8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Japonx.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Japonx.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:08.793564+00:00",
+  "client": "Surfboard",
+  "rule": "Gettyimages",
+  "rule_updated_at": "2026-07-26T06:29:25.158642+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gettyimages_rules_6bdb4e06f639d58e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1acc761bc39f93a1c55d08df706a105dce8d88c69c6fbfa77fe988ff47a3b908",
+        "bytes_sha256": "c8ceec7eea1d3a22ead0abbb3af739928e481cc632a619a23334e01b43f77964",
+        "semantic_sha256": "356bc2284e93ad6b6f155e9c7c44158b572e29fcefd3990f83a47f16dec96751",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gettyimages_domain-set_cc2dfb7613288072.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "97e5d0a9a6268aa4845b2defacdfc6b5477ee84f0fcfb8ff0291de8e1797dcdc",
+        "bytes_sha256": "fa908703bd9cf48181fa292aade5cf5d2a3cc9e614eb2055b246391283e39631",
+        "semantic_sha256": "c4c3bbb9ff0b14d65f03140af9580265c69ae231778b304c90450bbe58099ebb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gettyimages.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gettyimages.list"
+  ]
+}

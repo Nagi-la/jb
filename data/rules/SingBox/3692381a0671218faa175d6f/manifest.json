@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:24.268512+00:00",
+  "client": "SingBox",
+  "rule": "BeStore",
+  "rule_updated_at": "2026-07-26T07:22:56.092841+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BeStore_source_0aed9dc86fa1c660.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "949ebc844b60f02823f479227a1c17b37327307762711fe7eadd9506daea265a",
+        "bytes_sha256": "c3c4d78827a0194cf39b8e625074ad09da3a6f8d7644ebad15581e82d1ffe0d1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BeStore_source-srs_9414544bc0e40955.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cc67feb590e4be6048fb45517372de0d1797db0388c71dd5e5dc81bf8bb5686c",
+        "bytes_sha256": "025000e009182c68c54f825144a32d482378ded463937b02451a48b4761c833e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BeStore.list"
+  ]
+}

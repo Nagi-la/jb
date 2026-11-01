@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-09T16:03:20.955308+00:00",
+  "client": "SingBox",
+  "rule": "Tencent",
+  "rule_updated_at": "2026-10-09T15:58:46.335268+00:00",
+  "type_counts": {
+    "ip_cidr": 24,
+    "domain": 1,
+    "domain_suffix": 2745
+  },
+  "total_line_count": 2770,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Tencent_source_9f3a8e044fe7b52c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d6379350b1e9904a7e31fedbc15aa3eb1b0934cbf01f246155539a75e8124d6b",
+        "bytes_sha256": "cbaa7fad0e4c96f60507e37002dbaa83452406bcf81d8f03acab22f8b44ac5ae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Tencent_source-srs_50dea949fa68e7c7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bb860b41dfd58f4aa8803297bf2f6970f9dab018b5cadfa4f54d0a353a9edeb8",
+        "bytes_sha256": "08e2cd3c6f8129b8ddcde5d3866258bd5668ee296369ed0e54534e8dc5afe85e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:06.918299+00:00",
+  "client": "SingBox",
+  "rule": "AWS",
+  "rule_updated_at": "2026-08-24T02:19:43.826623+00:00",
+  "type_counts": {
+    "domain_suffix": 77
+  },
+  "total_line_count": 77,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AWS_source_16a235f17cd483dd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4e0129670ab26cc47d4ad83235373374923607e1822dd674e8d1f6828b39dfaf",
+        "bytes_sha256": "840cc0effcabe6186d290228a606fd4b91d1c47c3cb782fc8b72083bf72f523d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AWS_source-srs_cec44710ecec6621.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c61f232437340c12f00c10c3297bd476ecd9b759ef33f6848b09c2ed27a57d0f",
+        "bytes_sha256": "09ce44ba47ecc44d1e130980289ee215de8eae2110ec10318dfea430802beef6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

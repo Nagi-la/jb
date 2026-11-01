@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:01:38.287121+00:00",
+  "client": "QuantumultX",
+  "rule": "MicrosoftProxy",
+  "rule_updated_at": "2026-08-07T02:25:02.821258+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-KEYWORD": 3,
+    "HOST-SUFFIX": 80
+  },
+  "total_line_count": 84,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MicrosoftProxy_rules_68f5135d06edc324.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db6df8a8ebc0c9e5750020f820bf0fcc3e94152d3b99164ed5ad17e7471959c1",
+        "bytes_sha256": "92ee91a5324661418e34104540d1232187a33de4fe715e117efe1c419f8ae3b0",
+        "semantic_sha256": "3dfc0d3b335d19f9919ce225dcae60b8fbf8a1c8fe02cfd85b2c05b8e085b879",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+  ]
+}

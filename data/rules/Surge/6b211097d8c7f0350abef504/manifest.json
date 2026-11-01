@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:54.290201+00:00",
+  "client": "Surge",
+  "rule": "ABC",
+  "rule_updated_at": "2026-08-07T02:23:27.179216+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ABC_rules_38d12c9c2171d82a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "196d95fc35cda5ecaeb7ea3b7b136798d4ddcc8689f4ee0712cc88c0908622ea",
+        "bytes_sha256": "c5d622acfd1c5cfddbebd158a11768beb6f1ab0a542c28ae711d7acf439a15e9",
+        "semantic_sha256": "c035847da5794ea48ffb396d5d849c12c7a245c50da917e245ae0665c99ff4d1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ABC_domain-set_f4e0d1deec3971d2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c06732144a744ed9124ff2fa697380a66f4d3259039c9b2c86e588fb0b61e471",
+        "bytes_sha256": "c92fba1f316cc85c7e04eab3b57971f85ed2eace0c0f2c8c657d16722ebbd230",
+        "semantic_sha256": "3c62ca055198d476d23f50cb1ca168404b2c9259392ea033b32e6999c138e4e1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ABC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ABC.list"
+  ]
+}

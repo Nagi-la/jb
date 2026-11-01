@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:14.520138+00:00",
+  "client": "SingBox",
+  "rule": "WangXinKeJi",
+  "rule_updated_at": "2026-07-26T06:28:46.418726+00:00",
+  "type_counts": {
+    "domain_suffix": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WangXinKeJi_source_5a6ecb8b68d1afc7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8ccd4b601aa05e08c5e00efc5468ea2d421b464413d59c8d9874d658b5686d01",
+        "bytes_sha256": "91bd43fefa3a4da125a202b443f990f7fa461a840eb9603604ebbd094b7be012",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WangXinKeJi_source-srs_b7ebee83e668af70.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "547b95f2a94af1a326aa2abe45da30841275c4068baf1e352e70828bd1b2a192",
+        "bytes_sha256": "1b13a722cabad41f7a7ec1f5a3fdfacf1e4ee7cda2bfdf08143c9eb926f90c4f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WangXinKeJi.list"
+  ]
+}

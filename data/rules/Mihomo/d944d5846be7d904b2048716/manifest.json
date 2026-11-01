@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:17:03.103136+00:00",
+  "client": "Mihomo",
+  "rule": "CHT",
+  "rule_updated_at": "2026-07-26T06:48:45.267520+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13,
+    "DOMAIN": 1
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CHT_classical_8c946fcc022fabef.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c4909e33a67b4afcd688621cb8043ebd732e0d9f75595c23e8a18aa1bc20793",
+        "bytes_sha256": "dbfbd26e089677a0e9d8fcd82d106df53c405ff421be49f4a931f4dbdf4b3595",
+        "semantic_sha256": "487add72af5ae281947d8d95d4f4bea695ec208f96ee160cce1a080586fb01cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CHT_domain_fb05a772efa21963.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3cee21d09c3abe2524e60995dabeeb4ee2d56d7a1bc0d750b9cf63c6852c564a",
+        "bytes_sha256": "6a15f36907bbf2d6515b74828a7a48227703d2826015a9930246a44cefb32ac3",
+        "semantic_sha256": "ac83641212d8665ad367bdeeac16289b99e9e820f4e92417c332832c63ea041a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CHT_domain-mrs_5c402bdcb9340fd0.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe2ab0bc2f25160934d8a413d5e6970d134ca51b490a5cca415d3f23b6d4a9a5",
+        "bytes_sha256": "cc1d8fdc0e8d8dd02d2912ee12131f583ec65f6f25c0b7a8b5d9a112d2cdbe4f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/CHT.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/CHT.list"
+  ]
+}

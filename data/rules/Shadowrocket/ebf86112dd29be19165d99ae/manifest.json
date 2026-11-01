@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:17:38.971664+00:00",
+  "client": "Shadowrocket",
+  "rule": "Anker",
+  "rule_updated_at": "2026-07-26T08:30:29.428264+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anker_rules_49cd6ef2156175e2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79b491746ab1a492ba945a8954f014ec323f68aba86cf37671b6c06729a6505c",
+        "bytes_sha256": "690a850c41056e63df691bb94faea10594095e4f27099152d32a986ad652cc2f",
+        "semantic_sha256": "e0e3d8175be3f8a3ee36fbef3714f0f2b31da100c71a0dcb401e591874066665",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anker_domain-set_49f808edfc018856.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0af0766ac2ab563a2887ea178dc4dde37ddd9e1adcdce6abc325c0b427e40571",
+        "bytes_sha256": "f7cf11c2d4cfac5cee34e0922a3cca93eb25cf8dbd7bb316bd944d68e8ce10e5",
+        "semantic_sha256": "39d9f5d1c81d72f064560cc153287818c8f5d511fba0ca2fbcb2d1947a9acbd7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:12.228518+00:00",
+  "client": "QuantumultX",
+  "rule": "UnionPay",
+  "rule_updated_at": "2026-07-26T06:28:33.467698+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 53
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UnionPay_rules_4a68280a627ebb75.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a512d661c1797616325eabd49f3b373dcb5f2b90b7c53d5d1f50ed0ad72db10b",
+        "bytes_sha256": "a4a5afabea99ddb858b5955ab7f4e0297fecfdc2199f06b9a1ee1cd3a904d797",
+        "semantic_sha256": "9a4994e35ccfe7fd463152d94ed9cc8ee4207d1e1ace8098b8e18736d96727ef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UnionPay.list"
+  ]
+}

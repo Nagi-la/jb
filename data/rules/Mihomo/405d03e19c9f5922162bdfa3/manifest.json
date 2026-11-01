@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:06:24.079725+00:00",
+  "client": "Mihomo",
+  "rule": "BaiFenDian",
+  "rule_updated_at": "2026-07-26T06:47:26.853054+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BaiFenDian_classical_07cf01922961b331.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a5c3b08ce474c8301e2409224f3396715e75b23ed5d30d2201a85dc14eb0220f",
+        "bytes_sha256": "90d8a13e5c48fb4923a2fab3a358da50c509b701a1b87671ff539570ec5d5ea2",
+        "semantic_sha256": "96d34c19986edd547a99896ed0bb14e1ea01bfd7985e3fa0c03e4f603737c339",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BaiFenDian_domain_2aeb5829f563d8ec.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84613f87b48135dffd375ce117e673f42456b649cfe92cea5562bac835c892a6",
+        "bytes_sha256": "75af0def50c6146bcf509ee75e2746e10dc9618112c19789409a2bf40e362f81",
+        "semantic_sha256": "3a5d0540c54273bfe925c341988ccec0c1dcc49e95b9fa4a7ccbb9da85645f97",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BaiFenDian_domain-mrs_3b2d674617f28e1a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "072495f02a42911d73ab174f6dfb97a77d6bc9f9a9297cbad417b3ad8641fa7a",
+        "bytes_sha256": "5e3eee0a59666f597d5015f2f403895dc7cbd0790ce87c4900c769d188e2a0a3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiFenDian.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:40.989023+00:00",
+  "client": "Surge",
+  "rule": "Dewu",
+  "rule_updated_at": "2026-07-26T08:31:50.814850+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dewu_rules_dc3a9a1a95bb6f50.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf1a49af9a583e83991218372e6327c7378f7015875fe5cac1ef2ad49977ab63",
+        "bytes_sha256": "f6514e4d14747775c61a52fe2e384ad6134ef62987f681d9cfd48bd32e968a54",
+        "semantic_sha256": "9913ccbd526765d555d2b06db16883d0cf30675046cbb70778f0f1cae1987a8a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dewu_domain-set_e4315e068e7c3067.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "06a28914da473ed3eb569e182b15bbdcbf705a2d22ae4707ff97e7d438ce2beb",
+        "bytes_sha256": "02b959d19e59f158f36d3fff780532d20f24531b97447b0a6cbe8afd94eae2b4",
+        "semantic_sha256": "884a88b0e6e3e13711156823d7809628ac5e79853599b75ca1e935d87a72d660",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:50.916355+00:00",
+  "client": "Shadowrocket",
+  "rule": "Huffpost",
+  "rule_updated_at": "2026-07-26T06:21:49.632577+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Huffpost_rules_f054e94368070d16.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f90556f08b22619d3cc3ff2b99f307202512c3719e03e188e810b1caaf3f116",
+        "bytes_sha256": "b8395d6eb3c9959c0543469903fa62dd761b59ff4b3ee7fb3cb6191e62fb72b4",
+        "semantic_sha256": "b12d96fdbb262b08a01d116543c22c0316d06deb6748a3a4714752478cba8fd7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Huffpost_domain-set_354001cbbe20d0da.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "06831982e23556725dd8b3b3c33ca7dafe6192f4e5c9350e3a680f30c212bb3c",
+        "bytes_sha256": "eca3ecba0ea3deef09a8ba3f068d5d5a59797df498b6059959b95bc53f49823d",
+        "semantic_sha256": "46b9ec4ccf03c3db20c94d332b8ef472dad82f9ebbdc41047c085fa10988f203",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Huffpost.list"
+  ]
+}

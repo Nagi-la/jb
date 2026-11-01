@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:55:50.779079+00:00",
+  "client": "Stash",
+  "rule": "Protonmail",
+  "rule_updated_at": "2026-07-26T06:53:15.863337+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Protonmail_classical_86b6dbf33755a164.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2cd864ab60151758677bc52134b1103d0ee4fc7b25502a47c97ecb786150ea63",
+        "bytes_sha256": "a880e4d770cb782bfa6c4e23d3a9b1adc1e7b5183fdefe623c4e7592494bb8ff",
+        "semantic_sha256": "65d59114e93ef3fb196966bc6acadae2750adee5391ffe1ebd68cde01fb8cbb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Protonmail_domain_ab1892dd0b5810e1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a3d1041f2a89a0aba5b85822b3d9f4512414591abe63ef11021d575fe77a397",
+        "bytes_sha256": "45fbff8891c5edd3fcb15733ba3c32805f1820aca9010a12d9b65435a180d2ec",
+        "semantic_sha256": "3cfdc346da44d3355ca2d073eeabbaba3e0658c2dd4c7687127f68be29001cb0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Protonmail.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Protonmail.list"
+  ]
+}

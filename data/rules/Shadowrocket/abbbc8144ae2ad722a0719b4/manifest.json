@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:14:58.120933+00:00",
+  "client": "Shadowrocket",
+  "rule": "Pandora",
+  "rule_updated_at": "2026-07-26T06:22:21.939840+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pandora_rules_fabc8436f51f64a2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba9a23306dff987115023146b1e6a026990a49a013abb5fcfa6a0665e2516723",
+        "bytes_sha256": "daa066b743d1dd901db2c7dac5399088269dd6aaef6001e152b5d500349d51a7",
+        "semantic_sha256": "9f43b7ef7a95b3b3ad2f3f32a93c78bf7803764f6a1480ba3b61e5d0cc10b296",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pandora_domain-set_23576f1b0f60fadf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9870505f2a58acf04d059360e2fbb133ed6207a4b0484c728854ff609a6b286e",
+        "bytes_sha256": "1cc8f9abc87c7467d60acb0f702223e8f8a4f20b1d1d7d3f2a4587c5a646d56e",
+        "semantic_sha256": "a6078445fe87ae60cf79fda6f599f24e42df48e89a7558d0dd6b4b1cac7d9f2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pandora_rule-set_7e5ab3b0fc3dbefb.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5e50d302fcb52c6994f7ac14e42fec13d83ce9ae00291ec111a7d608bddf86d2",
+        "bytes_sha256": "4b5bd42fe3c90d89e7eb532c0b0cb1b998a052e755854bcb3bc25329d366e557",
+        "semantic_sha256": "4bde5079069f003976dd30bc723aa37dbafdbe8ed97e290c3be36ff872169a70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pandora.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Pandora.list"
+  ]
+}

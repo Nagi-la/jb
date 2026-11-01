@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:14:57.314370+00:00",
+  "client": "Egern",
+  "rule": "Pandora",
+  "rule_updated_at": "2026-07-26T06:22:22.005800+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2,
+    "user_agent_set": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pandora_rules_5d5ce1f6dd46fecd.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a8048664241e660d977fb34238c7d9d85d271039ed4664caa43efc26448b1dc",
+        "bytes_sha256": "8bfce944f1a20251773fb66fb04cf7c1e38cc5af7d455ffc226111406c0d5a55",
+        "semantic_sha256": "05ffa18696e9bb2d2ea6665836da4cba5e847d0be6d8dd9a4f791a22fbd06ce2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pandora.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Pandora.list"
+  ]
+}

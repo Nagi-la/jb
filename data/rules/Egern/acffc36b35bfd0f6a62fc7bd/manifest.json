@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:57:14.262331+00:00",
+  "client": "Egern",
+  "rule": "Pixnet",
+  "rule_updated_at": "2026-07-26T06:53:26.636514+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pixnet_rules_750bd76a3e1ffd95.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4fd2ca94cf42542071bd3d23612ebfc2db95bcfd2a1354a99b5bdd60b60e4e86",
+        "bytes_sha256": "a92544e483c27ebc942d1fd1416d791736feafa44e26daf50eb76eecb595f678",
+        "semantic_sha256": "fa4645238f63e6fbe3f5597e7cd6f587f471ef1ae0acdeb91f1d4bdf7d2f0d5e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixnet.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixnet.list"
+  ]
+}

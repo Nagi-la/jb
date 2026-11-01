@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T01:56:59.776930+00:00",
+  "client": "Surfboard",
+  "rule": "Xunlei",
+  "rule_updated_at": "2026-07-26T06:40:29.410458+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 35,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xunlei_rules_b421dfe1c12b9d24.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "90a321ba3927f0d1d00cac217025a87b0d3551626950590eec32b868037be496",
+        "bytes_sha256": "ad1b3dcd5c46d9a838bbf87dc1ea53f3314eb0a9ac083e662f53099d9e09164e",
+        "semantic_sha256": "160bf0fbea258f15cde923272b0bc58052f7f83990629078787f659038082b1a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xunlei_domain-set_9163db75fd376fc1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d38fd2fb947c17ea8b91e078d167d1b277e0e674d7c045249bca94fcf8785225",
+        "bytes_sha256": "c7847bace4f5a05c57cc52f8b9c8496abaf80b309a8b423bc44eb36b4c464730",
+        "semantic_sha256": "321d9a0c34332d7bcbc0cd55782a02adbce106987bfc913939959a777da3552e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xunlei_rule-set_d086fda56d61f5ed.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "776c1fa090030f8e0df6711ef9fb990d2fdfee3f12ae7cc3d3a942fd2ae3b11b",
+        "bytes_sha256": "9001531ad006705833dfbe308209305e2871f24c6193d199b2e448f018db81a3",
+        "semantic_sha256": "532cda42916e9cf0bd633500e66f680d21723c26577818b820d066e21bb2d19c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xunlei.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/XunLei.list"
+  ]
+}

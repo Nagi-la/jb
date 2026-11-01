@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:07.359307+00:00",
+  "client": "SingBox",
+  "rule": "AppleFirmware",
+  "rule_updated_at": "2026-07-26T07:01:43.395667+00:00",
+  "type_counts": {
+    "domain_suffix": 177,
+    "process_name": 1
+  },
+  "total_line_count": 178,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleFirmware_source_21484145053cd257.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "29a1ce02aeca2ee595c7f4f8cfcf4645f2cf91994cb9f2461f42db9e371c0b83",
+        "bytes_sha256": "3e862a22becdab92fc2c36350bb72e730b53c9f801d2e9aa7f3519403cbfac3b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleFirmware_source-srs_26ce2b66715c076d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ab5883b18141b37d2e38ad9b35e68b1ea70e4f5d30185c9156cc4dd39576d497",
+        "bytes_sha256": "2e520b81b43f7e8a7fc77dac57901aab8f5b99944c5f5584bc214c289386404a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleFirmware.list"
+  ]
+}

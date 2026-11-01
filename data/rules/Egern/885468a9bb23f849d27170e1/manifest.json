@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T03:14:43.186249+00:00",
+  "client": "Egern",
+  "rule": "WikiCN",
+  "rule_updated_at": "2026-10-29T02:37:38.611029+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WikiCN_rules_a415d8c18a1c0f1c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d97f40d78f487dc663b6e62715781e6dfd4eeeedbe20e654705d4acc41ad27b9",
+        "bytes_sha256": "86e1ef367467538cb9f0f0a771b7ca686ee149bb15afed2639cdf07983a5766a",
+        "semantic_sha256": "83cb9d4e15e86096f876b32629c08084b74f46c642aab946646a9b22d6269c88",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

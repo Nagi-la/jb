@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-10-29T03:16:40.872991+00:00",
+  "client": "SingBox",
+  "rule": "Lan",
+  "rule_updated_at": "2026-10-29T02:37:39.141782+00:00",
+  "type_counts": {
+    "domain": 18,
+    "domain_suffix": 124,
+    "ip_cidr": 32
+  },
+  "total_line_count": 174,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Lan_source_a6298f02ce37bead.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "41ec31976d20d42d52eb8bf7a6b2f638325f08b60c48f991afb97266ec0c45b1",
+        "bytes_sha256": "71356eddedba7b618c95dd37def65d66ff8a0bdcb5625cc5c3e0521850c904d2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Lan_source-srs_b2936f1b9da42a45.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dfdb115670ab1aa61f8260af3e6bc2f658b0ad49e23ab6d1f487d5a8a269f29d",
+        "bytes_sha256": "b17e5fe1c0f514d3ca8d8b8df80aba47de43b8a493b504c92559d59b070996d0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/LAN.yaml",
+    "https://ruleset.skk.moe/List/ip/lan.conf",
+    "https://ruleset.skk.moe/List/non_ip/lan.conf"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T03:24:29.660643+00:00",
+  "client": "Egern",
+  "rule": "MicrosoftDev",
+  "rule_updated_at": "2026-10-29T03:05:24.981430+00:00",
+  "type_counts": {
+    "domain_set": 18,
+    "domain_suffix_set": 58
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftDev_rules_66b1c7e6e2e4d023.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "67f671418e7e727ae26d73a42ca247bbe630d06a40de248b5ace0f87be83da8d",
+        "bytes_sha256": "a70aba5336cbf24916e296b533add58bfe6b59e54253950cc6dcf8edc261aa72",
+        "semantic_sha256": "918519238b9416c8c72d8986eaa3ca1026fa0db8910397661f88a18296b75381",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

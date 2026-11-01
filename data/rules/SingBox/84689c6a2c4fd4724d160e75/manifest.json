@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:55.606424+00:00",
+  "client": "SingBox",
+  "rule": "MeWatch",
+  "rule_updated_at": "2026-07-26T06:22:18.105349+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MeWatch_source_fb232cb5339b0624.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "88966024b2e939f10a581f54f7cf04153c0473ee2347ad6c75693f889c8aef35",
+        "bytes_sha256": "d38a681bbf23724ef906021b1d35d8cf38dd1ba203ef5d6e9d8f9bd0747ce5be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MeWatch_source-srs_97a4ce68db3ffda1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ea851552b64497cdd2422fa6417d037c0d4bc6f72a2131469374b80b26089c25",
+        "bytes_sha256": "c945a5baf61151fd39a43f8799ac16a3d94a4d2088c68a7374c26fa13568b1ea",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/MeWatch.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:00:31.961270+00:00",
+  "client": "Egern",
+  "rule": "Clubhouse",
+  "rule_updated_at": "2026-07-26T06:30:08.469973+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Clubhouse_rules_cadb7239cde6d9ec.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0be4c9446939ea9e728bf52c1b0becc6545b19e3fbb09a571c086106b8557fa2",
+        "bytes_sha256": "dcee0dd4d031a7d717ceb54a7fd87a182c9029c2b955ee7aad7faec2a3c79890",
+        "semantic_sha256": "f86eef699af969586043a38b0f8a5c3483fa12666e9b58a05c47000f5a44008a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "如果的你代理服务器不支持或没有开启 udp-relay，请不要使用本文件。",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse.list"
+  ]
+}

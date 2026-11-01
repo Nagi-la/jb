@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:18:36.799051+00:00",
+  "client": "Surge",
+  "rule": "PikPak",
+  "rule_updated_at": "2026-07-26T07:00:34.435341+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PikPak_rules_37b9ee8972d6d782.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "86bd6081f4845b146920faaf64c1192a96bdf4c74c5c25b192ff41037a3cb792",
+        "bytes_sha256": "995cd690a5d6cc6143a782f03a7ff34bc17ca555345405ea3db815a2d5160baf",
+        "semantic_sha256": "a41f72f5b9715e7f60d24bd2f3801458320083b65e51526c9d6469c7db3a9966",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PikPak_domain-set_58546ce1d8eed80d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0cd60723c3724319b1afed1443d63ac98d440e22f83390f0ca1aa2c799674973",
+        "bytes_sha256": "6bcb8f8411ef835a50be04c301c3020d2b7a81fa6d91dde01e9932a6e0c27fb3",
+        "semantic_sha256": "46f1301569b643f6411cd3e44b64d784f30811ca54810fbac6b1445fe9c2e3c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PikPak_rule-set_9f3a43c42c3b208b.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca9f37eddbbfa2349db8e842d11b9cfa8e1f198a45554991dcc2e6f9ab515663",
+        "bytes_sha256": "1ce738eec39bda91e487eb1293ba27bf25b2ff521ff1212e5404912f1b5f0fed",
+        "semantic_sha256": "eef08539290cb3e99cb1e2a03f8ec5de57e348255cbaf35de8b22a8a76ac9086",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/rule/QuantumultX/pikpak.list"
+  ]
+}

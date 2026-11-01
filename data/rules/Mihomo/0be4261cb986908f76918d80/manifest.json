@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:01:24.990301+00:00",
+  "client": "Mihomo",
+  "rule": "Jwplayer",
+  "rule_updated_at": "2026-07-26T06:50:47.812146+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jwplayer_classical_00e239ad191bbf1b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df40de0d47803f9f0eadd1349128e16d02d78fcd8d3f0309ea2b15a9dc064308",
+        "bytes_sha256": "db0210202e64b1c6013a6c27e50331c845f1793fc2338ca4e434b7d63a52545b",
+        "semantic_sha256": "26ef8c8f1ac99789edd820647302dbc165728d37ab795cdd8819abc9e52d2f0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jwplayer_domain_9547a24fe99c5ea6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8cd12eb26e0b8adcbbefae05d15808c956dd6d9803c2138d734702ddb589f70a",
+        "bytes_sha256": "4c14d858dc504f2aaaac7043ba28923753fd2d4aac806d22ce7cc111ad79d2a8",
+        "semantic_sha256": "b1edd4205981d4ef79e5eda402e1ed7d43ea7b97e6fe5dc6eabc18b2b51a7474",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Jwplayer_domain-mrs_ec0fa8c3147de6b5.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7ce169bb1156dfb73e2c382cda73514423d39dd8aa39361be28e76a464928681",
+        "bytes_sha256": "6a6048e2c79c513470f17186d464b3109656d9f6cfc109ae90d576ac4b8118f4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jwplayer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jwplayer.list"
+  ]
+}

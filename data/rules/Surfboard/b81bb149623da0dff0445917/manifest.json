@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:19.669255+00:00",
+  "client": "Surfboard",
+  "rule": "ZhongYuanYiShang",
+  "rule_updated_at": "2026-07-26T06:30:07.941289+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZhongYuanYiShang_rules_1e7456bcbf9e43ae.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66c907b85edd4127ca9bdeff00d4737f986edbbd49f4ade62e5694c2d7ed9a9b",
+        "bytes_sha256": "c8bb5f29ec9f9959c9913ee194eb691affcfe14984436c86982e8dd4cc6e3861",
+        "semantic_sha256": "c892fb488da794ab5b6a517c207560e7f03fe8f2fb76606bda28a3d32f915c65",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ZhongYuanYiShang_domain-set_f8d0121a7d3123e9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b3ca9ca759de9d7a781ab287a4bb629a9d9a9bf2fa4cf600cbcbd73cbd9d80e",
+        "bytes_sha256": "e1dab38db9338b880e284ebe00ab79069f11424eae7d2f3f3c61751544d9e002",
+        "semantic_sha256": "2d7a43b354fb1ea0715cbac1bf8c1003da21e53a0869ee5326c3c2590d3b324e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhongYuanYiShang.list"
+  ]
+}

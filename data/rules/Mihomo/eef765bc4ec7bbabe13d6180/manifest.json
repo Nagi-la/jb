@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:14:32.675690+00:00",
+  "client": "Mihomo",
+  "rule": "WIX",
+  "rule_updated_at": "2026-07-26T06:55:47.162851+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WIX_classical_df0d7ec304287729.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "240e12b77081335185c5b54927fb1fced8cc0f9d4a63b74fa883ab62bd9d3862",
+        "bytes_sha256": "2173d42dadfc338df9d8be4295ee5f0358f289d9ae5d8e8f36b2e90d76dcfd38",
+        "semantic_sha256": "d5c39ab261a946ab675305e4be71ad7eaf72afde53fbd77b8e5145510e74cd74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WIX_domain_7fec321a3662b472.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c357d1c3768ed275a39fd2acd32750b7510ebcdb6117a0fc9ce9a39b0bc7257",
+        "bytes_sha256": "ded3598f67655ee5d8e72aa4b3520ada9622a4bfe780431babeaaae5e6ca6d4e",
+        "semantic_sha256": "ddc67da0696d0c0c557d939c329b3ba63f25317f8bc9890440f61f751c4a6997",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WIX_domain-mrs_55914e63150b0009.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a09ebf4ac1fe4fc163e27794d8225fb6123383ee3679af1f8c6e72b9635efab9",
+        "bytes_sha256": "1ecea1099b681eadfd127ee94c005a9eaea94e93eea9a2a2700d0d608a30c68e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/WIX.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/WIX.list"
+  ]
+}

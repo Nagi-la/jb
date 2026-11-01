@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:38.122159+00:00",
+  "client": "Stash",
+  "rule": "Vercel",
+  "rule_updated_at": "2026-07-26T06:55:38.083410+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vercel_classical_4ead8ce42aadafcd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75c8a35b2e0bfb18615534a5f44c7ddb11e0f9dbf7ee9861f9c28d84539d1e57",
+        "bytes_sha256": "23588884421628fe22e5d57e3b0882e1d76814c9ab48f8cbd0278f541bb53bf9",
+        "semantic_sha256": "402f320feddd3d0c01259738e56ebba4692bb702721ce8ee45870136ebbbf496",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vercel_domain_24b810fb48e88c71.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47120fdb1a3db113231fec81a6ca65be718a5239ea41b71dabd9e917ce29e46d",
+        "bytes_sha256": "59b9031057b72b931ff355441e7f149ecd722e2132f663faed77c2f44acba03f",
+        "semantic_sha256": "8a92a0fa2fae3aea65bbaf6704a93aa2e525bc10fff6f9e4de9d0566a59ea7a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Vercel.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Vercel.list"
+  ]
+}

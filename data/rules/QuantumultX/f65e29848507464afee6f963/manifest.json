@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:49.479648+00:00",
+  "client": "QuantumultX",
+  "rule": "Intercom",
+  "rule_updated_at": "2026-07-26T06:56:31.690375+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Intercom_rules_9ef0d1f5217044d0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "417446171d02ce8c6d037bda747febdaa79148c4cfcef2a57d388544fa757b6d",
+        "bytes_sha256": "48797df74325368bf4756112a5aff86136476baf52f0c10da644729c3d163199",
+        "semantic_sha256": "6e5316e1439cc389ddd206c1f2eaf552548d16af6ed6865cd99072ecdc48b117",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intercom.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intercom.list"
+  ]
+}

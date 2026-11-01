@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:59:51.715961+00:00",
+  "client": "Mihomo",
+  "rule": "Dedao",
+  "rule_updated_at": "2026-08-19T01:59:39.099533+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dedao_classical_6df71e7b639ba495.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0f021f59909902afedb638409aec9b71111f014132ba51dcb711268f45cf13d7",
+        "bytes_sha256": "b2acf4b2359905cccf1ce71efa94e4e976842b7eff80ca752dafaf86b8dc3be3",
+        "semantic_sha256": "1278c36a24369aa5d10a4c88749a606da79c6863dd49f80007f8c4e53a979971",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dedao_domain_34af1457b55b7370.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a92adb86c4a129e24122bb8a83bbbd9191144aafa0720b28240a513df3e87f3f",
+        "bytes_sha256": "d850c04c4062b14281e13bd11111d5c299265264c7ca1207df69f688c3a09573",
+        "semantic_sha256": "318e86698703f55153fcf3baac7c8ce07a70910d1cd7f3537e4aa14fc6856e28",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Dedao_domain-mrs_d09ffb6d746c478a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9d6252bb66f2c0656e1a26ada0d189f1529eb8af1c2dabfc9e4a3c940a7dc28e",
+        "bytes_sha256": "86bfebcbbdf108850ea015d27f78912b1d98d6e5840b9932518788ee280aee19",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dedao.list"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:56:06.477964+00:00",
+  "client": "Mihomo",
+  "rule": "Kantv",
+  "rule_updated_at": "2026-07-26T06:22:17.201690+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kantv_classical_6f6c605f277cebd7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e32a58019ed521c8bd52cb6942af139820d68c62c0207e3769883074d1cfc47e",
+        "bytes_sha256": "93cd9eab0dc096e49bfd041244f60d7644b6f4c272fd11d341d595692349f3f0",
+        "semantic_sha256": "30df65a83baaf7a4b98441833a0a462983734c0c9f72394ee202c19e3b011ac5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kantv_domain_c94c326a05d3724a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bbc9fe3e212484cd165272614c5096567ddac8815864e03de7ea9dd45b43a34",
+        "bytes_sha256": "7f3e15f0d6eec58bf8c0cc3bb98e67316a0c1d5b53d6761258e5bf458b0d2800",
+        "semantic_sha256": "78ce9c1616af844116e26627a4e119c65c80d68167eadccc2158ddabec5dbdb1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Kantv_domain-mrs_b00d68f8d31dff50.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c2f112e5f4fe790d39f660a8f03120ae77f6cc777178f721afd0dcb66bc83c0f",
+        "bytes_sha256": "05c62ef398b1d1a2ec4f7f3a6958ea45081453a498696cfebf67d22a08ba3d43",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Kantv.list"
+  ]
+}

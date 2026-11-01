@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:01:06.986007+00:00",
+  "client": "Shadowrocket",
+  "rule": "Mailru",
+  "rule_updated_at": "2026-07-30T08:09:46.069863+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 252,
+    "DOMAIN": 48
+  },
+  "total_line_count": 300,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Mailru_rules_d24a7d1592245e68.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d705232623ea4ab4881d6584b2408e1062b2a0b380f08e3f62a67e8d24c2d750",
+        "bytes_sha256": "6ae12a139e51ba3787b8963de963bfdcc9535cdfb6a81e50af949175a8f12558",
+        "semantic_sha256": "29c6a2396bc25538e2a18cfd8be4bdc653d13175aa8e96bcd050fd1b777a6eec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Mailru_domain-set_2f5eec92bd3bc282.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "15cd98ba5a10d73d7fca47575849477be5d6d63e18303f56f2f08e23fc19d50e",
+        "bytes_sha256": "52007a4273768fb5649dd896acf5df7e61ff574cfc080d82390d601db5b8ceaf",
+        "semantic_sha256": "be7d69ce006fd35a1645e33b2b6f741d57bbcc85134b73d0edb76fb46ab186f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Mailru.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Mailru.list"
+  ]
+}

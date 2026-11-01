@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:54.380196+00:00",
+  "client": "Egern",
+  "rule": "Signal",
+  "rule_updated_at": "2026-07-26T08:21:31.361614+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Signal_rules_e7c25ba114ef3049.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "96ec38d721ce82a96fcfcd8da0f08c62e406ec8697c773aeb5bd3e23a50849d5",
+        "bytes_sha256": "e7442b43eea63647576d040af183457ed423c420adcda1f9712658e42831d70a",
+        "semantic_sha256": "798039ce4c30ee0f80bcf64f91d8f875c9009f1e5ac3e3990ea22555168f3a19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

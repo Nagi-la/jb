@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:17:19.793412+00:00",
+  "client": "QuantumultX",
+  "rule": "AFP",
+  "rule_updated_at": "2026-07-26T06:21:16.722452+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AFP_rules_4a81df536d5c4737.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45d5a76c14ad743b2865add51d4126a19bff2d5710dc663b0a5eae83bc6589e6",
+        "bytes_sha256": "c7d472df8818a6b9a10445a30965c4fc9d7f20b0e86b41a12b096c3b58372217",
+        "semantic_sha256": "16a9f422cecbd18368ded1f90f86ff959251206de2047cf0cf13fd786d53a7ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AFP.list"
+  ]
+}

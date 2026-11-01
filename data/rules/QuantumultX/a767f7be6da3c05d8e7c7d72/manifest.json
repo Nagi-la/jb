@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:15:47.385747+00:00",
+  "client": "QuantumultX",
+  "rule": "AcFun",
+  "rule_updated_at": "2026-07-26T06:23:47.951512+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 9,
+    "HOST": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AcFun_rules_95f6708090e93107.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d557eab25817637c85fbeaf85f6289012f745de5c82fcf3d980f51a3207988b",
+        "bytes_sha256": "b7e07deaf2dace0a204aab35357f91bbb5a0a7490a5879bc921b4b603b22258b",
+        "semantic_sha256": "de21d79ca21e4b24f9a884f6fd828b14d8295830a3eef485f1f0bffe1d6c89ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AcFun.list"
+  ]
+}

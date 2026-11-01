@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:19:14.680180+00:00",
+  "client": "QuantumultX",
+  "rule": "PrivateTracker",
+  "rule_updated_at": "2026-07-26T06:56:34.085063+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 3,
+    "HOST-SUFFIX": 119
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PrivateTracker_rules_9cce6b4948290cd8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f4e74c69e6fda8136721cf285f854fa1f2b4912a32b3a53213544f87785b076",
+        "bytes_sha256": "e865b66454469518253ae6278b5583c3fb87c2fb48614ab81e0c38cd17259151",
+        "semantic_sha256": "84667598971663ef5c8f47edb7c84395c37fcb1d2c7e0a33575774e81c840679",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
+  ]
+}

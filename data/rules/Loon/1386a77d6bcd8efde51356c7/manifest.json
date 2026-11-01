@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:48.403764+00:00",
+  "client": "Loon",
+  "rule": "iFlytek",
+  "rule_updated_at": "2026-07-26T06:30:04.652313+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 152
+  },
+  "total_line_count": 152,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iFlytek_rules_e171ad191fa29690.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07b3d4789ceb36dccdc6fca7dd3339b9966251ead3b2f55c724908742c325038",
+        "bytes_sha256": "7ef9cf037a228ba6f7484c69c8b69b5cffde82e82dabccdd978f10659edf6e66",
+        "semantic_sha256": "06db12ae7cbc3121f44d897859fbdbfc2be0e17decba74486eb722857506f7c5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/iFlytek_domain-set_fdf8c5c70497566e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "73ae06ccf19d521f76dc60ce8bcaad546ae6a158cfe3434186df6f8ac7b4ea62",
+        "bytes_sha256": "9d075185384e1f3081c5e6716a886aaeb1f2a8aaa16e7ad11bca17ecf0e67ce3",
+        "semantic_sha256": "0a49c8adf04118bff8b74e02bbcbbb11a28b6ed247c171e81a92fafb582ac49e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iflytek.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iFlytek.list"
+  ]
+}

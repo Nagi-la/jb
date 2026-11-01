@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:19:16.345920+00:00",
+  "client": "QuantumultX",
+  "rule": "PotatoChat",
+  "rule_updated_at": "2026-07-26T06:33:56.959003+00:00",
+  "type_counts": {
+    "IP-CIDR": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PotatoChat_rules_324a94e523110045.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a81ab28285fdc04d85010ea479cc51062c8adc64d1a7b92728f9c6c5859911f",
+        "bytes_sha256": "dab743086c4af5ae6376ad8ac300cfbdae5214d8582b7e4e182b9f40cf475ff7",
+        "semantic_sha256": "cd4491af4dae9c6dc2a5802453d2c5ae14198b20e56055982dd3e6022360f895",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/PotatoChat.list"
+  ]
+}

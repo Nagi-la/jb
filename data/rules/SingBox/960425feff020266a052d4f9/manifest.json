@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:27.703908+00:00",
+  "client": "SingBox",
+  "rule": "DianCeWangKe",
+  "rule_updated_at": "2026-07-26T06:24:32.863284+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DianCeWangKe_source_b7e008c1f1287c69.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6dd7c48953acc3bf1a381add5bb8242356248560524210db719318a0ea116d89",
+        "bytes_sha256": "2181fd5e76713917564579aae4d0e98214550d5a086a8295a26396e8ae88ecdd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DianCeWangKe_source-srs_78e6856d2c1b9c5c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "db3e7e743d03307a265a29240e062807f8039a0b794d2df9b29b85b5cdabf791",
+        "bytes_sha256": "3763584fd58dffc2d745260c4a5d3beeec0225b9f813a5a76a030d3ab301bd83",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DianCeWangKe.list"
+  ]
+}

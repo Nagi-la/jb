@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:57.999145+00:00",
+  "client": "Stash",
+  "rule": "YouTubeMusic",
+  "rule_updated_at": "2026-07-26T06:32:45.629237+00:00",
+  "type_counts": {
+    "DOMAIN": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouTubeMusic_classical_40446f6e1acd3a36.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "491f0f605c0da09ccd1f5620716c105ed0c234040fae139501b12947fe34b15b",
+        "bytes_sha256": "dd26d7cef397c31df4f94d712d8edcceaa96afc5b306241d84db3c5c54591a5e",
+        "semantic_sha256": "d70585f0ff317e2d6a6ebf7b6d74ba395de4d52691ddc2862ee504dcd0e286a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouTubeMusic_domain_1adbbb4944425825.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d35ab5d02747a4229b86a5c56ec42a25c4b8bd88c87e643ed02a767d2c1dcc41",
+        "bytes_sha256": "920e9f67a0622e459755896f7d7407400d99dd88d4c23035d3818ae59c186a6c",
+        "semantic_sha256": "4541308e44994feebc40ca05b7342533c1efcad6d240ca77d60d98ae54295c3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTubeMusic.list"
+  ]
+}

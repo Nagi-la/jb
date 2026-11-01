@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-16T14:52:38.056747+00:00",
+  "client": "Mihomo",
+  "rule": "KugouKuwo",
+  "rule_updated_at": "2026-07-26T06:26:29.893623+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31,
+    "IP-CIDR": 91
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KugouKuwo_classical_b7002f3397413f49.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ed1c8dc9331a0cc578c9b2f43781546a6df018de90fe6f8d029abde12d5d9a1",
+        "bytes_sha256": "8dcc890352e0fd5a2448f086fc3409083bf7d5caa30772c276c27e0c9fe89b8f",
+        "semantic_sha256": "5279c86eb34d1665f702aa769afe4ee05d47df560686ec8d6ee085d23bc5f336",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KugouKuwo_domain_373e8a632c488cd4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d4a71e3656f262cc6b8f8fa59ec8a09c1f5458d389d8aff4c4d61ddaac71ebe",
+        "bytes_sha256": "8e82c551a3f47a3b3670e8c4ed06ec689709556a0716e8fa3e4c4f8d666fce9f",
+        "semantic_sha256": "041e51f9b997fc3fbec2b5406870447dfbcbe75dd2ae2a01907aaa32fa1e3fc1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KugouKuwo_domain-mrs_7c0e710e4e47ddc9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4751235ff78ca6a1c4a0978f30f431b0d5e4501cb996403b3a47795f9a47c9f7",
+        "bytes_sha256": "dde71958373897848b7afec92769c864b5847d171cf553f625d396edf2d9c30e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KugouKuwo_ipcidr_77d28ce820529a9e.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "342bb5748a8b5157a0d1fff01d91330e2d4cdf2c54cc6e96b7e6fbe0193d0f3f",
+        "bytes_sha256": "da0b5a6bc456967a3b56c5f84c274ad4313a4184d0c050fc7a9ed0ba641ae13c",
+        "semantic_sha256": "be779e3393223a167e50cb64b188af6b0b65bc3efb8068b54a0588dd830e4c21",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KugouKuwo_ipcidr-mrs_d60f396813e2a98e.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bb4a880236e794583b5a27f8faf7098a01c4b395de581ed112e4e4ece08f381b",
+        "bytes_sha256": "98e398f1f5d8212b79f6027d1e8d2158c0c2d239fadb25c9443ab4252ba222ce",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Kugou%26Kuwo.list"
+  ]
+}

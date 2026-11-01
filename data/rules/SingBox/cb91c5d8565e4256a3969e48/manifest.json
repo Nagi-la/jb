@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:25.553742+00:00",
+  "client": "SingBox",
+  "rule": "KuaiDi100",
+  "rule_updated_at": "2026-07-26T06:26:13.460538+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KuaiDi100_source_32827b0932c367e8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a0c4d7af76c3e3288c1937e2b903d5bacadd9e6b690a57515bee2ec7614e711f",
+        "bytes_sha256": "f903c95c6c83926e4226a7f136c16b048979da7f4287549ae5d77bbae378466f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KuaiDi100_source-srs_dba7a89b60c8e87b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e0325a177df487cefa2b8963dec5a273540aefc332f6685a937ed72ef9425332",
+        "bytes_sha256": "5168052a1c0ae455cee2f5df7ca4ddd8291da5faca13cb2d8fabe09c84744b30",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiDi100.list"
+  ]
+}

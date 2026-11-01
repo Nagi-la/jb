@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:15:38.531215+00:00",
+  "client": "SingBox",
+  "rule": "Disney",
+  "rule_updated_at": "2026-08-07T02:23:05.552745+00:00",
+  "type_counts": {
+    "domain": 6,
+    "domain_suffix": 242,
+    "process_name": 2
+  },
+  "total_line_count": 250,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Disney_source_14dd9567e2663b23.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9a6dd95837e73284e28797d857ec0df17e7502c83fbd33853972d2847b20015f",
+        "bytes_sha256": "6699fbcd80a0bd63d7c85c0e33adf8af5f8a3da21ac63be78d43113a8afda457",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Disney_source-srs_f65053cf3ab13d01.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "88c4b021d7408cbfe3e389e094e47e9b2b5616035a14b8a68cb7716d0bc0df85",
+        "bytes_sha256": "bddf5dc75202079e2e5ce5aa18d4cea7135dc6b4e1e53e36015a4c6b8b2afe2a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Disney.list"
+  ]
+}

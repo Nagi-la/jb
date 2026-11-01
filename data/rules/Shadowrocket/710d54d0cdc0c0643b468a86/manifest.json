@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-29T03:30:00.820745+00:00",
+  "client": "Shadowrocket",
+  "rule": "Xbox",
+  "rule_updated_at": "2026-07-26T06:32:34.832900+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xbox_rules_bb818896cd565072.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f54a186dce7ca40420261e2cba337749e234a77c5dc2ababfefcf8d93f50b74",
+        "bytes_sha256": "27396942d57fc5431bc3c21ea30f46c8d9a9e96a84d09aaadcd3443386909b2a",
+        "semantic_sha256": "0705b3101c6fb9e55ecfbbcea3ce5eb6d32203c58503d1c5bafec643838f87b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Xbox_domain-set_e7dce520f9db8e41.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b62e79ce8e23adfc299630f2f626a22193981fa6196123b4d6beed4ffe674af",
+        "bytes_sha256": "bba3c57cbead896a7e8b58784082a3ace142e48cdff80021a72a3c62ad145694",
+        "semantic_sha256": "8140a46bdc5a32fcaf5cadeb4d8ec9b1bfeef41af807370c6d3d4e4e4694b3ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xbox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Xbox.list"
+  ]
+}

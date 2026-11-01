@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:20.146156+00:00",
+  "client": "SingBox",
+  "rule": "AFP",
+  "rule_updated_at": "2026-07-26T06:21:16.888511+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AFP_source_bed1496d4900879c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1e9e6ab7b69898525cc8e533c5c32cacb5c012af9646fa0f838cb6813050312c",
+        "bytes_sha256": "bbc5ddcb676f1a6950d4a6a6cae79de6d0080d267850e82334ff1c53df1eeba9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AFP_source-srs_fb1fee1eefc813d0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a35c8ec155f7af91eeee08ccb81ed75323a418de84374f5476b5c74c3651a8ab",
+        "bytes_sha256": "207fd6e3d3c30c9c390a7067639285f529c13cf4864f67035098ed6c3afa6c42",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AFP.list"
+  ]
+}

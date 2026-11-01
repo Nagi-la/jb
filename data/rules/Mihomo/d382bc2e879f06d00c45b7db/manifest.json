@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:03:39.957869+00:00",
+  "client": "Mihomo",
+  "rule": "Canva",
+  "rule_updated_at": "2026-07-26T08:22:43.371932+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Canva_classical_ab96c83c3044ad27.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4fdacd943f1f99ccaf9ea7fafd27acb2667585195d10451bcd6a49632b6d2454",
+        "bytes_sha256": "f9cfab1b44133009bee66ec9d7779681d39cafc1fcd64e17e87403f76660ed6e",
+        "semantic_sha256": "a5a6b66ead1b8325ff41280ffefb11107ffe06f0c466a60fe8f886d2223f372e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Canva_domain_a345fe932bb54e0f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6afe8814c84365f6ef626667379dea900684284e1634ae008f1c11c0bc307334",
+        "bytes_sha256": "117d2e0c767d770b7d0a53a25c0c2079f3b2d450def9034a349f1ec46b5bf532",
+        "semantic_sha256": "92a3481fce7c3ce9dde2821f4c1c94490f0c3e33597cbb1230d259528256bd9e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Canva_domain-mrs_99b39e7a7e8b7033.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "588bc135aa34cf3812c1bec8e3983110dbd4370737f3cd2034e0c46d765f3303",
+        "bytes_sha256": "739bf6e2f8799a9206d2a7bff533dfd247aba9694ab967c4840dd27855ad47a6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

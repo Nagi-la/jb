@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-08-27T01:56:34.739925+00:00",
+  "client": "Egern",
+  "rule": "Privacy",
+  "rule_updated_at": "2026-08-07T02:23:29.977127+00:00",
+  "type_counts": {
+    "domain_wildcard_set": 7,
+    "domain_set": 11,
+    "domain_suffix_set": 39863,
+    "domain_keyword_set": 2,
+    "ip_cidr_set": 9
+  },
+  "total_line_count": 39892,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_rules_739b30461c619f6f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "19be3706fb5f45360a1e632535af02d90771ee3a421bcfb02b1686e90aff4f6a",
+        "bytes_sha256": "e1cda7488920825ba07309c7120123104bceaf15a0c28e9a8686cb82c0c4c7d4",
+        "semantic_sha256": "3e448faf76fb41ee9ba8e101ba6bee093ba86fc5be3dfd0c4470508833b609cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf"
+  ]
+}

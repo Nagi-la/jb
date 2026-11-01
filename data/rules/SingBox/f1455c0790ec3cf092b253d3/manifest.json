@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T02:01:20.130473+00:00",
+  "client": "SingBox",
+  "rule": "Epic",
+  "rule_updated_at": "2026-08-07T02:23:06.609062+00:00",
+  "type_counts": {
+    "domain_keyword": 1,
+    "domain_suffix": 32
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Epic_source_39eb2d297648d4fc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7f0774b5411f95319e79d56ec57caf63df47b1d0dd6adf0216a0c74352eea688",
+        "bytes_sha256": "6213689e614972024ae1743ee0e674081841e042b36d0c44f4b83a2001789823",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Epic_source-srs_cdafadad4726d584.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d57a42ed1170c15558f3a3a98b2b875bd49e22a3b16d59cb9001444cdc3ca288",
+        "bytes_sha256": "d9f087ebb82d2582fdb212594fdc1818afbf4b8f5fbd4728cff624d81e64d1c4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Epicgames.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/Epic.list"
+  ]
+}

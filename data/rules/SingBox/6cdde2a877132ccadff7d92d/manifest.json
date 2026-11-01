@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:57.570866+00:00",
+  "client": "SingBox",
+  "rule": "Zendesk",
+  "rule_updated_at": "2026-07-26T06:56:29.132777+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Zendesk_source_de0ecbf5449ca253.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cb9ca9d355e8ee890205616162e9e1330f15a0ade95d17364d61ff6331a5bbf2",
+        "bytes_sha256": "aef71dd4800f44f5ffa6ded6fe9ac7631a9991e28fcf2045623db16de52e96c2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Zendesk_source-srs_671f5b202c394f57.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5d8a8d0815e986cff74014a875cfb59c1111d082dac863bb5c2d0056c3ae8b90",
+        "bytes_sha256": "ef5a0d520ea72fd1460707ef45f285624b016a72b437b4f4d5b7615b17360bb9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zendesk.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zendesk.list"
+  ]
+}

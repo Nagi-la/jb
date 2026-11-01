@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:11:49.846509+00:00",
+  "client": "Mihomo",
+  "rule": "AndroidDownload",
+  "rule_updated_at": "2026-07-26T08:24:29.313304+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AndroidDownload_classical_c8b31d6d9f7337b2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9957409e96315e4ecb2999cb241822dee9de6ad3eeb3fd81b6565140c7ba6b09",
+        "bytes_sha256": "81a3970d1157f0d18dfdb29ba6f1547bdd6f618483605ed7bbe415dcb1f65fa9",
+        "semantic_sha256": "bc61b145a648ebeafecfa77c752065c9482ff1f100a49ef37b44abfb7ac19f51",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AndroidDownload_domain_3271960a0e0fcb6a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4929b7fbe618fbbe544105be75ce616b6d34d1e833369e0945ba7818a5d10d2",
+        "bytes_sha256": "c6628f1d53d25868d86d4b859e50ae52cfcabc9c4e42560c8259f7da46734876",
+        "semantic_sha256": "f6bd57ef9530f465197ff16e7aaf8767be3944bed84f19a4e4c06904c3a24a77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AndroidDownload_domain-mrs_0de5caf7f071b01a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "281af7506ad011784a0298a5114bdaf6c7e72679c832895ae6d08812a8764086",
+        "bytes_sha256": "38ac6e9b90aaec504fccc1465e4e7987d80b102135441770d6d5223fbb1346db",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:10.372257+00:00",
+  "client": "SingBox",
+  "rule": "Identrust",
+  "rule_updated_at": "2026-07-26T06:50:28.211474+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Identrust_source_93e0745e7c2cfa75.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "245e9cad84dbb61a1d8c2adc250556d7873cbe2aaee287afc5ed248f761326b8",
+        "bytes_sha256": "267c4a5b4fafed92116a404c889f455e15fe4dba7e7c22578fbd17682846c1b8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Identrust_source-srs_27adcdfe98f4cf76.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "82822359cb79372325bfaa74f6ff94b50fa001521fa34e134fcfda94beda248f",
+        "bytes_sha256": "cb4de654648a843d18020461a5ddb7e96daf3161e066d23a49838a8bf76a3d3c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Identrust.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Identrust.list"
+  ]
+}

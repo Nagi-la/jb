@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T03:00:59.450445+00:00",
+  "client": "SingBox",
+  "rule": "AdGuard",
+  "rule_updated_at": "2026-08-27T01:43:40.947396+00:00",
+  "type_counts": {
+    "domain_suffix": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AdGuard_source_5dfe12350e831bc3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7c62797b876cfba44a5f89695745730db3727d8065daf8b377644e05d446a7cd",
+        "bytes_sha256": "539304305dd337fc41d7c4838b2f6e04d49f3997db11949b3f0f02460d556fb3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AdGuard_source-srs_893923a5f196b736.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "366eea44bb810a4e6217f653a3c63cb7758a9e2c7a06b908fd40c8e26886442b",
+        "bytes_sha256": "93b57d9e02740d82ab61b56ee8122ce7b4d4cab482c7a88d1f40df16dd3796e6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

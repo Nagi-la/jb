@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:38.848539+00:00",
+  "client": "Stash",
+  "rule": "ChineseAcademyOfSciences",
+  "rule_updated_at": "2026-07-26T06:48:12.976661+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_classical_36f2508f54bda870.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "827fe39dc04ccb182630948221627406df49179083902a339da674abd11ca19c",
+        "bytes_sha256": "d79525e5fad2e5e1fa7ff5ed701b112ebce4e985e8ae36aca617b059f49f51a3",
+        "semantic_sha256": "96f5ee8aa6e31fd932d2e372f4bc4125cc58fac9bb940c1e0afef389b267f743",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_domain_084ad003176717a7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1ac4c2906235188b2b57ec598247d3ef752a23c37cadefb3dcb86a13ed955ac2",
+        "bytes_sha256": "ec6063b57bc7de99db29d8a3ab195c7a07e7f4bb63abca2d129cd13c15103658",
+        "semantic_sha256": "371e0637b5596d4c0c1708c01b7a679c5abb5d7dbba4d092ccfda707640bbab8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CAS.list"
+  ]
+}

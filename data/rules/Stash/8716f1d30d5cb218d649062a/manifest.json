@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:59.946609+00:00",
+  "client": "Stash",
+  "rule": "Mogujie",
+  "rule_updated_at": "2026-07-26T06:27:17.694931+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Mogujie_classical_a46b96eb653fac18.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b9d0b5b73fde466a5e6054095702cffdfa2a17c6a29e37a135487493c45de82",
+        "bytes_sha256": "6984a499dd099148078db58455463bed338b0e255919ce4a484736aab94c0953",
+        "semantic_sha256": "9f55b946ba38762510d98805b056d4e2881f3953d5fd160069000f03575f7f59",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Mogujie_domain_0d01abb7105a051e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d3cf270285468a002ebfcf1ec83b98535187bef1d2c82a3872efffaa83932f9",
+        "bytes_sha256": "86acf32d473010771f627ce051acc22102d21c24b286aa746ce50afc3bcc4b0f",
+        "semantic_sha256": "115560cbcc0b5f7420aef90b0ca0902f90578617b30feb9d4265b10a3c6bafff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Mogujie.list"
+  ]
+}

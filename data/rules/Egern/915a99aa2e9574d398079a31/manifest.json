@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:14:15.873132+00:00",
+  "client": "Egern",
+  "rule": "CCB",
+  "rule_updated_at": "2026-07-26T06:23:17.410155+00:00",
+  "type_counts": {
+    "domain_suffix_set": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CCB_rules_91f9f8366feab3c8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4acb13920636b18064cee1ece6b7247eefd4553a9ae4cef55b4839ece31bde5e",
+        "bytes_sha256": "504925a62636852274829a30ac8dfa8df327207f8935e5a5cd59965d0693ed2e",
+        "semantic_sha256": "2676c56b4a309ac6a330752aff273c8aae74cd0a4ee09b4429b861a96afa6f38",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCB.list"
+  ]
+}

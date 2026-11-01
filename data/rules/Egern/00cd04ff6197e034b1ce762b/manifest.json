@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:00:03.886864+00:00",
+  "client": "Egern",
+  "rule": "Limelight",
+  "rule_updated_at": "2026-07-26T06:56:32.940902+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Limelight_rules_85ac3be9eabd9e33.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a36f08452d2a579e1b255d1c21dd29fcadcda9ca5146da151b141044448ba33",
+        "bytes_sha256": "71d33e12295ab7d6bd81dbf886a669739e3074ae3a7b4f92f4feb10aca6ee776",
+        "semantic_sha256": "92a85b16f726767f403805bc216a916e7fb1838227e5f720507a11df158c4ab9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Limelight.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Limelight.list"
+  ]
+}

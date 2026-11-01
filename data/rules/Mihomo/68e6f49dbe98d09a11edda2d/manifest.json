@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:57:05.286673+00:00",
+  "client": "Mihomo",
+  "rule": "VoIP",
+  "rule_updated_at": "2026-07-26T08:27:46.293474+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VoIP_classical_3b9e27e7a68ad544.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d609a46946afbd1fede61ff7be8da0d2c8491b91150d69ad89eaadbcbed9d150",
+        "bytes_sha256": "aa35ee98a31008e66be9f20c78fd577d2ac839be2e4db283490e69ad2031e89a",
+        "semantic_sha256": "a2f4c012543421f23383cbc82b86164142ba8ec02a52c28c029d22573226f36d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/VoIP_domain_737d7c91e25bfc3b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab66ab6cb46d3216f5724b1af9fc967cfd4e83edaf11eadfee04867339612e0a",
+        "bytes_sha256": "0c1bb1f2ab71092f6413a78c3ccd413b88f4a0765e2ffe3a07c1cbf81ade9bd4",
+        "semantic_sha256": "01a04b188abfbd31acd15e463a049546f49ab3dabf34faf5bce0d40460b525c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/VoIP_domain-mrs_a50b9dd7e60f0e49.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "224810b2b02803b57a6b001ee0484c5ecc9c28acfdf7b4293cd66f94d39290a8",
+        "bytes_sha256": "2622bb01a1260f1984bb3496b050e01cb242a6b06d096d8989c3d8bf5154f73a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

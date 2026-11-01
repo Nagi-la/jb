@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:04:12.534289+00:00",
+  "client": "SingBox",
+  "rule": "HuluUSA",
+  "rule_updated_at": "2026-07-26T06:30:26.666597+00:00",
+  "type_counts": {
+    "domain_suffix": 57,
+    "process_name": 1
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HuluUSA_source_eac7f156436d88ca.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8a2ce88eeec4ef96f437a0395912d3a85faedb436a58dfbdc6b09ddcaaeb81ee",
+        "bytes_sha256": "463623bf3c47b85c9346667e94843394f6ba15d6ad03a39529f8956ed87d48df",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HuluUSA_source-srs_af13693b2c011510.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "609ede5a459dd8746ba2b4c1735edac1ea391a45487dcaf3f5c20870688867bd",
+        "bytes_sha256": "a41e3c6324c59b1c48de7ddd1790177bb29a145279db729741bdbec536dac816",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

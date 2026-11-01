@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:34.201823+00:00",
+  "client": "SingBox",
+  "rule": "NYTimes",
+  "rule_updated_at": "2026-07-26T06:22:25.052304+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NYTimes_source_92dd018efd2e8828.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "de19f09998f23a625dfdbb673608ea0eb5636d01d35a62754b41fe4588e14994",
+        "bytes_sha256": "a2900a53119fb8f40224e38d582e737c7ca3a6a9aa6334d0d5325f39fe45df0d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NYTimes_source-srs_ed2da8e66eb7dbc2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9f5ba271c84d3dcaaa7115843b6eb875fbedb3d3cf9d900c965bc7f2bcc545f6",
+        "bytes_sha256": "362d9182fb14664112e780681d5ade9dccf0422d420cd29c2713f84548ed243f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYTimes.list"
+  ]
+}

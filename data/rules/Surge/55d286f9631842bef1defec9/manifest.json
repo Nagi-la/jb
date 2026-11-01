@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:18.092958+00:00",
+  "client": "Surge",
+  "rule": "OSChina",
+  "rule_updated_at": "2026-07-26T08:34:10.086856+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OSChina_rules_f7e74aa57306d364.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c0292611d7afcba1bd3995b91f26eb0b291cccf134ebf0bee40cf95ecf2c7901",
+        "bytes_sha256": "a90f7569b0559fae77709629f53ba012329f5c057e20cf0476393d2b90d7e536",
+        "semantic_sha256": "9f3922491dd599d9a01706ab39569dfa77c6fedd1615afc96e2a500d491ba29e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OSChina_domain-set_62e0ad69ce47fd45.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8974f7dca1fe2e6361537c4d8f6a3fbc1b0e286fd7e90261a728d28fc6e0a865",
+        "bytes_sha256": "1dd66705c2b67db5bf9e0124c0189b6517de6d18265637dd174230bf870dd3fc",
+        "semantic_sha256": "57551d7fe2679825c91b25df2bd89e8bdf8ae7cb04cdbe2b68a2485084908186",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

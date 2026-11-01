@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:22.767987+00:00",
+  "client": "Surfboard",
+  "rule": "BoXun",
+  "rule_updated_at": "2026-07-26T06:21:28.705525+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BoXun_rules_329dfee2f86eb4ef.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9a161b61f6161bd1adea81310d3905a3016305c6dc2b38cdf4c134ac5746998",
+        "bytes_sha256": "43a83fa94ae0f563fd4b845938f62731f32dc6eccde0cecec6eb3501bc4d41b8",
+        "semantic_sha256": "002e2ae3663c285f7e3aae31850cb1e34fa8a127f4952b5120c4b912772eb963",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BoXun_domain-set_3061fbfddccedd58.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31987e952e2dddf8dab83a2c5059bac326aec6788f55e9f443797c23c4d19d9f",
+        "bytes_sha256": "a681b2e4bb5b95319e18ce52a9cc30c78595a4a4857391f529bd9031ffe6fa1c",
+        "semantic_sha256": "1a86ce1b427867d0831d6be5440b4d75cae5f82ed915d5730a8864b4df5c0ad7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BoXun.list"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-08-27T01:59:46.380421+00:00",
+  "client": "Mihomo",
+  "rule": "ClubhouseIP",
+  "rule_updated_at": "2026-07-26T06:30:21.062861+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "IP-CIDR": 100
+  },
+  "total_line_count": 104,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ClubhouseIP_classical_f4281abcfb78ade8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "117106d917815f7db266512e23f6df555d5a8eb3e68b791b6c2e1d89b04398b7",
+        "bytes_sha256": "8f9f28919d8d3b5e1a3b3daaa1e83e238c24f5aba9668ae22010b533f088d96b",
+        "semantic_sha256": "fe60cc54b6c716be2542fc49fbbda414e3c6bac51d4c7b250c161cfc2b4d11e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ClubhouseIP_domain_6ac3fdfe676fedec.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb6a0ad36228bd6bd159a1f8bfab227641eb2024ee18513711e261afa70a9747",
+        "bytes_sha256": "f2c04cbfb8c2ebb934dfc167d0af98d6d632f7aa652d34281e3f580b21574ce9",
+        "semantic_sha256": "9f787d9435c9b56c0d504833e8f226f2b37adc692506c57c849ed8307af711b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ClubhouseIP_domain-mrs_f15c3def1203a9ef.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "81b4cc8f60840adb0fd857c50343bd77777fa90aa64cf3e9bbd4331f7ab4db1e",
+        "bytes_sha256": "8342fb239317ae4f86f95cf5cba4fcd7643134ba787d0b0afadc9b4648444adc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ClubhouseIP_ipcidr_f65cae80fd50b919.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48224ec0641a52d0406368d1cb1c8c862e418338c2c7fdfaf79da43b15434514",
+        "bytes_sha256": "40c1e250c2cb05b8122a23295f784074145cae2efb254be61410aad08ce9ae32",
+        "semantic_sha256": "949804d6f425a2e83093576c04821e7af709b91fd0b1c2f387208add6fa352d6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ClubhouseIP_ipcidr-mrs_759d0e85daa5e87b.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ed65f9ccf6fca755da311d4d0dd7c5e98f021e6aef679a1dd25c8a021881d9e5",
+        "bytes_sha256": "9e189f7383b504e08eb4f602a1a92502d868149ead91fa9f480cce548be8b92f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "需要与Clubhouse规则搭配使用，ClubhouseIP走直连，Clubhouse走代理。",
+  "providers": [
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse_IP.list"
+  ]
+}

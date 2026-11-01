@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:17.288971+00:00",
+  "client": "Stash",
+  "rule": "Quora",
+  "rule_updated_at": "2026-07-26T08:34:13.897896+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Quora_classical_529ba6eae737416b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a7b96332f5e31821708e5225ee12906d2b8734b86442a0469222a03e18402f7d",
+        "bytes_sha256": "f35bf23877b2532d9f090a73b6529162416d10d27c044be8d9d762bb403533a5",
+        "semantic_sha256": "7b4627655e59faa0da87f4287024e8008bad067f13c46a1ef09f284dfed422a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Quora_domain_4fe4848fa72ffd9e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0bc659eb0dd3cac241e831015660d21d5731537506cecaaafcf6a3c280c19cc2",
+        "bytes_sha256": "68392e61dbe3c08cdf8e2c3fdb337503ee1e5938fb644ec7a4cd554c45f2b7df",
+        "semantic_sha256": "7acc98c40a3dafa4a6b9fddb3f1148d1de024b68e015bb00f6fc6d419bcf5a16",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

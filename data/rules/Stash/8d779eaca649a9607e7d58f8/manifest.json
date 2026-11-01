@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:28.343340+00:00",
+  "client": "Stash",
+  "rule": "Riot",
+  "rule_updated_at": "2026-07-26T06:32:29.503173+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 54
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Riot_classical_b6b81b5668222c10.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d5efdd0e07262d0c2f4aef93ab89316aa42c993db31e56ed1f5d798a9bb2b0a",
+        "bytes_sha256": "528bb8c7ff19daaeb5f90cd619e745d5866541099bd20da9c3fef752ce9624fd",
+        "semantic_sha256": "296c62e84886c5008e178e8f7c304bb1260dd6cacbb27595a2f3d16bdaae6498",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Riot_domain_36ebeaedf84c82f0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee0a5a3870dce346e03183385970f57e15cdf6f0bb1008368431b9c76930cfb5",
+        "bytes_sha256": "ebdfc6d03c8a228cd212ae27afac4debad5d639c0dfbbb159c386a86c9b75741",
+        "semantic_sha256": "b84aa2f8295c501fd4ad4f4c736486bf21b7395a04a3094ea2fe549b288ee958",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Riot.list"
+  ]
+}

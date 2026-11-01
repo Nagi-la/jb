@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:09:11.170970+00:00",
+  "client": "SingBox",
+  "rule": "HanYi",
+  "rule_updated_at": "2026-07-26T06:25:18.923844+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 8
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HanYi_source_842cbe79956769de.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fe54975f38b9f8103fe27b050d423ef7cbf79e813d6f92eaca95c1053499e872",
+        "bytes_sha256": "87a5e9fd1613b4762ad4cd20f8c560e5f1a405d7bc5141daf6e768d01b6cb6c6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HanYi_source-srs_155d9cff82cb2a98.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c42039d662bfdd468757630b043128a07ef68e69646e5890d66a6832a1e82a7",
+        "bytes_sha256": "e015c020b4a638d07e93ca56339d846546e86b481a05237b52d591cc82d31557",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HanYi.list"
+  ]
+}

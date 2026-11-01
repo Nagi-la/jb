@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:34.867953+00:00",
+  "client": "Stash",
+  "rule": "Uber",
+  "rule_updated_at": "2026-07-26T08:34:43.201219+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Uber_classical_24cb714031d7f579.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95d62de6178b194083de8c4dee2c133fba1b89706b2b57197aaacce47a697142",
+        "bytes_sha256": "a0661c456de0275755e49a807f15945da5ee01b71458ae14f313012c35742f1a",
+        "semantic_sha256": "06a712e211d3ebc29f74754864984ef8b50e2d7f49277a11bdc291b4536f8c59",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Uber_domain_3dbea645e76556b3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f01b33d4d5811781ed6774a4dddcf856438b682f230d95003de1b7a8bd13538c",
+        "bytes_sha256": "cdb2d1dff9324be4264f5696dd07ccbbb164f81c591826ef6727a7fed28083c8",
+        "semantic_sha256": "50970e71af8fee66bc9b7f0c69205251d5685fe24b00d5207c9beb5fa6f4a90e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

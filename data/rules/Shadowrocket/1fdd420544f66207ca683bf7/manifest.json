@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:45.502298+00:00",
+  "client": "Shadowrocket",
+  "rule": "Funshion",
+  "rule_updated_at": "2026-07-26T06:25:06.396048+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Funshion_rules_a4e9bed5f99d7459.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3f488d6fae622559a2a131a05ad5d3682a87be8edef1f9e6d08ef37ce856500",
+        "bytes_sha256": "fedc77aed2f94dbc8bb37dc57b4566ef490fc5e6c47bf9b453c02065cc42647b",
+        "semantic_sha256": "6123e91414eedc9140d617809052a15a0c3d79d63350c151cd6aef251da01cf0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Funshion_domain-set_38e071014bd9c2fd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "decd11b99eb30b5c22e27a9e790d427d850df337950e9d6e4a484094d58d9768",
+        "bytes_sha256": "4557d9bba6451094aa8145d3d4c98c66e70da90953121a879971688b3975156c",
+        "semantic_sha256": "009850d0c49bc7dfa03e2454b388c7279683f2e435afb198c814a4f1648ddfe0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Funshion.list"
+  ]
+}

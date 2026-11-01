@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:58.883962+00:00",
+  "client": "SingBox",
+  "rule": "TencentLoLMobile",
+  "rule_updated_at": "2026-07-26T07:16:31.592968+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TencentLoLMobile_source_9d57a7bf9848619f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "80a6beaf049769aadab0ea43f27165e75bc783d55b051e2b84745c56ab7d9367",
+        "bytes_sha256": "ea305d9483166c4abec6a10bc0dbd151f88af623e666fbecc9673565777ea89d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TencentLoLMobile_source-srs_f90e5da5572e3738.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "de7e44d1c6ce4db764a36542c7b94d99d64c9fe35a2408ff1f2225d6e132e376",
+        "bytes_sha256": "3acddf5a1898a515f57fd8afb549a5405524d2144767a0f3d88b934a42dc952d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentLolm.list"
+  ]
+}

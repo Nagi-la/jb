@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:17.452063+00:00",
+  "client": "SingBox",
+  "rule": "QingTingFM",
+  "rule_updated_at": "2026-07-26T08:34:13.340608+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/QingTingFM_source_db46030a61f8c580.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "14b618be8bccd7e65883d1a7c774badd0fc7673588b2b018421abcec8ea3b429",
+        "bytes_sha256": "5575b16a2c27b1892dbe65caf10e4b2792d45b506448bc1baf3f60a2fdf139d3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/QingTingFM_source-srs_86c6bf0b331e4ab0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d332a9a4aeebd1737881677fd605e5e557997e300d4bef73a1be7a8627a63fb3",
+        "bytes_sha256": "68664e7c886a8353c7c7950587f681cb8e868bfae6b6e52d188d46cbfa1854c1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

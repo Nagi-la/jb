@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:15:49.621464+00:00",
+  "client": "QuantumultX",
+  "rule": "myTVSUPER",
+  "rule_updated_at": "2026-07-26T06:57:33.611019+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2,
+    "HOST-KEYWORD": 2,
+    "HOST": 2
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/myTVSUPER_rules_ee4999ce508ef45e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9bc2e94b31d4a8691b4ba002cfc7f1f6000eb877b0ad9541c66129d61984ab48",
+        "bytes_sha256": "2e4c97f49979c97e089fd38646bc05553113d752ee6a4b7260e54d6a00ef5533",
+        "semantic_sha256": "7cb76610d47cff61385a707d8e33a6de4682ec9a393fb45c09d01db7667d584c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MyTVSuper.list"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:14:07.527169+00:00",
+  "client": "QuantumultX",
+  "rule": "UC",
+  "rule_updated_at": "2026-07-26T06:28:29.156421+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 42
+  },
+  "total_line_count": 42,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UC_rules_2d496c3f76d00e52.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c3ef6e13c49fc4a4616b0e74803e76d26d0ec6d7471134f2f84bf1794a5529e4",
+        "bytes_sha256": "a80ea8607e70014350ce9c45c47bedc7b3d85e5c0b217b776cf2c26e12bfc762",
+        "semantic_sha256": "70a79a6d76d14619d1c220201fdc18cbf41302e8667f5d2368ee72bb1d60d4c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UC.list"
+  ]
+}

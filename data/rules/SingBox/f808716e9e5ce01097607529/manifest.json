@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:55.651059+00:00",
+  "client": "SingBox",
+  "rule": "LeJu",
+  "rule_updated_at": "2026-07-26T06:26:40.688476+00:00",
+  "type_counts": {
+    "domain_suffix": 23
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LeJu_source_a63097bbdefb7734.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "298d3a974e98406d1bbae0536b2688b393991ec66508a04b7fcf4f9f33067fcd",
+        "bytes_sha256": "38fd9b90854ed2044207515e926225c52a32d0431897299707577a5676efe4a0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LeJu_source-srs_6de4d27adfbb7a34.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "64c45db7101e8105a8417a1a4c3df0d491b5569df4e29f584d413ca156455809",
+        "bytes_sha256": "7fc393f88c034de614d9d8d78eb75579fa664b93694163431cf5e85a6e134d59",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeJu.list"
+  ]
+}

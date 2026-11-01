@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T02:37:22.912975+00:00",
+  "client": "Surge",
+  "rule": "AdGuardSDNSFilter",
+  "rule_updated_at": "2026-10-29T02:37:19.132890+00:00",
+  "type_counts": {
+    "DOMAIN": 181,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 185,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilter_rules_3c14e03259d1a62c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7346c5cdf3d064aef24c0a9c7eadc6d69edf5bb93e42f334c3f3b3ae520bbbf",
+        "bytes_sha256": "e0979fa757510e76c6ab08ee229d7c880cb97a81559e48b248b31a0bd2d6dd24",
+        "semantic_sha256": "1dfd1e0988124977eb8323e5cafe01019539722fa975c7841a7b8b7c7c200812",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilter_domain-set_ffdb02ca8a44da32.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5df85413804dd1d7e60c9cf3f813f32807b66b0aa5bc05589e925688c050377",
+        "bytes_sha256": "b3ab7f1f4f087905ba05605ab69ca046d6abb87f338addc4846bacd67e33fed6",
+        "semantic_sha256": "7bf510c6ea546e65d41aacc834d21f2925318324e52773591fac785502d298b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 规则！！\r\n\r\n建议搭配子目录下的Direct进行放行！！\r\n\r\n实验性规则！！谨慎评估后使用！！\r\n\r\n如有异常请反馈！！",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

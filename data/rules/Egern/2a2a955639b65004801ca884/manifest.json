@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:17:28.305293+00:00",
+  "client": "Egern",
+  "rule": "Naver",
+  "rule_updated_at": "2026-07-26T06:52:24.225921+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 52,
+    "ip_cidr6_set": 50,
+    "ip_cidr_set": 144,
+    "user_agent_set": 1
+  },
+  "total_line_count": 249,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Naver_rules_c8399bc0eb38e0a9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5d7e3f2521bb679e611fdb0fecd81d58b6d7c949d3ca7786f56566693e38d49",
+        "bytes_sha256": "bd130645f162c741207199bf61412d98d5c5c9e108cbcd7ba9eb24db51c80673",
+        "semantic_sha256": "1339be63262301ad40a306cc648437fdfc3bdd641aa05b074955eb3f51fb49dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Naver.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Naver.list"
+  ]
+}

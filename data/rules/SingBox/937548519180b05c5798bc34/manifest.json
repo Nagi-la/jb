@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:58.274043+00:00",
+  "client": "SingBox",
+  "rule": "Pandora",
+  "rule_updated_at": "2026-07-26T06:22:22.064198+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Pandora_source_58d908c8b5b968d4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "73445cf0e1778245ab1d8923ee21f215c97740770c3401f02dfd0dd9812b7b0c",
+        "bytes_sha256": "5d4e1eaf9683b14253370b9c5bc354b425bf0200f544ec535bbc3abe6d5a91ea",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Pandora_source-srs_add6079673a07f83.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8cb45bd739d0351524ca6e9edccf3be8fec1e0a20f80c3f451e30d6e5b8e2c0d",
+        "bytes_sha256": "d1dff28b54d6e2701ca7d33bf0ec032db2b14bd234e537f9b1b6cdf873754e40",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pandora.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Pandora.list"
+  ]
+}

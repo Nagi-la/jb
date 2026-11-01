@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:04.695659+00:00",
+  "client": "SingBox",
+  "rule": "GoogleEarth",
+  "rule_updated_at": "2026-07-26T07:13:44.942914+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GoogleEarth_source_659e650c19924e87.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1588a44761c8f7fa2d642cf791c9da3f580e314b151d81e425a3bc1c05d4b677",
+        "bytes_sha256": "dfd2fc7df1658ac82dfcf51f73bac1e82d8fea6dad14b04dd0622a7e511fa9ad",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GoogleEarth_source-srs_203c1bb3299bde6f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f9f5911ae8d656b49b6114eb4602055095a24800a389459bc9621739256168a1",
+        "bytes_sha256": "8eff091426ed817281c8e7849c9b32a65c3a6ec15b68c76f47f24f51627748aa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list"
+  ]
+}

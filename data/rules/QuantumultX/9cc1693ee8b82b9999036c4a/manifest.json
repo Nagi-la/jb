@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:58:35.690381+00:00",
+  "client": "QuantumultX",
+  "rule": "NGA",
+  "rule_updated_at": "2026-07-26T07:00:42.087705+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NGA_rules_14d2041d1b1d5d14.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "096c19c60f6c0865986a5121df5c212284edd68a3b171df9fbccdf7c5314901f",
+        "bytes_sha256": "1576a6343ac25c69a1fa639dae13a2c7a405eb2d16e44a271140a014259f1bb8",
+        "semantic_sha256": "7c153d62dfd13f1c57420a93fbee5aa82d4e2096ea7989fd4314668408ba5ac8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:05.140964+00:00",
+  "client": "SingBox",
+  "rule": "Limelight",
+  "rule_updated_at": "2026-07-26T06:56:32.765084+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Limelight_source_f7708d40aaa5ca00.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "84a5d51982b32a20554c9ae661f17975b3c6c090208f107836e8e470c6744de6",
+        "bytes_sha256": "caae61790616b968ba3f6fb68a9631e0ecf5295ede004c5fbbfac52eb4919c70",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Limelight_source-srs_f334eea9babf6722.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "26fde33a3a1b6a40df17dfbb220dbb432fae109ebb5838bc40667fbafa342205",
+        "bytes_sha256": "5b697c8febe8e5932cd584aa2d176e55734433a83bf61e8da7f2519536ed8416",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Limelight.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Limelight.list"
+  ]
+}

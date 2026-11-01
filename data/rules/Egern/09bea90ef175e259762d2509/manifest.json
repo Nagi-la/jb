@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:14:37.551552+00:00",
+  "client": "Egern",
+  "rule": "TigerFintech",
+  "rule_updated_at": "2026-08-18T02:21:57.517827+00:00",
+  "type_counts": {
+    "domain_suffix_set": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TigerFintech_rules_bb1f7255f40e197c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01e9396d9aa8e702a31bcf492842c6e992b7d32807dd4ceaa0631660aab19d69",
+        "bytes_sha256": "cf35d9466f1065d6bd56cf52b049111ce6c3d8f29466213ad2ff3f3456394097",
+        "semantic_sha256": "d44c8012505f0ae9e0ff7e1ad85ac495b9b5b96c96a8749893681fe6ca2dc879",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TigerFintech.list"
+  ]
+}

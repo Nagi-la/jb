@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:55.447466+00:00",
+  "client": "SingBox",
+  "rule": "HuYa",
+  "rule_updated_at": "2026-07-26T06:25:21.093731+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HuYa_source_dfac59229cafc739.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "57c686b7bc8364dc643dd25fa920b3ef47ac1772f130bc3f5b2bd2211cf34b4e",
+        "bytes_sha256": "ab23dcd6ac56c7dc45c1ef8066485ce2945f304944329b6c7a7e48db57dcf2dd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HuYa_source-srs_e303eb0adce5ec25.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ee4be9e707dfbd5f5fe2b7fd93a4e8135dd660073a0ab410e4b33520ee85d44c",
+        "bytes_sha256": "2f2f82ec2f9a1e3ec2ddb88bd460a931d8699295db6cdbbea2cf56aaceb31375",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuYa.list"
+  ]
+}

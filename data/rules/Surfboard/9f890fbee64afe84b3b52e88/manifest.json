@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T01:57:40.159435+00:00",
+  "client": "Surfboard",
+  "rule": "Cloudflare",
+  "rule_updated_at": "2026-08-07T02:23:04.883993+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 77,
+    "IP-CIDR": 15,
+    "IP-CIDR6": 7
+  },
+  "total_line_count": 99,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Cloudflare_rules_0b5a777a5d47686a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3454e7354f05c13abe6befc64f020698cb70005adb2fa3cecbbf0abfd8b88672",
+        "bytes_sha256": "d8e087c6c26c80e8305d065f3e2e21fdfa0969fe2d7ad4ed69bf11575503ea48",
+        "semantic_sha256": "a53851db10679e1d6184257e484ec2de5ca36557dc50f07d62d8ebdc7dae7d30",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Cloudflare_domain-set_52350823a2fe907c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5e3bef1985d00648c09863be29c3c2d6afb3abed8948848627423b6a80b6933",
+        "bytes_sha256": "f3a34b0291dd0c116cd119a874fdaf5da3eb00317bd1e4e4d44288e81156417e",
+        "semantic_sha256": "2dc675e15ec45d80a141b051de421d0499baad1db78758fb89da3413a641ad75",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Cloudflare_rule-set_9beb311988698bd7.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7b80abc6d81709346f87e97be5d751a3d29aed6a4f7e1793c550d195457c2378",
+        "bytes_sha256": "3ca82553871fe4eba9bdba8e849d412e4e1a5869d2cd9dde992161a9bd79a47d",
+        "semantic_sha256": "7ee75c090be3834684b97647da780ed4046724d2bf2cdd9b7ed9f99d307ec054",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cloudflare.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cloudflare.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Cloudflare.list"
+  ]
+}

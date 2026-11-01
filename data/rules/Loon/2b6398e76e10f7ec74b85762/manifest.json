@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:48.842484+00:00",
+  "client": "Loon",
+  "rule": "Domob",
+  "rule_updated_at": "2026-07-26T06:24:43.854285+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Domob_rules_46c08bc7d54acda9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a74abd90f3afeb5071ffcb07dfcdffe53ac271444d4a6cb046dfc93670356dd9",
+        "bytes_sha256": "2d4fa1d99a29dc063d3e4dc59a3daa47de3ec1cae571c8f3125bb08b30e5474c",
+        "semantic_sha256": "64efbbfa0aeee7d9137ce6974b7fd4e22862726b51058d3a4258fe85fe6e101b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Domob_domain-set_ab3ad463b0169bbb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d731b12397ad91451084c9ff01ec1304bd45d96b0e93b60e0781900b4d76e2b1",
+        "bytes_sha256": "2216a1136f42c59f82670727d89c6c1092df87bdee8714e42df6506d83cd0eb4",
+        "semantic_sha256": "af8739e3c88b8407a2a9808a4b55d890c9b9ad626c6f9b85b553c9c99e4f833d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Domob.list"
+  ]
+}

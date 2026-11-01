@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:13:34.952492+00:00",
+  "client": "Egern",
+  "rule": "ATT",
+  "rule_updated_at": "2026-08-07T02:23:07.741301+00:00",
+  "type_counts": {
+    "domain_suffix_set": 135
+  },
+  "total_line_count": 135,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ATT_rules_b03022c74ee55cf8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff39df70e3cfa93f0ac033b39c4e6984d6e6b72e7694265002e8098cb02b7e15",
+        "bytes_sha256": "1282edf0eb705e0745f1d3e73d0a0cdcdcd5d2b9bdc46c7bf367b8b20654a98d",
+        "semantic_sha256": "9381b87695490d592703d0a84d7d45446983b7dc53d404deedd522479467ea68",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:08:17.917133+00:00",
+  "client": "SingBox",
+  "rule": "GlobalSign",
+  "rule_updated_at": "2026-07-26T06:29:28.333359+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 19
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GlobalSign_source_2ca728f9041b17db.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b94a86692e3d9bc89f27b1f971c777a11ec7f19c886ef727d25eff3a055736e3",
+        "bytes_sha256": "b33371408a67b8806a7a5d1e420fa1cfe2583104c90d8c4029b4429e30e1abbc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GlobalSign_source-srs_8a79197045a167d2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eb1d8c40cba62ca878eafc042f52cfc9b834da2bf92c935be21b842869eadd28",
+        "bytes_sha256": "6ffda2dad78bd7f7d83e1a890f313e7b724f132a7cdcb2ec9296b04f2c384e2d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Globalsign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Globalsign.list"
+  ]
+}

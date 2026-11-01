@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:06.178419+00:00",
+  "client": "SingBox",
+  "rule": "eBay",
+  "rule_updated_at": "2026-07-26T06:56:52.746625+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 369
+  },
+  "total_line_count": 370,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/eBay_source_f5ea1a3e33fd8457.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1b77baed0649de49ef36280d277898592a3d9e926e1200e705286318d7c5165f",
+        "bytes_sha256": "c150240eccfce6a3de2291e926557e5757ad030fe907131e01cd863ec7debd64",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/eBay_source-srs_73707c6bf560aebb.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6b3060bde630346227faa4e15b7ba6193d0cbf578c46acb1b75f7310629d6990",
+        "bytes_sha256": "0ab7da68e2607627b11a73b3b860e16eea2fae99bb188511e32b964d5d0cf3f1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/eBay.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/eBay.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:58:18.004259+00:00",
+  "client": "SingBox",
+  "rule": "BitAuto",
+  "rule_updated_at": "2026-07-26T08:31:19.793530+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BitAuto_source_15a5c6ca49b2f16b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "733e1b0077b88007e97b56caadb1ff4464b74d0cc374f0a2f27940262b389cc8",
+        "bytes_sha256": "05af6106fc7beb3f7ce1fd6d39cd4b3a9a628e09af32174effc47e43902ce695",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BitAuto_source-srs_2447d02459c76084.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c38f2facd2e242dc96ac566774b99431a1fab8c2a57859257b868e6bcaca2546",
+        "bytes_sha256": "5d8f532defd6bea75bc2122ee613b6299d81d7561cbd6b0206419d60580120b7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

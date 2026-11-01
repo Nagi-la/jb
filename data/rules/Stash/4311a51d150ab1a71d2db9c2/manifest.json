@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:09:15.850302+00:00",
+  "client": "Stash",
+  "rule": "AmazonCloud",
+  "rule_updated_at": "2026-07-26T07:18:51.125100+00:00",
+  "type_counts": {
+    "IP-CIDR6": 1265,
+    "IP-CIDR": 3892
+  },
+  "total_line_count": 5157,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AmazonCloud_classical_522c27c2e18efc91.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d45ccc6a17e2fce1d4a450c467fd77a047f96221898b037f75c644f13da012e",
+        "bytes_sha256": "801450c3a485efe5655e56e10d2729d74236472de190088cd0c3bad6ce503ca9",
+        "semantic_sha256": "74502fa697ff0c9a7cbf5454a060abaff5aa9f036b36eb76a21b4e2f28007db2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AmazonCloud_ipcidr_e173de415f18fb19.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2468cfe2ecb98e88c2ead557de271d3fc16bcc547c175eab230ce883d7bb267",
+        "bytes_sha256": "f7ab9a08095fdf9e8bb0d22eab2faf446142a411d16a440d34e8f51fb9022efe",
+        "semantic_sha256": "b2ad4c32f8297a27f207e2be895ca10e25a0b9770364681ba32fae976e4bad69",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/Amazon.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:20.636818+00:00",
+  "client": "Stash",
+  "rule": "WBGames",
+  "rule_updated_at": "2026-07-26T08:34:53.185055+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WBGames_classical_21391254a6f3f81f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2175e2377681ffceb2ca9e99f907b79e14d03196674ba482b10ae5836b4ea17d",
+        "bytes_sha256": "459c196f98969374bb9fbe6186a5e8fd529d355dbf0e21e38c9842911672c0f4",
+        "semantic_sha256": "f72c5db2331baca5f82a405b3662377dbcfc5f3482436905321f46147f0fdac4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WBGames_domain_260bd830a65dde42.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07da8e32802796c1620dfa86ae5baceef158af77f6eb84dfed0257a9813ef2c5",
+        "bytes_sha256": "ba7b284116bcbe0c92558db191632528e4e39489fc7970aa6ca89562c8401d25",
+        "semantic_sha256": "f5eb5e4a49a7d12e05327227307fe757342428e67151c661718c0844c1b52844",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

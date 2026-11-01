@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:00:30.139579+00:00",
+  "client": "Egern",
+  "rule": "EncoreTVB",
+  "rule_updated_at": "2026-07-26T06:21:43.471269+00:00",
+  "type_counts": {
+    "domain_set": 4,
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EncoreTVB_rules_fd384bd998123a08.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1293daef8c9dc63c41dfc00c0fc41eec5c1e68ab4bd6661fcd374bb7b38031c2",
+        "bytes_sha256": "7a1d7a70345fc37c916edaa62c5cba7908270d07e296207a49412b79e536e19a",
+        "semantic_sha256": "c80b1bececbb1ac57a51eff7cbfc95fb6934f8dc723b9c33f58b85f7389aa281",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/EncoreTVB.list"
+  ]
+}

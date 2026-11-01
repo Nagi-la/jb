@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T02:50:37.420288+00:00",
+  "client": "Surge",
+  "rule": "ChinaGame",
+  "rule_updated_at": "2026-07-26T07:50:05.246618+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 279
+  },
+  "total_line_count": 281,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaGame_rules_f2b2794467b8111e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba9299936ae7d9ba3c371c749a0afd18f37605912a6fe193f30de9bc43165739",
+        "bytes_sha256": "60ac58b991222a8e4e13496a9fdaf805f67469fb52fbd2ef34a1f027513758be",
+        "semantic_sha256": "e1f76c48f9499c99cb81005132384e7435b3088e6437b425b4d4dafd283a8313",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChinaGame_domain-set_b696327fd8173e4c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b4092b160ecf08be92fb4af9152666c61d6c9f7be3a11e1684d4126e2f346c82",
+        "bytes_sha256": "77138fbe0e6c879a5c48699646b383c387a8ae5f77f3e7c33c2ca9e8c90b060d",
+        "semantic_sha256": "c5d135f2bdae1737de42fd4c9d613d0e346475b64aea91d9de802238844d7003",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

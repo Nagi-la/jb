@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:11:08.498622+00:00",
+  "client": "SingBox",
+  "rule": "ViuTV",
+  "rule_updated_at": "2026-07-26T06:23:01.721188+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_suffix": 8,
+    "process_name": 3
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ViuTV_source_9da0878da556b870.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0fdce9623252b4fa1a573ab8859c20da8b4ec99e9f9fc101554f4a622dad3e87",
+        "bytes_sha256": "6ef56188836ee5543ad723b928910cb9e6e82a942c59dc0e502502c19cf3d397",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ViuTV_source-srs_a68eaf3edc01f6b2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e0db404c162299308921fe274937cd67c1be4af60a8359aeec7519c311cdd4b5",
+        "bytes_sha256": "e8629a71bba2da31246bf13ea25f21dc08a6725a1f1c1bdc4f6ae2ae0c14c803",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ViuTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ViuTV.list"
+  ]
+}

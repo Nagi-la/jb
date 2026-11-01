@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-27T02:03:53.815079+00:00",
+  "client": "Stash",
+  "rule": "Adobe",
+  "rule_updated_at": "2026-07-26T06:21:41.203487+00:00",
+  "type_counts": {
+    "DOMAIN": 136,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 140
+  },
+  "total_line_count": 277,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Adobe_classical_a0d312fce7d8e162.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e43b1d5884823057edb05736c0eb3fe7b33c5b7923d45e40c73afae940a7d7e",
+        "bytes_sha256": "cff677e5b662b7edc07309e20142d281b187fa94f99bc2cf06a6838ad4e9f30d",
+        "semantic_sha256": "e53da9f35312bb6ce7755b06dce7146da5c321cd719557bea0bc1a4c45d9e145",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Adobe_domain_c1cd344cac0020e4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8dc198d6015444c0b73d41953e7a95b954730c01604728f92dab5d02d47204b5",
+        "bytes_sha256": "5c90046f96acf5ad7391c1c974a20fab40381d5f0881da9f4536a1d62f9d1170",
+        "semantic_sha256": "9c0c407d35aa10aa338a46d1e277527f896182ba85390efd6ccbc81ee17d4797",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Adobe_classical-rest_10ebd09615e5a787.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "12515c6477b093b437e63922e59d4f6d7f7a101592c2c0af3807cfb73009b98c",
+        "bytes_sha256": "5d34fc82d3dd3cf3b15da2e2c58289c57ea060f0ec879fd3d24af618475f5ef9",
+        "semantic_sha256": "7bafe76eb0d0320e03d382986a485d369bba72decada257b8d722760c6c257ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Adobe.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Adobe.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adobe.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adobe.list"
+  ]
+}

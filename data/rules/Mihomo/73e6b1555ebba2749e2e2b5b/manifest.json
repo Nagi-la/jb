@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:05:50.868122+00:00",
+  "client": "Mihomo",
+  "rule": "Vancl",
+  "rule_updated_at": "2026-07-26T06:28:39.676361+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vancl_classical_b4ee49a8d02012ce.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "86484d5ceefb5520358f6bcf140f9e07fa0e53e3929aff9d6004a2a03a679b90",
+        "bytes_sha256": "dff4da918390217c7be94fd4ac6af1d5b1389c78e8f453fde9aabb59621e02e5",
+        "semantic_sha256": "37cf4e01d0aa78b57d17469bc7af311069a465b95014d283bba02e207ace8444",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vancl_domain_7f428b634067aa46.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd557048e9f5a121fb917cf0f6f1554e195ad65edd43d194d1e3748d51656ce9",
+        "bytes_sha256": "5f5e612a4b8a9e24cdb4e127210e23d64eeb2bfcae9a45df7441c6642a0969c9",
+        "semantic_sha256": "754faf5dbab26e623012e05f7c75ed6a8f3649d2315b6b1a99d14da0a1a72c83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Vancl_domain-mrs_4760fdd87f3d4a5c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5ddd76f5e172813de6ed949a3ad901ce88bf31f040c733e2816a777af5058bb7",
+        "bytes_sha256": "f0bc727c22e00470b95facb9cf35676858dddf1343a9f16cbfc82819f9afcdfe",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Vancl.list"
+  ]
+}

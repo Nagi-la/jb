@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:58:18.266554+00:00",
+  "client": "Stash",
+  "rule": "BitAuto",
+  "rule_updated_at": "2026-07-26T08:31:19.942063+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BitAuto_classical_a562c092a3267a4a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccc8922380523082c9ecfa456162987963c4bec149031b49181e1fbd9c45d005",
+        "bytes_sha256": "3a2ce4d7bb7429b7bba1efb1f0a554eb7ad142a1af4929b8b7fc54ae270d2f3e",
+        "semantic_sha256": "2d74b8f84fac10745839ec97ba44e981c6b10af79ac8873bcc187f663faf812f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BitAuto_domain_9fecbf40101d05b0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a503c016959637f6ea921609814485b74668bf111aeced134ee6e1d4ce9cf5f5",
+        "bytes_sha256": "1af0181f1874b79c086ef4ec04e55e24ab135a99965134ba7a2d74a779c8cfae",
+        "semantic_sha256": "c51297faf609ddf706ba6363904cfad26402ce64deaa73a0e35b66dacb186366",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

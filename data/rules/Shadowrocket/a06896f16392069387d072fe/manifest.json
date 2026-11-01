@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:11:02.820731+00:00",
+  "client": "Shadowrocket",
+  "rule": "Adidas",
+  "rule_updated_at": "2026-07-26T06:30:31.495554+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 90
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Adidas_rules_3a1d5a42bae7fcaf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "22883ebd1849ee8bdcca63ff004878527637e5fce70cc4707c818ff944634383",
+        "bytes_sha256": "c9d1c2ae9ae1e813cae31cd9d2213ac1ed061a1b9e04a6fa99f28c8642c5359f",
+        "semantic_sha256": "027e2cbe3e09b943afb636d3224c97c8076571410458a79913e40cc0071b55c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Adidas_domain-set_31fbcb75c8da5ebd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "16759f575f15fb7a50d4be9cf01ede89a7e85acd63935213f5286d84a6bd80d5",
+        "bytes_sha256": "7a44d1b0e13a1742b78bc5bb004ac43a9aad52ae5148162573719288907e2a27",
+        "semantic_sha256": "3efdfc835ef1097ee14eeb0151d20c3985586628948097740e506764dc287e9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adidas.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adidas.list"
+  ]
+}

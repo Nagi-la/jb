@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:09.484643+00:00",
+  "client": "Surge",
+  "rule": "Rarbg",
+  "rule_updated_at": "2026-07-26T06:53:47.045535+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rarbg_rules_239d328929a92a9e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c44953746e5af4dc8b44b81e1eb6f6a967be0714d71c88ae12b661fded49ae3a",
+        "bytes_sha256": "0148fbc3a750b47eaa4fa7069fbb6081f7a5b341ab35ca3d724f839a12b79ea9",
+        "semantic_sha256": "cca326e84db1a1c7177e7afec359187136be448310815dc90bdfd98cb1d6b7d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Rarbg_domain-set_6236aa2ef45804a9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d42926bd98eee3db0b4c01552f71280c9adb4c8b501ff978f3d85b8c04534527",
+        "bytes_sha256": "0fea32ce23dadadd915a2688c1d695f65a9b2f6373bcb9f61c0a4d9ed31f285d",
+        "semantic_sha256": "e1cc63c8554ad3be804f126eb6999d378b4d377a219e323e790c677c342e3adc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rarbg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rarbg.list"
+  ]
+}

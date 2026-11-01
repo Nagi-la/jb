@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:04:37.848564+00:00",
+  "client": "Loon",
+  "rule": "CBS",
+  "rule_updated_at": "2026-07-26T06:21:31.680317+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 34,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CBS_rules_91a91467627f8afa.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89ceedac3e262ec9902f59c535a95cc035d855849ea54594e7297b7137cfc7c0",
+        "bytes_sha256": "b1d1f73bdc8b99a78a55c06bce8ff0d8b5cdd23455d946f09b4efe102fec087b",
+        "semantic_sha256": "332ffdc61493816b9a0022d6c1245e42243697746ceaa70112aef9d9394bb5b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CBS_domain-set_12774c7f7e010e29.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0409e95fba9eaffd14cb39204f3426b5d309a6f61e7db8fdd015fdd7b300d90b",
+        "bytes_sha256": "42e65702ec0f354737b492d08eabcc3e031b39fcce4f7081610b3db5cf7a558a",
+        "semantic_sha256": "f47a1f9ff63c7ebbb5dcfd9114cb85b21a49810f5bd96193e2bc03bde422f97f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CBS_rule-set_5702ac6b589afff3.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e6d9eff663da2985ceee219fc413d3ea944a119998beebe2c2a87f8f69250fe",
+        "bytes_sha256": "eb1d029fcbb228d55eb0ef80df7c0908933ae8609efaf326fe3564aea48f7d0e",
+        "semantic_sha256": "da009f069bea54a980264551c390b0c71af428f8712398eaf0393568efc4a4b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CBS.list"
+  ]
+}

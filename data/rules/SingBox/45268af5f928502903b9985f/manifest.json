@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:00:29.285035+00:00",
+  "client": "SingBox",
+  "rule": "AnTianKeJi",
+  "rule_updated_at": "2026-07-26T06:47:14.222482+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AnTianKeJi_source_6c0a59eacc6887cb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4efc2508b7ee0078ec7cc42c836126b75adb20b72fa73dd53d8667e4602feed6",
+        "bytes_sha256": "228114011a599a577ef56901c71ad6e730988b7d7e58d332ffe958956a4bfcfd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AnTianKeJi_source-srs_0e631b2affa44be3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8141113f27eabe0c4df0acb03e89cf5d444eb71fa72b40f1740c863a49a82406",
+        "bytes_sha256": "523add35b4de9c8e22ed8353ed2eee8f8d83686982d8a4a76b071738b9cb4143",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AnTianKeJi.list"
+  ]
+}

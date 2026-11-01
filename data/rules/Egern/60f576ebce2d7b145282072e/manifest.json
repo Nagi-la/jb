@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:58:22.471843+00:00",
+  "client": "Egern",
+  "rule": "KuangShi",
+  "rule_updated_at": "2026-07-26T06:26:20.928705+00:00",
+  "type_counts": {
+    "domain_suffix_set": 23,
+    "ip_cidr_set": 3
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuangShi_rules_2503cca823aa3dad.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5e27252125cbccd2099312f932ad440d6a9497bea4beac31041c1b478c10257",
+        "bytes_sha256": "4910311816a5e756581f95dcc148872287a171fd527c34993568352111d76831",
+        "semantic_sha256": "d94f590421583684e9f5d6a0bdd3db7c25e2bc8003fa13c7de9793b4ae9afe0d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuangShi.list"
+  ]
+}

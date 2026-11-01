@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:20.999156+00:00",
+  "client": "SingBox",
+  "rule": "TMDB",
+  "rule_updated_at": "2026-07-26T08:34:40.456501+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TMDB_source_bbc6fa8631afa0bc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f3d3652d6e2d9bb1177692c15a5331cd13f44b5f43fae0770165d774b32970f",
+        "bytes_sha256": "eabb875c3a4e9ee7bd86570c4a44375f1b3056b56ca4911c224ca1db79832213",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TMDB_source-srs_68fb49c6188b1973.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2958d9e3d06dd264cfa3633d89bddb36ee3765b4ccd02152cb3f53643b5b1b0b",
+        "bytes_sha256": "5af8cf00bf99c04f19316a735e91c6dc1520f9c45216d5f6db84767efedfb9e6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

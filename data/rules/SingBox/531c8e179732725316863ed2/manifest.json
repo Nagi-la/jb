@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:13.938466+00:00",
+  "client": "SingBox",
+  "rule": "RemoteDesktop",
+  "rule_updated_at": "2026-07-26T07:22:51.464810+00:00",
+  "type_counts": {
+    "process_name": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/RemoteDesktop_source_8a45ef05039b7a0f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "769100903734161c1b9f77788200ffa6009f029137c9a9775d9d4a191ed3d422",
+        "bytes_sha256": "200579acca8c7953d3b7e0f5b6b5523b4be556d800d9dbebd90d0fa3a9c3907e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/RemoteDesktop_source-srs_c570caa0bb869871.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "356bd4058c5fea0799a8f842e55ad635f50fd9a3c81348c909d9bd0d3fa78734",
+        "bytes_sha256": "d4dfdf2e3824a17b4dc5675c34a2f10ea28cb8b4beb2db8c352383f57370d253",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/RemoteDesktop.list"
+  ]
+}

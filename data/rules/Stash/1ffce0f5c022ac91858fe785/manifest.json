@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-10-09T16:20:04.778658+00:00",
+  "client": "Stash",
+  "rule": "Whatsapp",
+  "rule_updated_at": "2026-07-26T06:21:00.584465+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 13,
+    "IP-CIDR": 15
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Whatsapp_classical_cd2dafda3f58a9b4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a989388ee40f14c30ce3feaee1a5170e35dbbfa634c9c5c1a4dfdf20eb538737",
+        "bytes_sha256": "d859f4fdc5a793ba08eea2db1a1ebe63497cb51f27627570a64033bdec990240",
+        "semantic_sha256": "d50b73715b514ec39aa726370176c9a73d27a92c45aff7c21429bc61cc450ca6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Whatsapp_domain_12ab1dbd03344d00.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa99582d5d4e7cedede63e2400bf72216153a5edbf58b74d6f777dcd00386fd4",
+        "bytes_sha256": "04e3927b4c3f58cba246af2f5235c190d6e56893ed697299477c51b7b55f731f",
+        "semantic_sha256": "fdc858d9aae15b6129bef873d56fa41bec81fe6862a964d945b5b22020830972",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Whatsapp_ipcidr_709e409ccc93d624.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72d017ba5394966239fb81cdf30e276c2d93ea2cc3e67edf143cb5fb97b79bab",
+        "bytes_sha256": "8019cc6c21c1c7185885c7f4fe2c278a7e383103062987eeef7d4af65ad03ed5",
+        "semantic_sha256": "786aae98447d990996c02a2b4166f4c5abeafc0b6f91a45419c4c14340726188",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Whatsapp_classical-rest_64417de78677d0bc.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6e9ac1a12dce34b4b6cbca7109a1603e5359ae1d13650ee7b3c94d717bb3bbed",
+        "bytes_sha256": "94b157503788799cec33b987903014d077d7f59eb9d67672763a0241319aad6b",
+        "semantic_sha256": "281821147b9db98765a4d14b54c617c501068e17a1d690e3f9d48db7b457bccf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Whatsapp.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/WhatsApp.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-16T14:31:43.954934+00:00",
+  "client": "Egern",
+  "rule": "ChinaUnicom",
+  "rule_updated_at": "2026-10-09T15:59:09.849276+00:00",
+  "type_counts": {
+    "domain_suffix_set": 47,
+    "ip_cidr_set": 1
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaUnicom_rules_64d570471286da8e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4034609b78e7c3510723ff615cfe7dc291d37fed6f56c55ea1a1878645ad01f4",
+        "bytes_sha256": "83f526bf7e25788a08f73c1f737453f23c98b8a82ecbc1bad038f5eead4355fb",
+        "semantic_sha256": "7a9a8467be66c5d4c1a633dc0c3a3d56250f092d5e404ca8beb1d999f48f62bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaUnicom.list"
+  ]
+}

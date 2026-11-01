@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-30T01:40:38.263722+00:00",
+  "client": "SingBox",
+  "rule": "Speedtest",
+  "rule_updated_at": "2026-10-30T01:40:30.135400+00:00",
+  "type_counts": {
+    "domain_keyword": 1,
+    "domain_suffix": 130,
+    "domain": 3345
+  },
+  "total_line_count": 3476,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Speedtest_source_2a7f5cd3a56fcc01.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3f723bb4840dea5e44a28a511dbc91b6ed23e0906f42f5ff6b54f80219392cd4",
+        "bytes_sha256": "655d2ebc29f9b4e4d32ca7ca955295f8c098d0df3656b2fb1d04eff7cfa7256e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Speedtest_source-srs_731c8eb5d456ead4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4f957c7ecf9838e5aab41f965054ad3a435987121c6ce504c8ee5e8e548c12df",
+        "bytes_sha256": "182e4c5d0ebcad9aafe4bf528221ead7880ba742a3d8ba9353d4759fe4b125c0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Speedtest.yaml",
+    "https://ruleset.skk.moe/List/domainset/speedtest.conf"
+  ]
+}

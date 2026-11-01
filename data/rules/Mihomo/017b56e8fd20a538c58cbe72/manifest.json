@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-08-27T01:58:29.795051+00:00",
+  "client": "Mihomo",
+  "rule": "NetEase",
+  "rule_updated_at": "2026-08-01T04:37:57.764779+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 158,
+    "IP-CIDR": 30
+  },
+  "total_line_count": 189,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEase_classical_a517200c323f8bfb.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c13414e94f4ab3f7ef740c765e3291bfffcb6986b19adfdd9a99c2081503f531",
+        "bytes_sha256": "db15c0ab828adb5c940eec587e93f5c6d69f27e7e34442c354c7b9be86a5b9ef",
+        "semantic_sha256": "b1effcf41aef3e556b766daef5462f7c426c1c47a4eba50ffa42da2759e71580",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEase_domain_bab7dad093a21ad8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "581a12095fc96d953e31fa034351a9a10bf2afcad5fdc1c3496bbe38a186a452",
+        "bytes_sha256": "cdd9fab5acbaeedf7f3d78eff55afbc7fa4617392438e8c91e208d95a9a59c05",
+        "semantic_sha256": "ff4a6e24b46c3f624a70947fb86140ce5ffe7aa769a0d32a6ed72dd838587e2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NetEase_domain-mrs_a835125c2549391c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b5116dd56a3ba2de24b5989e006cacaf3e824b5903526faca2466998aa8c1624",
+        "bytes_sha256": "72a17c9956231727571c1f12b5e151cb18ea95f2656e7e92501cab44c48f3e27",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEase_ipcidr_f879540bae772143.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5fa6c49826a76d6f3acff61aa070ad7dbcd8e3c18e04648fc4217e5f0ecccc2",
+        "bytes_sha256": "8270e340fd29198753756d81f8212287aae1a5ed773a717a5ea7cab6f0b671d6",
+        "semantic_sha256": "babb5903cae1b746c9ed61fb927fcd001d84fbbf7cc6e30bdcc5a7adc971efc7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/NetEase_ipcidr-mrs_f1688f34e3c28add.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "328d5c4c6eb7e674cb199262031dbe2cd1dd6a4b4873db757edb45eec1af50fa",
+        "bytes_sha256": "5667d86f9f908eddfe13fd68196c4ef45b1ea0655b2b84ff38c32e4a15ea938b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:01:32.190411+00:00",
+  "client": "QuantumultX",
+  "rule": "Niconico",
+  "rule_updated_at": "2026-08-24T02:50:59.145847+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 12,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Niconico_rules_76c66015517cc9f8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e6b8945a8f856417beaf87b09fe10e086613632c5541c2525d2dde9a45ed01ee",
+        "bytes_sha256": "c8483f127db77398eec6ac91de550c6b268bc556d866e92d9c605602cf1903fb",
+        "semantic_sha256": "dedd63bffd962415282b20bfa4a7ff65d1cc8733d0f9348157496e606360b643",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Niconico.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Niconico.list"
+  ]
+}

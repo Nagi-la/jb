@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:55:50.049070+00:00",
+  "client": "QuantumultX",
+  "rule": "Protonmail",
+  "rule_updated_at": "2026-07-26T06:53:08.457371+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Protonmail_rules_17b40db5050c84db.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f03f76e252744c3624c69083db189954976c3a530d49adb502763e57f60741a",
+        "bytes_sha256": "4c037f4dd3600db67e9cf19e718ee6e08db8abde0dc1bcf261edd8c375fc30dd",
+        "semantic_sha256": "a51931da2f8391119db33415b53158ddee02fb7ed1e9372d34faf9d2a338e379",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Protonmail.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Protonmail.list"
+  ]
+}

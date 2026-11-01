@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:36.869470+00:00",
+  "client": "Stash",
+  "rule": "Atlassian",
+  "rule_updated_at": "2026-07-26T06:30:44.054525+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Atlassian_classical_26e251dc5fc52ee4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d7945b8fbadc9a96e4bb97bb04b1b8be1e73e755854f0981e24047cc3a9ceb0",
+        "bytes_sha256": "113ffb14173a6ea3011017e6b79c4745f3b544e10218f50369c93d58491a264e",
+        "semantic_sha256": "8d18b1eec8d31a22e7c458c83d787819efb5685e667a824901e422bda3301154",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Atlassian_domain_cbcfb52e74e99a4b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e993ad4e9eb2be51d545c69193e58f3e8798d069fc770ea9a4c3713efd8d0c4e",
+        "bytes_sha256": "a3031b015f9ca87d31883f157926e343a96e898b11ffa1b6063aa8ceaaa5789a",
+        "semantic_sha256": "c9984bf9c1d4e8a5674d60810af8c884c5eefb9d42b17a349755449f1eb5d1b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Atlassian.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Atlassian.list"
+  ]
+}

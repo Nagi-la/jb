@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:31.349882+00:00",
+  "client": "QuantumultX",
+  "rule": "IBM",
+  "rule_updated_at": "2026-07-26T06:29:26.946877+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/IBM_rules_0b35ef1c410de792.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c3839cd783b00347b10b2f612aa0df8d7a5caa9b15ab5b9db0cdc24c6d1b03c",
+        "bytes_sha256": "1dd94eb851d40bee2955584eeb1bc35ca5ce9488bdfaab182d8eff4cead840c8",
+        "semantic_sha256": "9d8f55b6e3bd034d90704555ca854a76affe33368b85174322f275f990a7bac9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IBM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IBM.list"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:06:45.339858+00:00",
+  "client": "QuantumultX",
+  "rule": "WeTV",
+  "rule_updated_at": "2026-07-26T06:23:04.446417+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WeTV_rules_680d7265afeda4e1.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08bd493b96b075ec03fa551bbc474b13b40737c1ea47b8f6dfdd5541b1bdb1f0",
+        "bytes_sha256": "e901f2f4ddd2397e2816080b6abfe72b05d3d76e52e4afd1f71f5cf24a5bdad8",
+        "semantic_sha256": "36b29158ad69982d0b92c2fd04c6e535a53e452f9744b384cf0c5a19a314c6ba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/WeTV.list"
+  ]
+}

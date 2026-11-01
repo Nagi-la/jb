@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:55.465528+00:00",
+  "client": "SingBox",
+  "rule": "GaoDe",
+  "rule_updated_at": "2026-07-26T06:25:09.736454+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GaoDe_source_a581e655c0af488f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "768ebdb5a521308a3c74e34d768f70b722f050f42fa23025d129818bced6f44f",
+        "bytes_sha256": "a074994a5b585f255ca26331e02c9a2fe9fd79fc0ea71c9e1bdac56a8af46653",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GaoDe_source-srs_a1ab352dd310577f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c742b3a63076e85a19860e35fe68c7364ba7508386cff260a0a93afb58f0e38d",
+        "bytes_sha256": "9caeea9c65814279c4cb1ec5429a08381fd409ba36d7ef9a0c5580db17af0a37",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GaoDe.list"
+  ]
+}

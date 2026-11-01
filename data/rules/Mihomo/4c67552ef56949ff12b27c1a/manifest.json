@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:11:41.309782+00:00",
+  "client": "Mihomo",
+  "rule": "CableTV",
+  "rule_updated_at": "2026-07-26T06:21:30.065041+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CableTV_classical_3f05084dc9fa9d6a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a50f83df41868454e4e0b777a4a8fae0a8992757187fb57c792bd9d8a1d56de",
+        "bytes_sha256": "1c497b7c9b519bc8e05d1f8dd8b14be9f781980271783005fad6d14c70b34242",
+        "semantic_sha256": "0200f4cf324f10080c421290929d2cd989e83bb59287d4ace682cd2b744ed301",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CableTV_domain_1892600404f2c1d5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dbc257811c45cfd2e25f12c5dec8201957a12e66448c61a2aef36fb36948c277",
+        "bytes_sha256": "d665f05db9c370981033832ab207e921f1cab4b10f38b671e593addacd08eef8",
+        "semantic_sha256": "3e6898ba867ef09e8292419dff4cb6fbea97f23a4571e93069ca8b8729c0bd0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CableTV_domain-mrs_189f70078f0d7ff5.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c8e943e1f3f0c0b57723c1810f2294b9df741683b7c906349211573af5150203",
+        "bytes_sha256": "dee5e99e0d0da5083c1f2a0f31d4d036fe5a0a9c82bce15b16aa6b87514f39e8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CableTV.list"
+  ]
+}

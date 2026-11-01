@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:13:00.643437+00:00",
+  "client": "Egern",
+  "rule": "TIDAL",
+  "rule_updated_at": "2026-07-26T06:22:31.506279+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4,
+    "user_agent_set": 1
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TIDAL_rules_4d6d3b10aeaed5aa.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8bfaa3c6377d62b3c85ad81aff6438a83a05cff8d2153d129ea5c4477a44d753",
+        "bytes_sha256": "c70b821159829f1ab6f10029abceac99ba81737f05a0fc8324d8a3fda2aa3cee",
+        "semantic_sha256": "8789fb695b9c66a2ed48d30a165f95ca1d906ca35fc11138bd3d3e89e977fb2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TIDAL.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TIDAL.list"
+  ]
+}

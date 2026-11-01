@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:14:32.507521+00:00",
+  "client": "QuantumultX",
+  "rule": "WIX",
+  "rule_updated_at": "2026-07-26T06:55:40.700688+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WIX_rules_bdcc3cc96d83db1b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b9fbceec4a48522f0fea2435ab90a2dfef0fb1d456c146f58f580043c1dfdbe",
+        "bytes_sha256": "a30e5c65bcb15fd4052d2b9977c478b901735f72127335a4ddc9d42a4c2af3aa",
+        "semantic_sha256": "91bfb81fa8a3c4b79c3279a72dd32a08cdd51a7e4778d2a3d46af9c295144c03",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/WIX.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/WIX.list"
+  ]
+}

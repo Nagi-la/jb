@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-16T15:33:20.524047+00:00",
+  "client": "QuantumultX",
+  "rule": "Sony",
+  "rule_updated_at": "2026-10-16T15:21:15.553005+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 127
+  },
+  "total_line_count": 128,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sony_rules_12ff5f31960fcce2.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "232b3b80bfc8e52ee99a3c3a3a37cb1e66762f7b8cb4b803cbac0b28b33f58af",
+        "bytes_sha256": "4c6d52a5cdf1b1275a4d0685849f97254327c97ee00f58b552fbf98d1871cb4d",
+        "semantic_sha256": "fe47b03cf9d5bd6cd7e66bc450fb0d9b941836065e022008895ae8da8660dba5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sony.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Sony.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sony.list"
+  ]
+}

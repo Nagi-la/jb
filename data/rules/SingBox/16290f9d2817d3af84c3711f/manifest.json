@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:49.587954+00:00",
+  "client": "SingBox",
+  "rule": "WenJuanXing",
+  "rule_updated_at": "2026-07-26T06:28:49.672854+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WenJuanXing_source_359e3481abff70f3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6883ff23266b08b949a5ad27c96edc6115a43890a29f3e30e8c5c48ead72ceaa",
+        "bytes_sha256": "9be647d9b85d62083e135cb273e0b20f1e182bc835b44f48ae53016f0a391961",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WenJuanXing_source-srs_fc701adeb40d8003.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b87811750e20e3cb75264da92d683eab2c73f4435b52d8e45029e01aa4e30cec",
+        "bytes_sha256": "26187841fb3b107ccb25d46bad1cd8770b71efbdbbf5921124a1a89d8450b92c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WenJuanXing.list"
+  ]
+}

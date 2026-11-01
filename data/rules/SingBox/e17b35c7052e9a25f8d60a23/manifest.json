@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:00.174191+00:00",
+  "client": "SingBox",
+  "rule": "FOXNOW",
+  "rule_updated_at": "2026-07-26T06:57:22.194652+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/FOXNOW_source_edc41deb03f4834b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "28b11d27e34681c8bfad13986148b5d5aa5a3b4ec3c8255c8e58db980123bfc7",
+        "bytes_sha256": "0b60c8a52ec98fee3d75994716636b98b49cd61fac4e535ae8e9f975d6266ad3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/FOXNOW_source-srs_531bd2dc09cb14d5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6c9c1824c72f67494880fe22a8f9104d2181108942bf0692715f0e2c281776e6",
+        "bytes_sha256": "0c058003c0a29eadb869a74949ac4d7223303dc1cd9c86043f5b02940ac9f88f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/FoxNow.list"
+  ]
+}

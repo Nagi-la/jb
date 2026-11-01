@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-08-27T02:01:14.028390+00:00",
+  "client": "Mihomo",
+  "rule": "MicrosoftEdge",
+  "rule_updated_at": "2026-07-26T07:36:28.858747+00:00",
+  "type_counts": {
+    "DOMAIN": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftEdge_classical_3689869c691ff614.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25020396ec45984c2702f8d1871656cb19d980af5428660d2256ab7a24a32b5a",
+        "bytes_sha256": "f4c93d7556740d2ce49dee20c0734b247254cd8e8f1d9ff6149bedb84466f80e",
+        "semantic_sha256": "01b85ac5614ae975c0f6e4d0240d346050656f49fcc39072e4b5ba961cac3a92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MicrosoftEdge_domain_4822e7335ff918f4.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94227f9f3ae5f9dc55ff11553d527f5bac3207fc14f865c74c378cce92191974",
+        "bytes_sha256": "b4f163a4837f126e9bef31d5c6e7b04aa0d2cfde4394df94b356a6a72e138cb0",
+        "semantic_sha256": "aba47dbab0247a3b062529a00db62a6704459218e48a51b0a3b8f932746810e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MicrosoftEdge_domain-mrs_7b4392a4bf1cf04e.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8d772612222faddec3ddbf74299bbcc7b1fe2ebe95ec4eb3513905cd8c40dfff",
+        "bytes_sha256": "2c9ef7d2466930f2f9e3d9f75468e34e0009f9a63d057f5eee836cc4cb4d473f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

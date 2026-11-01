@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:15.658617+00:00",
+  "client": "Stash",
+  "rule": "Unity",
+  "rule_updated_at": "2026-07-26T06:57:17.715239+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Unity_classical_3232fd5c30e86a01.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a79b31307e29b0491da818863fa1699eecd56c3c09d9ec983c0157536b65470b",
+        "bytes_sha256": "f00c6cc469b666e65c96009f437b226e4818986f1c5fe6bf907a8ca14765bf64",
+        "semantic_sha256": "df0323fc2f418285a86c74c2ce2140a759caf6ca982d5af870a5bb0989c5db32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Unity_domain_b8bfb84063d30faa.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25b8845274d4a63622b3efc8915b42ae03a5f651ed6f23de3567c9313ad79dd4",
+        "bytes_sha256": "9e9b10d710472e458fee63fd66415bc989018db99033dc0deed18cd83d1500c9",
+        "semantic_sha256": "a918fb676219a2879c4a9d7236c568feeb99a7f4076e9580a82855dfa2418368",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Unity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Unity.list"
+  ]
+}

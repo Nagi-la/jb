@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:55:52.843616+00:00",
+  "client": "Mihomo",
+  "rule": "Camera360",
+  "rule_updated_at": "2026-07-26T06:23:46.816213+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Camera360_classical_62f64f6646f71901.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0227b80c72f846cb9a048223cd98648d750e9f0a6494d65c80def14b0d78664d",
+        "bytes_sha256": "1c47ed17a8264ae9d68060fbb0b0ced6f9b9254fc1ea49249b6f125de5d92201",
+        "semantic_sha256": "7453ba223f6aedea1849a33e0d4df4f72f635016301fcba2a98ee7d5d7108165",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Camera360_domain_aed383c6d875ffa8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a3684a2792d150378b9a5f7bb6b8e827c78ebe8b5d8698772e416ec8b5cd9141",
+        "bytes_sha256": "20970ec80e5439357a5afc897e4ba41ccf0f16a690db18e145e730c5c0192b45",
+        "semantic_sha256": "324f1171c01a50e3ec2ab59aba6f59b8b889348e9627c9207e8156162359fdc9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Camera360_domain-mrs_32469ee4221bb158.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4b9f1a2c691de19effba4caf6c77d6508227872e920198bde02dde65f96e222f",
+        "bytes_sha256": "161510f33765692d774923a5215963ecc47e183dda281360ac7ec30e009b5991",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Camera360.list"
+  ]
+}

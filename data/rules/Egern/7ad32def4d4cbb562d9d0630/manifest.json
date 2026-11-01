@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:02:27.551507+00:00",
+  "client": "Egern",
+  "rule": "BOC",
+  "rule_updated_at": "2026-07-26T06:47:37.265518+00:00",
+  "type_counts": {
+    "domain_suffix_set": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BOC_rules_4a91d6541912bcee.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "41f170aefed05d5a6289035bc447749c4845d6e151bee0328af363db8cebd73c",
+        "bytes_sha256": "6023c3e4bc85c3ac2ab73312ee583e7f19aba9bb0a445cc8eba038b7611862b6",
+        "semantic_sha256": "c9b2fc1abb94374e2db1846da85fe29d1346aa602c22026915a3e5bd4fad31c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOC.list"
+  ]
+}

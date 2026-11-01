@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:08:38.922401+00:00",
+  "client": "Egern",
+  "rule": "AliPay",
+  "rule_updated_at": "2026-07-26T06:47:05.164080+00:00",
+  "type_counts": {
+    "domain_suffix_set": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliPay_rules_146b11e3c64a9ae3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da58b38379e2f1c06abd902206817e2e890b353e8a0832fed9ff13aa21d89366",
+        "bytes_sha256": "6aa4458633a4f70a2a5b769cdcb7578e79bfe5e057bba6d4a33e5406ab5fe205",
+        "semantic_sha256": "4ac0826218b5ff9c321c7ff7cf168a4b59e0b782483997b55b591800d078bd27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AliPay.list"
+  ]
+}

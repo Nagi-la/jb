@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:49.232612+00:00",
+  "client": "Stash",
+  "rule": "CITIC",
+  "rule_updated_at": "2026-07-26T06:23:24.904450+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 29
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CITIC_classical_2966dd1e66d388f5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c8ee3154d74d4cce43728f5f4d2dc87a314613af55be33a0481c3e7fe7da735",
+        "bytes_sha256": "d2a2ec06c8065b32f1779907a25f7b9c62451495f685525b4b5fca6d3355bdf5",
+        "semantic_sha256": "bfc9b22dcd1934a0110f6b6388ad294f655f652504666e646fd138ac7b788b7d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CITIC_domain_a19eadaf876ccddc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fbff6fc8272089883f3d972b33a29fed56a117e34e078cba1ca8ba39c0ae3433",
+        "bytes_sha256": "8c827a2bc8dfe59816710d7a90fbd8891facb5658ffe6ffc43cab44e913134cc",
+        "semantic_sha256": "91b26c51db82949e89b413f45b740e3411afed60a843f44c7ca1f8299cffa4ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CITIC.list"
+  ]
+}

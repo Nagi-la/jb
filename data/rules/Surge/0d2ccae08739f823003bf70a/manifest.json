@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:21.096932+00:00",
+  "client": "Surge",
+  "rule": "KingSmith",
+  "rule_updated_at": "2026-07-26T06:25:43.306455+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KingSmith_rules_836ab6841df7ad33.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df40de39e3b39dd1c39182e08eaa389629b7b3dc1fd47934019292d3c9fd39b1",
+        "bytes_sha256": "66f8c84a47e67c43d3ad71e7e4d7a1df0e52cd26ebf5b17274505f659f8823f8",
+        "semantic_sha256": "55e234f93db60865058483572bef2dd0b86471827cfb23ae8a76a28ad6f4e9de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KingSmith_domain-set_c7d93015a3fa6d51.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27bc73197fa309f10774cccfaad1101f0efa6528f603c7688cdff4bb34a628a4",
+        "bytes_sha256": "44b3d9476e7aa54d6a37574a51c4458b56b771158e5904c710cbbe2f3a8f6636",
+        "semantic_sha256": "02bc8217fe2d6b8b56575beada2517b986024878bd3a3c7c1a12a3a55be88472",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KingSmith.list"
+  ]
+}

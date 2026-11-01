@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:38.309203+00:00",
+  "client": "Stash",
+  "rule": "Notion",
+  "rule_updated_at": "2026-07-26T06:52:40.011024+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Notion_classical_7d77c180a9827eba.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a15869e7e888beb5ca858d26686c3095f573d1b31ba55bbfe2b505911551e51",
+        "bytes_sha256": "9caf02610892a13713aefcb796b3af3c5f0f66e7bcfcabe6ddd45c37c230a7c3",
+        "semantic_sha256": "e6e47c629f4be0e9e99e6f736f564a66c8f4e131142067448c8f4242dfe52318",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Notion_domain_d9aa76a3a8af7d43.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "986a8657da336db07cfec2db41638e02d9c4ccaefce8c4c7b462ab039d6b5ca5",
+        "bytes_sha256": "fb2401043f746c2535192e33c953fc37c07c26ea792d89c80b94040fc64f43ec",
+        "semantic_sha256": "33c310ced66926cb83b01d0ff1c213bbef19ecc335130a2e1d7fa7a76159ac92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Notion.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Notion.list"
+  ]
+}

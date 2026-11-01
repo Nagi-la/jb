@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:14:03.918828+00:00",
+  "client": "QuantumultX",
+  "rule": "XiamiMusic",
+  "rule_updated_at": "2026-07-26T06:28:53.105151+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiamiMusic_rules_e6f9f73790f49600.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f592b6bd31ff4cbfe3e906dfc30e47d6cb5f1bd8cb05bbbdf3a1275345af84a6",
+        "bytes_sha256": "977378e234def7237518860436e470ae02ff019d497db8b996a99adf5873fae2",
+        "semantic_sha256": "b0821fbf157cec12a13a3b88bbf9fecdca6cb37a9703fa24bd911f6f26ac245f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiamiMusic.list"
+  ]
+}

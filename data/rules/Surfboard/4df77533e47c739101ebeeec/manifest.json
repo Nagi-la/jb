@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:12.086682+00:00",
+  "client": "Surfboard",
+  "rule": "Sectigo",
+  "rule_updated_at": "2026-07-26T06:54:04.323667+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sectigo_rules_d969ff1039487737.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8dcefcb7eae2620e3b3595fe652a1ec07abd9f4c6cc532fd838f0899111c4a51",
+        "bytes_sha256": "42af098a1f292304868c0c656299e7be2c4859532cde3cade8a772cbaa35d7ec",
+        "semantic_sha256": "99579afcf291c36c86846b1ef9eccdfece762a96d0fb119000b87908e81b276a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sectigo_domain-set_1ca871a46d1487f3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57d6e548a8169a0ee01d57740b59cf4fe3c63bc28f164a584f0c9f7326fbfa2a",
+        "bytes_sha256": "c18a4aa94fbdefd194a9d7cdc9a01b2dcaceecf50d8a7d6fe4d2839d5a827967",
+        "semantic_sha256": "e4748c5341c6fe40dd9302c0e23b6377ed40574fa8121111e2aba5fccec8f420",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sectigo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sectigo.list"
+  ]
+}

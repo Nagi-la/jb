@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:55.974117+00:00",
+  "client": "Shadowrocket",
+  "rule": "Jetbrains",
+  "rule_updated_at": "2026-08-03T15:39:45.098427+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jetbrains_rules_c193c5aae634f0b2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3dbab8288a3310d2d87fcc9c18c7905c7156274cc5e8c129bb0748f0aa1de72d",
+        "bytes_sha256": "64509ad484a433b0dd1824b5cf34b57f34e236b8c9693bdde5bf5b0840f8d145",
+        "semantic_sha256": "e7f4f59d9b28ce88ff51e006e8075f90b00309fb2d088daf1736c8bbf03d0072",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jetbrains_domain-set_77d97aad5afdc569.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "96c73b7afb516d9e76b347d4ec678938bed77fd68d56578607afacfbcbff2303",
+        "bytes_sha256": "07b7acce3fab3b177b3e64e0ebb33ee354e175b065cdff3113a9c92efba29b9a",
+        "semantic_sha256": "405d89d5afa323b6e2d64d4f8f3113b20d520f82aae1f27efc6fa462fe2d9969",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jetbrains.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jetbrains.list"
+  ]
+}

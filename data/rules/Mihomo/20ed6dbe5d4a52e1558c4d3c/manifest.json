@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:12:25.728877+00:00",
+  "client": "Mihomo",
+  "rule": "SFExpress",
+  "rule_updated_at": "2026-07-26T06:27:59.168079+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SFExpress_classical_68f060a8f21a7052.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca78902248b08d9ed5e2e8c3ea966a34c72ed1de64cee8f31c3a768552b92543",
+        "bytes_sha256": "61430c73e54f73e2bfba7c7171d3ab8032aafe1078e7579bcac53eaf9fed1f64",
+        "semantic_sha256": "6dab1274167fd8b690918b6139f2c767ab85a3e20c9de6e2b8eb57deb2ba8a9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SFExpress_domain_3c2c002ee8bbe744.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b200a14361f83bc4054f2535a19751a63251619f56c51c1463b3890576671b3",
+        "bytes_sha256": "4d7ae5db2c38f6a134d1aa300050b09554e83fac227641681166be4d29f29202",
+        "semantic_sha256": "59fd77dbb92d3af64f67857911140b6b7ab3aed222cecb441b73105591174e48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/SFExpress_domain-mrs_0bbc38c55e9dcdc5.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "520c98349c46e445950d6ede73d4e0ef2f4f38a701017d8c3d45f62d2a716745",
+        "bytes_sha256": "16f5f0f70226268daa11dd93665e45f66b7998462578e01188d8d036f51313ea",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SF-Express.list"
+  ]
+}

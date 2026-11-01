@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:22.564269+00:00",
+  "client": "Stash",
+  "rule": "BoXun",
+  "rule_updated_at": "2026-07-26T06:21:28.668245+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BoXun_classical_e35c06a362fb6634.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c447de2d1df5c488834a970bc0afb8ec5adba84976c6276e069f290406b7b62f",
+        "bytes_sha256": "bbc93dc3e97c0cff4520f3da273a88eb63fae227071c6a9e955427ad983368d4",
+        "semantic_sha256": "b51d88d245899cc5e2da235a8b567ca6e7a9f25f0867bc8af8ef717b626f7653",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BoXun_domain_9c3091ecf47bc250.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "37bbce59fc97847a9714f41391643cd9a11568fa26290d9ff567b865a46bc28f",
+        "bytes_sha256": "36f270ca6f309efb5a00542e1f51dcf6b7cabc67492e5a418344bfb34f860753",
+        "semantic_sha256": "08dc86f6713696f762351811b4349df677f2a2676cef859a4b7fd3ce3423d83a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BoXun.list"
+  ]
+}

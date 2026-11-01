@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:04:32.425053+00:00",
+  "client": "QuantumultX",
+  "rule": "STUN",
+  "rule_updated_at": "2026-07-26T08:27:50.367524+00:00",
+  "type_counts": {
+    "HOST": 358,
+    "HOST-SUFFIX": 1
+  },
+  "total_line_count": 359,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/STUN_rules_ed25002cdfa9eded.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a2e14f978bf575f252f0a004c201e0b7995ac407e9a835afab15d97c3192ee3",
+        "bytes_sha256": "cedf0df3fb7eecbbf51e2829460dc0382d264f31e6d862b5037f741679090468",
+        "semantic_sha256": "8dee68cd7e3bad9a339d5583e79e3c81944d222d4f8256cb5d2742dba16286a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:19.813586+00:00",
+  "client": "SingBox",
+  "rule": "ZhongWeiShiJi",
+  "rule_updated_at": "2026-07-26T06:30:02.505896+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZhongWeiShiJi_source_c70b60ad2e4f0234.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f97f09878377e1536464b4036eac3bee8b907960fd0223c54402adc7be1cd4db",
+        "bytes_sha256": "e7c45c52952f1ddf07275911437df7413826831ec60d25818f60d5c1ba79612b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZhongWeiShiJi_source-srs_c5dc5f4ed692d8e9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5c7e56364028b85f8357c10d58f32a129b226f0001065dab0eb8301f7a939603",
+        "bytes_sha256": "39e35041f8fee365f973ca7cfb161b80a2084f3de771a3996f4fb918bcc08ffd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZhongWeiShiJi.list"
+  ]
+}

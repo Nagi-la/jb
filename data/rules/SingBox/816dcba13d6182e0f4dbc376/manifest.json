@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-20T05:59:34.841039+00:00",
+  "client": "SingBox",
+  "rule": "Yandex",
+  "rule_updated_at": "2026-10-20T05:42:05.000557+00:00",
+  "type_counts": {
+    "domain": 18,
+    "domain_suffix": 140,
+    "ip_cidr": 57
+  },
+  "total_line_count": 215,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Yandex_source_1e996006daab263f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "81427d1d1c990f862af296f47c357d3fc9554b2452260e5dff345ebc7a86ae40",
+        "bytes_sha256": "f0a273dd99ab1315cde5d32581008870d0d5bebed23ab2aecb90c3241fb62704",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Yandex_source-srs_43300ba3cad84cc5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e7497db4c1d753d3627bb093bf32b0eef029a21bc072c3baa351428fb52575db",
+        "bytes_sha256": "9e6890b515741c31c5660db9b62afd21bd376d2cf8d5909819483ebae43a40f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Yandex.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Yandex.list"
+  ]
+}

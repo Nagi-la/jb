@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:10:33.508463+00:00",
+  "client": "Mihomo",
+  "rule": "MeiTuan",
+  "rule_updated_at": "2026-07-26T06:27:04.369741+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiTuan_classical_a71b04b32af70b7b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "482efd6b6e54fc6590ca681ce9a93e60db54edf9cba4c57fc209b7bc54118c3a",
+        "bytes_sha256": "50e4e86b4935b6114acccc88e7c6e128ea83ef24d6666fd834120cc45dfa0aad",
+        "semantic_sha256": "ddba941234f025b58ea99bb781e0b12654d2b92490028f52373b0b626c5bd9d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiTuan_domain_d4be564cf5c6212b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "19cc8ad985a388d1bf44096d61edc52dfbfdcc8ec0ff2aaa8cf844b888b7e7af",
+        "bytes_sha256": "062fda0ea28d53dfeb23e1df6f8645624726bed19ca48cb4950b558e42cb7c60",
+        "semantic_sha256": "cd28a26475734d0b73848d978b91db7a7b21004bf3ea4f83eda0a1635169b8a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MeiTuan_domain-mrs_bc3acc392921021a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "17da45099dbdd2a9f0ce6f62c80c55da918929072ffc2bca5d4799e839d284ba",
+        "bytes_sha256": "ee590451e2cf922303aa08610ccde38e0d162df2034f55be0556b858f120f36c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MeiTuan.list"
+  ]
+}

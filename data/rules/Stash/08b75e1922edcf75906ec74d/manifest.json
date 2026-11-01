@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:27.632583+00:00",
+  "client": "Stash",
+  "rule": "Redis",
+  "rule_updated_at": "2026-07-26T08:34:14.688893+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Redis_classical_cb5638ed70df239d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dbee481b3a79a1356c32fbf882daf223ed3293de1854ad1e60712af0f6233d0e",
+        "bytes_sha256": "e399f24a076d09c3028adf34e685e039886c3eaec0ff8f115b97b7f5fff2fb8c",
+        "semantic_sha256": "85d3dbcea82337942b8d997ca6c24af3de5902a2a5e90bbdd03e209bc550604d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Redis_domain_1c1bb9e2d04c1611.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "259d3c111c3af5521d4d0e4d149193257210ef3a578169d4a9bb5deac91d4c07",
+        "bytes_sha256": "7155b3a54c73e663dfaff45fd7cf2f53a22df8ffa054d0b8b1448115ebb6fb17",
+        "semantic_sha256": "cd7d07cbed8c836ace13dcf56c4ed0a083fbdb63fb4e7020b4cf937e18b7138e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

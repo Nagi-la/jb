@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:36.224520+00:00",
+  "client": "Stash",
+  "rule": "NGA",
+  "rule_updated_at": "2026-07-26T07:00:42.354105+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NGA_classical_6b4eac8f039b0525.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46f0476efc1c4f138fdfe1f22c17846ac2bbabb4ff62dd39e7d458ca5ef329d7",
+        "bytes_sha256": "ba1977cca41f4c15b29c3ab736ff9fe6614f2fe64c33646680eb69ee0b4afcaa",
+        "semantic_sha256": "e190b4dcd1151000c71bda49523bb8112672806bf5bca2b6d0d1adb9b0b73df1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NGA_domain_dda51b4ce08acce9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bde60074b0a6dcd65b2b973b13e10b6f7004a1105ffbeae7216d3ac3259218b7",
+        "bytes_sha256": "60202268d5b45c9f4982ef5ae6e178b0f3898b5d25e4a24adeff6d80265c8b19",
+        "semantic_sha256": "daa00c3f4fd7012e6f5d456ec9868f27d91a8d73b7fa6471ae6dffa22741f9fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

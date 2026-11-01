@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:49.477992+00:00",
+  "client": "SingBox",
+  "rule": "McDonalds",
+  "rule_updated_at": "2026-07-26T06:52:06.570354+00:00",
+  "type_counts": {
+    "domain_suffix": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/McDonalds_source_359981f7405dc977.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a3c5ecbd80d627423dde5b0b000df0bf81b304be2adacd9de97c2b4d8f544693",
+        "bytes_sha256": "c215105249b425083b4d110fb6607e4859ee199753e2cb746e1df68d9c6d51e4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/McDonalds_source-srs_b38bba0bc61c4476.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "30fe71d917ffd250a12badd2e295341d45a4010decaf49fe1a2715ad8bc82e64",
+        "bytes_sha256": "36baee614b05b62743ff809d05c30975263071884577e5e108c4401ddd8532a9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/McDonalds.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/McDonalds.list"
+  ]
+}

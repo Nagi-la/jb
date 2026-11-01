@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:23.868495+00:00",
+  "client": "SingBox",
+  "rule": "NeteaseCloud",
+  "rule_updated_at": "2026-07-26T07:04:48.005984+00:00",
+  "type_counts": {
+    "ip_cidr": 106
+  },
+  "total_line_count": 106,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NeteaseCloud_source_564d5ec65586b285.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b260c5736b91466ec788489e5c59b103ca170bb81652228fbf97c7d8c9e8a2e1",
+        "bytes_sha256": "611c754d6174e51fa2698cfe93f2d034a618da8de973c022a6873191da2e4730",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NeteaseCloud_source-srs_f4cbdf8177a95618.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ed0bee5fe33e5e7c6cd7cf6be2d1c0c52c6e1bc5e07e807dd13ce3bf4656b3d8",
+        "bytes_sha256": "2efc0086343c292ed5cbf84dd508c526e3e013c8883199ebe9de42bc9f2f76c9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "非网易云音乐",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/NeteaseCCC.list"
+  ]
+}

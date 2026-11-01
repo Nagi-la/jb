@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:57:48.223402+00:00",
+  "client": "Mihomo",
+  "rule": "BOCOM",
+  "rule_updated_at": "2026-07-26T06:47:44.445415+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BOCOM_classical_409e1974abadbcbc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d303c83e4ce362ce4ece48b01371f1c059176f04e47baa9fa59dfa9ee02813aa",
+        "bytes_sha256": "fadcb48784fee28df8f9a7a627e30b8f4c5e980a444db916f6903572d574c898",
+        "semantic_sha256": "0e3ea1249ec56c16ab647463483c394db79b615ab23848139e4b134ccd28e821",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BOCOM_domain_18190eaee0e9d6cd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "178d05364bedc87721de80f9d335ff9df794c67be5f1df66616b289251add478",
+        "bytes_sha256": "0faed934bf75ee3342ddee995648fa7fb968cf1e34a53a7aadb71490d32ae8b6",
+        "semantic_sha256": "f07b9701fd4713e3c21295b9cd53242f2a3e1ba9eb5a92ab5a41b5f5062e4421",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BOCOM_domain-mrs_5b91f5cd1ece2c13.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ef64b5403b6a9f0723696238d3983a2185bf6bc7cb9107c4517ae7b02116821f",
+        "bytes_sha256": "05c1652e7484ee558e16d355e62ec317d54c34c9993c52fa71e6bf9f0e0f8f3e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOCOM.list"
+  ]
+}

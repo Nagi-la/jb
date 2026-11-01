@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:58.522874+00:00",
+  "client": "QuantumultX",
+  "rule": "Dubox",
+  "rule_updated_at": "2026-07-26T06:36:02.322066+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dubox_rules_1a89a3398138ede3.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "96d0b0504e80dbf91a7a68fb7199826ba4734c65f56af845f0f01bb592f2af2b",
+        "bytes_sha256": "cda3322b3ae60fb40490b7f765460c9ff88e80273103b919749c1b78a0c824a0",
+        "semantic_sha256": "4fd1f2518894d44d7f27a5d91749453ea32842074e17682644c466b5831eaca9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dubox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dubox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dubox.list"
+  ]
+}

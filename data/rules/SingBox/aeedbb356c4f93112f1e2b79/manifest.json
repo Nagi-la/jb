@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:04.208767+00:00",
+  "client": "SingBox",
+  "rule": "XiamiMusic",
+  "rule_updated_at": "2026-07-26T06:28:53.385868+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/XiamiMusic_source_eaaa3fc2e94eb1e7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "251f533d0f8a97ff0d02e68a99be48bd0434affcea7c71d34266a21b2c3f6bdd",
+        "bytes_sha256": "1574d5fe48cd2f4bcebc70c11e22db1447ac32cf4321630b0ab3b93206eae14f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/XiamiMusic_source-srs_69d2ca6bf0c3d70a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "80912e05997c1fa74fde9e40ab841cb5924927effa3cf41c5f4eb815b4db5781",
+        "bytes_sha256": "5aedcdcc20f1a8920027dd5fe94e777d2001d303cff01069b646ac0236de5dce",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiamiMusic.list"
+  ]
+}

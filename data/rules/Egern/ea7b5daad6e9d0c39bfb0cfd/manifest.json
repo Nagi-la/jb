@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:03:09.636689+00:00",
+  "client": "Egern",
+  "rule": "Emojipedia",
+  "rule_updated_at": "2026-07-26T06:29:13.477116+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Emojipedia_rules_3cff4e0f843a974c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca28841ad654cf7a4d20389ff1b330e4449ec5424d67d6cd130b28d4ab5f4b95",
+        "bytes_sha256": "db6f21ab0dcb0e5251d43db35abc60a6adce981ccda2ab909553db50f0c5a038",
+        "semantic_sha256": "bc1b3fce8a18f58886e22f6d22ea3c918f98f2c210fcc1c7da020a598ac62fc9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Emojipedia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Emojipedia.list"
+  ]
+}

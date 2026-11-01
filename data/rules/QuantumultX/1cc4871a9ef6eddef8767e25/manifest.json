@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:11:30.181454+00:00",
+  "client": "QuantumultX",
+  "rule": "Instagram",
+  "rule_updated_at": "2026-07-26T06:20:37.012331+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 75
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Instagram_rules_be400ee3be6dcbd1.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f351b6144ffd8faba97d5fe367a6bdea72990fcd1c7e1a5a9c06a567b78404d6",
+        "bytes_sha256": "4a4c717f8bb9d05e9cecffe10579de53f1fdaf46d7d4c99b7e49ba4c44675b0e",
+        "semantic_sha256": "c2fa0a03e0f73b2001a5a4b1996193f1ff599036a6a8f9a6c31ff7201abd7259",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+  ]
+}

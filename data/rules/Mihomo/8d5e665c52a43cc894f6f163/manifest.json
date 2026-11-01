@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-10-16T14:29:33.554620+00:00",
+  "client": "Mihomo",
+  "rule": "Facebook",
+  "rule_updated_at": "2026-10-09T15:59:09.285556+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 2,
+    "DOMAIN-SUFFIX": 552,
+    "IP-ASN": 1,
+    "IP-CIDR": 36
+  },
+  "total_line_count": 592,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Facebook_classical_041e2b1a05aace8f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4105a661379d20a42d6414b92453299251c2df6ae43e6a7bfb9f2d2a9404dcdf",
+        "bytes_sha256": "9fd5d77e7add94c0697b90ecb7d68f3a138ea067bd46976926f41ef4074399e6",
+        "semantic_sha256": "894127373cfdc11725dd52815d9c23df7eafceb291fb6c3585f39094fe1d3800",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Facebook_domain_63b4b3494f9cd551.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a07069c7374afd8cdd98370cf6226acb3984dd2abda044a3ca536ed9b19816a",
+        "bytes_sha256": "267e63287d7ecfd6e0cb6c5f9038b4d18fd0b65be72f5f6fbf5d6ed0d333552c",
+        "semantic_sha256": "c24e686fac688e4064483c7920b811e84f024bdb5b827c6aaff7e7c31251ccff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Facebook_domain-mrs_34b1cdae86751d29.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ae28b6b395b87265885116153c9e4db290686992a692ca480aca814466913326",
+        "bytes_sha256": "a93c9503c6de55033b08ff41f76be70cd43eb15ab6c1310673806df995b7e605",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Facebook_ipcidr_df18bfee6035820d.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ece6c1d4dd26a494e6e2da5392578bf7f78fb44daf75eb38f13edf1eda31edb",
+        "bytes_sha256": "94c38d341742e3d00830e7cbb58cd3ec3e3d8a8a4d8fe594dfa128871aeabc78",
+        "semantic_sha256": "342f003ec66545ac127ec4711a0cb10acba1e99fbeccdd353f7edb7fd905be1e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Facebook_ipcidr-mrs_798554b9308eff5a.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "25a053fd642f4ba43428657f2eac1c3d1be083ff021834a4f1e2edee6286e080",
+        "bytes_sha256": "8c14cafa1386792e2e59de72bc247a600a6a6860731e9e45603fa00ee840830c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Facebook_classical-rest_4c074b1d9f4ea157.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "161eee842a014cf2d44abec87b9daeba19d488f1c263e074867736fa4b4910b1",
+        "bytes_sha256": "ad030c81737a05e8249a036ed0ed1100cf2e4cfb4499313f93e5599511df2c2e",
+        "semantic_sha256": "44e4a2dcfe5ae5950cfbfd9c0a757a7242553f5a19b0234ab01026a817792356",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Facebook.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Facebook.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Facebook.list",
+    "https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Meta.list"
+  ]
+}

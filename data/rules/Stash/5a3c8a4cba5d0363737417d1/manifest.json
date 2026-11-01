@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:22.176354+00:00",
+  "client": "Stash",
+  "rule": "Umeng",
+  "rule_updated_at": "2026-07-26T08:34:52.362808+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Umeng_classical_7c76a8091b35c290.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9207afe41533a0cfbe0340bd7677b1184d1137ba86b01028266c4a491f76b27",
+        "bytes_sha256": "fddc5704fa60bb46b0e7056a42c2110439757d2a9433864589d9eb418572d7f4",
+        "semantic_sha256": "4472475416f838b8d9859f2dd0e7d031ab0e575f7b93697cad12c399463b4e9c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Umeng_domain_ff3f9182e31846ab.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "453b0bb1e628266aa1719fb454b2a9bf3e4e7553e71dd3fb8b6359e453a09f45",
+        "bytes_sha256": "40d4c050c64755880aa459a46476a9475b9283f8e153075c93590d23f9110661",
+        "semantic_sha256": "7ae4a49d4f476fbd9c1cf8c763488747d1295fac89cdac7f617d688c972dc7b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

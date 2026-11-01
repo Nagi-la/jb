@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:16:04.737264+00:00",
+  "client": "Egern",
+  "rule": "Shopify",
+  "rule_updated_at": "2026-07-26T06:54:03.826287+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopify_rules_7c5a9914c87ae332.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "faa611760f5fa725478e75dbee7fc65ee0d324cf6c3fcdd7152676c8a8eef6d1",
+        "bytes_sha256": "aeaed6215708d87e24abe063158eedbbae0238c7f29d46fc63a0718fc9d5476b",
+        "semantic_sha256": "b8cd46a31fb1efdfa350b43e144a1d3f7ff64bf625cdd8a03312c715798ed92c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopify.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopify.list"
+  ]
+}

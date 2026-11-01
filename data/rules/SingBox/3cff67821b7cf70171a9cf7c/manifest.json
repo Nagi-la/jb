@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:45.897090+00:00",
+  "client": "SingBox",
+  "rule": "36kr",
+  "rule_updated_at": "2026-08-13T23:42:09.413372+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/36kr_source_37f38ac18b33c149.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d02cd04d06bca05fe25d6953e9a5fd0666f0a491eb878eea76b18cca980869d7",
+        "bytes_sha256": "7de8af262b570ad7d8470941c2f747512cfd2656b9e0182d8d2d73613e2f27bd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/36kr_source-srs_21d3dfd25b3b9685.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "82057eb30791d95c1832d34a32f48e7603fb1066e934bd9481c89f168ade7365",
+        "bytes_sha256": "58f6b6bc048fedf8986c5f9550bdfbf4f7759800b3f45f038388ccfb4f5fb3a0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/36kr.list"
+  ]
+}

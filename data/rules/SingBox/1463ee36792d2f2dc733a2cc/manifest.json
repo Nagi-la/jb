@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:55:48.401688+00:00",
+  "client": "SingBox",
+  "rule": "FanFou",
+  "rule_updated_at": "2026-07-26T06:24:54.259390+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/FanFou_source_e702aaee14ae1c8e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "469003dab0f77737eedc75812a8415020d92ae9b580d51a4c917489ca904da6c",
+        "bytes_sha256": "afa89cb65a8a9a2482f79aa48c5e6dba905a86e1b66f2441ce366de9effd581b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/FanFou_source-srs_382ecba2e5ef4c8d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4fc578bfbc763fbc6e32450fd5872064e3e5ed5047201408028d000c3cdcc079",
+        "bytes_sha256": "eea69f61a533595335c7f25c9a2120b06a0d104978aa4e833f52497d482c6c74",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FanFou.list"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-08-27T02:15:49.843138+00:00",
+  "client": "Mihomo",
+  "rule": "myTVSUPER",
+  "rule_updated_at": "2026-07-26T06:57:33.962627+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-KEYWORD": 2,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/myTVSUPER_classical_bb2823d2e992baf4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc58c0fe591daa498141d3560ea18f1495e5fe58a1af396fe4b4c87b9b33437c",
+        "bytes_sha256": "356f78996aad428c2ab29f43ef7efdf5ec669653781ff240c041632c4f192666",
+        "semantic_sha256": "eaf4a7a00cb9f3b087cc465c3b8b5ab850e8eebdf3fcb7944da5036f767e7429",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/myTVSUPER_domain_d2c5c3c352790b08.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c8d5aa16b5d498e664bbc8dd916727c0523b08175d83d387fd3d78d4a04bce4",
+        "bytes_sha256": "c3ce91f2903214860d3e40746e18ac8dd9577134cf77ffe4bd43605d8e978ae9",
+        "semantic_sha256": "447d252418e7b9f577fd4f0aeac390e913ae73897782ceb274bba08e90f2ff7c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/myTVSUPER_domain-mrs_8c928227ef3fec40.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "806cb8dfdb8b3646799188f2ca606fa2c6446120b6ac31d057d90fbe22377362",
+        "bytes_sha256": "9213ab4a42da9485a2d25eafb277123a59c76413ba05abd0b642bc4753da9dc6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/myTVSUPER_classical-rest_da3ff310758a31fd.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "96b6d891f9256a2c3b6d1db6bc22aca6f566e70e1d5ce28c1205ab338e7cf995",
+        "bytes_sha256": "0f63f9674d835cbe8264d5381e9051bbad9abc3025388554217ceee2ff7b8f14",
+        "semantic_sha256": "4c53e162295ab1950151eaee6e74df8c167dd78add85734f9115455d083166c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MyTVSuper.list"
+  ]
+}

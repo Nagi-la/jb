@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:07:19.847911+00:00",
+  "client": "Egern",
+  "rule": "AppleDev",
+  "rule_updated_at": "2026-08-07T02:23:04.717047+00:00",
+  "type_counts": {
+    "domain_set": 15,
+    "domain_suffix_set": 40
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleDev_rules_2128080cd89f2ac7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d86ef53440e13cf80b2fec77d0e83bedddba2258b0e07b04741081014f77d4d4",
+        "bytes_sha256": "951285013ddf32475f56cae479e60e8ae41dc264e8a3e595971caa2d86f25780",
+        "semantic_sha256": "1e0fc9d62acee0f088df6fa4e695fe1356d28ecda38392bd4a752657d9327bb6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleDev.list"
+  ]
+}

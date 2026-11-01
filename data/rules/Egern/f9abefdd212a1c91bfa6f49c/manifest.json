@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:16:15.042656+00:00",
+  "client": "Egern",
+  "rule": "ZeeTV",
+  "rule_updated_at": "2026-07-26T06:23:06.851105+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZeeTV_rules_c1a3d94bf836ea0c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "215214841ddd677f7c4abc2a5b8957f505fc75710e0bb4dffef70829ea562a0c",
+        "bytes_sha256": "a27e6b41bef504fe57694e44c20b79c731fe93d212e6aec9ea1d2f8f45b771f1",
+        "semantic_sha256": "b44ece56fe471d1616e499a2e5d2378177569e3f30bbbf36d95fd0efc3cffc1c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ZeeTV.list"
+  ]
+}

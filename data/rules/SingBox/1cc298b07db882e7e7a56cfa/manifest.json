@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:16.321865+00:00",
+  "client": "SingBox",
+  "rule": "Python",
+  "rule_updated_at": "2026-07-26T06:57:08.673043+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Python_source_69154d83c90ea586.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3719084bf06999546980232c9faeef94db2bca57fb8f036f463f80bd39d787e8",
+        "bytes_sha256": "7065ec62d5b0fcc684f4e108e97e44fcfedf3a1d554dc2cd933e50070a817fa9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Python_source-srs_1ce5c7f01941b24f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cc637432faccfe2b1cbe1bf548a891d7f8d8061095e9f8780d08826a9e0b32d0",
+        "bytes_sha256": "32ca10e97d8c89dd8353806f13f560fa77320f772ccc4bf84dd16a00c9da4c7e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Python.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Python.list"
+  ]
+}

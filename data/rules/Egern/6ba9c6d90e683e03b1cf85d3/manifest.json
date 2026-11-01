@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:58:26.643291+00:00",
+  "client": "Egern",
+  "rule": "Line",
+  "rule_updated_at": "2026-07-26T06:33:51.622618+00:00",
+  "type_counts": {
+    "domain_suffix_set": 21,
+    "ip_cidr_set": 20
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Line_rules_bb1c6948dbbb05e1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "289083787232124e75ed6502ebf9f2714faaa9b20981b0f85bc78e019e1a0534",
+        "bytes_sha256": "70a1772affcd276466b1d0a35cdc636b53e42c6fffe2a6d795426831b5808cde",
+        "semantic_sha256": "4e9af494a6c8db38f06b1a5db92a9b171ae1890139fb4258c94f98f342a5e671",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Line.list"
+  ]
+}

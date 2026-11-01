@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:55.961685+00:00",
+  "client": "Stash",
+  "rule": "CKJR",
+  "rule_updated_at": "2026-07-26T06:23:26.576923+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CKJR_classical_62bc2017765b17ef.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a95939b583a503a55224c2efbb0f2054a51271372bccf0ea2f060b5fad32104",
+        "bytes_sha256": "70e1c00d07c43b3c32787a9a98ed396963bd673535114fdde18dea66bc3f6d13",
+        "semantic_sha256": "4efa80d1a21820df7ddcc7c235a338810a2dfb92f933976139f3dd384259935e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CKJR_domain_330e0f21779e05b7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2cf06fba067d5bac75f7a81f2a7e43fe40161c11660055142c4559ca875c49c6",
+        "bytes_sha256": "6b492bb58e2dddb3dbd4d6ab4f6cd5e564a8523d2486948410db2a908dcadcd1",
+        "semantic_sha256": "e16d6ac93a5e8f34165afc9e1b0c478e4acce7a32cd56eeb8ff7989d2d3413d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CKJR.list"
+  ]
+}

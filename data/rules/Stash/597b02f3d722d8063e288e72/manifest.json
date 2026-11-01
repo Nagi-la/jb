@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:14:31.494554+00:00",
+  "client": "Stash",
+  "rule": "All4",
+  "rule_updated_at": "2026-07-26T06:21:23.598251+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/All4_classical_98ed72df8c31d03b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "871a8cff4834a8c2709c69d5d24ba4d7f511f8c6ce5baeaef1573c1cc5126a60",
+        "bytes_sha256": "ddf79489c9c5d3b5cc0cf8336f8c169d66b12146c2d207704c2215075f81f34e",
+        "semantic_sha256": "4adaf523da268d6b58a3984f58be4d6d5faea6ffe0d01fe78f052adb716fd96c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/All4_domain_0adea14621322fcf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75201d21842f6904d0b2ccc19be3292b999c7324bd7722690d4df242ab848c41",
+        "bytes_sha256": "57b6d238569f80885dbab874a05f5c3a82ed8eb21972ba5a10e4a5786145354f",
+        "semantic_sha256": "e2517c2c5ca4f19225db46c5aa1fa2ad2112d184f27ef7ad674629dce8f78e43",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/All4_classical-rest_f1862803fbb7394f.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c42582a7c525a4dbe9a315da6e95690c998480997d746e6c6d9ce71191e2148",
+        "bytes_sha256": "2b984e5a18235da5aefac24a308ea4b05fa03d691f8c5c7713ecaa40513fc2e5",
+        "semantic_sha256": "dba1211a4150e16c7d7f32c04a4c2d3169933dff86570601be3ce309fd668e5c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/All4.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/All4.list"
+  ]
+}

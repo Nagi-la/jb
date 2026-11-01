@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:05.706594+00:00",
+  "client": "SingBox",
+  "rule": "VoIP",
+  "rule_updated_at": "2026-07-26T08:27:42.547494+00:00",
+  "type_counts": {
+    "domain_suffix": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/VoIP_source_654c329a6c33bee0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aa00609106466cb6e41c76245327bd8cef16b4a3f91771256fa84c0cb8f97fb7",
+        "bytes_sha256": "69fd95731db940aa7172dee9a50865a2856471b15467171f74f92f124de188b1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/VoIP_source-srs_b1ac11a15f24a585.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7ead7ff881206e042bab68af53b4bb2e52b9a93b254d96358160a76d0285ba25",
+        "bytes_sha256": "b4cdefdb1426ba47be96f6672f4f5602864ff8b581259a2a80eb5da215b73132",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

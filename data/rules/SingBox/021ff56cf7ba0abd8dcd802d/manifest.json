@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:01.714774+00:00",
+  "client": "SingBox",
+  "rule": "SuiShiChuanMei",
+  "rule_updated_at": "2026-07-26T06:28:09.940999+00:00",
+  "type_counts": {
+    "domain_suffix": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SuiShiChuanMei_source_b1713780203c3ab1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "db9e68efa7d1ecbc18ea8f90f37c7cd74d51c84792d46c956798a5cd441fdf1c",
+        "bytes_sha256": "036d9cdd77a3eb6f6cb8e064dbbc553035ecbf4019561ba3723227457b08004a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SuiShiChuanMei_source-srs_84a115141085e240.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "882e0374f2f704e437cf42131d7375b4058d0f9a7ba96a70030e3c8494a44010",
+        "bytes_sha256": "7954a8c2ea1443b51d750358c7757242d8a214d8293edeb2bf4893dc1662357e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SuiShiChuanMei.list"
+  ]
+}

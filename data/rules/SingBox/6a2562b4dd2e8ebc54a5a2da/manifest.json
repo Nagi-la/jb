@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:57:47.327863+00:00",
+  "client": "SingBox",
+  "rule": "4399",
+  "rule_updated_at": "2026-07-26T06:39:34.522620+00:00",
+  "type_counts": {
+    "domain_suffix": 63
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/4399_source_cb613caa22ced67c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "afb1931a1e4eafb6b42b94cf34ce330104d0dc99cecc7c8068059d09004273f0",
+        "bytes_sha256": "9d996ca21d15aaddc59b3bdf177e028b984870435c3cb921abde0f237875fd7e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/4399_source-srs_4934f208d841ffc2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "978534010e5e0c7e5efcb0021d35522dcec82ab0adf937e9ec7b8f8b9bfd940b",
+        "bytes_sha256": "88365a380a391cd68453ddd811e69a01c56acadccf41d6f90f362f51ac7e7530",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/4399.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/4399.list"
+  ]
+}

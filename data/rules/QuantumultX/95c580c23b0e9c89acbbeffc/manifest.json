@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-29T03:30:55.180664+00:00",
+  "client": "QuantumultX",
+  "rule": "Anthropic",
+  "rule_updated_at": "2026-10-29T03:05:26.940609+00:00",
+  "type_counts": {
+    "HOST": 8,
+    "HOST-KEYWORD": 3,
+    "HOST-SUFFIX": 33,
+    "IP6-CIDR": 1,
+    "IP-ASN": 1,
+    "IP-CIDR": 1
+  },
+  "total_line_count": 47,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Anthropic_rules_c755bfcadd066598.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c30caafe3f4ff9cca442d47c17e772fc021129135db69aa523ac3adc579f0c9",
+        "bytes_sha256": "09c67f5ba03d34a2bee4f4229fa8c3ecd18a9d6f9c8e4e22bfa7d4971b939dd3",
+        "semantic_sha256": "b9146575ef7df6592bf2723dba2a1ac880ec67cbeb51584bc8b9dba059ab1afe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/anthropic.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/Anthropic.yaml"
+  ]
+}

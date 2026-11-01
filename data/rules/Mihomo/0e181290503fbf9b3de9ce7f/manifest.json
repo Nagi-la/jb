@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:55:50.379531+00:00",
+  "client": "Mihomo",
+  "rule": "Protonmail",
+  "rule_updated_at": "2026-07-26T06:53:14.777031+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Protonmail_classical_86b6dbf33755a164.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2cd864ab60151758677bc52134b1103d0ee4fc7b25502a47c97ecb786150ea63",
+        "bytes_sha256": "55a8a79dd71c62491794270b87aca84e83f21be2d0a954dfab0ab51b577c7aad",
+        "semantic_sha256": "65d59114e93ef3fb196966bc6acadae2750adee5391ffe1ebd68cde01fb8cbb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Protonmail_domain_ab1892dd0b5810e1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a3d1041f2a89a0aba5b85822b3d9f4512414591abe63ef11021d575fe77a397",
+        "bytes_sha256": "c86ae59802616d2f61c8511043059a494d810a2b6f142fba9e5c97710db43a73",
+        "semantic_sha256": "3cfdc346da44d3355ca2d073eeabbaba3e0658c2dd4c7687127f68be29001cb0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Protonmail_domain-mrs_50cab53b0d561d7f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "af919d6eedb74826b119c0de4f1fb76899049c2ce205361e6f2a6bfd30409084",
+        "bytes_sha256": "75430e8e4d6b89943e7cefe7bf86a24d7f27d684a7de9c3750f38c9a763257d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Protonmail.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Protonmail.list"
+  ]
+}

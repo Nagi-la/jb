@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:34.526557+00:00",
+  "client": "SingBox",
+  "rule": "IMDB",
+  "rule_updated_at": "2026-07-26T06:29:34.449051+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/IMDB_source_80e12b8c7b5b0647.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "be91040c71fc825d9c810d038b38318f79948585bdd517210538522dfd6d5df4",
+        "bytes_sha256": "eddd6b41e54a45c170c1e34491d247fa3a2badba4fa6abb18122e7710adb5d93",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/IMDB_source-srs_8bd743144e846078.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a9317551a8391928595136dcee875b7c7ec2d769c2c1a7956e7f8a58ee5ed815",
+        "bytes_sha256": "041cc417e30425d1cab762f2268749d67ce9ed518387713cf705a3f031bb3eec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

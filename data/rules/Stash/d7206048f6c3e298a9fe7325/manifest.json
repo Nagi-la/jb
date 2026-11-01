@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:06.854199+00:00",
+  "client": "Stash",
+  "rule": "Kantv",
+  "rule_updated_at": "2026-07-26T06:22:17.237572+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kantv_classical_6f6c605f277cebd7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e32a58019ed521c8bd52cb6942af139820d68c62c0207e3769883074d1cfc47e",
+        "bytes_sha256": "84a4e52ca634841af8e1f322f6702736e85d4c295f01eac90cadf83c440f74d6",
+        "semantic_sha256": "30df65a83baaf7a4b98441833a0a462983734c0c9f72394ee202c19e3b011ac5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Kantv_domain_c94c326a05d3724a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bbc9fe3e212484cd165272614c5096567ddac8815864e03de7ea9dd45b43a34",
+        "bytes_sha256": "67fa3226c68ce424851e79d8f735b4c0a74aaec5f296bac64be9f833fb6abc58",
+        "semantic_sha256": "78ce9c1616af844116e26627a4e119c65c80d68167eadccc2158ddabec5dbdb1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Kantv.list"
+  ]
+}

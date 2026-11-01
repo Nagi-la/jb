@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:09:10.648673+00:00",
+  "client": "QuantumultX",
+  "rule": "HanYi",
+  "rule_updated_at": "2026-07-26T06:25:14.528668+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 8
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HanYi_rules_b997daa7380ae341.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7c6ced4949ade13475269fd93e24ee81112db6379ccdf8245868340e16439c2",
+        "bytes_sha256": "837690f1a221877517d307bd5fff29ab9033b0c92d8c51fe9b064683bf6229bb",
+        "semantic_sha256": "1043ef474dc7c2aa99c61e1e05daf715ef301bdccd43f3d6bf822089e4345c86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HanYi.list"
+  ]
+}

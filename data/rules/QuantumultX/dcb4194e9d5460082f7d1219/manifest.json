@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:02:17.424401+00:00",
+  "client": "QuantumultX",
+  "rule": "DNSPod",
+  "rule_updated_at": "2026-07-26T08:32:31.457655+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DNSPod_rules_b74de2e6667766b6.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a69d37530b23049993cc72a0cdb56790a511fc919894fe4ec79c617073fe5ca2",
+        "bytes_sha256": "896668fe52b1d6856272dcc6a027d5ef48dceef373813919398f00ec710a5f36",
+        "semantic_sha256": "d60ebfc9012936c3246c584cd429bcefcca4d58947b681370327321286c75da6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

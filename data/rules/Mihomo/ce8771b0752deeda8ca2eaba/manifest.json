@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:00:42.941320+00:00",
+  "client": "Mihomo",
+  "rule": "DiLianWangLuo",
+  "rule_updated_at": "2026-07-26T06:57:04.600463+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiLianWangLuo_classical_92755ae260185236.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b309809cb9aa765806367ce0729acd6a9e16f7ad08b6783d93d007761d53d10",
+        "bytes_sha256": "03cac6b25f53b508442805801b168fd967a980ede51238bb89440c37cb8b1a8d",
+        "semantic_sha256": "f5ebb4366064613fce70496312d9a230242653056697f8363827f73837174a13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiLianWangLuo_domain_be69f3cd1f435b2e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e29a912b84978a1c923efc2919d3059c1a9901e5eb452ba00da6c13767b8302d",
+        "bytes_sha256": "fd782ccee939a541a3b2a5ea720f7e6d7485b2ae2798e7b5f9088dc2bed8671a",
+        "semantic_sha256": "093788d280156fe5637681d5b7e884f26372b6619337da58ae851b028273bab2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DiLianWangLuo_domain-mrs_efef268bae1326cd.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "61e3dbd83188c6a30994e356bc615b6f17de39b0b64d3dcce211e22683fed8da",
+        "bytes_sha256": "afccfa9c22f9a3689e57049b6797472928056869506f0cf7de121c08d752f44c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiLianWangLuo.list"
+  ]
+}

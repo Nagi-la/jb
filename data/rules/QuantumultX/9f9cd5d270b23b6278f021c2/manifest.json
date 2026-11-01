@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:59:52.136821+00:00",
+  "client": "QuantumultX",
+  "rule": "DouBan",
+  "rule_updated_at": "2026-07-26T06:24:42.112582+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DouBan_rules_0fb34d449fb84b2b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c84c1830dbb15de91b2cf6f3ab19ce70490ae427d734e030b1f7895c8ee8e115",
+        "bytes_sha256": "1d35dc2fa34a6bcaa0b63441a77cc02a9b24f0abe1df9fd89f146103e263e53a",
+        "semantic_sha256": "67ebebabdf9c5ae13186d5123b5e91612b72dd82e2da4cb7f4803bb5d9673004",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouBan.list"
+  ]
+}

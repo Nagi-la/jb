@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:12:12.763405+00:00",
+  "client": "Stash",
+  "rule": "JOOX",
+  "rule_updated_at": "2026-07-26T06:22:11.047841+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 1,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JOOX_classical_39013367803c5f75.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b14c7e27339f7b34caf751b2221e0ac945305881974fbad1d137d2a8c7cf3a09",
+        "bytes_sha256": "2a3f9e3c75b019252a0348022f3db7cfce1fcb9bb33094c9fbdf76193f769adc",
+        "semantic_sha256": "4edc0f7fbe13cdc87b07746498db6e83e7f3eac2c59afaddf07da4ddf3803803",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JOOX_domain_7630d5c61514c18c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e85dea342562410129c7fd25a00f007a1fcbe346ba3694093ad566253c61ccf9",
+        "bytes_sha256": "1032171d39013816f48fe80c73af28b452d722c84ad38be88776cc14de642e76",
+        "semantic_sha256": "866fd4ee3910628dd6772730152781a1ab40f80a170e24301489d306deed7498",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JOOX_classical-rest_587c81331867ff08.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d044cda15cf0d48dcb9965dd6710f0e68e3974fd1ae8e483ace49eb8aa423870",
+        "bytes_sha256": "64f2360db2dc8221036c600d149084c77f650c969c1ecb5159274e0c763f12da",
+        "semantic_sha256": "477ed785005d56dd239be3badee2813281aa153a43629048942e35d75de03eea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/JOOX.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/JOOX.list"
+  ]
+}

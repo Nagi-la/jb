@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:20.992511+00:00",
+  "client": "Loon",
+  "rule": "AppleTV",
+  "rule_updated_at": "2026-07-26T06:33:33.086194+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1,
+    "DOMAIN": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleTV_rules_f9dcb0d2f34bf797.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3f086883cc985386a6af4f154657d8a563a74ed2afaecf7462d638725ffb2092",
+        "bytes_sha256": "3dfceb9412da538cf0216e7b7724a73891b7b7b19859947c430b5cc8143313db",
+        "semantic_sha256": "3c885599accdd235a2a1d7bb6e3544e4cb0c1e714b06befb7e8aabb98fdf4a7f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleTV_domain-set_c67113fff821b458.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40e2abe317e54d57398832aa7c8d3983aa53c940a0ebe09bb86605aee86b5477",
+        "bytes_sha256": "c4ebd665b0289185e2b6ab5d5a7c3f6d7b59b2292c1c9cf0fedf604ea28458a1",
+        "semantic_sha256": "fc7fab9687e7831bc1feb3adb700cbd419a5235acc8bab9b632c31842e98c48d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list"
+  ]
+}

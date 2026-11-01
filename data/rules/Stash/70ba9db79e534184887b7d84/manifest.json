@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-29T03:31:55.077852+00:00",
+  "client": "Stash",
+  "rule": "Google",
+  "rule_updated_at": "2026-10-29T03:07:14.417938+00:00",
+  "type_counts": {
+    "DOMAIN-REGEX": 2,
+    "DOMAIN-SUFFIX": 934,
+    "DOMAIN-KEYWORD": 6,
+    "IP-CIDR": 2,
+    "PROCESS-NAME": 5,
+    "DOMAIN": 241
+  },
+  "total_line_count": 1190,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_classical_929223864b74335e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5effd20f3f7c362196c76ca503376b3b0ab3a84feb3eabefaeae39b582591a5a",
+        "bytes_sha256": "9acd761a514e7a17ae78dd09faece239e04b6bca463110011de423c748da68f4",
+        "semantic_sha256": "b5c9b395900b10acee9c76d01cc233ab47717cfcb5eb0db5fef3599fcf2df2a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_domain_5b7a7b12707cf566.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c9485d027fcb21c8ea23cf63f9216c5cc08dc7cec0bbc4def1f172ca03f7e48",
+        "bytes_sha256": "b59ddf0c291c3c177b726a8abf152320817d0a9e8ba3c87ad911a8d6496ccc69",
+        "semantic_sha256": "0ac83a118d655491879591cff064645e85626001607758ceb6c1d536deb4fdf9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_ipcidr_12dc86f315b7fb02.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0ee098722c6a38730b742cc63d7dba9e285ab2b8f4c5b5abfb569b3d8f77d3d",
+        "bytes_sha256": "f0e9772eccd1517f55309bb4ebebc118d2249414b5999b8c63445cae54dae0e7",
+        "semantic_sha256": "514186eb6f0737bc36c0832d6fcb01ccd0093cd2989d43be3485353eda879ce9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Google_classical-rest_1cae79dcb46b07f6.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec364cc4ea34a10a7c1a8b46c0518218919270b9c3cdbe6de6037d7737353b4f",
+        "bytes_sha256": "13847e293b6398c5ae99f5b1150badb9c350b1317193c35efecbe46d21ff82e9",
+        "semantic_sha256": "53aa3e197d1c72616b7d16cebf191698b539ea136bad622c73feed15b8e22173",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "不含有Youtube分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Google.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/google.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list"
+  ]
+}

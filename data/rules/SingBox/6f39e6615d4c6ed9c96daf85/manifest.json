@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T01:58:30.674348+00:00",
+  "client": "SingBox",
+  "rule": "NetEase",
+  "rule_updated_at": "2026-08-01T04:37:55.970356+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 158,
+    "ip_cidr": 30
+  },
+  "total_line_count": 189,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NetEase_source_1fe5ecf835b59f11.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2dccd367bf69ea638a9fc05e60f521c26d3b954cf1c4ce1e2bbef9b4bfa0e688",
+        "bytes_sha256": "9c3aead98c6c278b86ca58d2b9b74a60f596d5ab482c81bbad2592fa4b5e2afe",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NetEase_source-srs_8578b05e37c2b6b7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e5384e04aa128b7d60c9a8761a3aa70ffb3c82752e865f420ca6534d0fcf1d00",
+        "bytes_sha256": "7acab070035c5a960ea6eec49850684a0900e7cb9acfc8490fe1ee560fc19d08",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:11:43.494583+00:00",
+  "client": "Egern",
+  "rule": "Bahamut",
+  "rule_updated_at": "2026-07-26T06:21:11.033497+00:00",
+  "type_counts": {
+    "domain_set": 3,
+    "domain_suffix_set": 3,
+    "user_agent_set": 1
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bahamut_rules_d9c6b9f8635692da.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3f8cd21111516e1622ef96699d830cb14e59e35c269804753fa3e46db7b57990",
+        "bytes_sha256": "6f78a6bbb8d60d2bc74ef2f4e3ed6625e82801157b1c054ae4c9c35e9b5dc604",
+        "semantic_sha256": "6291ac8540a94197953ec4e7338d144c6a35acd9476f0df9f9b6854f2d1fe401",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Bahamut.list"
+  ]
+}

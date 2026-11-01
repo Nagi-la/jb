@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:09.327086+00:00",
+  "client": "Stash",
+  "rule": "ChangYou",
+  "rule_updated_at": "2026-07-26T08:31:41.992860+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChangYou_classical_e1f05115fb555f38.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e6caaf5af92416682fa0be9adbdb1ba3a976f464981372461d6eea6d342b6b7e",
+        "bytes_sha256": "038cd9502a1a1395edd676b9a2cea67532cd508c710e0306d968b31352f5602c",
+        "semantic_sha256": "3984b9a77387d72e754ad31082bbbe56c755a2206b118912c892adff6d79268b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChangYou_domain_17179139e1eda2d0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d48462335877283ba9e7955e9c6c28e2dd46953c2516d16760587195af7a1535",
+        "bytes_sha256": "f78a30560631b5e8740736bfa029a9e45fbf03a53be66fc0fdb4b53f8f3dcb91",
+        "semantic_sha256": "4be144ca1ef881dda613baf543b00ac7296ab797f0273317f4cc3c91dc77c41d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

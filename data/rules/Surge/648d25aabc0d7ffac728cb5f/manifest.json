@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:31.494725+00:00",
+  "client": "Surge",
+  "rule": "Jfrog",
+  "rule_updated_at": "2026-07-26T06:50:47.243874+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jfrog_rules_74da16bdc9321ea4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf6eb630885413c81f3bd2b3e08045cf476618e4acd94f441b6bfad5e5d6bacc",
+        "bytes_sha256": "b76c09a2b80e88a55010ecddb5a5fafb2abe03276a331a8d58126646d53aa914",
+        "semantic_sha256": "16329a98f3ae0347e03407100a7dc774b218ded64e8999a5f59d4f4b71378b25",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jfrog_domain-set_847df517cfc166a0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39d6d5c4d2d28cd69960e286e65b40d0bc300968d684347f7dd57640c4734024",
+        "bytes_sha256": "4dfd86cf883a1c78e9134a7f2943c2f21234b1f85aaf84fdac4885357aca4ae6",
+        "semantic_sha256": "06425e47caa73b94f455b20e67f616af2d0c9a149b10d4e91bbc8853bf4a06e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jfrog.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jfrog.list"
+  ]
+}

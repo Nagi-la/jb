@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:05:36.000310+00:00",
+  "client": "Mihomo",
+  "rule": "Shanling",
+  "rule_updated_at": "2026-07-26T06:27:54.311493+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shanling_classical_7d3aaed82f4b239c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ec636b5658adf651970e34d9e7f2fed231bf1cb8fd509dff8355c430ffd286d",
+        "bytes_sha256": "023f456b104680e363283f1fd62fabfc4a941cd41af0842653ae8941fa73d0eb",
+        "semantic_sha256": "3e956af369b70bf607fa4b5358f0fcdf153f63f3ad9d214ecd42fb0d02580bd4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shanling_domain_9dd5c4faa97b98af.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9e69b3075755bc5106aa9c4600d23600f50c575ad021509afdf46af520b7da70",
+        "bytes_sha256": "0a762871701919ed57fd48ed9f74d6fee0539f7a2f59011e75ee617621807c94",
+        "semantic_sha256": "f9ad5fb662eedb6d77e1e5eebecfbab1b78e70db18829575e1f894417271175a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Shanling_domain-mrs_b445eef9c3ea6d54.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "89b0a12fb62abe85be348a868058085e9c45ccc196caf09e95d8455792346139",
+        "bytes_sha256": "b85a711a9e3d731a5652c85b95d7c0af49c265963b8c3b980ac7da4d7f145031",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Shanling.list"
+  ]
+}

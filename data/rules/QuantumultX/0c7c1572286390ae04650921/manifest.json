@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:15:35.819053+00:00",
+  "client": "QuantumultX",
+  "rule": "Hijacking",
+  "rule_updated_at": "2026-07-26T06:31:02.435668+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 177,
+    "IP-CIDR": 43
+  },
+  "total_line_count": 221,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Hijacking_rules_be4d7c0675c30a45.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "277a85511f380936dbe6198388c226eee5cfff0f76939b6cb2d86fbe976ce9cf",
+        "bytes_sha256": "44b6d468dd3cf7fff9bba6d8674e49faa7633661c4d0bda68c257eb72ca39956",
+        "semantic_sha256": "e2a0da54070247f3ddef391a31bd781e6579f0dbbf588f83dafe684a6fa0e534",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list"
+  ]
+}

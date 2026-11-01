@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:27.457944+00:00",
+  "client": "SingBox",
+  "rule": "Assassin'sCreed-Odyssey",
+  "rule_updated_at": "2026-07-26T07:00:12.590764+00:00",
+  "type_counts": {
+    "ip_cidr": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Odyssey_source_60580143c0fffffa.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bedb89600887c234305ce0dac008c00945e2d559df9a8548adc8d0ff99388518",
+        "bytes_sha256": "869ddbc60a6a8ad4f7803c5a1f58e5222c0403e21cddefe8621e3a317384a739",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Odyssey_source-srs_3f3b4ca2471af7f4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9677d5f0e97423c605395437ef3aa0b7ce86746eabd98afda1c7e5fe5ceef5f5",
+        "bytes_sha256": "e3bdf94c4ba9632f8a363960ca6f16a274293a45f8c74c231ffc9d222927fbe7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/master/rules/Assassin's-Creed-Odyssey.rules"
+  ]
+}

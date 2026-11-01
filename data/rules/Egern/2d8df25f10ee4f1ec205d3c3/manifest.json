@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-29T02:37:22.927092+00:00",
+  "client": "Egern",
+  "rule": "AdGuardSDNSFilter",
+  "rule_updated_at": "2026-10-29T02:37:19.180742+00:00",
+  "type_counts": {
+    "domain_set": 181,
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 185,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilter_rules_2e20369e532c0ec2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e974dd1294a621fadc5d989222f3f10c9bc6e5ad6d3fd7d52ebb56084699f537",
+        "bytes_sha256": "50b87b9c17764efabdc0cd061ce6652002780ce5e9be07871986ba5b8b94ee77",
+        "semantic_sha256": "a8955d5b5cc11f94804430596af2bc21c3f4d24dc84c979e06a2e8dded13369b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 规则！！\r\n\r\n建议搭配子目录下的Direct进行放行！！\r\n\r\n实验性规则！！谨慎评估后使用！！\r\n\r\n如有异常请反馈！！",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

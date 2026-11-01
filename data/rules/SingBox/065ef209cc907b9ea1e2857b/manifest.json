@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:19:20.049650+00:00",
+  "client": "SingBox",
+  "rule": "SmarTone",
+  "rule_updated_at": "2026-07-26T06:54:23.960571+00:00",
+  "type_counts": {
+    "domain_suffix": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SmarTone_source_7fd7cd0f7db25164.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "647abf5b141bf67a606f3f037f44faa5b92a87c1135ca162b80b9a9eddbcf845",
+        "bytes_sha256": "ae2c6b5f966d64fd976a9bb9c60a1237de5c10745e9656b8c8917d4d72670643",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SmarTone_source-srs_c353ed684defbf4e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "efb84eda254d1f40f15c28940fe4823e08b35c0c637081881ad1bafe913fff35",
+        "bytes_sha256": "bc8c25bff17204ebc27619d34f049f895a474bccca4190170f45d45eb26fa0f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SmarTone.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SmarTone.list"
+  ]
+}

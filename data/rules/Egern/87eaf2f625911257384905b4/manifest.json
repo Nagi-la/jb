@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-29T03:13:48.086824+00:00",
+  "client": "Egern",
+  "rule": "Spotify",
+  "rule_updated_at": "2026-10-29T02:37:38.215494+00:00",
+  "type_counts": {
+    "domain_keyword_set": 4,
+    "domain_set": 10,
+    "domain_suffix_set": 23,
+    "ip_cidr_set": 1,
+    "user_agent_set": 1
+  },
+  "total_line_count": 39,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Spotify_rules_06730c5a0f376ce2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46de1f7355ce39cb12862fd7de502c48d7d5dbe049d8deaa954f3b00d9ac0114",
+        "bytes_sha256": "f4d3a5915574b12950e3349a9a5ee410721d7edf6391534de8bb957f84a98515",
+        "semantic_sha256": "bf29dc889cb4cfdba0f6e818567316a680adaee40f759bfda5cbef11783f045b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Spotify.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Spotify.list"
+  ]
+}

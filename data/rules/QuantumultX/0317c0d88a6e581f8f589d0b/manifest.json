@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:16:03.127751+00:00",
+  "client": "QuantumultX",
+  "rule": "Logitech",
+  "rule_updated_at": "2026-07-26T06:51:14.143614+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Logitech_rules_0c5fcb7849e29f07.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e4b3c62c4a9ee5e7f9801569b92b68dee3b57ab1537999dd3756648961238f4",
+        "bytes_sha256": "afb8ee03ddf5b19d54d359fb3dc96d35889c445e9e43ceedf1b5599d839ab532",
+        "semantic_sha256": "0048194d3ff6f0065b56e9f17125c813aa4b3f4d665969aeed1088f3a2e8e8a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Logitech.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Logitech.list"
+  ]
+}

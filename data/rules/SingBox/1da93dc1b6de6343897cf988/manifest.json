@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-16T14:31:43.938997+00:00",
+  "client": "SingBox",
+  "rule": "ChinaUnicom",
+  "rule_updated_at": "2026-10-09T15:59:09.285218+00:00",
+  "type_counts": {
+    "domain_suffix": 47,
+    "ip_cidr": 1
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChinaUnicom_source_7f03d22e41714092.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f6d8e9035cb2d92e2c5ea1881cd31c5ed841e1187f636a3d4f072ec99c1a2d6b",
+        "bytes_sha256": "a291dba8df06bb0568a0c96550fedaa330d8b8611cbc8b1cbda4a5fa93734ce2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChinaUnicom_source-srs_2a1e2e9633989105.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7e949e86d23dd46c8e3cfe08b09bd1616fb75dcfcebf621caebc0286fe891c45",
+        "bytes_sha256": "91067ab4ba4cf12e71849d7a3f25d92674868440a5576a175b37e312f6897c11",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaUnicom.list"
+  ]
+}

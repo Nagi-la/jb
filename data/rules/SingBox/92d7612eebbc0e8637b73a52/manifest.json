@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:03:10.946621+00:00",
+  "client": "SingBox",
+  "rule": "Emojipedia",
+  "rule_updated_at": "2026-07-26T06:29:13.441271+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Emojipedia_source_5a667065d21c09f4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ea061ee7f6ba8dcfe617652eb30f4ed1f6a0d30b86168d25cc9d04e18064412f",
+        "bytes_sha256": "a75c3331ff18692ad63da7c7b3bcd18ce64646f6c5b380b1cd178a84cfa68279",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Emojipedia_source-srs_731f21eff3695a1f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "850741ae4516bdcc8a6f6dfb70ab4d3fbab25d6abb2935c7dc0fbbef6974a74c",
+        "bytes_sha256": "d05d9d6def590e7f9c2f52f01949e059be6addc4a2b3fe8bb879e8ae4111d2c3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Emojipedia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Emojipedia.list"
+  ]
+}

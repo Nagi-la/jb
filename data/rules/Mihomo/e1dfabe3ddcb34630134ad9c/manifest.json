@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:57:44.713408+00:00",
+  "client": "Mihomo",
+  "rule": "TaiheMusic",
+  "rule_updated_at": "2026-07-26T06:28:20.058675+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiheMusic_classical_ad77356c8695b34c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f21f93c962493fbac646ed2ab930f1c4e66b373eb34657d8147ae3afd6024634",
+        "bytes_sha256": "74d1c492f2b554281f060cf4bdfaf50bb2829f3931ba255e9cd6340d93b34581",
+        "semantic_sha256": "27fce8d6ff55075bfced95eb1d7b937c6624b91cc9738e982fc13d65b690a11e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiheMusic_domain_762ec8d3bb93c0ed.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc1e2a8f4e4cce8db55fe3cb6d595bc2e3aafb902a6a3d39d3523e020d4f0f67",
+        "bytes_sha256": "ebd4c2d9ea8d12c52b5514bfead2dc205bdd91c0036d6a266cd6b5942d120521",
+        "semantic_sha256": "0951c70d0f7bb502d6ce758826b1b67f9cb63b5ed7debb7e36e75efe18b458fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TaiheMusic_domain-mrs_fd72076b46f0f8e6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0e086e98d9dc7129539ec3542f7ef2ec646e6676956bbb831197b678b18ddfad",
+        "bytes_sha256": "8c9d7fbb9d1163828a9f8493041a65e533d9130f9aa4eb84ca2ffa370b07b483",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiheMusic.list"
+  ]
+}

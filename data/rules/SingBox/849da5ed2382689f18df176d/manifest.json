@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:36.715291+00:00",
+  "client": "SingBox",
+  "rule": "Atlassian",
+  "rule_updated_at": "2026-07-26T06:30:40.519907+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Atlassian_source_9a12a1273df0026a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b17e1e882dd029c5323b497b1bd2b553c67a2b8ef5ee131e6550d882914fb73d",
+        "bytes_sha256": "da5aa30a6714b26370dd17ff3c55b30d54717efc4abea781c383e3e579f0008c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Atlassian_source-srs_28444c622d224c4a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cd946fa66ab1f5cb15f27c2a0a957d2d40f132c7c14082be5450840f5028e30a",
+        "bytes_sha256": "0fe072d14fc7f199560c247e0e6638c27290a3807f449a46763032fead95d43b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Atlassian.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Atlassian.list"
+  ]
+}

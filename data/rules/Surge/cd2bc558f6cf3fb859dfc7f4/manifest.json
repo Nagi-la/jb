@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:02:58.688502+00:00",
+  "client": "Surge",
+  "rule": "360",
+  "rule_updated_at": "2026-07-26T08:29:36.350216+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 286
+  },
+  "total_line_count": 286,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/360_rules_4609b91b510baf48.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "700d0884ea251c71f326fa73eadbe587009586854e0ef4c9cae2c43945d4a5bf",
+        "bytes_sha256": "5b23edbb05df36f252843a53b07ccbf99713f1bb67dc65754d90a2019848fe07",
+        "semantic_sha256": "428630540743ea54d7d3e25b278a54726d659a0354530513b75405003e0f698d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/360_domain-set_2e4d86e9a89807b8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75b82eb9cc39e77a043fdc13ff4b196fe305faa6005904d12d097c25749553b5",
+        "bytes_sha256": "1156570cace4e610659fe8aa430d272d0ba16556df298c9602147c63755b8a03",
+        "semantic_sha256": "855dd60168fa5dfbe9bfe21d0d91a90f60d78d76ad46f59221c22e97a3d47293",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Qihoo360.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:17:36.929710+00:00",
+  "client": "QuantumultX",
+  "rule": "Gog",
+  "rule_updated_at": "2026-07-26T06:32:08.167885+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 11,
+    "HOST": 3
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gog_rules_ba0321e9e5325d1a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "570403d3c9686dc31e3ceef7fb23a840f3b39612ac453d936974558198a11345",
+        "bytes_sha256": "01bb48035efd39043e26c5276dfa17759d7bab57fdc51fdc3dfc61b8c65b176f",
+        "semantic_sha256": "fc6c0607b2ce76253315d363a7ce1894773f04469d0badfd999315ed4ac0bf92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list"
+  ]
+}

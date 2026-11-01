@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:08:36.723894+00:00",
+  "client": "Stash",
+  "rule": "Blizzard",
+  "rule_updated_at": "2026-08-13T23:42:10.710921+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 41
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blizzard_classical_bde1d03be004b62e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e10e54b2a0b61ed14a9eb45332fe12b787d7644acfd02b7bde4484a126f2fbe3",
+        "bytes_sha256": "fe075a09d3001038ffb90f5b25a060e1385ee45eee95948f2b6407f987d2ef3b",
+        "semantic_sha256": "62f2d551e8241c8e7149792f55c7590463a4f2029ecaa8001316fa2095d0d426",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blizzard_domain_74eb2173125217d8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee0d2f4a60bf11fbb21f2f5448bcb523f60eaafae6220cbf3c021ac1d1da7688",
+        "bytes_sha256": "fbad09836296198d8053bfb5ab7d80ced3d53d1d1c3c71321361b0b30a7a31c7",
+        "semantic_sha256": "61ba7cf93629d6724c69038d7404f97852ec819576438e53df9b0ee62d8ef0fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Blizzard.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Blizzard.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list"
+  ]
+}

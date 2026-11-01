@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T01:59:15.895744+00:00",
+  "client": "Surge",
+  "rule": "Deezer",
+  "rule_updated_at": "2026-07-26T06:21:42.953576+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Deezer_rules_d642445fc676352e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "541c670d0019454ecee679194c7df54b6bbd182cbd2baa8455c5f9870637b646",
+        "bytes_sha256": "272a89a2b54402808773b69c9f37384958cf506082ab794ebe3925b972ce99e3",
+        "semantic_sha256": "3b84d5859bbe4d7cae640914632c00cea0a057cc6df9a8f5f0601d6f2c86326c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Deezer_domain-set_2ccbf2bbc2465b3f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7b95746260a2c5af0f0649e292cd2934e331eb8f390992e0921e96d7ae0ad6d",
+        "bytes_sha256": "9ce4a1c6b4adfcf4085dad22aae6ca157ad7ac446f6dafe71116c822bb94c662",
+        "semantic_sha256": "dadd6bbf747fd6551b870fd8e433db17775f7dea61894d14a969e9fa87cd6191",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Deezer_rule-set_3563b0940ce8c0a4.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "38ca976ea34bb75675f376bf3569c545a9151b9994454663957a1087064774a7",
+        "bytes_sha256": "8c2bd27177f5962d42c066104d84b0d365f4ea1c10830a66cdc27c7e5c499bce",
+        "semantic_sha256": "62563c75acb8f6bc2d5777dea78fd06d5612332bfb0f125222327bdd01312fd2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Deezer.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Deezer.list"
+  ]
+}

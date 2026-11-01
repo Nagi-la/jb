@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:24.516766+00:00",
+  "client": "Egern",
+  "rule": "Jwplayer",
+  "rule_updated_at": "2026-07-26T06:50:47.760091+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jwplayer_rules_f4b8669caa07fd3d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cfa16c5f49b006ba453ec766c00980ebccd2bfcf4e15173a1d05101014446d1d",
+        "bytes_sha256": "86ac7139d84b99365e6869b10fe0426bbccf210c679e30c0ba60be95b6104762",
+        "semantic_sha256": "382e211b98e00abf6bba78d13cbba7cb1a608849456516dc94374512b6d7305b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jwplayer.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jwplayer.list"
+  ]
+}

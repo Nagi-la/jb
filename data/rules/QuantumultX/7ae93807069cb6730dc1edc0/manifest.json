@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-29T02:57:29.201107+00:00",
+  "client": "QuantumultX",
+  "rule": "Dropbox",
+  "rule_updated_at": "2026-10-29T02:37:33.099366+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 25
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dropbox_rules_a9b45d64639554bb.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7c256a04d773a522f9e50e7a4cde7ea71a4403f8ba5686d371711ca644d4140",
+        "bytes_sha256": "c6a29e40b2ea3cefa27e40ad3990dd7d61bb4fdb131e6da2d7c8a386fe1f38d2",
+        "semantic_sha256": "1c00a0b27ff03ea2000e912934fae5d688e99fdc347ee9feeb239c26f4499932",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dropbox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dropbox.list"
+  ]
+}

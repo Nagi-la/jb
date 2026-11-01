@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-27T02:11:11.745433+00:00",
+  "client": "Surfboard",
+  "rule": "Alibaba",
+  "rule_updated_at": "2026-08-10T09:19:13.314908+00:00",
+  "type_counts": {
+    "IP-CIDR6": 9,
+    "DOMAIN-SUFFIX": 1467,
+    "IP-CIDR": 139,
+    "PROCESS-NAME": 1,
+    "DOMAIN": 5
+  },
+  "total_line_count": 1621,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Alibaba_rules_797d7f257a40ca30.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7cc1492bc6b94c507e1020887e5d74a1c3327a635665246a039a168d24e7810",
+        "bytes_sha256": "ad8c873f3ad7e5a1272fad19ffbd3e1e5dfac484cd87b64b6e2c9845986bf571",
+        "semantic_sha256": "169656c1d9f4e62710403c70a4e534cf2e158fc88531e499f53051e91ad61aab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Alibaba_domain-set_e3bdc8693e87ee70.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23c3306b9c76aae6577edf9b1fdd764a12a9d26e17283c7d02015a7b0bfc6caa",
+        "bytes_sha256": "7f1cce1fc6e8e9a435d4803d7a6db2342e823c183b8d9cc3bd4c1f0858beb910",
+        "semantic_sha256": "e823ed57aadd6db9f88cfd363eee8bb7e4ab1e8e60940de21f6d21cf0f4b54cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Alibaba_rule-set_e41cae6b9d0edf21.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87fb4e326be9bcb9ab67620a85bd8dd105373217641ccd4636f8e00228e0733a",
+        "bytes_sha256": "9fdf07847e5928245dcf256f7b5850730997c991d701efc95bcd57d1aa854b81",
+        "semantic_sha256": "cf0aff693dc27eb652889f18229bfafa6bfebea1a9e55aacb2bb2b74869553ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:12:30.359711+00:00",
+  "client": "Surge",
+  "rule": "YouMengChuangXiang",
+  "rule_updated_at": "2026-07-26T06:29:40.995638+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YouMengChuangXiang_rules_17929858cce32446.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21b3941647809cc8fbbb521a99a51b4e9fafa624c626094924e74e4b1894749c",
+        "bytes_sha256": "76787fb97b57a63c457fae086fa0179b169406d174830b175d24f5d99b359554",
+        "semantic_sha256": "1cb751a8ddfabe996a2e5d4f3c212e092a82b7970615f4eaf3bfaa8d14c7b79c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YouMengChuangXiang_domain-set_491535c4d7c6ea18.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef5a67da5f886cba307de16c1504b5be74b5ee98d056a964f9725a5f07f2ece8",
+        "bytes_sha256": "67c0267d10f565b2077a49300cb5ba717ff35dcb9cdd2db95ede8ddfec287e39",
+        "semantic_sha256": "15d4e053d67379f3e8c14bd30df125c43e644210cda3247598b8da3dd2f41cff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouMengChuangXiang.list"
+  ]
+}

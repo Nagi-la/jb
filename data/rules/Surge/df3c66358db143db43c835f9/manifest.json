@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:38.772660+00:00",
+  "client": "Surge",
+  "rule": "VipShop",
+  "rule_updated_at": "2026-07-26T06:39:42.485480+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VipShop_rules_17cccd5f099b94f0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "266828975ee02e1e49aef9f3beaf80dd9f99aba7cd72db59dc290372ac90b4e9",
+        "bytes_sha256": "1fcaec6f6a95101ebff4a3c2df8aa41f3645bb880d6e13520b1eb453be1028d3",
+        "semantic_sha256": "4a4ad15b112b2f10d08bcf2a0260a355aace4cdf511fccd7f20060c9da5a3402",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VipShop_domain-set_dd52e70e175c7b0d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d8ff282a9ec2c1780f863463b80dc0bb8accf9d148395d8457dba0849e77c76",
+        "bytes_sha256": "a830b53401fd186c92b13f881b198c4611c05634839009ff04de236b7130e6c7",
+        "semantic_sha256": "b35d320d1b011707d4fe8f8f443953c6fd2b80648446aa0b8e939cd13da7e90c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Vip.list"
+  ]
+}

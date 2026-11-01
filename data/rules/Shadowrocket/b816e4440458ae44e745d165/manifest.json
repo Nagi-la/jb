@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:55.349227+00:00",
+  "client": "Shadowrocket",
+  "rule": "MeWatch",
+  "rule_updated_at": "2026-07-26T06:22:18.053113+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MeWatch_rules_03b433bac4472e3b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56fdd6c3f42011c8b4ecee9d6007e52308f87f289752e408206cd00a9967171c",
+        "bytes_sha256": "5ba50a41e719cfc68c0d1873df65590b0c87c9cb5d5191461c51e54bb12f597e",
+        "semantic_sha256": "4fe87e6f7e6dea9d5a18d388720ea1e15f17fbe5d5f5c20fcab64d3a2015ac10",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MeWatch_domain-set_7340ed3ed606d626.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2a9da32dd92f786526f27f33c82aa12488af745c9982feb23ea2f7990e034c0",
+        "bytes_sha256": "0c1b8c5a224d0271e78f7e8f931a1854e802ee103bedef56993447f5d0b3a386",
+        "semantic_sha256": "9e0aec7c5f7f9e08b8256be91e3ae8b283974eae058bd0e9c60b32e257bfc97a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/MeWatch.list"
+  ]
+}

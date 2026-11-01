@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:16:33.878044+00:00",
+  "client": "QuantumultX",
+  "rule": "IMDB",
+  "rule_updated_at": "2026-07-26T06:29:34.270299+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/IMDB_rules_876937fa2a2f6cf0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ff0b3a862d70ce31e4396fb3e13378bce4def507bd8b35eacc369094a80d050",
+        "bytes_sha256": "71d3de95ea59a15d6d1fa7fc28a0f789544512e80ea5afb9676798159105e4e3",
+        "semantic_sha256": "df6fded361afcc52e758348dae3ef516ead2e058688bd420d892402ad41c5868",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

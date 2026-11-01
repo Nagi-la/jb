@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-08-27T01:56:37.768297+00:00",
+  "client": "Mihomo",
+  "rule": "Privacy",
+  "rule_updated_at": "2026-08-07T02:23:30.022300+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 39863,
+    "DOMAIN-KEYWORD": 2,
+    "IP-CIDR": 9,
+    "DOMAIN-WILDCARD": 7,
+    "DOMAIN": 11
+  },
+  "total_line_count": 39892,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_classical_3ae0f127ab1d5953.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "daef4143c6436196278b619e8d498a6b11dba151b3215197e15c05076fbe0e11",
+        "bytes_sha256": "102b72d2d87de0f43059eff9608aad002dfb1213a99a7fbb7aa6c71cd60600b8",
+        "semantic_sha256": "8fdc9ce8fc46dba8fc008424c871120c60cec2957ad7fdf4d7479e6be907e8b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_domain_ab0398564876b1eb.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6237a6c64137fc9d056e8d0bc56e24aa32ab69c90689dfd1a0756e2337ea3f27",
+        "bytes_sha256": "8889f3c44e870f7c738dd27dc678f06e48a51c1a1ec17c647634e4553e587908",
+        "semantic_sha256": "eff54a88e235a0f6ccab6e6deef65f67629477119d804e67a6c8c1b81f3579a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Privacy_domain-mrs_4cba62738a6a6290.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a972e5ea67681a05143d157fc91e007942a90371c495912c9efa0716074f4b2b",
+        "bytes_sha256": "1977629ba69f0b03bac14766b928177cf0bd94ef36d442715ce8ff5a08090fa4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_ipcidr_cca6233a8a1d5096.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27609cf9976e519b65964473fb69782393845bba0ca287cae3e894dc2c089e07",
+        "bytes_sha256": "20b40e8f4ef139d1ece99cead6f8c4c4159c57f5bc0e84d8645c7aab3380d302",
+        "semantic_sha256": "739cdc3b59f45f7b9a7f1d1d84e7f3625b3cb32d818538a064935c7c294f6132",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Privacy_ipcidr-mrs_58d172d75d69beab.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ac0d0a4f6d81071929fa9d20f93ac2001ebb90078bc4574b9dca75c5539b2b4f",
+        "bytes_sha256": "acf98b05b9185a25c5ce1ded15695f517483858eec2c5037e54aef5c94a25b3f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Privacy_classical-rest_2064734c9d6f64ff.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f67282b0d486742583cfcf381d50a000b9953b84949a2ed8189983bc9b8b94d5",
+        "bytes_sha256": "a6d185d663de4a834c0728dc3050eb551a63261b891df5f06969b6237cd8d566",
+        "semantic_sha256": "58b70170ce9a8e7c6efa0067be168c79c9e260e421786afeea0c5369abea4f3f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf"
+  ]
+}

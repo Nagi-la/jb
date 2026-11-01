@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:15:14.030253+00:00",
+  "client": "Surfboard",
+  "rule": "GlobalIPTV",
+  "rule_updated_at": "2026-07-26T07:33:33.075626+00:00",
+  "type_counts": {
+    "IP-CIDR": 515,
+    "DOMAIN": 2299
+  },
+  "total_line_count": 2814,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalIPTV_rules_d3b1e13f8766b874.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7bc3e096e3ebd8392755f6b34a445c18393dc2e8416a9287512be7f96daf42c4",
+        "bytes_sha256": "997753ff4a3f67e157417bdb15a0660060b8142389513313dfc8aa32f7c9d0ba",
+        "semantic_sha256": "abe95dd3d7b24f4011f5acc7b3dd5668c251d776d1b92a03c86869dbbfae8959",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalIPTV_domain-set_c5362d94d4dab102.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce1058a270f0a08f7a600f4d2a6f3755fed558996bb5f4086ba50ea62684627e",
+        "bytes_sha256": "5c026552a54ffd3ac68e088fa28fb011abfbe4188dcbec0193862ea3d1f58c2f",
+        "semantic_sha256": "40fccc3123a71931afd7d1d417f5dcadfee645f64db65246889f5c4380cfd908",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GlobalIPTV_rule-set_2a74d76f13a9da81.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03a70c8203d85a2ea60b99c204cc11707026cbbca72a9199a391ab03bf0a33c8",
+        "bytes_sha256": "a6417e6f5ecbd9ddc57a5ff8ebd5dc5d63bbf08fb6a6517d39a5924b40ab2b93",
+        "semantic_sha256": "c1e03b585c9ab6a770f55eb47d954e147d9040ab7d4ea0852066555429f65b84",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

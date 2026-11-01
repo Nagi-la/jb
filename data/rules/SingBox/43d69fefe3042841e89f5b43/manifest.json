@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:57.546260+00:00",
+  "client": "SingBox",
+  "rule": "GameDownload",
+  "rule_updated_at": "2026-07-26T07:15:34.704582+00:00",
+  "type_counts": {
+    "domain": 494,
+    "domain_suffix": 4
+  },
+  "total_line_count": 498,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GameDownload_source_3aac61d0a8b3263c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b6ff722123a06b77343abe94d5f8af4c1da6378fad1b82f8b79d74fb52b16a9f",
+        "bytes_sha256": "f2aa9bbee3e2ca24cf3a881628d0b85efeacd04e9f017324ea18dfcca343fe41",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GameDownload_source-srs_449fa0366ca28aa9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a30afd7749c24ed92fd618f1d2b25a7067d31211ab8aead0a1b5f47ef12dbb29",
+        "bytes_sha256": "43c1c33e113ed53292a59a15016117e61b595e0f872ce2217226796be7ffab5a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+  ]
+}

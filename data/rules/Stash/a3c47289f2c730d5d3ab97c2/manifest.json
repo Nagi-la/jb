@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-08-27T02:02:05.936173+00:00",
+  "client": "Stash",
+  "rule": "AppleProxy",
+  "rule_updated_at": "2026-08-07T02:23:33.691393+00:00",
+  "type_counts": {
+    "DOMAIN": 34,
+    "DOMAIN-SUFFIX": 25,
+    "IP-CIDR": 1,
+    "PROCESS-NAME": 9,
+    "USER-AGENT": 5
+  },
+  "total_line_count": 74,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleProxy_classical_2524041e7f615340.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61f0bef3ffbc1f9aeff9d1576b72141c12be9578c9132090b7e1aeb40d5af74d",
+        "bytes_sha256": "912bf7f7057f5625cd0485f48a3fa63cb1ba29a43bf2363819808f5842504461",
+        "semantic_sha256": "c01a95e56880b32882e9e6953f29bdbb7d030716e4ed4f065cd2300bac705c33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleProxy_domain_c1bd46b616d97962.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9193775bd5afef29ca24deb0fda13b9d03f157ca8298c5723c2b7875e15963a",
+        "bytes_sha256": "bf2a9e9999c8feeeb5240ee23d2dd212ed5d6f23e99c51e2c2e54e8275c3e23f",
+        "semantic_sha256": "ab4ee2eb5837ad23de3d5c1699abba2ac48a90114cbd358854fe09782aaaf1e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleProxy_ipcidr_52500f4a3aeaaa66.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6932f1cdbb9c79850407bbefdc69edb8560ed31ab4282d883b22cb72db4ffdb5",
+        "bytes_sha256": "2d8e75890c365328068e6ffbfe9da228a39484088ae0a1e0b4428c63548fbfd9",
+        "semantic_sha256": "8041d805596941aa03f77accaa693d6379c48fc14263dd767d92773ecec6b5cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleProxy_classical-rest_93d080549a890e8d.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc1abd721c0fa793ef4b8104baa8f8a8407eb3baa346216d516e21d6ed68a394",
+        "bytes_sha256": "b6fe977c7774fbe214730cf5ecf1923ea6d11ebbc8a04296d09a23542ddd069f",
+        "semantic_sha256": "520cf748fedfa3f8a1efed6cb164cc370a525246c902af0938ee703288923822",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

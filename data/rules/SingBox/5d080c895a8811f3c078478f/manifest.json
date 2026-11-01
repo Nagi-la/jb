@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-29T03:12:51.293516+00:00",
+  "client": "SingBox",
+  "rule": "Gemini",
+  "rule_updated_at": "2026-10-29T02:37:36.797447+00:00",
+  "type_counts": {
+    "domain": 17,
+    "domain_keyword": 3,
+    "domain_suffix": 34
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Gemini_source_9f8c409f9bdedd59.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "52e74639758307189e334ee55f3431139026d46febe1da14b753eb723a573c05",
+        "bytes_sha256": "11434b4c92a7294445bce092d2fbd96751e45af00fea3ae69b73f56cb74a95f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Gemini_source-srs_73c9e5bad3b0d710.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0e08ae8f9666960a151348a53effb340cf0744f4c02be4367b9e8fa37e9ee4f7",
+        "bytes_sha256": "6c3d4ef2d5824d61c571c9bc4c2f49acd8f660f192464de6d4c0622053fb7f42",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

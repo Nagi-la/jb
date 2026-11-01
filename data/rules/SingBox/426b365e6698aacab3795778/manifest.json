@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:34.980363+00:00",
+  "client": "SingBox",
+  "rule": "GovCN",
+  "rule_updated_at": "2026-07-26T07:01:10.763078+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GovCN_source_59568daebb878aea.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b69d5396748ed05e0e06b0b26d5b2d5c6ea2561f17ffb30a00d3333300e30a29",
+        "bytes_sha256": "2f8f8e41c1033ebb40c72ae7a78d7229bf8d809fb28ee6d8a0ad5779da1916a1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GovCN_source-srs_ee2f76dd7d6bfd2a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "99b2ddee18fde5cb346fdf3df2a925eb2a452b60e7f9465c012e67752a041beb",
+        "bytes_sha256": "7b34a70c202359fce6c8278d46a9eef9b6a62f784860ee4ff9817509326df991",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Government-CN.list"
+  ]
+}

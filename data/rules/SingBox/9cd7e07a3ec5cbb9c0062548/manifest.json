@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:49.602246+00:00",
+  "client": "SingBox",
+  "rule": "Scaleflex",
+  "rule_updated_at": "2026-07-26T06:58:09.721866+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Scaleflex_source_1a12677ad91a1a75.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "455b7d24f9f3a5f03b8c177db9bf49d7b9569eb9971f916df3ec64421474ee15",
+        "bytes_sha256": "95d63546179ce88ea003c5f21a4240508d4fdda19966265cd1846bbe5d3c79ac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Scaleflex_source-srs_cf796e42b5e4f9ce.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6e416739296a290011c8b2a10a2a911b9b20f16193cd64c7cab1f1c5cd25b817",
+        "bytes_sha256": "1023f984e3b89964143d2e2051cfce4e6be385e0af6053cbbbba808254c0bb3b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scaleflex.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scaleflex.list"
+  ]
+}

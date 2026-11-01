@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:45.733133+00:00",
+  "client": "SingBox",
+  "rule": "Funshion",
+  "rule_updated_at": "2026-07-26T06:25:08.646892+00:00",
+  "type_counts": {
+    "domain_suffix": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Funshion_source_cf2be3ca690833d0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8a4491194241751a98c1ab3c0274965b1ba44cb44af2631c6694fed48f0b927f",
+        "bytes_sha256": "08378f278121b8ede1c348d169a363c892453d1101054c96105151830e11dfc1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Funshion_source-srs_1bbf0de367b48a19.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "20e478623a78bfa691ea61baf50aadf69d3f55599c4fc041b059bc8c8952a1c4",
+        "bytes_sha256": "a264c803e9f5514e00c0b6b94740d05c689dee9c9eee4247e5a6e8b3ee95ce53",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Funshion.list"
+  ]
+}

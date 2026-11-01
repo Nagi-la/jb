@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:10:38.546172+00:00",
+  "client": "Egern",
+  "rule": "TVB",
+  "rule_updated_at": "2026-08-07T02:23:10.486987+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 18,
+    "user_agent_set": 2
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVB_rules_ac641be8ecd77611.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d750f8eb404c553ebf541cfd64232d32f1034f06504777d9714c58a84104b305",
+        "bytes_sha256": "53389ac8b7f40dcbb66407b02201e8e0f33a780ea8beda410e940ff45e0cf2b5",
+        "semantic_sha256": "ef70f32df63ae6d8fd3cc0fe91e19e6450192d721c220cc6690581fb0bc2252d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVB.list"
+  ]
+}

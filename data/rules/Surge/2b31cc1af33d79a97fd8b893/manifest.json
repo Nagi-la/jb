@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:07.120712+00:00",
+  "client": "Surge",
+  "rule": "Fiio",
+  "rule_updated_at": "2026-07-26T06:24:56.940967+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Fiio_rules_55922090676a6234.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c445c538fd7927fdacee711d9c56ff6accab3b683f6d35a265a355feecf4d872",
+        "bytes_sha256": "83a64f245135d467171acef647780b5fcce2d964259d01bd2547b89b5023260b",
+        "semantic_sha256": "8140a45e652534acebcc3c0c85716e1dc83f3e782363c01ba9464fb054655f20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Fiio_domain-set_3021db157e82480a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "212d6ace7c439cb8373acf482194fc90a98ce43c80cb26a5da49cbe5cf5f273b",
+        "bytes_sha256": "b0687c47e4fa9832508483267cdf8d2d4f21aba2b18fe20c5f7b3eda5f867cce",
+        "semantic_sha256": "d07ffcf7055f434a2342e4516b790d6810f6098e807883c639551ffc63421c3e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Fiio.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:30.902843+00:00",
+  "client": "Egern",
+  "rule": "IBM",
+  "rule_updated_at": "2026-07-26T06:29:32.978116+00:00",
+  "type_counts": {
+    "domain_suffix_set": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IBM_rules_6dee09386b5cd4ae.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1360ac621b82c24cf4d3fe5df53a1c1add8c84d560e0dc7b58656058ce302547",
+        "bytes_sha256": "83ce959d2eb22316503198f7ffeb61b9d91c85b0dd04d676f7fe4efa3e803db1",
+        "semantic_sha256": "6fe3a942f3cc6ae90a8168eb86c7d2ee897eac0f43c279c5175d404f3d237eee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IBM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IBM.list"
+  ]
+}

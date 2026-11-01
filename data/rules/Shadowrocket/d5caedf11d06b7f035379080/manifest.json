@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:52.154123+00:00",
+  "client": "Shadowrocket",
+  "rule": "Dedao",
+  "rule_updated_at": "2026-08-19T01:59:34.732066+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dedao_rules_658d1a76f9d33f4e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "38eec6f4c9a25e751244f118ea525673647fdbcbf45e07cee5a0d3627e18e6e6",
+        "bytes_sha256": "968d5a9a9fbc2d74cd129f9f7bb3a2370b244e20d91ed9c88352464f040d2beb",
+        "semantic_sha256": "2db52e2e32994ba46a3fafa62bf4e03f1f2625c4e44c28d6ff8b0a2f27f743a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Dedao_domain-set_90f4ca5dd60f15da.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da8cf473d327949faf6f28ff8292ca9e764957c7f492281e4270271421b65cfc",
+        "bytes_sha256": "fdc08b8536ab8dd143ae9ea76cb10a3273206da0e13a46d6975ff486b96274b5",
+        "semantic_sha256": "de967b2b05e0cd854e13a0e138fdd6902b56fee8c3b43f7dec4265f66eed5e86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dedao.list"
+  ]
+}

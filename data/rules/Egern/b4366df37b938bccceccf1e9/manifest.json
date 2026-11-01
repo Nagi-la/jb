@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:05:07.955130+00:00",
+  "client": "Egern",
+  "rule": "DNS",
+  "rule_updated_at": "2026-07-26T07:01:10.223908+00:00",
+  "type_counts": {
+    "domain_set": 93,
+    "ip_cidr_set": 28
+  },
+  "total_line_count": 121,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DNS_rules_9a4874604770576d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18a98087ad83ba64f987b7292eed58f2100a8bafe992a3d5acea31b22eea2de4",
+        "bytes_sha256": "c4a7a93532318f11bfdf0a3ae7713c8da8aa12c57016fb3b06ef6651ff5b6ff0",
+        "semantic_sha256": "951a799f17284fbfd5cdb4e3dd265110d530eb9c1e4a26b23614bbc9078d06ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
+  ]
+}

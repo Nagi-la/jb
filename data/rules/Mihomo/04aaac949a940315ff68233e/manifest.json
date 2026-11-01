@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:12:09.918484+00:00",
+  "client": "Mihomo",
+  "rule": "Identrust",
+  "rule_updated_at": "2026-07-26T06:50:28.276284+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Identrust_classical_456b21a023cc4fff.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ae7e36eac39f246e0f73e718b2d1d6e5ee51c33b21992e69b1f9a91132cdb1c",
+        "bytes_sha256": "b260ec2be59e85e77677f4357dd5555789838a6f96a5e6f41013022720ef564e",
+        "semantic_sha256": "b7de80dbbf317a8ccd936198c971ec272d33ebb59b8bf431438ff84c568f7248",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Identrust_domain_ca45466bef896c70.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1f8dbd4aecdfeb0120b8ad0ae81ddd5d187dfc26874a65b9497f8aa40faab3d1",
+        "bytes_sha256": "f2513ddb5f40eec4c74c0aff265382ed0e01ae3dc7d02bd4cc06902a0ce5c5e5",
+        "semantic_sha256": "2b395bef69fc677364d59e52e25224ee69f65c6b10d1e6021e8c70aca9c37f62",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Identrust_domain-mrs_1d42e41bb39e64e3.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2125d4feac605a8f864a408b6bcac5c1dcad86c99e4a30ab2074647422e2c201",
+        "bytes_sha256": "783dc0fcce786a847120e3aebf299355f52e71be28cee756e54ead86308587a6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Identrust.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Identrust.list"
+  ]
+}

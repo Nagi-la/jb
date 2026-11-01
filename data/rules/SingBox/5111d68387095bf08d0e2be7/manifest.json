@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:53.933634+00:00",
+  "client": "SingBox",
+  "rule": "Ziroom",
+  "rule_updated_at": "2026-07-26T08:34:56.805729+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Ziroom_source_b2166b7d43d9a9b8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8d3ad7dc9c15bcba788774a795f115dea7d229f14c7d515bb24202864f5ad795",
+        "bytes_sha256": "afce449ddbae866b97d97a1cd953b8897d49c9e6df69799db6cf8d142e6c386a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Ziroom_source-srs_35e7563fa69a38f4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f2d06febb40178141204323822204841d9a0d81b436eae56a2581883cb9ec316",
+        "bytes_sha256": "cf028ba600f5c3479af63676c13a0f77905e812773b5221dc3801f86c338f6c7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

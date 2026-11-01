@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:12:01.196072+00:00",
+  "client": "Mihomo",
+  "rule": "ATTWatchTV",
+  "rule_updated_at": "2026-07-26T06:21:22.704823+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ATTWatchTV_classical_2108af506aa1eb6d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aabe87ce6cf405e21af0117cd2f86b3fd4317c08749b87834c8a27a1afc68971",
+        "bytes_sha256": "3762b43a3b28bc2a6e6a8de9b6d6512ea7ac55f45f2b0580dee081dd41dcfbd5",
+        "semantic_sha256": "55bb8165d11e17dde0f936ee69437963df270f8aead0d2b4066e6911135d6f8f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ATTWatchTV_domain_40b6f5b1b4ce6323.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e92e8db90079318700edaa0d96cb9f2f46ae728a693fc298935e2ae718e46000",
+        "bytes_sha256": "32a954e24262ba668524aa83fb0c123ef7a433c1af232ac7642c20ccca94af32",
+        "semantic_sha256": "d5c3699621c4a196c12493eba80a2008d92ea66de3bd93db70d108d6afc249be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ATTWatchTV_domain-mrs_9ecb74686f64e467.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "902de819d225ec0084757c01f04dff6cc3d34ae8237334d798b581c7429c9407",
+        "bytes_sha256": "e9ac68a9a790c4116c1532d5e50929923da1adae71751f6193a3f792f1919304",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ATTWatchTV.list"
+  ]
+}

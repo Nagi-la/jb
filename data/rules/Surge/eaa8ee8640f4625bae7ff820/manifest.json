@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:36.092170+00:00",
+  "client": "Surge",
+  "rule": "Blued",
+  "rule_updated_at": "2026-07-26T06:30:48.469637+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blued_rules_b1c32881cdb995d0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2477fc2ccb38893f5fede7c9142ead5cb235c8b8267b6468129f9f7239cf6ccd",
+        "bytes_sha256": "c2f58b9593d24084645b5ebb7c3587fa7f26bf70255d72e137d6159c141c2ae6",
+        "semantic_sha256": "b8c2b4c24c579a4e5a96be38be1ee35b0c48a1866ab0abedfa0ca8e30bf9126d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blued_domain-set_a6ed429a9b887211.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "02ad6bb2e846d4efb6b2cdaee312d752b48f85529d1a35f7cf4cc4db07243cff",
+        "bytes_sha256": "3c1ecd5b04abce54416b2d6895247d0e9c9929bbdf74cac425b192740d9edd09",
+        "semantic_sha256": "9e91bd6396884adcbc400037e5867e0bd973f1d726421fa5d8cc18ca1a113410",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Blued.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Blued.list"
+  ]
+}

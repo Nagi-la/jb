@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:15.887928+00:00",
+  "client": "QuantumultX",
+  "rule": "Python",
+  "rule_updated_at": "2026-07-26T06:57:08.483219+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Python_rules_96f9966f5c923988.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b05c1e651b9b06432b0f6caedc0915603af1b0de577931ade5df16ae041fdb7",
+        "bytes_sha256": "492e1c35d28b89df5fb4acf7c4ea4f669e6630c3d08d69d208f9acc5df43ce9b",
+        "semantic_sha256": "2265c850e6915923946a0b1e72affc403758729c6e0a471142766f11ef7f7a7d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Python.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Python.list"
+  ]
+}

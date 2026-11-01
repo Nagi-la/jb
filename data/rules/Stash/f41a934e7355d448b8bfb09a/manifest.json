@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-10-09T16:02:17.699448+00:00",
+  "client": "Stash",
+  "rule": "MEGA",
+  "rule_updated_at": "2026-10-09T15:58:46.182480+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7,
+    "IP-CIDR": 7,
+    "IP-CIDR6": 8,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MEGA_classical_e5048bca30c502ba.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d0d649f368671fee255f07e555ef511c6b3d5c45867c0317c89f5bf384b90eba",
+        "bytes_sha256": "fe0c782bae4dfa03725b434f66e888df0183ddfc5aa80dc07b4285111501201e",
+        "semantic_sha256": "5e84f1cc8b8d40e72db9d63722a96f07f00c9a6d3d88280262da5f1783ef1dc6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MEGA_domain_12241fcbdd0ce673.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "073736f78892b0c11bd163be8ab436c6ef0c80bde1ee2207576429fa80f36c36",
+        "bytes_sha256": "10f55d0a73d495adbc3837b2155737f1c15c8d60704a4f25520f76b7b0e8738f",
+        "semantic_sha256": "f84e2b720edf0f8128cf0978b00fe6bd010627357a75fa76a84050c622e014d6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MEGA_ipcidr_9a312fc0508f365a.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7cc4a38bcd757dc12e7ea1176fb40d256aa547d723a7d8cc253d99d37e9f7c1f",
+        "bytes_sha256": "d1c1f84376a3c841c262fad6d3478a59ef6e887081fe2b5be9dcb67c0c2badff",
+        "semantic_sha256": "19d5336845861f9089f5144c060a62aeded90f5a2a06de10ae26b8d228603b71",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MEGA_classical-rest_3ecc5ab9567e5d3a.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8deb1974c0d97a43ffc34a9a4a35ea269aede120e3d0b14202ef6f4d453ac46f",
+        "bytes_sha256": "90750d13aa89cf1a0e96c65e4e9829ab63bab80ff4bec18daa4258ab74d59c32",
+        "semantic_sha256": "bde0d3c71215a2983c36b3235a3d2ca6634801d155724afe45077dfa12407544",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/MEGA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/MEGA.list"
+  ]
+}

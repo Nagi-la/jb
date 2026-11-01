@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:58:23.300208+00:00",
+  "client": "Shadowrocket",
+  "rule": "KuangShi",
+  "rule_updated_at": "2026-07-26T06:26:17.300478+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23,
+    "IP-CIDR": 3
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuangShi_rules_4036cde02876d074.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71eb7900c216d5b954231f5e823c66838452f95125c55de191e2f001ead9a7ee",
+        "bytes_sha256": "58021b18e7acfccbebf3398d98faeb8dc9e0f23060cb2e0368f36d335857387b",
+        "semantic_sha256": "516bd677a87a6d1e8bd2b2baf6b2b38fa4a005f1aef64764d52d5589ec23b880",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuangShi_domain-set_0e028d86918dca26.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32c76ff295b204527ef09ac4ad027061b312e3a1eeca639f68c9a1b84fc8204c",
+        "bytes_sha256": "6047dba1bfb1e6111ac9e213673865a58ca8fb6f8124478b8ee98e43fe8b66ba",
+        "semantic_sha256": "728686424e1b909faa14298b85898387663d9f8ea00f3055756b5af4807c9ad4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/KuangShi_rule-set_11a7540a42b82791.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5fa4a25e430cdb1423b3437021c32688dfe60292b836a9112269736d865c31e",
+        "bytes_sha256": "005656cb828b4ddf505f6990d68719333d4bbba50d57621dbff195a23f5b5401",
+        "semantic_sha256": "77a2377d2ce2c535cce2e3201e5fb5c8520940f20766ebdee13591385eb5d541",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuangShi.list"
+  ]
+}

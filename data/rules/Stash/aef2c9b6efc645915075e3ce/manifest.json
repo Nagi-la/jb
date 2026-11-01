@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:09:05.694634+00:00",
+  "client": "Stash",
+  "rule": "Rakuten",
+  "rule_updated_at": "2026-07-26T06:53:40.611056+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 37
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rakuten_classical_c12ac63902cac0df.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27c64a994cb8f1295889db9a856b200526ab5c8dfe132c75d157f0313eb91f4a",
+        "bytes_sha256": "64deef60e552cbbf7b039b006e00d3ffd0cd27303d1f9e731a05a12f8125e334",
+        "semantic_sha256": "3e6ff7b429fcb1e9704bcbc9dfa5643f908a1e3918583eb58639e49e78227024",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Rakuten_domain_1477bff13dd5b502.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48a5f5e4ec0ac7a8e326d6f1806d2f15437f51cdba1db3ab2e2ce67895f07eb0",
+        "bytes_sha256": "240bcc1440d1fd34d35f9f4423fc43ebea5ad20dfad8dfc56116611f750cefd7",
+        "semantic_sha256": "f99a73406d696a2533b88c23fba0cb231148c70d56289efdd871245eaf912a05",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rakuten.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rakuten.list"
+  ]
+}

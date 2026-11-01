@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:31.373553+00:00",
+  "client": "QuantumultX",
+  "rule": "Zoho",
+  "rule_updated_at": "2026-07-26T06:56:18.475256+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zoho_rules_de3d5bb3b5d2eaf4.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b99e6da6ae0677564c03e13367cc6320c6250b8c82d7c13c3629765b8699b423",
+        "bytes_sha256": "f786757b36aa5d3419d4c5da91d49eb090d00c5347931f0079c4ac79f97713d0",
+        "semantic_sha256": "5e466740192d51d1e9b049f03455df2d4abb1aad9db049b22726321def8a056f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zoho.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zoho.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:02.602269+00:00",
+  "client": "Stash",
+  "rule": "Bootcss",
+  "rule_updated_at": "2026-07-26T06:48:16.015510+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bootcss_classical_e936e9b76e0b06a6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1c18437ced3d0b1adbb821539385e0423c0d6fa43db36d80fd8dae704e8d9e6",
+        "bytes_sha256": "571d9bbd814ca1c98bac71e30e5b9d8e0189eced0b5403edb979adbe9f291c85",
+        "semantic_sha256": "e229706472b98c4c5999f4e22a05675afef597514bdef8038c067a16ba552b0a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bootcss_domain_dcf323b4d86de19d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "41173fd9eaae88790961af47b79c9e3f23cde23d6e98915eca60913a7bcee706",
+        "bytes_sha256": "e99ea7f9ab6cca8a22a3eaff02dd8682d9787fdc781a23fc29a22fa1e9c0c65c",
+        "semantic_sha256": "86bc7caa04af94a93cf363e51d584e03822a88600e401ddb5f94942ea33ba178",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Bootcss.list"
+  ]
+}

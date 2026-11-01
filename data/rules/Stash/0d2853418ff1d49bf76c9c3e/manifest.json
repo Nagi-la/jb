@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:26.757583+00:00",
+  "client": "Stash",
+  "rule": "LeTV",
+  "rule_updated_at": "2026-07-26T10:36:30.126801+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LeTV_classical_ee22353503f2f870.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf6b92893cdafdc8c52ebbe8bbde5c5952ba57b1f16ece0db8c7755b5de2d7fd",
+        "bytes_sha256": "f150babbf4a96dd01b090be9592fe76ed94f22ca29a9967ed473b52575d01dd2",
+        "semantic_sha256": "2a20ee52f7a1987aba40608b1300d1cb780aa6a20e11b80a6dade39345d8ac6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LeTV_domain_6a6fa99e1efcba67.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "acd20ff283ca432a4cfb0db5c09420efe93fe5e161fed4902b1e0d4e59224a78",
+        "bytes_sha256": "e05fb21b05054796d9f07b38964912fccf3fa27bddbd4a7e828e76d2478d4e68",
+        "semantic_sha256": "310f7de67d18e3d12370cd209ecb4b865c005f772e27ba8d79f5fd220e0d5fd2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LeTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeTV.list"
+  ]
+}

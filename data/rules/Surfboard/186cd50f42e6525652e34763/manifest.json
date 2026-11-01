@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:19:24.032180+00:00",
+  "client": "Surfboard",
+  "rule": "ITV",
+  "rule_updated_at": "2026-07-26T06:22:06.363862+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2,
+    "DOMAIN": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ITV_rules_01194214955c3eb8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c474e7b42bf909bcc99d0bbb5199d3390e34bb32edfc81e6c14f7202c2692619",
+        "bytes_sha256": "737bac11b3476180c9febf275b66c4c22553f87bb52102f47d1abbda815a1dbe",
+        "semantic_sha256": "218613a4e650c30a631b0ba0b3544ff1dc6e42d11ff460f06716c07bd89321f0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ITV_domain-set_923e1ec6b2dd8cb9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fad7bcddfa1e99ff5f8d34a905d953b180d0ae0d3744e8cf3d98e1c1ea4ca45",
+        "bytes_sha256": "51c970d9d8920b90feedfa216a5171601c001109b49c2d10e7a851b71e10bdf7",
+        "semantic_sha256": "e63207de194bb182db60e05a22e517be0abf0237718befc06d6729eae087ccc9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ITV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ITV.list"
+  ]
+}

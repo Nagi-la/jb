@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:11.280642+00:00",
+  "client": "Stash",
+  "rule": "Supercell",
+  "rule_updated_at": "2026-07-26T06:31:55.049066+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Supercell_classical_cc045c026cdbf3b9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2910a487971a57071d00346045226595aa8b2d29368afb7b1e472c213961c250",
+        "bytes_sha256": "ee8be304609b84cfcc886478e47b42a3578c100d60eb82110e6b43a5b0183937",
+        "semantic_sha256": "8c074365d28e88250e9dcbb88b71ef899099a9423d751665e88df189de539780",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Supercell_domain_6b30648787ffc30f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3de0f4f261c5809c3abceb3b97647986a69f2ce91873fc09482b91304fce47d",
+        "bytes_sha256": "932a1a16260e5820de3bc581bd5b8d1707e7994c88276ce99bb95e6d3234fe85",
+        "semantic_sha256": "412d58db023f3191d2a5e31903bc4374fdbfc939eab1729a8fbb60e8b7e73543",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

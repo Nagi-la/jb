@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:59:10.955382+00:00",
+  "client": "Mihomo",
+  "rule": "DingXiangYuan",
+  "rule_updated_at": "2026-07-26T06:24:40.775576+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DingXiangYuan_classical_5510aa9803387127.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e0a9d454ce2e2ed5ae262a6f0e2f5dfc4c86120accec73709c8837e7af37358",
+        "bytes_sha256": "27d1b6f83a84308469208c4ce830abc9989e49cf3c2e34c497e8f2121348ce00",
+        "semantic_sha256": "372ceb6438be0804643589957a366c93c9aba558df30866a04d08d8f2bc26243",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DingXiangYuan_domain_dab4a94a4459b9b1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5c6529961ae0ffcbae229650d9646a778576343b0b53acec315fc6d96419bc2",
+        "bytes_sha256": "70447792dbc72b146295f425e5785ccef7aa45b709090d961accb8308f38e083",
+        "semantic_sha256": "53c22ffac7cce90bdbae7384e7c58780dbfce18c3f30c88cc3203a985f2c5a52",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DingXiangYuan_domain-mrs_5b6427e10ebc7610.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a605eac056d99a97333db023df50b69084213f3b08f2c1e8b010476da429dd33",
+        "bytes_sha256": "b3f6c577209415ff5d94479b2473441864968437816bbd415b941b7186bc608f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DingXiangYuan.list"
+  ]
+}

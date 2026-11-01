@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:08:44.893804+00:00",
+  "client": "QuantumultX",
+  "rule": "MeiTu",
+  "rule_updated_at": "2026-07-26T06:38:28.889839+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MeiTu_rules_5faacf9057974778.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3cd51f3b08a1216d8dc7d0297b820f824c0f9155a7eeea098527f75ace1049d8",
+        "bytes_sha256": "eeff78978017b1c408a9d84c199d88639a68b84b1f84386e3a17a14ed18d510a",
+        "semantic_sha256": "035148c7a25d83df04539bfb7bcf6845e84225a6b0ae6b0f7456abfe551b650d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Meitu.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09T16:08:53.584496+00:00",
+  "client": "SingBox",
+  "rule": "SocialMediaGlobal",
+  "rule_updated_at": "2026-10-09T15:58:50.692527+00:00",
+  "type_counts": {
+    "domain": 15,
+    "domain_suffix": 612
+  },
+  "total_line_count": 627,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SocialMediaGlobal_source_501e40c7d04d50a0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cd7a0c53c06c430de82f608e69b71f3d73a3656e2aef075535dcaae04ea9b285",
+        "bytes_sha256": "4ef2c84b846d95f5018ae5a5b4b33de6417f2e0ace9e1b45a67082785c32c68f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SocialMediaGlobal_source-srs_22341fbfb221e458.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c52c4705b3e755e9854adc1a99ebf6cfbf90b095c6189188f7191ea8bec2454",
+        "bytes_sha256": "50272c2e93a910889a97c5beb102e4683e0a27590426d8364a9b34827698096a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

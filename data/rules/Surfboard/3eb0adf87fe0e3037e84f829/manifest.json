@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-10-29T02:54:32.613170+00:00",
+  "client": "Surfboard",
+  "rule": "Game",
+  "rule_updated_at": "2026-10-29T02:37:32.609185+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1139,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN": 126
+  },
+  "total_line_count": 1269,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Game_rules_87565f6ae4fd7d5b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a41916d267cae4a31b93daabe927c3e710b5e6d418981844a3cc983063e823e",
+        "bytes_sha256": "a1150b8836ba839883f576660167a68b8cad113d033622e94df8ca69299e4de3",
+        "semantic_sha256": "62909587743d395c734b0949cb66c2f0672950d383eb6c1bb59a0744df1f92d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Game_domain-set_28007c84101c3c21.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8fffd2f368fe01bf41b7c2b2db70f3b324492a0c6b5aa8e4416b9cde29ed2cb8",
+        "bytes_sha256": "b12955f868492d47e309182b09912e580cd4e91bc9c9fff7954a8c1f19f3c53d",
+        "semantic_sha256": "4c0fd8965d7c5f3785ac1847c628e7fc40fc1b1d1588d02100da2a542406f5eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Game_rule-set_6682cde6121af2dc.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a274935e16fd5bd13a7c8d87a0c077f87ab470385135ce6200192eeb0fde7874",
+        "bytes_sha256": "f8f547358ab0603b7b61570e0a8061b96b14b4d656ffef9592545d33b84ddfd6",
+        "semantic_sha256": "190b410f44cd34cfc7ef2eaa5257d02512927462a67e3930b2460660c44a128d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "含有Steam、Blizzard、Discord、Rockstar等分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/GamesAll.list"
+  ]
+}

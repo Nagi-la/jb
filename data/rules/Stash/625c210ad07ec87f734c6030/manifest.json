@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:11:54.356438+00:00",
+  "client": "Stash",
+  "rule": "DigiCert",
+  "rule_updated_at": "2026-07-26T06:50:07.534244+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 74
+  },
+  "total_line_count": 74,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DigiCert_classical_8ebc3a4aecc95ca1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "243ab3d10a57d1447e0f7c820d76a0f2611978b3452c28dbe583c98f1f478f09",
+        "bytes_sha256": "b0a7074034d0f4be3ce77750942e53b1e007d3ec06cd9f55c979dd28634f3ac8",
+        "semantic_sha256": "bbba21a031d120ce0404a5d9f6577e8a9ff94b41cf648f45ef9e8a9deb78036d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DigiCert_domain_1f87a164c633a9ca.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f624e05bfd63578ecaa98fbd50450146b8c1bc46f63c284fd967371d6cb84fc9",
+        "bytes_sha256": "4c6c3399ea815705bbf86961d6e304c7a04677a772b0887f98df57a0563a6502",
+        "semantic_sha256": "b076d20527575d1cd0b53ed5e094c942ca4843ef55f771a10e60a6341c18d1de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigiCert.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DigiCert.list"
+  ]
+}

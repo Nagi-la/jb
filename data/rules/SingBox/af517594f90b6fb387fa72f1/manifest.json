@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:51.807899+00:00",
+  "client": "SingBox",
+  "rule": "NBC",
+  "rule_updated_at": "2026-07-26T06:58:24.567416+00:00",
+  "type_counts": {
+    "domain_suffix": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NBC_source_d4847949cbbcdbb5.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ddacfa57449e283c235c3a8cfab891ff15393ede30586a56d13cbed02c15804e",
+        "bytes_sha256": "bb7131bc9391754a353aacdf0ebb0feea02753fd52145272ab8ed2202f109846",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NBC_source-srs_113537c541744bd4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f95d610c41687eaea807b2433b606e2734dff1a3a1561984228db8a05755a773",
+        "bytes_sha256": "8122b567321f9ea34065f540db0f15ad56b92c6328b2654480c35033d9606a8b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NBC.list"
+  ]
+}

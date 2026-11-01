@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-10-29T03:23:34.767306+00:00",
+  "client": "Egern",
+  "rule": "GlobalAI",
+  "rule_updated_at": "2026-10-29T03:05:24.929937+00:00",
+  "type_counts": {
+    "url_regex_set": 1,
+    "domain_set": 69,
+    "ip_cidr6_set": 2,
+    "domain_suffix_set": 358,
+    "domain_keyword_set": 11,
+    "ip_cidr_set": 4,
+    "asn_set": 4
+  },
+  "total_line_count": 449,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalAI_rules_4e62672b09dfce2a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b042fdd6473a0c27f4e8b11f317b9217ac38c1736fef714b2282e9d3efc5a1b",
+        "bytes_sha256": "3572ee1427d19fcc5f7ca0908035008b614778a6eb43f9e544f11e057a3cd73b",
+        "semantic_sha256": "ac55d61ebb04dcee9ee1ac40dbf65b76e262f20c0118464da50fab720603b1da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "module",
+      "url": "data/_shared/artifacts/GlobalAI_mitm_38bcb70a8ab3447c.module",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e92290d9a7be8c246eadf4414ebaafe9cd8a4f06540fc4dfbb2cbb270c9b40fe",
+        "bytes_sha256": "cdca387df4ee3062583fbcddeb688e57ddd50a7d6c6965c7e62372268ba7a608",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
+    "https://ruleset.skk.moe/List/non_ip/ai.conf"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:14:59.524152+00:00",
+  "client": "QuantumultX",
+  "rule": "FOXNOW",
+  "rule_updated_at": "2026-07-26T06:57:22.063257+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/FOXNOW_rules_e1b13774fc6e3ff6.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21dc57653be9efa281ff0cb26f2ddc2c4a20763b10bc5fa81aaa59bfb8e637ee",
+        "bytes_sha256": "e0c59c4ac8eb752ae2f77f5e606733df9713a803836efe5d33f44f1cea8b140a",
+        "semantic_sha256": "bb47f0203ce738f926fb4c215129b5d02be3a8dc23c6adf6419d5e59c11d2d98",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/FoxNow.list"
+  ]
+}

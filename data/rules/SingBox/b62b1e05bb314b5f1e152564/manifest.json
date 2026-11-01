@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:19:15.193710+00:00",
+  "client": "SingBox",
+  "rule": "PrivateTracker",
+  "rule_updated_at": "2026-07-26T06:56:43.175033+00:00",
+  "type_counts": {
+    "domain_keyword": 3,
+    "domain_suffix": 119
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PrivateTracker_source_f813a6f5be3da43f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e9ed3ad207b4fc8ede7618bbf82d5932a023234b19adc42781d7c3a75d1d8f91",
+        "bytes_sha256": "a31410279d34f8a0f2db3b455748b0a0d4a1a3bcb7ac48f0a3c39dc896f67960",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PrivateTracker_source-srs_e36d927ea913fb98.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0fca0e980d4de51e93929157e2b24e91f8b3e2ccf9c0d54c79411c0a6f35b8ae",
+        "bytes_sha256": "866fb043730eabd872b092956799d262905fe43d2ada184383954b736f0416f3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
+  ]
+}

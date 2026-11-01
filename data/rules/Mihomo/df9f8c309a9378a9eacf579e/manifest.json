@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-08-27T02:11:57.407990+00:00",
+  "client": "Mihomo",
+  "rule": "Japonx",
+  "rule_updated_at": "2026-07-26T06:22:13.432713+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 2,
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Japonx_classical_d3e0b8564e09e3b3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4b22e2835910e862683b20630a1cb23218f446fe378839efe5e5aa6bb563087",
+        "bytes_sha256": "f37035c369191852f73f21a98bcc129f267e7214084be03b20841fe964b15605",
+        "semantic_sha256": "210ef961bad6ea53a136b44debf53a8ee4be45bb035613001b3212abc6559553",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Japonx_domain_2f2fa01c498dc6e7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d3a58c63c4ca54f93a230ccbf65ff959ad6751b0120f0568e161306fe241b1e",
+        "bytes_sha256": "173a745a57026df6d27d0b7f1eacacc0938b1922ba37f332f730145beb33a3da",
+        "semantic_sha256": "cec65c606ad4b2e73dc2b0ac276a02293c57a4c76c8d51463904aa18611ea8fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Japonx_domain-mrs_c5298d973e42d552.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4fc6c045a8ceedc5854b5b60f6f1053b01498c037390bcb95b10e4ef6bee541d",
+        "bytes_sha256": "bdc458aad272b039286b56dc5b2a54659b9e0809cf3fdc91888fe3ee40292042",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Japonx_classical-rest_3b877369c7c0a8f5.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bee10fa26438217e3a4840408ccdf8d56d23bc7e23e9b9759726fbea3cc81535",
+        "bytes_sha256": "0384bf553d55bd32f9d8371cecae3e3287fd6eaa3da689ca15a5e82ddc4a5b1c",
+        "semantic_sha256": "81251b63b4a9006ca0c183051e75c72c8de38aadcf9389ea0ed0933677aa8d2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Japonx.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Japonx.list"
+  ]
+}

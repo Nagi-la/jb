@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:59:59.469337+00:00",
+  "client": "SingBox",
+  "rule": "LineTV",
+  "rule_updated_at": "2026-07-26T06:22:23.688758+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 6,
+    "process_name": 1
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LineTV_source_f84edd560e08005c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ec46b1833af29fb4695ab9468c9815e0aca04949db475424f617713938f03377",
+        "bytes_sha256": "7da36507f1e805c1bbdafa2b5f64a29c33fe897ed9a7aab070e7f30db4bc99f9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LineTV_source-srs_cf78f8d5913eeafe.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c07c25ee813f713e481d4637c9387313156fc037e77051a62ba751770ea36552",
+        "bytes_sha256": "a132e06d32eec063ffc1d4abba38df620310ed7455458f140c6a0539b7d6f59e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LineTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LineTV.list"
+  ]
+}

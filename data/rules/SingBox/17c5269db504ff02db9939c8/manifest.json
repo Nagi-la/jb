@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:52.383690+00:00",
+  "client": "SingBox",
+  "rule": "Oreilly",
+  "rule_updated_at": "2026-07-26T06:52:53.441768+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Oreilly_source_33dc6a3eae01598a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bff8f30e206fcabeece361802f91df886d444b7b44e4d93f92373c9cfc32aeef",
+        "bytes_sha256": "fe41c30f6a9568b685c480774374a794446455abc06069c5a529622557f8f5e4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Oreilly_source-srs_db3ace156a181d74.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f741681f1a6f2da611edcb99d15b3fa8ece32dfa28098bcaf1c9edfacf8755f6",
+        "bytes_sha256": "2e055fd18dcec793957b91bbb6bfe7d6e9314546321f8c54966418a0a517f7dd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Oreilly.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Oreilly.list"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-29T03:30:00.837944+00:00",
+  "client": "SingBox",
+  "rule": "Xbox",
+  "rule_updated_at": "2026-07-26T06:32:37.782283+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 44
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Xbox_source_d02ef369bd7140d1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a3ce643e4d392255489ddf642fb1b9cf897bd6ca930b13d2fb531e9a897f8556",
+        "bytes_sha256": "938cf16cf7e3b98c959e8cce77a1d5d3be3d939a975adffb5bf8d5d66f790fb3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Xbox_source-srs_3c1b5c5c50b882ed.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0086c2c9b35497bada940c13f58bebe72d1503c44e146bd60a632f4519e31f88",
+        "bytes_sha256": "9f36bbf802542484ac4a065596b60cb0e48093c105c8270dd3938fa7cc1d0fb1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Xbox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Xbox.list"
+  ]
+}

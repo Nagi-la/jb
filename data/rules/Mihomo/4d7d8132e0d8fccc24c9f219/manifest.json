@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-10-29T03:05:25.173688+00:00",
+  "client": "Mihomo",
+  "rule": "Twitch",
+  "rule_updated_at": "2026-10-29T02:37:34.885396+00:00",
+  "type_counts": {
+    "DOMAIN": 27,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 9,
+    "IP-CIDR": 15,
+    "IP-CIDR6": 6,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 59,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitch_classical_eb9925a7faea684e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d8789259a55149d5fbf6114ec3f7255b86690f3284be8df00dd52c1cfd4b4caf",
+        "bytes_sha256": "d9624511c4f555062d6e4450ca4c5404778d0516f839e9626047935ed9ea624d",
+        "semantic_sha256": "d065c365bc3035150dd2686e0fcbc7bb6487898e319e1d0ca97b9a416c22ae86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitch_domain_bfdfa1886a2fad42.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f37462fc9ceca1c82eebeee21fc4885fc25d8ef06f1b2610a0a3950312a7d3ee",
+        "bytes_sha256": "9e603ce28c392de42b5d5f237ffd4d3764d560646a79c31e03f9227700d0faf1",
+        "semantic_sha256": "3992a57cef8d726d524c1311b4f23e1cf8b44ac05633f56ee3672547d951fad5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Twitch_domain-mrs_449a5e8084acdd99.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c9e07fa1bd47c46027041f349bf714739967fa43587d6d9c2920d78a738bd41e",
+        "bytes_sha256": "6f20022f8603a7785748cd00499c3a7c5db3f9b752d2b32bd67569251dbdea6d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitch_ipcidr_64a04c00261fe4ca.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05ae91850290c049dd85f4ad78f9fb3936b35dd74a59482787af4934dee5f04b",
+        "bytes_sha256": "49fb37715fc7d5466d972c06ce46e2b7fbcb353945659478c972605c6b46dbfa",
+        "semantic_sha256": "f6f9d747292a9125401e99b8522d78150d0aa4f334633b8f7c0a6531bacd26f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Twitch_ipcidr-mrs_e98d615b86325af3.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d2aee35e95c7170f811e1984f4ac519fd9a1783773663be7a76148b26f61ad73",
+        "bytes_sha256": "7c1de0ecced5a4d06bb26669d35802cdc2e2c81a5b0bf1e91fbbfe1a6d49a7e7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Twitch_classical-rest_2f2238e24e5e4b04.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca35d5d50388cf3737f58b8660c0c411d4f13c35c304ee7b96d7bebeb6286a06",
+        "bytes_sha256": "2b1c06edef5dbfdd13fab9afebe768fea5b9372b6199b8ed8154a15513ba2ffd",
+        "semantic_sha256": "5bd7bff174c1013851265399063026c76d942e1f6aebc9bc8ce24e31a731612a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitch.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitch.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitch.list"
+  ]
+}

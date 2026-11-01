@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:16.695466+00:00",
+  "client": "SingBox",
+  "rule": "PotatoChat",
+  "rule_updated_at": "2026-07-26T06:33:57.082894+00:00",
+  "type_counts": {
+    "ip_cidr": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PotatoChat_source_23ae9c0de33c4f66.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3733270e1a16e68b2f35e9ca47e5d860d79be4f7a00a89eaeb70b6867fde59e",
+        "bytes_sha256": "df9e958a5dc0b935e8c288fcfda840e126680467186edb9b4452bbbb233128c1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PotatoChat_source-srs_4c7667a266f2c0c1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "744053bffa9ee66114f36a9d040fa37aefe0b785c217a6d5a887a50c5e2fca33",
+        "bytes_sha256": "539c567e61451dacaef330f9178564e822fecc1282930512fd48a5e03bab03b2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/PotatoChat.list"
+  ]
+}

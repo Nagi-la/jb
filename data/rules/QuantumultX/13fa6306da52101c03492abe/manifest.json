@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T02:19:33.064647+00:00",
+  "client": "QuantumultX",
+  "rule": "Youku",
+  "rule_updated_at": "2026-08-01T04:38:17.646637+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 58,
+    "IP-CIDR": 1,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 62,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Youku_rules_b4d6f14725e52440.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eee93634631ab2d9dd69efda682739fe67127f19ff22a0a702a32e7a22a24127",
+        "bytes_sha256": "c05eb07ddb24ea46e9e354ab09348b02716c13fa8fb244b087e3724aedcb2c20",
+        "semantic_sha256": "aab267895d1f2b4e253ececfc92e35f3a5b858d1e5b7ffdf1237b7ced512bdff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Youku%26Tudou.list"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:57:47.764073+00:00",
+  "client": "Egern",
+  "rule": "BOCOM",
+  "rule_updated_at": "2026-07-26T06:47:44.392841+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BOCOM_rules_5f27f2b297d2536b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ee2fd4b2415e7c8d350b0a45cb803ae561cb6f312b06b37073012db3e6cf58f",
+        "bytes_sha256": "e6aba739feba3502b68fa75843d0cb8e68f2615b4c66ec223b3fe56fdd2c88df",
+        "semantic_sha256": "f96043700d9e765f6a6b52500494d15b584c20344b7ee4668229311069d82e11",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOCOM.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:54.609380+00:00",
+  "client": "Loon",
+  "rule": "HuYa",
+  "rule_updated_at": "2026-07-26T06:25:20.961135+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuYa_rules_e072b5f3c79ea80f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5f171509c218aae8e6cf485fb8aa38bc99c0d78fbe63882c0db38d4afb6c0f5",
+        "bytes_sha256": "79eaf1cff8392486cc29fdce6eb4ff8be759c15448e00cc676531f1524f1f394",
+        "semantic_sha256": "867679cdb65d783853fa55c8fe69dbd6fb977407b25c4b8659999d3a09f9bfaf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/HuYa_domain-set_c743fe49321212fc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87c1f5c543bef748054df37477418f3d55ce6e1590a14ce14f39050e03abbf67",
+        "bytes_sha256": "56fe702782a9123f46f3d7b1b4a8d0e3ecc6a6fd57fe5e9a28484fd5fdd08c31",
+        "semantic_sha256": "c4a18f89b1f2660f919079a0cf5150725aad713bab907934bd704acd014aee3c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuYa.list"
+  ]
+}

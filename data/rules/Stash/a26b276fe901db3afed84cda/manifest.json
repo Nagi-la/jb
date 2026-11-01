@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:04:35.120137+00:00",
+  "client": "Stash",
+  "rule": "AppleDirect",
+  "rule_updated_at": "2026-08-10T09:41:20.649439+00:00",
+  "type_counts": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 22,
+    "IP-CIDR": 10
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleDirect_classical_7b599bf8fa6e635a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c6c83dd175caae6d6aeb1fe1cf0dc9a2309b8c89cdab845d41231e0900c09e7",
+        "bytes_sha256": "c04fb77c5e1e42869e5c6d31ee92c1bb1f839dd887078e156eaafd15087e5768",
+        "semantic_sha256": "4f943b4f681a83e519b8142156c7537c1413c29fc13f6ea968bf2c1de20f38c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleDirect_domain_d765755e35267376.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "20973bbf1993dc9c8440be48633ef9c2328728104417a6530155e3badf02d0cd",
+        "bytes_sha256": "5f94950b42ec7429056122d41cc3687ac59a05e84b6ffe991e9ca99e09901454",
+        "semantic_sha256": "7040d787b3e474e78ec3bf640c1b8349664477191672cdb2c9af6f4899508df3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleDirect_ipcidr_dcd74cec7589834f.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "462a087d002c09f0fc15c6934f9579dbb260c48e0304e9f8aad1ac3913396f1c",
+        "bytes_sha256": "8502007e008257573075ab711c05b2294e7d86d4182749dd4cc1c213d2f29ba5",
+        "semantic_sha256": "1420ceea7b0d2c3389b5ca903c97f075af5f67a9ee920c8d038d339c2e5be2c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:02.031912+00:00",
+  "client": "SingBox",
+  "rule": "Opera",
+  "rule_updated_at": "2026-07-26T06:52:45.515973+00:00",
+  "type_counts": {
+    "domain_suffix": 14,
+    "ip_cidr": 20
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Opera_source_815b560d6f2990a2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ee0b76084c54696dcf942d1d7b539566e744740a67ce906bf8a3dfcd9eb523ee",
+        "bytes_sha256": "76b944019ce921b6d362b5997af0c4333db0b059995d8845f19d85130791114b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Opera_source-srs_dc2cfa71559a210a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "95a240548677424d47051479c209e69ebb8c572302f4ae0a5998ae25cbfbcdb6",
+        "bytes_sha256": "12c16877ec296ce09c3f0ee1b277ac38fedf56ab6faf691da22b890b929562f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Opera.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Opera.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:52.904160+00:00",
+  "client": "Surfboard",
+  "rule": "Bitwarden",
+  "rule_updated_at": "2026-07-26T08:29:43.039772+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bitwarden_rules_02753821a9a465ab.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fcc9f55d156a0c0244aa091301183b72161cb6991fbf11667061c91167a09be",
+        "bytes_sha256": "019fd1e9862264c82c12c786726e7695c326d7b4923ff22874f6452457abe2d0",
+        "semantic_sha256": "efb43bd4232e3aaeabe8d84fb35cf391ef6c0c8d4a36ee4875a545e79818f974",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bitwarden_domain-set_fac4214de6d55bad.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b446c7141ed3e654751da7f42d04b055bae8fa35959b107a1a7fa7fd5d615dd",
+        "bytes_sha256": "ad16307640516414582b47937b65c84305533d8a7d690c5e0a9b0e87578c27c4",
+        "semantic_sha256": "9a324abc4ab7522823e2c9d1b21673e115fee627f05f54a97124239c9ddcc5f4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:10.631580+00:00",
+  "client": "Shadowrocket",
+  "rule": "Vimeo",
+  "rule_updated_at": "2026-07-26T06:22:37.962181+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vimeo_rules_34b381f1b15de676.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55e60c6c608c624b2bf3707d9203b31a74e78c50d9548efc6da104ded917e539",
+        "bytes_sha256": "b2ed8a579f70c3c6f14d2042db415570ba95e6544c1f7637bcc2f637a7b678f9",
+        "semantic_sha256": "7358b0bfc2deed2f684f0722436a3d63f9eac70db8e02aee7a3c440501e7729b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Vimeo_domain-set_0ab0fb5bb4f797a9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca03fe0c0479fac4c9833f9fdd26e6e14cdbd04f9ff0df6add2dcba6cdf4aa11",
+        "bytes_sha256": "b7affd1add9254bda02dee4e2443c87270264d0475b5795bd41553b20f6217be",
+        "semantic_sha256": "15b11de7a7be2f83a25424d73cf67b1ec749f0f18fffdaff814d9bfbfcbaf425",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Vimeo.list"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:18:55.705681+00:00",
+  "client": "Egern",
+  "rule": "Lenovo",
+  "rule_updated_at": "2026-07-26T06:26:54.041790+00:00",
+  "type_counts": {
+    "domain_suffix_set": 60
+  },
+  "total_line_count": 60,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Lenovo_rules_484548599e13b8b2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "319b12f6ef1f00c81100136c8aa2b3c281a0c968a01d6ed22a685e5a354bf6c8",
+        "bytes_sha256": "29e698a3784fa1dd42625e51f6cde8c75c8b8c3462163efce89769f3398c261b",
+        "semantic_sha256": "3888d177dfaee74ceb6439ec6a5f26634b4eaf7073128229380142d326aedd6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Lenovo.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:55:52.223568+00:00",
+  "client": "Surge",
+  "rule": "Yahoo",
+  "rule_updated_at": "2026-08-27T01:36:24.147628+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 177
+  },
+  "total_line_count": 178,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Yahoo_rules_ba07d4be59df0441.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18b97ff6c04c1d7153244459e93dbf7c0e77fdf2f10e7c3335a6104f48a2d0f4",
+        "bytes_sha256": "cb7961c36aa0c5c5101b16c614b15af084309308d73d1406cd33918f26af9a50",
+        "semantic_sha256": "5ae5c0894617f2f55429b5b4e078ae8daeb187e286d87dd78a1533992423499a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Yahoo_domain-set_b34e62ddeea82b30.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ae23b9a73b249cda215c2a38475c05e8d7f09eb7244bd264869c5044780851b",
+        "bytes_sha256": "f10e7fd981c542f6c38ce81df4a79e07d8f223e5a8b7aa9fd14db9d9211862de",
+        "semantic_sha256": "b0816c669e37af351896356f278a533ae03f01852397bcedc0377ac3c0504bf7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

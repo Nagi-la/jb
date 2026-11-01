@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:03.825059+00:00",
+  "client": "SingBox",
+  "rule": "OPPO",
+  "rule_updated_at": "2026-08-14T06:52:33.572321+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 71
+  },
+  "total_line_count": 72,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OPPO_source_703a5602ddec87d6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "195690361ae357d1d3ebb869a692babc4106e687e4c0e21c200a4bb8f4d738f3",
+        "bytes_sha256": "9121f6c74cb9d645d1fb58ed744aee6f8930b5c42d4ab1b4451a99a0b2c907f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OPPO_source-srs_719a4d7f4b8f022f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b695d61e38d44cd04670a66a62e2ebf2d50aaa83825ad159addec4e81cd19147",
+        "bytes_sha256": "5302397ac09b19b17017f396ba8920311c2540346d4f5034ca504cbbb30233ac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OPPO.list"
+  ]
+}

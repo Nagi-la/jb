@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:57:05.159247+00:00",
+  "client": "QuantumultX",
+  "rule": "VoIP",
+  "rule_updated_at": "2026-07-26T08:27:38.101668+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VoIP_rules_aaad07842fa44482.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6bff82ed1806f53deab001ee3da01f8bae2ecb201a273acb0b2e7b34f72ffcde",
+        "bytes_sha256": "21176c0242d7b4a7bc5f4e2974a52a5ec71b7ee3e0d8cea99da734b7daceb361",
+        "semantic_sha256": "8c0ab40568d992d58c991bfcce58325d7d637382d00d01ccc45b5b721186b9c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

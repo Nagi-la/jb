@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:07:55.729126+00:00",
+  "client": "Loon",
+  "rule": "GoogleRegistry",
+  "rule_updated_at": "2026-07-26T08:22:14.698881+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleRegistry_rules_01c1a06823bc64da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "63ca28454bd4612efd1972522c97788cfdc41578e2a4b77670488e091f729929",
+        "bytes_sha256": "69f9f0e5c091a43f87cc38a360c6fce0439a556805c7fbf2b8a6ce373a466a0a",
+        "semantic_sha256": "9c6fe87771d02f705dfa869b86bb4ba7e75fc06bc4441bc5e399e425511b939a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleRegistry_domain-set_ae44d5282c7be664.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ed61f20e8f3dee57f8c356d6d3d3b8663c8fbf6f610be4316f618661d4f0466",
+        "bytes_sha256": "81ff18e76563834ae2c4162b6b69a646f1021716dcec7703a89d4ad554269b95",
+        "semantic_sha256": "78cd73950d38ec495f1a018276cfb9cd4e09e443566508efe4df543b7eb6e0d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

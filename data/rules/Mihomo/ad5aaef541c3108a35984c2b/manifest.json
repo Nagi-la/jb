@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-08-27T01:58:23.030851+00:00",
+  "client": "Mihomo",
+  "rule": "KuangShi",
+  "rule_updated_at": "2026-07-26T06:26:22.182982+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 23,
+    "IP-CIDR": 3
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuangShi_classical_eb9188c4b05ec0ab.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1850a294671a8912f1d61ffd708a75e0e27bee012a37f11ed196aba454e5f200",
+        "bytes_sha256": "2d51a6710c12864b2e5a64c2020188153878338a7aa6d730e8bcb301bf28f2d0",
+        "semantic_sha256": "05475c07fa04275e42a26b36c1501530720d73ff86d6607b5883e2f62ae696da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuangShi_domain_1b079ee103620ade.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b91d4f1953e9c2779257f724f4324c416af5f47b9bc2a5ba3413ddbd88981db1",
+        "bytes_sha256": "d64b474df2af8a60c564224c2f005911eb0cdf98faaadd8ee9a1b06bfffe38bf",
+        "semantic_sha256": "aab3df549d2fea883e8a5c531f2ef13054864ce52b9e3bd517b3b5f623005317",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KuangShi_domain-mrs_b045850403210039.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e477c5b2b8f756ee4746a740cda1d993ce198008ef6ecbd865eaf9b51ee474d6",
+        "bytes_sha256": "2d1a69db6f2f24c4f0f5c862395e0a5eb4e0fae6c791a668fc7339c54bd72bfb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuangShi_ipcidr_2eeec66acce94a9c.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "495687c15ad25852dc80c9f42c77e39212b7a32c38de969aae9fd14c5ed09247",
+        "bytes_sha256": "766da291d42b817e06852016998fb4fa10d6803bdc15b92347da9ffc63647149",
+        "semantic_sha256": "cd6739764123886e2d7fd1e660645210145f8c1431b29a0359f10bc04b8bc445",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KuangShi_ipcidr-mrs_ef90d30e59466762.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a4124b9fab41835c6b73cf5b184d90d1c6328de6e13d587ee1dcb97a2c8d4bcd",
+        "bytes_sha256": "d93a1e23eea454d6680c2a18459c61eab152b28adfe395c7abb9d181a2ca09fe",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuangShi.list"
+  ]
+}

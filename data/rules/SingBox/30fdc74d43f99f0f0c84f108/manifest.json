@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-29T03:30:55.206625+00:00",
+  "client": "SingBox",
+  "rule": "Anthropic",
+  "rule_updated_at": "2026-10-29T03:05:32.347939+00:00",
+  "type_counts": {
+    "domain": 8,
+    "domain_keyword": 3,
+    "domain_suffix": 33,
+    "ip_cidr": 2,
+    "process_name": 5
+  },
+  "total_line_count": 51,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Anthropic_source_d8b928b39f776834.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "af14e375f5a2d03fee7a4ef729ddbe9022daaf2e622f3248d9cbcd04556d0240",
+        "bytes_sha256": "280bccadae11c40598feb10bed8ab9f25f7892ee8c847b6de22a038a9222d560",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Anthropic_source-srs_5f4b0fca9c6e4d3c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3b1fd915961e0da87f37d7bfc215568df68761c6d283e4c0f406f6f469551b21",
+        "bytes_sha256": "b3320baf835dd931ffa95123f320836f0d99e946b806054c10dd3ea56b9d5051",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/anthropic.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/Anthropic.yaml"
+  ]
+}

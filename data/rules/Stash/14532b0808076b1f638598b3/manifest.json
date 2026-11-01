@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:55.937939+00:00",
+  "client": "Stash",
+  "rule": "WildRift",
+  "rule_updated_at": "2026-07-26T06:31:44.266758+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WildRift_classical_70a6d0998615e469.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39db59061c6472a8081ad31ca1f66cf3e638fd36147e248ad8421645652bd151",
+        "bytes_sha256": "872284ce0e7c25b3c7a6133d63d362aa205d37967c7c50466e2f416d4f020ac9",
+        "semantic_sha256": "1e559ff93e6b876c7679d3a292b3a02342703ea45f5517c395940e47f2231137",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WildRift_domain_b3806eaf4557a1bd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b48e08296d03c76bd7f7cdf9981c0f8d9efc4fee3be370ebd80dd24a09076b12",
+        "bytes_sha256": "5b00b6b73372154537cd267851a8ee2c97f4437284d5d650537872bdb291527d",
+        "semantic_sha256": "7fdd53403520f15f7a05a5411f2d216e2cab6157b53367b594f7dfc83147ca81",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/WildRift.list"
+  ]
+}

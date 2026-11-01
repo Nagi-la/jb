@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T01:57:51.777594+00:00",
+  "client": "Loon",
+  "rule": "GoogleFCM",
+  "rule_updated_at": "2026-07-26T06:59:59.597845+00:00",
+  "type_counts": {
+    "DOMAIN": 24,
+    "IP-CIDR": 26
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleFCM_rules_4f25d01f26a5f22c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d10f652ac319b4533210235f528c780351a76b6445836293695d7ffb0977caaa",
+        "bytes_sha256": "8b9818826669e1ef565f6056b6f85668a7d088b4bd01598271bb87cb76cf626f",
+        "semantic_sha256": "7ea6b78e66450fe3ac005b96800546152ed42c0be6301a57e7a485368185738d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleFCM_domain-set_65065a5fa9910dbf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9ebb603fb30ddb5125d4803b46b76edc7f72813205e0028d52ec3a09a193eaa1",
+        "bytes_sha256": "7cce4882964e6c325b13018c82f5e4495147ffe1d9cc956603d5da64f05c9afc",
+        "semantic_sha256": "627739ac3e5eb7861017bd36b8bbb3974b403d0e8a5d64810cef4998fbddf6ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleFCM_rule-set_1cdde76875a1a422.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4d9410147dce80e3cc8b20cfbce38768cfeaa0301e00c3b410e1ea551806e90",
+        "bytes_sha256": "6a167917ca86ac37d947d72d0121dda356b2eb36bdf173fde6f48721921033cc",
+        "semantic_sha256": "8eb10116f75f3ff1d9baa824ccf0d3b3baa15aa74a70cb5234aeb171c0f30e83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Google%20FCM.yaml"
+  ]
+}

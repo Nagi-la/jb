@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-10-29T03:30:55.224864+00:00",
+  "client": "Mihomo",
+  "rule": "Anthropic",
+  "rule_updated_at": "2026-10-29T03:05:34.979803+00:00",
+  "type_counts": {
+    "DOMAIN": 8,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 33,
+    "IP-ASN": 1,
+    "IP-CIDR": 1,
+    "IP-CIDR6": 1,
+    "PROCESS-NAME": 5
+  },
+  "total_line_count": 52,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_classical_f09788cbf2bd0c25.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "329d54360aafe1dbc4e6ea36d9f547176a461317e636e64654d7035e2f062908",
+        "bytes_sha256": "c262587ae3b9078296e28a47ee2293c0f4cde199229922bf82bbb46c6a3a2209",
+        "semantic_sha256": "504b65386fcc1e3dd110e68bf97d9224f8313a5280b0f45c4c3431f3aaec8cba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_domain_642267db5c531a93.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56069bd465c8cfaf776d85bde01e2aeb97a7daaa78ac34086fb89d216328a40e",
+        "bytes_sha256": "ee6328faae57f58dc338b41cdad97950f4233baca876387916d08714bf439d45",
+        "semantic_sha256": "2253b363791e89619e24198283c70c9d98fb32244089023fb26e22c61933922d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Anthropic_domain-mrs_df6512db07edff18.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4243877ae4755fbefddd3295c58906a8fa38fd0109b9e9043afe9c8e23e37757",
+        "bytes_sha256": "051128cd94459d6789d7ec0c8a6811fdc14379ecf45ab0c0b7fb54ddda0fcbb3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_ipcidr_ef2e7553e1ac1b3d.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "974003b452414f96b909e25675834421b224d0e937c3c599cf8a2f579a1da00c",
+        "bytes_sha256": "06a9b69f3231eca08353081d4ca0124da11245e7f615e2bc4f1cec57dcf67f18",
+        "semantic_sha256": "bf1dce864ed745175522811897c3f51ef778461c39add80dbf7df9660cb6124e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Anthropic_ipcidr-mrs_c7d968da97972833.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c2d16a6f9ec10dc7cafb402a0d4022218d925a31cfebfd7d1adeff8ad445b4d6",
+        "bytes_sha256": "31d87b2dc45d5e8188d583cb352c2dec93ff2a8d3157a9f2e9fd6cd1499ccc19",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Anthropic_classical-rest_de2bd108cd0dd954.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7efdc2aabf18614e907a9996eaa2a112fc5fc94a060a3f5ad5316fb7d982c840",
+        "bytes_sha256": "eedaef7d574c1f2a475a92e3ab0b1db58b6b2661cfea0ab6137f3eddfc800f1d",
+        "semantic_sha256": "b5fae89c47336831c7b479c05e89bee74942eab32012df0e32788f66db6417a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/anthropic.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/Anthropic.yaml"
+  ]
+}

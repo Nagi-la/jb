@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:39.112176+00:00",
+  "client": "Surge",
+  "rule": "ChineseAcademyOfSciences",
+  "rule_updated_at": "2026-07-26T06:48:07.512294+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_rules_dcac1839b68ee560.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7c8626a59e5962f021391b836374d5fa9f055e1638847cc98e9f1d9f957f741e",
+        "bytes_sha256": "4195a94ab222fdf605ae40549b621aea0f96edc87e5cb16486bda2f09737316b",
+        "semantic_sha256": "2ebc69b210d715c1a45301fb79e4595ae7935bc3696665311a5f9750ecfd15bb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_domain-set_7738e0ab7f2a1045.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2eff285f316706e5f0edc1e89a88a4569e08633336e775eca7d851ba7452a88",
+        "bytes_sha256": "5f710ef06dfd78b2c6d067a0250ee76653326febb69f9274e59b7827b047461d",
+        "semantic_sha256": "93ce6e2746c7a93abbdb35176a605393eebfa15ce4f55d1e1d9015d80fca1f24",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CAS.list"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:06:16.536692+00:00",
+  "client": "Egern",
+  "rule": "Newegg",
+  "rule_updated_at": "2026-07-26T08:34:08.668400+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Newegg_rules_135849f3e3113699.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa91fcbac4d1901a3a104146b28f54960ddd8014ac7a63303d06e1263f855bb3",
+        "bytes_sha256": "3c5a685995adc24f11c3be25070b224e0edc054a7f47627072ee267baedc3a75",
+        "semantic_sha256": "905c212f8a02e8d101abe7884001ac085d98a1f0251a62fd890f6cbe80e51e23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

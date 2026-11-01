@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-16T14:52:38.037935+00:00",
+  "client": "SingBox",
+  "rule": "KugouKuwo",
+  "rule_updated_at": "2026-07-26T06:26:25.726030+00:00",
+  "type_counts": {
+    "domain_suffix": 31,
+    "ip_cidr": 91
+  },
+  "total_line_count": 122,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KugouKuwo_source_b2dcf065cdc3b97e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "caffc37e5365a5b7be04e192cd91d23ebaab396a5cf3c6b82c4ccb1ab5f9e2bf",
+        "bytes_sha256": "cf83e013c9003dfa5641439cc89a3dd78e9e712c37296dabeda524b41cf3f890",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KugouKuwo_source-srs_8df77011fe2879d6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c2b3070aa92ee91e9f4b18c49b1784b83a7192d749fc308deff7c6a5417f044c",
+        "bytes_sha256": "f624c4dc03bf367699af87b46c293515e0b9c75c15dddaf54b7acb4c343e82ee",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Kugou%26Kuwo.list"
+  ]
+}

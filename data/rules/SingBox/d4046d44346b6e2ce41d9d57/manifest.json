@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:50.315272+00:00",
+  "client": "SingBox",
+  "rule": "myTVSUPER",
+  "rule_updated_at": "2026-07-26T06:57:33.847695+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_keyword": 2,
+    "domain_suffix": 2
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/myTVSUPER_source_c6230e2992f51a4f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c1ae29a867d077579f620fa0ba3a2323fd7293d7aaeadfb8aa2b6943c2e0b02d",
+        "bytes_sha256": "49d0c2a655115375d50d2ec4bd912d13405366f4696d8496792794ff432d0c5e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/myTVSUPER_source-srs_61534096f07aad92.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c068110a037ef60bd61fb85beea80fba6b2e45ed4c346931b5eb900e8b26f4f5",
+        "bytes_sha256": "b7cd748613fb5717342dbd998340eafc99f8231cfd83ded61763d2912581d908",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MyTVSuper.list"
+  ]
+}

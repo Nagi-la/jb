@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:49.696922+00:00",
+  "client": "Surfboard",
+  "rule": "SoftBank",
+  "rule_updated_at": "2026-07-26T08:34:37.835547+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SoftBank_rules_ae17d7af6347345f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9bdac924fe2a02abb8ea5233cafa292c4ad7ea32410e80b4da97708923bd8dff",
+        "bytes_sha256": "e27b9e6dc85d9b888856988dfacb0bcbc6bbfe287b0fa29f547922fb54c96a7f",
+        "semantic_sha256": "41ddd110ff00227997ddfe613d37ed8e72003dd7aa5a15af48a8739b867befaf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SoftBank_domain-set_e4f59a1925ab2dcc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e933a7de43a1798d94139bd33d76288040c31bd3242ab495f18c8b6aed6ad4c8",
+        "bytes_sha256": "72eb7c0cad4832d1a2a9820ff96349a524678d9e9d0669a82f5a45b54b244a80",
+        "semantic_sha256": "1e544df4c61e2fc499ca55207804491c176781b7f317ae554c9afea174ad57dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

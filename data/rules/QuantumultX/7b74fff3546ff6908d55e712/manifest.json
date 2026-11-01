@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:14:14.982510+00:00",
+  "client": "QuantumultX",
+  "rule": "Reddit",
+  "rule_updated_at": "2026-07-26T06:53:41.356813+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Reddit_rules_23e8e269eb8c40d2.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b8bbc488e23c5ae63c881ed588d6c6ce9e0f99c832cba0de8b55c324834ae5b5",
+        "bytes_sha256": "7240693ece3745d1565434cc20c1aa27a5ac9382a6925c6120d9ac376c5a0c41",
+        "semantic_sha256": "e73785e5eca37456ee294e0b4e20e5a1f9ca1bb5e84f3c5ecd09f16adfacaeed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Reddit.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Reddit.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Reddit.list"
+  ]
+}

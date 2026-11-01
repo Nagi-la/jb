@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T01:56:39.088419+00:00",
+  "client": "SingBox",
+  "rule": "Privacy",
+  "rule_updated_at": "2026-08-07T02:23:29.932971+00:00",
+  "type_counts": {
+    "domain_keyword": 2,
+    "ip_cidr": 9,
+    "domain": 11,
+    "domain_suffix": 39863
+  },
+  "total_line_count": 39885,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Privacy_source_b5adc811bc74a6cb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9db36aae5e4daffe01a0044182b3930870f57d9209ba69423d6dd3a6c7d1de72",
+        "bytes_sha256": "996d8f2e4cc7e5efe50db8a6b5ad3f90e729a62af149bd7da91f5f1359d92106",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Privacy_source-srs_7e7e21ea3c548a8d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cb3dacbbc0bc43fb505b464a8afec8a45bce983df9ad2f859db9abc9b24019d2",
+        "bytes_sha256": "aebb725f0d524f51fec55a875529cae4573f2277a2f6c715db414ad57264db3c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:18:29.022904+00:00",
+  "client": "QuantumultX",
+  "rule": "CNKI",
+  "rule_updated_at": "2026-07-26T06:23:35.633106+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CNKI_rules_0347aba6bce37759.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2570e7682782fa15d9d3b28a85670a839891529de7707ef75bf8425a5b6566f9",
+        "bytes_sha256": "7c36163aaaa79d7c376b63614db0ba384beec2bda0bf6c0b572b4483c4f795f7",
+        "semantic_sha256": "8658a96b478c910b284da638311e424389ea458af4ccbb549e8d347cf6575624",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

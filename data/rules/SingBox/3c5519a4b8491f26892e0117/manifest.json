@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:49.855737+00:00",
+  "client": "SingBox",
+  "rule": "ZDNS",
+  "rule_updated_at": "2026-07-26T06:29:52.391408+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ZDNS_source_400ca7eac74e97f6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "de53a97a0b7f36ddb685a12d94957dad32b1ea03cb3581faa556c77dae9e708f",
+        "bytes_sha256": "b4bbeca415c81fc4c14e6cdc3370b54af59da2ba69a3316482d2c7bd03417814",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ZDNS_source-srs_bdbd2f85401214ab.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1279a43dcbc08fe05768f967203b96a2be1555fa1de8b0ca4868a580bf992ace",
+        "bytes_sha256": "1e092fb4054a89f5b5d94951b200551293afcc1e8c56b63526038c0505dd311f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZDNS.list"
+  ]
+}

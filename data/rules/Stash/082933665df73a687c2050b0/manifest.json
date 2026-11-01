@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-30T08:09:30.993855+00:00",
+  "client": "Stash",
+  "rule": "AdGuardSDNSFilterDirect",
+  "rule_updated_at": "2026-10-30T08:08:23.028016+00:00",
+  "type_counts": {
+    "DOMAIN": 184606,
+    "DOMAIN-SUFFIX": 4,
+    "IP-CIDR": 72
+  },
+  "total_line_count": 184682,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilterDirect_classical_774e1b1e07459f78.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc7c4f340bbeda788469332507e64f836259e144ef04238bdffcc311c0e2254c",
+        "bytes_sha256": "4df35dbb95d07f89a52a9735b2fa553d14458fbcf3b1cb3e9dba07e8af4bc313",
+        "semantic_sha256": "14ab48af573a7d4e5b9543236158e537fd649d2f2337d4d96505a15315e0d225",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilterDirect_domain_523fdb5e594eb231.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f781885c890b636a1dd88b5f10db2f0be078f4a0dab5885243fb8ebe1aa37b24",
+        "bytes_sha256": "00761062d29d70dc749df14629b854083fa86a27cb6f2a1ea872fe4c35a57874",
+        "semantic_sha256": "742e89c496ff0479246022d26f48fc927f70c24eb4fa131f852d220ec06d344a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilterDirect_ipcidr_ca008df352c211bc.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50243599ec12a1ba87cf95592131b85b229f03686e417e2fd9a2f3ebbf9db766",
+        "bytes_sha256": "4cefc19e412bb9d677b348a2fba2fb9586435d5649b8817e6bc56c83d8988c15",
+        "semantic_sha256": "cb4448cd2240154f1de0957d3be282b4765fda5cd053034a98a6f6f1a393a770",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。\r\n\r\n请将其放到AdGuard DNS Filter规则之前进行放行。",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:07:04.009576+00:00",
+  "client": "Mihomo",
+  "rule": "GoogleEarth",
+  "rule_updated_at": "2026-07-26T07:13:47.231485+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleEarth_classical_6b852c735b9db3cf.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0143ec80ac8ec44ed81bba7bef3701cac2412be860fbf8382b44788df223f28d",
+        "bytes_sha256": "322fc5a2db2425413457f5dfe33bc450f08e7ce60c51e05c884f9db1bd0cf339",
+        "semantic_sha256": "c34940f79a8af3a531fe4b9628ad4a2c267e5ce2e66c7b0b18f7ae764f97516b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GoogleEarth_domain_180478313cd0234c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d0b9be20351de2ad021f3bf9d23454d63afbb8af32c699b4fad6db6ce5f616f",
+        "bytes_sha256": "db298236897d18747d68bd5bda21ab79b2b1168bd382492b14b4f39b133cff84",
+        "semantic_sha256": "34e5abdcd7bae2a4de7661147886b51ee7b9c7fbf2048d9d89aded0aaf092956",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GoogleEarth_domain-mrs_d575af76cf52666d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fc91baf51d30295df2165eb7e22c2c1a7b5656b20c78bbb721b325f0bc62c3eb",
+        "bytes_sha256": "334925a8b5bf45ae267d144de1f0c423f9ab3990c490f5f58098b6b21a6a0eab",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list"
+  ]
+}

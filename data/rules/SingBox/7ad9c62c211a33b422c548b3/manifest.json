@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:09:05.544614+00:00",
+  "client": "SingBox",
+  "rule": "Rakuten",
+  "rule_updated_at": "2026-07-26T06:53:36.659727+00:00",
+  "type_counts": {
+    "domain_suffix": 37
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Rakuten_source_138ac9c7b7fa3744.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a6b7127518ec3ff4b83056d44e95a60cb06d1e3f65dc36fbb13936fdb5c126d0",
+        "bytes_sha256": "f599eaf08594eb7deaab834a9baaefafad0d1ab060cb4ee7039dfa6ecdb54433",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Rakuten_source-srs_0713004a8aa7c347.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "01534df5349005ddd16d92907c5966258c38ca589d2aae5de9f1e98d517f609c",
+        "bytes_sha256": "177487d0d97247bf7566fa28721e30c635da301890a6fe4d1b3c2d6a65a52839",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rakuten.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rakuten.list"
+  ]
+}

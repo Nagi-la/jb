@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-27T02:02:06.397437+00:00",
+  "client": "Surge",
+  "rule": "AppleProxy",
+  "rule_updated_at": "2026-08-07T02:23:33.571097+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25,
+    "IP-CIDR": 1,
+    "PROCESS-NAME": 9,
+    "DOMAIN": 34,
+    "USER-AGENT": 5
+  },
+  "total_line_count": 74,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleProxy_rules_ab569b9a69eb13f5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5fca4aa20619b67e6578171cdd02a59498a49b35f3e8393e24e4df2d05f92b3a",
+        "bytes_sha256": "059b89246f740a036f730ff11d2de29af9d41ba1e710bac602de293fb0955f0f",
+        "semantic_sha256": "bd9cb0de926865bda7664046b3e5df367ade8edc9cdfe5a9f8b3e9f95985f390",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleProxy_domain-set_1b1b5506dc311642.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5fd65cefd95531acb19bea0d72ec8c2f1511a6c91e0b40d168cb66f049c4f8b1",
+        "bytes_sha256": "d43be6fd0d569d5d56c14abbb4f6021b184b8d573dc616abbc1528c8cba1bf22",
+        "semantic_sha256": "20959694524e3ed555c0159dedeea40de900b0310cf1061772668bfe946ea07d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleProxy_rule-set_a16e2f6b461c2f99.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31f26183b2ad349da6a3f96a07cb73224f82180c54ccbb7fde8b181b3eda5e19",
+        "bytes_sha256": "6d31354714627c53154f30d4aa30ca09fc1b7d6ad71be13108749031f51cfd1a",
+        "semantic_sha256": "a77ed0bebda3f7ff3a3a1b21c7459d4725b0a6c2a305f6ecbe24eddf38515a8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

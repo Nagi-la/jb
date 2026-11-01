@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-30T08:09:30.968091+00:00",
+  "client": "SingBox",
+  "rule": "AdGuardSDNSFilterDirect",
+  "rule_updated_at": "2026-10-30T08:08:21.479576+00:00",
+  "type_counts": {
+    "domain": 184606,
+    "domain_suffix": 4,
+    "ip_cidr": 72
+  },
+  "total_line_count": 184682,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilterDirect_source_1ae4aa7aa0ce4cbb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a14f841f7d3dd489e7c3eabc5c8ca29a6ff51840db33dea3d4c050efbb1a6d70",
+        "bytes_sha256": "4423aa046213ef6232fd6ecf4ba32027e1b3ee844de6b613f16596afe26a379f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AdGuardSDNSFilterDirect_source-srs_f84e5408dfadcf80.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "586befa4840c79568f56c742d7717bef0ffb8e2e18c6077409f2cd2946de601a",
+        "bytes_sha256": "03fccdbc397761d1afabc2fa03334ff5336d75f46e996b8ee7c6dd48bfca899f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "AdGuard DNS Filter 中的例外规则，现在单独作为Direct文件。\r\n\r\n请将其放到AdGuard DNS Filter规则之前进行放行。",
+  "providers": [
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  ]
+}

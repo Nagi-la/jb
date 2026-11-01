@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:24.008450+00:00",
+  "client": "Stash",
+  "rule": "Tumblr",
+  "rule_updated_at": "2026-07-26T06:54:44.338257+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tumblr_classical_fe735405830ff984.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7281e6cd28ff87f6b87e8ed6a527cb8eb7d8143be137156b7ca0273bb784a1a",
+        "bytes_sha256": "d772f44d0f65e708b41a30916d8d712beca26c1a8bcec9ba5f74c20d1ea9e968",
+        "semantic_sha256": "ab01fb7a06a0687189aa619496715591d066dfaa7147f37f6908706fc680bf31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Tumblr_domain_a127d0be7753075e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "92a1342cfef4bf7249b07dfac1660535ee947ff5259af86008d9161d227b51ac",
+        "bytes_sha256": "a501f64274c241fb51e792c542347f0a23ad5aadc0df9271eb21a3260f256ae3",
+        "semantic_sha256": "35fa2fb3bf47504ea55221ef1c7e30ca46e1d0cf0d707e44a467148c97887f42",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tumblr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tumblr.list"
+  ]
+}

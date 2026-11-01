@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-10-29T02:54:32.600306+00:00",
+  "client": "Mihomo",
+  "rule": "Game",
+  "rule_updated_at": "2026-10-29T02:37:32.537220+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1139,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN": 126
+  },
+  "total_line_count": 1269,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Game_classical_0157fbace3563b60.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "354c6046264d23105cf2f6cb19ecf5df43781018a7c1c49b163b47e765fc31d6",
+        "bytes_sha256": "819e5165a8fe88f2bb8d709f84eab33b4c76c064702ebda40fd6b95296c8a3c4",
+        "semantic_sha256": "9ffae9e3f5c293d917a00bf1873a5ee8a3504acb66d9d125947e1b7a39944ab2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Game_domain_b583dec5b94186ea.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "287295c442634442d75c3f74e32a3a0c1e59c6840254ce64a20b7e47c48d682a",
+        "bytes_sha256": "9963843fc858f242c3198af4b73ce81691fea5f3ceadef5d026eaa49d589fa0e",
+        "semantic_sha256": "64305a02c3b1352d0684fd58b6e30050dd944bc2d5cbb97152d8d723124e1186",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Game_domain-mrs_03b13c953a010159.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d9196dabcfb981f98d560641eaf47a5146b35f36c186d4011f6153d4a66246d2",
+        "bytes_sha256": "34adc8a4bc8e81d126aeb55aef6dbf7b0c32a1a30eee9ff20af5e1512675d61d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Game_classical-rest_840739710f502d45.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5010f5809d87742c0bfb847c22624d8e8bf4da577d67fe888f1e6298f2136ffd",
+        "bytes_sha256": "613254b46749f8f99e93c7a437d44cac1f0890abb112ff18663ffa7f787ebdd5",
+        "semantic_sha256": "833b31ade3afd8a2f3bbe8cf3a446dc289540cdd70954b1383b9b03e63461a81",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "含有Steam、Blizzard、Discord、Rockstar等分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/GamesAll.list"
+  ]
+}

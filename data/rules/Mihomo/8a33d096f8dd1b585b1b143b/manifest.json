@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:01:42.232623+00:00",
+  "client": "Mihomo",
+  "rule": "RuanMei",
+  "rule_updated_at": "2026-07-26T06:27:52.976243+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RuanMei_classical_45c91fa42491ec35.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11dafb36594b55e0d1606145b5abf56bdff628b9e57055928bedc2cc27da36ac",
+        "bytes_sha256": "ae976a7777ea4989c52c70c45086081e5c14b548d8934334328611ed96687fba",
+        "semantic_sha256": "1cba382d1be8e2111c5ecc895d06b292cba281394489ae003c829d8e6080ceb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RuanMei_domain_a88c37a20b70c516.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5cfec67dd0c06da4c60278437af9755f3c249a7f117c0465bd80506edeacce56",
+        "bytes_sha256": "4d56ce3cbbe8dbcae12300fd03a53e964a19121d57ffbe588e1bfd2243620e71",
+        "semantic_sha256": "378c05ea19226ec5ab37616379c5aa9d863f6a47a1c686e1915b342fdb38f479",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/RuanMei_domain-mrs_9af0499d20358978.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c01c16345cd4e1d553f600ee7ec74f4a45e39480c9b7413dec18bd4e1a2dda2f",
+        "bytes_sha256": "681dd2ccb8a53cbecdb08f58eb6c526d6150b3f3ddee8d728b893ce2a53ac0d2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/RuanMei.list"
+  ]
+}

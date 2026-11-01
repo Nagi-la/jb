@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:10.953725+00:00",
+  "client": "SingBox",
+  "rule": "AOL",
+  "rule_updated_at": "2026-07-26T06:30:27.118011+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AOL_source_e28cda6761b98d01.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "09ef9389aa33603cf072f624c820d9820b651ffed4d3f0844948123aaf621134",
+        "bytes_sha256": "81cd72e2a2ea553ae2e2b59a54e0ea4f32dc826348d848849bd594cc3debe82e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AOL_source-srs_8dd5361de90da57c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "99ec238f65a91dae3b7f3ee4bd033df682ab969d63d48e102575984fd779efd0",
+        "bytes_sha256": "92bea3c842d2b8f37280e10e0d8af233ad85fee99e6a9932014c3bf98ce66ea6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/AOL.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/AOL.list"
+  ]
+}

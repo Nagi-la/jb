@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:01:04.293818+00:00",
+  "client": "Surge",
+  "rule": "Gigabyte",
+  "rule_updated_at": "2026-07-26T06:29:17.779176+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gigabyte_rules_4d30909674780086.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e01cf8796c6ca028b1a481278258908ec5c9060cf1f9f42d1ddd8025659dee1b",
+        "bytes_sha256": "43be8377684e157af416fcb081bb1e6f2a8bebcb7b38a65eee30d362580df4f1",
+        "semantic_sha256": "0c45d9081f9a7e0b61c59d18c335c3f74cf4755bcd6a09179a2b415ddc6f4ab2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Gigabyte_domain-set_1333872f0891daeb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "592a54a3f9a02f3832a36a9e3427543fc513d2311a00d426707e3ab7b4a938c3",
+        "bytes_sha256": "d7565c2138ec41af235c76b1475151c9aae750f5aecace21089b82fda873470d",
+        "semantic_sha256": "2026eaa2443384a30c38e6316098fdd5259653c6dcc1c99b385719b95bc27c93",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gigabyte.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gigabyte.list"
+  ]
+}

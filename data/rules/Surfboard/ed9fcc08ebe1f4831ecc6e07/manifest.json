@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:58.356715+00:00",
+  "client": "Surfboard",
+  "rule": "Getui",
+  "rule_updated_at": "2026-07-26T08:32:56.972802+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Getui_rules_010451ca116f9565.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c37259fb293a59359e33b0dfa2d97f9d968c013ce270fe05a57eea20b37c566d",
+        "bytes_sha256": "9036449d45a441522e6f7487ee91486ee7c7f7aee35e3c69f795e75242daef27",
+        "semantic_sha256": "e85eb3224dca5912b13a1ca10653fb2a0438db0bce610620f60e43e2fb3cad98",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Getui_domain-set_b1a2a18c93dbcaf9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a90a5525d909a6bb5028ae5c5194214181a253719cf950a1ea7aaaee34ec6832",
+        "bytes_sha256": "19c9065ee01554f023958045983f7af8af8ee038de12310964284602c3970de7",
+        "semantic_sha256": "b0b10b303b1110270b396286c71205e6e06b58a8c7c0ac50be4806d09d94b5df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:56:19.655823+00:00",
+  "client": "Shadowrocket",
+  "rule": "LiTV",
+  "rule_updated_at": "2026-07-26T06:22:15.994719+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LiTV_rules_f814c60292e4ea65.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f19a286d1fc9dd56ce3950422bc5dab248f0d83cff8011a713c8c0b1dbceecc9",
+        "bytes_sha256": "0712bdee5f02812f7723a7ab32c7b51d3cfe26530157b677ef48538ae0bee151",
+        "semantic_sha256": "9cf3c6b85e1e998c99ff4a3082c159469ca66bfc42ea1d41366c9c385e5e599d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LiTV_domain-set_b6ba3024ef5f9d7b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3311a08d6e7f4552b49d328bea6df1cb09e665b000b22b63e6c1c7b152e58d2",
+        "bytes_sha256": "314d00a945b7961668df6547d9590d745db5aab86914e03425ba39dc59a7edd5",
+        "semantic_sha256": "68039cb85452b7114b0fdf4084a1d4d42105b28640edcaef8251f66140868454",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LiTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LiTV.list"
+  ]
+}

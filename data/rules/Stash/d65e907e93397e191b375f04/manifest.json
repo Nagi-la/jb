@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:40.180239+00:00",
+  "client": "Stash",
+  "rule": "AliPay",
+  "rule_updated_at": "2026-07-26T06:47:07.435250+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliPay_classical_f046199a4ae2f296.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7c22bdacc8bebf9255e54a7e26320e97cedb7728367d7aeae44ef7f1f5bfba0",
+        "bytes_sha256": "d5b20e29589b18088f24b5fafffa3856d24a1e82d2e403eb77c2d68d52f160a1",
+        "semantic_sha256": "b7d512fbd23736208530032499d6b022057d5de4120e48288db159f5606192c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliPay_domain_b4c5da3a5c114848.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5014e5bfd4231a7107ec72635b23c3efd0db0c4b58715e2e8be28778d057fa10",
+        "bytes_sha256": "743908590f17b059e6f087c99f62eb2dedb142c7bb14e4fa619b44f6aed36eed",
+        "semantic_sha256": "ffa5ebfcb3d8f242bae91693dc6efa4229e34a5bd9859db9871ddb652e63fbe2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AliPay.list"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:07:20.312352+00:00",
+  "client": "Mihomo",
+  "rule": "AppleDev",
+  "rule_updated_at": "2026-08-07T02:23:04.771532+00:00",
+  "type_counts": {
+    "DOMAIN": 15,
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleDev_classical_66d9e8fa8bd92a10.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "74da325f5c27362ef28e5c667219b5198f8b44c96d6ab3615568b220bff7936c",
+        "bytes_sha256": "4f4090d143dd1f75636d80a85c9ab9b5a4df89d0decfb82beb13b5a7ca4a05ac",
+        "semantic_sha256": "05f2e467647245584eecba1da315d811baa14bbefd6054eaf42dca6fc3c5629a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleDev_domain_521a9f89c7b38dbf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5b9793e5b7f889e351ca5b64426f45af3c26d41380cf1f02e15d4c4a3cfa1d2",
+        "bytes_sha256": "34e9368ab21c464761ebe9cc8f38c63edd0a9d7ae93de3325d6cf8f2ca67a896",
+        "semantic_sha256": "1b6101f9f032ff3d65c6c54e5425f60404883bb9fc5801ae00a44ae67df0400b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AppleDev_domain-mrs_5f4a6377f7e951ab.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a1b1604efc32dcdf7c90829db3104e0124de37d1314cc7628267008ed57d21cd",
+        "bytes_sha256": "a88c59df6694f1d5300dce1b2c1d841e3feca49893ca91566ed25458aa033e82",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleDev.list"
+  ]
+}

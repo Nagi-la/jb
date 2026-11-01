@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:24:29.640582+00:00",
+  "client": "Surge",
+  "rule": "MicrosoftDev",
+  "rule_updated_at": "2026-10-29T03:05:24.805818+00:00",
+  "type_counts": {
+    "DOMAIN": 18,
+    "DOMAIN-SUFFIX": 58
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MicrosoftDev_rules_207e9b43eeb1ce02.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79cf335a51790e9bd6eaefbb8c7394fff6c8ebff1623fa0b92e9fbcb6a3a96bd",
+        "bytes_sha256": "c17dc181f9a3db786a290d5a77fed0c0e9aeffc2fa84529d982e02830842a1d9",
+        "semantic_sha256": "85fcedf8b2f4dedd6e9b4906a40114843e36131c35013d0df5920da010984e30",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MicrosoftDev_domain-set_16ec0d6c5572a13f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c01513e1e08fb32bf7c2ab2a54e38a05e4ffc655767d9877f2abe22fd2930aec",
+        "bytes_sha256": "7181109fe38ef37a88bedc20570904212d64fa8994c41c47318cfd14079db704",
+        "semantic_sha256": "20f33e01f4d745241d7876f870c2418cf4e9f67f1b8cf84f3591eb65e5ac6868",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

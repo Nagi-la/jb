@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:17:37.073585+00:00",
+  "client": "Mihomo",
+  "rule": "Gog",
+  "rule_updated_at": "2026-07-26T06:32:15.068812+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11,
+    "DOMAIN": 3
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gog_classical_8bb85f6fb2ab8bec.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b334236967c4e386a84d304bd7c02d7581d5bb3afa944c2ec51097a79b892e0",
+        "bytes_sha256": "e2b664101ee0483c34393053db5509dbcf1930d1f4fe451e9a08eeaa2f96e799",
+        "semantic_sha256": "8ee7213930f3855e837ebc3e1d6182844cba1a03de5859ccc7d1f8be0c16da7f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gog_domain_6ecc9cd6e42def26.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a95916109fc4412683b2777a72b63bb1adba57b8d44cf474a50c32d60f635df",
+        "bytes_sha256": "5a27f7b91c35cccd41d11acd12734e164530997f70e037460c0a8085c93f5117",
+        "semantic_sha256": "30ed93508c250a8835b6e23f287d5ffa8336f278152cbba9b65175f2c56fe7db",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Gog_domain-mrs_6c036b1f087d90be.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8316858a59980f7b3a15a6ca0f51b056e36c639e7ebec093eeba6da7dd4cb039",
+        "bytes_sha256": "e9e970a8954689076a2f4d0e3eacd9280bf44ee8587e771ca0ecb067df25d63d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list"
+  ]
+}

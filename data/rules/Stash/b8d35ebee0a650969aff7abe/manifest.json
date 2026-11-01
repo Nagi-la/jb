@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:47.880385+00:00",
+  "client": "Stash",
+  "rule": "Windsurf",
+  "rule_updated_at": "2026-07-26T08:34:53.631400+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Windsurf_classical_dc8ed7cb93987606.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76f64af48d6d3e11cbac62e807193590ca227b0398f16e55191d1c7a60dd4482",
+        "bytes_sha256": "d049a5af7fbcb9024cef31e9bcf9630299be7c4fab81ddc776e267277c8d6533",
+        "semantic_sha256": "7fa07432c6768a4d9eba21e1a1a8ea030fc4c7fce221b5ac680433eb091f5d13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Windsurf_domain_6e8c8d2e2e6d9914.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9939f5983c96e2ff3864774e742c34bc67cbfb777a6e8c565ef1532e94dcf9fe",
+        "bytes_sha256": "8d289e92ed235240523d88f419b033b50cd089368c2448bc959c97e97626017f",
+        "semantic_sha256": "21d798a4afb2cecc294fd78539f9df9aca8022f13c8c9a1d01387348dc2f8c17",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

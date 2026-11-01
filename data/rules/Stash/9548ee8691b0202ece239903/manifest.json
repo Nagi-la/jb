@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:24.268668+00:00",
+  "client": "Stash",
+  "rule": "BeStore",
+  "rule_updated_at": "2026-07-26T07:22:56.435699+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BeStore_classical_b7680a379b80c13b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "900e22a80c583885505ff4905324e7e938d4d46f756d307ba8e6fc6d34e42026",
+        "bytes_sha256": "d21d2ca13123c40c54aafa22b5aa46279f16efe195512a29cf7c7113c64ec0a6",
+        "semantic_sha256": "db7595685c99d43f5e73f7871a57771f2297a7ff2e4b3d0c9bece3bc3a70672b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BeStore_domain_06a0b37872b0f7c3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "680047c2a646b4d887e4ee706fcae4b511d2823002c8a00bd8cd194a764ca35c",
+        "bytes_sha256": "a8312a2b98a4fb3584ff7a6bc21e9422f48977e0d5353f42d0c3e105e5df1bb9",
+        "semantic_sha256": "fa860d12ee92ea78233e27093ad40e3e32cf341f3ebedb6938340350304d0cca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BeStore.list"
+  ]
+}

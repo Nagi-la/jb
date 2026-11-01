@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:15:48.889957+00:00",
+  "client": "Egern",
+  "rule": "myTVSUPER",
+  "rule_updated_at": "2026-07-26T06:57:33.904433+00:00",
+  "type_counts": {
+    "domain_keyword_set": 2,
+    "domain_set": 2,
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/myTVSUPER_rules_7e5d5ba5df9553e8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7d0fa0cdfd655c2c863a07b188f792e0bba8192da6f2a69e9dc68a873f79ab1",
+        "bytes_sha256": "4216676817fd944170723d5770caa55cbbe84ad63dda68da4e810a2e43e871dc",
+        "semantic_sha256": "ed13940994e6b35858b5f822b7ff5090c163a467dc06e3e3328b136dc3b39f77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MyTVSuper.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:09:03.965203+00:00",
+  "client": "Stash",
+  "rule": "Blurams",
+  "rule_updated_at": "2026-07-30T08:09:52.718012+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blurams_classical_0a57b468f93efd78.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c806e14f29294700fc18420757487b039061e10643dfabce80cd3b20fec11bd3",
+        "bytes_sha256": "9faa2f43e01a31b28f9783972d71f8f5052e85e365c25f3994671ed6aa441e9a",
+        "semantic_sha256": "5adb076647d3921a16c674cc684ff9556cab40a2474403d863aaa24cb4dd078a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Blurams_domain_e17db809be015dc6.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7b698d4c50eaf53d8a715c19e663957d85368d5b0b2b55f24c89ef5ccc10b11",
+        "bytes_sha256": "0a78c62d152e1f3dae79d1f39d4976ef7f5c7f8aedc5bb04792b2a2817681c8c",
+        "semantic_sha256": "aa1f64adef657220f7240fff4a31c940dae0b4bf129d54a7c5efe12565ff8691",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:56:17.236124+00:00",
+  "client": "SingBox",
+  "rule": "OSChina",
+  "rule_updated_at": "2026-07-26T08:34:10.118987+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OSChina_source_71429b41167abfbf.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2239b52198e4ae01fea89ab410af5fbab5286cab9088ba5cd5da2eb259482473",
+        "bytes_sha256": "9e9854efb62a316a24fd798a8113c02673a403d3f62971d80adb708112fafa62",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OSChina_source-srs_4b8b6f7253fcd41b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "db37dae13f63307670b14dd27f82cd707199f1c3ecf93fdf2749c8ef9f65f282",
+        "bytes_sha256": "1a3ccc93ea7c0bd622a136619e5aa48979a331e5dad894c2159374b1b0e598a5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

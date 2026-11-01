@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:45.759894+00:00",
+  "client": "Stash",
+  "rule": "MeiTu",
+  "rule_updated_at": "2026-07-26T06:38:36.966739+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiTu_classical_97b6af5e6b3647d3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0519373402009f2c311526720376b8982dda444fb3652391b963f94424d8f968",
+        "bytes_sha256": "00711a07a5c96a00d43e0f0da3ffd0d8f4befa779a1ca4f8389ee9a5b30a08df",
+        "semantic_sha256": "659b9f343ecd4a6db25d7134a61268362ff5fa1473a91ac554bdd65b9151bd4a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MeiTu_domain_a09e8d7b39a149b2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b71193278d2b762f4ee7310f27181a0a0780af974c0f5449842d6021e335ce6",
+        "bytes_sha256": "dc3de642e5bcaa3fbebe1d111bf6b1a7210d56a02dcf15dad89717d6af7445d0",
+        "semantic_sha256": "6cccbe0c9660fcc17e4073fbaf0560a5d1ce478b805fff56fa1bb85d37e6e2e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Meitu.list"
+  ]
+}

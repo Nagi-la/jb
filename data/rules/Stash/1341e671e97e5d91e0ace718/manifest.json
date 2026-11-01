@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:53.921232+00:00",
+  "client": "Stash",
+  "rule": "Ziroom",
+  "rule_updated_at": "2026-07-26T08:34:56.889097+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Ziroom_classical_b98ed6da07823954.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "baf2b660022e0e8316122d3bb05bcbb12207c4fdb6ad22fa0cb298452f74ca5f",
+        "bytes_sha256": "3a28ef2c78f5a28f16381b8812b3221d0ea566565311f984e856061e729422e3",
+        "semantic_sha256": "543ce61a990e605a09d0cf46ac5a468f57ac9198a72fa768d267a234b3855b57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Ziroom_domain_1b405826fe2b9c37.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55cd59acc2649f69827e8846e1fd7fbf3dddfdf8ce48e498f969a6215c65fd8c",
+        "bytes_sha256": "e4ae58f93f5980e37144484f7eea67c990da3d332a141b5818b68d706e448794",
+        "semantic_sha256": "614e5e35d66d69e91d4bb13db6f5b1f32881bb2023f8bd66fc89b15dd0b5644e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

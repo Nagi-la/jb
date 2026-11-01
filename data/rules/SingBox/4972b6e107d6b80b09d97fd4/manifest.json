@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:05.350610+00:00",
+  "client": "SingBox",
+  "rule": "Vivo",
+  "rule_updated_at": "2026-08-13T23:45:36.135361+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Vivo_source_aeacba0deb759c38.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9461cb6810c89e93e8b3d1ee9860d41a3e5c373ca9bd8c371c18915c3bff61a2",
+        "bytes_sha256": "8dfe305651fdc8f8d582a0f95faf8a967668f9f42f889839e623f91069aaec6b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Vivo_source-srs_72cfa5c715d28fa5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3705d0f2ce6d5342f5c1233c5c0b26b83b2d1c2dfa51fb92af99976ddeae9d19",
+        "bytes_sha256": "a5b62dd05b6e13d18181bacf89816c705ddd7954c1628d68b0e5f30037117083",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Vivo.list"
+  ]
+}

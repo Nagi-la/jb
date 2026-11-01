@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:04.566078+00:00",
+  "client": "SingBox",
+  "rule": "OP",
+  "rule_updated_at": "2026-07-26T06:32:09.474878+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OP_source_36a1e4ae52826202.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "98773033de2b0bcf12a5a4fceac6d878dd7632fa2f8d0f903bb4bf2c163f6a20",
+        "bytes_sha256": "96748200e66c440039db672348d811629a71aeb906c2d52b377ff904052086c1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OP_source-srs_17207c1ce2fe9629.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "80476a4446f5933b7bc3f6890eca296b4057045b2d05ba9159c3c290553e4e0d",
+        "bytes_sha256": "115bbda05b99ab547602280ac729dbd0c83647e5e6f1bce582c810077e1318c2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/OP.list"
+  ]
+}

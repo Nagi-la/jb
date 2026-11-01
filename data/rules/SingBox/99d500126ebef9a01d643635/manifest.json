@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:01.851045+00:00",
+  "client": "SingBox",
+  "rule": "HuaweiCloud",
+  "rule_updated_at": "2026-07-26T07:04:08.000199+00:00",
+  "type_counts": {
+    "ip_cidr": 102,
+    "domain_suffix": 291
+  },
+  "total_line_count": 393,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HuaweiCloud_source_8bc44277a14938eb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5c2329694e8f80252514daa23a603fc0574cf4784c65fa6d549324ed9c0973e6",
+        "bytes_sha256": "bb479dd7158de7b4492093a46e93613db5309d046fcdf073328b9045eedda2f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HuaweiCloud_source-srs_2b201c39384b1c77.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6df1471327e9cd606a1928d1806b380039cfdb8eb739d44b835a88d71fee6a4d",
+        "bytes_sha256": "cbcab239be306cd9414e3246259a792dc40d29492823f4a231cd2ff5fb546d3b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/HuaweiCCC.list"
+  ]
+}

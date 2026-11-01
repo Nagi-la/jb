@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:05.640495+00:00",
+  "client": "SingBox",
+  "rule": "DDNS",
+  "rule_updated_at": "2026-07-26T08:25:06.573284+00:00",
+  "type_counts": {
+    "domain_suffix": 111
+  },
+  "total_line_count": 111,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DDNS_source_49450dd68ad6ebb0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2671498b89d82739efe64bc2fbc9f35280f548c0f25fd64bd84c974f21c062d0",
+        "bytes_sha256": "3ebd0caccca4b1f1b6319b6359978204bace95f74e0771e8e4a3505b2221f8f5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DDNS_source-srs_27976ee6f1842885.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c490d472d81c97806950dc2d2f3ea780ac7dab0bdef5550f67c966caf93fb85a",
+        "bytes_sha256": "360e32e9d3f9cab009b6ab6c36c9fc7e0a1032d551e6c2db59bfe4b5b9d076f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

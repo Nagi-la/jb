@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:54.822262+00:00",
+  "client": "SingBox",
+  "rule": "Tailscale",
+  "rule_updated_at": "2026-07-26T08:34:39.250624+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Tailscale_source_f080f50f70db2be9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "322026bbd8645f17288a49c7670aa34a788c68471a9037f81420537ee3c914e4",
+        "bytes_sha256": "02966f2dd1f28ee2d308840d4eb4e06a77e60edac786a0522f7f08042fa0e216",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Tailscale_source-srs_2022607e32489f17.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3366031538aca12675c1c23646187dd4776f01891e96f515c1c4b9fddd3d6bd1",
+        "bytes_sha256": "60b2549c5b582df316941a0f15c45e8960a2c8b9d2eb27f08288b34d77589991",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

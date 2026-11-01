@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:06:47.999606+00:00",
+  "client": "SingBox",
+  "rule": "TeamViewer",
+  "rule_updated_at": "2026-07-26T06:21:16.460164+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 3,
+    "ip_cidr": 8
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TeamViewer_source_6e00e0b2c5f49971.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "77e3fb893ba8dcd1022bad1b777126bcd54ab4a7c031534bf6f1a6200e3c0e6c",
+        "bytes_sha256": "d8002f034f73dfe0291421a974f2406e3e48f61bbccdf27d8f28b3117deb8c5c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TeamViewer_source-srs_4ebd083a9c7d380f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "06b030a7be50f462f572ea8b96cd5c951244bbe84e9b9d395d883c7e6ef041b3",
+        "bytes_sha256": "bf278e21b0507366fb44a81b2dbcc28e75a9eb2cdc748a794b3e89b69eb96002",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeamViewer.list"
+  ]
+}

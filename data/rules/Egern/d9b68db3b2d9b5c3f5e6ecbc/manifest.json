@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-18T18:49:29.193893+00:00",
+  "client": "Egern",
+  "rule": "Stripe",
+  "rule_updated_at": "2026-09-18T18:49:23.765739+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Stripe_rules_d73ee1e9b942073a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e54f3a095af2fd97bd302f690637cc047bc291b9e8e70b3023cf30cc6fb58401",
+        "bytes_sha256": "2085623c484782968ce4ca67c622cf06a9881bf5f3e63f93c0c744dc67bbd931",
+        "semantic_sha256": "bb9c35aeec95a8d234b2cfb481b7f6e1f5ffe5b50053e0c8ac5139408d2073a9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

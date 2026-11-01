@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:42.263429+00:00",
+  "client": "SingBox",
+  "rule": "ShiNongZhiKe",
+  "rule_updated_at": "2026-07-26T06:28:04.981956+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ShiNongZhiKe_source_c68ab08c266eaecd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ecc92c16ecb7d19214f91011456fbf5a32adf0dc59472e62932fb836865947cc",
+        "bytes_sha256": "46de3dc9d8726829b83812bb3482203fc69b71ddd6053fd1c0d4cfcdfba0ae05",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ShiNongZhiKe_source-srs_2cedea22a262c67e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "01367454a5bc3d955ad3cb8dbdcb39ba4a02aa1378fa9f48ccfd8b8faebf8663",
+        "bytes_sha256": "21710ac190b98a2194076faa0fc55643beb9cbd5c0e7f0525f3e87d19b92d761",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShiNongZhiKe.list"
+  ]
+}

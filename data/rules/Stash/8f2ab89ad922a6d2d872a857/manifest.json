@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:30.553524+00:00",
+  "client": "Stash",
+  "rule": "ReadTheDocs",
+  "rule_updated_at": "2026-07-26T08:22:41.908998+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ReadTheDocs_classical_8da607f70eca8c79.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d255ded46788cc11208488dc79efe249439f0918a0fc3d3c5abd871e9aa8e295",
+        "bytes_sha256": "fdf66ddae28ab2f0ec9f27ab1c7e6d6ec8a1f12ae29bdff506675ceb8987fee0",
+        "semantic_sha256": "f33b70fc2616f76ff8e5bdf4be2f2d7e1002a881e57abd2f5e642e685931042d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ReadTheDocs_domain_a15b26283e915b99.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a1cd84de469214e88ae6d3552f743e9243bd0223d4158ce63fd7f4083529ecd",
+        "bytes_sha256": "1d7cd14c116bcc6efb1575fb97f1a2f68e8d4de3b5c6d3ddd870a196521bcb25",
+        "semantic_sha256": "053eac54dd6ca67ed375e7b25272014d7eeb8ebe6e08b0fca171825cb535d555",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

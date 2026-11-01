@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:05:21.545533+00:00",
+  "client": "QuantumultX",
+  "rule": "Umeng",
+  "rule_updated_at": "2026-07-26T08:34:43.432569+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Umeng_rules_9a9b7419a405a471.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8250b3275b7a055c7825678012a813fa558732aa1e2d3824c83ca70113957933",
+        "bytes_sha256": "ec130477e448a5a8eb3086675bba38d2e65ec2f2df6a47a35e12e8763d0b06ea",
+        "semantic_sha256": "a4569b0167b4a62b9cd7bf9ee676931c706b4262c2668ed5015908269fe487b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:58:19.866809+00:00",
+  "client": "Stash",
+  "rule": "HuggingFace",
+  "rule_updated_at": "2026-07-26T08:21:17.693477+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuggingFace_classical_f48880e07e58fd25.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27672ad5b10a3115997242f843c63a23ea44ba7d9725e71fbdb4db53fd67fffe",
+        "bytes_sha256": "3b042838bdbdc62c336e5ee524007b735a378fdfffa5eab7d6e58e8ae2761f2f",
+        "semantic_sha256": "453cf333e0dd8b60aa1621d3446e216fb84914223d3556b623d8f030f0a310c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuggingFace_domain_30ff00e71481bab9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2022e768393ecf93606b271f05117f9df48e6443835db9ba115f0d91988554c4",
+        "bytes_sha256": "a380ed20559731d61503850f580971920826bd4c9bbef41015d04a2841c055f2",
+        "semantic_sha256": "eeb7c5702e443328dfbdf6041c93e0b00c97db15568989e37c2706b1262896ed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:13:03.059517+00:00",
+  "client": "Mihomo",
+  "rule": "GitLab",
+  "rule_updated_at": "2026-07-26T06:29:22.672160+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitLab_classical_9c36f4c59060f246.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d1df251ea94097ebcbca7e51429bf091426d8a4b28ff8781ab3fb1667e32ba21",
+        "bytes_sha256": "66ea0e3b3c9606cfa51ccce4a9e168045791d35c97c589a2eb4e499657f8daa5",
+        "semantic_sha256": "f9b975e3b4d046851d2eb4008cf1158608a27264da592310de47270ccb957577",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitLab_domain_2193bad3be31e054.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c6b36cee2f2a5ab2b0323f163b4eb3ea7988d5d883560ddbc6df5775454fef9c",
+        "bytes_sha256": "face179e3d2f05d1dbd164e27aa43667f3e81ae78ac3dc0fe41cb37024c00c8e",
+        "semantic_sha256": "9ae1f54881f6336efa26a75fca20fbe7eab1ea7bf1d9b979072a4e7035e98785",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GitLab_domain-mrs_88ed3e5c0e859892.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fce981894d9a4bd7fe5ab45b5df9a2964709757f937fb7bc83f94a104ec5a592",
+        "bytes_sha256": "72e4faa145af00e5a249f79ae8ecab47263f49b2ea5cdd841fe6f662ad7c7338",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gitlab.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitlab.list"
+  ]
+}

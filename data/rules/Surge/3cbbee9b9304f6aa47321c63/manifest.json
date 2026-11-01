@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:02.308906+00:00",
+  "client": "Surge",
+  "rule": "Brave",
+  "rule_updated_at": "2026-07-26T08:21:14.738073+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Brave_rules_248dbe9ba9d51e90.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "051e20e6212c8eb05caf53b2de5fd8a5e15f79529b08b89c6abc4594273bde62",
+        "bytes_sha256": "f0e9cb77e1a4b31dab11b89d58a38ec5725ee77277204d6ee39c86f4d267a7d4",
+        "semantic_sha256": "5243a355e4b69dca9414821dffd9721077d924fccd5a0716ac624bb8ad2f3733",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Brave_domain-set_bebbb5060a425b27.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a89632a270c59adb419f5c67ef205b97266650a7ab218773a6b8db6f17c8134f",
+        "bytes_sha256": "aa869fc0c559b0039b7f065a4dcab72d556c03a87fc1b530331c31e2a756b88d",
+        "semantic_sha256": "f4d471d152e630bdabb2c6f66276572a13fc33e53d8b220fc3afa6408b4d588a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

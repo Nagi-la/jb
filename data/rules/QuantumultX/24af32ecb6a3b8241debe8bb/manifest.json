@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T02:48:34.296388+00:00",
+  "client": "QuantumultX",
+  "rule": "Azure",
+  "rule_updated_at": "2026-10-29T02:37:28.973450+00:00",
+  "type_counts": {
+    "HOST": 4,
+    "HOST-SUFFIX": 150
+  },
+  "total_line_count": 154,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Azure_rules_f36990762c2b650f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "749932922b9ab5e7056df2f557a9c02c011260a7594d6aa79dfaa943d00d8db6",
+        "bytes_sha256": "d859d0e6d26f7460d43b4c32b039f739718712fd0cbc79f6bf9b47d0cc6785e5",
+        "semantic_sha256": "abbef2734cdbd16b3d228df6781fc61627288e3fcb07eb84b0453af973cc55cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

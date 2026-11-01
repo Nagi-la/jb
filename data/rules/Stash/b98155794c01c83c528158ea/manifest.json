@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:36.659714+00:00",
+  "client": "Stash",
+  "rule": "DangDang",
+  "rule_updated_at": "2026-07-26T06:24:18.447327+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DangDang_classical_fd31fe28e0d52767.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "93c19b53c076b4b9ff34d95a92779301a434028c16c254a64836acfaf453a494",
+        "bytes_sha256": "80fc1f16a41fe325ce3acfe5ae7dca0bb3d0e52c1b118591d891b2f5f57014c5",
+        "semantic_sha256": "a958a456ba98a359879cc051ae4a006a21e93166555a16d0653b73b17aa29c63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DangDang_domain_c119afb67de8bc68.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2523393f97b061789489d2b0cb27ee1c4725a4ec74087ee1e111e5c18702308",
+        "bytes_sha256": "ff9c6f06809f70f3747bda553b9499dbb7249587b2035632f2b256a9cb324553",
+        "semantic_sha256": "83d77ee2ffaa98c221515e8dc4e54bae3589157cc84b1ea11a7bf466c89f1aec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DangDang.list"
+  ]
+}

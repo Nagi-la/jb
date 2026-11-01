@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:08:15.785339+00:00",
+  "client": "Mihomo",
+  "rule": "51Job",
+  "rule_updated_at": "2026-07-26T06:46:32.371637+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/51Job_classical_3381d957def2c90f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "933298069dd25fe5c6a063c4c2be83b9aa6e52a6676c155fde83c9e0eb9c9d18",
+        "bytes_sha256": "ebda840827392a4d25d595766da5eb35a9fffd99b3e1a7d18c7c27a6f47baf8b",
+        "semantic_sha256": "d492dab322c624ee84b9752d302a1f20cbec339e13def60c3431b5fe11fb359b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/51Job_domain_5b11c75a5e0928e3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ef65b9ee9746a19dc5258077b70f94f0b4094aebfe8d2c846cbbeae980e8df0",
+        "bytes_sha256": "cd4fe19325c238a1269f46ef8e9716655bfb80cf04f89f0ef03b140cdb5cf794",
+        "semantic_sha256": "d6a4c83018a12703add57ff853c2f53cdbf9bce493a28c77af6137781389522e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/51Job_domain-mrs_ca2ab8bdb1fdfd5a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "afbf2d61484b44b24d55d907bbc4e91ea7bb67b60d070c36dfbae7aaf0bc58b5",
+        "bytes_sha256": "91fe9a917b91891bdb2a4cb6e1dece1de53fad3e9390a16fce22ca720403584c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/51Job.list"
+  ]
+}

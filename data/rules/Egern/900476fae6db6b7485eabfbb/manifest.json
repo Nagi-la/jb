@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:18:28.328523+00:00",
+  "client": "Egern",
+  "rule": "CNKI",
+  "rule_updated_at": "2026-07-26T06:23:41.136028+00:00",
+  "type_counts": {
+    "domain_suffix_set": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNKI_rules_9a95e1d06e359e0b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3726b6e770e578ad9ecf562f93de5b7a85b7e3ff03f010c9eec4da2094f70578",
+        "bytes_sha256": "51cec0142493652930f3f865f366f9b6ddc502bb92108a80ac647d01a7af14dc",
+        "semantic_sha256": "c9a934ccaf5eef4790ef1e9e72dbedcbf816af81ffa30dbe9871c80f7283cf33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

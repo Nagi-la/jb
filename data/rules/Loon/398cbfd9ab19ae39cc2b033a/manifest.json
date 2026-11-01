@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:02.487329+00:00",
+  "client": "Loon",
+  "rule": "Logitech",
+  "rule_updated_at": "2026-07-26T06:51:17.213202+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Logitech_rules_66a3b3a0fa3b85f3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61060e0ab701509b0f54afd1d4f6e25d922f186e33f80601c15012c90a421467",
+        "bytes_sha256": "ee5de119a52b70f59eef73301e789e5236e6c52e44a0a0e9348e583f112b6508",
+        "semantic_sha256": "dd5d18a900a69fa7e89c92572389b8c25ca322f0a50d680aa333374507116ca5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Logitech_domain-set_24d16bc1d3a11062.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "488bcf58b874e312221d3e6f8db3918cec25ccab5cd71ff4b8eb5a7ca6b61b2e",
+        "bytes_sha256": "79374ed49d2efe1fe3f9c16f31fe72d9dfae21dc27d1b2ecd27551e121cc55bb",
+        "semantic_sha256": "40b19045fe2afa58c379e27da422658b3681ee0977ff7d583fad81643e60b49b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Logitech.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Logitech.list"
+  ]
+}

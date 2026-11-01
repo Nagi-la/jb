@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:38:27.191003+00:00",
+  "client": "Surfboard",
+  "rule": "GoogleDeepMind",
+  "rule_updated_at": "2026-10-29T02:37:20.687002+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 33,
+    "DOMAIN": 16
+  },
+  "total_line_count": 49,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleDeepMind_rules_580a8f8db9a7da42.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b5c37006429b140c17b50b28a71f8485a7636620ca2270f649a8e49ef2b8327",
+        "bytes_sha256": "47a1df77638edbf5bc0cbab826c26784b01b1d1c34111251ebfa257cd1f56c66",
+        "semantic_sha256": "78f8c446a9646b6145986fdfc132292f6c1166854e4da052de8da02e7cca80a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleDeepMind_domain-set_fee541455437717f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "943f6582afef8198389ab2dd60629a12e3c4f251003cf1ce77b07c1e91aef8a0",
+        "bytes_sha256": "dadcd6ab7729dba4e7fb4b57f95d57646950a9eef0b53a948fc8eadb81e8d71f",
+        "semantic_sha256": "3164201a2aa354a3b45b7210b4a2841b246745e0f3bd804dcad9826eb8195e29",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

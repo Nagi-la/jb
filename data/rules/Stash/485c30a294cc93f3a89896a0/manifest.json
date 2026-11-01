@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:16.402875+00:00",
+  "client": "Stash",
+  "rule": "Python",
+  "rule_updated_at": "2026-07-26T06:57:08.817850+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Python_classical_9348ae1660d271aa.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c34647a68535e666682fea7e3455ec7bffdee7bb5a54e04f96677bbb0c3124f",
+        "bytes_sha256": "e5cf26c2c9e0f5935d2656c212ae2e28b8206125e436fb2269b935741fd6765b",
+        "semantic_sha256": "9c880e8d02db5339ada8db39e9ce7948cfb8203baa28ea172e439fba7421c6c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Python_domain_5ef387a6aba4af5b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3ebcf2975324d4becf56d9a4cf44f4a13bfb32e21d3030d974132411dbf45f3",
+        "bytes_sha256": "fef416a9452291481369a4d2eaf16fdf2aa8dd77c8d4b0779d564c2752befdb5",
+        "semantic_sha256": "2e4c4ae5b7b50d1ddead2871dcfbe12d8306a2732f7ad4af0b1090ee4fe81042",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Python.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Python.list"
+  ]
+}

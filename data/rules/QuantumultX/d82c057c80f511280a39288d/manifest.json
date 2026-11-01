@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:19:17.851480+00:00",
+  "client": "QuantumultX",
+  "rule": "Discord",
+  "rule_updated_at": "2026-07-26T06:37:26.372944+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 29
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Discord_rules_c05c363f062b9558.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f77667e5840398ea2337e122c53834814bcd20ae958b92557f2705fc66af4506",
+        "bytes_sha256": "215b27452f51eb3174a7a7485b8b529d19f1bb3aa941b47955b03655dc679e93",
+        "semantic_sha256": "7503725ea76c958a15e956648746f18e66019664a5aaa5c53267ef26ba9aceea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Discord.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list"
+  ]
+}

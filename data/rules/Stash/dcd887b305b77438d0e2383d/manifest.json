@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:01:30.992760+00:00",
+  "client": "Stash",
+  "rule": "TencentVideo",
+  "rule_updated_at": "2026-07-26T06:45:08.223176+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentVideo_classical_688fe6be12e71311.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2033da2620e4ace2a48fe4d757f5643ac6bea4cb5be7d9449172ee88e2481da7",
+        "bytes_sha256": "a9d65af2c4e441bd8fb67d7457bf284eabffbd92e7e9478ff7b55bfd9c3c6952",
+        "semantic_sha256": "6144ea8d9cc4d3d6ceeb46e28a6b112bd2d4b277f194c6496009cbff9dc2417c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TencentVideo_domain_a9962a0e825524c5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8488aba459a5382bb3fb2021fd3f23aeed93ea5923f205a9039350cfdd270e2",
+        "bytes_sha256": "8f68d91365fc2e69383df067634d984b243c46d6946ca12cef1367001267d353",
+        "semantic_sha256": "522a9d52e371d1954d79191d8a2ab64d5af44549ac61585621c92e8d578ff220",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list"
+  ]
+}

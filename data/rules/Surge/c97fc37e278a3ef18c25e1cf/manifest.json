@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:58:18.708479+00:00",
+  "client": "Surge",
+  "rule": "BitAuto",
+  "rule_updated_at": "2026-07-26T08:31:19.743516+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BitAuto_rules_6b3676e5fc9d5e39.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6815d8aea8e3d0a8d42d1e0af17d5f407cd923298ac6367aa3d3a8a1423f65fe",
+        "bytes_sha256": "e40ff1bb56cf67c68d00f29b0fff00d14ba43d828402e7dc1fdc76d6e599cb4c",
+        "semantic_sha256": "6db08b13ad504b8fc8b9da7ee95dcf630cdcfe629ca4f9a26cb77f3a3f1be5c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BitAuto_domain-set_18489742754de229.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8adaceb81740a76a09ffe526b63c900be50cbe25a745cb5f7a75858f54f7b29f",
+        "bytes_sha256": "dc496246c2b6ecbc4c7c5a21413b6791165b565c7884a0b67f93cf12a37746a2",
+        "semantic_sha256": "d0a4334917b46369f535aa93829b28f20c7ba68fe36d10b99ebbc5f1ae192fcc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

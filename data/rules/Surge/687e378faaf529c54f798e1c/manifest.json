@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:29.440723+00:00",
+  "client": "Surge",
+  "rule": "TianYaForum",
+  "rule_updated_at": "2026-07-26T06:28:22.095038+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TianYaForum_rules_a0ef5ae8c2bfa8da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ca9f1b7a7167f4cc48f575952c02bb78ee7a218a29b76bbe2ab85b2c039280c",
+        "bytes_sha256": "4d4df04e51e343d30b86a21f2dc8114153c4a9fc66a53aa30b19ce11b2e8a03f",
+        "semantic_sha256": "29268b2bbcb758cde88aff95cba7c6ae19354c3152dd879c01297443a715122d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TianYaForum_domain-set_e53bfd1168a9cecb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "59a3602d5fd77fd01023cf1037e7da034cc3d8cf2abc0b6482b078e77ebe8ed5",
+        "bytes_sha256": "1eaf3f1a951c414c6fe5f2c1b4554a236e6b7e8afc7ad2acdd5c1dcfda20f3c5",
+        "semantic_sha256": "67ad7236913bda5a83f9477afceb1b641fd74e68d156a631eeb01d12909d5867",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TianYaForum.list"
+  ]
+}

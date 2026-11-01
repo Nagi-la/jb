@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:08:22.745230+00:00",
+  "client": "QuantumultX",
+  "rule": "AppleHardware",
+  "rule_updated_at": "2026-07-26T07:01:49.749701+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 226
+  },
+  "total_line_count": 226,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleHardware_rules_4d5f2b72df2cde9b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31e107cc05a0a8688a3d80ce3182ffdd479904dd26b3cbc6a9ad02d8a006e8cf",
+        "bytes_sha256": "82cfc690a406d1e23470e0e17df40360caf80575f21d1c0500e7e63ab247700d",
+        "semantic_sha256": "18696724a522b35c3235266202516180ebc281897ea7ed00087ba270c7a7b21d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleHardware.list"
+  ]
+}

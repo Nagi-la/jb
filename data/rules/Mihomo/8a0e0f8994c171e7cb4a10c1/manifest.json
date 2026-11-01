@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:05:57.914402+00:00",
+  "client": "Mihomo",
+  "rule": "Nvidia",
+  "rule_updated_at": "2026-07-26T06:52:23.556785+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 62
+  },
+  "total_line_count": 65,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nvidia_classical_b763ced29b9cdd5e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc1e8a692fa6cf7922c718df9ac6eef6574e3c422263cc9a935972df8ceeab87",
+        "bytes_sha256": "f9779490f4f9f17189e2f5f63c767facad4a7aa5bbef75da44f3efbc13707585",
+        "semantic_sha256": "4be2ed550b9a815b356d798ca6dace6add7b760351592dd1b41a5a182e721c2b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nvidia_domain_369951786ac3c025.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b74ac710ba6b965def61a91f45115a6c9ec1ea65b914c391cc7ad17f5cf7d4cb",
+        "bytes_sha256": "59fd055293ea49accd9494962dcc736f8f5674dddba619d4426c63723e2570a5",
+        "semantic_sha256": "30b48c187d92186b03ea2df13d6419f54aaa93c3793c2759bcad1a79db205f9d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Nvidia_domain-mrs_2e4458d74b0c7fc6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "22df3638de361089eafc5bb68f2ee966eccc3cce9c6f5f9f95fccd538a912808",
+        "bytes_sha256": "60ae2098f233c1673f673c02927ae322e2281bb35c7f8595410624678351f6bd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nvidia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nvidia.list"
+  ]
+}

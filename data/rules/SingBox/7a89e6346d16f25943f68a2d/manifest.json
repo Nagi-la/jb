@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:07.412856+00:00",
+  "client": "SingBox",
+  "rule": "Picsee",
+  "rule_updated_at": "2026-07-26T06:52:54.098955+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Picsee_source_a3cf43aff364de45.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d7bbb5958c44443b4c6961712440e0cb33cfe2dd7577e24d691d20eaa2d4cf69",
+        "bytes_sha256": "d4701e99186c13604a21a2503e60c71586bbba762b82534f9ad03f7f1fd17ed2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Picsee_source-srs_054ca9bb64d1ffc0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4923c1ed3f3ca83d99a9df1453c5254d3304d5157a12d7234289217a236c39ed",
+        "bytes_sha256": "f7e3e40ca90dbb4538fc21a4f7e0df89bcfc5d29b0967489b18b6c64c8358de4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Picsee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Picsee.list"
+  ]
+}

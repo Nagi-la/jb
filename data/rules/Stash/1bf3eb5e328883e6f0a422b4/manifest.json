@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-09T16:00:00.762079+00:00",
+  "client": "Stash",
+  "rule": "SkyGO",
+  "rule_updated_at": "2026-10-09T15:58:45.818483+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SkyGO_classical_15402e390d58eddd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "753d95be94c1a40055fb079821ed752f1d580fbdb64c23b64c10fc97e56075ff",
+        "bytes_sha256": "0a3c4c6325da8571d8fa9f5fed85de2d90fe5478eb05a9cb2f65dcb92be8e35c",
+        "semantic_sha256": "363586029afca62649d672e00eff123fb1496fb36497a198ad9fc6b68c42c6e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SkyGO_domain_baef564b47c4f618.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58d1e5046f31447ea09f90f65e3dbb2600f5f8ba98a5585d629d8f706ac23f94",
+        "bytes_sha256": "189cded43e35862aa5659081d1c0fadde43ded8e5d4bb918073b33c57d95fa21",
+        "semantic_sha256": "7f8444d967b6d18059ea3af6f0722057c3d1766aa0021390206b4e6c095b8b24",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SkyGO_classical-rest_7926039aa91d0fb0.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec3f4287c366be34e88d3e0e5830a5ce750367bcd42b1b9cdaa2f77e2f7a931f",
+        "bytes_sha256": "7d066e9143f1cbd8b0383ed059e4bfbf8243cb86edb61b31da8c2e013509e4f2",
+        "semantic_sha256": "e3fc419d9543ba2c004e7b1aee47c2bcc51668c53c05bc68571866b7cf905526",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/SkyGO.list"
+  ]
+}

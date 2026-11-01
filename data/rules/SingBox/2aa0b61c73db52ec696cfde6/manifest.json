@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:55.848457+00:00",
+  "client": "SingBox",
+  "rule": "XianYu",
+  "rule_updated_at": "2026-07-26T06:28:57.062801+00:00",
+  "type_counts": {
+    "domain_suffix": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/XianYu_source_3f6e35d84cdfd3d6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fa4308387083196b18a2f27fb8e1c69c1b4303e975906dbef55d3d557832798c",
+        "bytes_sha256": "4e5272737694832e8f5e53cc76ef343ace6c5c90585ff7b8457b10dd358b5ecd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/XianYu_source-srs_b170c6c4ca195755.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8194aaa3ea95217ec0b0898670e90b24eb78f91a57375e32a5fa9dfcb95f9ff4",
+        "bytes_sha256": "6207eec0b6d6caf51e3e80e82fbd58e21d5ed01af9e01b8476ce05c5252bcd41",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XianYu.list"
+  ]
+}

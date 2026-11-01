@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:43.396131+00:00",
+  "client": "SingBox",
+  "rule": "Ubuntu",
+  "rule_updated_at": "2026-07-26T06:58:59.252077+00:00",
+  "type_counts": {
+    "domain_suffix": 54
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Ubuntu_source_4bd62ea367c2a31c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a61d43ce605300195330ff7f2581c7d729223620b8979dc9734b9bce54771be2",
+        "bytes_sha256": "9283a69c613b05d2c5a40f2f5801cbb5e55ff528425e710ae1d31a8248ebe988",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Ubuntu_source-srs_fe004474f5a21bf2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "344dcaac949b42dabfd366d63562a2646df0f91b103b2c530fa4b350ee5c00f1",
+        "bytes_sha256": "1297ea250ca2b13b67a6540c292c05eec547b7f1de8f20aec4fe24a941322260",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Ubuntu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Ubuntu.list"
+  ]
+}

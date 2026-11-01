@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:37.254452+00:00",
+  "client": "SingBox",
+  "rule": "DigitalOcean",
+  "rule_updated_at": "2026-07-26T07:16:51.411166+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DigitalOcean_source_588180b1048eeec4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d845a5238aa76a3dee52f3bbb108d6350283f189ef3d63af375e00266285f1fa",
+        "bytes_sha256": "f5cbc9874e260b7af6f3d28e5edd25c45ff4fa142187c9534fc9a64fe8a7e1b3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DigitalOcean_source-srs_ace6af1c79592e12.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0990a75354179f37923ad0517faef4252c247bb65989a8f39bc4440bdee34fad",
+        "bytes_sha256": "3accbaeb2b1b2cc1ab9cd09dad347bdbf1b5086975e2e2b575f75b1312e5ec45",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigitalOcean.yaml"
+  ]
+}

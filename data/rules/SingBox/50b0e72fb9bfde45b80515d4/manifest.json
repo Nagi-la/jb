@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:03:24.795741+00:00",
+  "client": "SingBox",
+  "rule": "Binance",
+  "rule_updated_at": "2026-07-26T07:14:54.290924+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 46
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Binance_source_2cb2c2501e5f0634.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dad05d2884e1a609a35d0a360b1e79c827edbc810e041aad2038cb90cd6e6dae",
+        "bytes_sha256": "3521e0d9f726473f43e607c491a9b451989597e719bbcd9f52d1d4067c230ff6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Binance_source-srs_018dd481e3c4ed8c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d7d6ecb75976a88ee873fc17b1dfb45427c0af7011b75acd3173158546c2b937",
+        "bytes_sha256": "0629533398d5a80ca4f0c16245cd5bf2c6df2f61649d69c2ed3fee5d088c41be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Binance.list"
+  ]
+}

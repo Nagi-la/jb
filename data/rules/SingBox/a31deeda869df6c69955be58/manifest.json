@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:00.723500+00:00",
+  "client": "SingBox",
+  "rule": "WanKaHuanJu",
+  "rule_updated_at": "2026-07-26T06:58:46.727692+00:00",
+  "type_counts": {
+    "domain_suffix": 29
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WanKaHuanJu_source_596c8f0891c38b31.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b103fc0fcfb2158645f83662c77b684f9558afc2973a902d8050e89f6ba9f7bd",
+        "bytes_sha256": "c156d09e44e05ee52bad3ed8b773482280f5c2156f9153f573f91360e69ac7b3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WanKaHuanJu_source-srs_173499611b678ba3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "24ec3d4471b40399c5be951c530ea6a15906a48ed7c21fa90e11e84d254c9fe4",
+        "bytes_sha256": "c054089bab6dce8201053ab42cfb06697603256e57b49747198430f79a94dacb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WanKaHuanJu.list"
+  ]
+}

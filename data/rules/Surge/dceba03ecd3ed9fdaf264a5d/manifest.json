@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:54.988789+00:00",
+  "client": "Surge",
+  "rule": "AiXcoder",
+  "rule_updated_at": "2026-07-26T08:30:06.685560+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AiXcoder_rules_7e15b78ac630faf1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "14d455734bad2d8164d677968cc9e7b19a0e8cf56a2a4a11c23881039d296ff4",
+        "bytes_sha256": "f3dfe49df1172a60de122a812113ccd75cc61bf734a128cae532412746dc31f9",
+        "semantic_sha256": "269ba1281f7001a3ceaf215b3c80f2cfd1e336d8ee9999892caa8086dafbefc9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AiXcoder_domain-set_422cde92c1476e63.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c8e307a68d400ba1d07e9ccde23187a3255504f12f6e1e859c648d10433ef5c2",
+        "bytes_sha256": "367bcf29d0b2d9f99604b05cd5f99ff8d692262e59617a9776e447716b53083f",
+        "semantic_sha256": "412a7e36a1708ef01517956ebf7262ef21606c4bf629c2a746adfa4ce0bc2028",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

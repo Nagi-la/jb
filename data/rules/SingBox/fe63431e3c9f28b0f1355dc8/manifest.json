@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:37.465350+00:00",
+  "client": "SingBox",
+  "rule": "Gog",
+  "rule_updated_at": "2026-07-26T06:32:12.808380+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 11
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Gog_source_2420b5fd22ac6e10.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7d2587d1e1e1aeee2590eb994144ee86c50f75986f6a1f644c44f59b122e812f",
+        "bytes_sha256": "9257e2fa80955ff98be908732be0cc7a5b443318545f98fbf9aeb4d54d2585c2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Gog_source-srs_8c86b38a811ecbc0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7768399615718244a5e9d611506d663d54e6844b216ca6a6f79b74901ee48dae",
+        "bytes_sha256": "7336ab46891419e17bb1a0f164e2b285e48e3b6980da9de8b60e8045615c1af6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list"
+  ]
+}

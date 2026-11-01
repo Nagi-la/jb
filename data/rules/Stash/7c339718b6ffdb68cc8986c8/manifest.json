@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:03.516448+00:00",
+  "client": "Stash",
+  "rule": "TaiKang",
+  "rule_updated_at": "2026-07-26T06:28:25.128732+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 38
+  },
+  "total_line_count": 38,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiKang_classical_3347c97df3b834d2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1f81cc013e06e73aa391d7c80d9cde192fe27cd76b77e42098ee6b247d4b5451",
+        "bytes_sha256": "d00ee90e8a50f6dd192ef89bd1a09a1d5adcb52312d04ecb1ad8c5e3370f975f",
+        "semantic_sha256": "d1fe049437b6251260e998ce78f2c727dd9f394c115deee5b7a046d7e60822e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiKang_domain_773b67e6d47346eb.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a256e7f94466822044393b9b20554702f05eef95a157a58705416ba526a2df92",
+        "bytes_sha256": "ec73a0f1243de5672ea73cb0155b7f15d242eb088d84f6d950d3df688efc5327",
+        "semantic_sha256": "486ce4f417fc08b716d42aac94d05c8d86c49d23be8ad2af28accd838e3e2f40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiKang.list"
+  ]
+}

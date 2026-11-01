@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:22.893723+00:00",
+  "client": "Stash",
+  "rule": "RTHK",
+  "rule_updated_at": "2026-07-26T06:22:31.746218+00:00",
+  "type_counts": {
+    "DOMAIN": 11,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RTHK_classical_1229174eb7dad03c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f379f977dccb3cdd705c9240ab88cd807460067c619dce37ced02bfe1ebbac9b",
+        "bytes_sha256": "658a3472196720d8e42225e696c46b29658cc25136a85ef499485ecda2603583",
+        "semantic_sha256": "bf12520115d6f9db16cf12d4b6e601ab6fa8c64ea2302d70f966e7dd4a6ba1cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/RTHK_domain_d2e54e5c62ace32a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0db13ec9b8b98c1dbdfd8dca467268fcb2d517d3a2e4afb857953ae1fb8a0e7b",
+        "bytes_sha256": "7c4ebf8a0d18c53e4dcaa738fbaf49639b76615aa3d19d64208e0c2d265cc871",
+        "semantic_sha256": "ff80cb53b9acd4c5002aa78346f9ff4f48ebf462693df8037bf420eb6dfeb3cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/RTHK.list"
+  ]
+}

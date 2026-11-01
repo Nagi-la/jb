@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:12:01.032529+00:00",
+  "client": "QuantumultX",
+  "rule": "ATTWatchTV",
+  "rule_updated_at": "2026-07-26T06:21:22.396261+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ATTWatchTV_rules_6433967fc9ff8c4b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6e76ce90f41840bb5dcaddeffbe1e51bd75cd59136e4c34129af287051f5a6d8",
+        "bytes_sha256": "25176ca459c7fb46793d78f235d9186b88fb4797b91ca1325fa9839d4c8ccec6",
+        "semantic_sha256": "bbed2218ff25f0f137b5f657bc0a0c25e55e80ecef497018ceac2322e32db92f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ATTWatchTV.list"
+  ]
+}

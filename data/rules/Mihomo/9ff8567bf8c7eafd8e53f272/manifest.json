@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:55:47.831688+00:00",
+  "client": "Mihomo",
+  "rule": "FanFou",
+  "rule_updated_at": "2026-07-26T06:24:54.338659+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FanFou_classical_8dfd47c1f039b25e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d44e938360af81a3ce0fb0d6a2e8cca5f69b5d262944c035b9db358def7e8d49",
+        "bytes_sha256": "b4b2e14890ad1e5ee6f95593a4a6732d9eaec6a15f8fdceeb6c6f7cc6cd2ddd4",
+        "semantic_sha256": "45d1858c89301e3e38853d3a290decd0067412ec0b3f747e86e1aba4226bde67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FanFou_domain_5d9bc4a45025a57b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d6f18881fba801a3b86307fa9f21382d587e09b12309f62e8651f7752dbbe48d",
+        "bytes_sha256": "2d94b3f110650899692313c18048639cc4090fbaf240bb13a91156df182ef35e",
+        "semantic_sha256": "d0b6eb911f92e24d29714810b43375130f06085147076a98bc5092a02e9d7d58",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/FanFou_domain-mrs_6dd27f2bc5cff4ff.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "86ac1ff08cd95f8b934a83b603c814a71463ea51f6fd1dc99488207585a5e40c",
+        "bytes_sha256": "5aac52bde187c2803fc1b9aeb2b5e58bd55882201939bcad8d0753c71261d188",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FanFou.list"
+  ]
+}

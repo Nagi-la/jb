@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:17:21.423792+00:00",
+  "client": "QuantumultX",
+  "rule": "Tesla",
+  "rule_updated_at": "2026-07-26T06:57:58.749343+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tesla_rules_68352752b541fe7a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55e9d1006bc3ea54e0113d666177cd368084d83abbb2c4479614cec6b7e3549e",
+        "bytes_sha256": "9c073085ce0206883c0136cd46204223935b2de465a78a5c24d8b5a520b44d4b",
+        "semantic_sha256": "c8b9050e008e3be51ba1f8fb6cbc6518bd6b3cd6192b2ee59b9c8b428be5c285",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Tesla.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Tesla.list"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-08-27T02:18:35.825183+00:00",
+  "client": "Mihomo",
+  "rule": "PikPak",
+  "rule_updated_at": "2026-07-26T07:00:38.123493+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PikPak_classical_5bc55f33e826c928.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "313f3b05358847a5e6e85a82cdf66ab4816fee7ade85e7bf15f46d5562f48ad4",
+        "bytes_sha256": "69b258bccf4a8708afb726580d4e58e7932eedbfd45998086cf7a102b29a3f20",
+        "semantic_sha256": "a6a3db47e19b90781874e0ad7b72bb279a88327093bf246d318a93cf520c8bcd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PikPak_domain_eaed055471945640.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de7fb35cf0364184df99f756071cd79ede366be48acc30b0cc8bb595905acca6",
+        "bytes_sha256": "1f6973bfd567c700c8e2f16f0c01c06d1b9c79c2e696bec59dfdb7bb5286e07e",
+        "semantic_sha256": "f43ceee6eed184dbb207064198abd54fad608409e48ae374c73d5fb37802a9f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PikPak_domain-mrs_3a6aaffda44e5751.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "350002fe345481eddca081ab153f4bc3f474ec3eb71214f867861af10142aeee",
+        "bytes_sha256": "b93117f8d4f84567d9220823a627fff8419788fcabba34d7cddb90bb9565244f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PikPak_classical-rest_c3a302b5291355da.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf9cae423ed796c532cf1c34b54864faa355926ea098766fc921d9dd95ad55ec",
+        "bytes_sha256": "747e0b2b178b700add15643ed4168c4fe2f80041322ed99d993f041cabf60659",
+        "semantic_sha256": "43cb042e4312d1f7c5f6b7bdbde93adc1cfb6baa3f777b9b8f29984207b8a6e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/rule/QuantumultX/pikpak.list"
+  ]
+}

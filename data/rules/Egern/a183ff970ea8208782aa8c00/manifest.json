@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:05:17.141512+00:00",
+  "client": "Egern",
+  "rule": "WoLai",
+  "rule_updated_at": "2026-07-26T07:00:12.103039+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WoLai_rules_cdf430257cb3af88.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b13a64fc29865dbad0238e109daef881d4adf9308df47e78f20a1b302a302a77",
+        "bytes_sha256": "4960b2dcd39d729d5531f85b3e86a11fe1cedf26959df20faba855658f7e1997",
+        "semantic_sha256": "2da4e155c862195dd550ea3a52113e915c836a4ffd16b3b243e89bc5cf4efb27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WoLai.list"
+  ]
+}

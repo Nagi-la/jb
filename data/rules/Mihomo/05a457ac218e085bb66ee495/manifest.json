@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:19:11.035513+00:00",
+  "client": "Mihomo",
+  "rule": "Airbnb",
+  "rule_updated_at": "2026-07-26T08:29:55.641483+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Airbnb_classical_ef2731733b1ac281.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5ffb2bb642c391b3958a8e826805f9ab484e02243af2c3070ec6efa2d4fa095",
+        "bytes_sha256": "9374bd9f9376e986b627474152102ff507a196466e81e11b2964dad227731c9b",
+        "semantic_sha256": "04a39aa23ff7313398ec238325d8b2859e0501783bada6a0f94fecb26fb4d834",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Airbnb_domain_594dbe7ad6b6d120.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1820d872c50c9db83e21ce3a5ed2685285dc42e9288566af88ebec79d120616f",
+        "bytes_sha256": "4b1059051c2ab8a8a28e09112e1d444eb77f5c74abb5d2a99c70eace53528045",
+        "semantic_sha256": "5043f5aa9e4508e5156f0e50e175e0fd9fd9a617a1e2ff3549cb556752885447",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Airbnb_domain-mrs_1c0bee3dd404c3fe.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b391a0f6baf5b7e3419bad1cc781c27752ddaaf4732e7b0679ff77dd24f32aae",
+        "bytes_sha256": "030cae40affb36268da70b8266c763da65c2eb187b5a5b2e1809040dad1e5554",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

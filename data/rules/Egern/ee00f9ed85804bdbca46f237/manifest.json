@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:56:18.455200+00:00",
+  "client": "Egern",
+  "rule": "LiTV",
+  "rule_updated_at": "2026-07-26T06:22:19.333343+00:00",
+  "type_counts": {
+    "domain_set": 9,
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LiTV_rules_587d35ac37db7564.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e01063274d39239a74379f4f9c0e2cea92c4c74eaafd256f992863f034d5e77b",
+        "bytes_sha256": "4e4404ea0721e851e6eeafacb49c195673c14f36acb30e7c851c7559c4ab3891",
+        "semantic_sha256": "0d25454c0d388fe2dd5b4bed084393c0ed8cce86fe0d59b089fd6ebb719b3e33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/LiTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LiTV.list"
+  ]
+}

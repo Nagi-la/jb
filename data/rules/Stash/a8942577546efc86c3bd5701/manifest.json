@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:36.468342+00:00",
+  "client": "Stash",
+  "rule": "Shanling",
+  "rule_updated_at": "2026-07-26T06:27:54.343801+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shanling_classical_b1cb1242211cf865.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b863cd0dd9b0c2e1119a9d81285508b8d379f8c14319e78fa234f4ebb3a15b3",
+        "bytes_sha256": "334f4315ca7e95f2942cd071397277fc4f6ca6f025586657fa98426a1927fa8a",
+        "semantic_sha256": "e726c666d454a06aa11241d6e161008cfa3aca08fa87d18dad9e77b9ffdc9d70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shanling_domain_ffe1c3a1f220144a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bde4d9437d0d1ab190a8428aa412ea02053f29fb3055a3d216c3d2397550f0fc",
+        "bytes_sha256": "f9f002661bc1bddcc708115f6408bcb0af49154e2ce1993ced9c45cc490b0ca7",
+        "semantic_sha256": "df1dd6b7290693f7c84adff2a664276ec14e97d25f4ab24eca16ed32367bc5ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Shanling.list"
+  ]
+}

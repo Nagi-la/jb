@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:54.700756+00:00",
+  "client": "SingBox",
+  "rule": "Hpplay",
+  "rule_updated_at": "2026-07-26T06:30:00.606075+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Hpplay_source_22d60412942e747f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ba506ab7779fbb7c6c6a26fd2509aef1b115ea269bbd5c30a47a71b7d0096c94",
+        "bytes_sha256": "7411dba4f584ec941d80205788544ae01dd24301c3f554686e21b29fc8b77047",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Hpplay_source-srs_195cc0eb81a7ada6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f610fd9e42ed266b3114631f2aa6ecd174e416026520295b15a531c6b2863a62",
+        "bytes_sha256": "0f4fc9e8ba6e368c6a21a6ef55cfad5265d311dfe38c775467dc8288d0a32c64",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/hpplay.list"
+  ]
+}

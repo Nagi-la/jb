@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:17:09.942811+00:00",
+  "client": "Surge",
+  "rule": "Shanbay",
+  "rule_updated_at": "2026-07-26T08:34:26.175591+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Shanbay_rules_5afa4dc27ecb051e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b35cbfe54274b77027ab1caa5b9bfa939ebbbb85a74de5d88291ca4882d84db3",
+        "bytes_sha256": "9f13b3a3a99fd76061c4c9a6786ddb4ca234080bd1ca358ec290cf30ab081121",
+        "semantic_sha256": "5d57e51537193bf3817b8ec023ba09873e177755ef060d1e29e75f5c24501de7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Shanbay_domain-set_b2553085f4930826.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "33cf87d587dd74442929467c4448d7b68dcf722421e6bea30db677a0c35167e6",
+        "bytes_sha256": "89200f84bed7444dd5a93c40b9ca5fde3a075906fbacb859ac8835f79497ed0a",
+        "semantic_sha256": "958c675ea09b8584add581629fff1a5482f57a0bca30ba5fbc329079f7bde2de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

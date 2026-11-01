@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-29T02:54:32.587096+00:00",
+  "client": "SingBox",
+  "rule": "Game",
+  "rule_updated_at": "2026-10-29T02:37:32.473425+00:00",
+  "type_counts": {
+    "domain_keyword": 4,
+    "domain": 126,
+    "domain_suffix": 1139
+  },
+  "total_line_count": 1269,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Game_source_c61e5000f06e17ad.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6ea9577e92cabdfc55261a9eb8ac0bded0e7123508b7cdc992f8df61011cbaba",
+        "bytes_sha256": "7c3abc84205cbf2dbafa1d89ecb7eada5797531051c87b4209bdc14018630a9e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Game_source-srs_7e98182bcb06c33e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f18ccf6a14a897383ce2fe12bfdabc43921ea4db0fa603a354713cb8a54f3ae",
+        "bytes_sha256": "ed1e37638e53314203232d2202ce8ea34a9cec9d258a20105f410d1c4dce3f30",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "含有Steam、Blizzard、Discord、Rockstar等分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/GamesAll.list"
+  ]
+}

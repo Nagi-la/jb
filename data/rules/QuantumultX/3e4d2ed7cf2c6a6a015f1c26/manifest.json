@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:13:39.364295+00:00",
+  "client": "QuantumultX",
+  "rule": "NaverTV",
+  "rule_updated_at": "2026-07-26T06:57:32.553087+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NaverTV_rules_424efb2273155f3b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "329e56a8834fe17d8cbef95ae424d7a480990a1ce25364ee6292eef06e5087df",
+        "bytes_sha256": "7373194adf8442d8b3419d53ef7450d1786fb9bb43e4e35b83017ad15b855be9",
+        "semantic_sha256": "e91191af9645688b039abd4a8a403da0ed4baddab975048788a0ae21407d63ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NaverTV.list"
+  ]
+}

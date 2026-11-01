@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:18.579647+00:00",
+  "client": "Surfboard",
+  "rule": "DNSPod",
+  "rule_updated_at": "2026-07-26T08:32:40.845846+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DNSPod_rules_a459245d22dd306e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6e4533f6da813e63c285efde09166ceeab6226859645075d9b2aae0df73af0fc",
+        "bytes_sha256": "e754242afbd03f5cf76f09425d210d0261dabf43087cf904c0ce8dbbaa37a787",
+        "semantic_sha256": "c2fd496e56799c4d5d9be00614533972c5e4997bcd250e5c47ca66a13a56d5c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DNSPod_domain-set_1d0428b737f9cffc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1eccfb75714c63d9e0a104956f7612e98d5cea9fc4cbcdb77a324e28ea75e845",
+        "bytes_sha256": "42fa45b3ec51ffa06cc2280dcf929f4569de29e7c88221750bdfe0d89b7f6514",
+        "semantic_sha256": "52d4be192a2e208bc7ebb443bca9439bafcfe6d8b4324db23ec5eb70f9a88c8c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

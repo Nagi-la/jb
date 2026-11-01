@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:07:55.988990+00:00",
+  "client": "QuantumultX",
+  "rule": "GoogleRegistry",
+  "rule_updated_at": "2026-07-26T08:22:13.520608+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleRegistry_rules_1e3b225f0164bc0f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "256d5fa07fabfeac77b3ade80a9646191f5d778459eafa4ab9185478d9b12bec",
+        "bytes_sha256": "456481e92a62b4ee51f86d451fe27befad9045776d8eb104db2861d0de38ab3b",
+        "semantic_sha256": "b3c4776b609df8894939c8bc0cc8173bfcc8897857635a2e23736135a001211d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

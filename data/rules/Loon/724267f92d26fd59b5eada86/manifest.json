@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-27T02:09:01.162129+00:00",
+  "client": "Loon",
+  "rule": "PayPal",
+  "rule_updated_at": "2026-07-26T06:36:40.564552+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 245,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 248,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PayPal_rules_e33777c2ef792abd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c492d93b2af2cba5c78b10392e00b8240bfe42c0abeb76386a50b70397d61866",
+        "bytes_sha256": "d787b3826aa950db5b3872f569085301fd512fba43c9a274dcf97e61b1ea63a6",
+        "semantic_sha256": "8e2fe4347c661f78f89b2a767c85f5ebcc8aaaf2149da580bd51bf95a20038a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PayPal_domain-set_b185a15a04d3b801.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b874e30386dd1734cbe8142b3e09c1a3fc1b2945254e65cca05b41cc5826554",
+        "bytes_sha256": "cfe11113f2eece7489eb464b8607efc2bcd04dfec3ae2524d350551b3302900d",
+        "semantic_sha256": "e6bc4e5267c6b75aa67ae40eda66ef5eebb861d686bb17ab889d6f1318bac089",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/PayPal_rule-set_44e34b3c89df675b.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d083dc90be72f7eb7dc7e08ef85c2826888963ac85e147485167ece9c4a0df5",
+        "bytes_sha256": "adadf4dcb36eaaa2c9a1fca29f060b1433516e01248402910fbb0892234ad3ac",
+        "semantic_sha256": "5e8da8c36ec8dc45bdcf0dd6365b9b9182e162fad0c6d7fc3ff2fe01bfdddc1b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/PayPal.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/PayPal.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Paypal.list"
+  ]
+}

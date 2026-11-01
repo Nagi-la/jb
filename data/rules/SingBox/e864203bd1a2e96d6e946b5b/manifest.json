@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:09:19.034748+00:00",
+  "client": "SingBox",
+  "rule": "Docker",
+  "rule_updated_at": "2026-07-26T06:50:11.337173+00:00",
+  "type_counts": {
+    "domain": 5,
+    "domain_suffix": 5
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Docker_source_1d2fcbec6ea25b1d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "02fe32abb6f2383164be6b1e244b92d88270768d527736fbf425edcd09edd980",
+        "bytes_sha256": "6b78c1b31907a9ff0a67982c6b1b2ce0fb122dc4121bdee8c4c10131438d00fb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Docker_source-srs_71de1c7c460a09c4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "af3402c303ed64f8195bc760a67306d81a74fd121aee99a76efcf8c79436bafe",
+        "bytes_sha256": "bb29691d6bea86ed15f314d16a02c920f08a846c315837c2cb1d5e735959a521",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Docker.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Docker.list"
+  ]
+}

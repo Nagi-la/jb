@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:39.055956+00:00",
+  "client": "Surge",
+  "rule": "Zoom",
+  "rule_updated_at": "2026-07-26T08:21:29.802270+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zoom_rules_e748bec887b9ab65.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b51d05d13365d8df90a5e7e3b3748705f5dc96f4018aa4bdd27a6b3fc6e68ea9",
+        "bytes_sha256": "16c7f8b5336b2e64e2b5bbda5e78111b9be016a9d03011de7059ae8408a7f2b3",
+        "semantic_sha256": "4e69e264bed2e318f386e908ae52563459a257084cae67c3e87528a18cd0dcdf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zoom_domain-set_6959fb86ae8b7f6c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ba321f66010bce89a336ae670e484cd944db95aa45ce64f2609a7b9122793a5",
+        "bytes_sha256": "044c7aa4986722d3e09d4bec84003a111744dd069fab18a43fd3edaa66be9f37",
+        "semantic_sha256": "588e79527254e5f7fb1295003eed0f27ac078da9a5c04b8442806896e01b741e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

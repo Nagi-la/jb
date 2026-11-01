@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:00:12.344684+00:00",
+  "client": "Mihomo",
+  "rule": "Apkpure",
+  "rule_updated_at": "2026-07-26T06:30:35.678959+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Apkpure_classical_fd277926796e90e4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2849fc5d2a1ee1bc8af2e5f3ce56b1c16333509dfc02a10cbc5b3ae0984f596",
+        "bytes_sha256": "d1f2e4fcf8211f62d998283e95b30dfb04a0ac184d2df9596d8fc74cfd8b1f20",
+        "semantic_sha256": "3f615711bff88f398aa46fbe298d7d234c4983acf310df3485c5c965b971bfe3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Apkpure_domain_d6d7a21e99071099.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "93302be8e798d0b05073878b837a80dbc84d98b3d93f8980ec1d27d25478b197",
+        "bytes_sha256": "c81e1660ebfd07463f3aed6d8e8c9b13f4e3b8b8f7bc72c60114bbff666343bf",
+        "semantic_sha256": "dc1f52ddfb5bc275506f8926674f49bd8088095b3f13b5d5f96390235a04ea99",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Apkpure_domain-mrs_4977c408414ecfd8.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2fc8c5c4af1ec2c66bb5e53965cc52653c7f2308395238a5a9c1d47ef8a656fc",
+        "bytes_sha256": "842c659cec440b5c5874a0388ae57366b3ad9f7122c53291e727d6cfe28b03f9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Apkpure.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list"
+  ]
+}

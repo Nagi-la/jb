@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:16.794891+00:00",
+  "client": "Stash",
+  "rule": "PotatoChat",
+  "rule_updated_at": "2026-07-26T06:33:57.172691+00:00",
+  "type_counts": {
+    "IP-CIDR": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PotatoChat_classical_9a81af5ab1ee1864.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce24bf9559b56f90d3dbb2ac329a5c4bd797718813078a3421b5331a51f7c89a",
+        "bytes_sha256": "cd890854e499a9324bfc58a427108f2947c7950e6d2a6abaff1be4ded63ebb22",
+        "semantic_sha256": "15263fc119ee12834ae69a9fca435eb691b73814dcbdedefbcb05e36873e2f3f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PotatoChat_ipcidr_5d899df4447dd4f0.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "806b287d89072902e12ab4e22baefe29fbb991ecee5124eafaad823e84a8188f",
+        "bytes_sha256": "9b61ccf52588a8f7a9896b0f122b1abb0b9af8b2e9c583f8db554e4472ae184d",
+        "semantic_sha256": "fed4f1185eb34885645adfdd8ac0299ad5145a2a8eefcd4c2fc14c7bb75aea3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/PotatoChat.list"
+  ]
+}

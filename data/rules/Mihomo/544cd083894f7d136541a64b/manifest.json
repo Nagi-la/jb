@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:01:10.390314+00:00",
+  "client": "Mihomo",
+  "rule": "Vimeo",
+  "rule_updated_at": "2026-07-26T06:22:42.237948+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vimeo_classical_8dbc0f83a94932af.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ccf9902985eb40b207dcdf37d96ea0d1b15495a06fe6d1e5aea85f42395ff98",
+        "bytes_sha256": "a9b12343e48d23385f4dcb3e965de3e261c26a5f608696d8276009e42ebd7b31",
+        "semantic_sha256": "3b50ef2775b55c66fcd08afd2ab3638178de5357fb8f8583d8ef8c550fe3721f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Vimeo_domain_f0bcfe70b23f24db.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2c409e656de6f5846822d680f8c5716a3e21115fe436c37d0a606497e364521",
+        "bytes_sha256": "7b311867c61f1ebd9337dc5132f3941c83d4a9f07a16a6391c52187f061c43f4",
+        "semantic_sha256": "3d33ccd82a54ec8d7f2d90d6f1e6468f7f1879fdad44e47fad96b749a02fa66a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Vimeo_domain-mrs_7871bf5265db2c83.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8ea5ef2c2e7b054ed859e944d01ff5670ee503d4a74d629d081ff26bd40a0df3",
+        "bytes_sha256": "35e3daafcacdc54d6d413548432dedecbccd7be06ad2bbcc7ef37be9685c7a06",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Vimeo.list"
+  ]
+}

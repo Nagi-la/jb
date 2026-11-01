@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:55:48.292073+00:00",
+  "client": "Stash",
+  "rule": "FanFou",
+  "rule_updated_at": "2026-07-26T06:24:54.372044+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FanFou_classical_8dfd47c1f039b25e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d44e938360af81a3ce0fb0d6a2e8cca5f69b5d262944c035b9db358def7e8d49",
+        "bytes_sha256": "cf0ef1e7f34dcec868cd320cd831af321845f554b4707b69c919c50c1344c3cc",
+        "semantic_sha256": "45d1858c89301e3e38853d3a290decd0067412ec0b3f747e86e1aba4226bde67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FanFou_domain_5d9bc4a45025a57b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d6f18881fba801a3b86307fa9f21382d587e09b12309f62e8651f7752dbbe48d",
+        "bytes_sha256": "232404a9431061e6926c9093008cd6bbe010c3b1e6668c915df540fa9a69f4df",
+        "semantic_sha256": "d0b6eb911f92e24d29714810b43375130f06085147076a98bc5092a02e9d7d58",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FanFou.list"
+  ]
+}

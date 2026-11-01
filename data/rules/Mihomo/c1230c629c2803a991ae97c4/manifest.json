@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-08-27T01:56:11.463893+00:00",
+  "client": "Mihomo",
+  "rule": "TestFlight",
+  "rule_updated_at": "2026-07-26T06:33:05.239695+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TestFlight_classical_543892c4a2328a0b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7fed5858911a0c1786df6cd8261890c96078912fa9de478e1dee3fd92fbf76b",
+        "bytes_sha256": "f99d68981f6d91a452989dc563bacd21331c286fa2ed5fe28f4c1520a3992916",
+        "semantic_sha256": "891dd3673e58477edb02df4480338d8c3a2838e57fc3f406abb842356e3be9f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TestFlight_domain_32968650ecd995b0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3dab062fd965a4cd094fe7ac2f6302003b27d6e8905eaf17a8119aed3fa50df",
+        "bytes_sha256": "0929d744d4bd0ce49de81d930a889fad8162f8c4d51a368934767f150e0125f6",
+        "semantic_sha256": "f891585f60cd728fa3791edb882f17643951963c5d8ab47741aedd2ccd8cf8ba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TestFlight_domain-mrs_52909ed0a47c64e6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eea49b85cd14d90290d145891510ba92ea5b7e363567ca8f6402770cf40eea8b",
+        "bytes_sha256": "cd1a82edd4cebc42e5bc02665d93477daaafe2c7d68dfbfd7eeccf2e37fd37c6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TestFlight_classical-rest_4c905a3bb183145b.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ece09f7a8f899706476f534c001cc7532138db006e0cc41208e8150b868cc54c",
+        "bytes_sha256": "490a4052a4a34c5dc8e751ba7051070fad0a5e43ad361a7750583245794b4600",
+        "semantic_sha256": "a36d26a7673e638bd6431ab0e4a1f7a442175b1e6f0bbf099289d38f9ddedec1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

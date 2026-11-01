@@ -1,0 +1,21 @@
+# NAME: Download
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-08-27 10:17:06
+domain_suffix_set:
+  - qbittorrent.org
+domain_keyword_set:
+  - aria2
+  - thunder
+  - xlliveud
+  - xunlei
+  - yunpan
+url_regex_set:
+  - "(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?"
+  - (.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+  - "(.+\\.|^)(360|so)\\.(cn|com)"
+  - (.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+  - (Subject|HELO|SMTP)
+  - "(api|ps|sv|offnavi|newvector|ulog\\.imap|newloc)(\\.map)?\\.(baidu|n\\.shifen)\\.com"
+  - "(torrent|announce.php\\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)"
+  - "assets\\d+\\.xboxlive\\.(com|cn)"

@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-08-27T01:57:12.841089+00:00",
+  "client": "Mihomo",
+  "rule": "DAZN",
+  "rule_updated_at": "2026-07-26T06:21:44.633810+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 23
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DAZN_classical_187fc3fa2065e0f8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4089d5d8148f3bffd2e15e01e55f371cfb31edb4b5745712f2a8d5e3c642d354",
+        "bytes_sha256": "47406995d52280836a08730e915d7ea66f7139339983f7fa3a3600be25ccca10",
+        "semantic_sha256": "a31bacc54fe27abf2c0c952a54e2c4c68ec55df3dd1f27fffbcf829fa1a8bfd8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DAZN_domain_52efb5da9214b041.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "afd76576037df724894063c472f1b7c1f733bfc6a5b67738f0b6968217802bf8",
+        "bytes_sha256": "3c6d9e2b1561f78afd86fdd4ab7d809f619fe27649a5e9b5e66452cbc64abbfe",
+        "semantic_sha256": "20437dc6a80320df360f861228357ec60f80d1e6e4bac73854eac4543dc97063",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DAZN_domain-mrs_ecf667179301962b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "48313f8b85a9a5739abf0327ae113705439c373113881e098f678ec61a6ec866",
+        "bytes_sha256": "d2a2f965a304702430a3ba3501a5f8d3eebaee44884c9662b4bd6dcc7ed40249",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DAZN_classical-rest_93ac8065cb8a550e.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8824e33842e5f82be0eb63e108d923848aa167a64840b3e4eb032a392bd8dffc",
+        "bytes_sha256": "833aab0729252bdde0a6d77d94fde2bc86b5053c9985206f345b087de24bc520",
+        "semantic_sha256": "54eb835e9f532287a58f3d919014b8a56336893772ab8bb8c69da50bdd9e781a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DAZN.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DAZN.list"
+  ]
+}

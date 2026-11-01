@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:10.064757+00:00",
+  "client": "SingBox",
+  "rule": "Intel",
+  "rule_updated_at": "2026-07-26T06:50:48.655184+00:00",
+  "type_counts": {
+    "domain_suffix": 296
+  },
+  "total_line_count": 296,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Intel_source_12c55e8285d3a68c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9303e6c61fe0cb35727d023fda004b2a006d59331bf09087d7655d8981ea9f4d",
+        "bytes_sha256": "a18232a5c4cd6150f32584ef7a991b165ffa2df466ed4f951f8df554cba0f372",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Intel_source-srs_8855030ec7b996d2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "68f5b4a08b234f2f3b633bba1a51bd1fa4f4e294e8a45a713f468e8112d9b37f",
+        "bytes_sha256": "52145382ed5e21b64dec7ffb00812b7d9166fff474204a7aa7961956e70752ca",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intel.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intel.list"
+  ]
+}

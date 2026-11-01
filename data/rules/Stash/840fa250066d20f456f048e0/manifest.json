@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:12:06.886559+00:00",
+  "client": "Stash",
+  "rule": "AWS",
+  "rule_updated_at": "2026-08-24T02:19:48.338613+00:00",
+  "type_counts": {
+    "DOMAIN-REGEX": 3,
+    "DOMAIN-SUFFIX": 77
+  },
+  "total_line_count": 80,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AWS_classical_ba9dadeaeb48a314.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6aa38996cef7909289c21338e3a455cf71da8b50fa86ed5689395855a53acf41",
+        "bytes_sha256": "9186b0ef5e5e184cc7ab8b5736ffea5c0878be50d0c9bc5fc5a814a7a0fae39e",
+        "semantic_sha256": "4f8a32b9606cebef9fd4efcf7de3c60ff4fbd6209011ca88f3c22fc07d69f4a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AWS_domain_f68e4b39721a690e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91d7e8418b677ae2a633ffe69afb437b13eb9913c6f481271c6a13303140eb40",
+        "bytes_sha256": "b6198355b8e169554bb9be4b37309ccb356764bf53637b305d4ed6aa169316fa",
+        "semantic_sha256": "9da72a92c4821cd8b428baef4c61bffcbe68f847597cd8f8edbb4ad10502b6df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AWS_classical-rest_50353f0e2d9e8544.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47080c2502af7a1eb5a6fde5b38a9b491639a0e78c2721c16162113005e03bce",
+        "bytes_sha256": "80d6ee487decb98cd19c3678c879320c139034234e8800b96e5a741b1433c5f3",
+        "semantic_sha256": "65d8e522cdf28bc7ea9de699cbdd62dad6424d3668d9230c9bea51ef191a4e58",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

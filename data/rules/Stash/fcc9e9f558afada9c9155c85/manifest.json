@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:35.765095+00:00",
+  "client": "Stash",
+  "rule": "BaiduCloud",
+  "rule_updated_at": "2026-07-26T07:03:08.722020+00:00",
+  "type_counts": {
+    "IP-CIDR": 131,
+    "IP-CIDR6": 10
+  },
+  "total_line_count": 141,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BaiduCloud_classical_cc662dfb9d63d73f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d6a4770cc4e7904d64819dbe69659e737fe6db7132ac79f665ade4480c687b3a",
+        "bytes_sha256": "e862f2c3f26250223d1b239820d4917d0a2792b91b7f7379f70d99fc5ddc7b8f",
+        "semantic_sha256": "ae63ff9340c84def798910bc428d0f404f8b00b500f9884266921f42aac6fd44",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BaiduCloud_ipcidr_3627e5b29d7d9efd.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a34e9649f6e1cf8679e2e54d5845f770d6132b5cbccd60cbabc8f4e2dda54bd",
+        "bytes_sha256": "da0038b49545c49c1126d9314ff35f6e5830e59e89b4b2e4b95a1e0318f56ef4",
+        "semantic_sha256": "70a7b60960f16403978926548bfec69b9ab4c432b68822534594bf28e365b8c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "非百度网盘",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/BaiduCCC.list"
+  ]
+}

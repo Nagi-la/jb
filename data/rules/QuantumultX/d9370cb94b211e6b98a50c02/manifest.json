@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:09:16.400498+00:00",
+  "client": "QuantumultX",
+  "rule": "Quora",
+  "rule_updated_at": "2026-07-26T08:34:13.546754+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Quora_rules_ca90e5e01564506b.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ebe24cb8bd11e14cacf344dc91905a49afcd48a6aa5632619bdc2f419b6a12b",
+        "bytes_sha256": "d18fd678d682ceb65fa314b0c97b34accc597ee89ecf818b15d33c52552f8672",
+        "semantic_sha256": "30b26358aeb0be2264b142a7599a7a7cd3f9f6c008055cb3bb037f630c71012f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

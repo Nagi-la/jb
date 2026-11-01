@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:43.728408+00:00",
+  "client": "Stash",
+  "rule": "Teambition",
+  "rule_updated_at": "2026-07-26T06:28:24.662090+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Teambition_classical_b23be69188759326.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ab4caaab336e8557c579fe6a4bbde32a611a27bc034c0e50cfe36cb509deca8",
+        "bytes_sha256": "f4b17bf05ca4c86bfc651048b8f9f0898c298ee82505e54a49f8762d400927af",
+        "semantic_sha256": "734be24be55658896af0384c6797d26bcd05f796ba27543ac1616d39094cc7b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Teambition_domain_26c0269eb8dedce9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d3cc3ddc42e6dd1f8adfee94706a5f39e5cc4e355be161742e564778eb467eb",
+        "bytes_sha256": "ce8a62ec10cda130e1fbecf46413551acd7e04d10d683c1544b5b0fc002a77f0",
+        "semantic_sha256": "d2f440bb912497a2a320bee18050ab4f2f430707e5fd83be3a30629595d3e6a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Teambition.list"
+  ]
+}

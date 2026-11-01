@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:04:22.854037+00:00",
+  "client": "Stash",
+  "rule": "BrightCove",
+  "rule_updated_at": "2026-07-26T06:31:03.825822+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BrightCove_classical_d21829fb0c344a56.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7bc814206cd53a249a20453918e8a1cbe0fa43a366b3c81586a863d45352f662",
+        "bytes_sha256": "08bfe8676ce19d6655d4336b2ed9dba97c8da022c7e020ff18ebb82d187ce14e",
+        "semantic_sha256": "9a56d49a7217bffe072b6b30efd8eeaab4df6af2fa56fba56f0a46977bbd5c06",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BrightCove_domain_ca6a1b224c089c3c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a6b072e70f9d4891245348b8ebd72dda24aab4bd81d9e9dfdd6629452d8f8eaa",
+        "bytes_sha256": "32bf290849435f8d3bfbaf06c300b4e5f5528b8bd50cd4603de871a97975197d",
+        "semantic_sha256": "dccc2c57e6d58c87e0f3a469b0aebcfcee450f2523cc42a73c88b3fb94242ed8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BrightCove.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list"
+  ]
+}

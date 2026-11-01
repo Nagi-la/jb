@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-10-30T01:44:41.664881+00:00",
+  "client": "Mihomo",
+  "rule": "AdvertisingLite",
+  "rule_updated_at": "2026-10-30T01:40:34.021824+00:00",
+  "type_counts": {
+    "IP-CIDR6": 4,
+    "DOMAIN-SUFFIX": 158888,
+    "DOMAIN-KEYWORD": 164,
+    "IP-CIDR": 230,
+    "DOMAIN-WILDCARD": 15,
+    "DOMAIN": 26892
+  },
+  "total_line_count": 186193,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdvertisingLite_classical_7adc2a701cd62797.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "472fca96095755ee5941e473eb134b31c334d486be691e850c402ee6963a0e92",
+        "bytes_sha256": "6fc829622c6228bf40b47b9fd528289db3a1330f58638b671ef9df3d4e200af1",
+        "semantic_sha256": "cd9ee42406478ba952c332fa6446b41931615688588b9ef38f29a7df23d49004",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdvertisingLite_domain_348bce4c80913212.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "558b4d73c0e8338797d5c41878f4c3b0d7644074328c76c3094a81d62f4e5386",
+        "bytes_sha256": "8f55773063f3415b86b05e0ef0602d4b55457c5d6c0b47b03abae267408ade08",
+        "semantic_sha256": "c254b1edd63e749e174b0e1d74e66ad5fdf09431c0380048faef22281922db30",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AdvertisingLite_domain-mrs_031c041beecdb751.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "96e3027d1ce48b8dae272b4a03f10ace9f7f0c7961bf6b84fad4e8f3797774c4",
+        "bytes_sha256": "e8da124afd8b10d57515375a14c31499b9b63286cd4ccc63a6d5e27f10086bd7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdvertisingLite_ipcidr_5989338e60c862d8.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2221c5016fd074bea3a2752d53c5d42681ae82b449779a4fced30b49f3583a5",
+        "bytes_sha256": "330a70c4c00263309763dd7a5749ff0e28f09cecf195eae33948ff7bb8aae595",
+        "semantic_sha256": "473aab7df1d96d7ef1622e6a03f6c51d537b721fcac06561fa6169e5b0a5852a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AdvertisingLite_ipcidr-mrs_7c4341c5ef69ce38.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "11550cc904f8c863069c52290d0eb4974d04f41f3d31df6b6415ef5ecbd1076b",
+        "bytes_sha256": "8f94d05087220b69e0effcf3063f5fc8a0ac64b621007afafe1b980fcdcf28ca",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AdvertisingLite_classical-rest_baba1ca44b0104db.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "781fb72c25cf9108801ec545c29394b5e3763c749f442583e4c0ffb9976abcda",
+        "bytes_sha256": "132b43bc1e94cf872a27d544277a681b8d9cef45622847044fe3991e85c0bfca",
+        "semantic_sha256": "1a6c0d0100628847f1eada8cf96b2d8ffa3917e5510bf06dccc51a19cc796836",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+    "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list",
+    "https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

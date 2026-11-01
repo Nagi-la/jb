@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T01:57:51.985024+00:00",
+  "client": "QuantumultX",
+  "rule": "GoogleFCM",
+  "rule_updated_at": "2026-07-26T06:59:57.701643+00:00",
+  "type_counts": {
+    "HOST": 24,
+    "IP-CIDR": 26
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleFCM_rules_21539db55dc4ee4d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4438f4a2e84da69badadb1225c6c278f1f075063862cf1c7e384f5e0ea3ff1a9",
+        "bytes_sha256": "332066ff5641b74683bd17febbb64f80b7f9c8316c48415f92c098dbd37fa3f8",
+        "semantic_sha256": "f97501379b24119477306ea1fffb6143ed7b09e119e20165008714dd66ee8114",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Google%20FCM.yaml"
+  ]
+}

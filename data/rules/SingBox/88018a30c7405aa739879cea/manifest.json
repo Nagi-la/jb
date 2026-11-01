@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-09T16:20:04.755750+00:00",
+  "client": "SingBox",
+  "rule": "Whatsapp",
+  "rule_updated_at": "2026-07-26T06:20:56.846540+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_keyword": 1,
+    "domain_suffix": 13,
+    "ip_cidr": 15
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Whatsapp_source_01090ca87e5193c5.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "590be95533427ace94b4e69a31c75628188d9b315069835c92cfb39c270da3c6",
+        "bytes_sha256": "2a7b9fbc8ea5a1405637fe8cd0a15866ca4480f0b9d9ff64006c3dcaceaa3c1f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Whatsapp_source-srs_fd89427363bce563.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "00d402e4908b169cdb1901f09322a3b611654199c55bc9802aa665b36441a69d",
+        "bytes_sha256": "62ad02bcc9c21c3424215ee103178c3b8e344d15e95ebbecbbda728a35d191da",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Whatsapp.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/WhatsApp.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09T16:01:19.804278+00:00",
+  "client": "Surfboard",
+  "rule": "XiaoHongShu",
+  "rule_updated_at": "2026-10-09T15:58:46.039296+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiaoHongShu_rules_ce24b09eca177197.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "314d85e3f88ddf436b2a7bc8d406c37fffb64fa238306d646445e14924040a87",
+        "bytes_sha256": "c45e33b672dd25a0568af7beea44a6bd7f9ac144fc21f02657d95c40208e88dd",
+        "semantic_sha256": "4633ce3a6fda9bb4bed8c4e5f4040dd1711886f29bafae7a59fe527dd3e0d520",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XiaoHongShu_domain-set_9d4bc87cb02afbbe.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c70699017653f260c5976b3bfcf975a9987903202f540a948f66cf2fd51fe026",
+        "bytes_sha256": "c13b47b3395cabefe4117599bd8758a9f1816e2da3470418f5fc0534a41826a3",
+        "semantic_sha256": "c124baf6879616f2cb115d6bd010fec8a8cf8c8cc060ad874efb436ec558ce03",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

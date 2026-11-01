@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:44.568770+00:00",
+  "client": "Surge",
+  "rule": "Wikipedia",
+  "rule_updated_at": "2026-07-26T06:37:19.156403+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Wikipedia_rules_cc6ad68fc88f53e8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4138e404c5b9a530bc1893bfcfa47a69d3174545035a7496bf49de5f4e552f2",
+        "bytes_sha256": "e614a5bfd61571ff98079df63535319bb6bde782e83e4a2e12f55ac4b3ce841b",
+        "semantic_sha256": "213b00230c9838670b22ffe540fd189044283c0ea74c0ac97ba4e1c49a941364",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Wikipedia_domain-set_f5fad886928ea271.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2e10d0eb47d928d2592653ede15c3aaecd603d1cf56687b22e49e66d2eca387",
+        "bytes_sha256": "0dd3a97a2852ce5ebf0aa0ba7ea5478cdbc05ad51fe540aea556ff40181693b8",
+        "semantic_sha256": "ed170bafad5467223948c9dcbbf71ab12cfeecd39556f8bf6ead0be06e920cb7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wikipedia.list"
+  ]
+}

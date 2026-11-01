@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:12:27.603688+00:00",
+  "client": "Mihomo",
+  "rule": "MingLueZhaoHui",
+  "rule_updated_at": "2026-07-26T06:27:15.770993+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MingLueZhaoHui_classical_d987a40e3a7a5581.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "af1a34dde440cc19c898f0b64ef56548e90868ab6e761c38ec84c84fe1a524da",
+        "bytes_sha256": "0405f787f8ce4b177d8134f5e731f01b00d9c7d9760813036f29999487ee50d6",
+        "semantic_sha256": "cf0cce6558fdbb96f07678892ee25249beaf3ed80369bb8c189fa8c761dd8d13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MingLueZhaoHui_domain_f6da76a6d7e8be75.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5185109fe4596494465d0ee12767d95e09124768d15a62134397311b404182c",
+        "bytes_sha256": "5fc8ec629a7b5bdf4820f8db2e247bdcee4cd826efea02fbd6f9479e19ae989e",
+        "semantic_sha256": "673072d76137fcb0daefcdb678bad99b3bbda26ea0a98a5703567a1a4fed7801",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/MingLueZhaoHui_domain-mrs_0601667feaa399cc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "210cce5821543a7d1846629b1f169f7e410a1056d542a1599dc4591920b38ec0",
+        "bytes_sha256": "d34170f2589a748facef2e32d4ab40ddf81e4d44b9ad35756b44a211700b7531",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MingLueZhaoHui.list"
+  ]
+}

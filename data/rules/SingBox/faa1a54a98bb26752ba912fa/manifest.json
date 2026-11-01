@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:17:05.355742+00:00",
+  "client": "SingBox",
+  "rule": "WeiZhiYunDong",
+  "rule_updated_at": "2026-07-26T06:57:22.597649+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WeiZhiYunDong_source_214110fd0de4bbf8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2ffe71ae9d9a15155247c162e1ee45d5775fb4873070451387ccea2f9275dc8b",
+        "bytes_sha256": "f01e4967525f5f9f3f12abfa06159a2887e1add63ed155ddfcb8796fdaf6af53",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WeiZhiYunDong_source-srs_eefbce5f84e6893a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8c2956aa880025c1e26276b2c6269187bff4f6d7b84fafc3279245aa3ed7bb42",
+        "bytes_sha256": "9a7196937eb479ec813edfc0e4748e1ea22a184ae03f0572358df17bf12c282e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WeiZhiYunDong.list"
+  ]
+}

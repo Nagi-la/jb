@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:07:07.794547+00:00",
+  "client": "Mihomo",
+  "rule": "Gettyimages",
+  "rule_updated_at": "2026-07-26T06:29:22.724618+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gettyimages_classical_be5dff2eac01b80d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7c7f6df6363e2e0a1a3d8ca9994956cd9001b3fc4aad5e23117347727785ed1",
+        "bytes_sha256": "09680e762a918178b4638cc73eabfd532a511cedb02571abba378040b414f911",
+        "semantic_sha256": "e69fab5e264e6d98c953f7f42ca2361a38404f5145192e5e2a290211bd7d4d27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Gettyimages_domain_7b2d414e107fc487.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aee3f0294c555bb24055d0da95a0437339a23ee419e0f208815ea75d04c6cecc",
+        "bytes_sha256": "4f4db20f1542852892aba013a482aaa3062a4822a59cb46137f3c34e24e4c277",
+        "semantic_sha256": "c015190c656767b6f49689a924cc7df85bec1b73899ff51a1b15e3cc4ae4e331",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Gettyimages_domain-mrs_68b13edf9bd79753.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5dbe0d045bb1a6efa9974702430fc840143d17c06aeee3d8ac415529bafe39af",
+        "bytes_sha256": "f25b1b411d4ea72e4ba396c4ffc5ae4eb4bc77044a73dd530656371d5c1cd49b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gettyimages.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gettyimages.list"
+  ]
+}

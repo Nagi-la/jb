@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:05.971287+00:00",
+  "client": "SingBox",
+  "rule": "AppleIntelligence",
+  "rule_updated_at": "2026-08-03T15:32:18.040920+00:00",
+  "type_counts": {
+    "domain": 5,
+    "domain_suffix": 1
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleIntelligence_source_f222d170ad2e3ff5.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4302457b0462f35d77c8d6ef8a9c7d5d735f34f8214caa4eaa2fb5671a81207b",
+        "bytes_sha256": "ec5bc035a0454cd0072ba42479e6c517afdbcf87924e3827f7c6bd39bab1f716",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleIntelligence_source-srs_1431a0bb6d710e11.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3fb5f4c1bdca41aa0959aeac9c02e5f46b409b16f78c5d308477445c6829c05a",
+        "bytes_sha256": "14a1290dedbf35a9f1cb2e2bb0f38ca08b67cb0c7f61505535ea3c96fb845c1b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

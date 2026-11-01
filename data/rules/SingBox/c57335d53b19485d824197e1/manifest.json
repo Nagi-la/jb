@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:14:41.875830+00:00",
+  "client": "SingBox",
+  "rule": "RemoteControl",
+  "rule_updated_at": "2026-07-26T08:26:02.516550+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 6
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/RemoteControl_source_bb26223a18f6cf19.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "633799146f420d353a99920862801c88831b2464db2039a3be8a929ce6b133d4",
+        "bytes_sha256": "8e3bd5d9b4bb4f3742a048699159149f289f2872c8476e1420085e5c31ffbd66",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/RemoteControl_source-srs_2ee0d44579770004.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d3ee76c423ee36c7a47b788029c47658f5508954f7a942c52c73c340481cd604",
+        "bytes_sha256": "e584726609a75f246fa1e7f6d39575e82e9d1349ef1890815124fb299a723ac0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

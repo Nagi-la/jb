@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:07.413377+00:00",
+  "client": "SingBox",
+  "rule": "VidolTV",
+  "rule_updated_at": "2026-07-26T06:22:33.793746+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/VidolTV_source_5643bcaf3b17835a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "12be5000f1748fb6d9f8655be5dd939467e1b79add7c4ca0605184a4232e09f9",
+        "bytes_sha256": "5c734e1bc4d2a92c0c7b475c85d26d127917368906489dfa97e6e49b3f655858",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/VidolTV_source-srs_8917c3f81d79442b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5bfe1feff9f7373c71dc33f195a1336842565f142dfc6eef709ce04eaccdf44a",
+        "bytes_sha256": "40d6c8f825d979e60984748a1b92ae323d04d05749cea13e58a128c6999069f0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/VidolTV.list"
+  ]
+}

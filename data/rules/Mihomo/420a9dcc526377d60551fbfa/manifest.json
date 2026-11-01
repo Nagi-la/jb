@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-08-27T02:06:47.579312+00:00",
+  "client": "Mihomo",
+  "rule": "TeamViewer",
+  "rule_updated_at": "2026-07-26T06:21:18.872757+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3,
+    "IP-CIDR": 4,
+    "IP-CIDR6": 4
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeamViewer_classical_104d115b55477ea6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8578f65dca36e75b7b615e3117adb40ea78f5f622847bab7636a32240b12b6a",
+        "bytes_sha256": "4d7672c36a52fe04b24c0d1b95083ee442c8db15ca0438f7085ffa274e7a2108",
+        "semantic_sha256": "e5d5a4b9ef00fe495467d4e4ad7f735ab73fca782b8a246b55c7373b462015f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeamViewer_domain_815b399b1ac0ca72.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "516b21eeb74aa080b1fb14f37f5d271488cf9baf26770ed2624f2bb10043f938",
+        "bytes_sha256": "f3d1b1b1ba63cdc9b24fb60a0cfac10edbf8c79f00e908bed12c1b6f20fe0fec",
+        "semantic_sha256": "bac01c9d02c3b55626cb25002b6666d5923065ec5333624af5174de88a74357a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TeamViewer_domain-mrs_e08f1b1895b7e7d7.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7a0166104cdada5d529f35d2dacf21fcecdbb517de888f54c33c564d71f6e6a7",
+        "bytes_sha256": "67e0c51b4f1539141a356e50e1ea26611ee64d6cec2f7e3b86f40a5cc06b30be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeamViewer_ipcidr_609f82f92ab30bdd.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2818ca534169237f6c2b0ccd06c60f1a1fcad26c13efb3e2ffc431d22499a05",
+        "bytes_sha256": "556e547cddcd49397557fb1cd9482218dfc5f88c07237bdb3ba751017adb88d7",
+        "semantic_sha256": "49a4fead1522c7dcf7482ab4f717577e1a7dfd00c0d15f96ffa080b7bd9cdf92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TeamViewer_ipcidr-mrs_ddae53fc35001dd0.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fbe5cd65ecc215bd2dddc959b3f6f5c911e5965cba341562ff8e229249bd718f",
+        "bytes_sha256": "2144705439cdf9a04b1c538fd6f8319f193da52966a25579b79b60146e56273e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeamViewer.list"
+  ]
+}

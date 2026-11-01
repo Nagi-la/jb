@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:13:37.508123+00:00",
+  "client": "QuantumultX",
+  "rule": "9News",
+  "rule_updated_at": "2026-07-26T06:30:24.920610+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/9News_rules_31e932ac0f9baf0c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c3d6a1a4f7efea19ad757e2a80d226fa59c3369c453405ab050de39a5a639ec7",
+        "bytes_sha256": "c25f1788315f0f94c5e2098a398b6d559fc7032a1ea9dcdd8f5b019167249029",
+        "semantic_sha256": "44f54e9a868a2e78c95c2c5f624a4a4a72d22c3bf5992d1c214d85cfac6be5ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/9News.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/9News.list"
+  ]
+}

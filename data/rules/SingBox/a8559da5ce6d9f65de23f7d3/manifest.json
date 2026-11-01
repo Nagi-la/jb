@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:47.729954+00:00",
+  "client": "SingBox",
+  "rule": "Windsurf",
+  "rule_updated_at": "2026-07-26T08:34:53.506547+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Windsurf_source_eb7fa1bd84e5a3fb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "97b2b6c07d443999566f9aeec026ec78313db85f69ef1dfb857a4a2558d30bb4",
+        "bytes_sha256": "b7a7e2037363b8cc8d3b987230bbaa32afe8dd2bc7201b833be914d21b5ba0a4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Windsurf_source-srs_caccc559af4463a5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "99d69faa7f87dac45132aec0468de93db99b008bfc081d01e9d616c4549d502e",
+        "bytes_sha256": "e7669fb7e2266ec518c80cc8f85fb56879bcf3cb26aab1a065c688b2c9626dec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

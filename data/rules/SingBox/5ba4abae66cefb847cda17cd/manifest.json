@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:14:40.304612+00:00",
+  "client": "SingBox",
+  "rule": "AbemaTV",
+  "rule_updated_at": "2026-07-26T06:21:22.337094+00:00",
+  "type_counts": {
+    "domain_keyword": 1,
+    "domain_suffix": 22
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AbemaTV_source_0c772f2680ae4599.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fc19d93285a23126744e3032690a8a7a8227668d22f1d8f5fddd866b0fdf7ede",
+        "bytes_sha256": "e6a862a58e2fa74e2ef9079f71bd83ff546bb0a2e8700bbc6450f25075d0febd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AbemaTV_source-srs_320f38baeb94936a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9923f14427128a8c258c70d15b39c74ec2120aa0a693f7d980131bfbd80b5a86",
+        "bytes_sha256": "ab4e0817a1a8a6b20d95e46b7bdfcb234689ddacec5d5bed331c3e5f81c707d5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AbemaTV.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AbemaTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AbemaTV.list"
+  ]
+}

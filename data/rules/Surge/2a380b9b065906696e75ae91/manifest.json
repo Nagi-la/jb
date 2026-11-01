@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:05.236179+00:00",
+  "client": "Surge",
+  "rule": "GoogleEarth",
+  "rule_updated_at": "2026-07-26T07:13:43.805407+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleEarth_rules_d506100e05154f1c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eeea343e88fab3cf3713f9d0fefdf263519480e3fcaf77dd8b575a7034b0b264",
+        "bytes_sha256": "04c62c06a4dd11fd24a0c9fcbdb71318faaa48a1a61058ae1ea9d1cedcc2f1c3",
+        "semantic_sha256": "e7453b0c529d5d66dcb28b79921f8e50bb2297dcd2f41874f74b409071622499",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GoogleEarth_domain-set_54bca0dfc38c7a1e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "741b6c8594a05eb1995680f7fdc2e58d62528a3ea1b929abaa78ef9ce500e6a3",
+        "bytes_sha256": "29fa1684d923f619a81a793b15ab56e69fe74e852af1a7a22996b17bb1287781",
+        "semantic_sha256": "e7e3755e90b062a0b3afe54d16ef5d03cbbf2f7d85d2a0ca045fa3d10b974fd0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list"
+  ]
+}

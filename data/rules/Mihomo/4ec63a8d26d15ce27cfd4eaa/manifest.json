@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:10:50.190439+00:00",
+  "client": "Mihomo",
+  "rule": "YouZan",
+  "rule_updated_at": "2026-08-01T04:38:18.925352+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouZan_classical_468e04b68743e066.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d58a8abd944c8a65ce1dbe3ea1c5ab1226b65da92e45b439c5f3b3da91f721e",
+        "bytes_sha256": "1c17ef8113bc2f8ac41ca925665597280596777a84eea555779f55573a37b0a1",
+        "semantic_sha256": "b36973cc26396afd09c97acbe1b3039eaca9593e06a6582938f3606ddfcf6d19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/YouZan_domain_ec7c7395f720ca04.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "16155b1214bfe9ed3ef0f05d7a725f551bf83319d4ac9ac19a8a390ce5b92ff8",
+        "bytes_sha256": "ce43c52051d8a16f273cd28d0d8761b5bf671c3a816380da1075d60c6f2c8e45",
+        "semantic_sha256": "908bbf269c974f69b3fc714bea08c747954d54d3924e753a80dc97acccbec9f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/YouZan_domain-mrs_c16aff2ddd82aeda.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3adcf1da1f740a2aa492fac8152681f5d0634af420b3322ad050cc1884291f27",
+        "bytes_sha256": "197befdc590c6fc6a551f5d28675a2afa9e4e5205c8bf81d8ae6b9cea0981ee3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YouZan.list"
+  ]
+}

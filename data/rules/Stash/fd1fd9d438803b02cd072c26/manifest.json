@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-10-16T14:34:02.105582+00:00",
+  "client": "Stash",
+  "rule": "XiaoMi",
+  "rule_updated_at": "2026-10-09T15:59:11.903383+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 179,
+    "IP-CIDR": 15,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 196,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_classical_d50a7e77463c7fc4.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "abfb56d03e2a865c8dc3b6a3da8b0cc424c889e569969e93e0eb3092bc2a3643",
+        "bytes_sha256": "0cae6586dbfeb4919bdee5d737ad89884cf5ce722573e688f321047a20731e98",
+        "semantic_sha256": "7abbbb7974620216f77c5fbaae536ad138ceb919c1ccecda1aaf35319ae5730a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_domain_b0acd0c32b1b8b6f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2cc21eca1749c8fb6422f1cb4612a9798477ef2a13c08b80bbc0f9615c07cb37",
+        "bytes_sha256": "d029b354b8ff7a6c662135a901bc74072f350a5d500e2505b780b371cb6df51e",
+        "semantic_sha256": "14f8667b7cda100053cce93df7b5875f488ba0ddb29c32ea1670645eace54deb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_ipcidr_1f1fa77f2b4279f4.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42d682d061e2dbaeff7ee7b9cc34730cf44cad372ccd2108c5691b83893a4c60",
+        "bytes_sha256": "2428f345d804a5c8e5366cb6a010fd6fdf293220f8198326d5c24a4a1f83a958",
+        "semantic_sha256": "99e7a8eaa814f3ab312c136eee51a69f126add37a949531e2e465f8783dd9c45",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XiaoMi_classical-rest_d57e3c81490d5ac3.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc785c4c5d7c7e6dc90f226045495e2a62c0b6100b330619620a317428b0d7b5",
+        "bytes_sha256": "5cc6467c6d7c4a859c944a14ec6930b534e00f57fc0314e42068e51194439979",
+        "semantic_sha256": "631ed792525e3ddf1aab73fba7a851e952c1ed4fae90496618ecc795d6d192ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MI.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list"
+  ]
+}

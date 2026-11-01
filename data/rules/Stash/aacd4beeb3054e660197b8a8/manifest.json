@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:09:11.198796+00:00",
+  "client": "Stash",
+  "rule": "HanYi",
+  "rule_updated_at": "2026-07-26T06:25:22.155554+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HanYi_classical_ecd49eeb84293162.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b46ff747e56888eff3127075cb0e5aa0fdd4d1fa860b96116d799cbecc31e41b",
+        "bytes_sha256": "01665719258092a2d610dd32b7b6b987d32a8b64e59a56153d01101e957bae93",
+        "semantic_sha256": "9d0f79f7557d4d08d751380207641efc9c63440bfa632e7db7ab354d46e0f5f7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HanYi_domain_9f235d23618d6388.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a2aea290e61ff4cad336663ea43970c7d4a3676a29f119014264f0a9b3e8f4b",
+        "bytes_sha256": "5bf46f087a7e40d4c01425d06a632163dde44c084aee410bd8f84559a077a71d",
+        "semantic_sha256": "e59422dd59d2a4049d1c680f8150c67a5de45f9bf1fd1e7dadf52e3a6f444609",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HanYi.list"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:19:33.419765+00:00",
+  "client": "SingBox",
+  "rule": "Youku",
+  "rule_updated_at": "2026-08-01T04:38:21.252523+00:00",
+  "type_counts": {
+    "ip_cidr": 1,
+    "domain": 1,
+    "domain_suffix": 58
+  },
+  "total_line_count": 60,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Youku_source_c52f26c030cfecf8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "252b1cb4b37c84c152ecf214bff82ece7c86ec1020edcdf9938ffb126afcd65e",
+        "bytes_sha256": "45c405f4685cacaf6f3f32bfae8b568bcbb9340bb66aef7ae48d72bf9838a4d5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Youku_source-srs_f9abdd8ddd900f52.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b3e18141adea011ea959ffeee21ca4548c42c831ab8a734cd5bac99d4306d75c",
+        "bytes_sha256": "1b72759d20def7b6e7189ef256d9d79e1a0cd8ae24ae5f8c1a90ef96b3b137f6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Youku.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Youku%26Tudou.list"
+  ]
+}

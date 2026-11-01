@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:15.388039+00:00",
+  "client": "Shadowrocket",
+  "rule": "Canon",
+  "rule_updated_at": "2026-07-26T06:48:52.003154+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 71
+  },
+  "total_line_count": 71,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Canon_rules_750a9b1bf97298cc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6cb81d814407247fc2d4eaf2812a3484a9b7d960da1e7c2ecd9ee38c61c0fcd9",
+        "bytes_sha256": "fc76ff417b5da57e20eddd5179ca14805bb862115dbff41b7a26fca89fdca9ab",
+        "semantic_sha256": "636a9f29026c54ede34bb41aebbb85c8de87e87d10d501fb3a8bb7f202e766fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Canon_domain-set_41a9097f88999f8a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2f6a9c3a9c1aba3c8b1e5d89043173c2ec442c5e55b628dfeba6e17fd39ea3d",
+        "bytes_sha256": "b6eb8fb8c28df21ec4a18d7e210fcd945af39b46efec7b0d9dcdb6ebfc206db0",
+        "semantic_sha256": "5c7807b01ad244d149197424b74cae94e0f1f2895f17a86d6389cedd44b70048",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Canon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Canon.list"
+  ]
+}

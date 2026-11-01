@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:57:29.114278+00:00",
+  "client": "Egern",
+  "rule": "MaoCloud",
+  "rule_updated_at": "2026-07-26T06:27:08.453060+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/MaoCloud_rules_832439f699ae786e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d010fa766fe6efc1e9a92c70a84decd7ace5a7a82c97007b7af18d349149336f",
+        "bytes_sha256": "49a46f1525dd8f20b594227f4b092bcaf649390ee325521f7dff7fb2f0332661",
+        "semantic_sha256": "56732c190a6968b715564bfe55dfeda6df4beada4c0c684ab0de49eddd320ff9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Maocloud.list"
+  ]
+}

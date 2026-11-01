@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:12:07.872305+00:00",
+  "client": "Egern",
+  "rule": "Aliyun",
+  "rule_updated_at": "2026-08-10T09:19:13.646708+00:00",
+  "type_counts": {
+    "domain_set": 4,
+    "domain_suffix_set": 96
+  },
+  "total_line_count": 100,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Aliyun_rules_ec2a2a273ccbd79c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f13128fb01ef31f25271b47449bc0607e908bc9323ded6605a8d207d506b00f3",
+        "bytes_sha256": "783ae7c160a298b64006f029d42805b8457f680746c806c2f5e31b909efed1dd",
+        "semantic_sha256": "be69f96babd7c89205d402b33cbd6151c1f0a37ac7cc5ff83bc9bc533a3db26e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

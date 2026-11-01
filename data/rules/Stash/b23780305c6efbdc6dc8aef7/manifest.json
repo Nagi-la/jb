@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:52.529471+00:00",
+  "client": "Stash",
+  "rule": "ByteDanceAI",
+  "rule_updated_at": "2026-07-26T08:31:40.198559+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ByteDanceAI_classical_97f803d17ad6de44.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50d7f70b3bd752cdf3d73ca5249b68c6f760289842b57d00f4e0dfa81bc878d9",
+        "bytes_sha256": "663e8ce28474fa4e18be53c0ec27c0da9a2d4dcaff2d46656f1d3ce1f346d0f0",
+        "semantic_sha256": "6b7f0575a028d88fb2df9de450dd41e5e3dc604a365c46f37433258d4b63b6da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ByteDanceAI_domain_217ebfb5326f21c7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "368fe657d65bb3234920aed48eda441fe211fe96f3a1d22053a7f84fa968c579",
+        "bytes_sha256": "a5c4500d0a6588c342d0a7faa1f8c8dc685f14cc453e3667a1eb0d7ccbda5ee5",
+        "semantic_sha256": "2d83c11490864a954060a7adc09a2425d6bfe2c261f6aa1aad6fa0a582e89482",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

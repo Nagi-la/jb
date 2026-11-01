@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:02:35.620934+00:00",
+  "client": "Mihomo",
+  "rule": "Duckduckgo",
+  "rule_updated_at": "2026-07-26T06:50:29.766372+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Duckduckgo_classical_2befc622e1c45d1d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f927e79dccb4e68d63c185a39b4c491aabeb8706d08156049f11c25452113989",
+        "bytes_sha256": "b5cf1e43b1ebc6da3bb603b95b5f2c302101e7e32660a7ddfc6d9e4ad68231ab",
+        "semantic_sha256": "3add40b20c4ebe10500f79cc332082a59258afd18751c6b7bead06dd66b3edac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Duckduckgo_domain_6baff3a4faa57552.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8823254d7d2ba4d88fc9225a7752af00fcfae459f358380b2683228ac6f7c1d6",
+        "bytes_sha256": "6c885723987541ed54a118490589af81397c3948e55dc6b70b586ba845c1df5f",
+        "semantic_sha256": "1a07a55ccf98deb508e2ba43dd04de7c3801148bd8f5e305e90e2dca193cf2b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Duckduckgo_domain-mrs_43291cc6259fc2a9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9fb0676d0c9acfdc64706610947023bf7a10bbe54184a85a2efc54c6c5bdb919",
+        "bytes_sha256": "01b5aa3028958d945bf66064519a08ca767189cd2d129dd4561b889509952e93",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Duckduckgo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Duckduckgo.list"
+  ]
+}

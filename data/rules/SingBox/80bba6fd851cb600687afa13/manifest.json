@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T01:57:39.683403+00:00",
+  "client": "SingBox",
+  "rule": "Cloudflare",
+  "rule_updated_at": "2026-08-07T02:23:04.604860+00:00",
+  "type_counts": {
+    "domain_suffix": 77,
+    "ip_cidr": 22
+  },
+  "total_line_count": 99,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Cloudflare_source_7c95df36799f1621.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0d8428db4dc9dba4b529cc4b36295ef75d11f6be2c096a82bef55963a9c3e1a2",
+        "bytes_sha256": "0f4e7dcd0d556a6240b1a1aef9c79642122158239c7e97241a18bc31390e8d65",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Cloudflare_source-srs_ef414bca49296a12.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8184fb5211feafa85c8274d99a57d02f8d58765ec1ebe9c64db73ad8f3bc253f",
+        "bytes_sha256": "5bff48c624bfe15ef6e4dfe52461ea37f138e941077785eed328107739eec62e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cloudflare.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cloudflare.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Cloudflare.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:16.431378+00:00",
+  "client": "Stash",
+  "rule": "Huawei",
+  "rule_updated_at": "2026-07-26T06:43:38.633709+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 402
+  },
+  "total_line_count": 402,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Huawei_classical_5fc689c5041b9ac6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a89eef254987ad6e1eb567ce0cdda3d92f415b0aa17b19d346f4e260426bdae",
+        "bytes_sha256": "c46176d2212bcdee94aa50f7c16166c1d0661671cc49c7ccf7bbf16acb2e0422",
+        "semantic_sha256": "4839737b574d4ca081b34a02a0e0fa196045c505b6f08f99b06c439ea9ec4108",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Huawei_domain_a3f0addb7643a501.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6582250cf1f5b335ec1282f3bdc41d0ecd472ae383a8c72e1798ac12c8599a75",
+        "bytes_sha256": "986d501eb14ad62bef90aea4360c64b6d8922823c8c3eb99c9f096eb21881003",
+        "semantic_sha256": "74df933231af8903fb524ad0bc23d9609555ff79b86c7e1facbfcf8416eee544",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuaWei.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaWei.list"
+  ]
+}

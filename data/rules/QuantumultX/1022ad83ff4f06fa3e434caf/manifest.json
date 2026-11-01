@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-08-27T01:57:31.355196+00:00",
+  "client": "QuantumultX",
+  "rule": "YouTube",
+  "rule_updated_at": "2026-07-26T06:32:24.844415+00:00",
+  "type_counts": {
+    "HOST": 3,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 181,
+    "HOST-WILDCARD": 3,
+    "IP6-CIDR": 1,
+    "IP-CIDR": 2,
+    "USER-AGENT": 2
+  },
+  "total_line_count": 193,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YouTube_rules_82fafe057cef879f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91bac0e2336b4a71225efecddd0c9437ea96149a67634738f44c1303b91a4531",
+        "bytes_sha256": "c195fcf616a88eaa86aca9e67666957dec63dc832802919e99e727ec2b7a1502",
+        "semantic_sha256": "952cac4a0543be3e55f0106698da8e32832ad746382340baa4d401003e120ebf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/YouTube.list"
+  ]
+}

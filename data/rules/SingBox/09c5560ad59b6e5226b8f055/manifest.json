@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-09T16:06:16.710517+00:00",
+  "client": "SingBox",
+  "rule": "Mozilla",
+  "rule_updated_at": "2026-10-09T15:58:47.490590+00:00",
+  "type_counts": {
+    "domain": 7,
+    "domain_suffix": 81
+  },
+  "total_line_count": 88,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Mozilla_source_a90d7e2a52b2df37.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "eeef802727b835f4394762d89eaee34dd78073c20cbcbb03548e9146cefbb44e",
+        "bytes_sha256": "fc4777841e1612c3e9561ba0f55fa98c63868162661ff1c6fc6e274e241e5861",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Mozilla_source-srs_cca9e12f0d656caa.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ea4af4cdd46257d9c71cc6e454ce5079b3986319536f89353d3012db5f84c892",
+        "bytes_sha256": "5172a47fb03e783d391d38ba37e650e30ff1e2821b5e1f49a56de976cb162239",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Mozilla.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Mozilla.list"
+  ]
+}

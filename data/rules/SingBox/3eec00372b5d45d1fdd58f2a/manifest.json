@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:04.626397+00:00",
+  "client": "SingBox",
+  "rule": "Geely",
+  "rule_updated_at": "2026-07-26T07:17:11.404528+00:00",
+  "type_counts": {
+    "domain_suffix": 50
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Geely_source_9cdc33efaec07025.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "51f00a9f494c9163a163567eb05a1a6ec0626fcb1165bedc3e5951b21eb3de92",
+        "bytes_sha256": "a5e561bf7d6dd73995e74e64ce55374a4f74cec9295f10fd9ae59d49ff6694b6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Geely_source-srs_706e3eed740394c5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bdb334ef04a82d798fc9a1cd3e5f66ca2b5978883c9f6f9a9e43caf80cca95cc",
+        "bytes_sha256": "6b61570d2b5585a4081b0e9498f61a3032971408e99a5a296d8613c57d39c9fc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Geely.list"
+  ]
+}

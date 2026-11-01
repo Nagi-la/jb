@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:10:20.183910+00:00",
+  "client": "Surge",
+  "rule": "Kaggle",
+  "rule_updated_at": "2026-07-26T08:21:18.268225+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Kaggle_rules_ecdb7d8b579e1b65.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "59ebcca6c7d821298bd5a1585416edd38fa13b819ed6f0b0d7b142eb200ee783",
+        "bytes_sha256": "73762ee2ebdaeb38b145c852fb3210c41a85bcb6cd0b98e2c96f40496a660434",
+        "semantic_sha256": "7e261f5da5e91f0ae2279a84203545e7a60ab97612122979fc9f06834a3d0f53",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Kaggle_domain-set_cfe11aa07d456a14.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c842d5322880f956b4ef3b7081b973cff110e4598b96aad4bb560655eff8e80",
+        "bytes_sha256": "739c39baeec4b308de2f835713d7352f5f6f8f00567aa0bb686ca03fe385d78e",
+        "semantic_sha256": "898410cf71b2999b73ead05342c648aeb9765edfc5eaae2790c6a9b0ef5df553",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

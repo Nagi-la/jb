@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:06.767311+00:00",
+  "client": "Loon",
+  "rule": "VidolTV",
+  "rule_updated_at": "2026-07-26T06:22:33.708086+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VidolTV_rules_cf5e7b2d046a57fe.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b95f515275bddd5d2f3e30a5fe8c4f8f264fc4324923715308ed0207e407a56b",
+        "bytes_sha256": "e64f7f11ed776e86dcfa29d376858520ed14a2850b74e38d958d6dba76da5d21",
+        "semantic_sha256": "f719d8bc6835440a4474a8ebc7c709c80249488f741e47171e0191c226cbb772",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VidolTV_domain-set_80fab347fc6acd9d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a68b4ab82b0ded1589def8d384893a6f25fb54df46897699c890c302e8a4ae1",
+        "bytes_sha256": "c694a2b7a99630775d5c6c90435c0d1a1d8a446da7282e7b09cc68234c09a8de",
+        "semantic_sha256": "24b092b2dcb7f5fc12c7379a6ca29a9b5cd53407b677100e060bbf5ba2732e9e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/VidolTV.list"
+  ]
+}

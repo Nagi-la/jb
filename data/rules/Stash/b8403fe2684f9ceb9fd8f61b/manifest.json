@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:06:15.785654+00:00",
+  "client": "Stash",
+  "rule": "WeChat",
+  "rule_updated_at": "2026-07-26T06:59:13.264413+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12,
+    "IP-CIDR": 9
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeChat_classical_b33d1fc8be9d6b0b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39905ef8865c2ed75b7d47da3692171e026dec353f4018eeac1a6b094bf8047b",
+        "bytes_sha256": "63aead89b5f3ac34594de89929844582ddf577bddd38865f36d399bda9f43965",
+        "semantic_sha256": "7d4fcd1fb5f9b875440ab7ef4a6a4c4a5622adddf8499833d0c605fd1462ae5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeChat_domain_9bb457b4af87756e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f822a82fd9790608fa6de27ead103b3a6a0d1bf08c475cecf7765d2b4a536140",
+        "bytes_sha256": "9107d1dd50d3e8866338e57c3c984a09e3a8de0093c2d29d6bc3db495ec59553",
+        "semantic_sha256": "e136428a4833ebcb29a3fec4cd8630ee9d34847a72890f4d761594babb88e9a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeChat_ipcidr_33b1ab1405c6502c.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "941f3a66a86ea034f073098767b4bc33c5f66ff368c7536ac2e1b956dbe32fad",
+        "bytes_sha256": "b16e1230cefd3268ae5027f7cbc672cf9ae85555307b2bb5b4440aa0be5f2f83",
+        "semantic_sha256": "984a69361ee010bd67f2660ba3a481f539e20e2190cd8c5956a3e4cd747843c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Wechat.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+  ]
+}

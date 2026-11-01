@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:08.382455+00:00",
+  "client": "Stash",
+  "rule": "ApiPost",
+  "rule_updated_at": "2026-07-26T08:30:38.606698+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ApiPost_classical_868f02183449eb9c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b3245cd9e581cae4460fa0bb84659ef8591ab03ba7fdf24bd19aecad4ba7fbf",
+        "bytes_sha256": "0b3bd202fe4304853a04f02f82614e35c2d409e85781e320f3858861ecbb52db",
+        "semantic_sha256": "b556ce20fc5262230e26fdec9b9b4bec3464b318262555525a6911985eb16e86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ApiPost_domain_725d248423771a38.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75e526e1aac22b7eb17d79680aae7a1db5ae7ec32861e2bb08aad47902bf8fb8",
+        "bytes_sha256": "24c8c21f1a29163880902a267b5a1f00afbf8e8bba60de9009a10e192db79d92",
+        "semantic_sha256": "3cddd49b80a5c9dfdce5079bdf8873387e94016ee1781ab66a41d3d0175cfde3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

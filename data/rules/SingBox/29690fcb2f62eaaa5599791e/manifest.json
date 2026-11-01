@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:14:26.475764+00:00",
+  "client": "SingBox",
+  "rule": "Cisco",
+  "rule_updated_at": "2026-07-26T06:48:27.200939+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 121
+  },
+  "total_line_count": 123,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Cisco_source_58d4d893eb70948c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f57868b29105387a9c20bc0cd27aefaf747c391df74ac05843d0f21f85071378",
+        "bytes_sha256": "8a11f14fe6d5236bada4b7f9681c337884cbd378d55c93c321bca48d2feca399",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Cisco_source-srs_f30b31050d79d1cf.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d6a4c6b89089a554f2121af411dae315ac36aed2f7ce55869f02793623f726e9",
+        "bytes_sha256": "2fd81236d487855a6250c70eb53fca189ecb9d5c1902ea3f67c3536ade9a4355",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cisco.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cisco.list"
+  ]
+}

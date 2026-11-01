@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:50.127413+00:00",
+  "client": "SingBox",
+  "rule": "Intercom",
+  "rule_updated_at": "2026-07-26T06:56:31.824281+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Intercom_source_d06bd1b523d94d50.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fc4b22ee79ad5189320e0105c67fac8bab8c3d5f96bafa3241d3d67368dbfe10",
+        "bytes_sha256": "7bdb06cc96c4279275cddfdfcb9d7a8c4fa8b74d0cfdbeeeb82446f6ccde560b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Intercom_source-srs_4f41c16d3d00a9df.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1725ebe6a5ed37effd05bc584608ace81dc4e6852992f0240cd83f982f48a685",
+        "bytes_sha256": "f5de2023cddc52e45d5bd5a467bd384b7f3800035459859f06fd8b3c21c0a8e0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intercom.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intercom.list"
+  ]
+}

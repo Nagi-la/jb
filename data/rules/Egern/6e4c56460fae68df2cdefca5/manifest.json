@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:17:09.891060+00:00",
+  "client": "Egern",
+  "rule": "EastMoney",
+  "rule_updated_at": "2026-07-26T06:24:50.131523+00:00",
+  "type_counts": {
+    "domain_suffix_set": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/EastMoney_rules_46a795b28482725a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c4115616f2af27e9d92e979933fb2de4df41a83cdaafcc4c276b7edfc6c5b316",
+        "bytes_sha256": "c82a434fbdd834851a10d7b23ae5a4528e80d10cd94b838c9913a522595f9684",
+        "semantic_sha256": "9f4c0316a5178898d0799173797d6d709c6249aaabcf65b879b02806104b96f2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/EastMoney.list"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:05:54.238616+00:00",
+  "client": "Mihomo",
+  "rule": "Hpplay",
+  "rule_updated_at": "2026-07-26T06:30:00.701446+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hpplay_classical_5472a25a737d7f21.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3be22bb86a10f725b98c1ae8a0918cb8fd96e8d88506f46a4bf9a43142cda45c",
+        "bytes_sha256": "1dec6e223a6f038e08eda2e32b7206f7c7417e548544f84a278bf7ce93ac81b7",
+        "semantic_sha256": "edee958c2fb341316cd396f97ae3f2efe27cd0c0e941393cf0445788c214e15a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hpplay_domain_080426a01aaee462.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2b26746182ad85385e804c004a865beff6c8c8f5508ea3a68a49517cfd934a0",
+        "bytes_sha256": "559284ec46b852569a5d6cccbc014ea5897cb58e3758f6b5bb9d8d2e4e76c546",
+        "semantic_sha256": "df5cc1401ad95df749ce0757588b8758d3d26a418bc864361e139379c1776e21",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Hpplay_domain-mrs_db17ea2432322d57.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d956a6346b52725131aa1ec163c1e4bfb5177a881be2a022880e13b003508301",
+        "bytes_sha256": "0e20dfd9a08e6aad69288d6611d7f38b60e1150b6da168e453bc1099a090b401",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/hpplay.list"
+  ]
+}

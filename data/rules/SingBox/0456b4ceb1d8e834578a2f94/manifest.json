@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:28.799021+00:00",
+  "client": "SingBox",
+  "rule": "BOC",
+  "rule_updated_at": "2026-07-26T06:47:35.511789+00:00",
+  "type_counts": {
+    "domain_suffix": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BOC_source_3077f2a3ec023313.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "acf1a329aea0151df96f22712d9d8442227b5f3ec21cc3c499f9f4d78eee612e",
+        "bytes_sha256": "50fe02e1d2cd9b2ba3e24450593de378a4c0ce3b459e86a765c554ff7ae329a1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BOC_source-srs_eb4304a231e49241.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fd25006da04f59457bfbd162c98ae1e6d580a751dbc6e7c608ac44979fae1a27",
+        "bytes_sha256": "1669ef21202cb61f75216862ebb3b4252628f0507b276254f28d0f2ebada405e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOC.list"
+  ]
+}

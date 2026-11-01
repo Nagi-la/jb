@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:01:03.596239+00:00",
+  "client": "SingBox",
+  "rule": "Gigabyte",
+  "rule_updated_at": "2026-07-26T06:29:18.868119+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 7
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Gigabyte_source_462bf70c96bad3b1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f0e193f95913d0c83c92b4de3384be58f5a18bf8dc1ea1e1097c53ea4c26f202",
+        "bytes_sha256": "fc987fdbe6c948cb92f436fc1ce292df51b31004c6579de8fade27123e1ced3f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Gigabyte_source-srs_3625d5206832d609.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a29cd134cbc43d45aebd71ac7e9ed1f1e8e8374164a3181cb9cf4ba4076bdd45",
+        "bytes_sha256": "e14c46445f2201c33abb70887e44b56d02ef82ea5a94c6b07b4f984e0a2be6d5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gigabyte.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gigabyte.list"
+  ]
+}

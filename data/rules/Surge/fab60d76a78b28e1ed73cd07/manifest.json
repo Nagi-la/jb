@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:00.427173+00:00",
+  "client": "Surge",
+  "rule": "Mogujie",
+  "rule_updated_at": "2026-07-26T06:27:13.469581+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Mogujie_rules_5a356a3164446a9f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de12ae6c362c2a3ceae71f167df1f4fd474d6754ca8fb3d8b03c549bd00af451",
+        "bytes_sha256": "4259ffdc80f446ee85e75cd30b5f236aef98b7c314f29f7e535d3b01dcc1b2ce",
+        "semantic_sha256": "be5a172377ee9613eba451e292cad9087b0ad0455a61a082bd93f2ba6073bcd6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Mogujie_domain-set_a28215aa017f912a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ea8b31b63f2e7a9578370b349457e232581b76e3f20cacf6fa3e30e7ac376504",
+        "bytes_sha256": "70823502e531ac3f167a6eb70c2a6254703fedb11367ea83b46b74a317d7984f",
+        "semantic_sha256": "d60fb977959d34fcba0ef4e6fba299ba7cc92e1ebe63e0584c341cbc58a6c5c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Mogujie.list"
+  ]
+}

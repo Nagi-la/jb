@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:16:12.748499+00:00",
+  "client": "Stash",
+  "rule": "Debian",
+  "rule_updated_at": "2026-07-26T08:31:46.137848+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Debian_classical_74091ba2277b569c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "04adfdc3815dc588af328337ae039fb0b59668f3a96380b3ec3ecdee4d06f041",
+        "bytes_sha256": "8c1a2013e2d0a10b1b5e8f678522bfcc2da1674f7233f1476cee1b6edaf01b04",
+        "semantic_sha256": "af20247b6ea7b89226dc53ec67cc53a06cf538f053c6cfc17857e84a874c1d79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Debian_domain_7d12c0eda67350c3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db21d4c5c4668b76cccab5b14ec352425c48957d7babb6ded3c7912775d81c70",
+        "bytes_sha256": "544768e09a97578bba1f2323b8b29544e07192f610bc378ec5b3c572eef3883b",
+        "semantic_sha256": "f9311c589809100a6dd6e90146361aafdb3f50a55876fa41d26c6f050316435b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

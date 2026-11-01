@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:15.202215+00:00",
+  "client": "Shadowrocket",
+  "rule": "Unity",
+  "rule_updated_at": "2026-07-26T06:57:11.499627+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Unity_rules_cb25ad5a7033ffee.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7554686fd6f28e0fb4def5267c204028d1f462e58b5addbfeb0f29bfeaa98bee",
+        "bytes_sha256": "98fb56f3c53c1dba5ba6fe66ebc538f7565fa5de328c2bd574504826fb6a3b62",
+        "semantic_sha256": "8e6969c507db0f8256f3f6ac8795fb1c59b1ec315d5fbfcece5042ac5a4ff964",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Unity_domain-set_f6ac09345a441b3e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "739e6766a541ea9fd9e56aafd4448ebc0036049276f7702f22b914702bbf94af",
+        "bytes_sha256": "3da6192a8fe3c475c44e0c6974274a4c90abafa2e2fb476baa5eeccb72fdc34b",
+        "semantic_sha256": "7a57841279ac0e02742e6096045e1bdafd801809455ebb96816f149e416e247b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Unity.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Unity.list"
+  ]
+}

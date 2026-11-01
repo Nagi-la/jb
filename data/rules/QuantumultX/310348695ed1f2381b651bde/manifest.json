@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:59:22.181871+00:00",
+  "client": "QuantumultX",
+  "rule": "RTHK",
+  "rule_updated_at": "2026-07-26T06:22:23.851416+00:00",
+  "type_counts": {
+    "HOST": 11,
+    "HOST-SUFFIX": 2
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/RTHK_rules_142ae61f6e3d9470.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1ba40d66287887a2654ab14ac799e9be40a9743f8ff1a72e32d98e362163844",
+        "bytes_sha256": "b29cd9879973aa1fe0372f920f368e9562daabf826ee701dab390e4c256fd3ef",
+        "semantic_sha256": "102029b931d5c900a8ab85b780d4fbf4c52bc7e8a66e9e013364a6ef6161af1e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/RTHK.list"
+  ]
+}

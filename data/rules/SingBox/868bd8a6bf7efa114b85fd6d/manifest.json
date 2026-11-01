@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:23.830250+00:00",
+  "client": "SingBox",
+  "rule": "Pixiv",
+  "rule_updated_at": "2026-07-26T06:53:15.602995+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Pixiv_source_542886c1bfb0e1b1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "645e845b20aa408b5949d754d152ad98594bcf2d6cf4ff5efdf59f20d1ecfbe2",
+        "bytes_sha256": "d7c2762632936a24816a079f6b97c26b1fb8c8700073dde56d69726d36eda8aa",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Pixiv_source-srs_d22a3adc45c24513.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "953cc8e2f48bc7c7fcd8abb977c25ab1eb9634abad1a6fe75d2da39c89887f1a",
+        "bytes_sha256": "e11609b1739474c4f114367daf178dcb852e8b22e06c6a7b5ed1b672fede45f5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pixiv.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixiv.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixiv.list"
+  ]
+}

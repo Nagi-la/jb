@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:18.192983+00:00",
+  "client": "SingBox",
+  "rule": "Sling",
+  "rule_updated_at": "2026-07-26T06:54:19.252205+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Sling_source_61c55d3024bf5733.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4379c85614164949580dc234f884f6e6eb54d3ad86fed79f153ba719b5b86ec7",
+        "bytes_sha256": "bb6866a6c25d7f75d2e1780e42982691c3e3618512fd4afac14f38c368a577eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Sling_source-srs_dd82cc625d8825dd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "10b4ff9c19f9a6cf5d73fdf0cc7bd0e65607565083a80054d24d35ba768f27bd",
+        "bytes_sha256": "d3dc784a383f0a22c8f9c5a4a6bc2b514e0c46c1cf89c79b9ce52c58cfb35b5f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sling.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sling.list"
+  ]
+}

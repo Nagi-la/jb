@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-16T14:29:33.546569+00:00",
+  "client": "Egern",
+  "rule": "Facebook",
+  "rule_updated_at": "2026-10-09T15:59:08.583379+00:00",
+  "type_counts": {
+    "asn_set": 1,
+    "domain_keyword_set": 2,
+    "domain_set": 1,
+    "domain_suffix_set": 552,
+    "ip_cidr_set": 36
+  },
+  "total_line_count": 592,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Facebook_rules_8308ede868cfcefc.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8af893fe5240aac04f48d4060a5ed420b3f393c741c9ec39e7158bdfeef270e0",
+        "bytes_sha256": "6a24a47570497bcc8f2b93c4b29919f006d970ea26998aef140500b7013f1d50",
+        "semantic_sha256": "d2b961fb24aea2db9bd4c9943f25781749f3e8d479e17b048339f422f43d74a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Facebook.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Facebook.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Facebook.list",
+    "https://raw.githubusercontent.com/tkzc11/QX-Rules/main/Meta.list"
+  ]
+}

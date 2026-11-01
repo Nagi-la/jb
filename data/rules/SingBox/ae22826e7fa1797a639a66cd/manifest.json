@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:43:17.691386+00:00",
+  "client": "SingBox",
+  "rule": "PrimeVideo",
+  "rule_updated_at": "2026-10-29T02:37:23.632956+00:00",
+  "type_counts": {
+    "domain": 10,
+    "domain_suffix": 14
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PrimeVideo_source_0541e1396f906314.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1dfd769cb61e3f96b82a261fba8e01265b5a4bc85319575b0be27914c0ce2485",
+        "bytes_sha256": "7a5f461fb3442b98f88fe446952ec60df5690cae5accc77bd24ed0e86b97da99",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PrimeVideo_source-srs_7f5ad151133c0459.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7baa4cfcba3b1990479a73eb77a6990e04c230f845ad482117187a42c0b82d31",
+        "bytes_sha256": "92b480adb3924e7183f6ed68d0daef4952ace6d9258696abd2eeb2b062c8de23",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

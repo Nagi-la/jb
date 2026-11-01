@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:56:55.910332+00:00",
+  "client": "Surfboard",
+  "rule": "LeJu",
+  "rule_updated_at": "2026-07-26T06:26:45.294128+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LeJu_rules_0ae6eb3118b51610.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ef4d417191e8ac678ca360e3ac2c67c85f6821832c8bcb19f2d7c26cba08665",
+        "bytes_sha256": "07318586e2384bfe69fb8fbf30e799fad2e3c3bf181dbdc8e46c25383d346315",
+        "semantic_sha256": "feae11132ff0fb559937f58864528f99022badbf245554389c9e94a25a1e19b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/LeJu_domain-set_fc13a656e4e1170d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd382391da7617747313e48b7c820a2e69a4d7ed88279884aa12ccf48b19ebdf",
+        "bytes_sha256": "bbf60288ede95616659094f247c8a46169f1e8ecad1697e97bdc8b78d69ecd5e",
+        "semantic_sha256": "9c7048ff7396d9673f1dee71fc1d73668c9c2cb3f13708f8bc206bd8e43c3261",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LeJu.list"
+  ]
+}

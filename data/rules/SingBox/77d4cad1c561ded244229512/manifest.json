@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-29T03:09:38.733305+00:00",
+  "client": "SingBox",
+  "rule": "TikTok",
+  "rule_updated_at": "2026-10-29T02:37:35.737783+00:00",
+  "type_counts": {
+    "domain": 9,
+    "domain_keyword": 4,
+    "domain_suffix": 49,
+    "process_name": 1
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TikTok_source_e64c4b21a6891e2a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "76291794ba36c930cd5cb4e61ec15e662352c7cdbae30bb06b521c301ea0ad08",
+        "bytes_sha256": "801bf83cda1bd4e1125bc650f151d2d351d6ab2cd060e11f75623bd66a1743f3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TikTok_source-srs_3d899147a74104c0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2152b84bc050d63aa0197c0d831d8e9fc9374261253e2c5e0658a72f938f8ea4",
+        "bytes_sha256": "988ecb476c34748c57bb8e36d00fc927aa190c13b59c17e4807edb72866acd99",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TikTok.list",
+    "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list"
+  ]
+}

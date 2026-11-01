@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:05:18.089399+00:00",
+  "client": "Mihomo",
+  "rule": "WoLai",
+  "rule_updated_at": "2026-07-26T07:00:12.168908+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WoLai_classical_159b7bfedbd357bd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "643bc98fd602e5ce381f3591367d0f62c56e74519409722d33f996af6ebc3d2b",
+        "bytes_sha256": "1e41303f46259cf43afb946279e8f02cfaf15a1ebb0e4ce41b009171ad3800b5",
+        "semantic_sha256": "9f0fad22e979967de76bc7e2f14863a3ba0eb92f0fff5a311799d50353ed1194",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WoLai_domain_d98829a01816545c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7974ccb5339dc6f1f627076ed18882f22ae23412bb25af78732f858019847d0c",
+        "bytes_sha256": "a9f85effe3e438b66ce22648554afac4c80b2d2ece45ea0754025dec1e63696b",
+        "semantic_sha256": "b181fc431ba6a43d85794023e84687a9cd3a930c1bd8bc87a2afd6af8eb34bb1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WoLai_domain-mrs_8a7b5bc7c0bf65c6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "587424e35e0f1eedd8dab275d677987e08f79b64a02bdc29125e8d8ebee8dc6f",
+        "bytes_sha256": "a12fceca915cba7c001b0c4ed3e482d4d9127a3a2ba7ec3139f0f18786c275a4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WoLai.list"
+  ]
+}

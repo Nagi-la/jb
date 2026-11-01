@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:34.588558+00:00",
+  "client": "Surfboard",
+  "rule": "NYTimes",
+  "rule_updated_at": "2026-07-26T06:22:29.511652+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NYTimes_rules_fd2ee1b87349951b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b49f72fdd0bdaec99317cea3b21ae13e9cd81d621ce1cf00625aba0462a983f",
+        "bytes_sha256": "569eb447bdc77ba0855beb992ebf1b89285890faccc141f174154003f9f70b21",
+        "semantic_sha256": "2b4c7d31771da6453a28d5c16a5f4b9cd209aa676addbc0940fda1b23b926d2c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NYTimes_domain-set_ce75d1533e06b326.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b59d43091ab21f0c2fe77d6489c52383315f481ff6b61c3b0ba6af72d8046e27",
+        "bytes_sha256": "5ae1ef23541c61f8aaf80a3b67633f5d7f8682c58654e428f3e20c604fc8d229",
+        "semantic_sha256": "fb02070dd3fce4e3c8ac18067043780e2d2c284661d60dd024766b3043b90e5f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYTimes.list"
+  ]
+}

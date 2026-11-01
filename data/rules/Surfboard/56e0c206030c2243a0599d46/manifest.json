@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:08:37.084135+00:00",
+  "client": "Surfboard",
+  "rule": "Blizzard",
+  "rule_updated_at": "2026-08-13T23:42:10.738961+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 41
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blizzard_rules_b54d5958e9e6b069.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e554c0b44a32c378bab564d606fe9baeffd97d7094c00520b7ddecefe0f4ef49",
+        "bytes_sha256": "f60ef9a290377abaa5e1b51e0d6989d27d9d098de8d54b3286368ef4df5e84c5",
+        "semantic_sha256": "3717933faa017bd0287c45b5bacdffe981b479fff254757d62f3eff246248685",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blizzard_domain-set_de40b0a6e0c57979.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "19ac2ebc70e3864b7eed744281126f0c9319eec40d843b9a587360e2965668d3",
+        "bytes_sha256": "378a500ad07e6e29431a17e2af6a0208c03f719edb93b29f7b7849a2126472d4",
+        "semantic_sha256": "f3f5895727b008358b5e559e1339843a8770e9b84f60ac7fe9a5e4b509daf75e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Blizzard.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Blizzard.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Blizzard.list"
+  ]
+}

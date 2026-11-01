@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:08:25.043277+00:00",
+  "client": "SingBox",
+  "rule": "XieCheng",
+  "rule_updated_at": "2026-07-26T10:50:04.904776+00:00",
+  "type_counts": {
+    "domain_suffix": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/XieCheng_source_a5a79bcfd98721ca.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "efada29f8c2bb4df885769056f55314d7b5faaa0cb93a9b34fa09f5162ce5087",
+        "bytes_sha256": "c3da10da720d2e96845fc9999146fd8b42542e391bdc7443010271178a0229ad",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/XieCheng_source-srs_ef2444f99254097f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a19bba52073378a4549d2664dda3d4df47a311424720023dc6479597f1fd3774",
+        "bytes_sha256": "c0d3a6952513790672ec188b428516b1086ee881449defb30453500f0e6150b7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XieCheng.list"
+  ]
+}

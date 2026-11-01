@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:01:59.837132+00:00",
+  "client": "SingBox",
+  "rule": "KKTV",
+  "rule_updated_at": "2026-07-26T06:57:33.183786+00:00",
+  "type_counts": {
+    "domain_suffix": 3,
+    "domain": 2
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KKTV_source_281ec3ce21dbc61c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c598cd17bfa5600abe9c21ce59a992ae2ab1dce06d35458633df767831375da3",
+        "bytes_sha256": "549a75a2c7a6e917d062a8c2edeb29a839ff6c04bb93a114277549e9ab86adaf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KKTV_source-srs_67b437c1f54ddf5a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "19dd45436c3a1729e66d450a95cf04ed47a802cdbe32d202ec377f07c89bc653",
+        "bytes_sha256": "e05e5f9c626a01214aa4d98dd487fae6b1458446a61a7458f8a074bae62e7492",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KKTV.list"
+  ]
+}

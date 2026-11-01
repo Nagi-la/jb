@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:19:28.040578+00:00",
+  "client": "Egern",
+  "rule": "DeepSeek",
+  "rule_updated_at": "2026-07-26T08:31:46.423538+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DeepSeek_rules_00e65721d11d92b7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c38a85ead0e10a3357194bc9be09bf98aa296d8699b34279b94677a620651d92",
+        "bytes_sha256": "84076d94f07caeb991e09ddcab4a9f664004e07129f2c202f4b0008f28a94c69",
+        "semantic_sha256": "cca16c1141129901f8f8ed6829ec665f00030f70bea334cda0651f1e7bd67276",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

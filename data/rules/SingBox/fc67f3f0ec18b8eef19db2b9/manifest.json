@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:58:16.293048+00:00",
+  "client": "SingBox",
+  "rule": "SteamCN",
+  "rule_updated_at": "2026-07-26T06:31:40.414865+00:00",
+  "type_counts": {
+    "domain": 12,
+    "domain_suffix": 4
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SteamCN_source_54dc6aeb23399805.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "be2837283bca972cc2dbb393bdf1cce12a9303620726209588dedc0c8541203f",
+        "bytes_sha256": "62b6bcc28135d246188eeb6d71ab05a82b335a4a2d0da5e02cb2063647464475",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SteamCN_source-srs_b2d04e140f37cb8e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c2a31a0dd08df6e7a64190622182b7d56e0283b9a1d49b3da456df2fc0d3a3dc",
+        "bytes_sha256": "cf53b36e895f4fad35bebdafc5729dd13794b31a0abb3b21c298cc6c13d397a3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+  ]
+}

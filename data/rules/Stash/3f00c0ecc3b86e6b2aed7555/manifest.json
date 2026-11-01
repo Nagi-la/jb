@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:06.219569+00:00",
+  "client": "Stash",
+  "rule": "AppleIntelligence",
+  "rule_updated_at": "2026-08-03T15:32:18.130903+00:00",
+  "type_counts": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleIntelligence_classical_a9556117e85c2326.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "63cddd72f863ee117ecc599416253fdc1b4ce38eb4698aec7102f6804a820f0a",
+        "bytes_sha256": "e584abe48fa9d06eb2eaf2dac2a3de6587204fd3217facefcfb0e997a885d360",
+        "semantic_sha256": "f0854d1b499c6c779df3621747c7fb68db868533748c0c9fff3da8edbf2a16ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleIntelligence_domain_28179d4076167195.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7ff7f87ae612194c383ce8cbf570bc313b17d3e23187b748a1b602210ed01a67",
+        "bytes_sha256": "c9b9b3bf519381449d944a560553122e1355bc370e73645f3a7227960d080004",
+        "semantic_sha256": "d15cfa54181d5e028ade33d3d37db9e0c0ab9b7599ce13aad66df9eeca5a4f50",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

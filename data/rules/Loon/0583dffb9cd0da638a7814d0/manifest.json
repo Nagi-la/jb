@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:25.035849+00:00",
+  "client": "Loon",
+  "rule": "Heroku",
+  "rule_updated_at": "2026-07-26T06:29:26.348554+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Heroku_rules_9aa08aa535429a48.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "60eaa227f7172403d0aa1737ce6e2dfc366d7afe8157d262d77537bb2c6ba128",
+        "bytes_sha256": "5cc8174f0186cf5df870573de8cbbdf840c715d71e22ebe693108f6636192d6f",
+        "semantic_sha256": "52ce5afc5418990e08d20ce4d2b1e308e8f02d10043a242994c2e6d5723b21c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Heroku_domain-set_3350597637693b8f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "22541f3d7d71743cabdb6aaaf99aa791be1680714bafbedfcf3f5f17a3c63627",
+        "bytes_sha256": "10a3f26df0645577cc7e695976e078c473812fa4262feddab681706d93fe9110",
+        "semantic_sha256": "3b744681b49161ae58b7f4f31b496876070de07978feb155ca57a552142e5c36",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

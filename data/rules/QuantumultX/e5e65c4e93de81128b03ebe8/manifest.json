@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:13:04.624277+00:00",
+  "client": "QuantumultX",
+  "rule": "DynDNS",
+  "rule_updated_at": "2026-07-26T06:29:12.853921+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DynDNS_rules_96933f7f2a28d9b8.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66b39fa02a0937478ef3805a57d5616676b5bfed2325ff81e6f8e04358686641",
+        "bytes_sha256": "fad8775d86edb32bcc895650669d11e4a304353ec134b030d41a8e8393f77703",
+        "semantic_sha256": "fb26405e5894c9a773709df2d0b6524a24ac3275e7e62d7d2acfa49bc782b826",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DynDNS.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DynDNS.list"
+  ]
+}

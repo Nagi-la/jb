@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:59:22.851956+00:00",
+  "client": "SingBox",
+  "rule": "RTHK",
+  "rule_updated_at": "2026-07-26T06:22:28.403967+00:00",
+  "type_counts": {
+    "domain": 11,
+    "domain_suffix": 2
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/RTHK_source_bb6d81a47101a453.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "847320a24bb17d8e4a95730669c6f395c170390f1c39b86b1f0fc9b64fe9b5b4",
+        "bytes_sha256": "2509d3d9e3a535c0afa1d43132c641a2071521ead87d4d107c8e0d41c03ffaae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/RTHK_source-srs_fff814045f3e97d4.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7712e0d492df1fbfe3c444901adab5733ee9123d74d8762148375a75bab06899",
+        "bytes_sha256": "6a7499aaa68af2ae93db0ca66988da2ec4ffb1cba937c3a05302b68a3be1dc52",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/RTHK.list"
+  ]
+}

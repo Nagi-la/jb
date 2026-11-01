@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:05:10.410310+00:00",
+  "client": "Loon",
+  "rule": "Blogspot",
+  "rule_updated_at": "2026-07-26T08:31:23.667492+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 76
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blogspot_rules_37d226ffbfaa2dd8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c84c397bafab3d45dec3fd1c58de8b643528b2c1f85fe978120d53932333eff9",
+        "bytes_sha256": "cdc58cc2dbe72238f83a7c0e4d34508da0754feee045c5e354ea5179e1520ced",
+        "semantic_sha256": "b9cfed88c1ffc99df99332fdf5bc1dff9236048637c66e90b4343a25bd898c82",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Blogspot_domain-set_56986923bfc17c49.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee01dd5d473b88ef94b2d95f2d1be7699b8b2abdc39ff7da24bef50f720c4d3f",
+        "bytes_sha256": "635739160a43bc7937baedba383c9d78e92cc5f71544f5a04ee574e6a23f7ada",
+        "semantic_sha256": "b116eff3a7a0817604e61e51686f81da69c908f0e1d61539de355eb0d6d63b3d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

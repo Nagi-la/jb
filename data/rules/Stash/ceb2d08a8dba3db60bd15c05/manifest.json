@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:45.048773+00:00",
+  "client": "Stash",
+  "rule": "HuaShuTV",
+  "rule_updated_at": "2026-07-26T06:25:21.699022+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuaShuTV_classical_4e0f4ad42a81eb45.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a80bf18b53e8faa5c920e6a72410f51a56285dc609fecc44822ae4ffe6579dfd",
+        "bytes_sha256": "13fd0cfa3266c097a7ccff91944d2b9646a7d505c9f1f3b8a79acbcd873ae5c1",
+        "semantic_sha256": "c81523bc25077bfcde70ec993f3290be96037e8c28b44bb3da8a21aaa38349c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuaShuTV_domain_cb5efb4ea65f0f60.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57f6cadb16be9d3ab52ff49183441aa8af39916d1617075da0c8ee9546b09388",
+        "bytes_sha256": "4cb438b918beaebc7d3087638dff53b84dc777dac2c91dfbfc23cc850690662c",
+        "semantic_sha256": "79a707204a6cd9b48fb20a51431ce1bbc8f42f44c2f8e299ad7bedfd49b8f117",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuaShuTV.list"
+  ]
+}

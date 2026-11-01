@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T02:03:13.104338+00:00",
+  "client": "Stash",
+  "rule": "BBC",
+  "rule_updated_at": "2026-07-26T06:38:14.165529+00:00",
+  "type_counts": {
+    "DOMAIN": 21,
+    "DOMAIN-KEYWORD": 2,
+    "DOMAIN-SUFFIX": 17,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BBC_classical_af794b4b45256d18.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec683433bb924ac478dd5a48e00d422522742f2fd5de36772e47f3c33457b1ae",
+        "bytes_sha256": "ec030cfa3feeb77747755c210a9bf1031324f67817002412243d2ccf4e79a285",
+        "semantic_sha256": "de8499ffc8425a6e1ed5c3044cbcf11bc97e1107fe32248ac7985a7e869cf412",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BBC_domain_eafb2d006a489674.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6af087d4c708aaebb5ca1802f918214126e08cfca4f59a1d763c6c241632af45",
+        "bytes_sha256": "00a2f31caad8f136784cb22dc65d90d40a3424f31264c4d0f5e91c8331b79b2f",
+        "semantic_sha256": "5b495124326e66026abd534316b236d28adcd1604de36a4464c1d80d0589af9c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BBC_classical-rest_5f2bca687785eaaa.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bbd97744449bb9b507e9a0ab9446b393aff0f533df396713481d6a16e992e478",
+        "bytes_sha256": "4bed940028f40242dace5a3b248ac41e457cd586301f104df39e22f523dad4f1",
+        "semantic_sha256": "d73ec592ddada7afb30bac9633212e0d08a5650466b99f7d8ce6a7fe14e6904b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BBC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BBC.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:05:06.785676+00:00",
+  "client": "QuantumultX",
+  "rule": "Bloomberg",
+  "rule_updated_at": "2026-07-26T06:30:50.191358+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 61
+  },
+  "total_line_count": 61,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bloomberg_rules_28df9996837f872c.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d09045ccf063db427ee8ae58207ba5a049346a4017184d427546c70581299d4e",
+        "bytes_sha256": "6285654a930f077b85347f8569019b8058efeaad3d9c2a74bf0eff65649c7a9c",
+        "semantic_sha256": "29fa7b290322aeea889b32cc1d1f9118c7c8905c42a01f5767b068025a347ab3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Bloomberg.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Bloomberg.list"
+  ]
+}

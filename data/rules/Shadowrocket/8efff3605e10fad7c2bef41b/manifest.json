@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:51:36.683133+00:00",
+  "client": "Shadowrocket",
+  "rule": "ECommerce",
+  "rule_updated_at": "2026-10-29T02:37:31.613367+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1291,
+    "DOMAIN": 39
+  },
+  "total_line_count": 1330,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ECommerce_rules_999f6b3597ab97eb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1056ce9fcf002337afd16f0593e39bc43495fc880816243f7444ef4a439fdf9b",
+        "bytes_sha256": "cdae6285084f2dbc0b4bdccd8ad625d0240d96d05c4a81656229048e5c5bcb37",
+        "semantic_sha256": "dff95645ad9a23e9dfa4c7a2464c0b9b901fe524a774337f2cfac1f4c6ef0154",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ECommerce_domain-set_a20f5b4edda4ca4c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e6cae5a4787cc2fe908a4eca968adfa4bbd28ebf505780c5dc6e5116f59632a8",
+        "bytes_sha256": "8ebb8599de3029fbd6065a3950fc435f7c96c1195f7e927f6a0249c55fb83c88",
+        "semantic_sha256": "4a0a2e251a862b3c24bd82938f7e8395770ea9a68468d689dfb7caa75ed0ce9e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:14.440104+00:00",
+  "client": "SingBox",
+  "rule": "HibyMusic",
+  "rule_updated_at": "2026-07-26T06:25:20.667169+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/HibyMusic_source_3140e5e144239dc2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e08aa4c7a04e513991c8303dec94c546c21aceb6386e742f524d2b34d2f70afb",
+        "bytes_sha256": "2092a3a6983bb63628df2cee611af51bacaa72233359743ecb18263ded589ade",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/HibyMusic_source-srs_49e480d5dd3c15e8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1016989f810bbaa06902a24442d1df64798e4fe60ea753d9d30609c1dcbdabc0",
+        "bytes_sha256": "e80e335fc367e30873134926236bbf73b506cacfd7cbcccb148b9e394ed692e8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HibyMusic.list"
+  ]
+}

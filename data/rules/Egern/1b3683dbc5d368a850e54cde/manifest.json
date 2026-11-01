@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:13:59.534810+00:00",
+  "client": "Egern",
+  "rule": "ChinaNews",
+  "rule_updated_at": "2026-07-26T06:23:50.939317+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaNews_rules_cf16de2ea096a5c0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba5accecdbff861b43513ba8c75017c2e919a0738cf0a0fb7bafe04b7750d671",
+        "bytes_sha256": "1e37118ca57a38e06246d06bc7631d8b2ab158b1e58f35b256557b33421148e6",
+        "semantic_sha256": "f8459cbc2212f2610409d4283a63d62a588b09709bd392aeaaf2c4e8110d32d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaNews.list"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:15:26.702777+00:00",
+  "client": "Egern",
+  "rule": "Redis",
+  "rule_updated_at": "2026-07-26T08:34:14.598429+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Redis_rules_aa0a4091f4787a63.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e38312a54dddc607a2e269c23ee27ca79dd1d6de4841e09a270089157adf936",
+        "bytes_sha256": "a425afd40d49399ebbbebe2885030d1151eea1a0667330bba600ce25274c6430",
+        "semantic_sha256": "b774e3148c17ac17c23f41ab7b12b7b5acb5243f35ee9813081d08f367fd4844",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:18:52.452146+00:00",
+  "client": "QuantumultX",
+  "rule": "Comodo",
+  "rule_updated_at": "2026-07-26T06:49:03.046537+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Comodo_rules_8ee5ce25081343bb.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3269ac32cd3dd6b461c61db980c6905002daf96484b032603814b1f98ad1658f",
+        "bytes_sha256": "a622820c7a5654b7e9c883e4e4955b93d32c725439ef15746438c7a8aa1e1c3c",
+        "semantic_sha256": "0383cf9a703f9d0665e0936f0fe49f93cbdc1b4b3f9eacfa9e442b2f13d93e27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Comodo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Comodo.list"
+  ]
+}

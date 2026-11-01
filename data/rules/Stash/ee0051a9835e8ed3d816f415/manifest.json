@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:49.462369+00:00",
+  "client": "Stash",
+  "rule": "McDonalds",
+  "rule_updated_at": "2026-07-26T06:52:10.690704+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/McDonalds_classical_ff90945481edac0e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "791d937cd37abf2753df1bbb924fcfab2b98d1bc61b26d69d39be98d8c48a68d",
+        "bytes_sha256": "0de616ac16d98734b77d218fa836527061b25c037d3dfe2b9f384e3f2b04a80c",
+        "semantic_sha256": "43c87804cd2b5497e9bab2e3036acdecd06adaecbc24087aa931d5272b470925",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/McDonalds_domain_0f2d42c0839a0f2c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8f75ea98edae8b84a0a4bfd29fcbb74839b4d3eaf13b12ce7ddb7fd4dbe7e86d",
+        "bytes_sha256": "ac2fb1ef5140b3232e26826cd1be39da8240b9402f8fc568de202cafb382774f",
+        "semantic_sha256": "4cb581d84d06f9e093605c556c60f411725cb9cd63f1d783558dabaee3439126",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/McDonalds.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/McDonalds.list"
+  ]
+}

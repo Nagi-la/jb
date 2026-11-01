@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:41.685323+00:00",
+  "client": "Stash",
+  "rule": "Miniso",
+  "rule_updated_at": "2026-07-26T08:34:03.580421+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Miniso_classical_8afacd8561d8fa2b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc6b485d7586d7ec4794edb912cf7292ef146bc6e5cae9ca25a992fe3fae1dad",
+        "bytes_sha256": "24c9152d58f1f4dd6463f03115ac9dfb979ec79d8b3c471c850331b3daf2b93e",
+        "semantic_sha256": "bbae0ab3f314e5f72d660845687f454e3f141983658f8609e1081636fdd59050",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Miniso_domain_74c6bd683ac41112.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "602942503f100c2633c246d4add36d5a25da6ccbb92fa84aa34250f893161633",
+        "bytes_sha256": "501603e227eba03772e8a31c86b7230023e693d563bb9fa5cb33cad41a1a28e2",
+        "semantic_sha256": "b53d3c9bc48bdf4fd2fafbad7c8581bc4db0372ccbd669d88d038fbc7b73fbfe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

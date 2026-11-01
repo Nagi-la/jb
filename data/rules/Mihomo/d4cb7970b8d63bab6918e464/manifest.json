@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:11:06.395055+00:00",
+  "client": "Mihomo",
+  "rule": "ArchLinux",
+  "rule_updated_at": "2026-07-26T08:30:39.069024+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ArchLinux_classical_8de94b147333dcc6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8cf0a14fb57646c4d96e981f1a3c55dafe8b94f4959fd2aa930b1ba7461daf2",
+        "bytes_sha256": "8f3ddc46ccf2c796d9d025e5b3645abcc323c0caf6f9cf404dcfc5b9b2338e6f",
+        "semantic_sha256": "82d5f03f6f463ad4124cbae070329fbc43e873497d0757746b570e2639df001e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ArchLinux_domain_3c9930cd7d2ed391.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8806a3a52abe45c11cc5eceeab7131f6e64783294327ba381823da297b2c2b67",
+        "bytes_sha256": "9941207e153e797d1bd5c551f415b52394b4b83b5062125288df6919c4dad0f9",
+        "semantic_sha256": "2e7b371bf53511e6bb17434f28303b174fad6ef5dcb4054ae834a7c2f9feba09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ArchLinux_domain-mrs_3713923726f507d1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0b78e745f7c5f2852d5147295d2c6866961ff5d49ef33fb089b79709597ae93f",
+        "bytes_sha256": "57621ce7d3596984a4e007f4609171122e0fe4298ab1b35823fcb058106f064d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

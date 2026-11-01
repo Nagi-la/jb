@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:26.363281+00:00",
+  "client": "SingBox",
+  "rule": "Dood",
+  "rule_updated_at": "2026-07-26T06:58:09.384482+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Dood_source_efe5ae8dc90eefef.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f1ffdfebe123a34f8c6495d948735d0820e9d60be7fa6b4f2a862d761050abcd",
+        "bytes_sha256": "e7eeaa1e9933b52ecc5288d7398eb8a5e9bcffedd218704d58c222dc15dd5b4a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Dood_source-srs_a73dd2a793a83e85.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0f506de57e08b89a79842a48396e66b07b52e7f29d9120c64e0f36bee85b3729",
+        "bytes_sha256": "03859e7bc6b26544fd8f18322bae34a90e332d7b5db9f76baa12aa57c3668283",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dood.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dood.list"
+  ]
+}

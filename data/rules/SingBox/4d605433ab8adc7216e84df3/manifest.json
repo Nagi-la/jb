@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:45.377167+00:00",
+  "client": "SingBox",
+  "rule": "Assassin'sCreed-Origins",
+  "rule_updated_at": "2026-07-26T07:00:02.298223+00:00",
+  "type_counts": {
+    "ip_cidr": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Origins_source_5c72a46dddaa7377.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7fce1bf8bbd0416a0dd43ee897494a3496ff857b87588d24687a5edb4909d4cb",
+        "bytes_sha256": "5107f0317c1253db271455dc54d2d55f47cce61f103e82d6dc3718a0c35ec1a4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Assassin_sCreed-Origins_source-srs_09d0ba624dae371d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a6ba8f8f90a389a9b479fbbacba1642da3eb8c1b00e09c1837255faf342aaed3",
+        "bytes_sha256": "2dfeec01e93da45150af934cdce4a6cc503318f8131ec88ba90e72ab68ab8480",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/master/rules/Assassin's-Creed-Origins.rules"
+  ]
+}

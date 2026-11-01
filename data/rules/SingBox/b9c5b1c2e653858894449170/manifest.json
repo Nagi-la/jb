@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-27T02:03:53.699293+00:00",
+  "client": "SingBox",
+  "rule": "Adobe",
+  "rule_updated_at": "2026-07-26T06:21:29.611864+00:00",
+  "type_counts": {
+    "domain": 136,
+    "domain_keyword": 1,
+    "domain_suffix": 140
+  },
+  "total_line_count": 277,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Adobe_source_fef08321d7cf3f05.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bf58ce49016094418f3d7e552700de9849488c20f59b84eeedfb4ef772472280",
+        "bytes_sha256": "ccb52f03748222f32c64878b7d074fde8231cce1df4a82695717fa06a16b552e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Adobe_source-srs_9bf8fe39cbea0825.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "29f0f6a79eb8007096714119f43a49e7b8d51746280b062f2bd272231a5b639f",
+        "bytes_sha256": "c2fe712a1e9389a04f20623c01877ee745a4e93ffffc1640c9f4f1d4268fa91a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Adobe.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Adobe.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adobe.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adobe.list"
+  ]
+}

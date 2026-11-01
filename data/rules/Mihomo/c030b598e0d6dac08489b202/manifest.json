@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:13:27.038280+00:00",
+  "client": "Mihomo",
+  "rule": "GitBook",
+  "rule_updated_at": "2026-07-26T06:29:23.434073+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitBook_classical_b84d324f5d497050.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa322dfc2fc40dea4f17158d2d8f523aaa55c2dafbfa118a99ff804a03a59c37",
+        "bytes_sha256": "69d4dd68d1655122d2c7f77169f647caae146fb89a357e8e84bdc0b028d300d8",
+        "semantic_sha256": "702ba2d115a77bda80cdb6961760c231e6d3285fe73d6d8ae0d55e9ed5707996",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GitBook_domain_485152b02ff0bc30.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3de100a71d04d988f566f37e6e9bcd036fac870ab1998b7cdc5545637714c9a2",
+        "bytes_sha256": "68c274db8d21261abd1f7363de1b62ba32c53e2346a372efb6b1f2c2962e08ef",
+        "semantic_sha256": "de59054085e8325129b6bf8233a05ae004de4d7e3e99f3afa9439ed3ac159115",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GitBook_domain-mrs_e05f80ffe926d9fd.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c39b5a35d98a7f93936dde13c130d08f25665508c8fbe04aaccb1ad8d07c4c2d",
+        "bytes_sha256": "cc04fea681b3e7d87487e0ce5e795b5c959c02468f6adafef9ab819173a40458",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gitbook.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitbook.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:20.147498+00:00",
+  "client": "SingBox",
+  "rule": "LvMiLianChuang",
+  "rule_updated_at": "2026-07-26T06:27:07.963644+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LvMiLianChuang_source_1d8334e3be4d3dcb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a5d2a28c50a5d5913b9ca29da9e8f95cd2c35ae1d27ccde422e076ce91161b1f",
+        "bytes_sha256": "ea0a774e38073559491cda6c76638474f649250ca9d99be67cd54a48b846014e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LvMiLianChuang_source-srs_9a2b9b8934dfd594.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a4cbc8b3e8c1cc9c089d185ba502bfa394dd98929e799ea13539fd985c132b99",
+        "bytes_sha256": "24808c4f66893b1d1d754dda7e7f7fece7eefa7fe8be344d42392f9e93d999f2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/LvMiLianChuang.list"
+  ]
+}

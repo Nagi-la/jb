@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:11:41.631672+00:00",
+  "client": "SingBox",
+  "rule": "CableTV",
+  "rule_updated_at": "2026-07-26T06:21:29.968718+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CableTV_source_83f253375230c2b8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c0349f7338a76e8e7b8b7e9322fb1f254f4e9b0d2a01f5a5a86309749b2efdae",
+        "bytes_sha256": "c5a915aef0000f1e1ed343eb3611e140407bfd39105c9295779c7803b728d4be",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CableTV_source-srs_60dc7c81f1ebc652.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "03c271ed9ab91e6989b0d661b652d9034db113dd1197b6f07672760cff663e08",
+        "bytes_sha256": "d4ecba008ac41facefffb371616003dd2f460e52373c7c078a70d46eff3f5cd5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CableTV.list"
+  ]
+}

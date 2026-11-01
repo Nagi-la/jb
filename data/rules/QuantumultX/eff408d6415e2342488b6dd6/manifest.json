@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T01:57:14.720780+00:00",
+  "client": "QuantumultX",
+  "rule": "Pixnet",
+  "rule_updated_at": "2026-07-26T06:53:21.345849+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Pixnet_rules_1c4b8b17f35ad6d3.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd91a0be2aefd8b26b2d985f5715d88777bec23dcd121bc561a0814af3bd7ff0",
+        "bytes_sha256": "58210e2442f2381a979fec962620017b386cd821fa69f8b528a6de8ff1da6c2a",
+        "semantic_sha256": "44d790ace98be49128b69ac077623c3af8c7722dad8e30f36414fea9428167fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixnet.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixnet.list"
+  ]
+}

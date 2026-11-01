@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:57:27.823176+00:00",
+  "client": "Mihomo",
+  "rule": "Wordpress",
+  "rule_updated_at": "2026-07-26T06:55:57.817262+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wordpress_classical_c9c8f8c90f2087f8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89ae651c47e12961aef8c4b32da1c3697db4027fce72d8a3862838d16f9512d4",
+        "bytes_sha256": "6e42210a41415a147ff06c831dec89be7f1442e6334edef7185499174f68c73a",
+        "semantic_sha256": "ab3c26e4ba584c69942334b4f01336d8cbddc53ac2bde687de5bef1cb861490a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Wordpress_domain_7f1cad049e397f45.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7068138cfde1a0da1b7023afaf79ddcde70865814effc0acfa37d5258172a36b",
+        "bytes_sha256": "d69eb1e63b78f220cb097129df67bfa6d312f37a3d974046da61ae09e25faaff",
+        "semantic_sha256": "dfc2913653af88f6b62f2f46ac194e5c8660c4fc5398494f65d8ef874f04b4f7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Wordpress_domain-mrs_fdec25e2c8f5d50c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "facbf61522b94d8ab2eb74ca7736600e14844d75ecca7a21ab1ace5e5f42d4b0",
+        "bytes_sha256": "0bfd0a00bb81e42aa396cf9f969ed04065be44b8f0f3f61306a8d39401a22843",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Wordpress.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Wordpress.list"
+  ]
+}

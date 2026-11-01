@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-16T14:34:02.075686+00:00",
+  "client": "SingBox",
+  "rule": "XiaoMi",
+  "rule_updated_at": "2026-10-09T15:59:10.557642+00:00",
+  "type_counts": {
+    "domain_suffix": 181,
+    "ip_cidr": 15,
+    "process_name": 2
+  },
+  "total_line_count": 198,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/XiaoMi_source_a0fccd5f004295d6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8d323491ae63d4a893e9189af45c81d1751bd67b159b961b80a8dbb9d7b680b7",
+        "bytes_sha256": "01380ed38ee4cf278417e11ba705c10ebbce99ac4491e04f398bc4a7dcf14feb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/XiaoMi_source-srs_1ae239214362260d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d9a8c4adc08dbaad731260f2be5cd109c1bf5f52231b308daf0ab8cbd2a6985a",
+        "bytes_sha256": "547254973eec30dd41938a1d1a4071cfe1c4f007d54edff3c58f727dc1b5d7c5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/MI.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Xiaomi.list"
+  ]
+}

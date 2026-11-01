@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:28.309843+00:00",
+  "client": "SingBox",
+  "rule": "Riot",
+  "rule_updated_at": "2026-07-26T06:32:24.961277+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 54
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Riot_source_b824c4aadd916ca7.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b24499c7c89b2795b646dc027e4a61e5591986f9c689639922d59b0de70cdb96",
+        "bytes_sha256": "b0a0579ce12ff375a75bb63d4ccb9e40dcc670721e4c51944ac943c740115c5a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Riot_source-srs_c83770a00856545c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6848f5f21bc0f8f107f2bcb15133676a069d696fc7b5402f280b7023ebaede18",
+        "bytes_sha256": "ebc11a540e1ddb83875baed86778adbb6d9d39ba48185dddcf11792423ea402d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Riot.list"
+  ]
+}

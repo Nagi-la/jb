@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:05:36.642497+00:00",
+  "client": "Surfboard",
+  "rule": "Shanling",
+  "rule_updated_at": "2026-07-26T06:27:54.372302+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Shanling_rules_c922a8ddebca76d6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7d8553a7586b7d2af957ffb1f8e1190f43a3382c404b71547bfd9c19686f41cb",
+        "bytes_sha256": "4eaf1e89484ad4346ba0dd42b4e268352d8e449cdd2336413016f494bb5cc3ce",
+        "semantic_sha256": "eca919a40a4ea85ebbb1f7cbea5352089e4567f5ece6cfaa2026c8aca1effbf6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Shanling_domain-set_c009a0b8b480e78a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f660ed197c0f157c09185e1ee48b9e8c277483a81378102901e5c7e1561af8dc",
+        "bytes_sha256": "7b06555108dd086bcc8df2cf148e6909c34b228722e50c758eb0c17739edda33",
+        "semantic_sha256": "bacc835d39cbb89da5da057a134a7309450358cf27478b15ae8ca6d2a51636d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Shanling.list"
+  ]
+}

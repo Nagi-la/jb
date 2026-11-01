@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:19:03.822808+00:00",
+  "client": "QuantumultX",
+  "rule": "12306",
+  "rule_updated_at": "2026-07-26T06:22:37.013273+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/12306_rules_9e9de21cca6d702e.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "adae0170d8255da6128d9d89a6d6e22f8c56c9cbc770bd3d238f3e5efdcffe71",
+        "bytes_sha256": "b268df36b227298e64fe3e3a17dfaf39ba337a2d96ee520d4ec7dfc8ecc9dc65",
+        "semantic_sha256": "cb3dc7a2505725dfa051c8c89de99e61c3e7cfbe739bbdfab5b9e08bd4da8758",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/12306.list"
+  ]
+}

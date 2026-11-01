@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:11:28.975552+00:00",
+  "client": "Surfboard",
+  "rule": "DiscoveryPlus",
+  "rule_updated_at": "2026-07-26T06:58:18.562955+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DiscoveryPlus_rules_fab5641641adb46f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9ab3ac79fb3a2573ab71638e949054c1c6b0cc1252b13d509c06ce256f5da36f",
+        "bytes_sha256": "c5c3debc5a8a13027a752f6ffb1aca26aeee2e7048174ed7da0d4acc0d45c689",
+        "semantic_sha256": "175586b926d7d859c82e759a59651beb35e5b2fed8a1f7cbf3b0e145055e6786",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DiscoveryPlus_domain-set_5ca65226eab2c228.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05805d00c09bd9937891f624e97b0d952d4a76c4b1104dafb2a4736542080a69",
+        "bytes_sha256": "a8cd45d80d6ff29ccde2e8a11bd3719c471aa590649650368bf32512e3e67bfc",
+        "semantic_sha256": "d14c30eb69e5e234fa1be180ea37447001c3fc9a5631ec007f642e0725a403a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DiscoveryPlus.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiscoveryPlus.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DiscoveryPlus.list"
+  ]
+}

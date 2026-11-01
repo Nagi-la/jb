@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:13.672798+00:00",
+  "client": "Stash",
+  "rule": "JiGuang",
+  "rule_updated_at": "2026-07-26T08:33:40.708737+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JiGuang_classical_65547ebc33fc7b6c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d6d7cc98495a61ec5413c60cab22c1e7be9982243582e9d2f4ec7cf023d293b",
+        "bytes_sha256": "591ca76d9b6c2f62d6dc28aea85484ef1a62904f45a1904fc07591fa8206f068",
+        "semantic_sha256": "23d8695176a96241ca49b82638fc3f2e60622f8987905c9a24761400a6f7a115",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JiGuang_domain_c39defddd49b71bc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c22b028bc91d30f074b9f60797eb39371a2435c7812aee12c73fb03a35c6dc8",
+        "bytes_sha256": "408fce442264bd9bfc704fd628543e14f4f92ab02c1295e715f49f66bc766172",
+        "semantic_sha256": "c0a054a5e051f98f812c7f7c674a982bfead1d1ebde1888b0fc33fe9c723a393",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

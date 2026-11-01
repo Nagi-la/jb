@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:16:55.646595+00:00",
+  "client": "Shadowrocket",
+  "rule": "Akamai",
+  "rule_updated_at": "2026-07-26T06:30:37.917262+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Akamai_rules_5eca0e8b0caac7d5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b410449b69d7d27cef41c75e61dd2f1cd2369c00eeb46f7bd3f52914cbe1a01",
+        "bytes_sha256": "296aa8a92036659b784aec0a9b49053ddc28964804ab3ca1314d48099ffe99da",
+        "semantic_sha256": "d90426236510f5520f1c062c01cc76184564e22f29016fa1e76c4ce3748447ac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Akamai_domain-set_f8226ea299f449a7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d433842e3b7b5091277cd994411d5755da9c5297a7265d35f3e3c7e7d9e30cbb",
+        "bytes_sha256": "8c23a47748b3e81023d2c6706ff5db449e225236ee1cd83bd02547b668fe50b5",
+        "semantic_sha256": "4fca15b8e47916983a1ef5f1deabf740a234a80bf68f8a4c5031806dd95816b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Akamai.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Akamai.list"
+  ]
+}

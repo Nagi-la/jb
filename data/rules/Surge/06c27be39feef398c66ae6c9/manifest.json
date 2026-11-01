@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:05.119312+00:00",
+  "client": "Surge",
+  "rule": "Geely",
+  "rule_updated_at": "2026-07-26T07:17:09.928710+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 50
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Geely_rules_372caaedf4631d14.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f83af7ad3059fa5d4c5d98221677df0f6e7244cab38b6f86ab4944376c2dc30",
+        "bytes_sha256": "f295fdd4ba9cd861ff1e123a7d00a3cf1506e0159011e2c33e6b673db0ffa634",
+        "semantic_sha256": "136f082fa465045d94e6ee46c14ba8485edca3692905a6f6fdb3e08b9bed5f87",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Geely_domain-set_f623382f73df95ee.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "15332f6cde202bd5e5a246a6e93562105f80805c866779eeb04b2fe883870bb9",
+        "bytes_sha256": "acf0c89968f3d9990ac9f5c3ab0b98c7f6ca45f4fb3e37a5e933c614c964903f",
+        "semantic_sha256": "7959130deab19ccc9c9d63fe8bb227fc0069d8350b82d40f14b10738dbead86f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Geely.list"
+  ]
+}

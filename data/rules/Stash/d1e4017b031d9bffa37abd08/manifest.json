@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:38.552150+00:00",
+  "client": "Stash",
+  "rule": "TigerFintech",
+  "rule_updated_at": "2026-08-18T02:22:00.595162+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TigerFintech_classical_66196db29822a46e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e91ff511e30edb8fd88a98c874bee4d410f1e389ad3eacc08060f1684be48891",
+        "bytes_sha256": "abe0403cc30cc9416f4fad67bdd7a874042dc1f966203ebdc5fbdc6e090d9328",
+        "semantic_sha256": "711f5f983f14f161285b05788474d6b36ee9ae68c24b27b80d9fb05cc95109ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TigerFintech_domain_cec9a1efc2e035e5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e17f6cc2a748b1320f8836965b5b882a64db8f958d9ecfb8ccab4904ba14bedf",
+        "bytes_sha256": "6ec697d1eaf6564647b81df48d5d5c86d034246f69c4ec13e7ff56888fe72b29",
+        "semantic_sha256": "40b4cacc33660362caaeec8bc5e7f4a64d220c1161b15a66637ca6200a0993f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TigerFintech.list"
+  ]
+}

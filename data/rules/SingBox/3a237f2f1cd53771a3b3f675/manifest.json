@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:43.258888+00:00",
+  "client": "SingBox",
+  "rule": "WanMeiShiJie",
+  "rule_updated_at": "2026-07-26T10:48:53.131073+00:00",
+  "type_counts": {
+    "domain_suffix": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WanMeiShiJie_source_3e204701985dbef2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2218e243a1aef7abf803cad7e4dab8af413dcb7dc561c86541219e95b7269cf2",
+        "bytes_sha256": "329d8cf1ddf559bf37e4dfbf311eaf190f88c4c78a2ce848983e8fb1347d020b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WanMeiShiJie_source-srs_954203931501145e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ad8465b7a5ee18d6719706f729035c0ab0a4c11beb6359956bc550bafb4ccf32",
+        "bytes_sha256": "69ac011a68873709a159f0971bb57e3a3c94563c6efecb4c107d15f04d794b1e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WanMeiShiJie.list"
+  ]
+}

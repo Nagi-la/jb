@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T02:17:07.116917+00:00",
+  "client": "SingBox",
+  "rule": "Download",
+  "rule_updated_at": "2026-07-26T06:23:07.440080+00:00",
+  "type_counts": {
+    "domain_keyword": 5,
+    "domain_suffix": 1,
+    "process_name": 24
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Download_source_bde8aa95ba0c3081.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "28c72e2cd8ed4a6a9365575a4b1436dcfee1317e0baa9b1ef5ea33edda3457c4",
+        "bytes_sha256": "19cd6cc342e9928fdbb32fe7fd1df442e5602637a791d74316054a25f96844ce",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Download_source-srs_541ec3d00b738efb.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "75b305db47f0594e8cb474ac828e4edec90381240709ba52034d3a41eb67c2b4",
+        "bytes_sha256": "82cc346213483cc1e3124750bd5e8f4fbc7e37a932cbf7469725ba8a4e403756",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Download.list",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list"
+  ]
+}

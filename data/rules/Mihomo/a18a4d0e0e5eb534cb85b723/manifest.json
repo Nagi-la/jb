@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-09T16:19:09.127475+00:00",
+  "client": "Mihomo",
+  "rule": "JingDong",
+  "rule_updated_at": "2026-10-09T15:58:56.940391+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 277
+  },
+  "total_line_count": 277,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JingDong_classical_a455ebb28217b73e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a4047a696e1eb88bfd8fd04a96aefc92430d8631d5a84a8acdbcf43f90f84c9",
+        "bytes_sha256": "79d096b4b14ef0ce0dfbf9cae226aeadc3424b49d60f1c1faa3055fd5e9bea06",
+        "semantic_sha256": "13bebfbc912860daac32b5458f07c6b128992aadc0e8fc05e4a3764a736051e1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JingDong_domain_b7484d78d02ec0ca.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7415a2029c9a0b81ffe917465394041588fa2a8b9d2d50a9db2b95c671e8bc9",
+        "bytes_sha256": "c7781fd1062bb3b9babc40315c3e811ebfbdbf1f9471c1c34e8fd854e8b9324f",
+        "semantic_sha256": "d68521bb509946e4ebbf401604fe5ce9962b42de708cb3b578e8a9b75e54c438",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/JingDong_domain-mrs_082abc3ae6a4270c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ec821bad19970b24d8b5889782c5fcfb770c40691476c69c04b9be33b3ade4f7",
+        "bytes_sha256": "ee83f5f4927c05559606a820a2ebc84640bdc32c14973379c40bdd31be091c01",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JingDong.list"
+  ]
+}

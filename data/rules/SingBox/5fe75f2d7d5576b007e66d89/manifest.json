@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:13:34.158182+00:00",
+  "client": "SingBox",
+  "rule": "Garena",
+  "rule_updated_at": "2026-07-26T06:32:02.304481+00:00",
+  "type_counts": {
+    "domain": 4,
+    "domain_suffix": 15
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Garena_source_4f7075e17b603c57.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4586d1274fa2addb1701c2748386d4e71ccd0aa480700360f1e95d36ca04345e",
+        "bytes_sha256": "36f1fca55ad0c4dcc150a0bbc6edf0cc4142d0c2e19cab121f8160623e140c4c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Garena_source-srs_d30a6e98935d649d.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72de5a86dfac207004c3fa931f5cd66dbf28e7b7f253fbf59db203bc88948899",
+        "bytes_sha256": "4aadeb8c7c057f6f2fe915b18be940703ca31f41c2d1a07288cfd7755b648b0d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Garena.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Garena.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Garena.list"
+  ]
+}

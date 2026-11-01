@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-08-27T02:00:24.349250+00:00",
+  "client": "Egern",
+  "rule": "Direct",
+  "rule_updated_at": "2026-08-18T02:21:13.215615+00:00",
+  "type_counts": {
+    "domain_keyword_set": 10,
+    "domain_set": 32,
+    "domain_suffix_set": 220,
+    "url_regex_set": 4,
+    "user_agent_set": 1
+  },
+  "total_line_count": 267,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Direct_rules_b5366edba520b4b0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e87e008e05be89b5ac7c1eec7576a0bf035389febac4ca9884392f983e564778",
+        "bytes_sha256": "d6b97f7786ddcdbdf6c9be4730f4b2d8ee7075827e54abe2bb481724d3c2a1cd",
+        "semantic_sha256": "3379a11e8445b48c824122afea04a1490f031dbbd978bcec505e85234fe73b41",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "module",
+      "url": "data/_shared/artifacts/Direct_mitm_9254b53ffe295f7c.module",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dc3d59023ada42de9f0416c88e75cf679750fd4e815a9a645891500c8a571436",
+        "bytes_sha256": "ac8156feda1a9a60c057c7c3dc4c8b24a2954397dab654fb7d0aeafc3a6a21ad",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "直连指不应该被去广告分流规则屏蔽的域名、IP等，请将此分流规则置于去广告规则之前。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/direct.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
+  ]
+}

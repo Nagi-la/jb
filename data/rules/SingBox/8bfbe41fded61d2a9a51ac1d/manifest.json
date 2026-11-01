@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-30T07:52:03.711786+00:00",
+  "client": "SingBox",
+  "rule": "ChinaIPs",
+  "rule_updated_at": "2026-10-30T07:51:50.490483+00:00",
+  "type_counts": {
+    "ip_cidr": 18448
+  },
+  "total_line_count": 18448,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChinaIPs_source_f88dc0c32588eb04.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7f98fea2e31b66dc9a4973685ac17df30f9e4fa86fb1ef8d9b1282f0caaef334",
+        "bytes_sha256": "96861f76dbf6ac2ead53d9933db9ee3d16c358f1a8a8232994be45629cb263b2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChinaIPs_source-srs_edb0da6417d73bf3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "105eeaf26e5d843a229eb673ae862aff64fc9628c8390f6c01d0e508f020f928",
+        "bytes_sha256": "c68cb9211c35aca1c010f2abac91f72de9bd7f7a75962dd6f3f5f75d59f0d863",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml",
+    "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/ChinaIP.list"
+  ]
+}

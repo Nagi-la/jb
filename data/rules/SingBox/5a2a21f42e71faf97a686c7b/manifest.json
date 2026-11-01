@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:31.967317+00:00",
+  "client": "SingBox",
+  "rule": "Zoho",
+  "rule_updated_at": "2026-07-26T06:56:23.167620+00:00",
+  "type_counts": {
+    "domain_suffix": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Zoho_source_1aa9b19cb6ba7ca4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9d69d1856f77f4593731b52f5c8806f8a5616d53853f8492dca0ae7bac9abb7c",
+        "bytes_sha256": "2319ab8cd94bac897f0e52e8a6ceefeca00fa07612def69039a65158fc6e2051",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Zoho_source-srs_2887b7323943df76.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "39ba2b80823a611f8b8ce94af6c72bbfe6af0982456fcb67cd75b0179278c2b6",
+        "bytes_sha256": "4e469bf26a25c5ef40cd2c736ad341cc9a32cbd9946cc2aa4c050436a3f95c0a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zoho.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zoho.list"
+  ]
+}

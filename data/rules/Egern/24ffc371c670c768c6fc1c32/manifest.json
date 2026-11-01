@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:03:50.719715+00:00",
+  "client": "Egern",
+  "rule": "NBC",
+  "rule_updated_at": "2026-07-26T06:58:25.777761+00:00",
+  "type_counts": {
+    "domain_suffix_set": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NBC_rules_2735b75e2eff2321.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1ab716f92d2550f5daecbd9ac2e3d79eba2c69f661f643e13a2baec03f6018cf",
+        "bytes_sha256": "52446a9228a4dd82562baf34a91d166b8175c329a1260f713a0f81a15ebd53cf",
+        "semantic_sha256": "2025edeb4905b18e1840de35bcbfd1f86663471435fa9d34136438420588ca09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NBC.list"
+  ]
+}

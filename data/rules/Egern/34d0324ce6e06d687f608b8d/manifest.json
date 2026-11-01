@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:08:51.510500+00:00",
+  "client": "Egern",
+  "rule": "Bitwarden",
+  "rule_updated_at": "2026-07-26T08:29:42.895964+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bitwarden_rules_990a3697c00923d0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3bceaf08746e61a19ff899ca3988525466d68f09a87a65092c2a52053573074f",
+        "bytes_sha256": "8eb0bdb7ed6d8c58b22b76e954755e0a4d86bd538b2e117f81791424e905dd87",
+        "semantic_sha256": "c504c875b85eea4a506f8aab1f94cf8270125cb4e81e9dda70fc86bab9b0aaa2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

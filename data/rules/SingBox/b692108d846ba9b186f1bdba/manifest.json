@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:13:18.529610+00:00",
+  "client": "SingBox",
+  "rule": "YunFanJiaSu",
+  "rule_updated_at": "2026-07-26T06:29:53.445790+00:00",
+  "type_counts": {
+    "domain_suffix": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/YunFanJiaSu_source_93f9a208fe80ef23.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dd01102c957934c6abc6c0f63c3276bc2b2dcbe8a15200cf300a5f01b9bd5ca8",
+        "bytes_sha256": "894a8a5a0517c87e609413632b48a86223eddd1405a1182d4908b05b4bcf58e5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/YunFanJiaSu_source-srs_8a31a7d7902f96e8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e70ad850abed387d712a68c2de506cdb6d96a77dbdd972f33ff31c04a22c81dd",
+        "bytes_sha256": "163f37fdb81b0befe3d8417c633af80206254e90168310aa2df5c2bc83a936db",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YunFanJiaSu.list"
+  ]
+}

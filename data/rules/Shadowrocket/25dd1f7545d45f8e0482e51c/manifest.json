@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:11.595876+00:00",
+  "client": "Shadowrocket",
+  "rule": "QingCloud",
+  "rule_updated_at": "2026-07-26T06:27:44.495619+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QingCloud_rules_704638670446306f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25286488c2d769c845bfbc2eeafebb14da111c7c50586bdbe5243b0ae1b5db6a",
+        "bytes_sha256": "ea17d4304f99ff865ea40b2a4e46ded0e1513de2660bf390cef75b5bfb8b072b",
+        "semantic_sha256": "cc74e1e67523075fe62591637434559e053043837bb2165e4e8cf1d42692e60e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/QingCloud_domain-set_10ef28ec5926e9f2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "24d74838f9cb19fc21786016ea669d391e7fe0690778032c41c3f7593f38cd26",
+        "bytes_sha256": "0c6baef478fdc6f8de42a9b0aac496d15d3a316ed286784de2358ed809ca10c8",
+        "semantic_sha256": "0e98c562427d3242258eb91c50af00ccd61de171363d6a9652f9b8fad762db06",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/QingCloud.list"
+  ]
+}

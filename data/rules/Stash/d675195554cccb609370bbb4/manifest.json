@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-08-27T02:13:00.077874+00:00",
+  "client": "Stash",
+  "rule": "iQIYI",
+  "rule_updated_at": "2026-07-26T06:46:11.038455+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 47,
+    "IP-CIDR": 23,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 6
+  },
+  "total_line_count": 82,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iQIYI_classical_ad93b8986f4f3c6e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c2914f50d225f8ddd2edd2c3b2c7246800f9d1c534aec24df3be5a9697597877",
+        "bytes_sha256": "b77ca0321fc1bfd91ad74fd672da6174bd8bdedeef76e42a8d9a1962c98fcb78",
+        "semantic_sha256": "245ffe75f060ed22c85ae21de744b4832ff5dbc721e45c2f385afbedfefdf664",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iQIYI_domain_3287b365a8be0957.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "efc9b84be080314d931a14cbbea104278f40c9425aaf3239a88eaa1e84dc69a8",
+        "bytes_sha256": "e7bf6a6e18b587f2033630e66fe8ccbfa5029ce9cc58ed4785ed654f0886859e",
+        "semantic_sha256": "c7b932ca8c689416cca51442cea83bf5838e5ab91ecca0485b6a3e758f4655a2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iQIYI_ipcidr_3a909dc33a345e15.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5aa69b7fb7f065aa6cc8b7d1af27678c6c8c808fce9684934fed9b3ae12c5ea1",
+        "bytes_sha256": "ccac97f68058f83ea6d887c8f8d2d5071a7cc215de7b0fbe6046acbcaa952af3",
+        "semantic_sha256": "7004e6d899ee596eb36841de304ae8cc05088e0da6fad9edf399e2ae654872b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iQIYI_classical-rest_8082a6b8a9995f6d.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2e78a9fa1d81b182625b8e8cd4cb24b90f6061abffcf0219274853fad0ec5b3",
+        "bytes_sha256": "642ddbc20c18bdc40c5d2acbc1445e56d4d87307f3abc5972e5eecce6e9ffb4b",
+        "semantic_sha256": "0e1b8ee95a47ecbb89dc31a0a0f9cbe9cf4add53a908edf9cdc7715a4d47658f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iqiyi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iQIYI.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/Domestic/iQiyi.list"
+  ]
+}

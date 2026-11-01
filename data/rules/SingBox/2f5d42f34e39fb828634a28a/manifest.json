@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:19:04.233905+00:00",
+  "client": "SingBox",
+  "rule": "12306",
+  "rule_updated_at": "2026-07-26T06:22:41.158403+00:00",
+  "type_counts": {
+    "domain_suffix": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/12306_source_f5ad72887b44e7ce.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "965b23bcf3b8cc64b9a36d0693d47e3e2d59157cfcafda3ceceb70269de37b69",
+        "bytes_sha256": "e1f749e2e04757a18e94782be8300dc329a506c1d3104be91740a3a65a932bd4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/12306_source-srs_57809488b26a324b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ceb344b59ac6addd1e8463b5cb7da0ba2184fc0f0c9f9fb8056b639c4ee91e66",
+        "bytes_sha256": "658bd7abc39650144f8e3efbbd0fd1f45ca3d248741db33518396d63172a8dda",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/12306.list"
+  ]
+}

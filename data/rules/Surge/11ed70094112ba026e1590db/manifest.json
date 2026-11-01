@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:00.548154+00:00",
+  "client": "Surge",
+  "rule": "FOXNOW",
+  "rule_updated_at": "2026-07-26T06:57:22.165356+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/FOXNOW_rules_5b4729a11be3c8b2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "daf88caeadec717dca75001f6656d776d50a2f76c0729e8e07510e9cd28bf497",
+        "bytes_sha256": "8b772e891a8f3ed9c22a16ae180d5c77ca7b77b085ab31008cc0cc7c675083e4",
+        "semantic_sha256": "4eb52bf0c0d245f4d9dbf1e7adca790678fc4e81ad452f3919c3843835eaab82",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/FOXNOW_domain-set_c3f45b6ea0d927d8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "24f634d61161bc59710ab56ff43e3f6d8854b7a28d5f9a01fef86e3daef4a347",
+        "bytes_sha256": "e0028d632ffea90c4153877dc734f0b2151d90a4aa172527abe2d483dd4c3c7c",
+        "semantic_sha256": "a816831a5bb3d8c4312de3c3069dd38ad2f62ac039ae670fa0046d5d552ab9b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/FoxNow.list"
+  ]
+}

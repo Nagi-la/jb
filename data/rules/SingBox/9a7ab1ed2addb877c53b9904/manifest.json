@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:59:48.811556+00:00",
+  "client": "SingBox",
+  "rule": "AppleUpdate",
+  "rule_updated_at": "2026-07-26T06:33:23.597466+00:00",
+  "type_counts": {
+    "domain_suffix": 31,
+    "domain": 66
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleUpdate_source_839af8823a0cb2c6.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "38f978219e5288932776b91f00a1c0a2e6e26a9a9210d5dc8a55e7572c7cd88d",
+        "bytes_sha256": "84380fe898693940573000424004bc1b1223a9611a341fe161e7fcb51c730b89",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleUpdate_source-srs_6da7aeb0d35a8b89.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8a651ca8145e928c73da49da2bd0d9d20c61a4d7a0af3a158a0b7e2687bb8802",
+        "bytes_sha256": "ea878393939a1a3b0d0599e82890f92c630f89b251f5aaed4da7ccab1858cf60",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LuzMasonj/Quantumult/master/QuantumultX/Filter/BlockiOSServices.conf",
+    "https://raw.githubusercontent.com/an0na/R/master/Filter/IOS_OTA.list"
+  ]
+}

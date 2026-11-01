@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:18:52.813537+00:00",
+  "client": "SingBox",
+  "rule": "Comodo",
+  "rule_updated_at": "2026-07-26T06:49:03.259539+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Comodo_source_0bfa514d1756f813.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0e0b7779a5432912a54be6db31309c2fc517db3faf1bfef1878540ebd03c9268",
+        "bytes_sha256": "6b0d9a3e2bdbadb04e98c9b41c094ca572ccbe522538177ba239e680ea84cf37",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Comodo_source-srs_5c599892966ac767.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6dae20ca1e282715836c207dc6e0e0721ce1f12ec525c15249496152090ddead",
+        "bytes_sha256": "4855b163ed2dbf2fc539da2d9cbf05b26b702fe3378c57958c28f7fd04ec1362",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Comodo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Comodo.list"
+  ]
+}

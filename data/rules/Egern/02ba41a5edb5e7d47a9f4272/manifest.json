@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:19:19.282058+00:00",
+  "client": "Egern",
+  "rule": "SmarTone",
+  "rule_updated_at": "2026-07-26T06:54:25.038155+00:00",
+  "type_counts": {
+    "domain_suffix_set": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/SmarTone_rules_b216636640cdb219.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00cb5de71e2efdd48ff2e814c983955eaaa420e5cb4b6d37e5e3f37c12c1494f",
+        "bytes_sha256": "9c703840370259c3cc7cd083993a9af9f0f4fa9565b07e64dc766a8a5bba24c1",
+        "semantic_sha256": "250636d7980a173330af4d7df715360efb563a1489a34f0262242e78254d6afc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SmarTone.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SmarTone.list"
+  ]
+}

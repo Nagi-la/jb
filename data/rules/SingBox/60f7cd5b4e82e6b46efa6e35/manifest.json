@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:57.143422+00:00",
+  "client": "SingBox",
+  "rule": "XiaomiAI",
+  "rule_updated_at": "2026-07-26T08:29:42.326893+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/XiaomiAI_source_3b11f05766a40f13.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "413b71f56ab241ab7a25a1c1296248a304ae48542f206c59a4a8dc7e9eb6e218",
+        "bytes_sha256": "1f63f186124252fcc08d4ddc574975325debcbd90c6b51a53d241f7f9f7bdddb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/XiaomiAI_source-srs_4dd87abecf2d1fef.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4e15d9379a22882ee5c5f4b123d5149f8a007788157ae9560695bbfd1f2706a9",
+        "bytes_sha256": "46c35a54fe346fa3887c412e9a6372bbf66107bc8aaf2142c06dfa41d5b72d18",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:03.815536+00:00",
+  "client": "SingBox",
+  "rule": "WangSuKeJi",
+  "rule_updated_at": "2026-07-26T06:28:54.745993+00:00",
+  "type_counts": {
+    "domain_suffix": 193
+  },
+  "total_line_count": 193,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WangSuKeJi_source_4cb3051c73457cc4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a839d7b620f16fdf3cb719220f5f331bf255cf936cda7a77fbf2aa0d698374a9",
+        "bytes_sha256": "9fe6d1703b9b7c21cfc43a0dac1d5a3a75eeb63610ae6b5f452c97ff6f9d4495",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WangSuKeJi_source-srs_9525f3e8a124d9d3.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "25059ac890971913bb64fb6e335874849a820f7a0ad434085fa13b9ae9e3e869",
+        "bytes_sha256": "eb71e4ea72c57df15e1f044901865db4806cfc17ccb599b6cce4910121d290f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WangSuKeJi.list"
+  ]
+}

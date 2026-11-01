@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:11:46.279995+00:00",
+  "client": "Mihomo",
+  "rule": "ICBC",
+  "rule_updated_at": "2026-07-26T06:25:35.730074+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 58
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ICBC_classical_95ce16742368274b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11fe72f7714cf361f83c538acc668e3aabcbd202eb22784c12b5c18672270261",
+        "bytes_sha256": "1dcb90c6dc6d3c6feff74cb157986307d75092143bf160ca57f1485d79eddca1",
+        "semantic_sha256": "412e74bfbd6915afe6f64aec3b60c565cbedc89f20e4241967c4d4fc182e293d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ICBC_domain_ff025a46e3877475.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76f19cfa309e729fd770b772a197623dedab668bb8767810d35d470ebbd79e84",
+        "bytes_sha256": "00229f4b22416d0ea816dfcf0313f43c859dd476f479732ce7d14744c49e012d",
+        "semantic_sha256": "5a5b7b7bc1e7f69cd76ace7a374cda90d1b1127c92550ecce807a73d09dd0b0c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ICBC_domain-mrs_5c57a7101131f1a9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ca8cbf6e92058b436eed41adb6eb002f4d8a755e2bf6939a002079f602e01ab8",
+        "bytes_sha256": "e5628fa827d533a6c87e0d2999efc0b4e4db0f3caebdb2d2568e33adc8977e38",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ICBC.list"
+  ]
+}

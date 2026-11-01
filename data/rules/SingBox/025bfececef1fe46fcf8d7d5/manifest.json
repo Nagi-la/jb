@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:17:33.864673+00:00",
+  "client": "SingBox",
+  "rule": "Qualcomm",
+  "rule_updated_at": "2026-07-26T06:53:23.965473+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 49
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Qualcomm_source_1761735f2b5983df.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3642e40e5b675df92fe904fef29b83e99627dc17ab461055e8c25afd74b6ce93",
+        "bytes_sha256": "ed62919206a2c581968bd5946beb96b52b35ea1972e2128e7aa7616fa0409bf7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Qualcomm_source-srs_77b36f199dadcc97.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0fa317db0b7394f64285d9cd335599e8e3c72a666c261ccad0a4812bea8fcfff",
+        "bytes_sha256": "30b89151b4734793263710e85f9d9485db69a0250fea51ce2c03d97bdf418818",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Qualcomm.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Qualcomm.list"
+  ]
+}

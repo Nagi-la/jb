@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:13:47.868878+00:00",
+  "client": "Egern",
+  "rule": "iFlytek",
+  "rule_updated_at": "2026-07-26T06:30:14.056915+00:00",
+  "type_counts": {
+    "domain_suffix_set": 152
+  },
+  "total_line_count": 152,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iFlytek_rules_48f8940b0cbc8263.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e18b806f2ef04ebc1f217b1f2ac1a253fe7d7d9f3cebe31d42f4e6f682c28add",
+        "bytes_sha256": "2798a74f3ffe4d258f015b6ef0566d1d7bbfeb5999cca73d7577370379629ec0",
+        "semantic_sha256": "6a9c5479777481e3308780b6941cdf19884e49ebba5337c917f3a716a71ba09b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iflytek.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iFlytek.list"
+  ]
+}

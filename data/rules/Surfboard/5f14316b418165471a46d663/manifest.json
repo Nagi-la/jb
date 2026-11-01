@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:11.780443+00:00",
+  "client": "Surfboard",
+  "rule": "Supercell",
+  "rule_updated_at": "2026-07-26T06:31:56.319512+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Supercell_rules_4c716a4ecc3deae2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc4cc5e5b7296c2e12fabf7de612f33f17661f4dbdadf6675e7ba2c3fc2008ea",
+        "bytes_sha256": "59b51599c634adb5a469accb5cbaf2de8de057cacd6182339eb96adfc347b647",
+        "semantic_sha256": "a4526b304ec54568791fa87216f010303a591cd2338d58241d5a8315222aec96",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Supercell_domain-set_1bdd4de182e26049.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dca1ec1a2c12d9c61823eb082905c93ec508b1b3cccd65f1b4a1ea4d9f3029e0",
+        "bytes_sha256": "f10c978410a13a2d336b430cca50415f62e490521754f1a2f43618bf49fc84e2",
+        "semantic_sha256": "ed2cad382cfcdd15f9bdbe94975f5fb01c4dba8928ce24ab76b21daff35064a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

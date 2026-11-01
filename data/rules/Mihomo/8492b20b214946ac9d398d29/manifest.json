@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:03:08.649359+00:00",
+  "client": "Mihomo",
+  "rule": "KingsoftCloud",
+  "rule_updated_at": "2026-07-26T07:03:34.429034+00:00",
+  "type_counts": {
+    "IP-CIDR": 34,
+    "IP-CIDR6": 19
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KingsoftCloud_classical_a03ac504876dc9d7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "946ed077fe37052b32afb9ae8f626431fda512294d53f2f8dad603ce5725892a",
+        "bytes_sha256": "b8661573426ca1cef24e1d09a61b8e62f5b2e3641f863e3ba33ce09cfb359f04",
+        "semantic_sha256": "8a2cfb695ce7f8f1fb0cd50c3d76b4f7f9438f20fdc2157d8c3804462cff207e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KingsoftCloud_ipcidr_a536caa9cb7c60d4.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d4a693582e56d86f2d03f1271f0b73d99d5486a8740abae39d221b326c413c6",
+        "bytes_sha256": "725c10d602fd8a59b4dc8b30b9a982ff84d8e76fa6a1aacab4f9077b6a561652",
+        "semantic_sha256": "eb1eec46214dce51b27a8be908fd983f0a6332abb2319f5fefca68014562a2f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/KingsoftCloud_ipcidr-mrs_b3b2756944b458ca.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "402c2cd7f6439d39691fbd678d6834335bd0836e369ecdab7e145e7516745a3f",
+        "bytes_sha256": "186ea9f051639471359999c82b64a058edd957444ab3bfa0906b7bb5af52a5fd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/KingsoftCCC.list"
+  ]
+}

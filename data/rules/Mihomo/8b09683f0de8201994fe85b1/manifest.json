@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-09T16:04:20.741950+00:00",
+  "client": "Mihomo",
+  "rule": "Baidu",
+  "rule_updated_at": "2026-07-26T06:39:10.620369+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 337
+  },
+  "total_line_count": 337,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Baidu_classical_a5f8ba9722539264.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "745d7a082f87ab467b358ad01c1ad5904d77c3e3eb8f388a14ab2ea26e28dd3c",
+        "bytes_sha256": "337d8180e4aea153229c93fb861b3dff66293250efea44a6ba0c56e3f1c7b681",
+        "semantic_sha256": "124b3b497a6e53b96de563e3767c827a7b6bce6869d414ee3ca4ff5227e3a695",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Baidu_domain_16331df89bf2eefc.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "022c23a08bcf57a248ec552c41fdc5475341a23d7e0d7a323b12b1277a582aec",
+        "bytes_sha256": "154721eeed08f5e4b492bac2c1abd8bc73ebe2475516e5086343d29c8b326dcd",
+        "semantic_sha256": "9f03da6930491014c7e977caa81d34222427aea93d5afb9fc4566a0d59be5e19",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Baidu_domain-mrs_0fbcb4218260480f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0ed0f1eabc765d9fdcd6a43824da51f8a01729d0a18864a45d404c71de2966c9",
+        "bytes_sha256": "9b5bc8a4efc418bf3a66c0dc9a94afcbd434559d2a983042423b724c2e6b893c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiDu.list"
+  ]
+}

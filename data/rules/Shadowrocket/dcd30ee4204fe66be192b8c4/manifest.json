@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-08-27T02:11:44.435946+00:00",
+  "client": "Shadowrocket",
+  "rule": "Bahamut",
+  "rule_updated_at": "2026-07-26T06:21:10.715825+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 3,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bahamut_rules_1067f2a62bd91722.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd436e89f1cc85ebbba603361e948c6dbd91bb227d083de1c7a60a815f44f590",
+        "bytes_sha256": "f60b7db19781f3e955bd5aef1170847d1cb3632e559109ba3c24576d8b23aa4d",
+        "semantic_sha256": "ad31db78fe5573912aef1b17a427810a2005dc9ad6f65b69927f5ce41ffa5839",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bahamut_domain-set_a65356228c6da2e1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a9dc5560695b54b41adee4a9e7082356aed8ec1ac99ea10d10144bf2128691d",
+        "bytes_sha256": "c173870b5f5a5458bcd8eeeb6c5b25c13bc40c738490fb32576af03f6d1973cb",
+        "semantic_sha256": "4e59f3187264c7e9ea6357d6926b7f8b74e11890cd394e545bd7c5a97f52b871",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bahamut_rule-set_45607bf36122af47.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b74b6bd2de22a6f6ed99ad8e85bb0235509d6d44f0c2d769589a83ca45070360",
+        "bytes_sha256": "6686f707b86726ca713c746216067ed166f19831ee62c1534c71494c579349f2",
+        "semantic_sha256": "53f0cd687bc62aac1ede29d15dbaeb12cf49ec8597c08eafc42f4cf479173d34",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Bahamut.list"
+  ]
+}

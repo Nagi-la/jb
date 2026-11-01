@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T02:51:36.694304+00:00",
+  "client": "SingBox",
+  "rule": "ECommerce",
+  "rule_updated_at": "2026-10-29T02:37:31.677225+00:00",
+  "type_counts": {
+    "domain": 39,
+    "domain_suffix": 1291
+  },
+  "total_line_count": 1330,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ECommerce_source_90e03affcb1a81e2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c7df37741198b550f2db3bdfabe87b00417b1ab21a3da33a463594a6e7749a31",
+        "bytes_sha256": "9e815e51c19068c96916bc5f61f4b0ff44cb74b5621d582e29077dcb5b48a75f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ECommerce_source-srs_e707e4b6466f9a57.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "97388d2527eb66333165d9f55c8c47cb846c38cab81c315aeaa433b94b0979d9",
+        "bytes_sha256": "21bfb585246e762cd7a121c66e56d050b09aaeb24f2a5cade92691abdf9a34ec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

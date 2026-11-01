@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:15:20.106890+00:00",
+  "client": "Mihomo",
+  "rule": "WBGames",
+  "rule_updated_at": "2026-07-26T08:34:53.136176+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WBGames_classical_21391254a6f3f81f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2175e2377681ffceb2ca9e99f907b79e14d03196674ba482b10ae5836b4ea17d",
+        "bytes_sha256": "0e8b6ac8f03a1ce92987308e083ad72c66a892782778bb60178242ff88041da6",
+        "semantic_sha256": "f72c5db2331baca5f82a405b3662377dbcfc5f3482436905321f46147f0fdac4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WBGames_domain_260bd830a65dde42.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07da8e32802796c1620dfa86ae5baceef158af77f6eb84dfed0257a9813ef2c5",
+        "bytes_sha256": "4a08f0d72f7234b4b104b24ad9b54178b2f2e03efed8d15f4fd9ee9f2724aedb",
+        "semantic_sha256": "f5eb5e4a49a7d12e05327227307fe757342428e67151c661718c0844c1b52844",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WBGames_domain-mrs_c0c2051a66798d2d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "834ac4b558d5e312253369810998ea08157959470264d05ad52202feca6e9bd3",
+        "bytes_sha256": "5da3c3c66e1fb90dab4f54b70c3b57719a4c5818a09345715b6ece1140bc82a8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

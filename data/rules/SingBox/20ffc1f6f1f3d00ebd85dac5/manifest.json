@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-10-29T03:04:25.295921+00:00",
+  "client": "SingBox",
+  "rule": "Amazon",
+  "rule_updated_at": "2026-10-29T02:37:34.315702+00:00",
+  "type_counts": {
+    "domain": 21,
+    "domain_keyword": 1,
+    "domain_suffix": 249,
+    "ip_cidr": 17,
+    "process_name": 1
+  },
+  "total_line_count": 289,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Amazon_source_6a6f1ce3b82a7d2a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ca2d1995732192f74a6767e1214dd4c4be155c26ff384677cd0d4de1d94937b5",
+        "bytes_sha256": "b8622e8a312c6f7a5d772e1cb3b4726b74043b10aa3ef21332415358e8b27401",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Amazon_source-srs_b55a652087377507.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "827fa0884cd290dae345a00313692e1645af72a6a2c1dffd0208aeb51a7078e9",
+        "bytes_sha256": "5816421661dae240f8d99eb1ddff2597e423434cdbaa0bd179e768fb75d6317a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Amazon.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Amazon.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Amazon.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Amazon.list"
+  ]
+}

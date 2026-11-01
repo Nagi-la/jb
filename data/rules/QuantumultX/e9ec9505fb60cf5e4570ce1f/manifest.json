@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:00:12.208934+00:00",
+  "client": "QuantumultX",
+  "rule": "Apkpure",
+  "rule_updated_at": "2026-07-26T06:30:35.377208+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Apkpure_rules_a1cab7851720b24a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6cff07f5f9a01976b56939eb7246993dc300f58d821fb868c20d7f9d4508fba",
+        "bytes_sha256": "e29abf6dcb459be0fcf94de5df66ad97c773d9a58622036bd5e8dabf0edb3269",
+        "semantic_sha256": "e5d841d5ccc6730e7392e1ae183b7ec6cf6a2854d00f11c36722b944b9fcbc3c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Apkpure.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Apkpure.list"
+  ]
+}

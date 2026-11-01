@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-09T16:04:20.730176+00:00",
+  "client": "SingBox",
+  "rule": "Baidu",
+  "rule_updated_at": "2026-07-26T06:39:00.803774+00:00",
+  "type_counts": {
+    "domain_suffix": 337
+  },
+  "total_line_count": 337,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Baidu_source_597ddb41942ed389.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "78213ff67599cf20f746ac285dc70b89c7fc35c00bfdee3a9bb1320408163387",
+        "bytes_sha256": "153dadab5cd9154d2bc8865cb6cc054c8f3a39470a5b82d3c50f40d31b568f89",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Baidu_source-srs_2019c0173297df6a.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e42943f81cc1af6dd633729a3aa91fe35561217c393b40e516e4958ba052efae",
+        "bytes_sha256": "8765372ed8c55740fc659f040d9b439b18ce07210ba9412bb9ea04c0890f95eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiDu.list"
+  ]
+}

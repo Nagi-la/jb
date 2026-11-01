@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:39.643974+00:00",
+  "client": "Shadowrocket",
+  "rule": "Voxmedia",
+  "rule_updated_at": "2026-07-26T06:22:50.512830+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Voxmedia_rules_89097bb33f7e0e91.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d718b3f257dda9b90f1e0687958f2d629ba4237d12e1656c24e847d13cdfb39",
+        "bytes_sha256": "fcf9b1d31048fbcb66806fc4894661d090b239c2bf367d740818d64adb9d842d",
+        "semantic_sha256": "f73e7efa65f799ba8dcf57d1fb39a02c197e31d1082caf6b8eff969a570cc6c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Voxmedia_domain-set_d7b1750b84ab29d9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ecd218206a7e667f0c77336162700e4e0e6981a44d717da9f0ad47a6629c3143",
+        "bytes_sha256": "e9bb4b754d6874565d472bdbbe5359025a69b7d5b15b56d498c77c970a4499f2",
+        "semantic_sha256": "85187557d12d6c100172bd81f4e1138469790aa00867d6ac5dc2bb8293ecf5a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Voxmedia.list"
+  ]
+}

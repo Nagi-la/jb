@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:16:07.379361+00:00",
+  "client": "Shadowrocket",
+  "rule": "MiWu",
+  "rule_updated_at": "2026-07-26T06:27:08.716934+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MiWu_rules_1852b752c149b004.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "623d5803f62441f0584e89b743fb61eb17e5170f5dc37b191a89f3f647b407df",
+        "bytes_sha256": "ac224b54ef1acef00e39cbd09c003b6385d519c2fc4a70c5bce9fcf96e1ceb5d",
+        "semantic_sha256": "ca7357ee81771739067e69638c4731bf418025e3a561cb7ba5b07a8ebd5628f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MiWu_domain-set_4d4de854706979dd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56767b7558127a86cddd84e15a96b0aee60e997e606a305ea663e523f1fb8887",
+        "bytes_sha256": "a0d7955b9eebf47af15fead4a645ceae68d1696def1e46e34dfc4409541c4b52",
+        "semantic_sha256": "b93eb36f0cc4b4494afc9ac891acb30fd40a2f89d6e0c13adf1eeef2acda2799",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MiWu.list"
+  ]
+}

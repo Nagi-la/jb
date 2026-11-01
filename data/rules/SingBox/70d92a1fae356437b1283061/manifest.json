@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:25.715931+00:00",
+  "client": "SingBox",
+  "rule": "TGBus",
+  "rule_updated_at": "2026-07-26T08:34:40.820940+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TGBus_source_daf2644e186b89c9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1d72dcf3d75e3179c1eb2ebc2688ef57d36db28ee70e957397def557ca0a2192",
+        "bytes_sha256": "7db5c7242b365c726a67c4b418fa9e4051e30231c4d2bc6c20d6f72ce93fe950",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TGBus_source-srs_eea5c3eef5becaba.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "29f61bb5725a6406dd824fc78eda59635c6806734a392870b65d463c8d487fc3",
+        "bytes_sha256": "bd14259af37427ccc0633a553b9779d606c575613ea1aa54bb2d50ea87a1aaee",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

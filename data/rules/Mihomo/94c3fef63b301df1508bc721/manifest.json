@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:18:42.810806+00:00",
+  "client": "Mihomo",
+  "rule": "WanMeiShiJie",
+  "rule_updated_at": "2026-07-26T10:48:53.367323+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WanMeiShiJie_classical_43ed15c3e41a2080.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d3879ba2ccc88c72d7121da2f886318b25d3f86d4e3c9fe69ed3f699bdcdf901",
+        "bytes_sha256": "6810e9ccae2bde21f31f175203c79bc6596749717c61e9d331f249f8b1d2c210",
+        "semantic_sha256": "8f9d551d291fd39fb588c0a86a9a6f51ff056bc72a77ee101e76ee3b73e2441b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WanMeiShiJie_domain_f0557b8acb2e7f8c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9fa8173ca62e582daa687899bea327e2d7239087218ec23e8bf390b879c0cce7",
+        "bytes_sha256": "c16372a9916cebd4d4075fb5bd2e3bf78e032c72a1628e1211cc3fc1151b1882",
+        "semantic_sha256": "0ac9823043cfeeb2337d542a252894eca7c58e7f88834e01552d34e9dfae7355",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WanMeiShiJie_domain-mrs_536d387d5a934071.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e3864439a490a25ef061437c91fd54eb203f468c29f717eeecced3a3d085bbd3",
+        "bytes_sha256": "9a1e8f50ea43e5e10e14f4f0c0d63919bb5844af20177aa6753bbbaf13aee032",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WanMeiShiJie.list"
+  ]
+}

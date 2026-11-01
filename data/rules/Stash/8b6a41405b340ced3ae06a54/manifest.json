@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:58:14.768678+00:00",
+  "client": "Stash",
+  "rule": "Samsung",
+  "rule_updated_at": "2026-07-26T06:54:13.562289+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 28
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Samsung_classical_eec503338f8ef014.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a91f052d6f351f8ae56bcf20b2a3987b8091a9b3e8406dbc7a23ebc528665fdc",
+        "bytes_sha256": "5603f76c5ddde511d0e104b2b66f4a4a40770841e90b8898ad5748ee62864510",
+        "semantic_sha256": "d6ddbb7814c2cc3c04bb8b94ca1a7382c4cfd2d38c54411e6ed4bfe68b41e514",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Samsung_domain_c1e59e647c255f14.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fee15f06b720452fc78d7e8171f8fd7066e0ab998aea303dd22d21cbbb5563e9",
+        "bytes_sha256": "feb1501c181e69fc971be510e5bcfa63169f7b2049d136bc7d9e0889b12f26bb",
+        "semantic_sha256": "3289aab033238bfb33d70d8ec6e000ae988a811114aca8c33c6fe97f96781ad5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Samsung.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Samsung.list"
+  ]
+}

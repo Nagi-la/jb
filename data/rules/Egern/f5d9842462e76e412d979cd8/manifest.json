@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:59:51.245767+00:00",
+  "client": "Egern",
+  "rule": "Dedao",
+  "rule_updated_at": "2026-08-19T01:59:37.979560+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dedao_rules_d92e965fc1dcb6b9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6de03c1ee15d8f747385bce5d61c2b3dfc9453be2cb90bc0ec0a3758f4a20f67",
+        "bytes_sha256": "26aebf74de6ec46b9eadd6246eb99fe6b70b008f140376d926204aed5b9d2119",
+        "semantic_sha256": "128b0eea35cc1dbeb538734db225978f6d4a6044f0bd20bd927f5bb8fee9dc9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Dedao.list"
+  ]
+}

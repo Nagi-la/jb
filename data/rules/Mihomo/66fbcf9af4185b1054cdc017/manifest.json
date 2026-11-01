@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:13:10.092064+00:00",
+  "client": "Mihomo",
+  "rule": "HamiVideo",
+  "rule_updated_at": "2026-07-26T07:00:26.424205+00:00",
+  "type_counts": {
+    "DOMAIN": 19,
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HamiVideo_classical_0233bb7721f78a55.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e683292a8fa258d485df75070e814b1d9400209cf2fd5b4a203e9cf074e2e672",
+        "bytes_sha256": "fe5b9ea21c38fbca8fa33b91f2373069c5c6a6565c59e53de0e2e08c9f88dd12",
+        "semantic_sha256": "e97ea79da5645883171bdcdbd25a88f10297fa5aeb953517ece23aee7a383da5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HamiVideo_domain_dd9b218092359202.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2028da3fabec68ca592a11133d78bd4904cfca2c4d75a62b4edb08b370c13bca",
+        "bytes_sha256": "0ebb9b29453ee55fb309d8782edb8cec56f3f57bce7a085316cb09dbe00cd460",
+        "semantic_sha256": "1ce23ee75a8cf8c5a1fdc8b9a0b5489c531d8a00304fb7ce4d4686af0c79b5c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HamiVideo_domain-mrs_bee039ceab44b251.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e2bb41530dcd5e657a0f2efba78926f19d7e00c2a00691e475a12b9849d2d04d",
+        "bytes_sha256": "5f62553a95278ef23d50bda01805b0d3d0ce525969296ab0492fb146b58fe44d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HamiVideo.list"
+  ]
+}

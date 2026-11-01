@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:14:22.227387+00:00",
+  "client": "Shadowrocket",
+  "rule": "Buypass",
+  "rule_updated_at": "2026-07-26T06:48:16.242838+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Buypass_rules_01ee3e1512708c39.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8574579112859bdc71c4355c8e72fa8e3e84eaa5fa3aa38e32acd7ccfae5def",
+        "bytes_sha256": "e3b4347ea48cd90159bda755acac02e96cabf1260de52c1cdafa90664dc00a34",
+        "semantic_sha256": "aefe772baa6e3d5869e361634e1d6d5b3e0daa3b557c939c3cbd2bee543e78f9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Buypass_domain-set_9488fc5b72b00977.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd649ef31aeb96b9a45bf78b2056185c9b8c540ce04682f9b730216868a06bae",
+        "bytes_sha256": "1970ed85aa54ba7aacf3cab19f8ca7bc97924acd6448769835de77a653cd7a53",
+        "semantic_sha256": "b7620b87c4b660ea1aa14deb07554c93a9cd13883aa5b2d1a85a5895bb70195c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Buypass.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Buypass.list"
+  ]
+}

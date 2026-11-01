@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:10.053599+00:00",
+  "client": "Loon",
+  "rule": "VISA",
+  "rule_updated_at": "2026-07-26T06:54:47.563271+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 160
+  },
+  "total_line_count": 160,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VISA_rules_cde644d9f51e2000.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c7111677137a842907435d239fa44492aa031fd4ba11d2cc391d37a92f8d5aa",
+        "bytes_sha256": "8bd5cd1977bd6ca45faf3fd83729c55fc4779d8e1ae4def1f53c82fab3c8ab09",
+        "semantic_sha256": "a91a3a5bc67f59aa98618164c226dd2020d017c147b758503c4256ebf9f2c390",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/VISA_domain-set_5d1d833375f0421e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "760a91a0e132e9cdf96830caafa632926098bdf3f83a6c5cc60b64e651b61082",
+        "bytes_sha256": "1cd7c9bf48c8c4ee8319654438f109fbebe5e1b888ee0d49eb40e97b3334e7ce",
+        "semantic_sha256": "bd9c3850be75ef3ceeaf8059576af8a6a4de319e8c94b5c5704c4d8ddc628a08",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/VISA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/VISA.list"
+  ]
+}

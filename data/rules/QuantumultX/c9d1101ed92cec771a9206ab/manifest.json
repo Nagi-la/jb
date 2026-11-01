@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:03:24.156006+00:00",
+  "client": "QuantumultX",
+  "rule": "Binance",
+  "rule_updated_at": "2026-07-26T07:14:48.119284+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 46
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Binance_rules_8e523609421fffb1.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e3106ce0cf14ee119a217c3207cd82c93eafb0e72261ea16e4a7ce56a6270e1",
+        "bytes_sha256": "916e98c91a0d92ddc52f2cf5f5f453961e9a523250afdfe7aa5093fcb7c48d8f",
+        "semantic_sha256": "d39ee4340f92dde0f3b9e7969a98ebcad00facb723d92931ba801975a28c9491",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Binance.list"
+  ]
+}

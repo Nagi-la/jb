@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:06:26.464727+00:00",
+  "client": "Stash",
+  "rule": "Feishu",
+  "rule_updated_at": "2026-07-26T08:32:52.594421+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 43
+  },
+  "total_line_count": 43,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Feishu_classical_7115188a6ef7a5db.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "144a32304a0f6f851006fe9933c9fbff4de3d422a25a8eb46768efb7c71becf5",
+        "bytes_sha256": "18a2ca1398b0f59caf6b1b7a623d092964cd10584947b810191818f0ce959e41",
+        "semantic_sha256": "ce71b241660e639df004c985997663b6fcef1a4ce77ee2bb2a8c74e6f397f11f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Feishu_domain_fffa7cdca1a55f3f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9a0e19bfda0c68800ae89d68ad704661c979833a2baeec59bbbb4a62ea901de",
+        "bytes_sha256": "83001944679c8467c09c865a58d96c3a186c57e757b817cebf01d8263038e857",
+        "semantic_sha256": "eff03133e1f4fe8d68e1532f96d4abcddc4d62939b957b62412836e2b918c2bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:17.560267+00:00",
+  "client": "Stash",
+  "rule": "QingTingFM",
+  "rule_updated_at": "2026-07-26T08:34:13.422347+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QingTingFM_classical_9db26f4b5b57409f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5b6e5085dccdbcf59bdb960f64d86bc1ee7a8b2c0d76358a9709f66b2b787061",
+        "bytes_sha256": "2faf5a743eb7fd469264e6aa37b1481f3f3c51b09611db8e2c8eebc8766d8583",
+        "semantic_sha256": "583034d7bd91ad26a03ebac3a76e67bde6cf8c6121460f38dee689c0f27e2989",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/QingTingFM_domain_e45670e742bbdfb0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "872c4d6933342467f39060593bf5a45b75eabac6f54f8e2c0eb0a616efefe29d",
+        "bytes_sha256": "19212fb5f6b54e8bc9791849377efd8231f55fdb78d1344cd4887b9f3e4f2116",
+        "semantic_sha256": "5eacf51e30aa79ef1f0408883fbc62a44f349290ad588f043048f39d55177e4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

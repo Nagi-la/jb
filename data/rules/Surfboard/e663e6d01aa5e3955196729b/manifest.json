@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:13:34.407052+00:00",
+  "client": "Surfboard",
+  "rule": "Garena",
+  "rule_updated_at": "2026-07-26T06:32:06.914947+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Garena_rules_93309267595b6277.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a13175c9e12ae71a98cab6e1182c52a596e3b0ece853fbf913a4deed6eacd535",
+        "bytes_sha256": "11209af5317cd1ef86664e4125f506884ed8f3ddfbeb92d174c87d093f62c3fb",
+        "semantic_sha256": "1110febe0087ed0b9bf51a6f7a1099e82c669fb987ac5476c81b310bd5de9ad2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Garena_domain-set_807502d2e4a3561c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9322d2ed799efeddb6fbadf2e8886097915564d2d30985720d2064f408949b91",
+        "bytes_sha256": "bd1e9641ee23f44f2afd164acb1b314c8f0dc39d7749937bb4b92dc94ca01d83",
+        "semantic_sha256": "d67641450b6c4ef050674985b7924c991011798a3205b4a34c229a6be3d9107d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Garena.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Garena.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Garena.list"
+  ]
+}

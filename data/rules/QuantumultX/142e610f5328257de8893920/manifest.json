@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:14:37.880076+00:00",
+  "client": "QuantumultX",
+  "rule": "TigerFintech",
+  "rule_updated_at": "2026-08-18T02:21:47.694851+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TigerFintech_rules_21479be10cd611e9.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc5f4774f9d9da327074276bc20330fd065c14ad69013aa0bad00e9e76ebcf90",
+        "bytes_sha256": "050a9cd7d4546d28d733c900dbb957bd214fe20dfcb1c9129cb6a64b503e3641",
+        "semantic_sha256": "31c63aec143883219f944330934d8a02b0dbf4e821b1a45f77f7e23ba7731cbc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TigerFintech.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:31.090544+00:00",
+  "client": "Stash",
+  "rule": "Jfrog",
+  "rule_updated_at": "2026-07-26T06:50:47.367951+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jfrog_classical_815604a57be7d002.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e949ea936895bb31793d9e6851eedab789c780f618f6d71d5e76ba0a24d3f93",
+        "bytes_sha256": "00346301940057547bdb2ab685e60a1a1ce306c9bcd5ab5c72a2cfe3a5fa617a",
+        "semantic_sha256": "8c3fd43013c22df2930652631956f85a1e01d4e6ff48ccb7645e3b271285eadb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Jfrog_domain_30e4ecc946d162c2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34024bc06b8a8a4440958e2b9dbf8195fd0f07335dff4aa4dd21de24beee9a17",
+        "bytes_sha256": "fb1052b60b2e091e7391f85947b3dd28be03ad12b0177617603412446a52c200",
+        "semantic_sha256": "b54071ad2266eda867ad60fbfdf2adebf6ec3003d126764ad04e8484cc03c07a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jfrog.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jfrog.list"
+  ]
+}

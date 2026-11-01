@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:31.269134+00:00",
+  "client": "SingBox",
+  "rule": "TakeTwo",
+  "rule_updated_at": "2026-08-17T02:14:48.895351+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_suffix": 14
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TakeTwo_source_c32d067eebec1970.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "088afbecc11c2cb54d08520a4cce08497c41824c519cd1310382ffd5d87f3970",
+        "bytes_sha256": "5af696df629a31a8e69ab038efb5e1d8d86a4c64ef943fbe9b23dd73a143fea3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TakeTwo_source-srs_7585b12ad08ac1c1.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "feeb36022db7f629e0ad5b202f86ba52316c369bcc6cf836f87b5bbaf485b0ef",
+        "bytes_sha256": "a6bddbba649afa7a234b81760282b15bcd771c292187771730ddd02f59868a14",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

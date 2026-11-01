@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:07:58.054923+00:00",
+  "client": "Mihomo",
+  "rule": "TVer",
+  "rule_updated_at": "2026-07-26T06:57:34.696552+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVer_classical_0908769fd1de2fd1.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "36fc3b8f7e183b2f324ea3d1bd5efbfe1fce47d6e1609d18b9cb8dc01292bbd8",
+        "bytes_sha256": "7b5da29d3f771b36f75a1db1889ee1dd050aa142a1207308199570e8b39c6399",
+        "semantic_sha256": "f3f773720fd790abaf9c13f7073add9867560f53b5ad5858b3c8f435e24634f2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TVer_domain_ed32efa59cdbe6c9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f7ebed188c43caf5f6fb93ba5c32115ed665d7b6ac9bb2438c6f86c3b506a2a",
+        "bytes_sha256": "9bd0c169441d3027b5d28e6b8f1998b4aca21b5caaf4ea50ca9b5370473c0f5a",
+        "semantic_sha256": "732b53f3b2372d36544d0d8dec3df27e28b2214edb487f729ce2c7d405539b1e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/TVer_domain-mrs_114d808e3ead4c1b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "015856ee8337c17f879071c637e6600fd9576ce0035d447a47c8b505370d758d",
+        "bytes_sha256": "8afb14a38f265b8ed13ca85751d565cb9158ee0ae63477062581af07a7fe3b3b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TVER.list"
+  ]
+}

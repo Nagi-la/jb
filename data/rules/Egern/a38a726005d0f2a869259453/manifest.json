@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-29T03:09:38.741294+00:00",
+  "client": "Egern",
+  "rule": "TikTok",
+  "rule_updated_at": "2026-10-29T02:37:35.822602+00:00",
+  "type_counts": {
+    "domain_keyword_set": 4,
+    "domain_set": 9,
+    "domain_suffix_set": 49,
+    "user_agent_set": 1
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TikTok_rules_a38ecb26557c52f8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d3c0ddea690de32249de69dd9ef253df5956e89186261c0cbf3c980217c40a3",
+        "bytes_sha256": "9e4c17310a40fb4d8244657a5d8f8c12197ff85b1918b9adea6928a633db7783",
+        "semantic_sha256": "32544853443583aeb639ebf66414e922b85491678a5bef4c0ec28f01cd303b5a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TikTok.list",
+    "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list"
+  ]
+}

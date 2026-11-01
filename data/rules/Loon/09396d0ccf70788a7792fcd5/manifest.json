@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:12.010327+00:00",
+  "client": "Loon",
+  "rule": "CIBN",
+  "rule_updated_at": "2026-07-26T06:23:23.528343+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 71
+  },
+  "total_line_count": 71,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CIBN_rules_8ff4f9b3f50303fc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8acd9e2a09c40583bacfb147af3fd10a7ee7cb166432a882c1139cc95f8a1d76",
+        "bytes_sha256": "c4ec19794976d8cc9ed7c8e21ab78532cb728aeef032908af5bda1f0dc1329d6",
+        "semantic_sha256": "b07392bac378cda38e388ccffa423362c2f803674263e159d7f4225481bd9f56",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CIBN_domain-set_2f525a3747d833de.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51357f6c372a85f40b10e42f5971e4158089d52f94d9f057f55134fcf12ea0ad",
+        "bytes_sha256": "ae49dc1b17d23ee160442dfe6f14aeb59eafd5b2eca9b6082392524d9e11833a",
+        "semantic_sha256": "ac2ee891445509e1dd4d8dc2b89f6550289146072a47794498c6f43747904938",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CIBN.list"
+  ]
+}

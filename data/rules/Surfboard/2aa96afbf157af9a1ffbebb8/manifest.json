@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:49.736391+00:00",
+  "client": "Surfboard",
+  "rule": "McDonalds",
+  "rule_updated_at": "2026-07-26T06:52:12.081841+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/McDonalds_rules_f7112ea88ae50bdf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "62f6d6f2a55536e09178fb8626eaa340b82930a25b8baf55a7d5b6bfa9508853",
+        "bytes_sha256": "b1587ec6ed006d081946f3c42f3b81178bc9526344a851d39b740a48ffd8eaa7",
+        "semantic_sha256": "69a7fe2fd037aa8163c9afd4abdfa17f22991c93500ea29aa9f527d05f77e398",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/McDonalds_domain-set_22b5cc0070c614c3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "62901d8c4ade82ecbf341c3a700ab2702b89b62a0aac665ecf4be9737c5e0e7b",
+        "bytes_sha256": "86cc53e404c2e7bd84ffce48c314df7700ee95abae392f5259f6d9825cbd5304",
+        "semantic_sha256": "4409f2b7806b38c8b792a1f980c57cdcf16424584f02079e7fa7077e82631aff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/McDonalds.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/McDonalds.list"
+  ]
+}

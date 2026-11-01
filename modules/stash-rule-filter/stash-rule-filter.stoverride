@@ -1,0 +1,20 @@
+name: MagicRule Stash Rule Filter
+desc: MagicRule 规则类型自定义
+author: MagicRule
+homepage: https://magicrule.pages.dev/
+icon: https://magicrule.pages.dev/apple-touch-icon.png
+
+script-providers:
+  magicrule-rule-filter:
+    url: https://magicrule.pages.dev/modules/stash-rule-filter/stash-rule-filter.js
+    interval: 86400
+
+http:
+  script:
+    - match: ^https://magic\.rule/[^/?]+(?:\?|$)
+      name: magicrule-rule-filter
+      type: request
+      require-body: false
+      timeout: 300
+  mitm:
+    - magic.rule

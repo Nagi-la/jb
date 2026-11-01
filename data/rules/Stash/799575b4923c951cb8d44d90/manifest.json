@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-08-27T02:03:31.182073+00:00",
+  "client": "Stash",
+  "rule": "GlobalMedia",
+  "rule_updated_at": "2026-08-08T02:57:12.556710+00:00",
+  "type_counts": {
+    "IP-CIDR6": 200,
+    "DOMAIN-SUFFIX": 1117,
+    "DOMAIN-KEYWORD": 28,
+    "IP-CIDR": 266,
+    "DOMAIN-WILDCARD": 7,
+    "URL-REGEX": 1,
+    "PROCESS-NAME": 3,
+    "DOMAIN": 89,
+    "USER-AGENT": 19
+  },
+  "total_line_count": 1730,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalMedia_classical_da830d4f2281dce2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "24985cd5039c4c5a33e0c883ca06c0b211b9ff3b745980b6957e0368218b602e",
+        "bytes_sha256": "07784bdfa6d9cfe8c7725e04e6f40415a22570a884b8a2d5f0f74153e45740a6",
+        "semantic_sha256": "5459d8751615360acf8a0b2e011f3f3fc5b6c4e060c9b35b6fd53db2f464a3d0",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalMedia_domain_10e84f7629538035.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52ad9c20cf10a0de926df68e60d7270fe0130c6e5f9d03edd3b05c277d4eb7ad",
+        "bytes_sha256": "ee99aa22c412dacdea611258cb4eba53770cefa0b84706997923a6c0921280bd",
+        "semantic_sha256": "fd4f2fa19906e3c9cd50cdb3fd0ad7633312425ff9c4a6af6e36a5293c4014d2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalMedia_ipcidr_69139bd20156c557.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5fe80caabbe6373601d092a4982ed713ec03303c2337bb76f9ba602fbf410aca",
+        "bytes_sha256": "d37ea6a330d8d057246c8996ddb0081dcc4630c6b904aaa2288018de56996519",
+        "semantic_sha256": "dc55860b14417a0251e6ebc7fd0f1402711c1936bdf862927488e789da69837a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GlobalMedia_classical-rest_20e61b9419dc5f16.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c879987f1895c6889db9081d287f3051024a1a7db474817d41d9269a7908ba25",
+        "bytes_sha256": "c7f606b3b493e7d4aa64fafbf4a9683c19b07eb2bdc759e0a13296cc99590966",
+        "semantic_sha256": "aecdc913f413500d2a73e5e2bfb917cc49b9e963a7be0fae128b6f62a5728020",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "stoverride",
+      "url": "data/_shared/artifacts/GlobalMedia_mitm_21a8c17ecb5b3770.stoverride",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "981284e2e14cc626abc2236024b01e5a031acf349012077b2285883a44b7af3a",
+        "bytes_sha256": "f923dd2a06b9b1fc78a0c7de6c930e5e3a55d2a4afbe9e1cfae959e245eb2c34",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
+    "https://ruleset.skk.moe/List/ip/stream.conf"
+  ]
+}

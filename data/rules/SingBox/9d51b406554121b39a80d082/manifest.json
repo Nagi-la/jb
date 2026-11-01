@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:46.889051+00:00",
+  "client": "SingBox",
+  "rule": "CaiXinChuanMei",
+  "rule_updated_at": "2026-07-26T06:23:55.055600+00:00",
+  "type_counts": {
+    "domain_suffix": 24
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CaiXinChuanMei_source_b664fec1b8faf23a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "756ba49e3f5a44d99b84103a912a91a6593ed52ee0e5c85b4ec18b08142c760f",
+        "bytes_sha256": "6305dc3247058431e0305aff1b4c098b4fac2d6c5966f2c7f07241d70dc6cb83",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CaiXinChuanMei_source-srs_3d4ddea7087cfc6e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1e4b550b0c5ec6a0560150e29576055ac327aee2a0886f2bf9ad84b47082b147",
+        "bytes_sha256": "b9b7820045dfc93a7f756f1adbc10c1b3f657a061f389cb7a585034201046cdf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CaiXinChuanMei.list"
+  ]
+}

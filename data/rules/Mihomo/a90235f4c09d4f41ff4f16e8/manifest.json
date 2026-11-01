@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:17:23.339805+00:00",
+  "client": "Mihomo",
+  "rule": "Pixiv",
+  "rule_updated_at": "2026-07-26T06:53:17.887306+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pixiv_classical_e7740baf433d737c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c149823ec43cb33f380b99efa596e7054d198f894545cb48b1221d4a5d8b163",
+        "bytes_sha256": "e2edb884a920818058cd922ec4e851dc30a82aeb01451075cef23540a156b86c",
+        "semantic_sha256": "2853219e35cc70b46fe36e8e2118bd76d53bd1688685e41f7cc7807db61c4938",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Pixiv_domain_fbd684687e0b8c39.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "861d2b231c847c9d98dc05c5b7fd492df798b57c9eb9287311b460ea539cafad",
+        "bytes_sha256": "7430c9cc88cb4d5c38d69252369e8ceb2e1cbf8ead2b9ab0d6e4fe36fb60ee0a",
+        "semantic_sha256": "3dbca60bf7a8baa0e3e0565b710d5893c829944b82ff4f6ff5e46bf0781f864b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Pixiv_domain-mrs_3817b7825c220b3a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a04954c4e0a975512b2764321b5c949b7c1bcc0640ee29a073a96f6e36fd934b",
+        "bytes_sha256": "c7f5bbaedf922a86d925014c7e0a2657d1c6bccde43363b4a0769605e06be999",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Pixiv.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Pixiv.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Pixiv.list"
+  ]
+}

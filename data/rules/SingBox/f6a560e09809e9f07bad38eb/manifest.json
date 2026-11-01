@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:26:48.192626+00:00",
+  "client": "SingBox",
+  "rule": "PasswordManager",
+  "rule_updated_at": "2026-10-29T03:05:25.425702+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 31
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PasswordManager_source_5f4b58717966c643.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "618cb2ff00760e48f440bf009797d86d870e3cfb105de3d8de790ee26d32b817",
+        "bytes_sha256": "4fa5d272a7269c4efe8665191a434ffdb08a381935fc354854bb2fb34ee10989",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PasswordManager_source-srs_66423f377423a339.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "613f8076e4884d445f9783c39defab49bd07594039ed0fd9dd8b6c2b834d1d66",
+        "bytes_sha256": "36589118b0becd67ebd609f6e3241324c8d4c43916fef9c9db903bf648b90383",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

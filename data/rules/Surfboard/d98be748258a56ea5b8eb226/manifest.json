@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:45.710119+00:00",
+  "client": "Surfboard",
+  "rule": "TaiheMusic",
+  "rule_updated_at": "2026-07-26T06:28:21.129219+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TaiheMusic_rules_5c948046f5894387.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df8d1fb3fc2967e3153fef8af9d4a048102511984159c6f2738560f39586790d",
+        "bytes_sha256": "0937d2149f19a34e2ec2644f8fe8dfdd2f354862ef42618a608df0fc93f2dfc0",
+        "semantic_sha256": "5cc0ce86e95499bfa02b657ae9eaefe896a9c1b4e17bb52f9cfb7724d7420085",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TaiheMusic_domain-set_f83ccde78599d4be.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d097d2fb08a124ee9cfd46ff837f376977f245ff66fa6cd8901db2283c08468c",
+        "bytes_sha256": "98a90c0f7fd91cf0a41fde9dffebe9a941f8356aeb6516f96f15252c28ee469e",
+        "semantic_sha256": "0a0e7d8077a2d19ccabc9d3297992292ab836d3a87399bcb7bd1a7ab1933c434",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiheMusic.list"
+  ]
+}

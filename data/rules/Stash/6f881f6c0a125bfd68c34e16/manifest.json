@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:10.998500+00:00",
+  "client": "Stash",
+  "rule": "AOL",
+  "rule_updated_at": "2026-07-26T06:30:27.211377+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AOL_classical_5c0eb2144de27b07.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba012c8fed8ac3d061e5f8b12963081ae5abbe3ecb16a2e62b8e3894d7aeea5d",
+        "bytes_sha256": "c33eadaa802147ddbbb938c5a89679904b0169a16b45775d6b41a4b2c75b5f73",
+        "semantic_sha256": "aae1f64bfbbe8180759440398bba028d68f9e7367ac39c4f60ee32815f8fab3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AOL_domain_eb6c25e746005b3a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8d4c7746c715e88ba9166d7fbf06994fbdff7786f053fb2c1493aa48369e767",
+        "bytes_sha256": "f49ee99d063b7acbaaaf54319c4e4f901d784178fce49d734df3bb93437272cf",
+        "semantic_sha256": "b971ee5e49393b9cb7c26082d1e421fd350fcde8bcddf8cb66f4adbc5bf96d17",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/AOL.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/AOL.list"
+  ]
+}

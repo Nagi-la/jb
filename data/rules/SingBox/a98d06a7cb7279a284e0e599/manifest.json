@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:48.221188+00:00",
+  "client": "SingBox",
+  "rule": "AcFun",
+  "rule_updated_at": "2026-07-26T06:23:54.401362+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 9
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AcFun_source_10ac0927d8890391.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4420976d5ac2b696aa3fda397ad6ba9befc51d08cf7ca8a7696aac6d939b40aa",
+        "bytes_sha256": "daadac2f996ac2e94b22eac5e0d0eba291f66c99c09e2e4339b479856b29b993",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AcFun_source-srs_71f50f2c763864ae.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c07a5c9adeb321f0f9be893412dbff9ab682f5b8032a66cbb86abbf425863c57",
+        "bytes_sha256": "8c6e639ee2f009a625c34db34df55e42e8cf9f7f40f88771c77b910287e6e143",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AcFun.list"
+  ]
+}

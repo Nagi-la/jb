@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:13:42.942343+00:00",
+  "client": "QuantumultX",
+  "rule": "Ubuntu",
+  "rule_updated_at": "2026-07-26T06:58:53.025153+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 54
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Ubuntu_rules_f022e3766181df91.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b83216ff9bd3064e72264c14541cd9a1a45823c1371488f5ef0fb2fc7366b822",
+        "bytes_sha256": "ad640ff68bdc0ae04f141a2aaba5fcf5a49e0126ad35ff48ea2271f2afec8b5a",
+        "semantic_sha256": "8677c4448a5cea13c6cbce7f10575ccae57df870bb2711cc1e19cc50f3be3559",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Ubuntu.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Ubuntu.list"
+  ]
+}

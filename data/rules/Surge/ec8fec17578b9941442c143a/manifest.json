@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-08-27T02:06:21.677910+00:00",
+  "client": "Surge",
+  "rule": "BuBeiDanCi",
+  "rule_updated_at": "2026-07-26T07:49:49.675006+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BuBeiDanCi_rules_edd8077b61f21b29.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4be3a258c0ea524cd9e5e3b992c8571166e3019fe4b2e4664d9a481d8b6bcb55",
+        "bytes_sha256": "a4e1a2860aa2cb83ead1216f779f400e7b4d06019ad9d23052f79bd1f3bfada9",
+        "semantic_sha256": "19c56265bb0e97b2ba9d3ad418787acc75b892c71afb45fa3ef23ee253e50a42",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BuBeiDanCi_domain-set_8432aad37639620a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e87232827a5678635acb846164c8fe4719f5fd515d991c57dac250e7583e2238",
+        "bytes_sha256": "3dadf5d3186555a60bb3e8d877d9e27bd4e9a346ad041cce1f1754218579c712",
+        "semantic_sha256": "40f6a971777106625d73f4751457fa609cc9d41209657e506b44221b1072c0fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

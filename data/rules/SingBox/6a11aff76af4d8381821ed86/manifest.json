@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:57.615713+00:00",
+  "client": "SingBox",
+  "rule": "Sogou",
+  "rule_updated_at": "2026-07-26T08:34:22.569787+00:00",
+  "type_counts": {
+    "domain_suffix": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Sogou_source_034dcb810af2dde4.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "85044c1c0d0e9292c6c110cb1d73af7110117fc1f7ef40907516eac50a1ee3a7",
+        "bytes_sha256": "2c51519be74999fbe68de871bc2ff02029585653c724feaaae14d0e6d9605dc0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Sogou_source-srs_8b2d4f40a42d9c1c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9bcc80ecc81cad7d1b368ba7da1c697fca9f66bdea8243ecf7f4ada5a5b49069",
+        "bytes_sha256": "a7948cfd7b63bdf75293c091182cf25e6e83404adbdbb2d122eed79a93e78c03",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

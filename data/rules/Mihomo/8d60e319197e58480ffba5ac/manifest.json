@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:07:38.108048+00:00",
+  "client": "Mihomo",
+  "rule": "ChineseAcademyOfSciences",
+  "rule_updated_at": "2026-07-26T06:48:11.655880+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_classical_36f2508f54bda870.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "827fe39dc04ccb182630948221627406df49179083902a339da674abd11ca19c",
+        "bytes_sha256": "6aabfe036f87dc6883d10fc6ace952c13e09c299e868c9b012f4eb7d3cc34baa",
+        "semantic_sha256": "96f5ee8aa6e31fd932d2e372f4bc4125cc58fac9bb940c1e0afef389b267f743",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_domain_084ad003176717a7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1ac4c2906235188b2b57ec598247d3ef752a23c37cadefb3dcb86a13ed955ac2",
+        "bytes_sha256": "5f3e275ff231a8468f89dc4408188f3b7341ea764bd2793e974bb11aa4a7e455",
+        "semantic_sha256": "371e0637b5596d4c0c1708c01b7a679c5abb5d7dbba4d092ccfda707640bbab8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChineseAcademyOfSciences_domain-mrs_b8e01a9813ec5e66.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "65548115f3d70c452a18b3618d0e9caa3ddbc690d14f99bf3063559569af643c",
+        "bytes_sha256": "c550cc936afd88510eed699778cedf0f290c2458fb41ae9013c4780e2fe61896",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CAS.list"
+  ]
+}

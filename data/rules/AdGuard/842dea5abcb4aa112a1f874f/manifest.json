@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T01:56:34.500129+00:00",
+  "client": "AdGuard",
+  "rule": "Privacy",
+  "rule_updated_at": "2026-08-07T02:23:30.153297+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 39863,
+    "DOMAIN": 11
+  },
+  "total_line_count": 39874,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "ADGUARD DNS FILTER",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Privacy_rules_1e3f65e3b99305b5.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "34afc6d7dab69a4d5c1330f066e70218a860c245d0578ceb4e0f295adde7ecc7",
+        "bytes_sha256": "d66cfb1e524897e6b058e800e01e8e10ba249472cb026a3abaf6cbf2cd1441e3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+    "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf"
+  ]
+}

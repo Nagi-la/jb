@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:06:51.811598+00:00",
+  "client": "Stash",
+  "rule": "DMM",
+  "rule_updated_at": "2026-07-26T06:49:45.007152+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DMM_classical_4a1fa3346561bc61.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87060ff66150970415c1c3fd9ab8d69e3603259cc584dd2891f8fe08f70b4e25",
+        "bytes_sha256": "903d57305bea46531755fa3e624fb40bd53f6bcb4c324b9c943efcd5cac87f10",
+        "semantic_sha256": "b72f3f576b07ce91c78a8cf973c2c1461ba3eff92836ebf872b11d488cf2af47",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DMM_domain_8e4e577fa76a7dce.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95e7387b301bb0abe778c84fde288425f09480502cfe88f6de5adc49de9c45e0",
+        "bytes_sha256": "bdd749831a3e1d6670ed2580c59356451ff25b59c4c9d96fffd72666bc01d576",
+        "semantic_sha256": "b9cc73c2331242b9c0abcabf7cc0d2098a07efe676ee528074edd1a58a08c435",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dmm.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DMM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DMM.list"
+  ]
+}

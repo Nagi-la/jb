@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:05:55.876113+00:00",
+  "client": "Mihomo",
+  "rule": "Nikkei",
+  "rule_updated_at": "2026-07-26T06:22:21.656058+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nikkei_classical_9987f99e93d10a6e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "90507eb22137b2ca8bf0daf9d931d78fde641f9941c8158d09d98b995a0a7c32",
+        "bytes_sha256": "d72a50ae1b206d847a14f0e8f5e065ca12789f359a3bc193adf87f45e18ef9ac",
+        "semantic_sha256": "d07efe652ec0d0e86819f49cdfe8a41aec1087e6535e3a8e950568ad823e5123",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Nikkei_domain_e0cdd2c49a3a9d30.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4463f56491b5f32d9065d5bdbb70281fe6ee9a0d37f94075fc7955f79435d2b1",
+        "bytes_sha256": "b200418fae83831b5c0e6f46b8acdf49786046229d7d1f8b67ee9a4e9146b082",
+        "semantic_sha256": "817657d3460f952167dfaa04c78e5b9d922d643aabbdc26b2224e3382ff2f53d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Nikkei_domain-mrs_fcda0f176e805f71.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "be65b6f0227fc8806d9ad7b3797fd273552dc95a0fa02926eb750723428171d7",
+        "bytes_sha256": "ba680117970e367f913274529a7add483af391dd1d10dcc239de62241285db52",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Nikkei.list"
+  ]
+}

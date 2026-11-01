@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:22.782031+00:00",
+  "client": "Stash",
+  "rule": "DiDi",
+  "rule_updated_at": "2026-07-26T06:38:28.508223+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiDi_classical_adf00cacc778e5c8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "43ffce25b388e45030950c7f454484dd8e154b5266fcbb1efa31b0929cf1a482",
+        "bytes_sha256": "4ab17d714e74c9f64e9323c550cb50df4bdc4c1fcf6a614d2b08215411403c66",
+        "semantic_sha256": "fec06bbd935fec8a5d25d8cf2bdde67863c4ccb3693adedb5b17459edaa2860b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DiDi_domain_52e36e393c51f6f2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "003ee7ead458c62a2fe0ba53f6a21f1c28dd6b9cad79f5d814c5bf173f05cd18",
+        "bytes_sha256": "7510a83afcd1af6f093033cd0c64b36a3ad20b5cf132bd189258082fb9ca88ea",
+        "semantic_sha256": "39da0685a492056e94a3f7a3627ec52d34f6dd36d3d8619c7b9beb48c732db67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiDi.list"
+  ]
+}

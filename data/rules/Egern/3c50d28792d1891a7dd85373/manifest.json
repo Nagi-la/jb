@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:06:48.999481+00:00",
+  "client": "Egern",
+  "rule": "ZDNS",
+  "rule_updated_at": "2026-07-26T06:29:53.477359+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ZDNS_rules_3a53042a4a4c5d73.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b1bef552fc241cdda9958273239b310be171994289bca25b2e4b64f2a9ab9a5b",
+        "bytes_sha256": "b9596c4ac9b35373b285ddd94ec5c28d300d3fb9aaedb7f9579c5501b5790772",
+        "semantic_sha256": "ee88488de0ee6cd81ad48c55fa0621b45648cdb88c4a211d7e04f007d608ac69",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZDNS.list"
+  ]
+}

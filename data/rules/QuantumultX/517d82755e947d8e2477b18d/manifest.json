@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:12:49.327647+00:00",
+  "client": "QuantumultX",
+  "rule": "Zee",
+  "rule_updated_at": "2026-07-26T06:56:07.112455+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 22
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Zee_rules_2ad39cc099cc49c4.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f1741d0ce2945c8b5482690638e9d10847a1047512a10482da7fee9bf2e06873",
+        "bytes_sha256": "743f9124b279e66c0b7d82378d3456eb998d0b80b9a9c92f4f32af10542da1ca",
+        "semantic_sha256": "b87b43eb34d80951192e05d59df5b2565da83fc83fdfc11de32f9afe0d551c0c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Zee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Zee.list"
+  ]
+}

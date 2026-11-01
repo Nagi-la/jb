@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:57:34.170236+00:00",
+  "client": "SingBox",
+  "rule": "friDay",
+  "rule_updated_at": "2026-07-26T06:23:01.427080+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/friDay_source_4f8e0b8e87995a28.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fcd491cdff7ade822d0e40bb1d6eff0278f3cb9f7805b8927dd023a295a1c721",
+        "bytes_sha256": "81f9ba1f9553b908493d30833cd1c63fd14da217804e96955bc53d3ffcad2ac9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/friDay_source-srs_840b2653fce8aa28.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8bc04d7a7519d81b924dc7582a173efef936200ada2d8d1575087390409ab99f",
+        "bytes_sha256": "0a8ca9f8bfae0c6c2096372748aaf2fa038cef847f6067e2cd2772a4a61476ac",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/friDay.list"
+  ]
+}

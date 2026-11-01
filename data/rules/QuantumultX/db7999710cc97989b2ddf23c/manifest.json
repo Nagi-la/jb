@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-10-16T15:35:23.178170+00:00",
+  "client": "QuantumultX",
+  "rule": "DouYin",
+  "rule_updated_at": "2026-10-16T15:21:11.982484+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 88
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DouYin_rules_b387651985643186.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9e0fe0ffaeac192b82b517088025e72823dbb906f7572e87fb9ba7b5a291d85",
+        "bytes_sha256": "6db88d3b091874e621624aa94013ae237ca5f7c9984dcd35238242468d21789c",
+        "semantic_sha256": "393db5968654748765962a4cf70baa492b98a35eee9ec179de03d065dd861e87",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Douyin.yaml"
+  ]
+}

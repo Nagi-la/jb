@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:03:55.097672+00:00",
+  "client": "Mihomo",
+  "rule": "GaoDe",
+  "rule_updated_at": "2026-07-26T06:25:13.271977+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GaoDe_classical_46ed9ec1383dce87.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c9c0d1138246035bb5641561e6c2873b186752e4447f3334ffd7f5fa68be130",
+        "bytes_sha256": "d2ba6225e197337990bd93620cccd03e95418f81050442664410fcaa6d33d790",
+        "semantic_sha256": "1a43d51ab36fbee3c6fdcba4e2a7f2968a8665185c394482fe085b1933f918b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GaoDe_domain_dd43ce321d40227d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5a90f5a4b030aab6a6f83644a6092b1cd581393c85b5012746bb613f78baabc1",
+        "bytes_sha256": "8d22280f034f843ef08b81b379bec6a28ef135dacd273713ac30ed312f579793",
+        "semantic_sha256": "869793b2a652188623b73b272943f0d2338625c35afaf298ff58cfca2c8c8118",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GaoDe_domain-mrs_f38a323600063171.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "18f53772e8b241e9ab4f94ca77b2e4ccc4910f42355d67914c74577250f596fd",
+        "bytes_sha256": "0d556d29bf2bcb5b95d126867b8f34de7e09d24c87af412e017ea2565c97827f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/GaoDe.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:57:45.111879+00:00",
+  "client": "SingBox",
+  "rule": "TaiheMusic",
+  "rule_updated_at": "2026-07-26T06:28:18.976326+00:00",
+  "type_counts": {
+    "domain_suffix": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/TaiheMusic_source_ee4ced8c5a32e758.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "99796a5d351e5415e5919c2ab5294214d7e383289fd7b055497eff42804b28bb",
+        "bytes_sha256": "3f23edcb4585e71a10a13d8ee0a08736b9db2b4aba8b9f7e5072ebba7d7af3a1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/TaiheMusic_source-srs_44bd8cddc2ec4d40.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d254e318ff77d850b7083c677d5e4a7e1e5e6ec849e3d167b1ac81f87ce5053",
+        "bytes_sha256": "7fd2e4b48522849d18243538a7938137f7862a24e6ce6e5d22eda2f13457fdcf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TaiheMusic.list"
+  ]
+}

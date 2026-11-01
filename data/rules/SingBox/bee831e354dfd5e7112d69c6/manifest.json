@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:19:29.359941+00:00",
+  "client": "SingBox",
+  "rule": "DeepSeek",
+  "rule_updated_at": "2026-07-26T08:31:46.393665+00:00",
+  "type_counts": {
+    "domain_suffix": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DeepSeek_source_50fa8ef20e5d5e28.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d079a5c1594a1bb1d1e0acb31f3fc3d0d9f00068db98b40b8f64f3798f506f22",
+        "bytes_sha256": "11572730b810744182a443ffca21361bb5691f71ab8c3ff9cf1c663691f0482c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DeepSeek_source-srs_63b621cca6ead18f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3c83629321c4bcb475cf4b1b899cfe7e83a7e7aeedb3c65a9b029f00395040fd",
+        "bytes_sha256": "6b9e74649241491cd9e2bd327dc7a5b6a0cb6606f19a55f1bbc1b758d2d2a75e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

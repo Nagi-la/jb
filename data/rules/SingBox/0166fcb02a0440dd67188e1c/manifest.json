@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:16:56.358834+00:00",
+  "client": "SingBox",
+  "rule": "Akamai",
+  "rule_updated_at": "2026-07-26T06:30:41.224289+00:00",
+  "type_counts": {
+    "domain_suffix": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Akamai_source_95f28ac02d015f3d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e4e62926f40f0ab043516293390c3e8c4324d34fe38cbda2d997be2f22fef4f3",
+        "bytes_sha256": "c11f13c4ae18767a007de3e1cfdcfda2c48926a17d83ce2c045576ef8ab902d9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Akamai_source-srs_77755b01d8c42fea.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b75e85d46c95faf2ef4354ec08ee86636f8af19d8975be657fbeac9936a33820",
+        "bytes_sha256": "d27b534c5bff44d2e85712637d602ce261cf3f89f867b6f2a753f6d5ef280843",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Akamai.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Akamai.list"
+  ]
+}

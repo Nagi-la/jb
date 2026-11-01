@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:07:32.282866+00:00",
+  "client": "Egern",
+  "rule": "TaiWanGood",
+  "rule_updated_at": "2026-07-26T06:22:32.719941+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 1,
+    "user_agent_set": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TaiWanGood_rules_e9b547fca532cec3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffdf3fa509880f7ed6436a9303f56d23320931c10469b585bda2e42ebb7e2fcb",
+        "bytes_sha256": "c7f8abdd4c960369bc7be3e79ecc6f51e87185ae19bbf485dcc022e0172650bf",
+        "semantic_sha256": "6ca50adbd5fee3ed96444295ffce7e8d97833f60647391b26581ff3179417cd7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TaiWanGood.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TaiWanGood.list"
+  ]
+}

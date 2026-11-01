@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-10-29T03:09:38.761197+00:00",
+  "client": "Surfboard",
+  "rule": "TikTok",
+  "rule_updated_at": "2026-10-29T02:37:36.027277+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN-SUFFIX": 49,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TikTok_rules_03683c3d1c3c2096.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f55f56cfb02a0b49351209b221ee28b4d0df3a7d3be44a25ad2e941cee08237a",
+        "bytes_sha256": "63e135c7e51ab118ac85f8222354703854c3fa82bb701013656f7559ac5e07d5",
+        "semantic_sha256": "1c1e5af21d6b9ae4d43192ced1c92e0fdb0ea709e4449fc7ecf634bad0738066",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TikTok_domain-set_e161ad4f74915405.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1ccef61901ecdc2e0a25a43bcbe2ba7ae3b0b783bf0693e2b22c05f47608b8c",
+        "bytes_sha256": "3265c1a8d1adff20957bde04cbb8a79fd62e15c03b28776b80c09c97767d42a0",
+        "semantic_sha256": "149e606893c9596ae911ced3599b588562592e979826af5f08ab5f1093364e79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TikTok_rule-set_d6ec2734b311c212.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e72cb765fa39d9b4f10c8f3edcce99480316ad12b32d25c184c93b69d4d99e29",
+        "bytes_sha256": "536384393a422298cd3b1d85ee43bb0571f0098485d58800f244b823d3480bd6",
+        "semantic_sha256": "78789a5dbebd7ead54f962aebe8e1d22ac781ebf5776499670483d4caf4dcf2a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/TikTok.list",
+    "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-10-29T03:10:38.282518+00:00",
+  "client": "SingBox",
+  "rule": "Steam",
+  "rule_updated_at": "2026-10-29T02:37:35.977514+00:00",
+  "type_counts": {
+    "domain": 18,
+    "domain_keyword": 3,
+    "domain_suffix": 64,
+    "ip_cidr": 12
+  },
+  "total_line_count": 97,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Steam_source_1294816cd6f44113.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ccdddc22bdec1a2421e85db273147f62a7642e29575e3c84d403b13e17d1e14b",
+        "bytes_sha256": "90a1c91208c4c33d1a42a1e359c66db43cf2a5117fda5ff24dbc8b144427e4eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Steam_source-srs_c60853636c60409b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c3dd152c254950ca5a318b12b44bc9735ef03b39dc0052d877d0fbb0e00f341d",
+        "bytes_sha256": "bcb3691b843423ee761535d16a62e40788b6387656207b6e96bb86a2cfcb8cb4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Steam.yaml"
+  ]
+}

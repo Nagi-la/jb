@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:09.281001+00:00",
+  "client": "Loon",
+  "rule": "OpenWrt",
+  "rule_updated_at": "2026-07-26T08:34:09.288304+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OpenWrt_rules_ead83d355b3a5f8a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0cb5eefaa81268298348e52ff3b5c87ad87903f1687771687f238e71ab4dcec7",
+        "bytes_sha256": "b4ecee2f7fd02203562a03bf5e950b439fdf7abd004e1b23615c9e2945b5f166",
+        "semantic_sha256": "9a46656dbe5c401d7a8a5553f33629280f3f7a54501742dda304452d473c3efc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OpenWrt_domain-set_d753e5b708278130.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "235d87bd7f9c45aa8bbc43729d752e4988275c047803bf195f806f7c93e5e9d4",
+        "bytes_sha256": "14434e8479d6a08e2c54fe85b23481089a371de19403e6eaea2ca3ef7435ecb0",
+        "semantic_sha256": "864d8cd55fd9f0157f53a03f2fb766314b024eb2647ae57587bec0d54e4a2012",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

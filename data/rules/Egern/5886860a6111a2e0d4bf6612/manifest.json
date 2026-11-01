@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:16:33.580366+00:00",
+  "client": "Egern",
+  "rule": "IMDB",
+  "rule_updated_at": "2026-07-26T06:29:34.496151+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/IMDB_rules_5dfbfc6d9b48855f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a84a1f279ba3fcc0b9279bf90fa6216c5f36afb79c6ee1969edfeb3a3179e82f",
+        "bytes_sha256": "2bdb9a6fbec52b0527fe68a851d1d5b8d3c8e9577591d12142ade8ed2b276011",
+        "semantic_sha256": "bf81b8c8511fe8054b293ce6da4e2661ac39d6d061954d87af929567c8c2229d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

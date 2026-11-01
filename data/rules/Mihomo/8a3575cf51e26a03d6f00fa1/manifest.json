@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-08-27T02:16:53.968883+00:00",
+  "client": "Mihomo",
+  "rule": "ChinaIPTV",
+  "rule_updated_at": "2026-07-26T07:41:43.121459+00:00",
+  "type_counts": {
+    "IP-CIDR": 1307,
+    "DOMAIN": 990
+  },
+  "total_line_count": 2297,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaIPTV_classical_b441dcd933c5e123.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c83f472d8fff222bf6b52c89cbd1baf22399fb6d3e60254fa5aa4515a9c34a88",
+        "bytes_sha256": "ec5502e814248b3ee8232521df972c2bc8aae81da970e073a01c063653c5e196",
+        "semantic_sha256": "79fa6c81f773cbb6fd6d8b695e1b4bde4aa723bf575eae328342d51a8c5d51b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaIPTV_domain_9daac3fa33d6e40c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34e0b6df916d59ef94734ef1ba35be5169c46359e61f96a3594fd354e1ab6510",
+        "bytes_sha256": "94d5a7b0392437ee2d31887cb749d7706f5b80ea48a7a1c0d5dff00937a2dcea",
+        "semantic_sha256": "ab711158c3b75439f8705a3d64b0e8da572966b9dd60709b3fc90eca38e8bb8d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaIPTV_domain-mrs_787a1b1c088d90c9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "112b66147260c9b3ac989c891cd6ee086460a047ff1374cc03286538d3166103",
+        "bytes_sha256": "d2ce3a0681f5d478f3598acf42f4fb165e4d3f63325033235258f1a14ae22719",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChinaIPTV_ipcidr_654a15d015f041b6.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5eec893e2c52cf7764ad09c470a4561d260a0ab20b3afed0277afab1a448fb2a",
+        "bytes_sha256": "81ec5bda59d218af907dee7d9d25c698fbe3cd5b99392102448bb29ea79507e8",
+        "semantic_sha256": "4a4a9bf3c92fea244ac4ecbac7d9cf968a69b3f3b8f69dd24b6aeca59633bdca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ChinaIPTV_ipcidr-mrs_a6fbf132186a2a1c.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "65670fc420d3e1e6543691004e4d409ff5c342426aadc4fe56d59a102ebba4fc",
+        "bytes_sha256": "e05a5588926b29821f6bae3a1f8f8e220f3d496fe24b79c0569cfa902ec8fcf7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

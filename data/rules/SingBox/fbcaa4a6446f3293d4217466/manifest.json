@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:07:22.460964+00:00",
+  "client": "SingBox",
+  "rule": "BoXun",
+  "rule_updated_at": "2026-07-26T06:21:28.574446+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BoXun_source_f97dec6ccbfcad01.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3a4484e150ce63995ef23662de0ed1014599744278ed85619c181b08abbc36b3",
+        "bytes_sha256": "e91e7ead7433066da65fab0859cac2603866182ab3291460066a8943123856eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BoXun_source-srs_7154ba23fd968909.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4bf2c95a4e753835cdcc769a5d1beae5f866e9d86ca4aa8ef244b6f224c19a62",
+        "bytes_sha256": "fa98f791c08b3cbbf27aba64a26b452968fc3d89fd47abcee51e6ef635be1c39",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BoXun.list"
+  ]
+}

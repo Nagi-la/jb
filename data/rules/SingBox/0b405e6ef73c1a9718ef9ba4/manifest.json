@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T01:57:01.694901+00:00",
+  "client": "SingBox",
+  "rule": "LG",
+  "rule_updated_at": "2026-07-26T06:50:56.101610+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 12,
+    "ip_cidr": 85
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LG_source_a3fb7f1fbf6f356b.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "22d32b4e7a694f78c1f8d218b88139dd3febd5308614cb7776cfbd6c2cb11f05",
+        "bytes_sha256": "2841d06d0ba60ea09133646114a119cd79898c65a509b4a1719b5bd07d0700a4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LG_source-srs_78498f8e0a9372b2.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "33b1ede26ce8735f8f89713392141cf3a874e59921a668d552ffcd334a2fdaac",
+        "bytes_sha256": "67b9f4a34ce12b997537c0765f41684f52564293d9cbb8b17e8aec5beb4cc151",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/LG.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/LG.list"
+  ]
+}

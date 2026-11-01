@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-29T03:05:25.125678+00:00",
+  "client": "QuantumultX",
+  "rule": "Twitch",
+  "rule_updated_at": "2026-10-29T02:37:34.533701+00:00",
+  "type_counts": {
+    "HOST": 27,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 9,
+    "IP6-CIDR": 6,
+    "IP-CIDR": 15
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Twitch_rules_567d40522d52ef93.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "371219c4b09656f01ac0ac681dc6ca98dbf4d74a43649b6242ac47fdf845359b",
+        "bytes_sha256": "ae8fe2603c25c842b4f838ba7ab596408f3c262ac675bd8789fa33e542645135",
+        "semantic_sha256": "7b8431d079ded1aa8bb463c4af99a2bb74a748a093fc700c6783e6042d28899d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitch.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitch.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitch.list"
+  ]
+}

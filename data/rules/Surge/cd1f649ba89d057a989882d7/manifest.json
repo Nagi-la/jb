@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:10.352772+00:00",
+  "client": "Surge",
+  "rule": "Intel",
+  "rule_updated_at": "2026-07-26T06:50:43.758025+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 296
+  },
+  "total_line_count": 296,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Intel_rules_fc65fd0975472bd6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2385c2e270eb25cf3abe6eed322a9ea3b89edc7f409cd0afbc8f6053929e8f60",
+        "bytes_sha256": "487c3a8212c855ac751a7b8d41beffefac40dd87d87d0d65d7916c2dec89e331",
+        "semantic_sha256": "98f3aeb526472f4579f0b9fada148abddccd94b9c49cb888ff6c04a56829a19d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Intel_domain-set_9b1bf63fa6003c49.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11dc5bf26562cfb0c17b5075e963f850bcfda436692746ddc85fe7d483ce6bc9",
+        "bytes_sha256": "55a24e902f6471be92764d8e56052a5595613e9f61b34c40c518a5320c0b8044",
+        "semantic_sha256": "c2062ddb63e63a9dcfc11affd2c15a0cc4465e9ca03d7a20e5de27345516ed91",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Intel.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Intel.list"
+  ]
+}

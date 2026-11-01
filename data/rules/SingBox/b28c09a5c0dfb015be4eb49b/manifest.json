@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-29T14:58:44.694690+00:00",
+  "client": "SingBox",
+  "rule": "Global",
+  "rule_updated_at": "2026-10-29T01:54:22.527926+00:00",
+  "type_counts": {
+    "domain_keyword": 53,
+    "ip_cidr": 84,
+    "domain": 1914,
+    "domain_suffix": 22360,
+    "process_name": 8
+  },
+  "total_line_count": 24419,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Global_source_bd7cd5e454f909a8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c2c029a5851d5210ef2a5a189731dcbd225e7be7631018520df097213c63794f",
+        "bytes_sha256": "85a3cd94408254ecc5fadac1ec62322b9abb9fbde31a4978a034f4725ec84aea",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Global_source-srs_dc7b5e25723f6c16.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8acda6c4e61e3edcce3f2c694eb9caf52043b3580f98eafecd4f1a39c25af1ec",
+        "bytes_sha256": "5e5865278db620fb8c8c7e7dc1f44ffb1c17110b5d9d99aaedca3a36623b2fef",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list",
+    "https://ruleset.skk.moe/List/domainset/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf",
+    "https://ruleset.skk.moe/List/non_ip/cdn.conf",
+    "https://ruleset.skk.moe/List/non_ip/global.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+  ]
+}

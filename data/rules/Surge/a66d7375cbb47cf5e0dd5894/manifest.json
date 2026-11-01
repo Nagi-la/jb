@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-27T02:17:30.187728+00:00",
+  "client": "Surge",
+  "rule": "Naver",
+  "rule_updated_at": "2026-07-26T06:52:16.721642+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 52,
+    "IP-CIDR": 144,
+    "IP-CIDR6": 50,
+    "PROCESS-NAME": 1,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 250,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Naver_rules_685ae6d4fdb2754e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18583a35e8a865372c6d97d447b35bc6c05c7321f62e729995dd1b3d63286f61",
+        "bytes_sha256": "fea06b867417205708e1ca313b4f1547579223693e6e5e158073ab28a609aced",
+        "semantic_sha256": "aa457ffb361088d38a4ffcb4fbea0f70285de562af9a792cb8f05b35f892020f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Naver_domain-set_d014afa4ad809457.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cba96973a649f3fd364ebefe97cc55a9494b147b2e27966987f1f07577691c3a",
+        "bytes_sha256": "88960bcf1f9ad2b7155c95492cfe7e3964894cddaf1981ef7fdb267b21ae137e",
+        "semantic_sha256": "37100a4da532e7bf75f630118977fbb5e30f051cb9eda99ad859cdb219f10b70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Naver_rule-set_b8f04f59f1962f28.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47780baad48bd75683d73a622b431d18673e2af5961bb014a4d92ad6c8e042cc",
+        "bytes_sha256": "87624007c9ac30ff3334480cf933f1f5073182a3c5693d38f18a06254006d46b",
+        "semantic_sha256": "247d5d000641fcbe95c762db71a107360b8d60a610048ada1b5849eab419cf2c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Naver.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Naver.list"
+  ]
+}

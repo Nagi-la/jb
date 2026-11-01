@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:14:40.361039+00:00",
+  "client": "Stash",
+  "rule": "AbemaTV",
+  "rule_updated_at": "2026-07-26T06:21:25.988177+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 22,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AbemaTV_classical_9b575baa718c4b8a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c07299e456f1e6351142427578a294df83dd2229a801bdeca37578d8d1bf017f",
+        "bytes_sha256": "b079b17ba708bb30a397f1cfb253d1a3db53c9dc5a8ce24dc552a2484b804eb9",
+        "semantic_sha256": "35f81de7af2df7f447c5b22aed932016f976d5e8d26a222f0a80a8d8301b60f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AbemaTV_domain_4e47de133a9eb86a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1fb1c88d1f0b03076d53f66a85fc2515be193e8b291cf18158d6c28d898597f2",
+        "bytes_sha256": "1466e0a5b579ec82a55b84d4933f3a807aa64229f19e9f56533e8ca49cae87bf",
+        "semantic_sha256": "3524fdb86104e516a415ea675f90c5970ebbc915c8574801fa912696d1abe7cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AbemaTV_classical-rest_580dfe8fc8e5dd6c.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fea45ed78af7a571a3b1412ce2ead382bf16ebede16f153c5d1392a3341996df",
+        "bytes_sha256": "dc8d27ab6dd92eff45de087dd426feb6d4da4c42bffb8ba9eacc45b8843aaa50",
+        "semantic_sha256": "fb4f3ccba3e4f19a66fdcd0cb2afede0afe97103c7113e18639cd8c9aa6472fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AbemaTV.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AbemaTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AbemaTV.list"
+  ]
+}

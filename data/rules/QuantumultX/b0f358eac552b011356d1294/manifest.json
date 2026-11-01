@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:14:25.639784+00:00",
+  "client": "QuantumultX",
+  "rule": "Cisco",
+  "rule_updated_at": "2026-07-26T06:48:16.908313+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 121
+  },
+  "total_line_count": 123,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Cisco_rules_d405ee0f7a4a90a0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d8a5ecd5b749ef283b2384c47a5ff94deb7cd82fdac7ceb399524750f6934691",
+        "bytes_sha256": "0ffcb6192dfd29417a066f0b8cc8aa3333b6471acd14711a3c831c1eb50d6d92",
+        "semantic_sha256": "7e4c174b3101c1fbe7783e9084f23564e2cb17736c769ccfe8c8f0fdf47e12cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Cisco.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Cisco.list"
+  ]
+}

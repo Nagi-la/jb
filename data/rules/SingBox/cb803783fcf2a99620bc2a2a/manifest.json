@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:05:56.590524+00:00",
+  "client": "SingBox",
+  "rule": "Nikkei",
+  "rule_updated_at": "2026-07-26T06:22:21.555840+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Nikkei_source_d8b8fdc5329e957c.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "40fae0fcb27598517ba17a1c4861a65284c25e668aa41effc431aa1d6a35d47c",
+        "bytes_sha256": "13de6825b4f5a41bf033b4fcb9832588023d7faaf83955499bfade37e20115f3",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Nikkei_source-srs_faf28029beef5891.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "87a02258bd5a9217b17271945f8605b1b8ded9462c880b5e78732e5107710da0",
+        "bytes_sha256": "7857c3759191b6a1bc1a1ee4ff507d3863f434207bfa8efceea930d37e3e57c6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Nikkei.list"
+  ]
+}

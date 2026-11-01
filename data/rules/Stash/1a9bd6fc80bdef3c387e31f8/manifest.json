@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:18:56.669555+00:00",
+  "client": "Stash",
+  "rule": "Lenovo",
+  "rule_updated_at": "2026-07-26T06:26:57.021060+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 58
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Lenovo_classical_d95ae3b1a10f614b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a7a94e8f3f30c32995c8e3be9ef080d72a0ce470ea26783a2c368eda7c7275e7",
+        "bytes_sha256": "e816faeed0f46c0a215fe66363789f96870b51f04b07ad4a45863fe9019afb5a",
+        "semantic_sha256": "fcdca66c7d61577aad198f82199713c8af56f5900ca533ef8f21fea7d0ac3feb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Lenovo_domain_64c8361a0e73f8ee.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25466a8401e589d36124c28657401002a40e7a2687c7959ae5a5af307c03b448",
+        "bytes_sha256": "06f66aeace7cd96361e316c27696dbb669fc7d0e733de11f6ae5b4f358efa766",
+        "semantic_sha256": "25e5966313a13a58f0ce3f563a06b8357beeef0474d866c72bf5e6c7b5a21bf8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Lenovo.list"
+  ]
+}

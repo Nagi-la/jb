@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:03:34.269442+00:00",
+  "client": "QuantumultX",
+  "rule": "Jsdelivr",
+  "rule_updated_at": "2026-07-26T06:51:13.470505+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jsdelivr_rules_74d31a2e8d46f140.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "688d361f15fd1723401f886ff5325951867dd0c37bbc75503d8d0befa0911b95",
+        "bytes_sha256": "5106281ac2303973da0dd5887696b0c63f7328bb902501161d6d10714e370008",
+        "semantic_sha256": "3ebe4aa9f076f46d4e284744a2c4e73a3d3e40d25790321352a0f5e6e2ae7547",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jsdelivr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jsdelivr.list"
+  ]
+}

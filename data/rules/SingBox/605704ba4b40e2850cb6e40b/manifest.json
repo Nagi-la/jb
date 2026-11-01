@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:14:10.040739+00:00",
+  "client": "SingBox",
+  "rule": "OpenWrt",
+  "rule_updated_at": "2026-07-26T08:34:09.378160+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/OpenWrt_source_cb8b608374d952af.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ebb167536e52d8240f934eb331cd199f030fe34d14c1f4921844fb7cef579430",
+        "bytes_sha256": "476c3713b318f47e505eb6a989ca5410cf16b73fa653976c3dadc552136dc796",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/OpenWrt_source-srs_82a1080f2176cbac.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b23f9c786bba34980874dd023e098d9d8d09677bf89ee1888e4d14c9c792ed41",
+        "bytes_sha256": "ed351f59820f1006cb86df3967e25eb6bc945885eff042c1350923fd60b5fa26",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

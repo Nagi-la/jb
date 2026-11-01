@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:23.795995+00:00",
+  "client": "Surge",
+  "rule": "AppleHardware",
+  "rule_updated_at": "2026-07-26T07:02:01.338841+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 226
+  },
+  "total_line_count": 226,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleHardware_rules_3d5d008407ac088c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1ceff21c1c067bf9c6ec7635c90084e99ed06f221b2230a1b6113c123af6f61f",
+        "bytes_sha256": "b14eee356452045e7a7953e1898b09221a7a711b2e38094d49616d97d52e370b",
+        "semantic_sha256": "08b03feef1f4ca08e764525658ca9e68807c92a6a99726ef022cbc8f84917c7b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AppleHardware_domain-set_73ed7790c98cce92.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3f3240548167c112372fc8ed0f2138d645663b489cd525ce86c8c2ef939ce7e0",
+        "bytes_sha256": "7aecf028f90f6c42cfbeedd90f014f830dfe213ad03fc7963b781acf64e202b1",
+        "semantic_sha256": "fc43446f4c78d76d85ce5257d9f0acf75ee6ebbcae95a45a712eb9c8087b7de7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple/AppleHardware.list"
+  ]
+}

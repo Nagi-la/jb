@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:47.642650+00:00",
+  "client": "SingBox",
+  "rule": "SourceForge",
+  "rule_updated_at": "2026-07-26T06:54:20.063841+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/SourceForge_source_1c1ab2f056380962.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c57286b13f8f0899fb663c9e6ace65c0a6e92a11a1c37e06f854b2248888b25d",
+        "bytes_sha256": "843892aa7df0bcd87e411e2c140b78427d0818dbb6438c5801cd803eb935078b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/SourceForge_source-srs_b04926f9b3df6927.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "88c34609758def8e776d08421d3ce29ea76ea777eb1febff0d69ce4557d0421e",
+        "bytes_sha256": "44acc71aa0426382924443fc7ae399a5f81ac3e56828bfbd65978109b9e83a71",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SourceForge.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SourceForge.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:59.507744+00:00",
+  "client": "SingBox",
+  "rule": "CWSeed",
+  "rule_updated_at": "2026-07-26T06:58:15.479170+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 3,
+    "process_name": 2
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CWSeed_source_7b672cfa856ddc9e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "baaeaa67dc94ab66646ecfd173557140c4960d6a7a74149bfda3df4971c7eab9",
+        "bytes_sha256": "416afa0ffae7a1b718fc5732ae06f41afdc9a433b2ad5c626b649978da53eab8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CWSeed_source-srs_5b05d54dab86a586.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c486447b46179d22b060300599b215033d8d769405e04f9b53416958671d1085",
+        "bytes_sha256": "e5739efced9d5724176e25ee181f0a9d5b2b357a8e5ecb1a93dde5375122b136",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/CWSeed.list"
+  ]
+}

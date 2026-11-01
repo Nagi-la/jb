@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:13:51.739753+00:00",
+  "client": "Egern",
+  "rule": "HiNet",
+  "rule_updated_at": "2026-07-26T07:04:56.026510+00:00",
+  "type_counts": {
+    "ip_cidr6_set": 264,
+    "domain_suffix_set": 10,
+    "ip_cidr_set": 323
+  },
+  "total_line_count": 597,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HiNet_rules_157efdeb12d32f63.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a0c4317a17d2b52584cd030d798d2743ade5f11f7a5b2f34f6cdcf12ace4a6e7",
+        "bytes_sha256": "e8cbaa51ccd8ddbee195db6ce055430ce23997076d73c1102180016fc3f52979",
+        "semantic_sha256": "c918442ba6ad3b63bbae410ca10da9208879dc65018e591ae14721b1ec53c384",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global/HiNet.list"
+  ]
+}

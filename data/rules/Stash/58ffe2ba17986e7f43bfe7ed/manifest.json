@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:24.103572+00:00",
+  "client": "Stash",
+  "rule": "NeteaseCloud",
+  "rule_updated_at": "2026-07-26T07:04:54.687675+00:00",
+  "type_counts": {
+    "IP-CIDR": 106
+  },
+  "total_line_count": 106,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NeteaseCloud_classical_df622ee71ffb7014.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed34e12d043d9a0801304e0ba85f67c8b2b483253b3b364d959dc488d25cdba9",
+        "bytes_sha256": "17eeb6a1e89e9c1da768359abb44ea8dae7308711f3e1e27408720bef6a66adc",
+        "semantic_sha256": "76c709fdc263ae33cc82c268b1e9a02a4bca89ad470931708b538fdadcaea620",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NeteaseCloud_ipcidr_c58216606f111c0c.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bd6d6b3f1ca1b530e3d304f5c9e768bbd60b64840dbb311327124dbb8eb3a4a",
+        "bytes_sha256": "0dfbb0e6248caadcbde18668038cfbb232c025bb666ad32c8795ee6f74cd18e3",
+        "semantic_sha256": "fc247723207ca621c07d29e685011b6947c2f9ed52325c20e9e5609a2e4d2588",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "非网易云音乐",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/NeteaseCCC.list"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T01:58:30.740394+00:00",
+  "client": "Stash",
+  "rule": "NetEase",
+  "rule_updated_at": "2026-08-01T04:37:58.664353+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 146,
+    "IP-CIDR": 30
+  },
+  "total_line_count": 177,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEase_classical_915449ffd145ea49.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b65134f6b880fd426c521c3907644763bd4e33cbb3c458b6bd0f2e53c8242d5",
+        "bytes_sha256": "217c61b49f8a9d0d486270e47b2bb1b5e7d21af7c67d5b96d2230f3d75bf2c69",
+        "semantic_sha256": "7383165011e5a608ef6c67c585dff0eeab1dc378fbc6dd1bfecdb15975f35d40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEase_domain_9ed16b6639c42d30.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8f452b0987ad6f8274c0ee398c274095c2f554774ba79e18804a234183a88305",
+        "bytes_sha256": "2f81336ed6bc81023fe6991761d0076b422ffe40093a7fb58608f35a9499b6b2",
+        "semantic_sha256": "e7c2821434dcf7f235d951f974123d75b19fabc10f988f74deb9f0a168cbe269",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/NetEase_ipcidr_f879540bae772143.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5fa6c49826a76d6f3acff61aa070ad7dbcd8e3c18e04648fc4217e5f0ecccc2",
+        "bytes_sha256": "a07d9fd4c95bfe2161c3052a8a9cdc24a2414767d80f7845678aac36d7c89fe2",
+        "semantic_sha256": "babb5903cae1b746c9ed61fb927fcd001d84fbbf7cc6e30bdcc5a7adc971efc7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list"
+  ]
+}

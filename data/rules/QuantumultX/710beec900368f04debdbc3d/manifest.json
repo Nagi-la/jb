@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T02:51:36.668211+00:00",
+  "client": "QuantumultX",
+  "rule": "ECommerce",
+  "rule_updated_at": "2026-10-29T02:37:31.537574+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 1291,
+    "HOST": 39
+  },
+  "total_line_count": 1330,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/ECommerce_rules_ccd71201f820d160.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5be5ae8919c9ce8e39922fa74ce71a883da9e263f3874eb557b3126d12aebc4",
+        "bytes_sha256": "5b891c0a8d191fa2049a6426384f259158ef82cd75b3394f377f2869e599f55e",
+        "semantic_sha256": "72f2cb8ce300eeef9098321627dabbb19eeb7e5c88718ea106e00fc1c8944661",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

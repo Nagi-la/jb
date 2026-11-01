@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:58:20.962671+00:00",
+  "client": "QuantumultX",
+  "rule": "Douyu",
+  "rule_updated_at": "2026-07-26T06:45:37.274795+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Douyu_rules_b0a465fbb30d6b3a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccd025eae600894a7ca86ff2bd38996be436a5b365e87a497e9948ad996255f8",
+        "bytes_sha256": "a50888e6d948a4c6e98a83f7d75ee38cea651780fafcb9f18ab3dd8d2f185bb3",
+        "semantic_sha256": "354a486b4dde466b879a1c46e353d7f310939cc8da28aa8da36722c4e1f8d76c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Douyu.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list"
+  ]
+}

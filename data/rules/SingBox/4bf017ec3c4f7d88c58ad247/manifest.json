@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:15:44.093377+00:00",
+  "client": "SingBox",
+  "rule": "Rockstar",
+  "rule_updated_at": "2026-08-13T23:54:43.704160+00:00",
+  "type_counts": {
+    "domain": 11,
+    "domain_suffix": 7
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Rockstar_source_5f89f47e8daa3da9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c86d19a778281db4b2fd473f4c50bbefad1d693c61b59289db34a23a5b123a91",
+        "bytes_sha256": "ad77c0accff6628610f3461a35f3fb862a80d0cf21c40773b5886f3d439a17b6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Rockstar_source-srs_8b508ba78bca8760.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "46e550c49f9f7386e18e35c1d9b8b61bd0359f43d6a25cde0e172b90f6e5f142",
+        "bytes_sha256": "7cb8c3b250bbcf0948b8c01b6634e6a8fefa2f89f1a819991b115309a6d48970",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Rockstar.list"
+  ]
+}

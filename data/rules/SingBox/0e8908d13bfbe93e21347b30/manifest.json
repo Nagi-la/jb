@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:18:58.887985+00:00",
+  "client": "SingBox",
+  "rule": "Spark",
+  "rule_updated_at": "2026-07-26T06:38:06.457407+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Spark_source_9dd389da0c5aab5f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2b305ffcdeddadd8ec3dd344794feb355223dc3660384b763005448716fca0e2",
+        "bytes_sha256": "d7e4e59866d6e291feeb3437f68dfc5723e4caf8e73c7be2bc2bf41455e7454e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Spark_source-srs_570bcbd555dd056b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cacdd244514b6dd974967341b4644c0f78524ec518f2d59f34cf62e4130628c4",
+        "bytes_sha256": "786204435fb5e6c59994bc4feefcec56496b9af528464750579be0a55841e7e0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spark.list"
+  ]
+}

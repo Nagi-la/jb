@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:08:52.166311+00:00",
+  "client": "Mihomo",
+  "rule": "Bitwarden",
+  "rule_updated_at": "2026-07-26T08:29:42.949667+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bitwarden_classical_f855e17086ad100d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e102cc5c537be9dc255935d2165b89adb0016052d5df619419ab67e30a3dfd6",
+        "bytes_sha256": "2c6997542fc1594fd8c2dbe91a717eb86c9a75ae996e8cc7272f15f0d1300fc4",
+        "semantic_sha256": "5b519fa679706d355eb9bf08c321c3fb5093c02f9527516e682ff2e87b174f4a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Bitwarden_domain_42e7ca821cd3b5dd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0515cbde90cb921cbd4ae048c1d1c7585ff5f066fb115d89559e54d8c92b4dfa",
+        "bytes_sha256": "5f01ce818708ac77864eadb6d0e8c42c222dff97b7f757639f682933a0144f53",
+        "semantic_sha256": "4acbfcb5f8897d975e90cc4d8d24576662334a906ec68b531303dd7a6059f94a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Bitwarden_domain-mrs_8451995423b051be.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f854d099f801f01fa3fed84f8c8fcf447c173ad5349a6b5d311037eabcc81c24",
+        "bytes_sha256": "0fe2f630693d59b093ff057e1ddbc0fe508a9b05fadb4aa6977b9d6faab1266a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:15:13.574650+00:00",
+  "client": "SingBox",
+  "rule": "GlobalIPTV",
+  "rule_updated_at": "2026-07-26T07:29:20.016804+00:00",
+  "type_counts": {
+    "ip_cidr": 515,
+    "domain": 2299
+  },
+  "total_line_count": 2814,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GlobalIPTV_source_d95744bd9a1707a2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f5c3990dde893c50a86c327875f8bc6641e3ec67c5eeca87046d2a410b4cd777",
+        "bytes_sha256": "3f1778a1b1b7b394a4e7c966ec331702a1a141cd048ba4da471e485d813f5f8a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GlobalIPTV_source-srs_051e36b6bb4de432.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8a9f8032fb5ccde06b7c44a2b05a97d1588ca596f64a17932e84a95af78f5249",
+        "bytes_sha256": "a4598fbbb3bdb370e4100fd510bc06f2b94b079c5b113f84e5f76815bd8e1441",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

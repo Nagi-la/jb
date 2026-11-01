@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:07:34.483490+00:00",
+  "client": "QuantumultX",
+  "rule": "GovCN",
+  "rule_updated_at": "2026-07-26T07:01:06.242116+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GovCN_rules_d4d30b2f4c34e986.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b556eea96d9841fcbb72b8a1818d8858e448654cb22ed6ddbcdfb5ec473c03b4",
+        "bytes_sha256": "ea7dd25ef25f2505ef00318c6bdd275960f0ae5863b4aaf550f8b5650c099069",
+        "semantic_sha256": "baf3344659ec210f902fcb8bd601c7d1622494f42118f5afab3592ae3284832c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Government-CN.list"
+  ]
+}

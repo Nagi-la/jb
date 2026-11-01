@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:17:20.413531+00:00",
+  "client": "Stash",
+  "rule": "AFP",
+  "rule_updated_at": "2026-07-26T06:21:17.244525+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AFP_classical_efe87fb3387b5648.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98d73e969858628737ac66831001b9267a47a1513547ceb923bf08632d4a212c",
+        "bytes_sha256": "ba7a67847fe31c1245cb5fcf1282ce32cb2fedf8ac23de31ecc4ba398cbe491f",
+        "semantic_sha256": "1cb83938ba56717f5eb71d95140f84aabd1ef3a905d8cbc18ede992eeefaf8b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AFP_domain_c2d70911f22ceb92.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba475d832dbd9092b6524f0e60c1cbca7ce95dc5b3ea4638e238953cdfe6a77f",
+        "bytes_sha256": "96197d19f01a2e808e8da30ba87890185a60acb06c03e2c1345ef12e935e0bb8",
+        "semantic_sha256": "36d61c7aaff99e3d7c2ba5e7108f10f6cc2ebe8636267a657ea74462e3428d49",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/AFP.list"
+  ]
+}

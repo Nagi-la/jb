@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:09:18.444476+00:00",
+  "client": "Mihomo",
+  "rule": "Docker",
+  "rule_updated_at": "2026-07-26T06:50:13.537827+00:00",
+  "type_counts": {
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Docker_classical_65b736f34eb8e008.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec2a23c95ef4acfc85aa2f7072bc63ccab508ed3a8c8315573bb69bbe45a9a93",
+        "bytes_sha256": "7301d0f2733a4cfd24ecd103b92ba199e46b1195c6b87ae73daf749a01be0b64",
+        "semantic_sha256": "836705c04ced9e4c24c096e268103a4848de87e2a55299b174463fe91c446b27",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Docker_domain_c007d0703e1c06af.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7b0af45a594abe43e7646299fc6888ccfd04496faa4602cd039312ea47ddef0f",
+        "bytes_sha256": "f89e155b9ce7727246426136448284129c6d86d240d987b300c73abce6bc01ec",
+        "semantic_sha256": "749d9d8444bdca6422268440197f644c278f7c8f8417a5727154ef40c0ba8da3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Docker_domain-mrs_0f407e7d3c0d9971.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f36ad78995b62357fbbb8a21d4913d10054d4e0b3e644f03063830df81d17c35",
+        "bytes_sha256": "7271eab5243ccc4f7b7b1116bbc53cb438b86eebaf1bcac9bdf55735731d1033",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Docker.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Docker.list"
+  ]
+}

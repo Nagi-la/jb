@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:15.695120+00:00",
+  "client": "Surge",
+  "rule": "Seasun",
+  "rule_updated_at": "2026-07-26T08:34:15.433213+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Seasun_rules_9cbe81401f513358.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc9cc20ab35b1cea372c1e603d25e97bb52cea3f228df0fa3380a37cd0b95b2a",
+        "bytes_sha256": "67d7d3bb562bb4a5aefa6749aec92add2840a7fc77a4a67dfc93a8719ebd8eec",
+        "semantic_sha256": "1501571139c1bac2d822c9177d03bc9a9998945ce45eec0efa4cbc5ff85ffa68",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Seasun_domain-set_95446e36f8a2c291.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7592d3908e524ebae17897001979e9b5ce04bbd575a2e7170e2584a801453c82",
+        "bytes_sha256": "1744b1aa3180806f3290def2dcc8bf84275013e295db9c04f6fb740451a90d3a",
+        "semantic_sha256": "d816e3767df85c0319615bd7fa50a6ebb0c34b103819bccc6934f04e0c97cf57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

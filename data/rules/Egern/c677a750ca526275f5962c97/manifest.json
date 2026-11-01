@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:02:38.762109+00:00",
+  "client": "Egern",
+  "rule": "Voxmedia",
+  "rule_updated_at": "2026-07-26T06:22:53.809689+00:00",
+  "type_counts": {
+    "domain_suffix_set": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Voxmedia_rules_66f5816d26345895.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d29eea2b0164e068e8fcd2412795320290a8371d6ee2431a64b63f4464cab4c",
+        "bytes_sha256": "9c04bb863ab20e7a5d0001a94a936f203bba8db8a730f3d6e8fa3e3915ac8e69",
+        "semantic_sha256": "3932e85c21fde910d80a48b4fefb7bad5b1e89ded9bbe4580193f54f9280cfe9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Voxmedia.list"
+  ]
+}

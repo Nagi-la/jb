@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:06:24.762674+00:00",
+  "client": "SingBox",
+  "rule": "BaiFenDian",
+  "rule_updated_at": "2026-07-26T06:47:24.678453+00:00",
+  "type_counts": {
+    "domain_suffix": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/BaiFenDian_source_9aa89ede3088e9de.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4be75b3c954d0c9b3927b8fe1523e4c2524fd9c0a7a2f6bc5fb8f6c309d32b1f",
+        "bytes_sha256": "d515b194739d8e3076db188c5b1afec7c43c61e4d7364316ba95de2b5e667efc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/BaiFenDian_source-srs_53d8011b941d7fef.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3f02ac5f33830a59140b3459754c1b1f9e5f9cecac80ced05dead5965436626d",
+        "bytes_sha256": "c06b314d2e5b69cb744ec2b57b8b8eeb1d77c35688ad19376e834586dcf9bb70",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BaiFenDian.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:01:32.774318+00:00",
+  "client": "SingBox",
+  "rule": "Niconico",
+  "rule_updated_at": "2026-08-24T02:51:04.801221+00:00",
+  "type_counts": {
+    "domain_suffix": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Niconico_source_f3c4aaa741af631e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b16600928b34a90c851281282170e95139fbf9511051537cd80432ee5a804178",
+        "bytes_sha256": "149bd8f5e77e322ba84c8ff4d2d85c0983a25c16156b44f002677daf25da73c2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Niconico_source-srs_c304357fae223e5b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c73d1b9c31e201cd68aa7c5f43ebef4194772969432ca98cdc9eafaf11551754",
+        "bytes_sha256": "1726ea51996d831b4c3de7bbe87d29963610d0e3b584001778244b2728882d3a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Niconico.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Niconico.list"
+  ]
+}

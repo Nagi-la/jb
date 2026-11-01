@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:14:31.188162+00:00",
+  "client": "SingBox",
+  "rule": "All4",
+  "rule_updated_at": "2026-07-26T06:21:23.634315+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/All4_source_6f5d677fdb4f53b1.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f5ec2f16b8d12f5bee6949a5713294343c6139b6dcf018d31dce27b87348efde",
+        "bytes_sha256": "ce0f740d22734dd036fce93d82a5ac2b91b10a7f7f9304572e2b16e6ba8aaff5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/All4_source-srs_ff9425e6373276fd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dced93a0d20dafe7b8ae4605d447b7e18e5b61a383f27ad800f31767465692a9",
+        "bytes_sha256": "b0caf1262916d6e20947ba931e130581f6fa321723f976202dfe06b0f5cd26f8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/All4.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/All4.list"
+  ]
+}

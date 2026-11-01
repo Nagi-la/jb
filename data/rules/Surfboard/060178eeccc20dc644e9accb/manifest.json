@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:07:25.428696+00:00",
+  "client": "Surfboard",
+  "rule": "Cryptocurrency",
+  "rule_updated_at": "2026-10-29T02:37:35.131830+00:00",
+  "type_counts": {
+    "DOMAIN": 8,
+    "DOMAIN-SUFFIX": 232
+  },
+  "total_line_count": 240,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Cryptocurrency_rules_68269739f2640ae4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6393e37e32b2cff1b143a60c1f964d111839aacec964fa040bcbc1205f43cefe",
+        "bytes_sha256": "3af03724d6eed768acf288999d719981b6ab3da11797d7dee1c4c75fdacfc1ba",
+        "semantic_sha256": "b0218061eb693e89af1f92f3c0c0a9124489f85d0e436625d35e37309e66ee1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Cryptocurrency_domain-set_cbebddfde821f28d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ad267eda4c9750ff374ffc1da5cd5dab58e0eec5c01e6c24da7b8881009b6cf9",
+        "bytes_sha256": "2e9a0237438917a0edbb2ec2b2bacfbf2621947c15fbdf22c6d5be2dc31bf2aa",
+        "semantic_sha256": "4fd7f092cfd65a1107264d582497409a592036ce8aa53c6396c67cbcf2e9f130",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:00:45.181556+00:00",
+  "client": "SingBox",
+  "rule": "PingAn",
+  "rule_updated_at": "2026-07-26T06:27:39.514923+00:00",
+  "type_counts": {
+    "domain_suffix": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/PingAn_source_5b3a30da92d969a2.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5e3b197b37807aa82d06e1080a36eb367f31649f312a4348b5be61ed20ae9661",
+        "bytes_sha256": "5e069a95a710f516edd5800b0a500ce68e0ce0354228689b086b89c885ebfd35",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/PingAn_source-srs_5c6d6aa9cf07b5fd.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "db0ee067cc52b448982bfb11941cbc938c1bf40d836d77e33a353d1c13a18016",
+        "bytes_sha256": "57abe63907a3c51a29a506582056d35ff806659aa89d95ef224ddb9bd0f5a9b4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PingAn.list"
+  ]
+}

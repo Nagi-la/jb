@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:30.830141+00:00",
+  "client": "Surfboard",
+  "rule": "UPYun",
+  "rule_updated_at": "2026-07-26T06:28:38.306145+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UPYun_rules_7b5cb0b7195e3ce5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f159cb77e5c00cc9a72a5d8222c366fec6146922a7506e7cba7b3c07860fbdc1",
+        "bytes_sha256": "574002c75eff125baf4af91aa50d30186b5d003ce254e031406b0a6af1e31e24",
+        "semantic_sha256": "38f2beb7b4e55f5f9474ffc82aeab8c507275f8f1496a1a9210b30580765948c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/UPYun_domain-set_8623e3182485e362.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fa185a166147755737620f2b0f47401d69db8fa036ea588838617191f54eee64",
+        "bytes_sha256": "6cbc29f7f69fa93cd95ad2d8dc4db5bd9c6271a80da6184e72bc91c2e653b877",
+        "semantic_sha256": "0f8721797986a9c062462bfc7f020194b2efe93b0b81ad8a63d48c5ff4ab3aa2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UPYun.list"
+  ]
+}

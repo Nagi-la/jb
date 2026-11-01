@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:00:26.961504+00:00",
+  "client": "QuantumultX",
+  "rule": "Bing",
+  "rule_updated_at": "2026-07-26T07:24:25.970861+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 38,
+    "HOST": 2
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Bing_rules_b25bcc7b82afa012.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0108d4ad496d4c832145ccae4a6ca2eeb72dc2f593d8200150b4a1b97d134b8c",
+        "bytes_sha256": "1e9b526c3028ca23e1d6c1a838cdfc4cc25530f9beb5bce1073a3c54dd1a0c3d",
+        "semantic_sha256": "04556cee9d1faf98785f328958733f269bef6adba541ffd9218faedb272d252b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

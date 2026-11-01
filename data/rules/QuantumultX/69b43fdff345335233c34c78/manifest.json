@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:05:08.833954+00:00",
+  "client": "QuantumultX",
+  "rule": "DNS",
+  "rule_updated_at": "2026-07-26T07:00:58.877294+00:00",
+  "type_counts": {
+    "HOST": 93,
+    "IP-CIDR": 28
+  },
+  "total_line_count": 121,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DNS_rules_d6148a3e54acbd6d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb6e000e2f5e2d01b9712d2597a78e528f6183e6c59382593b15b8cb503db5ec",
+        "bytes_sha256": "b35c8560353c807bb0468ca46c86047b170245c689ce387ce86fe93b988a8a2f",
+        "semantic_sha256": "429b26b6cde4f35f0003edfc6ce153fcb939687f5562894f2e9d70590a9756aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
+  ]
+}

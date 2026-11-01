@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:02:13.167635+00:00",
+  "client": "Surge",
+  "rule": "Embl",
+  "rule_updated_at": "2026-07-26T06:58:12.914960+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Embl_rules_b2decc4bc736040d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "670213aff73b9c27f8979fa69d921645aa37b0c4a54eb104fe829a9ed8bafdbd",
+        "bytes_sha256": "7e3bb847c2fee0edee99b0c83675aeed508937b7a2f04ebdfeabeb701d69906a",
+        "semantic_sha256": "6c5e29ea813f42702649f40ab0cbe2b10499926acf14580a8f69db26b81ec808",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Embl_domain-set_ea2ce3ef06013f10.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9e2f9c54c20d3421a215a16ef27d2c8295307f0abd5a73c5c7586a074f7f945f",
+        "bytes_sha256": "ec595cc4271164cb49b94fcfb61ba2dfbe36a6a37d373aeca14ff6aa24bdc120",
+        "semantic_sha256": "6e17fb1cee4eac5049eae9fc701300461cc92d614a94b728b2fa8c06dc676cd3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Embl.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Embl.list"
+  ]
+}

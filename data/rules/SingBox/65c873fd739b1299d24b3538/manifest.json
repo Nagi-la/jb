@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-08-27T01:57:32.109086+00:00",
+  "client": "SingBox",
+  "rule": "YouTube",
+  "rule_updated_at": "2026-07-26T06:32:37.699811+00:00",
+  "type_counts": {
+    "domain": 3,
+    "domain_keyword": 1,
+    "domain_suffix": 181,
+    "ip_cidr": 3
+  },
+  "total_line_count": 188,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/YouTube_source_730c33ac176bd69a.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "629466717fefb8890f143bc1d9c1a74ee56faa840966258ecee76fde4e2a793f",
+        "bytes_sha256": "fa24aecc75dffed80754e9e1552ffd0a4071e6c75158b1bcd8c93de6e3be005c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/YouTube_source-srs_9ecee37860130f5e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ee0590d7e718d91b469cda1a1391dbb8a44fb4899f87ace1ea630add70b40a09",
+        "bytes_sha256": "e96884bc08e215f1b1f37f7ec70f843725ed2beb9cbf8b2531bbda81a8ceba1c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/YouTube.list"
+  ]
+}

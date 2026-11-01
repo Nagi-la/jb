@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:02:22.737784+00:00",
+  "client": "SingBox",
+  "rule": "DiDi",
+  "rule_updated_at": "2026-07-26T06:38:24.608996+00:00",
+  "type_counts": {
+    "domain_suffix": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DiDi_source_c16cc53745302f34.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4f5ed57abfc65b0e0eacb74d7970e323f7f07491b213a5acff8a293f55ebb328",
+        "bytes_sha256": "136806a0fdcbe8d3310157d5e3949ae4d5fbaf11b757a967b60353cafc103ae2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DiDi_source-srs_1dfca100e66fb539.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4aebf410e60347bbefadc944393817facc34ae0afbf06e6928263784d926a788",
+        "bytes_sha256": "bbccfc9d939a9e443348a131dd38bb43353084df11bb1d7695461732122483ab",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiDi.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DiDi.list"
+  ]
+}

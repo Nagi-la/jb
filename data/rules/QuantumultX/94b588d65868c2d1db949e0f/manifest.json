@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:56:16.454156+00:00",
+  "client": "QuantumultX",
+  "rule": "OSChina",
+  "rule_updated_at": "2026-07-26T08:34:09.999020+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OSChina_rules_7c04691ce6a4a6ca.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "460d70e024f820595eeb9e4069e674166d9d751bdc93b86e178130af4648b37b",
+        "bytes_sha256": "25d6521b3821a9d6c1acf619148dd75d92a8b021db2825c6e2df43901f7517d4",
+        "semantic_sha256": "22d42b04e6b115e0735286687b1ed823d538323f1fced1f415ad0e529c6509db",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:17:17.668466+00:00",
+  "client": "QuantumultX",
+  "rule": "Sling",
+  "rule_updated_at": "2026-07-26T06:54:16.193989+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Sling_rules_0aa564f499d154ab.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5333831ed0e8d22e815fe32afd1927a38529da03de958703398a53e64a79e46a",
+        "bytes_sha256": "8f7beb1cd3b9ac761d768b587ac5feb06a4bba04b74c8e7bee5548f1b592642d",
+        "semantic_sha256": "087645f3d1ac67c92efb70a948b2a3ccecc2b79073d97cb513b05ec7e75fe6db",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sling.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sling.list"
+  ]
+}

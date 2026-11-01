@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:55:53.289740+00:00",
+  "client": "SingBox",
+  "rule": "Camera360",
+  "rule_updated_at": "2026-07-26T06:23:46.471087+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Camera360_source_ac3c4f4458546a25.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0fea1dba5fcd4af6fff209f6fba750ce902c56445ef3c24fe893a121cfacf62e",
+        "bytes_sha256": "62bde572da97b24b01e2a182a0e12ab1c341a52bb59b4a935d49ccdc41677980",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Camera360_source-srs_d2dc512b00603629.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aa784efa441486a6e73e701da6a5d6cf938ac943c534cbef3a39b8a533e13763",
+        "bytes_sha256": "fab1d98922b47e063576fe763d02f87df5cc3969d38d1e9a077e6c02e3d6ef42",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Camera360.list"
+  ]
+}

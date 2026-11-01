@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:04:22.178075+00:00",
+  "client": "QuantumultX",
+  "rule": "BrightCove",
+  "rule_updated_at": "2026-07-26T06:30:55.820775+00:00",
+  "type_counts": {
+    "HOST": 3,
+    "HOST-SUFFIX": 14
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BrightCove_rules_23069e15ba930c55.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffca9649250509f6a9026539f4e22221df1dac1bacf0e684e4497456e25e8a99",
+        "bytes_sha256": "dd23c045249d9bbb3029e0517608202c9f6fc9e1dedc1c32153b00c652fa4c22",
+        "semantic_sha256": "3dff2bff25203bf5a98d9b8a37a089215b614d36ce31012d6cb8b1ca5cd4714e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/BrightCove.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/BrightCove.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:19.089704+00:00",
+  "client": "Shadowrocket",
+  "rule": "WeiPhone",
+  "rule_updated_at": "2026-07-26T08:34:52.526945+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WeiPhone_rules_37d82cde2c1c92bc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b045cf73ba149abe5f09fa2b2c49f242ea2a05f390d7db8a61b546fc0e05fb8a",
+        "bytes_sha256": "a3b82474f681d12614e209b2837f56fa9a93a5e2a9219f5eba6bf476d59081b1",
+        "semantic_sha256": "148aa9813f1e79ef29bac3ddd281f77c10b9f56b7f7581aba536639467f072c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WeiPhone_domain-set_bb10c148619d07d6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "034475b0c399edeb4a32e0a25d7d8c31b799c883cf6cf9cbea93191a02144ab5",
+        "bytes_sha256": "4b2c0592ef993cd7ed7e9231902302540ee2b32d723323b80f11226ad0b5b32c",
+        "semantic_sha256": "b0e1a066ab9b917eee6265c8522c1b3c32e8dc8bedd04cdf73f853c115522871",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

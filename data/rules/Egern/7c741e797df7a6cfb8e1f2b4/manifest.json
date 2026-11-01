@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-29T02:54:32.594282+00:00",
+  "client": "Egern",
+  "rule": "Game",
+  "rule_updated_at": "2026-10-29T02:37:32.503098+00:00",
+  "type_counts": {
+    "domain_set": 126,
+    "domain_suffix_set": 1139,
+    "domain_keyword_set": 4
+  },
+  "total_line_count": 1269,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Game_rules_dec12a7de1a0e8b1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9cb6d9eea94230521610640cb303a9618f4eea253961d2264ffa620240020b88",
+        "bytes_sha256": "ab53ae259712081d5530a711c57f1d2eefac31deb8be5cb5836d4e06f42b81d0",
+        "semantic_sha256": "bb9103a84118ea4f4aa8f62759c42c49be753d39175679934b2a6f135874b8c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "含有Steam、Blizzard、Discord、Rockstar等分流规则",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/GamesAll.list"
+  ]
+}

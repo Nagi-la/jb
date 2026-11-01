@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:45.779903+00:00",
+  "client": "SingBox",
+  "rule": "WeTV",
+  "rule_updated_at": "2026-07-26T06:23:00.299395+00:00",
+  "type_counts": {
+    "domain_suffix": 5,
+    "process_name": 2
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/WeTV_source_2161f8d095014697.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c7baa52e7a0906a3eebb3c8a3154cde28ec348004fc58fd1b9b0096313361a5b",
+        "bytes_sha256": "91f07f9ebf2f63cba7026f733bc45a058a30d538faa3531b013a85a1fdb46782",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/WeTV_source-srs_b3415d10a8fffdf8.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1cd5a36d8ca9a9354feb8d365fa768a5d5e5f1553e8663f174e523beacc023b8",
+        "bytes_sha256": "c433a119887582ebe7c9307d246df6c167895592c756de23d30d0875b7c28ddf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/WeTV.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:09.111914+00:00",
+  "client": "SingBox",
+  "rule": "NGAA",
+  "rule_updated_at": "2026-07-26T06:27:25.682585+00:00",
+  "type_counts": {
+    "domain_suffix": 29
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NGAA_source_c22bd3f7abaedde9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0c8b2d51f48bd8b20042a235678c0f138b25004ebf184b9aed26e70135f70457",
+        "bytes_sha256": "0fe8f3b43badef7f76463a4782ad8e2f752e05d347a7aa198e71c791f72e905c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NGAA_source-srs_d07bd55627535a54.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1f009f0fc9c2b71f1daa3f1edc981e26ed2833e2098d900053bf699d0bccd9fd",
+        "bytes_sha256": "e5d8298d23efc66a57a47a9d4bf908a610c3cfe66c385aa86aab8836fa75dc14",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NGAA.list"
+  ]
+}

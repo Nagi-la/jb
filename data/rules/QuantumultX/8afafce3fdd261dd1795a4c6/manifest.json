@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:01:30.298972+00:00",
+  "client": "QuantumultX",
+  "rule": "TencentVideo",
+  "rule_updated_at": "2026-07-26T06:45:08.002973+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentVideo_rules_425b2f5a711d31c9.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c3f8d75658ce0f5739a076d73c064a09b0ebc342cf1f1c2d99930261c6562720",
+        "bytes_sha256": "c4f50fbf96c794f7097d10925bfdfabdd0a9c0ad91598dede9e20e767efdba22",
+        "semantic_sha256": "cd5eb807e3f6b7df03946b41b4ddac33a4eb0a0ecd486bf6008e722af3afe94d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list"
+  ]
+}

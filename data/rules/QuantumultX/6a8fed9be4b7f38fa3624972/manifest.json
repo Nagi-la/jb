@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:06:47.169374+00:00",
+  "client": "QuantumultX",
+  "rule": "TeamViewer",
+  "rule_updated_at": "2026-07-26T06:21:11.541942+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-SUFFIX": 3,
+    "IP6-CIDR": 4,
+    "IP-CIDR": 4
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TeamViewer_rules_fa42e221f82682ab.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b1444fba5048cf5c828565a120568d3b3714c6a480273840989fa5db7dea111b",
+        "bytes_sha256": "51453348e180432555f44636fd302cd1101e257ba2b392cfb633c3b3afab5cf0",
+        "semantic_sha256": "628fc9992b719c279d38f4b7d869b4f597df413b5595d4218cd2c58884ad8c1b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeamViewer.list"
+  ]
+}

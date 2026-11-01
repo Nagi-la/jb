@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:05:05.013072+00:00",
+  "client": "Mihomo",
+  "rule": "OnePlus",
+  "rule_updated_at": "2026-07-26T06:27:26.331819+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OnePlus_classical_f664cfa3c38c8efc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4dba3d30c5f6271350db26156abb3858efa731446a2abab417c30665df27f850",
+        "bytes_sha256": "cafb0afaf51b6f0b71bc1d1ac1349678b3a97608cda757dcbc5d0f82477f6e50",
+        "semantic_sha256": "815594ca05158a58e126b49734e7c95a3a40b4aba355b7e9477d725bc5f1ada0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OnePlus_domain_b31a9017fcc3fdb1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17e01ae5aaeb10abdb030267ab04b12790b9d24916f3c84373bd81a5002c7934",
+        "bytes_sha256": "a267949fbad9e7cb4981dedd10010418a1dee91f760c1dca08448f85decaffcb",
+        "semantic_sha256": "b840fa360229004b6c673df1a0904abe34e5472cad284d47e95b8e3f4c7bee68",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/OnePlus_domain-mrs_6e19dd59e26808f7.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8efb6f59e5b017a50a7352b9928b16d2b7503e10c8301674c389ed3818b500c6",
+        "bytes_sha256": "25c89d23c0d3ab1f1b48eb3d4b709cc093ee67daf77fd67d06631f941f60a272",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OnePlus.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:04:06.165957+00:00",
+  "client": "SingBox",
+  "rule": "URLShortener",
+  "rule_updated_at": "2026-07-26T08:29:09.039519+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/URLShortener_source_c87eaed7965fc008.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "79b457ab3c14197a7d8eb3d29545bff2e71461d22e4f0a43cfe742acd4b6ef94",
+        "bytes_sha256": "56387e72ca2714a3fea90d148338fa1bdcdf66e2f51cc4000c00a77b4d9130c6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/URLShortener_source-srs_d2e57caab5ad411f.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a97e5b6ad38f5a019d041f56cb2483268a342192d6e259ef2d9029ba47ea6f92",
+        "bytes_sha256": "e9757c0ae92c26b6d3f47d00c458a9a21a05a912de210ca48bc8748f033cb0c2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

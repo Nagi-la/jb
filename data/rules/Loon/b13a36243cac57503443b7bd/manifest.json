@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-27T02:15:47.147827+00:00",
+  "client": "Loon",
+  "rule": "AcFun",
+  "rule_updated_at": "2026-07-26T06:23:49.003563+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 9,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AcFun_rules_54e95143f423770f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8212807bf0303c52db2bf5d31d171af44565d2b05a1eec9f76ae72cd925e2f9d",
+        "bytes_sha256": "a42a28df2356f309e34a6e02a7118c9503c7325d845d07945b1233492c5660e0",
+        "semantic_sha256": "6b1ff66be9f80c4e826a055215872231e9346edc00d196e1a0e2abd5a51a98e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AcFun_domain-set_4bcb4d1ab7dcb896.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66153f82bedfdd2046c0ad9e153111c24aabb3a280aaed49b05ab4566d268b97",
+        "bytes_sha256": "fbc24ec47bde33c8b3aefc7d84742a2bfa976301cfd44e06ec0bc37aa494c84d",
+        "semantic_sha256": "81338e0f91792fd98fefa6e45436409d3897f718b2b555eaf2e8c79f47af20d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AcFun_rule-set_b3a20f76c2f795e4.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "02e1f70f27d9a68ff2739669a7ccd9cf95dc9cc015ea3496bd054703d7a7784e",
+        "bytes_sha256": "a7d7a409380b0734286bc97d7cb97e16c3bc8d3356f47e7bbead08a4937362f7",
+        "semantic_sha256": "48ed85a5b351d4d00a4fe10278c3b485110a6b107641de9ed94fdd56262c8420",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AcFun.list"
+  ]
+}

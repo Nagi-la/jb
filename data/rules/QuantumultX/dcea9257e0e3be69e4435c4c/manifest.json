@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:10:53.723736+00:00",
+  "client": "QuantumultX",
+  "rule": "DtDNS",
+  "rule_updated_at": "2026-07-26T06:50:17.281056+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DtDNS_rules_c672368c322f7d17.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27caf17b4ddb82e32868167cb9f4aa75d2957a9dd658f077589b4b08926d1405",
+        "bytes_sha256": "0a658e2a590be53e7620857673c4b672956d315e283e6eeb766424427437226c",
+        "semantic_sha256": "dd0d0a97d1ba0f76864efd0a97f0c838a89c0a292a2d11f0757972f80780d563",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DtDNS.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DtDNS.list"
+  ]
+}

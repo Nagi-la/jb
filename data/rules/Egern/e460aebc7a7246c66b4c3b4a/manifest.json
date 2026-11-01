@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:05:11.843395+00:00",
+  "client": "Egern",
+  "rule": "AppleNews",
+  "rule_updated_at": "2026-07-26T06:33:15.615578+00:00",
+  "type_counts": {
+    "domain_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AppleNews_rules_fd56a4e25b47b6aa.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5faddbe718f23c3f1ae503d898a73ab82e4187059c760a3b78715950e58cbc5e",
+        "bytes_sha256": "a52bf8c92bcf2b14dd86564e5ed25920fa48d7f12f5b57d245daf3b6931ce075",
+        "semantic_sha256": "e78ee0ca42d5d9163f5141f88ac0281b1b85ceb78314b57ffdb749f8a3250090",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "DOMAIN,gspe1-ssl.ls.apple.com  必要，但会导致「地图」使用「TOMTOM」版本数据 (DivineEngine)",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleNews.list"
+  ]
+}

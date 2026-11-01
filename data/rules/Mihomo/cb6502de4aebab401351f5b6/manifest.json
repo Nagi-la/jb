@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:56:56.862350+00:00",
+  "client": "Mihomo",
+  "rule": "GameDownload",
+  "rule_updated_at": "2026-07-26T07:15:51.726910+00:00",
+  "type_counts": {
+    "DOMAIN": 494,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 498,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GameDownload_classical_323bbd133b5a7f3d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69a91fb6e14ed7ff492b3eabf645d2d29b566ab29ce652654f14257ed4b18c4a",
+        "bytes_sha256": "74174f3772bbd5cd8e7505b6880516ade1d78765d492d0f9758a12144e31cb10",
+        "semantic_sha256": "a6a8f41948e2592ee2e87cbaa1eb0494b895e0be998559004e3622a52d55d05e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GameDownload_domain_731f0cb151e024d0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c692649d668e4cbb99650b163b39d5dad17d07cd20902dfe2764e33f1879e855",
+        "bytes_sha256": "5235dd6624aa25bc72a1dbf3f94dc253466bb08e02ab6562e0faf0905eb7cf82",
+        "semantic_sha256": "98312e23015446cc9eeb2a884008ab4dc91efa49a1150cde2792bbcc5dad85f4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/GameDownload_domain-mrs_1f4f43fd79a42973.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6c1e40c45b15046cd999ab6bafae1ea6507c19a1ae5b5d2047c74b081f28fe05",
+        "bytes_sha256": "66262ed5407b10cfde44a89178b0f0f293d22c80f7c8350e1136208d3d481edc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+  ]
+}

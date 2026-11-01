@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:26.769943+00:00",
+  "client": "SingBox",
+  "rule": "CNNIC",
+  "rule_updated_at": "2026-07-26T06:23:44.683807+00:00",
+  "type_counts": {
+    "domain_suffix": 50
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/CNNIC_source_84dd5ab7e16bda22.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9e4b8135b19a5fd39838f6df0e6d199af450b300a729011f2387f57cff455cba",
+        "bytes_sha256": "c27194cc6b6672ebfb4b966178e077e9e279529512bfea0201c5c1e13608e33f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/CNNIC_source-srs_45be07c63183c950.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "999af2351c3fd4ea130030c8a18dd491971efa2e304136f8868c8dd229314b59",
+        "bytes_sha256": "519089bf96677c00057977fb7d7364cbf6a1ed2ecc16f308e8e12bf79a34a0a8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNNIC.list"
+  ]
+}

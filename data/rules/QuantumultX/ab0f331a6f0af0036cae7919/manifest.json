@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T01:58:24.992361+00:00",
+  "client": "QuantumultX",
+  "rule": "OneDrive",
+  "rule_updated_at": "2026-07-26T06:33:01.073724+00:00",
+  "type_counts": {
+    "HOST-KEYWORD": 3,
+    "HOST-SUFFIX": 19
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OneDrive_rules_73ae902f418a9bc0.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f07e01083214d3fd16733fdc1f23eed4cf697241514f9cc82a5f612e28b166e8",
+        "bytes_sha256": "3371f850d1dd53fb1383dc99417161d2b349a8280cc8a50aebadea69435a53b2",
+        "semantic_sha256": "2fd1c83f80129653c9d9057c4838f4f7759514edca3c26b072f5cde5e2e18cbc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+  ]
+}

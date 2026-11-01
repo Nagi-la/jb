@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:32.882677+00:00",
+  "client": "Stash",
+  "rule": "STUN",
+  "rule_updated_at": "2026-07-26T08:28:30.723430+00:00",
+  "type_counts": {
+    "DOMAIN": 358,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 359,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/STUN_classical_22154a5f5ad256ef.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f9f82ec3b06140cb9d405c3dddca04fef57c4b4c11b5d6217de5b3bb1a2cf04",
+        "bytes_sha256": "f4ad1146fe58466a0d5f3bcb17d8145a0c42ed1068243ed731e746be2e6b2e22",
+        "semantic_sha256": "21cb9af3b5506ecfdd927a39d8e2bed03c082500d62ee0eeea3bac20d05a77ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/STUN_domain_fc5dca748e7f0cad.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50b0229f6596ebb2f6c2cf9cd67ac775dccbd588e3976c9c95b76635e95a765f",
+        "bytes_sha256": "8fdc613b18239fe7adc6099fe66d30a4d2d89f39133dd0828b9ffbfc6d91dcb7",
+        "semantic_sha256": "3526a4df0d971dc902804dbfcb7ad7d058ee3a021cafb491638ce680b2a33fb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:15:02.485285+00:00",
+  "client": "Egern",
+  "rule": "Sentry",
+  "rule_updated_at": "2026-07-26T08:22:41.519537+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sentry_rules_a3d7555b0837ada1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "295f1d43965351ad98a9a66d0a5b4d7e6d1d061018952ffeaa0116fe65b6610b",
+        "bytes_sha256": "fc57668acf1c236a31526a0ca37ddefe41d3ecc549c0730f5db37ae748502d62",
+        "semantic_sha256": "da068ef9ddc50a1872b72fd942a4488b50314539482a4a0e3342bc44d1884434",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:17:32.365365+00:00",
+  "client": "Egern",
+  "rule": "Qualcomm",
+  "rule_updated_at": "2026-07-26T06:53:25.470856+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 49
+  },
+  "total_line_count": 50,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Qualcomm_rules_57585c97ba783031.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f30c55b3080acd75fc4f4c2fe6fcb84d0e93657ac4752c7c2844993997ea9d5d",
+        "bytes_sha256": "f9676a733c52813432760e99f99f8741efd9aee019c1b7bdd1bd80f393c86d3e",
+        "semantic_sha256": "a0c1c46becc92bfdf3cca41af4e1572053926bb2e0d0b8ff385b5febf7c9aa33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Qualcomm.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Qualcomm.list"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-08-27T02:18:26.328652+00:00",
+  "client": "Mihomo",
+  "rule": "Synology",
+  "rule_updated_at": "2026-07-26T06:57:54.445796+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Synology_classical_e99b7de3e583acb7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2eda3a11728be0df18d1b24b97b7f1e07d5cec1c8e8bc52203214636986280ee",
+        "bytes_sha256": "db862526e8b0f9ca79e8eee67d32de89290afaa686e9cb718b7c844ac88a6ceb",
+        "semantic_sha256": "7f17feb6446aaf9b481a83c478e2dad096efcb9a422527766a9e5eb201fa8db1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Synology_domain_057cb05461667bdf.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89c438b035a3bd4b72fe3cf0142ad8980fb892e951765adb3ba9af025cc9a59f",
+        "bytes_sha256": "69348e5980e94145b56eff83a0d542173cd157f9ed6e30c5dcdc0bbb99ca43a3",
+        "semantic_sha256": "f3e3afa0400487aa53018d188826f6a03520f30f653918073bb4cf823cdc3a86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Synology_domain-mrs_8fc476aeb317008d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f7461be12a5a0ca5411a2d183bb7b1ea60fdde4811bb752ae6cffe8b86c403fe",
+        "bytes_sha256": "7562e5b8fb9257240dc0922413dd7543338db481222c9ebe6e5c1c8c7e0a997c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Synology_classical-rest_996f08a82950a3f4.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9def8ac08d25990d8701c29722bc7f9159563de42410efaf301f5fcabf4ea7f8",
+        "bytes_sha256": "fbed49995f051c6a7a1c8bd5f4551ee166973f5add3a8a003c9e1134700daa6e",
+        "semantic_sha256": "7d88f1b568b19465cb82367d66825e7c89c8dd3214297c3d9a91f4abf7f2e555",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

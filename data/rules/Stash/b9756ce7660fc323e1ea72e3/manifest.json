@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:26.896717+00:00",
+  "client": "Stash",
+  "rule": "XueErSi",
+  "rule_updated_at": "2026-07-26T06:29:11.099744+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XueErSi_classical_d53a7c33e3ecb486.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "380d828e2217edc06ad40e7c048182306c1bc81058fe9dcc2122643829afdf21",
+        "bytes_sha256": "4a52c831bff811c8507f6158e2379630a65cbaf1203e0f0b9ac713bb297c98aa",
+        "semantic_sha256": "c53013ae4d8ec2ee6e98afa3140e0c2dfade27835614d5b3e40dbdb1494945cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/XueErSi_domain_74b53ab631b28779.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17d7e5d2edef73b15a8e3b5f8aaaf4fa4d65485d5ad4ab4d767ad388e1f8248e",
+        "bytes_sha256": "f89df4b0a37a9b6c2c44b01901292f44b09a098208d70577fc26f24f2a63a93e",
+        "semantic_sha256": "156f206c5805a4b9c94f678fd807129d323efc7cfc498b9d95f8bda9a1d0c433",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XueErSi.list"
+  ]
+}

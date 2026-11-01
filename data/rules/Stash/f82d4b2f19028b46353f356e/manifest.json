@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:26.340054+00:00",
+  "client": "Stash",
+  "rule": "CaiNiao",
+  "rule_updated_at": "2026-07-26T06:23:48.028983+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CaiNiao_classical_8b7f1ef80eae3cd6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2456c756d1ee1dba5696a75ea08f5b113360fd0617cba5bc95bc86d1365accd3",
+        "bytes_sha256": "7416b97f01c8594d67cc48967d15f803d987b21ee2139eb90ba17b146eec2b43",
+        "semantic_sha256": "32f88f22dd853c9c9dd7e3d28e2b6fc156e14cff8dbe7beb2bbab9f8ec127123",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CaiNiao_domain_5f41464cb2e24112.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47068d751217ffe1eaba21b2c8b3590f072b70d8d76e8c810472592461cb40e2",
+        "bytes_sha256": "2560d619a94bf99acd76d1ef5e2cdc1bbc7a3d3e015ff4f992540b7016efd1b3",
+        "semantic_sha256": "de71dfa5973b58fed03392ad7653aa868b77bf82ceac9fb0b1617d5a2ff092fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CaiNiao.list"
+  ]
+}

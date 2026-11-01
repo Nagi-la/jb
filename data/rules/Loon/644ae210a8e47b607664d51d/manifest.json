@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:07:28.554563+00:00",
+  "client": "Loon",
+  "rule": "360Cloud",
+  "rule_updated_at": "2026-07-26T07:02:26.610991+00:00",
+  "type_counts": {
+    "IP-CIDR": 28,
+    "IP-CIDR6": 2
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/360Cloud_rules_c052ca262e6e67b1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2ee5454ab69adbce5e79fd489feecd7c88b2c02ad412f1b9eda773967fd5dbbc",
+        "bytes_sha256": "08d6c941e38f707afbf79d78b4b69e74120ae8b106b1bacc96ec93df24a6a819",
+        "semantic_sha256": "2417136fb30882caada4ec09aaf26fc525c321c9da55b54edc8d5469594d9a1c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/360CCC.list"
+  ]
+}

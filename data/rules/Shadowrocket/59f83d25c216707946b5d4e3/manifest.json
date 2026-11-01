@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:50.287795+00:00",
+  "client": "Shadowrocket",
+  "rule": "AMD",
+  "rule_updated_at": "2026-07-26T08:30:14.358293+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AMD_rules_e09e607d5bfd435a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9daf426408220e0fcbe8a28d52b1e35da0e723cb5804cb8f8202547f9e650f6b",
+        "bytes_sha256": "6f2e0f11000810d7f7439d60406063bcc69fcabc18cce768bd5b2a4883b45ec8",
+        "semantic_sha256": "b7753176478f3386c71f2885a2295123aa8542a7b7b22128ce7d40ef4737925c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/AMD_domain-set_c99ebd2cca7d41dd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6a6b25aadf504234a4cb3010941d9f9e43e950505a65b198ee4b82a90e17085",
+        "bytes_sha256": "70f4e4c0e4df67f91d0062a2082b9b91ebf0f3aef24f0668f3f375d5f7a8450a",
+        "semantic_sha256": "e11ebee6c0167152d11baba4c397b34006a5ce0d376ce9df9416fed1f4139758",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

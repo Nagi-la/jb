@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:13.180933+00:00",
+  "client": "SingBox",
+  "rule": "Rust",
+  "rule_updated_at": "2026-07-26T08:21:18.904100+00:00",
+  "type_counts": {
+    "domain_suffix": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Rust_source_d17d831c70552460.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "89d87da0660d0515a182936ab12e63aee470e7ed33a73efae8741d426dd0bbc8",
+        "bytes_sha256": "0df0b6db82995f87b2b75ca8e88844311966dfb92927a8b0646806fe7ef4973d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Rust_source-srs_ae41ff05ee297a54.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6afce896ac80695f4df56a0564c7c870ac3b187595471a63bcac97d36b4b76a6",
+        "bytes_sha256": "32f0fc6685681b68b35243ca14f0a311d3cdaec12ced97677ab012ec86d7af26",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:39.756776+00:00",
+  "client": "SingBox",
+  "rule": "NaverTV",
+  "rule_updated_at": "2026-07-26T06:57:32.773370+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/NaverTV_source_713c2d559e987ec8.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "994605d19b67a50b56de6c79c3188991d01cb44dc294a3d93886a1448b46f226",
+        "bytes_sha256": "6718ed0d272cdf1f02f115afafb7850bc7d5aa2ff1eee9aa25cf445e6015285c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/NaverTV_source-srs_26f2d3c6d19476f7.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "da80cffc42fb70d0609cb5969a31f7ffa68542780be269082fc63485850a8255",
+        "bytes_sha256": "3f79f9103f32c790bb4c87a129b64f56dc9458e86f6fb98d7de66300936a3b9e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NaverTV.list"
+  ]
+}

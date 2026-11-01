@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:49.331730+00:00",
+  "client": "Surge",
+  "rule": "BOCOM",
+  "rule_updated_at": "2026-07-26T06:47:44.302881+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BOCOM_rules_40fc8b9028b420cb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ab65dc95632adf32b73b8ab10569774390e7ae3bcdab6f8fd8096ccef44933d",
+        "bytes_sha256": "81d1043b29dca41b0e1ce15df78791a1b9ac8353248b15662b4d32fecbf2ae3e",
+        "semantic_sha256": "4ec1d9eec946d401801580a281767b08e76bd7112c7f705e212b48390655bdd0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BOCOM_domain-set_33ba5e1e1a5e8050.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "92046080a5bdf439236caae3d1cbddbc256238367d601e86e1d3946bb84dbde7",
+        "bytes_sha256": "eec2af384acc3af7b18536099a3f9dcea9b2bf5e84ff0eaee4e6c442e67fb63f",
+        "semantic_sha256": "a7e748a9deb8fe474054081940a2402e6cdbcd437bf9ae1a9ab3dfdb6d3960c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BOCOM.list"
+  ]
+}

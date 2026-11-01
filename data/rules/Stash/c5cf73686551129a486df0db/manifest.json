@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-27T02:06:48.141461+00:00",
+  "client": "Stash",
+  "rule": "TeamViewer",
+  "rule_updated_at": "2026-07-26T06:21:20.069366+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3,
+    "IP-CIDR": 4,
+    "IP-CIDR6": 4
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeamViewer_classical_104d115b55477ea6.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8578f65dca36e75b7b615e3117adb40ea78f5f622847bab7636a32240b12b6a",
+        "bytes_sha256": "74fe934388a02c13f6768bae5e160ef8c80a58c6ee25e495ec0e0f01db3c618f",
+        "semantic_sha256": "e5d5a4b9ef00fe495467d4e4ad7f735ab73fca782b8a246b55c7373b462015f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeamViewer_domain_815b399b1ac0ca72.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "516b21eeb74aa080b1fb14f37f5d271488cf9baf26770ed2624f2bb10043f938",
+        "bytes_sha256": "91b5c71befb5f8f8cdf56038c380d0abfb4b55910cbdc955e498f0722154809c",
+        "semantic_sha256": "bac01c9d02c3b55626cb25002b6666d5923065ec5333624af5174de88a74357a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeamViewer_ipcidr_609f82f92ab30bdd.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2818ca534169237f6c2b0ccd06c60f1a1fcad26c13efb3e2ffc431d22499a05",
+        "bytes_sha256": "236fd8ccc345d683c790c03f9dbc7ad4d3a0c86c8d5bcf326684c35133dd2b0e",
+        "semantic_sha256": "49a4fead1522c7dcf7482ab4f717577e1a7dfd00c0d15f96ffa080b7bd9cdf92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeamViewer.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:56:53.112332+00:00",
+  "client": "Mihomo",
+  "rule": "ABC",
+  "rule_updated_at": "2026-08-07T02:23:27.289839+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ABC_classical_1e2ea214a1f4782a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "70b18b75df7cc1995b04b69ba1f15defb008e801ec40c5551312042caf0462a7",
+        "bytes_sha256": "bb4ec8ed027bde195f3a3c3e9363da9c7f63bd85fa422021694e03875808555f",
+        "semantic_sha256": "ab74d1c70740f526daae00f77cd0a5ac5f1bb7936a2b965f752185cd4df0ee5a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ABC_domain_9902b86068113698.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac748b721a1ce097e3117cc234413cf690eaa068e50bfb53ef708a460a638117",
+        "bytes_sha256": "5bbf0f13a3f7ba7ccd4acc7f246d11edcd491e2de0731dc61d9cb46da9bf1ac1",
+        "semantic_sha256": "e52562051cf8c286cdf272ea5939ac709b41cb4eafe66f39696ccf70cbdd7d8d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ABC_domain-mrs_02ac711a21aa15e1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "63a12d446ee8ebbbe4791203573fca2a63596aea9400b1f32b0204d24c7cba57",
+        "bytes_sha256": "ce0c214c453b7800c167c8d6d51804a2a81f0e587b7ca2e2a1222e22b455bc42",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ABC.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ABC.list"
+  ]
+}

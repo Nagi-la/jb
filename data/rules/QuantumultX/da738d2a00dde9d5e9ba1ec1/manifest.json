@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:16:51.187811+00:00",
+  "client": "QuantumultX",
+  "rule": "SMZDM",
+  "rule_updated_at": "2026-07-26T06:27:52.575061+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/SMZDM_rules_c677188347e6fa21.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5770b07af41ef00e300e79c8fb7bd1da0232483ac0b8649cfbda19cfe6c8eee4",
+        "bytes_sha256": "7f8727ee8723a95b2d58af7da6194e539213cb78bb452cca6d19f30d171fa95b",
+        "semantic_sha256": "a7780a3e4aa54d60c2e8db169cf6b2902050bad51224b461b7c6cbbbdb2fb813",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMZDM.list"
+  ]
+}

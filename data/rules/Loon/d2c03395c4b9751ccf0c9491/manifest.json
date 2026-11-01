@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-09T16:03:20.936810+00:00",
+  "client": "Loon",
+  "rule": "Tencent",
+  "rule_updated_at": "2026-10-09T15:58:46.224771+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2745,
+    "IP-CIDR": 24,
+    "DOMAIN": 1,
+    "USER-AGENT": 5
+  },
+  "total_line_count": 2775,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tencent_rules_35800ebb1b397bb2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3af3930b5c317cb47933d92040435eb790c9d13ea2e885e3547625db0d8ea19f",
+        "bytes_sha256": "675163eca44f81807a8d4ebf68c6d39a2a305ba7f99a6d2559037cadce801885",
+        "semantic_sha256": "5ec0d7d7a8c1cbdfeb16d021a5e46ed6520a31f0de1cda1f6fae98ef7e8f56ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tencent_domain-set_cce4b3468a92ac83.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5db4bd6ce27d8608ee664a652b36883acb7482662cc085ce4930f5fbfd08698b",
+        "bytes_sha256": "3968b45ab2b20c34d570f84cd0186e601eb1ecf80b59dd806539b7cd1dd25d39",
+        "semantic_sha256": "f32505c16a15846f77873d265bebfd0c86d83af1866b82404d67a720869edfed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Tencent_rule-set_f7a7373c78b1c5a6.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "828b1ce9e65ed41b42ebd885c6838f482795bcf5a71268d480a45a5071da588b",
+        "bytes_sha256": "07d3cc936dc6bb0fbc87d3af882ba8c77fc4a9a23089832e1e6e2395ea4d4560",
+        "semantic_sha256": "e5c4d4ab5362e81d0fa7cef6ead2ff5696dde5d1b51b31a8e24bf539742cc7af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Tencent.list"
+  ]
+}

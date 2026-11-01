@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:10:53.630670+00:00",
+  "client": "Mihomo",
+  "rule": "DtDNS",
+  "rule_updated_at": "2026-07-26T06:50:24.121165+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DtDNS_classical_d7d9e7211c48fd7c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff2796fdb2da4a32fdc0312119c8e9ec277ee3f88ded9beb187f2aed0d55da0f",
+        "bytes_sha256": "654a9fcfc8c1999b010fd7a78389553f2cf83c2e93d2643eb64dd11893922be1",
+        "semantic_sha256": "b08476d7a1dab509915580e3380a75aecf0f0287afd8f96dfe14c234f361a975",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DtDNS_domain_c21d19b3b9328a8f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac7247280271693c014579ae0950c390b35c7f01a8eef9f7dcc75dd3fc4f7717",
+        "bytes_sha256": "68cdc6f7961fe8fd0326f0e7c8414aade15e3f2d8107247ec8e7d2929bfd06b9",
+        "semantic_sha256": "cf1be15d173a883cb5a8ac2cf967945a67a397be85013e73013b47d25eac7194",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/DtDNS_domain-mrs_33f230812aca1ea4.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3b07cc740138fda45c4b2754ffbdace8f1098e8ab3c56a7a4278eec6f006b81a",
+        "bytes_sha256": "d7028e85f341965b641115c65a735393c6af35ca23ea45c7557b4ed929fe551f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DtDNS.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DtDNS.list"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:02:57.054793+00:00",
+  "client": "Egern",
+  "rule": "360",
+  "rule_updated_at": "2026-07-26T08:29:45.992342+00:00",
+  "type_counts": {
+    "domain_suffix_set": 286
+  },
+  "total_line_count": 286,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/360_rules_b5b513047b2ae673.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c4950251df5ef2e95e924009e8cb9fa67e20c5bb72b8d769c0fca06138021350",
+        "bytes_sha256": "8b5cd0b94e8026e5113e7298a51dcf686bd540a60bb48cd0e92b31b397d53006",
+        "semantic_sha256": "ac0db279824e302be2ff9bdbdaf5f7ede4d944cf5d1151ee12f483ceac6c8ba2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Qihoo360.list"
+  ]
+}

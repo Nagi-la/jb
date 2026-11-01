@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:13:48.632890+00:00",
+  "client": "Mihomo",
+  "rule": "iFlytek",
+  "rule_updated_at": "2026-07-26T06:30:16.574445+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 152
+  },
+  "total_line_count": 152,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iFlytek_classical_b135b37e7ebf41c3.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fae3d528a6ffc4b2376183506eb24758bea6712a00f9a3476737134be22fc8c",
+        "bytes_sha256": "97d6a5a1d9c1d277883a41d6851d8c0cdc550edf207d6d77a869b160e2d44d66",
+        "semantic_sha256": "facd2f46b579d641cd795365713ddf500286ee4b03abcc0817c0e386f36aad18",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iFlytek_domain_78669cfcd3668f43.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4edd3b7413dbc68d2fb864123cdfb1213f44a4ea9bee5869ffb03af7f8ff409",
+        "bytes_sha256": "b04846a3d509bb9e064287bca0092c5f2b8b2a8986ee51f15719239cdf75ddce",
+        "semantic_sha256": "5322d24af5bb42455065d2e8b5f7b0413a4f659d2a5c05f2f547b399b39d8a26",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/iFlytek_domain-mrs_d9cd69e0843dcf64.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f333783c6d5a5c0f8277220649a8506432b4fb6e1e4929df37d7a01bc400728b",
+        "bytes_sha256": "4cddf6b111b39989ad23e3fed8c21058522c9ad38ab32e09196b09214d7dccee",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iflytek.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iFlytek.list"
+  ]
+}

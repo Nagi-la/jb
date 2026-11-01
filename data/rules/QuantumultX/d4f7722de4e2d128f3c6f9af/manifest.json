@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:04:30.540560+00:00",
+  "client": "QuantumultX",
+  "rule": "Jfrog",
+  "rule_updated_at": "2026-07-26T06:50:46.367821+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Jfrog_rules_8a123634d707f0ff.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "433e611c159f48bc4b612ca3855b5f75701b95b02956cc9759a220f895378236",
+        "bytes_sha256": "2861e8a53b0ab412ee0ca2048fb40c30daa1eca038100c3db6c1a24d9b06ce60",
+        "semantic_sha256": "1a94223f07927b6c2aa45fc0653f90be8dcd9fa94fc23e0ba9943987c2298f6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jfrog.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jfrog.list"
+  ]
+}

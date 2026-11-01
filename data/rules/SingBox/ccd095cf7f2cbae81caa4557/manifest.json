@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:10:21.634014+00:00",
+  "client": "SingBox",
+  "rule": "Zhihu",
+  "rule_updated_at": "2026-07-26T07:00:11.468719+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Zhihu_source_7444cc8099cb57ad.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "111f109bcbecac29777f39f36cae31e935d2bcfcfd560acfcc3af0b0a0c94469",
+        "bytes_sha256": "6b9467894c85b0fc37cca1a71b304472986836dce6f2f6d23b91edb75bb8d6f7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Zhihu_source-srs_67aaeed6120054c6.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4fede57da1b13d88b2d14a7ba2bf39f58f187b9ce9db88ac216f1ee146aff667",
+        "bytes_sha256": "87ac7d4ed617e280202fc20232c35a1c86563ae33c306f260152336f1d5b7133",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "知乎分流规则，目前只收录部分。\r\n\r\n绝大多数CDN服务器IP地址并未收录，欢迎补充。",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

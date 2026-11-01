@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:55:52.197308+00:00",
+  "client": "QuantumultX",
+  "rule": "Yahoo",
+  "rule_updated_at": "2026-08-27T01:36:24.037412+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 177
+  },
+  "total_line_count": 178,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Yahoo_rules_ce27f75a53791e7d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48b7181693cdcf1905b677b50ac91444a5fc64747e429f643d2eb50bc92463ce",
+        "bytes_sha256": "dfbfe9f7398738f8cfeb6bebc5e16402bab8a15f9a3b7963fc3cf57b3846fd29",
+        "semantic_sha256": "8ccb32f7a0a5f2f9cae0bfd96928ffc6f3c2a8c64ba0f58eb663cc7f78dfca00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

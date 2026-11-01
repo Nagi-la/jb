@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:57.964215+00:00",
+  "client": "Egern",
+  "rule": "Dubox",
+  "rule_updated_at": "2026-07-26T06:36:02.492743+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Dubox_rules_e859b9e748462ab9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c93c41b897e69eab181a4e55778a7bec6ae138ad1e5f5327055c47cac5089be",
+        "bytes_sha256": "a4941f1f575dde2e93768a76c436a7987c140749929248a5258a2c4d76ac2ea3",
+        "semantic_sha256": "f0cce4ca4b3af12044636a19d342a08038741a9512480d7f51b97660e46f7ade",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dubox.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dubox.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dubox.list"
+  ]
+}

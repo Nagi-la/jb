@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-27T01:57:12.879185+00:00",
+  "client": "QuantumultX",
+  "rule": "DAZN",
+  "rule_updated_at": "2026-07-26T06:21:35.619607+00:00",
+  "type_counts": {
+    "HOST": 2,
+    "HOST-KEYWORD": 1,
+    "HOST-SUFFIX": 23,
+    "USER-AGENT": 1
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DAZN_rules_f30fedfccfcc6108.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84d49be0c109332c760b560e13a8109430dbc8376a1f3eef7ff552eadbeaf35b",
+        "bytes_sha256": "1e67222059606c2cb058cbdd828e64b7d837ce2788218c9505fb2bad58a90e9c",
+        "semantic_sha256": "f917292e10133492d9a47c14273d4a9b14911513fb41729ff060b714a4d9bdab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DAZN.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/DAZN.list"
+  ]
+}

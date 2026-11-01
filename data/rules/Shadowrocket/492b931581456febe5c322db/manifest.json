@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:14.696139+00:00",
+  "client": "Shadowrocket",
+  "rule": "Haier",
+  "rule_updated_at": "2026-07-26T08:32:57.326212+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Haier_rules_e509a82db8bca595.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "12537c1f52bf70122be7fc09844e2e22c0730391dac7554d7eb60ca385034297",
+        "bytes_sha256": "e5bab8325c4386946cddd5e5cc55d2e04e00e0d6f809e5b2dd43e8050aa0a9fd",
+        "semantic_sha256": "893f0b085052bf96c4d61272a3d50e7b65e6d5100c343b36f329a95643d553a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Haier_domain-set_d8a272070dafd37c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac6374f118c4529de75dae41f74b8f4997e38df8873391471a3fcc889f02c89e",
+        "bytes_sha256": "721572319bdbb1ea7fb409e7b322e66ae2e061356fcf8a4900097db6bde35b49",
+        "semantic_sha256": "169a2b7ae84e5a5891090c2284c540948b2a35413b02048c8765eb3e03170248",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

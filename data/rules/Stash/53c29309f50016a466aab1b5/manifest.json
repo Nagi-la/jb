@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:58.531153+00:00",
+  "client": "Stash",
+  "rule": "UBI",
+  "rule_updated_at": "2026-07-26T06:32:24.444808+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UBI_classical_58105eeb0a439b2c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d40e8bf2793d0fd2d8f9c83dcf1bf741df3b4f629dc84a0af0a7a7035a8396a1",
+        "bytes_sha256": "69a7f362004db7d3af718a3761515a9b0c23247a28541789e6e0da9a0b3b72bb",
+        "semantic_sha256": "72c6c47f88c57a64b66333c1fd5c153dfdabc82923e8ffb0a2a5e6d08c98007c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UBI_domain_d8d844ee46c78510.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8fb458ddaed47441504d3c05e30e93b1bd68e7fc689af08ee7a4e44483a525a3",
+        "bytes_sha256": "03e018b515d9bc231d20ad7a4eae8413b099a2695df5f7b8b4033faaf15c81d9",
+        "semantic_sha256": "3df852544e9cbac85f8e3eece2af2b4b9f240418f3b39981a193450b9f6db1cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/UBI.list"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:05:23.149052+00:00",
+  "client": "QuantumultX",
+  "rule": "Faronics",
+  "rule_updated_at": "2026-07-26T06:58:17.572375+00:00",
+  "type_counts": {
+    "HOST": 1,
+    "HOST-SUFFIX": 18
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Faronics_rules_140922a30e543d9f.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "67dd888714202a7d7a3faa2962875a058365e26535f140dc78db026d51898ae6",
+        "bytes_sha256": "8632993a7b2bcc9b99b5543f1c6ac69185ec794cddeb36b9773c10eaa5a1730c",
+        "semantic_sha256": "5724c98ca4c5e8fcbb84f1040ccd6098cfbeb4bc75fd0e52662db6b136651def",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Faronics.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Faronics.list"
+  ]
+}

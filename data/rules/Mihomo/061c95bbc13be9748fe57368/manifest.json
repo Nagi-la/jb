@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-10-29T01:52:49.977337+00:00",
+  "client": "Mihomo",
+  "rule": "OpenAI",
+  "rule_updated_at": "2026-10-29T01:51:38.541245+00:00",
+  "type_counts": {
+    "DOMAIN": 12,
+    "DOMAIN-KEYWORD": 4,
+    "DOMAIN-SUFFIX": 32,
+    "IP-ASN": 1,
+    "IP-CIDR": 3,
+    "IP-CIDR6": 1,
+    "PROCESS-NAME": 7
+  },
+  "total_line_count": 60,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenAI_classical_cda01886e7b2ee62.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3641dd4ebcfed883afba6649486afa1e7ff0058864d09b4f415937bc8c476437",
+        "bytes_sha256": "f8b8ec045ad3259ae5db9c1137ca013aab968a9988899f498def4c6e8814858b",
+        "semantic_sha256": "afc5c477344061483d812c1c67c107b485d2399a8a49d30863e05de91a8f046d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenAI_domain_debf20366ce1407d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7bcaad0ed1dd06b44da7d0b304c1512f68dfb3221c9d3a71f5f3fe213cfef1c4",
+        "bytes_sha256": "5fe30f68455d41667b985fa4cb4d6b3f8543d5820bb09ebe863893dfa267b9e9",
+        "semantic_sha256": "efc956c71c28d97d2c8b890929a24239dff4afeb2f96f583bd3e823d3b797b77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/OpenAI_domain-mrs_fadf486f6b825017.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "592d1011fab3ce3b2028f269447a26dce46dbc66b8662461f021281cbfedf80d",
+        "bytes_sha256": "082d02aaaf029b6490486a932dd7f1564a3b06416ab82c71e5993c476d550410",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenAI_ipcidr_29f361d788d370be.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "32c32c78a40acdd1a8d96ffa0e021a13674e6f9cbf0e24ec82c6a8d488ecb5f0",
+        "bytes_sha256": "63f971150b37d2e42b18e1fc0ab4c325a11e6d6ccd8fb58b87e2081e17459aa0",
+        "semantic_sha256": "63babfc0e952480e196ca79a773645a0b6dedc0fad5ca9bf762ceb3939ab8d65",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/OpenAI_ipcidr-mrs_3d1dfb54fd27623f.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a6fb0a8d05eb5f05e0101492d5a2e4c435cb5dd8c45805a2c74b78913f981811",
+        "bytes_sha256": "756ca606eaac8420e1e66def2f7a0380f986578d28b3a6b1d3e13b4fdd297f37",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/OpenAI_classical-rest_14d129e87baba6cf.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da5fe4681d21dffa02053274e5643e9a416eb01618c9e6c62b862c7156964002",
+        "bytes_sha256": "b09d3e81c640ecd50560304312328daadda2cc48366cb8c000b13e20e301d2e8",
+        "semantic_sha256": "20dd903b20b34a0f8b09f354d0c5c9dabc2430632c28e65a47759884e4275454",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/openai.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/OpenAI.yaml"
+  ]
+}

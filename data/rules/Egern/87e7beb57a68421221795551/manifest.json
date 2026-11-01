@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:06:46.705751+00:00",
+  "client": "Egern",
+  "rule": "TeamViewer",
+  "rule_updated_at": "2026-07-26T06:21:17.597177+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 3,
+    "ip_cidr6_set": 4,
+    "ip_cidr_set": 4
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/TeamViewer_rules_3ac9f17d78370eb5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1782c8eb10a453e16d360d3a049dc0d25bedca1a1b5c5c590464294bd86fbe15",
+        "bytes_sha256": "5d040441af1d2c9405fb72bc8de84835462101b014632bb173f4b40fc543e24a",
+        "semantic_sha256": "eeb53c2b515fe1c61aece2c9d555bac6a2bcdbd94119c055e7b979b9a70d2613",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TeamViewer.list"
+  ]
+}

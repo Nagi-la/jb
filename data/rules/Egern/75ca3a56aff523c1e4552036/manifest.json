@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:10:24.092241+00:00",
+  "client": "Egern",
+  "rule": "Fastly",
+  "rule_updated_at": "2026-07-26T08:21:15.993241+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Fastly_rules_1c8bd9f6f04669fb.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d65ccdfc0e9f940aab88712f80906b446eedfe64b3fd2099650643dc3a0a83b",
+        "bytes_sha256": "15105f4471a37e34cae2db77abadf3fc8a624f745823b0f2a89b3dd6cc406640",
+        "semantic_sha256": "fc5607b819629f2705d5e70b164dc4b16914b79fcdcf015f37f9c31729b4c08f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

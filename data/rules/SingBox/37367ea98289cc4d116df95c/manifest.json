@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-27T02:14:45.928057+00:00",
+  "client": "SingBox",
+  "rule": "KakaoTalk",
+  "rule_updated_at": "2026-07-26T10:35:33.666964+00:00",
+  "type_counts": {
+    "domain_suffix": 59,
+    "ip_cidr": 6
+  },
+  "total_line_count": 65,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/KakaoTalk_source_db93ba044e997c3e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "48bdf3b627ae15f3ee944fa1134aa0a46c368f97e8b41274436a7a8346533de9",
+        "bytes_sha256": "eb04d6bd1ba619f7851cb06e2003752fe6864c9c8fa175c61d98b3cc78178759",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/KakaoTalk_source-srs_a4c67ed586cc0192.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ee3527b2b3b40aca9ef45d9179d7a4a1d8ccfe35de2e177c4556e43e1e7a11ca",
+        "bytes_sha256": "1da094ad07dfec29a336b6cf2ea1d3db51fc5dc90642bf8faf1cb6e59e90e320",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/KakaoTalk.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Kakao.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/KakaoTalk.list"
+  ]
+}

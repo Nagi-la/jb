@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:10:24.771037+00:00",
+  "client": "QuantumultX",
+  "rule": "Fastly",
+  "rule_updated_at": "2026-07-26T08:21:15.134894+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Fastly_rules_db90d27e56857d6d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4899e755e87edbea0f824f9b30b25201915484a247b31ae765790062d5b6c6f2",
+        "bytes_sha256": "46fa94401a9a21ed3bbd3fa29681cc385f0e2ecb3645980b9f1b3f06036c30d2",
+        "semantic_sha256": "8a637fe6ad660dc1249c9583528d28bc1d5340150bc099bf794d67f4627e0f34",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

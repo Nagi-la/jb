@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:15:55.233470+00:00",
+  "client": "QuantumultX",
+  "rule": "MeWatch",
+  "rule_updated_at": "2026-07-26T06:22:17.991596+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/MeWatch_rules_035e6652d5800016.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "99e2b20773858151904d306f40837a74b7c084177f932c5bcc1a3b2b3bc552be",
+        "bytes_sha256": "9c1303dacfe8a3ba4ce29eec0d1f6996abcbf2c2e23275ab57459ca2b67be6cd",
+        "semantic_sha256": "ef09f012db40882d01483128e87253fc496310b836f642c5586fe1dbf4cecfe3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/MeWatch.list"
+  ]
+}

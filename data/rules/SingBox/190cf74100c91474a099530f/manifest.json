@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:32.375804+00:00",
+  "client": "SingBox",
+  "rule": "YiZhiBo",
+  "rule_updated_at": "2026-07-26T06:29:46.224049+00:00",
+  "type_counts": {
+    "domain_suffix": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/YiZhiBo_source_ba090155fa5a79ec.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d6da0c10b7b5a5dc001652825d5d1c9e9dc21813319f4def367d1634e7b7d5f0",
+        "bytes_sha256": "ed2cb2f3a757c362e6596e0af068a9ea79f304b9898f55f452ff74b716eea551",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/YiZhiBo_source-srs_730b2111bf1449dc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1a1fca07c8650ed189f9f854d1b223e3af22b8b655b5c648ec22dbaa7ff9820b",
+        "bytes_sha256": "6453cf1509b235e63dbf0795e663fbc6bdbb86110cce7201fb3ab1aa58917d21",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/YiZhiBo.list"
+  ]
+}

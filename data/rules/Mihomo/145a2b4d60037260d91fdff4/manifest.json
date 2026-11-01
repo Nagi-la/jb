@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-08-27T01:56:01.771446+00:00",
+  "client": "Mihomo",
+  "rule": "Opera",
+  "rule_updated_at": "2026-07-26T06:52:49.083448+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14,
+    "IP-CIDR": 15,
+    "IP-CIDR6": 5
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Opera_classical_88c1de58857bd16f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5ecfe81f2b4e02b1c70ad09ae225b73925ec5fd42b76d648594aca9c4eaaf92",
+        "bytes_sha256": "f091a1861aa7ff157f73b4ccdb1c66a9cc98c53ea38aa53a23a32b2498850a66",
+        "semantic_sha256": "3fde33eb1ec5c6353f05bc1befadfb3cabec13f5a6e4e383cdace74760cdf3cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Opera_domain_340af67ce8c47f36.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f664dd10466e5d3bb8b65305cdc06bde750d79810d0546f8af4ef19c19520db4",
+        "bytes_sha256": "30130ed01ee2396c9d7794464fe8bbeba7b13776266a0abe80f95a97d9f42254",
+        "semantic_sha256": "69acace24982c40fd86ab72ab59645438918445c1b3c6dcecedaa2f0c98d1c5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Opera_domain-mrs_ab8676727e9e9c6f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ab1fb24a0008bd14caf059b2f41f07863d8a25b830b55bcba077e5bcab15b2de",
+        "bytes_sha256": "e858d27cea7048063c50103375c68401707c74beb4da15e8e81cb32014edb9dd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Opera_ipcidr_d05e741efac9f618.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c661b12c154f237d6fabf18a19382d3334958a6051af4d01f744a408a529610b",
+        "bytes_sha256": "0cc1ba4419511dfce510a6e139160914c0f18b3722da5857f25d62728168f961",
+        "semantic_sha256": "67ef2a0a1bda5644c4171e83fdd0e2418f9dd06491b12018eab638672951cf6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Opera_ipcidr-mrs_c756dc0a13752693.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b0643aa634d4fe35487b3d4413523becfedcbffdaa875993f6af618d1a64e2ec",
+        "bytes_sha256": "831346461ba1e0e64df3c425bd5863b5f623d7289439c3e8f1161b75f10e8954",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Opera.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Opera.list"
+  ]
+}

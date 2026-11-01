@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:13:49.030523+00:00",
+  "client": "SingBox",
+  "rule": "iFlytek",
+  "rule_updated_at": "2026-07-26T06:30:11.768949+00:00",
+  "type_counts": {
+    "domain_suffix": 152
+  },
+  "total_line_count": 152,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/iFlytek_source_1fd051a190ab3867.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d1ee7f3ec06b32040f867ea8a9da033d29156162cecd9552f2b4f1b75fff0cb0",
+        "bytes_sha256": "839a3d97361858581f9f934f8c0cae21340619e5b6aa06a894d7b638249e36de",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/iFlytek_source-srs_6b29f956b0fd945e.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "23fc8f2a3940b02b7ec02081c7dfd111783f38d0c4d92204b434296eb148b1ef",
+        "bytes_sha256": "77fe026fe2c418d221ced7270bb1d7dbc054431a6bfb4096a1ee10b59335080d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iflytek.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/iFlytek.list"
+  ]
+}

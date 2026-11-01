@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-29T02:45:01.736156+00:00",
+  "client": "Egern",
+  "rule": "iCloud",
+  "rule_updated_at": "2026-07-26T06:32:56.118044+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 55
+  },
+  "total_line_count": 56,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/iCloud_rules_72b3282bd840e31d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c58d6036ad223c630f30dbc1ec215d3932f9a4eb3bb0bbc05b3aa25b8bb90c35",
+        "bytes_sha256": "300871ae43e8a1a1ee08aa86165d51f8ceb624a809f46a02bb79635417f8a867",
+        "semantic_sha256": "3c990629b8ed0d91a27874d5c97006e3ef3d90d3c3258b33ecc84c94f422c987",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt"
+  ]
+}

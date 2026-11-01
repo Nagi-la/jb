@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:57.739889+00:00",
+  "client": "Stash",
+  "rule": "Matrix",
+  "rule_updated_at": "2026-07-26T08:21:54.192592+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Matrix_classical_6230f4a83b5f5656.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7fec1c9e68c15c725bb38d71883657a265d890795e56289215d5875c6ac6b1a",
+        "bytes_sha256": "937e77c084b9458a90fadbd32572515ccad68284c2f5f792e4b483061defd919",
+        "semantic_sha256": "6bcc9c55c2c89270487cfea53c33a82ac6e141dcc3e0b21a4d31f4e193e686a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Matrix_domain_e4bedcc32e5698df.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "691dd7266f80c842070707744cdb30bd45ce82ce2bf8b92c23c4d38b2bb4b24b",
+        "bytes_sha256": "faab26f82d97072fd6aff7dc4b2b88898de9685f07e57b3e99cb3108c52e87f4",
+        "semantic_sha256": "056b06a9de212936453b554cf4adb13cd6f96c958aa844387a21ce8108544338",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

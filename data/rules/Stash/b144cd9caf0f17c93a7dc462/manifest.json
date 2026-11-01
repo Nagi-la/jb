@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:15:36.661792+00:00",
+  "client": "Stash",
+  "rule": "Hijacking",
+  "rule_updated_at": "2026-07-26T06:31:28.101224+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 177,
+    "IP-CIDR": 43
+  },
+  "total_line_count": 221,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hijacking_classical_7fab12900e7b18d2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89a406de903bf1300d2161444980fcbc443fcfd65f10fa0ebdb551ea441afa0d",
+        "bytes_sha256": "0483e77b2fea71db60d8f7466f968e6dfff61acc14c732c4732888fbe342a087",
+        "semantic_sha256": "0d221220d5dd007f2196bc21f2279ef6c5aa7356d1252fa252519020e63ec27e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hijacking_domain_96d7da3bd5e7abf8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db59df1b6183efc15b362591419948390e7809a5db96ab14c9bd46c12e9e8ab0",
+        "bytes_sha256": "75861477c9839682d9e4bd91c0eefdab5a0059860bd41cc9afbbdd92e2aeaf96",
+        "semantic_sha256": "b192854b84f23dff654f3ac150ea80248ac08de93824770fef748ce9f34bbf91",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Hijacking_ipcidr_848aff809cade0a5.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4e85dd38c2e52846e382a531388c32b7e1a3cc27ab562330d6b40492df58ff22",
+        "bytes_sha256": "f72dc80566e2ede8d5694c2960e3a2d9865291da0c9c2c83e0e9680944826794",
+        "semantic_sha256": "7c67e44e573b2e267f30328efb915c05c1e46fd0ba9f519b7f0929307172071a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Advertising/Hijacking.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:02:24.685408+00:00",
+  "client": "SingBox",
+  "rule": "ChinaBroadnet",
+  "rule_updated_at": "2026-08-07T02:23:09.960666+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ChinaBroadnet_source_d36a7287bd8015bd.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dabb91c367d3853b9e155ba2d60af5034931c96660178132d4dcc5a1d9683935",
+        "bytes_sha256": "eb1b7f56c5a3921268f4576ad78a3ae146ea8fe1c2bc08fc48547bc39d0a9614",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ChinaBroadnet_source-srs_601dc8d854efcc55.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3fbd5bfa49acd9255f85d4e11cd4d26b81bd7aa4d88c7a2eec5c37596ff726af",
+        "bytes_sha256": "4e7fac2828acf1473b443c414d5e1b87f874f3a28b1ec28abc971db018d46265",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

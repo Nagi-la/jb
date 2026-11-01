@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:44.269195+00:00",
+  "client": "Shadowrocket",
+  "rule": "FeiZhu",
+  "rule_updated_at": "2026-07-26T06:24:56.783270+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/FeiZhu_rules_48e62d1011c52b07.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e38baaa49b1042a508aef9e7adf1b477990e2c2309638e2f8162223b26514ff",
+        "bytes_sha256": "8882449903341be696ae898e3df44d57450c1247a87d09e7b17bfd3af0d330f0",
+        "semantic_sha256": "c41eedf746b546c25d3185c9077bc4a4801f6fcc04be114c6f8e48c0f482bdbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/FeiZhu_domain-set_96e9b873f503ae17.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "821d8712dbd5601546c166b76d0e0dcfd3afa8c701029753f10e7dc17b56ef1c",
+        "bytes_sha256": "5dc9b347c3f4588597c5039fe9361b03d0900350e2ddabc900e8f7768e866f4c",
+        "semantic_sha256": "973501987f588ebef1f841de5a04d0dcdb8f5a0bac125cb53cedd080a20f3b1a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FeiZhu.list"
+  ]
+}

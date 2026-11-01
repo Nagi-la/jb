@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:04:30.956242+00:00",
+  "client": "SingBox",
+  "rule": "Jfrog",
+  "rule_updated_at": "2026-07-26T06:50:47.281799+00:00",
+  "type_counts": {
+    "domain": 1,
+    "domain_suffix": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Jfrog_source_1b8f9d21964c92a9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1a0c4f1b87beaeb2609c6bfe4d896e20081d2534947fce9e6d302cb019177d11",
+        "bytes_sha256": "4637f6b3959ca7223cdc4b6dffcde3b97abb9ee1a1ffe57a602d2f7bab716fa0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Jfrog_source-srs_3f9f0c80c0826ff9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bb8bf3b835a4a41153835a2234d9d6ad8a4181625b329e2d65da6392ad0d34b5",
+        "bytes_sha256": "60c85b093823c39960973ad3368539e49f8525d28cb4fd799c338949425d1d45",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jfrog.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jfrog.list"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T02:16:55.703074+00:00",
+  "client": "Mihomo",
+  "rule": "Akamai",
+  "rule_updated_at": "2026-07-26T06:30:44.710806+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 81
+  },
+  "total_line_count": 81,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Akamai_classical_6212b0b31d95328d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d442225a6ef8f3feaef75f2f8fd99bbc6d207fd8e86e50201bb512cf4c5b1715",
+        "bytes_sha256": "db0ccfc81a1b0df8a89b088f8fd74818f89a6b0ba62286a9ce99348facb2e334",
+        "semantic_sha256": "d4b6762817d951e4ce7e7e559e1ab201a29ec8c2f409660c12f0307bc759449a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Akamai_domain_7619b43563887809.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7d0c1f69ff0856d8e172d13cb37a3eb3075dafb98bef1ff7fc8df2a120808548",
+        "bytes_sha256": "ffe6146a0d177c8248eff4c230d9ff9e1f214c5b7e07db234b814edb6edd131f",
+        "semantic_sha256": "a9f0f7519dbc84f35c873124cf187bb9a6275da44d383df393e96ce0eb8f1d61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Akamai_domain-mrs_dcf9a2628f5f6871.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8278a49ab257b8ff04f1e7ffb18634075d6c3daf75f23238cec113793ed7d90b",
+        "bytes_sha256": "b3338b91c947a2971f1e6a9bb5c4e75e15b00b050a9b3702d4220a362e8704b9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Akamai.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Akamai.list"
+  ]
+}

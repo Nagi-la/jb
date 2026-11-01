@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:10:54.014881+00:00",
+  "client": "SingBox",
+  "rule": "DtDNS",
+  "rule_updated_at": "2026-07-26T06:50:21.754976+00:00",
+  "type_counts": {
+    "domain_suffix": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/DtDNS_source_aa5618705277a488.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fb4bfa73ba43183913d0aee82d5f24e06f56ac94185ec71a258263bc2237a646",
+        "bytes_sha256": "ca9df854b823f2e034a13e47b9c1127ce867208e2296a49d426bfd1b50866e68",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/DtDNS_source-srs_215053d5f87c24a5.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "070d071d77c8dfa08c4d359f88179b53c025a68a2c678b51dc6efab26b14b977",
+        "bytes_sha256": "5086a1f0d73cbd831a0d9dccc287a0d54053b5e4a0373a2ab4bb4ee99436b306",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DtDNS.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DtDNS.list"
+  ]
+}

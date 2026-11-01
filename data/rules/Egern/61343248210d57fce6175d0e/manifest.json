@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:02:51.624822+00:00",
+  "client": "Egern",
+  "rule": "AirChina",
+  "rule_updated_at": "2026-08-10T09:41:21.196238+00:00",
+  "type_counts": {
+    "domain_suffix_set": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AirChina_rules_28ea45409194ff73.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c091bdbd48cad495b2e676ad7e77f6fd14f8e8993092adcbfbf6da52ec331b9",
+        "bytes_sha256": "f2b0dbd5e984cfd04e059875ec56f3dda3e0b2a211dfb4d5080e18e814275db6",
+        "semantic_sha256": "f3d279faafccf49e7cfc090924d60fb4250979c4d2335286a70970a8f86be2bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

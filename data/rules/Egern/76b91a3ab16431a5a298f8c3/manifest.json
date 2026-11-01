@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:06:50.460264+00:00",
+  "client": "Egern",
+  "rule": "DMM",
+  "rule_updated_at": "2026-07-26T06:49:41.680221+00:00",
+  "type_counts": {
+    "domain_suffix_set": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/DMM_rules_251fe1d4c5ac8102.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8387dce05dacc162c7a120f3c061cdcf1aa6f9f0b2d87b373214133398c06a7",
+        "bytes_sha256": "28fd770519aa94b5fd077eabdf41f6d19460166c3f4dba5a485fe9de8434f5da",
+        "semantic_sha256": "82b03852bbb29fc9622484264c0e658dd80d0d8b0c93c17f3cf1316cf11dbcad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Dmm.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DMM.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DMM.list"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:56:56.300710+00:00",
+  "client": "Egern",
+  "rule": "GameDownload",
+  "rule_updated_at": "2026-07-26T07:15:43.341282+00:00",
+  "type_counts": {
+    "domain_set": 494,
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 498,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/GameDownload_rules_5542cd90f2a633f7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4d838da529a034ebe482c0dfa25de3baa735a9247aeb5349cf8828a720c9b7fd",
+        "bytes_sha256": "97efc9f564d68dbfc0a36105bb4410b5120b00be54743f7c73fb008699074bb5",
+        "semantic_sha256": "3fcad87b150466d3299b438c9ab62c140eafc26055cdb79820c0989ab99f3050",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+  ]
+}

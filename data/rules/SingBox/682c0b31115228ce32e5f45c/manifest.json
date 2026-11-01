@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:15:34.571169+00:00",
+  "client": "SingBox",
+  "rule": "iTunes",
+  "rule_updated_at": "2026-07-26T08:33:06.399342+00:00",
+  "type_counts": {
+    "domain": 45,
+    "domain_suffix": 53
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/iTunes_source_c365f3ae2b5d6f43.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1225980db9d78527538fde685a81bc9baee398fe3934397a0c9aceea80534680",
+        "bytes_sha256": "a3f62e205b872d7f26da79ab3c4c58b4381a8e0094f0b63bad35fe855a6e98eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/iTunes_source-srs_b1176def5178bef9.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "86a1116b420d25dfb6dd9c59f4580cb0d4ef1f18048b1915d8ac41e885894321",
+        "bytes_sha256": "40676ab8b0312f73c637e4c377e36bcb69e0a3244990d8560cd980fb9cfb88d6",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

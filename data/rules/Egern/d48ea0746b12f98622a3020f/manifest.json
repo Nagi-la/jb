@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:00:49.631959+00:00",
+  "client": "Egern",
+  "rule": "U17",
+  "rule_updated_at": "2026-07-26T06:28:29.294563+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/U17_rules_34943e1d83457fc8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35388a467ad8b9ddc8e1a4ee6fd58a83eb13afc1ef698644e7e931db39b324e0",
+        "bytes_sha256": "d399186a1a8ca891f7c5c6bfe98179e4633c1936d5044503c97ecb5a03598674",
+        "semantic_sha256": "37782d38dcdb43b6944bb0964b6689ea2b32530dd1667ca42788768519e1838c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/U17.list"
+  ]
+}

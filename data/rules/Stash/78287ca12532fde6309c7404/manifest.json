@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:11:03.356922+00:00",
+  "client": "Stash",
+  "rule": "Adidas",
+  "rule_updated_at": "2026-07-26T06:30:40.656074+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 90
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Adidas_classical_4b9ff53ea079553a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6862e8f635b81f8cb6226b4ea9eb96974ed2fae66e9169b604ab5ec15e359f6e",
+        "bytes_sha256": "a984ca23fe6bf5673ce980850858dd1586dcd4cddcc76ce2361d3aa2930400f1",
+        "semantic_sha256": "b03e32b589b915696fb5b9565845cc66abae69cd092bdfb016444f83f1ce3ff9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Adidas_domain_f59c76a9711ac0fe.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "455734fd7fa685a9abc2b7564362716264d8944558386bbbf7f6ba7211b7b8dc",
+        "bytes_sha256": "bc326fdfaf602848351528de72280494050e1a973911709279c69c7c0e4f230e",
+        "semantic_sha256": "6e57b43f4ec43423175a9ac47b1160cd23ab3be3a8485fe8b1f77d1f3add0e87",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Adidas.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Adidas.list"
+  ]
+}

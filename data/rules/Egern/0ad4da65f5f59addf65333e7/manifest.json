@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:00:45.922122+00:00",
+  "client": "Egern",
+  "rule": "ChunYou",
+  "rule_updated_at": "2026-07-26T06:24:16.807684+00:00",
+  "type_counts": {
+    "domain_suffix_set": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ChunYou_rules_a1bcfd6e82cfcb4d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c6b7835d79573039e59e1029702f2e26f78d48f62dcf6aec396dfaa4a049e13",
+        "bytes_sha256": "657224f890a5d64c122eea886617b796e046b7b1bb065bf058ca50b776894021",
+        "semantic_sha256": "cb76a3ccd77d9e6a354af7b748a35d7e7adaa2c21bbd483371d159b88e20641a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChunYou.list"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:15:17.757262+00:00",
+  "client": "Surge",
+  "rule": "DuoWan",
+  "rule_updated_at": "2026-07-26T06:58:34.626058+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DuoWan_rules_a288a26b850055b2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e3688d7e318ba80e5a137f11c6cefbc71604f3be5495b90ef8243055cfbfac6",
+        "bytes_sha256": "1fe22984df630f1a14137f71aa0527ab9ebc2a4be235f257f42ef495a4ae5c6a",
+        "semantic_sha256": "fe6118e330314f4f6da49c1d96f0f7da263f0afcb6e50b4d537e365b733d2209",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DuoWan_domain-set_22b58f8963c8ca65.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7b784bc4a75ee74bbeaa4732ead41e3b5139367dacbcb62d4138eb67f9114e9",
+        "bytes_sha256": "8602ba5e761f08520e0a62043a502e884e5878fdf1dea0b65b213043aa192271",
+        "semantic_sha256": "cc3b7f083517d26ef74bddf02cb66a02508691cbd27c5f2452cac88c0033369f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DuoWan.list"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-16T14:24:28.837738+00:00",
+  "client": "SingBox",
+  "rule": "GitHub",
+  "rule_updated_at": "2026-10-09T15:59:06.624919+00:00",
+  "type_counts": {
+    "domain": 32,
+    "domain_keyword": 1,
+    "domain_suffix": 40
+  },
+  "total_line_count": 73,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/GitHub_source_c57e2ce718a482b0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c2e0cd09c6868101f6de492371cbceec11144da1d5762df66bc276073418672",
+        "bytes_sha256": "9034ba8fa0d5da33943fffbaa5a3b219d1c2c4639bfb97a8a62ed724b1ae8c31",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/GitHub_source-srs_8ebb2604c6b7e065.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6509a70d6caae3e9820ff6dc6731e80a76f4bdc4d81a90440ac510019b62de36",
+        "bytes_sha256": "f6bc4b3d861fe13f1fdb0d01ea108c6298a6b06e52737a396ba96612e0d0855d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Github.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Github.list"
+  ]
+}

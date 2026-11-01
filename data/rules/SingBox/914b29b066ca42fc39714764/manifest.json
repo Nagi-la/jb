@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:01.778794+00:00",
+  "client": "SingBox",
+  "rule": "ATTWatchTV",
+  "rule_updated_at": "2026-07-26T06:21:22.606610+00:00",
+  "type_counts": {
+    "domain_suffix": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/ATTWatchTV_source_605a4367810222cc.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b5e52216a340aaf09640a25dbf406f77956116e1c0ab51e256340181574bf872",
+        "bytes_sha256": "df4b2fbc8ae09311040f2186f89d18be158755f622762c1cdea04a330a311366",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/ATTWatchTV_source-srs_40c87a105b8364b0.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "527ee9a2fb74fa2267461c6e03475e55eda77277512b6378f5409ce304799a05",
+        "bytes_sha256": "b6adfb86879a902e25dd9f2d2cae415b7097960cc6d71a2bf423c9500c0cb164",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/ATTWatchTV.list"
+  ]
+}

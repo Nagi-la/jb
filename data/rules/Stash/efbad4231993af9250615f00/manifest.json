@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T01:56:45.816172+00:00",
+  "client": "Stash",
+  "rule": "JueJin",
+  "rule_updated_at": "2026-07-26T06:25:51.074408+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 23,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JueJin_classical_e132b11e2863708e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e42db562abd6715b8e26efa01b8fea890fb69085d126a4a3689b90d9fc22fc47",
+        "bytes_sha256": "b864f0ce578b2350b5a814a0b4f3c55da57074a72608aa3a8968d90cade4945e",
+        "semantic_sha256": "1ac2257bf88c5584bc560412cc4de2bf70d447f7473a1d4d18136d105144df9e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/JueJin_domain_1161752db565fbd8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba7a56d6f6b9ee15c7bb3d31afc1ee8d4dd87bb9daa5d097c6bc85de889d2a23",
+        "bytes_sha256": "b44016c4378e8653be0a5c74c10f00479e21a2457dcd2645fc451e762a27ade9",
+        "semantic_sha256": "f00e9bbe29008a862f44aa961b0c74693e786e9a8b230cbc07ef261e854cfa89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JueJin.list"
+  ]
+}

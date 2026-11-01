@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:07:05.925104+00:00",
+  "client": "Mihomo",
+  "rule": "Manorama",
+  "rule_updated_at": "2026-07-26T06:51:43.881115+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Manorama_classical_8ae3c3de53ccc197.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a94c0d21966a38798cf3ba1be035bdaa4cc6f90a091a86895c0580544701d9a",
+        "bytes_sha256": "5017312eb2bfebfa6f51d8ba0999a92bf35bce6e70cd6a467280b20494c58e51",
+        "semantic_sha256": "a8f3bae415e49bfa855cb1d60c8353cd3b7f20df49448d5a1adb4e2d6f494564",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Manorama_domain_efd756271a03fb92.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66306de5aa4d4a2775e23cc22c26639a6350bb7357133b1b85b05fc6c3eaedb2",
+        "bytes_sha256": "efed6631d1dbf3b2cf0edd86841059fc4b6336dc00604a211ac0d79dab32fb3b",
+        "semantic_sha256": "b3265fc5e8df16ef623641783bb92ee2b2a90f2bc2df1dda2a0470118edc7485",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Manorama_domain-mrs_0a2e85412fc28f9d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "42a7b9ca6095ddd0698d30beaba978f09e20bece6d7cf5ad13334176c0dc5363",
+        "bytes_sha256": "9007f228b89e7a0e6889ff307e326bc3bfb0c85aaacf80c5c0531858b6dd704a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Manorama.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Manorama.list"
+  ]
+}

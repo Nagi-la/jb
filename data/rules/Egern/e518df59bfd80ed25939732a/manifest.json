@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:16:24.685758+00:00",
+  "client": "Egern",
+  "rule": "KuaiDi100",
+  "rule_updated_at": "2026-07-26T06:26:13.517601+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/KuaiDi100_rules_c0ce06c8f2707fe0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "253883144d1df26685b76b46f64b46d223f6b9238e0f6e93725910bd84f8c0fe",
+        "bytes_sha256": "17acc96a5c459a91922e600d69e982600f1ae47840fe386dbc1bc9851d80dd37",
+        "semantic_sha256": "8cffe37b77de82af35619ce39bd9ae8717f271ed9a6862e8f967bbc10b3df3dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiDi100.list"
+  ]
+}

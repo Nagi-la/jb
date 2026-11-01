@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:17:17.683244+00:00",
+  "client": "Mihomo",
+  "rule": "Sling",
+  "rule_updated_at": "2026-07-26T06:54:19.361361+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sling_classical_453baf4afc7d9058.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8397e6851a20216620540a595fe7847ac08dd5c3ebf4a5eb40919789c3bca13a",
+        "bytes_sha256": "a5428660d6176e1142736348c5d03f8440e497fc6a2795370278781c9a7a9da4",
+        "semantic_sha256": "02861944685248c0a943614e7687d60061e0bfe63d986f60f3dd20f06c53bc00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Sling_domain_2bb5eecb7cafd661.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd155f1b63e9c069d0b1f5e43e9ae34595bf273843497e491634c3bfcaa62e28",
+        "bytes_sha256": "45a773600a711d6074a54e0f1016f10cae809e60739b2472a2515d0511cb9b84",
+        "semantic_sha256": "40834acd381e839d94b4c739506bd7603a22b75cc4e8b7f0c0599a4c7e35508f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Sling_domain-mrs_cec735032428082f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "66508c705f54cb20ccb9d2bb8190ce4e07b84e9bce09daefcfe5de664c26c406",
+        "bytes_sha256": "d6a3600dcbfdaabb445591297a912e6819e7cd737a4045abc7abe1978ec64de2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Sling.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Sling.list"
+  ]
+}

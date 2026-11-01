@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-08-27T02:07:31.070251+00:00",
+  "client": "Mihomo",
+  "rule": "AsianMedia",
+  "rule_updated_at": "2026-07-26T06:21:09.990303+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 4,
+    "IP-CIDR": 6
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AsianMedia_classical_042510ed016d25cf.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75ca956fc09f2a31372773a77616788e955f57336db1cefac2ad727e33db6a0e",
+        "bytes_sha256": "edfa4d81455688a20b0d3f791192fd9963087c58a917ac3bc581e940417109f6",
+        "semantic_sha256": "724ec424ba0f24b064103bcde0b75832ab0dd6cb6b1f1aefbbc2a2e493d4ab73",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AsianMedia_domain_f2661db8c7fd681a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40ac3d39d36244a825a03958c2b2dbee98c0c2e5750967bf69e816d6e6d07833",
+        "bytes_sha256": "ba21dcee72192be96e030e1a17d92618b263bb7fb46d610d23ea8db33820f4ef",
+        "semantic_sha256": "f6eb3d586b1100cad1337bb167e0c3a1cc62350bea734f279c735d1bf0bc6820",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AsianMedia_domain-mrs_5441823401b9219b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "784da769355f7886224b15dba8f86e92d26ea94041b66c711d7cfd1fe3125f94",
+        "bytes_sha256": "86a7bbaec00e238426938f120feef93361e54f9746a12266d529c729f153c7db",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AsianMedia_ipcidr_5006ee8cb65fa34f.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c983028e91d3fab2a9ff1094c9cd9bca099f5a6082daac94bafe49eec9b267d",
+        "bytes_sha256": "abc8883882f80f449c54b50d8ea721bb632e85ff6b9727fb93b446ad7652a532",
+        "semantic_sha256": "071456e125b703c7329c045b66327900a007b9a9e1109cbdc2972f331e9476af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AsianMedia_ipcidr-mrs_6f203947b9342c0a.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "dcdcd13fa13695f8d16e576c891ead1dd1bf938307668f185081d9ebfb4dc02e",
+        "bytes_sha256": "4b4490e852ae320c94857ef37136d15cd06c23a429b4db1a306a4113e0ae0877",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

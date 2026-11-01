@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-29T03:24:29.651346+00:00",
+  "client": "SingBox",
+  "rule": "MicrosoftDev",
+  "rule_updated_at": "2026-10-29T03:05:24.937474+00:00",
+  "type_counts": {
+    "domain": 18,
+    "domain_suffix": 58
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/MicrosoftDev_source_ad14145c862c869d.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "253068ba670bef96fb9359c85d89dfdb4927893bd7a392cd86d390bf7ea71488",
+        "bytes_sha256": "e101be348ddef49343688aa09bc5e3cc4ec0c292fb2d588ca88c21ebe987a0fc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/MicrosoftDev_source-srs_7cac1656fa2bd30c.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "04224ee608162222dc0c68cf16af19bd15b43757fe954cf7389609d3aff253ab",
+        "bytes_sha256": "5b9751c8249276ae72060f2b2851751091c4dd61d6ea3f084eeee0f3f011188a",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

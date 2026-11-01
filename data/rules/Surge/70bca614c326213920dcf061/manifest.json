@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:59:56.218366+00:00",
+  "client": "Surge",
+  "rule": "XianYu",
+  "rule_updated_at": "2026-07-26T06:28:56.015465+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XianYu_rules_b347bcb9b152025b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b186a10259cdea8443f56e4ddd98cfc03d2a40fcd09ecfb6d4d83f3376f0e6a",
+        "bytes_sha256": "bda6313fd06a6afe22778c8978f2600a9b484e8aa6b66afceb91c795f51d8954",
+        "semantic_sha256": "54bdb2687051c64cf4342dd1e4c93b91d9acd996895b861e7dce94eb1c194ae7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/XianYu_domain-set_96d41610f86b89c9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "721a62b433993bade5757bb226f2c8ae6cf0ec5bc14900c41ca0319348366df1",
+        "bytes_sha256": "3f81316181c6991d7ead51912f5867ceb38d17a46d7fc2a3bab61de8627650ff",
+        "semantic_sha256": "a73cd67a974fb3d2cb9e25088c278a4a64b37268ca0e4ed9b680fff28d6c278b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XianYu.list"
+  ]
+}

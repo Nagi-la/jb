@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:07:01.777753+00:00",
+  "client": "Egern",
+  "rule": "CCTV",
+  "rule_updated_at": "2026-07-31T04:08:59.708358+00:00",
+  "type_counts": {
+    "domain_suffix_set": 44
+  },
+  "total_line_count": 44,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CCTV_rules_7866720a7a12bf93.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc69eec11fa8145ef516a9b450d1487f08e6d6f48207119be82dbd1e6ee81dac",
+        "bytes_sha256": "9ce5b18634df97591067a8c6fbf3a8efbe06626c91287e342cae4997fff44ed2",
+        "semantic_sha256": "7252b7500751a5a1e66a9e85ba62bb91c2bb8ebce9c300df80c85ec85b08b2e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/CCTV.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CCTV.list"
+  ]
+}

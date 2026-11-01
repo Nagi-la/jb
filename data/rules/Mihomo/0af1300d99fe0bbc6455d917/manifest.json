@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:15:06.850279+00:00",
+  "client": "Mihomo",
+  "rule": "Verisign",
+  "rule_updated_at": "2026-07-26T06:55:23.263248+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 83
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Verisign_classical_563c2beaae425141.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45c073585eb436031c4be670b9ec2710e91b4f1f26feb663ae917eb4b89e0757",
+        "bytes_sha256": "2fbc24d4c0a21ab41adfe0b5e7799b37deefcbb8e49eea3bc326e4a4826de206",
+        "semantic_sha256": "a8b5c44fac7b59406dcf6081859be368d8636ceac3be1cacc00f8a35ab51ba8f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Verisign_domain_faa914c2b51ed4e2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f032365c0c1d41479a35538e149903ed65d0b553e19f76191ccf97be3213ded6",
+        "bytes_sha256": "b82c08cab7f314a890a760484ae98ce8c3788fee4795bb53838cabc8406d41d7",
+        "semantic_sha256": "88f97362e8615cba479dcdb14279ec27d8b70ed4e9bafe4ad472eb7fb9c7adbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Verisign_domain-mrs_9fa5ec4f8fd9f229.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ee02c34f1e6fb3904598255bbff0757c408c5b76ccfa35fc916d4a6b79d8d803",
+        "bytes_sha256": "8346dbce30cc91bdaf15ae86768e9bbad9d5bce088a1880fb042f8f09ec514b0",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Verisign.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Verisign.list"
+  ]
+}

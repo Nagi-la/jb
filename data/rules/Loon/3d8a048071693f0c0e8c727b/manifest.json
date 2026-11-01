@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:03:58.073673+00:00",
+  "client": "Loon",
+  "rule": "TencentLoLMobile",
+  "rule_updated_at": "2026-07-26T07:16:31.508930+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentLoLMobile_rules_655b55ce03e47b11.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d3193d28fb13fd5cb745b417506b1ec8c4081b227c6e0aaf91d48842d78ecad",
+        "bytes_sha256": "42422303e2679158071ffc0cd62f8b406c9d1cf617023a0eedc2cba7ee13ecaf",
+        "semantic_sha256": "fe435c101fbcac2fe53307520753eb59b1f540cd83b03e78f30e198516a17263",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/TencentLoLMobile_domain-set_f496439d2cc0280b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9c8527465040f25711566df3af3a34300e316ecbe61daeaaa462ddf65b09ac1",
+        "bytes_sha256": "4965cd6f734d5d12c5e2e5205c04935ef0f5e1e217419134ebb40e292ea05f17",
+        "semantic_sha256": "471b963431be80fa56ba3cd5cc331d4d04782a3cf69cb63c82a5faa634f9e0d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentLolm.list"
+  ]
+}

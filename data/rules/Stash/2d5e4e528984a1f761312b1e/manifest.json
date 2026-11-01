@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-09T16:21:53.264487+00:00",
+  "client": "Stash",
+  "rule": "Telegram",
+  "rule_updated_at": "2026-10-09T15:59:00.745530+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 24,
+    "IP-ASN": 5,
+    "IP-CIDR": 25,
+    "IP-CIDR6": 7,
+    "PROCESS-NAME": 6
+  },
+  "total_line_count": 69,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_classical_ec67e1f0a43104a8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f11a245a84bbc7db3f43827a2859a45a0d055518576f269758c4ddae62013574",
+        "bytes_sha256": "38c8220a55bd230046b18a08045e4ce797aa538c5deb523e37f0305951688c94",
+        "semantic_sha256": "ab76fcaa5c4d7069c1561ebe499c92908fc08004cf6c6f4e115d1b44c1b743e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_domain_264a9fa2c66e2e5d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42b79c26b9335640deb819b5cecfd4930cf0534b1ffa56ffbb28a6658c3fe795",
+        "bytes_sha256": "e381dcb104032d84963d1b47d9ac705fab627547ac6a1c87fd8c5f22b66c3735",
+        "semantic_sha256": "b896dcf4ef967e10d3ad54b1885dda626f23a3ffa55e075c25c3974f421b4a96",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_ipcidr_42510262d39e532e.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95a298178d908da5b6319a6d0297d56fccfda684efc1ba9d980a6cfbba99ebde",
+        "bytes_sha256": "41ae12d813214ccc4905d40a548a14c5958f07371cd65d0ea5ad303ce45462a7",
+        "semantic_sha256": "fe5d457dc4777f26f677581d72127918727df12ed9876216051cbea98e44d8f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_classical-rest_a10ac54bdba75cfe.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c097937d32581db0e076a01a9d73a07dc5301d82958151bab4848245f30105c",
+        "bytes_sha256": "202608d1ac0ffdd100bac088150930c020c1f9ffabbf6b011eec6180fb200701",
+        "semantic_sha256": "6970c83e9d105a59da7453873d4cb1169ccfd73f7363dc8917674a50e0bc8566",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://core.telegram.org/resources/cidr.txt",
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/Telegram.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Telegram.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Telegram.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Telegram.list",
+    "https://ruleset.skk.moe/List/ip/telegram.conf",
+    "https://ruleset.skk.moe/List/non_ip/telegram.conf"
+  ]
+}

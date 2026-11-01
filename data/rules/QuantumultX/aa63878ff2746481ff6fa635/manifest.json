@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:02:57.648198+00:00",
+  "client": "QuantumultX",
+  "rule": "360",
+  "rule_updated_at": "2026-07-26T08:29:22.164101+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 286
+  },
+  "total_line_count": 286,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/360_rules_8b222d6074e43c3d.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4269c67ae02528f42b8741388bf9a77f59d6e185bf3720933803008ed3de613c",
+        "bytes_sha256": "6467fece25853a6e671dbd197ac166da7ce98cfb2654dfc82ff16de5658347e3",
+        "semantic_sha256": "9757dca444368c4c390b885dde42925facdc39d6fa6fced5493f3a5de66ed357",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Qihoo360.list"
+  ]
+}

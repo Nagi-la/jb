@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:12:43.767150+00:00",
+  "client": "SingBox",
+  "rule": "LondonReal",
+  "rule_updated_at": "2026-07-26T06:22:18.513298+00:00",
+  "type_counts": {
+    "domain_suffix": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/LondonReal_source_391427c8456d99eb.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7769a06b4f6bd74965ecb8e0aee15cf5d01130e933b43a7f9ab3e1bc0ab02a65",
+        "bytes_sha256": "0302cfbf92effeb2a8bc5a0b7c4bdc53a97f96503e158c0977c5217573fdfa5b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/LondonReal_source-srs_99dce545502123df.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6133db532ef804e1bae7e5220e8dea6340d8e106aef909a0d2211b4280bfae30",
+        "bytes_sha256": "c616f43ac29f5f61d632a8f0706a5eb9414002a7be925d12936d8ec58cce4d9c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/LondonReal.list"
+  ]
+}

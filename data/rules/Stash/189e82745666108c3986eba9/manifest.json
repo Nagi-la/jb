@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:00:19.862975+00:00",
+  "client": "Stash",
+  "rule": "LuckinCoffee",
+  "rule_updated_at": "2026-07-26T08:33:55.290170+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LuckinCoffee_classical_c62d502d7dc740e5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f6c1e305a17d43e2db973d213fddf37b5a1d59a803b2110488afe9bf0ebf74c",
+        "bytes_sha256": "c8f06c24789ac8a17d731f8c120fb637d8c80c66a5d42dd573876ba378c47fff",
+        "semantic_sha256": "61136bc01726b944a7a650c1f58c896f6cfec797dcc131b3bfa6fdf92d81afdb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/LuckinCoffee_domain_3c4c922bdd6f648b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f60ca3e2404517a8b88ef0759cd58344e5833d01ec5cb5b8ef6c733895858f72",
+        "bytes_sha256": "a52190a1a85e974a498033b905eb0fa8938e492b118612df2dfb9f45deba225b",
+        "semantic_sha256": "d0e56bcf8ce05508ca27281489da26da6ae584bb94e561ed7ee03f4464f364e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

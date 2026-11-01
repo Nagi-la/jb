@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T02:04:05.065849+00:00",
+  "client": "Egern",
+  "rule": "URLShortener",
+  "rule_updated_at": "2026-07-26T08:29:09.103469+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/URLShortener_rules_581c93686b317a1e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ad7e7d69a960ece4996f7d316a157adc66270d685436dd81536da6c24580edd",
+        "bytes_sha256": "ba32f62db0392fbd4165dc3015ba20ccd120b1c4d2e6a12a8043f804772525b9",
+        "semantic_sha256": "c7b7e416e52d722b25e5e79be406d269972b8addebacc6cf02b977dd415a77ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

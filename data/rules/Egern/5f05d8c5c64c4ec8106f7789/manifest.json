@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T02:56:29.827563+00:00",
+  "client": "Egern",
+  "rule": "Communication",
+  "rule_updated_at": "2026-10-29T02:37:33.043626+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 158
+  },
+  "total_line_count": 160,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Communication_rules_16631a19f1b42587.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34d6a4d4638b4e9d0c5994a5a6a685a206a5e2a78473d0f2cf07ddcbaef2fe06",
+        "bytes_sha256": "51ddf88cd1d920ad93c37904e3cc49775eafbb2445ba7d7889b1586b1105ffa3",
+        "semantic_sha256": "c49b333005eb0b0482ec09c8340d7db7f1cb9e7be1a06d2dc09dd5d2ab316e6e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:16:06.133808+00:00",
+  "client": "Stash",
+  "rule": "Shopify",
+  "rule_updated_at": "2026-07-26T06:54:04.219929+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopify_classical_5f181dbdfaad929e.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "44aae7d7cdbf30a508ea7a65d26716bdd8898fa90b6c3c0e59290d92524521e1",
+        "bytes_sha256": "70357cef97320106d7cfcbdeae680ba30d06f2ee81283ce37ef1ba9558aa8bc0",
+        "semantic_sha256": "5de950957ab23be9c582ade1f52b1af798c29e336209e9a74b82abddd23fffc6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopify_domain_84d35967502b63be.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e6789b2405d0404e5eff75623eadacb875205c45f1401cca05d47bc92a050778",
+        "bytes_sha256": "c680bf6c3c4f8b29a01a636622ff9461e0efdd5c96a1bcb5a10ff48b820ca218",
+        "semantic_sha256": "c9f9011ef7abda6d9c675396ccd5f30d7f7396c3dd6a26396985df4ba942f16e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopify.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopify.list"
+  ]
+}

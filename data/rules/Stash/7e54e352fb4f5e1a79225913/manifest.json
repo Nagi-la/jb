@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:03:16.854709+00:00",
+  "client": "Stash",
+  "rule": "AliyunDrive",
+  "rule_updated_at": "2026-07-26T08:20:42.538940+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliyunDrive_classical_3a4d7ffaa4361da7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6dbd4149b51c89e38ac25e177a76d0ccb1da4c092c796baaa018f1fc15d638b",
+        "bytes_sha256": "48753ca3fd3db66d0d40d035f0c629f8c02341c587fc1874c7496a66d5af5760",
+        "semantic_sha256": "18415df5359f44abe0d4e74e7f8fb5f6c27d14e596c7afc7529c673712acb9e9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AliyunDrive_domain_aef30ebdfab60dd2.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec759ee144e37dfde197e33536a31205171471d8f16ae3609a111bb06f1e64ad",
+        "bytes_sha256": "4307a5e8ae1fb37537151a7af24be29ad26bd4a3236ddabc36fc0c368829ee01",
+        "semantic_sha256": "a15407e44ec79226df0ade83a113efd920979885bb81aa54ba68d7e805cbf92d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

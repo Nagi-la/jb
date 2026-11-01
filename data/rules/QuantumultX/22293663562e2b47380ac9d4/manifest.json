@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T02:02:33.541866+00:00",
+  "client": "QuantumultX",
+  "rule": "NYTimes",
+  "rule_updated_at": "2026-07-26T06:22:20.581525+00:00",
+  "type_counts": {
+    "HOST-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NYTimes_rules_71df46bad8f68d6a.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3d5692d607847dfefc81316fdae8b9cd50cd961039704ea5e4ddf4fe0c2dbf0",
+        "bytes_sha256": "45ffe4c75eec4f9c4ed9422220966378955d1c8a6dc80bf83b940784f4bac94f",
+        "semantic_sha256": "211f90d78ff1a4313c5da852de8705130f414be7d7f8ef347d1d6b32604f8570",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/NYTimes.list"
+  ]
+}

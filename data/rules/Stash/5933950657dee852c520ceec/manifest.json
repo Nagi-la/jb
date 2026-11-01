@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:04:49.733428+00:00",
+  "client": "Stash",
+  "rule": "Domob",
+  "rule_updated_at": "2026-07-26T06:24:51.598045+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 26
+  },
+  "total_line_count": 26,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Domob_classical_51820ed10628767b.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a6359be3e6bde84820f54a0942523cdd0aff78134b084dd11ccf05a2613b02ea",
+        "bytes_sha256": "387676df9f117b40178966b9e1db236198442bcb8f81e3e76606a6eaa330fa88",
+        "semantic_sha256": "2ee5e2a7313ae92a5cafa9a0ff4ca93afaeae01928713bc5a690a0e37997c5b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Domob_domain_8c3c633bb1d5576e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30048e72b73f0b571b3025553df448726fbc2e5c8102c118e46cbb0d744536c6",
+        "bytes_sha256": "2b456fcba0f55d9348d426de6e44f842c0017808fc43118e9dfe779e7d1c9409",
+        "semantic_sha256": "361c1d68c3f3baffa87c15e05445334013ad076230cd38e27adfbaf7b016ba68",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Domob.list"
+  ]
+}

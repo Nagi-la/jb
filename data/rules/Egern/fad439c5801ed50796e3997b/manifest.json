@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-27T02:09:17.926599+00:00",
+  "client": "Egern",
+  "rule": "Docker",
+  "rule_updated_at": "2026-07-26T06:50:12.403112+00:00",
+  "type_counts": {
+    "domain_set": 5,
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Docker_rules_d5ce6a25097500e0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00e6cc9de6653ef475d35d998ca201e0bb2122c5b9b429c82f063e9c746b952a",
+        "bytes_sha256": "0332bb29c9d72a56c28cf4d277c554a3dfd6771f4517d3626fee9e6cd2ad9fc3",
+        "semantic_sha256": "c219f063a69825809d136a87c313558eedf43982268712dad71c5060d268358d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Docker.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Docker.list"
+  ]
+}

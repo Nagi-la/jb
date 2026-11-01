@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:01:15.384355+00:00",
+  "client": "Egern",
+  "rule": "Python",
+  "rule_updated_at": "2026-07-26T06:57:08.717413+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Python_rules_56ee39b9655c98e7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fed26aab39b52e96b57cc596e223f4a1f5a858eb35cd5e8132c9f081cf52a84",
+        "bytes_sha256": "cb8655d2ce9ebaca73943b95d29f2cd9b89c551b6e08ae1c62ca75069523932b",
+        "semantic_sha256": "c2f11fecc228753cd1d2425e6974b4e7ffe0390089fc8f39c21a50a41ac1d872",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Python.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Python.list"
+  ]
+}

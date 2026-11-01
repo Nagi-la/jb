@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-27T02:13:02.717836+00:00",
+  "client": "Loon",
+  "rule": "GitLab",
+  "rule_updated_at": "2026-07-26T06:29:21.831142+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GitLab_rules_85af98d40e4931ac.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "915dd52ea096e5b04102a77ee235ea8a78ccaf78711dc19ec1cefc867697f510",
+        "bytes_sha256": "1398901b5c22529fd4e609bd03ea45b429a9fbc8592e90e3e34c5b73adbf5a8e",
+        "semantic_sha256": "3d8680111f3bf2a5c2719f23cf27ecaf2933f595c986e320ac5913f1d7f3093e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/GitLab_domain-set_471ec31419a62762.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3e0ed0cb8027f2119d2b79471666b5ab85dbd007ab9411ac374882e559d4632",
+        "bytes_sha256": "ea7a79ff0370a7f2b580d5b4aa75f925ae43e8e65ff41b40a7dacf5075e33b83",
+        "semantic_sha256": "6bef5cd4059d1cce6260bf59c6506335fc44293f4e65e6b5601eb69ee71f5f8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Gitlab.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Gitlab.list"
+  ]
+}

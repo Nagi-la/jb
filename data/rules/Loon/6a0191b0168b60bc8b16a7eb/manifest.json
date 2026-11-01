@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:58:35.490538+00:00",
+  "client": "Loon",
+  "rule": "NGA",
+  "rule_updated_at": "2026-07-26T07:00:42.119070+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NGA_rules_348e26980d801bfe.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d35d29e0837b4d3304240a634664c4c04bb6f8d7628896c5a4853a04a735d6ae",
+        "bytes_sha256": "902c0a2751cb8ede03f1f8f4c9c4fb64bd1669e6577eec212008a9a8762cca30",
+        "semantic_sha256": "7aa7557165cbf9a6a50d114267c045e895e470073388279c6ceebd8191737ea1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/NGA_domain-set_d4f862cb9c85e9ae.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f50bae89af0a990908d6f720da6b9e40a2a36da49e1270bdf30657d595744c1",
+        "bytes_sha256": "a6d0930da6667a340b92f3fddab27af484b885356f49cef5c630f8638c722fb7",
+        "semantic_sha256": "e1d2690efd559d671763771aec3965eca85b2f9c966166c2efde5e582566b445",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

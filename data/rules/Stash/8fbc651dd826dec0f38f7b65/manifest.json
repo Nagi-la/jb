@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:08:02.113523+00:00",
+  "client": "Stash",
+  "rule": "BianFeng",
+  "rule_updated_at": "2026-07-26T06:47:59.507627+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 100
+  },
+  "total_line_count": 100,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BianFeng_classical_006585b9079277ab.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "169e682bdb0b54d5fb0b453bcc871261f42a2daee8e1b24c723da4a196e276bd",
+        "bytes_sha256": "7b5f0a55837871ee08b0db0067bc3df5231cda6d7b90a48a57eb411055999e22",
+        "semantic_sha256": "25942047c1ef03240bd284ea5d8027716752f29167762b82687ceca296242932",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BianFeng_domain_f078116940929f48.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c15484472615b7997c50286144cfc21a5328ef868ae9188ecfa23664a6e98eb",
+        "bytes_sha256": "5c8ff07eb9a8d60bd137c0a7622e57aed486b3af40d69c4a4f28d8a863440ef5",
+        "semantic_sha256": "f990f05fa32c40379097e3217d2b07db7d35c11ef00aae722af61691b032ac48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BianFeng.list"
+  ]
+}

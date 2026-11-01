@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:18:49.493656+00:00",
+  "client": "Stash",
+  "rule": "Autodesk",
+  "rule_updated_at": "2026-07-26T08:24:02.338345+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 558
+  },
+  "total_line_count": 558,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Autodesk_classical_a667ca45de942368.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "619ec117931a78f9783be73ec313418163612ec1c2b861e7278d56185b829abe",
+        "bytes_sha256": "c4ae0707243ea628e38903423bd6b04c285acd0cf4334540cb9040eb9c781c74",
+        "semantic_sha256": "e817879a030386a8b003fe9bbe0ec2f568cfa1db12bd8634b514622caae86a57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Autodesk_domain_2b5c8458052c9a43.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7296c3a9a54d62841096aac271810facbd720e6a958d22d2aba27e3fa7706e33",
+        "bytes_sha256": "f0d51dc8fab51c66b2d074c213197b5ae85048c52d07f5292460c78874b95f91",
+        "semantic_sha256": "2b32f893c7c0a6b510e9d3c4a45ab5a1ec77dddf294821dbd6b945fdf7c22489",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

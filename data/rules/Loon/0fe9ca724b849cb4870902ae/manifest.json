@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:08:03.169530+00:00",
+  "client": "Loon",
+  "rule": "Kubernetes",
+  "rule_updated_at": "2026-07-26T08:22:42.066429+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Kubernetes_rules_6a4f99ad339584fb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35d701e632bb9535881828e31719848d44872cf036342a4ce3f0450e29603b7a",
+        "bytes_sha256": "e845cbbb49c57126e9110b2e91cc985146b3555f91a89f323ba34b6d20b50b57",
+        "semantic_sha256": "22e328fb733196f82f1ea2b3bf9714c7d48bfb078b0fe5d116f2ff0e7654491a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Kubernetes_domain-set_29b313d17c94c954.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d81863a8030103e69f212b07f89fad23c462fa1b7702d41fc85ab1ba409fbdc",
+        "bytes_sha256": "e66e6e3e75cafa7c29cbeb9f4bd3b20386dad6ccf2e42c44b932bbde88963247",
+        "semantic_sha256": "e5e510260027635087d63d2d09ed2d3b76cc2122f0cb1fd7001e4b9a5a4b1a80",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

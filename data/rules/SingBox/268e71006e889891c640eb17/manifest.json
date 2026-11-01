@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:02:51.122728+00:00",
+  "client": "SingBox",
+  "rule": "Huffpost",
+  "rule_updated_at": "2026-07-26T06:21:51.894564+00:00",
+  "type_counts": {
+    "domain_suffix": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Huffpost_source_8ca96ac776898fd3.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4e3469d85cdd89dce9111c3b619b8f59939626de7291db83a4861294c5d7dfb9",
+        "bytes_sha256": "df01339fd5c8d2b0f246e317e4ce35b48c5ffda8d73090e02a0f473ea96900b1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Huffpost_source-srs_7526a590282ee2bc.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6c2b23634657fa2997176aee8c971130f913541bf248b94cdac3d17de74083bc",
+        "bytes_sha256": "fdebe3fcf4c78cd44a9ddb0ab6d7c386d905a3e1f14dc8871c4b2104f66c326f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Huffpost.list"
+  ]
+}

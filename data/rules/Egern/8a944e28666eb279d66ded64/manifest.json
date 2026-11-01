@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T02:18:30.266672+00:00",
+  "client": "Egern",
+  "rule": "HBO",
+  "rule_updated_at": "2026-07-26T06:21:58.667379+00:00",
+  "type_counts": {
+    "domain_suffix_set": 91,
+    "user_agent_set": 2
+  },
+  "total_line_count": 93,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBO_rules_ed09074f7f2100ed.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6fea7758c8dc90c4711454762c8201085c0af9c6908ee0bc13df5510a80d01e5",
+        "bytes_sha256": "7769c7bd851f9320bad6c13294ce587c67229802d5c90fac4ee28f5d0c7868a3",
+        "semantic_sha256": "0065cf8142cc642e8f208cea8d0067ccbf405e29d4cceff152086940bb85b0e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HBO.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

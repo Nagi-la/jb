@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:11:56.585153+00:00",
+  "client": "Surge",
+  "rule": "WildRift",
+  "rule_updated_at": "2026-07-26T06:31:44.119752+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WildRift_rules_874f47ef60f6ac59.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0316ce831926739490527116eded2efcc1347c3de528aa28df7db3b6a035381",
+        "bytes_sha256": "744de6de3991503defea32a0e08380cb5e7543fe22f3f99dda1dc0adc0ad3e23",
+        "semantic_sha256": "768c2ff8a27a1baec5593a0751de7a7a319026c24c133898a159b273b89cb60b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/WildRift_domain-set_e172cc42ce26bd20.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf695c0c560e9e990eaba7da955bc693cc4d9b97fe667e126a507aee2c7bc385",
+        "bytes_sha256": "09040b67c611ef212c14561871b56476b681dd54ebd185f309edf8424ef0a3aa",
+        "semantic_sha256": "21d5845bc579dd8ccd7cec4de3e76d79f9829d2f5259a869239c0eb85ae9da75",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Games/WildRift.list"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:05:09.163973+00:00",
+  "client": "Shadowrocket",
+  "rule": "DNS",
+  "rule_updated_at": "2026-07-26T07:01:03.745333+00:00",
+  "type_counts": {
+    "DOMAIN": 93,
+    "IP-CIDR": 28
+  },
+  "total_line_count": 121,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DNS_rules_d5b325bfb9721c51.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cbfdf422ff930fc73bb16ed4351bd001f9beec03af03f0f27847c5388a9c8f40",
+        "bytes_sha256": "b3aee279050643be5aed677cd3b0ba6ecf38ef5d989eb24bcf181fae3411400f",
+        "semantic_sha256": "84fe1e515f9006a9493be41104a61524373087a0c277c7243a06b391976f491a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DNS_domain-set_47dc355befd5da55.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "83ec8d4795393aaab0a2bca5ecff622702be56220f80817bc967b497ad7ae845",
+        "bytes_sha256": "f422649d52496c584ec833cb4e8bb6abc485809f471d039cb69b256a4bee9ed1",
+        "semantic_sha256": "81aa61700f94d2545853bf441230303f5b791cee84a45db92c13c2daa6a645c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/DNS_rule-set_bc8ec9bf0a10b937.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "898f3c412fb93850d13d8aafae099f6ba80e2b7680b775cc6f7bdfc846de71df",
+        "bytes_sha256": "a894af8067e18a8e5964caa0a26000b5a53f1575c53f773c880f8c9c2a696e33",
+        "semantic_sha256": "1c0ba1a5e954914f9def29a35a88d2cd251e103b82208c63709890dcfe4c2d76",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DNS.list"
+  ]
+}

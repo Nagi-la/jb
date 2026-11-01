@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:13:09.392188+00:00",
+  "client": "Surge",
+  "rule": "YY",
+  "rule_updated_at": "2026-07-26T08:34:56.277926+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YY_rules_1f3c0e42446ebda5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c304c9686e3b8c3ea55651dac59f62e1626808d40813e7c45bb16c2a49dff05f",
+        "bytes_sha256": "39950ee99fb5f4db686a3096fe792919b0781b58271b1b0da08f78d6f0e74208",
+        "semantic_sha256": "06577441e359d277a708663a22575ec776a9aaafb7aa400ca062e9c9ffc344ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/YY_domain-set_af959ee610e97014.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0828de765b02259af613b6604af191a3d5e11c3144ddd70aa5c28057a5a7bb7c",
+        "bytes_sha256": "56f53a4863cf489d5d01bfd6e2622ec9bb2f24149efadbb0ca4c7780f9fd95e2",
+        "semantic_sha256": "9a437d702b53b26b830f16cfce4fb17f4346aea48f9d4914812ce5850de27b2b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

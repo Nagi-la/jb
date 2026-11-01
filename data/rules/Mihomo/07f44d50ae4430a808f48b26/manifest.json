@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:00:28.771592+00:00",
+  "client": "Mihomo",
+  "rule": "AnTianKeJi",
+  "rule_updated_at": "2026-07-26T06:47:16.418833+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AnTianKeJi_classical_c6a32333b0c1094d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "781ab1ba1b4ebebeda400352edf0d1de84cdf24c6c1924c9d31ebd4847e48f88",
+        "bytes_sha256": "8319e6eb64e34b276836f734fa675864f8b781c54b09703d44744cb9ee0187f9",
+        "semantic_sha256": "01e9f428956b8d8be7b7491269fbaa7531099a9e5ecd9d2974bc3c8826d03208",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/AnTianKeJi_domain_db69bc6974647556.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a33d45c31b90de1b377a14b3f31ca32bd9ef0cab81fbc77f5e379938e2e8fdeb",
+        "bytes_sha256": "bb9ded9c00d9bb61984486a5337bf907dc7374a0086ce8f7a259f4981c1d5248",
+        "semantic_sha256": "33641efc209c95e9ad1f7c6e273920a464c76f9c06ad6b0f9b44e1a180c12df5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/AnTianKeJi_domain-mrs_cb1bc0b9bfdf281a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "72755471aa9d999021a97fb7c05d293f5f91cc29620633bb8d895c32a14c7430",
+        "bytes_sha256": "b20edd7fe48a13758a4c18187b2efa42f85588a134ef1a4213b1994f01b44e66",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/AnTianKeJi.list"
+  ]
+}

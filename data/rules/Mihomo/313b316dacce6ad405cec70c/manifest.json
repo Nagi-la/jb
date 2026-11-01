@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:07:22.060272+00:00",
+  "client": "Mihomo",
+  "rule": "BoXun",
+  "rule_updated_at": "2026-07-26T06:21:28.636728+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BoXun_classical_e35c06a362fb6634.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c447de2d1df5c488834a970bc0afb8ec5adba84976c6276e069f290406b7b62f",
+        "bytes_sha256": "721c348aff5daa1c3e51a6d4e79298e685613a28fa5079f946e19a0ddc253dbf",
+        "semantic_sha256": "b51d88d245899cc5e2da235a8b567ca6e7a9f25f0867bc8af8ef717b626f7653",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/BoXun_domain_9c3091ecf47bc250.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "37bbce59fc97847a9714f41391643cd9a11568fa26290d9ff567b865a46bc28f",
+        "bytes_sha256": "045e4620a9b5028325dfa65dfb99b2eef0b02d46b54907cf2d22b39524dfca8d",
+        "semantic_sha256": "08dc86f6713696f762351811b4349df677f2a2676cef859a4b7fd3ce3423d83a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/BoXun_domain-mrs_df02f935f333020a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "bfb2b7f274c50732dfe26d5ea45c70493e2c7662f49ddd8cc6185ae1da00d174",
+        "bytes_sha256": "0ff81052e98b881783529bf43adb0dceabcde49656f8de72ada4dda32ac073fd",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BoXun.list"
+  ]
+}

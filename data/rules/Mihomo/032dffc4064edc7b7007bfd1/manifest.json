@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-10-09T16:21:53.256149+00:00",
+  "client": "Mihomo",
+  "rule": "Telegram",
+  "rule_updated_at": "2026-10-09T15:59:00.501942+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 24,
+    "IP-ASN": 5,
+    "IP-CIDR": 25,
+    "IP-CIDR6": 7,
+    "PROCESS-NAME": 6
+  },
+  "total_line_count": 69,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_classical_1b14a0a6432f12dc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2a361e659069c06213c0560eb9cb143713016e7d9c7ba5f83b71523b11fc0d6",
+        "bytes_sha256": "52f03797e62cd8ceec5693e48bacad8f489a3d369c0445ee9ad2d471c2f7689e",
+        "semantic_sha256": "bda8db0537b67c151dabeb155a420c764b2bacd4431909be1b786d57b8b38665",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_domain_264a9fa2c66e2e5d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42b79c26b9335640deb819b5cecfd4930cf0534b1ffa56ffbb28a6658c3fe795",
+        "bytes_sha256": "e381dcb104032d84963d1b47d9ac705fab627547ac6a1c87fd8c5f22b66c3735",
+        "semantic_sha256": "b896dcf4ef967e10d3ad54b1885dda626f23a3ffa55e075c25c3974f421b4a96",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Telegram_domain-mrs_da57f262d121afe2.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "02ac6ec65422f558db9fb75135e6c6d6c635851c29626f508b7c0a7d8252dace",
+        "bytes_sha256": "f1bd01ed835c0a5e30bffb3d402795529bc67edb473add84aeed7fede2d2e05d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_ipcidr_42510262d39e532e.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95a298178d908da5b6319a6d0297d56fccfda684efc1ba9d980a6cfbba99ebde",
+        "bytes_sha256": "41ae12d813214ccc4905d40a548a14c5958f07371cd65d0ea5ad303ce45462a7",
+        "semantic_sha256": "fe5d457dc4777f26f677581d72127918727df12ed9876216051cbea98e44d8f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Telegram_ipcidr-mrs_9f9c7386571fe662.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3e3088057c0e9c759333555d127e46a6d38fff02951636c99e39e818bbf5baad",
+        "bytes_sha256": "96fbc34eaea8d1c8b1595b763372b6fc86ac5bd8946c455c8259a0b7b1bb17f4",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "classical-rest",
+      "label": "classical-rest",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Telegram_classical-rest_cfc62a3bff2398f7.yaml",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "005cbc137e557d3cd163c60963377f06dccf8814aad3a1d678160b93800e1690",
+        "bytes_sha256": "e03622d3ad7de995d9f86bab2f33b39885d2e67c154c9d2f4e4d0c402de6362a",
+        "semantic_sha256": "8e5b4075e6a8f063cf73f090cb593f29e2df1f743a7251f747d08f3cdbda5850",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://core.telegram.org/resources/cidr.txt",
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/App/social/Telegram.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Telegram.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Telegram.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Telegram.list",
+    "https://ruleset.skk.moe/List/ip/telegram.conf",
+    "https://ruleset.skk.moe/List/non_ip/telegram.conf"
+  ]
+}

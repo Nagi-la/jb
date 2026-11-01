@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-20T05:50:22.610199+00:00",
+  "client": "Mihomo",
+  "rule": "PlayStation",
+  "rule_updated_at": "2026-10-20T05:38:27.938984+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PlayStation_classical_c00e04aa0ec7e4db.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71452b09031ceea339495171ab634005c34c9cb6ca58bf8827d53caa86c1d5e0",
+        "bytes_sha256": "c508c4b8545f613b5eaef8be11d16bb85ccd8d47a143a2ed325bb89bbce63f06",
+        "semantic_sha256": "417283142c8b0d7260e977074557666ebf00a0febc9831328c47100dd8d6fb57",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/PlayStation_domain_069f3a0f00869da5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd67710f3964834127edd8c10825ed580a4568bde5a3dccf128729abb4ea76a1",
+        "bytes_sha256": "eea9034fe88718a393377340e2c2fbff50ae1007ec21ba196d38c5d3abc71296",
+        "semantic_sha256": "8ce0d18cb23f8412bdd498be6c255a7d6493cb39be572839fbdf5db0bf8a95e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/PlayStation_domain-mrs_97b4e866f7c67469.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9446ded0b409005ca9f37ecd3e7c787ac797d9d79e2f54f62a36cb7ce3077a01",
+        "bytes_sha256": "2f4548dd31b2cf08c3a0b0efebfc5f7ae5cbae325467cf8df67d867cab9cb50d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/PlayStation.list"
+  ]
+}

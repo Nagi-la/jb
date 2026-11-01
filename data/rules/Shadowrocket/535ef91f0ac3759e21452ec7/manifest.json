@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:37.427414+00:00",
+  "client": "Shadowrocket",
+  "rule": "CopyManga",
+  "rule_updated_at": "2026-07-26T08:31:44.707745+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CopyManga_rules_ec58ec33007cf795.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "672ac2778751f1f458cd7ed39f2fe32eddb5a3251c432c50693cf3dc5137fbf6",
+        "bytes_sha256": "84c148de9bc333b9ed6e06637cd1f3f3faa2419cfc271252c793f73b9ee4e4ba",
+        "semantic_sha256": "cafe43f748f16ea0d0b4fee23b5423bf9b1f68c890233c44929c331fa4ecda91",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/CopyManga_domain-set_4a9f7a297bcb4280.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a96c8e9d46c6bfea60f1eb8e588d03491b79b4fab4c4077ec7e9561571bc60c0",
+        "bytes_sha256": "f78a75d690eb533219dedcadc0409015d0ed791046887b6e6cff76e86a923a08",
+        "semantic_sha256": "3ccfd524a4455b6b2b9ec0a3bd52d827a7c3ffeb9012c028b0e651b13dec9e3a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-27T02:15:24.822275+00:00",
+  "client": "Egern",
+  "rule": "HBOHK",
+  "rule_updated_at": "2026-07-26T06:30:18.966957+00:00",
+  "type_counts": {
+    "domain_suffix_set": 27,
+    "user_agent_set": 2
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HBOHK_rules_67072b4ecfb808df.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d14029c7cbf96096698a54dbf605b60778fe77f4c375ad549e297fa602ed482",
+        "bytes_sha256": "adc43e7df2adfc3aecc3072e577ccc919f28616da1fba86fa53c6292c3a2ba29",
+        "semantic_sha256": "b7b463aa41a108757fc92b4490d4e1aa01ca4009af88ed53af58fe9fe7625974",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HBO.list"
+  ]
+}

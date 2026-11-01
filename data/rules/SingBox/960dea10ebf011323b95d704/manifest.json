@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:03:34.851392+00:00",
+  "client": "SingBox",
+  "rule": "Jsdelivr",
+  "rule_updated_at": "2026-07-26T06:51:13.592215+00:00",
+  "type_counts": {
+    "domain_suffix": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Jsdelivr_source_ded820a2902e413f.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "8fec77c4f00d3daafa4d1db73747f4f2097f32cad36e7191456dac3f357f7556",
+        "bytes_sha256": "02ece20af5bfaa2fba53711034ec4a722fb55baa3bb1f745f0280e1ffdb6656e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Jsdelivr_source-srs_30bc3d6dde361e83.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "e6fe33900894ba76b95691a7830c6f6e2593ca9c31334ca603147f6435b405f2",
+        "bytes_sha256": "adc60b0b4a7be72f13548a2d340a27b1eda6892c56c5f349a854430a1490108f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Jsdelivr.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Jsdelivr.list"
+  ]
+}

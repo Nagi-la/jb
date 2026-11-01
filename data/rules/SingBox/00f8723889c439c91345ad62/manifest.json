@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:57:41.510230+00:00",
+  "client": "SingBox",
+  "rule": "Miniso",
+  "rule_updated_at": "2026-07-26T08:33:59.413165+00:00",
+  "type_counts": {
+    "domain_suffix": 36
+  },
+  "total_line_count": 36,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Miniso_source_a53b910196ad5d78.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0a33f867857cb2ffb2687984e657d069f676bc39d3b6e8b2e83a7ceb870f8aff",
+        "bytes_sha256": "e3fb5e68105ee747b4f30a705b3d8fdbf2991f8a732046d4623857395594b317",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Miniso_source-srs_641cab56e65cbe63.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2ad01ca945e52150a6cf27e35b3d1a1b1a9f87ad60568b480504dd3437a15a9c",
+        "bytes_sha256": "b745e4005e3d33aa5145a9435244407c4b1608c03a4a85506c75124da2e9e077",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

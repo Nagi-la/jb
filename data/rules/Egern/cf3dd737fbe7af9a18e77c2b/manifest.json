@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:56:00.415063+00:00",
+  "client": "Egern",
+  "rule": "Opera",
+  "rule_updated_at": "2026-07-26T06:52:46.801138+00:00",
+  "type_counts": {
+    "domain_suffix_set": 14,
+    "ip_cidr6_set": 5,
+    "ip_cidr_set": 15
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Opera_rules_adcc7c01c8dfe33e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c56eec65c036a2cdaeb9b3665d9ab45f929176aebbb0d60dba1587b2678dcf5",
+        "bytes_sha256": "a335902e1a87675a665a00567053131fc3e3df80215b055242f8a03d96af3744",
+        "semantic_sha256": "e9c20a7f12af68e3d3763c19ba8edf030954106435097bca83055a70c5198f84",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Opera.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Opera.list"
+  ]
+}

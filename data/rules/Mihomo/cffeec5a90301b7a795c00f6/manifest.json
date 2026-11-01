@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T02:04:57.432777+00:00",
+  "client": "Mihomo",
+  "rule": "UBI",
+  "rule_updated_at": "2026-07-26T06:32:24.384189+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UBI_classical_58105eeb0a439b2c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d40e8bf2793d0fd2d8f9c83dcf1bf741df3b4f629dc84a0af0a7a7035a8396a1",
+        "bytes_sha256": "a3e8663a1f39fb727d4f7cddce5c5a6be3f929d80388020f67b02ebd684d5ddb",
+        "semantic_sha256": "72c6c47f88c57a64b66333c1fd5c153dfdabc82923e8ffb0a2a5e6d08c98007c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/UBI_domain_d8d844ee46c78510.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8fb458ddaed47441504d3c05e30e93b1bd68e7fc689af08ee7a4e44483a525a3",
+        "bytes_sha256": "c8bfb791779d22976ae1d80e93bfecfdfd6549baa14f8f641199fd05a68a43f3",
+        "semantic_sha256": "3df852544e9cbac85f8e3eece2af2b4b9f240418f3b39981a193450b9f6db1cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/UBI_domain-mrs_5006e31339474bdb.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "045a95fee94469b61232d442012aad9ceae954e4187aafe7c3c0f69bc5269b37",
+        "bytes_sha256": "7a825f548e6c0cec2db5d0f2119225f4d8dfc24098c8c5a646d49aa36328c933",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/UBI.list"
+  ]
+}

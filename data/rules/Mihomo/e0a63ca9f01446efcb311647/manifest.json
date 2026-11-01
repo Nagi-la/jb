@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:06:55.013491+00:00",
+  "client": "Mihomo",
+  "rule": "HuYa",
+  "rule_updated_at": "2026-07-26T06:25:21.181665+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuYa_classical_d24ab62943618ae0.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87d56937548812cdc01a4db628bce0857c7f843eaba16933ebd1a39791d0205f",
+        "bytes_sha256": "ebca79cb0d58565a1cec735d396ba338f48c22be919aa1d86f9f017b0743a0f3",
+        "semantic_sha256": "b97e66889974e0e9d374cba533a53b301bb85922fe6a985954d88100e06c8b0b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HuYa_domain_d062168ecbac863e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db6c848d230082d3e3c04351a58d389f88f8cc01e4a4ea2cf245c66bf20c9ab7",
+        "bytes_sha256": "60cbabed3b6e920e3bfad361dcff61257c4bf8d0bb15dc100f4e078912438f8a",
+        "semantic_sha256": "2642c01bfe4bc433e16290a249ca87864f2ecc75018589858fcfa3f96d60d846",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/HuYa_domain-mrs_d8ba89979ce97646.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fab6bc10aa194fb28ddefd38d1862f3e88f3a2a479522e6def49d0a55f44c7b0",
+        "bytes_sha256": "9cdbbf28815349ad694c40a8d5ffbd5eef4080f3446b3fcedf8dd23e0478fd61",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/HuYa.list"
+  ]
+}

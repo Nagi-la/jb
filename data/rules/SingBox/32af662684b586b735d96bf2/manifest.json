@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-29T02:47:37.213143+00:00",
+  "client": "SingBox",
+  "rule": "Midea",
+  "rule_updated_at": "2026-10-29T02:37:27.546972+00:00",
+  "type_counts": {
+    "domain_suffix": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Midea_source_4ce1ad343fb17d08.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7a50540bb199a2156bc3b65513c795607c0b6a3ae187c64c5dfea685ce1eda57",
+        "bytes_sha256": "75225a87c7b9d19ce579d8b3a6ab3dadd56a8fd14b872fab5632b5966fab4521",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Midea_source-srs_2371a1df8c5050ea.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d11271f8daaa8dd12df48f07485e6ce4f4437416acea197c02acbf20975bbf80",
+        "bytes_sha256": "bedeaa0314fff7a92cabf1bcf50140317aa50cacbcdddde17948f85e6a350efc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

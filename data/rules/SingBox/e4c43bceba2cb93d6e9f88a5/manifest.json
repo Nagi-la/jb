@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:11:36.267975+00:00",
+  "client": "SingBox",
+  "rule": "FengXiaWangLuo",
+  "rule_updated_at": "2026-07-26T06:24:55.755017+00:00",
+  "type_counts": {
+    "domain_suffix": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/FengXiaWangLuo_source_bae79105e4e677f9.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a374dc8c4dcecb4878fdb532e48b64c56603ac65c8ca43b999844ee68effa79a",
+        "bytes_sha256": "ffb26428a37b18a9bf66551e066eb82f88fc01acf8c3e3e88bf338fcdd3395a7",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/FengXiaWangLuo_source-srs_d9cc5eb223bd39da.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3d9c21db502a96f7b2afb2481461a0ac372701f42e3d3597bb7e5d81d64a09f3",
+        "bytes_sha256": "f52a421a5527d6395020761fe399f542b8053fd6482a4f7ff2a79552347e921c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FengXiaWangLuo.list"
+  ]
+}

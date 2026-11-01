@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:18:53.397199+00:00",
+  "client": "Surge",
+  "rule": "Comodo",
+  "rule_updated_at": "2026-07-26T06:49:03.201709+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Comodo_rules_e0b84f799cfcb653.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "439de3edc6a1a0f36935fb59f0381f8256e9d1cfd14bb4dfa179a3c4218a6e67",
+        "bytes_sha256": "f87f85772f7ad06da380ab5bfc7bd2bd0eb14b9604dafa91129ae425f856c228",
+        "semantic_sha256": "a3c79a5894943240abc693bfbdac33f3ea050f69710591998829fd2a2f50e311",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Comodo_domain-set_b52a0f7107729427.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69343720a18350028d890c1291598ac14a60664a6567b5a4b3067b151d32b7f4",
+        "bytes_sha256": "8c06da97cc7caad2b8f2dc840e6246e3f314fe4712f5a357ddf21ad8eac9e98f",
+        "semantic_sha256": "a4029c1d708d69872599e733121aa7246ce0a52a7cfab5189af0a0c87afb44a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Comodo.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Comodo.list"
+  ]
+}

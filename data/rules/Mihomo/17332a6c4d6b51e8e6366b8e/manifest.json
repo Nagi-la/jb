@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:18:29.065437+00:00",
+  "client": "Mihomo",
+  "rule": "CNKI",
+  "rule_updated_at": "2026-07-26T06:23:42.304916+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNKI_classical_eac5c617c2eb6659.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d8038b84472403844f4d254af23788e7bf2495cb709f6457c5b73c8f8d428743",
+        "bytes_sha256": "7d1dcde73efd0b27763947341a9b5445879119c482b9474a90399b94f7fce46b",
+        "semantic_sha256": "aeb3c2b8408b7a50c683141bfb5d322eb2e35df48a183dc73fc1b327c2db1f32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/CNKI_domain_e6c6ee31133a4598.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "471d0440ef702ef35ba3fb56c6c9d111e18bfa3c73a5a8e247df9c2e0673c88a",
+        "bytes_sha256": "4c60766c1a35b58bd93b0afd0952285c479cd2a4987b8896bc0c7f497f8dfa7a",
+        "semantic_sha256": "f9f5ca398111e8b0155e07a400dbe337df558decf5bfae822560b3a4e30c3ae7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/CNKI_domain-mrs_fb1f5158be3b15d2.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "05880592f4b63daa92e66493a28ed86263ed2bf6952040a62c9714c55a7eb3cb",
+        "bytes_sha256": "30cd88328ebc81ffdba059165181e143e4373731dd7d3ca53c9fe70c845aa648",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CNKI.list"
+  ]
+}

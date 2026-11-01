@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T01:56:24.249878+00:00",
+  "client": "Stash",
+  "rule": "FlipBoard",
+  "rule_updated_at": "2026-07-26T06:29:15.375470+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FlipBoard_classical_c6f0f90e74a1f924.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0315421166465f8388076cdb760017ac5e781bececfcfdad51b6aa0390c20ce7",
+        "bytes_sha256": "56c5017d127028cf3adc15cd922bfd6a32cc90b061b0472773e54c3cf7bd4b00",
+        "semantic_sha256": "0d330fc8ce9a3aca046e916b013609370184fa5fb88e5648dbaee44d131d8ad2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/FlipBoard_domain_2ed310eac659894e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13ae635b1831034a304eb580c9dfb8f607cdcf7a1d16812e8b2a242293efcf91",
+        "bytes_sha256": "94a628b05a6f9ecd7d13f66264d0bd23bdc3cc4e0d13fb62ffc4accf0af79272",
+        "semantic_sha256": "d8a4b6d8e7cf67bc0c375e84f5a9247b36ff003cdbf3ee09d03d4d41aaeb0cd8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/FlipBoard.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/FlipBoard.list"
+  ]
+}

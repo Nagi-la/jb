@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:12:38.859282+00:00",
+  "client": "Mihomo",
+  "rule": "Shopee",
+  "rule_updated_at": "2026-07-26T06:53:59.192195+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopee_classical_84f7c051286b6d87.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7dc649a0ecb8374fa436e0e8998651f091e0a7a6149fbd32f8a43591f286d51",
+        "bytes_sha256": "f8dc18e89f8e254d14b5f7f1734fbed7de2b466c4e556c9738369cc485d38a10",
+        "semantic_sha256": "fa6592a15a743fe6a792bdd8b651c31c86275d10140d99f0850b0bdc5695e988",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/Shopee_domain_ca3f603c5a357017.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce0f6919990d314a81e51f883ec9f261a5935600060226a2b1af17e871a51647",
+        "bytes_sha256": "5db0af73538f14ef62a925df03d821ee009da66f08798d7f8a3a825e3a3856f1",
+        "semantic_sha256": "1bf2685882ea41d9a56097007adb993026d1c8d3c901592e778edb8f286d6927",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/Shopee_domain-mrs_094eee6dea55ef7d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "4cf99337e12ee791a6ce708dec9461cb4f45b1839156bece57746ee9ab2c0be8",
+        "bytes_sha256": "64a88281080faae5d4925b1f4d12b2a14dabffdb8b59f9c3cdfd61d1367ff8e1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Shopee.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Shopee.list"
+  ]
+}

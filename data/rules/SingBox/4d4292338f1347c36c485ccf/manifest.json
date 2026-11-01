@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T02:17:10.738800+00:00",
+  "client": "SingBox",
+  "rule": "EastMoney",
+  "rule_updated_at": "2026-07-26T06:24:48.956734+00:00",
+  "type_counts": {
+    "domain_suffix": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/EastMoney_source_5ff4cc71179c2404.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "efdabf1e679cc3d8b317a7bb543038f91c5a9ee0deede389984a00cef56710dd",
+        "bytes_sha256": "0ed06241400a271d30704ab0567f3b94da27e8544163e0fa4d444327747b5bbe",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/EastMoney_source-srs_5d9b9d7fb2bc5223.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b70a39327a58e7919509f59edc830b4607d728e55e521118bb93db56864cd5df",
+        "bytes_sha256": "aedd16f52d7c6d313224661e5cd1a69c699bc75e78de3c3b4e3839fecb8fcb21",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/EastMoney.list"
+  ]
+}

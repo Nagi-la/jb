@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:12:37.290641+00:00",
+  "client": "SingBox",
+  "rule": "IKEA",
+  "rule_updated_at": "2026-07-26T07:22:38.615954+00:00",
+  "type_counts": {
+    "domain_suffix": 95
+  },
+  "total_line_count": 95,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/IKEA_source_c046134c77f4545e.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b83570e5d8fb56b5555ef3aee0b60456d7232c63f60c897557f1784d745aa1db",
+        "bytes_sha256": "1930b78e0c8c13a5c49f1e5252bb2b75f69b7a245b3a62edc0cbf7a28365ecc5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/IKEA_source-srs_195140e929fc5f8b.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a9a78590646a92fa4e9e3ea05e5684c7ff87b8141eb77a64bd0962fea57c0735",
+        "bytes_sha256": "ab38f129bd66f62373a0d63ba6ae6a3225862be4cf0789e6708a6b68150d1b8b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/IKEA.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/IKEA.list"
+  ]
+}

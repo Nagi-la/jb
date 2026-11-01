@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-09T16:19:09.081004+00:00",
+  "client": "Loon",
+  "rule": "JingDong",
+  "rule_updated_at": "2026-10-09T15:58:56.115023+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 277
+  },
+  "total_line_count": 277,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JingDong_rules_fd81e3e42c82c2c1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "82d53a4f8cb413534b4dbd4f082070d15f8438b2fd39750f6d0fcd1c2ba71d5e",
+        "bytes_sha256": "60746806c4af0f024dced2aa918026c0726736160682e827131e8392f79e589f",
+        "semantic_sha256": "bfdd77bfe4de42cd4f14b625524a0573d690f63981512fc364403de237e8421b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/JingDong_domain-set_68d7c2cef06e952a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47323733fe00c4b0835b2446687dc7dbcfab3fefe20808f6b110598a424656a2",
+        "bytes_sha256": "8cb77a85ea813dac09ebcd16c52a9b1c873e81e542276b5c317b34c622463416",
+        "semantic_sha256": "fe8d6d0985215a056cfc1eca0ff448c8b95739061a9af0ce651f69c4bd1b6ab2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JingDong.list"
+  ]
+}

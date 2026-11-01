@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T02:13:09.601929+00:00",
+  "client": "Egern",
+  "rule": "HamiVideo",
+  "rule_updated_at": "2026-07-26T07:00:25.032405+00:00",
+  "type_counts": {
+    "domain_set": 19,
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/HamiVideo_rules_86f2e3c370650528.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47be1b440d22f8974bf501faff3d5cf3d03a00ffd8a6247217c28aaf27ef3631",
+        "bytes_sha256": "8ffcaa47f39cea809a8909720063e3e347c115a470981b36c0850326fcf83325",
+        "semantic_sha256": "9ceff61a31afc16135ff4ef6e47769840996d0ed2780620acc05409e06caed61",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/HamiVideo.list"
+  ]
+}

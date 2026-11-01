@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:07:24.614191+00:00",
+  "client": "Surfboard",
+  "rule": "BeStore",
+  "rule_updated_at": "2026-07-26T07:22:56.460695+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BeStore_rules_c9b6d50e0c6ec64b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79fb8365e13ed53ecaa6173a8bff8197d1ab9ac027d1149ed494bf66c3ca8194",
+        "bytes_sha256": "de4b5ce51dc331ce00c8af5728e1b08ecaf0717604261a1729f3550dcd3a046c",
+        "semantic_sha256": "f49926d112a3e48b3937bb5804a0688db76ddb5d5bae6370cb3f2a45c9073494",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/BeStore_domain-set_8b58527d84e4469b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "99ed703c7c3bdd917685c9fd484588220ee00bcc3bda8c910cbbee12507e1c04",
+        "bytes_sha256": "683617defb7fa4618dadc998a244026433fc262d46f34e98d0cf0a1c89e88e6b",
+        "semantic_sha256": "ba7390502d1adec6ffbd21ca5aa7c600ee5fa542c5600a4ebe6991b1657d69c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BeStore.list"
+  ]
+}

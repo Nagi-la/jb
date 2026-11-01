@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T02:18:41.982065+00:00",
+  "client": "Surge",
+  "rule": "Wasu",
+  "rule_updated_at": "2026-07-26T08:34:52.110539+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Wasu_rules_238dd62f37edfd2e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2be345abeb8665a37683bd326da2f47e045f7fd646cfc377b460769d73350a3",
+        "bytes_sha256": "4646a21ef6b424967c86335f3d2fd4063014cca2f9b4894497d56e9f2d1e6878",
+        "semantic_sha256": "511a073a5f6956f9c07dd8fa80fd5433e0e5e39e582f328bd6c7ed32054ab64f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/Wasu_domain-set_5b95561ad4ef8f16.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c4aeece0f701b1c5d33604a55c52a76678036837ef0ba726d169301e43d340bc",
+        "bytes_sha256": "5269c155f3b6dbd7da4f7a7462921b42a47f74681e5b59a34aa792570253aafb",
+        "semantic_sha256": "f71a0b67daabfb028a4f0db0157e9a7bcbee5902136e5f39955b88fb3e6a8a41",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

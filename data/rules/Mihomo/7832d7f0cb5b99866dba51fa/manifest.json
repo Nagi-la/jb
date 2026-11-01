@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T02:14:23.931493+00:00",
+  "client": "Mihomo",
+  "rule": "ThomsonReuters",
+  "rule_updated_at": "2026-07-26T06:54:40.115168+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ThomsonReuters_classical_3d254645fb74ca1a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d9973bb49fcf499892c510f7d9d300ad4826cc9da957f8a590afaf279a153ab6",
+        "bytes_sha256": "53e218cc76eecae8408441ea75186cf27568fd04670096308876f440d88c1ece",
+        "semantic_sha256": "c579b87e84f3441910154d101ef4b3ee7ca4f941061b13cfd6225a001ba1e499",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/ThomsonReuters_domain_0882f00cb3c190d5.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de9631e0c8fe7080537e1e8489e6306e1c985b21673810979a1ff79aba9b358c",
+        "bytes_sha256": "48c1454d67c6f5be7a6ecc0473cfe79f0094580742a79992c1fea1a256c4ce05",
+        "semantic_sha256": "0744a6c65ece42138aa26abc4fd1cc6d64aa6b379e03bdd679e46b974ef3fa0f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/ThomsonReuters_domain-mrs_ffc82bd04c687f05.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3ab45840b85b930236e49fdaf5498d9b7b2e5ad204b8b015f71d47d21fb7beae",
+        "bytes_sha256": "291ed620000902139255ece19210a042f00616e5667c781ee13b75f8595e65dc",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/ThomsonReuters.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/ThomsonReuters.list"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-29T01:52:49.927515+00:00",
+  "client": "QuantumultX",
+  "rule": "OpenAI",
+  "rule_updated_at": "2026-10-29T01:51:38.287626+00:00",
+  "type_counts": {
+    "HOST": 12,
+    "HOST-KEYWORD": 4,
+    "HOST-SUFFIX": 32,
+    "IP6-CIDR": 1,
+    "IP-ASN": 1,
+    "IP-CIDR": 3
+  },
+  "total_line_count": 53,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/OpenAI_rules_194f9925afa57744.list",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31760a5e2fcfb2aba55b04b7f740f43ea3771a42632e8b2efcb324e32b23633f",
+        "bytes_sha256": "ecf5dccd4ea8aae046ef2535d408b909a549fec39b00c8981032d6e5c1586315",
+        "semantic_sha256": "5bde8d5723e13df90adccd53f07e7440b50ff46c6a6915b4bcd9e8c3d60b0813",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/openai.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/OpenAI.yaml"
+  ]
+}

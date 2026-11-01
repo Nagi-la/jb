@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-10-30T01:50:58.696128+00:00",
+  "client": "Surfboard",
+  "rule": "China",
+  "rule_updated_at": "2026-10-30T01:42:55.042832+00:00",
+  "type_counts": {
+    "IP-CIDR6": 4,
+    "DOMAIN-SUFFIX": 6302,
+    "GEOIP": 1,
+    "DOMAIN-KEYWORD": 10,
+    "IP-CIDR": 3892,
+    "DOMAIN": 25
+  },
+  "total_line_count": 10234,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "data/_shared/artifacts/China_rules_8ca3f68cdb1398ba.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c0b419500268fec0278318074189e895947def4b3945504341a3f3514513397",
+        "bytes_sha256": "cd49c39248defd7e007a036d768c76c9d48f7d34d010948f804b8e0d93b35cff",
+        "semantic_sha256": "66092ddf1a4b3539330d809e385a9ff3881c41fe33f9facf2de9bce096ec9774",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/China_domain-set_beb3d5e7a3bf4d87.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b90a3d70ffc0ced94106fc2c9a52c609e9266faed9199409f77d7f835a33d897",
+        "bytes_sha256": "88cf655e456636d14c49032eb40ac7c39a8e2427e97c4d002166369683b3c37a",
+        "semantic_sha256": "4a773989f927d8b0c6db9f75e0a7764f0e1985da202a604aa49489b490c66f32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "data/_shared/artifacts/China_rule-set_7a0e61a141b059b1.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5ef8e806b8db49d346560b1e5c010e63648a0909304cc7c8db0f6ba5e53ae47",
+        "bytes_sha256": "d4eb62b5f6d5d5ae1455a9a5b63e126e6d56520f8b0d41c96cb10a79bd7f17de",
+        "semantic_sha256": "862937e98780c12127baaa2a6c215176e7174cfadb1826740b5b9a15ead38a59",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
+    "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/China.list",
+    "https://ruleset.skk.moe/List/ip/china_ip.conf",
+    "https://ruleset.skk.moe/List/ip/domestic.conf",
+    "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+  ]
+}

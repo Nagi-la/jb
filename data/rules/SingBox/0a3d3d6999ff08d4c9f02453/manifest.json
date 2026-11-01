@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-08-27T02:06:33.521578+00:00",
+  "client": "SingBox",
+  "rule": "AppleCDN",
+  "rule_updated_at": "2026-07-26T07:36:46.223323+00:00",
+  "type_counts": {
+    "domain": 20,
+    "domain_suffix": 15
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/AppleCDN_source_b88d0302c27d7fab.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "90c53730fe30c814d2dce4f17c85d8c00ee3f18d12aea9cb070369581a460759",
+        "bytes_sha256": "1e0a11d91f9f0948e05cc9c3d3b2d15382dd43f5fac759fab509aecc535ee53e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/AppleCDN_source-srs_25a1716a323ea663.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b9b1e22a6beb57e54056c90d56f5ea47042ea4f769ef8fb31ca07f9c16481e6d",
+        "bytes_sha256": "b165baa79792bf65ba697724a2fce4dd29eec431d0aaab9868913221d62d06ae",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/cdn-domain.list"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-08-27T02:00:33.111033+00:00",
+  "client": "SingBox",
+  "rule": "Clubhouse",
+  "rule_updated_at": "2026-07-26T06:30:08.432197+00:00",
+  "type_counts": {
+    "domain": 2,
+    "domain_suffix": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "source",
+      "label": "source",
+      "ext": "json",
+      "url": "data/_shared/artifacts/Clubhouse_source_80e5f2158a2427a0.json",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1dc809cb60782ece49acf844cd679216c0e0e64a7e697136b28b683d6641043b",
+        "bytes_sha256": "9ed7d80d0e4e49c48f829997d6c23c6c3930d150fdfaa5f9c9d3f6b44bce9265",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "source-srs",
+      "label": "source(srs)",
+      "ext": "srs",
+      "url": "data/_shared/artifacts/Clubhouse_source-srs_b1b0799bbe8e8c21.srs",
+      "binary": true,
+      "role": "binary",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "02b32a3ece664626ab5965f691f565aceec4d5ccbbf01d777caa45ef6a8518d9",
+        "bytes_sha256": "6f2eaf8493723fb86571e70ab4a1f8a920bc56304f4348c44bf0db9b3bf081a5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "如果的你代理服务器不支持或没有开启 udp-relay，请不要使用本文件。",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/tengyuankoo/qx/main/Clubhouse.list"
+  ]
+}

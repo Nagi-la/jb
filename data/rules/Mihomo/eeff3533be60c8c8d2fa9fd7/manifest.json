@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T02:17:04.742713+00:00",
+  "client": "Mihomo",
+  "rule": "WeiZhiYunDong",
+  "rule_updated_at": "2026-07-26T06:57:22.663718+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeiZhiYunDong_classical_1f0876e2437d36cb.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79fd0b71f564d4686b9d56ec16830bf0d187c62069b924f33f04f848cee2c6a8",
+        "bytes_sha256": "a345559165debd4633be2f9ed0ffb797817cd8762bf7ab5d42cf06c51a37f54c",
+        "semantic_sha256": "35bb98cdbd6847f6963f21834c44b0f4c389f57824b7a1896ca93984d7835d16",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "data/_shared/artifacts/WeiZhiYunDong_domain_d017e50694e98c29.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "537e8dc36ad474d71d2fbbebe8941d1c337abd16a81e8a339e1f671bd0db9337",
+        "bytes_sha256": "a603c86533df6b8a9a2b94eacea3fba121f78222672a233a4ffe8668b10e993b",
+        "semantic_sha256": "631fdaf206bc39155f4ac600402ed49f1ae2cc8944a454595808012349a8bb7d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "data/_shared/artifacts/WeiZhiYunDong_domain-mrs_5087dda5107f3438.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "edd797b56143825e154ac7b0859b98359c811126c8e8f03f213d39669a4f8f34",
+        "bytes_sha256": "ebfab2c7ed8b2a4d0351b4603ba0a8cba13c7ca90d796f542507efc56c81d970",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/WeiZhiYunDong.list"
+  ]
+}
