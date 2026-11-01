@@ -1,0 +1,23 @@
+# NAME: Download
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-08-27 10:17:06
+# DOMAIN-SUFFIX: 1
+# DOMAIN-KEYWORD: 5
+# URL-REGEX: 8
+# DESC: 包含URL-REGEX规则，建议搭配MITM模块使用
+
+DOMAIN-SUFFIX,qbittorrent.org
+DOMAIN-KEYWORD,aria2
+DOMAIN-KEYWORD,thunder
+DOMAIN-KEYWORD,xlliveud
+DOMAIN-KEYWORD,xunlei
+DOMAIN-KEYWORD,yunpan
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map)?\.(baidu|n\.shifen)\.com
+URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)
+URL-REGEX,assets\d+\.xboxlive\.(com|cn)

@@ -1,0 +1,19 @@
+# NAME: Container
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev/
+# UPDATED: 2026-08-27 10:10:41
+# BEHAVIOR: classical
+# DOMAIN-SUFFIX: 9
+# DOMAIN-REGEX: 1
+
+payload:
+- 'DOMAIN-SUFFIX,azurecr.io'
+- 'DOMAIN-SUFFIX,docker.io'
+- 'DOMAIN-SUFFIX,ecr.aws'
+- 'DOMAIN-SUFFIX,gcr.io'
+- 'DOMAIN-SUFFIX,ghcr.io'
+- 'DOMAIN-SUFFIX,mcr.microsoft.com'
+- 'DOMAIN-SUFFIX,quay.io'
+- 'DOMAIN-SUFFIX,registry.gitlab.com'
+- 'DOMAIN-SUFFIX,registry.k8s.io'
+- 'DOMAIN-REGEX,.+\.dkr\.ecr\.[^\.]+\.amazonaws\.com$'
