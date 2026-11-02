@@ -1,6 +1,6 @@
 # MagicRule 完整规则迁移索引
 
-生成方式：从已成功抓取的原站 manifest 中筛选 `key=rules` 或 `role=full`；规则文件内容保持原样，仅统一输出后缀 `.list`。
+生成方式：从已成功抓取的原站 manifest 中筛选 `key=rules` 或 `role=full`；规则文件内容保持原样，扩展名按客户端格式命名。
 
 ## 客户端语法边界
 
