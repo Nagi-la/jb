@@ -19,13 +19,13 @@
 
 | 客户端 | 完整规则文件数 | 说明 |
 |---|---:|---|
-| AdGuard | 4 | [客户端目录](AdGuard/README.md) |
-| Egern | 677 | [客户端目录](Egern/README.md) |
-| Loon | 652 | [客户端目录](Loon/README.md) |
-| Mihomo | 656 | [客户端目录](Mihomo/README.md) |
-| QuantumultX | 677 | [客户端目录](QuantumultX/README.md) |
-| Shadowrocket | 650 | [客户端目录](Shadowrocket/README.md) |
-| SingBox | 0 | [客户端目录](SingBox/README.md) |
-| Stash | 657 | [客户端目录](Stash/README.md) |
-| Surfboard | 655 | [客户端目录](Surfboard/README.md) |
-| Surge | 650 | [客户端目录](Surge/README.md) |
+| AdGuard | 4 | [客户端目录](rules/AdGuard/README.md) |
+| Egern | 677 | [客户端目录](rules/Egern/README.md) |
+| Loon | 652 | [客户端目录](rules/Loon/README.md) |
+| Mihomo | 656 | [客户端目录](rules/Mihomo/README.md) |
+| QuantumultX | 677 | [客户端目录](rules/QuantumultX/README.md) |
+| Shadowrocket | 650 | [客户端目录](rules/Shadowrocket/README.md) |
+| SingBox | 0 | [客户端目录](rules/SingBox/README.md) |
+| Stash | 657 | [客户端目录](rules/Stash/README.md) |
+| Surfboard | 655 | [客户端目录](rules/Surfboard/README.md) |
+| Surge | 650 | [客户端目录](rules/Surge/README.md) |
